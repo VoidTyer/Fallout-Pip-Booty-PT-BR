@@ -1,0 +1,64 @@
+{
+    "options": [
+        {
+            "optionText": "[Give tuna]",
+            "itemRequired": "Tuna",
+            "icon": "GUI/quest mark",
+            "giveItemToCharacter": "Tuna",
+            "onlyDisplayIfHasObjective": "Get tuna for Sir Whiskers.",
+            "markObjectiveComplete": "Get tuna for Sir Whiskers.", 
+            "responseText": "*Purrs deeply* (Translation: Finally, a human who understands their role. This pleases me.)",
+            "followUpOptions": [
+                {
+                    "optionText": "You’re welcome, Your Majesty.",
+                    "responseText": "*Chirp* (Translation: Don’t push it, peasant. Just keep the tuna coming, and we won’t have any problems.)"
+                },
+                {
+                    "optionText": "That’s all you’re getting. Don’t expect more.",
+                    "responseText": "*Tail flick* (Translation: A bold declaration. I’ll be sure to remind you of this when you find your shoes mysteriously shredded.)"
+                }
+            ]
+        },
+        {
+            "optionText": "What are you doing on my bed?",
+            "icon": "GUI/quest mark",
+            "responseText": "*Meow* (Translation: Bold of you to assume this isn’t MY bed, peasant. Know your place.)",
+            "followUpOptions": [
+                {
+                    "optionText": "Your bed? You’re insane. This is MY bed!",
+                    "responseText": "*Hiss* (Translation: YOUR bed? Do you pay rent here? No? Then shut your hairless mouth before I scratch it.)"
+                }, 
+                {
+                    "optionText": "Get off my pillow, furball!",
+                    "responseText": "*Meow* (Translation: Make me. Touch me, and I’ll activate my claws.’)"
+                },
+                {
+                    "optionText": "What do you want from me, you little monster?",
+                    "icon": "GUI/quest mark",
+                    "dontDisplayIfObjectiveComplete": "Get tuna for Sir Whiskers.",
+                    "responseText": "*Meow* (Translation: Tribute. Bow before me and offer cream or tuna.)",
+                    "followUpOptions": [ 
+                        {
+                            "optionText": "Fine, I’ll find you some tuna later.",
+                            "addObjective": "Get tuna for Sir Whiskers.",
+                            "icon": "GUI/quest mark",
+                            "dontDisplayIfHas": "Get tuna for Sir Whiskers.",
+                            "dontDisplayIfObjectiveComplete": "Get tuna for Sir Whiskers.",
+                            "exitLine": true,
+                            "responseText": "*Purrs smugly* (Translation: Good. Obedience suits you. Maybe I’ll allow you to pet me. Maybe.)"
+                        },
+                        {
+                            "optionText": "You’re not getting anything from me!",
+                            "responseText": "*Chirp* (Translation: Oh, you’ll pay. Expect your favorite belongings to be ‘accidentally’ knocked off the table. Repeatedly.)"
+                        }
+                    ]
+                }, 
+                {
+                    "optionText": "Alright, fine. You can stay.",
+                    "responseText": "*Meow* (Translation: As if I needed your permission. Now silence yourself while I nap, serf.)",
+                    "exitLine": true
+                }
+            ]
+        }
+    ]
+}

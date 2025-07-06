@@ -1,0 +1,38 @@
+{
+    "options": [
+      {
+        "optionText": "Diana, that was... insane.",
+        "responseText": "Mmm, you can say that again. Didn’t know you had that much pent up, but I’m not complaining.",
+        "followUpOptions": [
+          {
+            "optionText": "I, uh, made quite a mess.",
+            "responseText": "*A mess?* Oh sweetie, that’s an understatement. But don’t worry, I’m used to cleaning up. ♥"
+          },
+          {
+            "optionText": "What about the guys? They’ve been standing there the whole time.",
+            "responseText": "Oh, don’t mind them. They’ll be fine. Besides, they look like they *enjoyed* the show.",
+            "followUpOptions": [
+              {
+                "optionText": "I don’t think they blinked once.",
+                "responseText": "Can you blame them? I mean, this was basically the best live-action entertainment Vault 6969 has ever seen."
+              },
+              {
+                "optionText": "What if they report us? I don’t want Purity Police knocking on my door later.",
+                "responseText": "Relax. The only thing they’ll be reporting is how fast they fucking came after watching this. You’ll be fine. ♥" 
+              },
+              {
+                "optionText": "A little awkward with them around, don’t you think?",
+                "responseText": "I live for the attention. You think they’re the first to watch? <i>*Please.*</i> ♥"
+              }
+            ]
+          }
+        ]
+      }, 
+      {
+        "optionText": "Bye",
+        "responseText": "Leaving me so soon? Well, next time you’re feeling... *full*, you know where to find me. ♥",
+        "exitLine": true
+      }
+    ]
+  }
+  

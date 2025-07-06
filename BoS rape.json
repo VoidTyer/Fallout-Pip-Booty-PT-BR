@@ -1,0 +1,84 @@
+{
+    "options": [
+        {
+            "optionText": "What's going on here? Thought the Brotherhood was above raider shit.",
+            "progressionEventPlayed": "foundFarmersWife",
+            "responseText": "Careful with that tone, wastelander. We're teaching loyalty to a local farmer who thought he could deny supplies to the Brotherhood. His wife volunteered herself as tribute—after some persuasion. Now she's learning exactly what Brotherhood authority feels like.",
+            "followUpOptions": [ 
+                {
+                    "optionText": "Looks like your 'training' broke her pretty good.",
+                    "responseText": "Two weeks on rotation with the whole squad, and she's already begging for more cock than food. She might’ve hated it at first, but now she moans like a Brotherhood slut every time we walk by. Soon, she'll beg us never to let her leave.",
+                    "followUpOptions": [
+                        {
+                            "optionText": "What happens when you're done with her?",
+                            "responseText": "When she's completely addicted to Brotherhood cock and properly seeded, we'll send her crawling back to her husband dripping with our cum as a reminder. Or maybe we'll keep her here—every outpost needs a dedicated cumdump."
+                        } ,
+                        {
+                            "optionText": "Can anyone take a turn, or is this Brotherhood-exclusive?",
+                            "responseText": "Usually Brotherhood-only pussy—but if you're desperate enough, you can watch. Maybe if we're feeling generous we'll let you jerk off to the sound of Brotherhood authority slapping against farmer cunt."
+                        },
+                        {
+                            "optionText": "What the hell is she even wearing?",
+                            "responseText": "Heh, noticed that, huh? We put her in stripped-down knight gear—bare tits poking through hacked-open recon suit. Collar around her neck says 'Cumdump', just in case she forgets what she's good for.",
+                            "followUpOptions": [
+                                {
+                                    "optionText": "So you turned your gear into slut gear?",
+                                    "responseText": "Armor's for warriors; slut gear is for Brotherhood pets. It helps remind her exactly who she belongs to—plus, easy access whenever the squad needs relief."
+                                } 
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "optionText": "Is breaking women a common Brotherhood practice now?",
+                    "responseText": "Only when peasants forget their place. Brotherhood's got needs—food, ammo, pussy. The locals either provide willingly or watch us turn their wives and daughters into Brotherhood fucktoys. Principles are flexible out here. If spreading our dominance means breaking a few sluts along the way, so be it. Better a cum-filled bitch than a rebellious farmer."
+                },
+                {
+                    "optionText": "The family's waiting for her to come home.",
+                    "onlyDisplayIfHasObjective": "Bring the Farmer's Wife back",
+                    "icon": "GUI/quest mark",
+                    "exitLine": true,
+                    "dontShowIfProgressionEventPlayed": "gotFarmersWife",
+                    "responseText": "Then they're fools. The woman that left ain’t the one who’s standin’ here now. She’s Brotherhood property. Even if we let her walk, she wouldn’t know where home is anymore."
+                },
+                {
+                    "optionText": "Do you know of that loudmouth preacher? He’s worm food now. I’m thinkin’ you owe me for that. How about letting her go?",
+                    "onlyDisplayIfHasObjective": "Bring the Farmer's Wife back",
+                    "onlyDisplayIfObjectiveComplete": "Eliminate the Brotherhood outcast.",
+                    "icon": "GUI/quest mark",
+                    "fadeOutCharacter": true,
+                    "killCharacter": true,
+                    "dontShowIfProgressionEventPlayed": "gotFarmersWife",
+                    "progressionEventPlayed": "gotFarmersWife",
+                    "addFollower": "Mira",
+                    "exitLine": true,
+                    "responseText": "Heh… That degenerate was a stain on our ranks. Can’t say we miss his little ‘philosophy.’ Not Brotherhood business, of course… but you did us a service. Fine. Take the woman. Just know she ain’t who you remember—and don’t come crying when she forgets how to live outside a command chain."
+                },
+                {
+                    "optionText": "I’ll trade you this rifle for her.",
+                    "onlyDisplayIfHasObjective": "Bring the Farmer's Wife back",
+                    "itemRequired": "Laser Rifle Mk IV",
+                    "hideOptionIfReqCheckFailed": true,
+                    "icon": "GUI/quest mark",
+                    "fadeOutCharacter": true,
+                    "killCharacter": true,
+                    "dontShowIfProgressionEventPlayed": "gotFarmersWife",
+                    "progressionEventPlayed": "gotFarmersWife",
+                    "addFollower": "Mira",
+                    "exitLine": true,
+                    "responseText": "Now *that’s* an offer worth considering. Brotherhood's stock always needs new toys… and she’s just a hole with tits. Fine. Take her—rifle first. But don’t think she’ll ever stop craving Brotherhood cock."
+                }, 
+                {
+                    "optionText": "You're Brotherhood knights, not raiders. Have some fucking dignity.",
+                    "responseText": "Dignity? We had dignity once—got boring quick. Now we prefer obedience. Don't pretend you wouldn't do the same, outsider. Power armor or not, pussy feels even better when it cries 'Ad Victoriam'."
+                }
+                
+            ]
+        } 
+    ],
+    "showShadowFigures": "BoS random",
+    "auto_lines": [ "F-fuck... my husband never filled me like th-this... M-more, please... I—fuck—need... uhhhnn... Brotherhood cock... can't... breathe without... dicks inside me...",
+                    "D-daddy Paladin... please, fucking ruin... uhh—this worthless cunt... g-god, fill me... breed my slutty fucking womb...",
+                    "P-please... sir... n-no more waiting... cum inside me again... I'll be a good hole... I swear... uhh, fuck—just use me...",
+                    "I-I’m... fuck—I'm Brotherhood's fuckpet... c-can't think anymore... just fill me, fuck me, breed me... m-more cock, please... I'm addicted... fuuuck..."]
+} 

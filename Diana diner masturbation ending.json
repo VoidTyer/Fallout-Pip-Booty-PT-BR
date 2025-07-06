@@ -1,0 +1,46 @@
+{
+    "options": [
+        {
+            "optionText": "I need a drink. Watching that was too much.",
+            "responseText": "A drink? Honey, after that performance, you’re gonna need a *cold shower* and a prayer.",
+            "followUpOptions": [
+                {
+                    "optionText": "This place has more tension than a pre-war pin-up convention.",
+                    "responseText": "Tension? Ha! Let them explode. I’m not here to babysit their hormones.",
+                    "followUpOptions": [
+                        {
+                            "optionText": "If you keep going, this vault’s gonna turn into a *nuclear* disaster zone.",
+                            "responseText": "I guess we’ll call it the Big Bang 2.0. First, the vault implodes, then *I* explode. It’s win-win, baby."
+                        },
+                        {
+                            "optionText": "You’re gonna drive people insane. Some guy just passed out in his mashed potatoes.",
+                            "responseText": "Poor guy probably hasn’t touched himself in years..."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "optionText": "Did you just rub one out in front of *everyone*?",
+            "responseText": "Oh, sweetie, the way those boys were staring, I was doing them a favor. Can’t have them going back to their bunks with *blue balls*, can I?",
+            "followUpOptions": [
+                {
+                    "optionText": "That’s one way to get an audience.",
+                    "responseText": "Audience? Honey, that was a *standing ovation*. Hell, if they could’ve moved, they would’ve clapped with more than just their hands."
+                } 
+            ]
+        }, 
+        {
+            "optionText": "[Report her to the Purity Police]",
+            "responseTexts": ["Go ahead, snitch. Just make sure to tell them how long you stood there watching before you decided to tattle. I’ll be sure to mention how you couldn’t keep your eyes off me.", "What the f--?! You little snitch! Go ahead, report me, but don’t act like you weren’t thinking of joining in. Just remember: snitches get... nothing. And I do mean nothing."],
+            "exitLine": true, 
+            "reported": 5,
+            "fadeOutCharacter": true
+        },
+        {
+            "optionText": "Bye",
+            "responseText": "Oh, running off already? Just make sure you don't trip on your... 'situation' on the way out.",
+            "exitLine": true
+        }
+    ]
+}

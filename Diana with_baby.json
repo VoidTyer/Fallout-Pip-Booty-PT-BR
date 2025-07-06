@@ -1,0 +1,44 @@
+{ 
+  "options": [
+    {
+      "optionText": "She looks beautiful. Both of you.",
+      "responseText": "You big sap. If you keep saying stuff like that, you'll turn me soft. Seriously though, I love you.",
+      "followUpOptions": [
+        {
+        "optionText": "Can I hold our baby?",
+        "responseText": "Of course. Careful now—they're tiny. Watching you hold our kid… it's enough to melt me all over again."
+        },
+        {
+        "optionText": "How are you feeling, babe?",
+        "responseText": "Tired as hell, but weirdly… amazing. Holding our baby, seeing their little face—I never imagined feeling this much love."
+        },
+        {
+        "optionText": "Is parenting as scary as they say?",
+        "responseText": "Scarier, but it's also better. Just promise you'll stay close—I think we can handle anything together."
+        },    
+        {
+        "optionText": "I didn't realize how emotional this would be.",
+        "responseText": "Right? Suddenly everything's different. And I wouldn’t trade these feelings for anything."
+        },
+        {
+        "optionText": "You're gonna be an amazing mom.",
+        "responseText": "You're killing me with kindness, babe. I'm honestly terrified, but hearing you say that makes it easier."
+        }
+      ]
+    },  
+    {
+      "optionText": "I promise I'll always protect you both.",
+      "responseText": "I believe you. And that's why I'll follow you to the end of this damn vault and beyond."
+    }, 
+    {
+      "optionText": "I love you more than ever.",
+      "responseText": "Now you're just trying to make me cry. I love you too, you stubborn, incredible pain in my ass."
+    },
+    {
+      "optionText": "I'll let you rest. Call me if you need anything.",
+      "responseText": "Don't go too far. We miss you already.",
+      "exitLine": true
+    }
+  ],
+  "auto_lines": ["Hey there, come meet your baby. Look at us—officially a family now."]
+}

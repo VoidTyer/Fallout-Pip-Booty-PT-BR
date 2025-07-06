@@ -1,0 +1,45 @@
+{
+    "options": [
+        {
+            "optionText": "Who are you?",
+            "responseText": "Name’s Edge Lord, king of blue balls and prophet of the perpetual cocktease. While everyone else jerks off to brahmin udders, I'm here riding the line between pleasure and absolute dick torture—because pain is fun.",
+            "followUpOptions": [
+                {
+                    "optionText": "Edge Lord? Are you serious right now?",
+                    "responseText": "Dead serious. Normal nutting is for weaklings. I live life permanently stuck at the last stroke before the money shot. You ever feel your balls scream for mercy? That shit is my coffee in the morning. Vault therapists gave up on me years ago."
+                },
+                {
+                    "optionText": "Planning to bust your way outta here someday?",
+                    "responseText": "Why bother? The wasteland’s got nothing on the fucked-up funhouse between my legs. But if I ever do leave, it'll be to show those rad-roasted degenerates how a real freak does sexual frustration."
+                }, 
+                {
+                    "optionText": "How do you feel about the Purity Police?",
+                    "responseText": "Those sexually-repressed nerds with their spanking sticks? Joke’s on them—I love being smacked around. Every baton hit just pushes me closer to orgasmic agony. Sometimes I break rules on purpose just to feel that sweet, sweet bonk on my balls."
+                }
+            ]
+        },
+        {
+            "optionText": "The fuck are you doing here?",
+            "responseText": "Currently edging my dick near these plants—figured if I torture my balls enough, I'll absorb some radiation or whatever. Honestly, I don’t even care about powers; I just like the thrill of almost busting nut near radioactive tomatoes.",
+            "followUpOptions": [
+                {
+                    "optionText": "So you're basically jerking off to plants now?",
+                    "responseText": "Plants, vault doors, radroaches—whatever. If it exists, I'll edge near it. They say man's gotta have a hobby, right?"
+                },
+                {
+                    "optionText": "Bio-edging? You're sick, man.",
+                    "responseText": "You have no idea. Ever edged so hard your dick glowed like a fucking Nuka-Cola Quantum? Thought so."
+                } 
+            ]
+        },
+        {
+            "optionText": "Any advice for surviving this vault?",
+            "responseText": "Don’t blow your load. Ever. Embrace the pain. Let your nuts ache."
+        },
+        {
+            "optionText": "Bye.",
+            "responseText": "Sure, run along now. Just remember—next time you’re about to climax, picture my swallen sack. Enjoy that ruined nut, champ.",
+            "exitLine": true
+        }
+    ]
+}

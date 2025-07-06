@@ -1,0 +1,17 @@
+{
+    "options": [ 
+    {
+        "optionText": "What would your dad say if he saw you like... *this*?",
+        "specialEffects": ["removeBlur", "removeVignette"],
+        "responseText": "Oh shit! How long have you been standing there?! You weren’t supposed to see that! Mmm... fuck it. You got me. Daddy would lose his shit if he knew what I’ve been up to. ♥︎"
+    },
+    {
+        "optionText": "[Report Boogeyman to the Purity Police]",
+        "responseTexts": ["You really think tattling is gonna make your dick any bigger? Go ahead, try me. I’ve got dirt on them that’ll make your head spin!"], 
+        "exitLine": true, 
+        "fadeOutCharacter": true,
+        "specialEffects": ["removeBlur", "removeVignette"],
+        "reported": 5
+    }
+    ] 
+}

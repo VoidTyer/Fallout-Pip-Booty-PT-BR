@@ -1,0 +1,47 @@
+{
+    "options": [
+        {
+            "optionText": "Wow, Diana. Busy day? Or just another Tuesday?",
+            "responseText": "Honey, if it were just another Tuesday, I wouldn’t still be covered in all this... ‘appreciation’. Guess I really left an impression, huh?",
+            "followUpOptions": [
+                {
+                    "optionText": "Yeah, you’re really dripping in success...",
+                    "responseText": "Oh, I don’t mind a little mess. Think of it as proof of my... *productivity*. Some girls collect stamps. I collect control.",
+                    "followUpOptions": [
+                        {
+                            "optionText": "You’re practically a charity worker at this point.",
+                            "responseText": "Charity? Please. This is *strategic*. Keep the tension up, give them a taste, and watch them squirm. I’m basically running this vault by now."
+                        },
+                        {
+                            "optionText": "Ever consider charging a fee? You could corner the market.",
+                            "responseText": "You think anyone here could afford me? I run this place on supply and *demand*. And trust me, the demand is real high."
+                        }
+                    ]
+                },
+                {
+                    "optionText": "So, should I bring you a mop or a medal?",
+                    "responseText": "Neither. I’m more into... hands-on recognition, if you catch my drift. The vault’s tension is up, and so are they.",
+                    "followUpOptions": [
+                        {
+                            "optionText": "Hands-on? Guess those guys know that *firsthand* now.",
+                            "responseText": "Exactly. And believe me, they’ll be coming back for more. Nobody handles pressure like I do."
+                        },
+                        {
+                            "optionText": "Gonna need more than two hands at this rate.",
+                            "responseText": "Two? Honey, you underestimate me. I’ve got a vault full of needy men, and I’m handling all of them just fine."
+                        }
+                    ]
+                }
+            ]
+        },  
+        {
+            "optionText": "I’m not sure what I just walked in on, but... good job, I guess?",
+            "responseText": "You walked in on the future of this vault, honey. And you’re welcome to join the winning team. If you can keep up, that is."
+        },
+        {
+            "optionText": "Bye",
+            "responseText": "Leaving already? Don’t worry, they’ll be back soon enough. And when they do, I’ll be ready for another round.",
+            "exitLine": true
+        }
+    ]
+}

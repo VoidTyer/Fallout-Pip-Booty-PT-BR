@@ -1,0 +1,105 @@
+{
+    "options": [
+        {
+            "optionText": "Thanks for the ‘nap’ yesterday. Black eye’s still throbbing... unlike Gina.",
+            "reqProgressionEvent": "buster_punch",
+            "responseText": "OH, YOU MOTHERFUCKER! YOU COME IN HERE WITH YOUR BUSTED FACE AND BIGGER BALLS? YOU'RE LUCKY I DIDN'T SLAP YOUR FUCKING SOUL OUT!",
+            "followUpOptions": [
+                {
+                    "optionText": "Hey, no need to get worked up, Buster. I hear Gina likes her men… calm.",
+                    "responseText": "*Veins popping* CALM?! I’M FUCKING ZEN! I’M SO CALM I COULD MEDITATE WHILE CHOKING YOU OUT WITH ONE HAND! KEEP TALKING, AND YOU WON’T BE ABLE TO SCREAM ‘ZEN’ WHEN I SNAP YOUR JAW LIKE A FUCKING TWIG!",
+                    "followUpOptions": [
+                        {
+                            "optionText": "You meditate? Thought you are just sitting there while I give Gina her ‘lessons.’",
+                            "playSound": "punch", 
+                            "specialEffects": ["Blackout", "Blur"],
+                            "advanceDayWithStatusMessage": "You wake up in your room—again—with your jaw aching like a super mutant used it for target practice."
+                        }
+                    ]
+                },
+                {
+                    "optionText": "Gina told me you hit like a bitch, by the way. Her words, not mine.",
+                    "responseText": "OH, YOU WANNA GO THERE, HUH?! HOW ABOUT I SHOW YOU WHAT HAPPENS WHEN I REALLY LOSE MY SHIT? SPOILER: IT ENDS WITH ME BREAKING YOU IN HALF, AND GINA LAUGHING WHILE I DRAG YOUR BODY OUT OF THE VAULT!",
+                    "followUpOptions": [
+                        {
+                            "optionText": "Oh, you think Gina was laughing at you? Nah, that was just post-orgasm bliss.",
+                            "playSound": "punch", 
+                            "specialEffects": ["Blackout", "Blur"],
+                            "advanceDayWithStatusMessage": "You wake up in your room—again—head spinning and jaw dislocated. Buster doesn’t handle disrespect well."
+                        }
+                    ]
+                },
+                {
+                    "optionText": "Just wanted to thank you, Buster. Every time I look in the mirror, I’m reminded of how weak your slap was.",
+                    "responseText": "WEAK?! I SENT YOU FUCKING FLYING ACROSS THE ROOM! YOU THINK YOU’RE FUNNY, HUH? MAYBE I SHOULD REARRANGE THE OTHER SIDE OF YOUR FACE SO YOU MATCH. I SWEAR, ONE MORE WORD AND YOU'LL BE DRINKING THROUGH A FUCKING STRAW!",
+                    "followUpOptions": [
+                        {
+                            "optionText": "Fly across the room? Please, Buster. Gina hit harder when she was on top.",
+                            "playSound": "punch", 
+                            "specialEffects": ["Blackout", "Blur"],
+                            "advanceDayWithStatusMessage": "You wake up with both eyes swollen shut. The good news? You’ll probably be seeing stars for a while. The bad news? Buster’s still pissed."
+                        }
+                    ]
+                } 
+            ]
+        },        
+        {
+            "optionText": "Uh, Buster... you seem a little *exposed* there, buddy.",
+            "responseText": "Oh, yeah, man... that’s just part of the natural flow of things, y’know? The universe is all about letting things *hang loose*. You gotta let it breathe.",
+            "followUpOptions": [
+                {
+                    "optionText": "How about a quick bro-job to relieve some stress?",
+                    "emotion": "Characters/Buster/emotions/buster shock",
+                    "responseText": "WHAT?! Bro! Hell no! What the actual fuck?! You think I’m into that gay shit?! Dude, I’m not one of those vault freaks! I keep my shit straight—like, straight as an <i>*arrow*</i>! You even thinking about that makes me wanna <i>*flex*</i> you out of the vault!",
+                    "followUpOptions": [
+                        {
+                            "optionText": "Hey, man, just offering... thought maybe you were pent up.",
+                            "emotion": "none",
+                            "responseText": "<i>*Pent up*</i>? Yeah, I’m pent up, but I’m not about to let some dude handle my business! I’m all about Gina, bro! I don’t roll like that! Get your head straight, or I’m gonna have to straighten it <i>*for you*</i>!"
+                        },
+                        {
+                            "optionText": "C’mon, it’s just a bro-to-bro thing, right?",
+                            "emotion": "none",
+                            "exitLine": true,
+                            "responseText": "<i>*BRO-TO-BRO*</i>?! What kinda sick vault are you living in?! That’s not how this works, man! Not here! I’m a goddamn <i>*bouncer*</i>, and I’m protecting Gina from pervs... and now I gotta protect myself from you?! You need a cold shower, bro!"
+                        }
+                    ]
+                }
+            ]
+        }, 
+        {
+            "optionText": "What do you think of Gina <i>*showing off*</i> like that?",
+            "emotion": "none",
+            "responseText": "Bro, it’s like... she’s testing me, y’know? It’s her way of saying, ‘Buster, I trust you to keep the pervs in check.’ But, uh, between you and me... it’s hard, man. Real hard... in more ways than one, if you catch my drift. But I’m all about *restraint*... gotta stay *zen*, even when her tits are... right there.",
+            "followUpOptions": [
+                {
+                    "optionText": "Those are some nice tits, right?",
+                    "responseText": "Dude, don’t make me think about it... those perfect, round... *focus, Buster, focus!* It’s all about *protecting* her, man. Those tits? Off-limits. For *everyone*. Even me. I’m like... her shield, bro. But damn, they’re... something."
+                },
+                {
+                    "optionText": "She has a perfect pussy, right?",
+                    "responseText": "Oh, man... you’re pushing me, bro. But I’m a *warrior*, okay? I can handle the sight of that... <i>*pristine*</i> goddess pussy without losing my mind. It’s pure... untouched. And I’m the one keeping it that way. Any vault creep who tries something? I’ll flex ‘em out of existence."
+                },
+                {
+                    "optionText": "What if I told you I'm gonna fuck her right now?",
+                    "responseText": "YOU WHAT?! Over my <i>*dead*</i> body, bro! You think I’ve been sitting here, flexing my ass off, keeping her safe just for some vault creep like you to slide in? Hell no! I’ll break you in half before you even get close! Gina’s a goddess, man, and you’re not worthy of even looking in her direction, let alone <i>*fucking*</i> her!",
+                    "followUpOptions": [
+                        {
+                            "optionText": "Whoa, calm down. I was just <i>*kidding*</i>... mostly.",
+                            "responseText": "KIDDING?! Bro, you better watch your mouth before I flex your soul out of your body! Gina’s under <i>*my*</i> protection, and anyone who even <i>*thinks*</i> about touching her is gonna deal with these guns. <i>*He points to his biceps, shaking with rage*</i> You better step back before I show you how *serious* I am!"
+                        },
+                        {
+                            "optionText": "Oh, come on, Buster. You really think you’re gonna stop me?",
+                            "responseText": "STOP YOU? BRO, I’LL END YOU! You have no idea what these muscles can do! I’ll flex so hard, your entire <i>*existence*</i> will fold! You think Gina would even look at you after I’m done with you? You’re lucky I’m all about zen or I’d already have you in a chokehold!"
+                        } 
+                    ]
+                }
+            ]
+        },
+        {
+            "optionText": "Bye",
+            "responseText": "Alright, bro... but remember: if you see anyone even <i>*thinking*</i> about Gina, you let me know. I’ll flex their heads off.",
+            "exitLine": true
+        }
+    ]
+} 

@@ -1,0 +1,114 @@
+{
+    "options": [
+        {
+            "optionText": "So... did you enjoy the show?",
+            "onlyShowIfProgressionEventPlayed": "barnFuck",
+            "responseText": "*Smirks with yellowed teeth* Heh... damn right I did. Thought her moanin’ might rattle my damn chains loose. Haven’t seen pussy get worked like that in a while. Shit—made me wish my dick hadn’t rotted off.",
+            "exitLine": true
+        },
+        {
+            "optionText": "I found the keys. Here, you're free now.",
+            "icon": "GUI/quest mark",
+            "itemRequired": "Keys",
+            "giveItemToCharacter": "Keys",
+            "showChoiceStats": "ghoul_escape",
+            "onlyDisplayIfHasObjective": "Get the Keys from Mr. Greaves",
+            "responseText": "*Eyes widen in disbelief* You... you actually did it, smoothskin. Didn't think I'd see the day. Alright, deal’s a deal. Once we're clear, I’ll show you that treasure location.",
+            "markObjectiveComplete": "Get the Keys from Mr. Greaves",
+            "giveItem": "Keys",
+            "followUpOptions": [
+                {
+                    "optionText": "No, I want that treasure location now.", 
+                    "icon": "GUI/quest mark",
+                    "responseText": "*He sighs.* Alright, alright—pushy bastard. Head south till the dirt turns to sludge. There’s a sunken bus out in the Boglands—half-swallowed by the muck. Climb in through the busted roof, then feel around under the driver’s seat. Ammo box welded to the frame. That’s your payday.",
+                    "exitLine": true,
+                    "fadeOutCharacter": true,
+                    "addObjective": "Find the treasure.",
+                    "killCharacter": true,
+                    "progressionEventPlayed": "gotTreasureLocation"
+                },
+                {
+                    "optionText": "Alright, I’ll trust you. You better not be lying.",
+                    "responseText": "You’ve got guts, smoothskin. I’ll make it worth your while, I promise.",
+                    "exitLine": true,
+                    "killCharacter": true,
+                    "fadeOutCharacter": true
+                }
+            ]
+        },
+        {
+            "optionText": "Were you the one who took her clothes?",
+            "onlyDisplayIfHasObjective": "Find June's clothes",
+            "icon": "GUI/quest mark",
+            "dontShowIfProgressionEventPlayed": "gotFarmerClothes",
+            "responseText": "*Grins with cracked teeth* Heh... Might’ve been. Little fun never hurt nobody. Girl left ‘em hangin’ out like bait. Thought I’d keep ‘em safe... real close. You want ‘em back? Gonna cost ya 20 caps.",
+            "followUpOptions": [
+                {
+                    "optionText": "What do you even need caps for? You’re a slave.",
+                    "responseText": "*Snorts* Caravans pass through now and then, and a fella with a little hustle can still get his fix. Jet don’t judge, and neither do the traders lookin’ to make a quick cap. Just gotta be sneaky ‘bout it."
+                },
+                {
+                    "optionText": "Fine. Here’s 20 caps. Now hand them over.",
+                    "capsRequired": 20,
+                    "addCaps": -20,
+                    "icon": "GUI/quest mark",
+                    "responseText": "*Chuckles* Pleasure doin’ business, smoothskin. They’re stashed in the hayloft—left side, under the tarp. Don’t say I never gave you nothin’.",
+                    "progressionEventPlayed": "gotFarmerClothes",
+                    "giveItem": "Farmer's Daughter's Clothes",
+                    "exitLine": true
+                },
+                {
+                    "optionText": "Sick bastard. Keep ‘em.",
+                    "responseText": "*Laughs raspy and deep* Don’t act all high and mighty. World’s too damn ugly for saints.",
+                    "exitLine": true
+                }
+            ]
+        },
+        {
+            "optionText": "What’s your story?",
+            "responseText": "*Coughs* Heh... Ain’t much of a story, smoothskin. Got myself a front-row seat when the bombs dropped—didn’t think I’d still be around to regret it. Now? Just another piece of farm equipment with pulse.",
+            "followUpOptions": [
+                {
+                    "optionText": "How many of you are stuck here?",
+                    "responseText": "Four of us, not countin’ the one they worked to death last week. Shackled him up too tight."
+                },
+                {
+                    "optionText": "Why haven’t you busted out yet?",
+                    "responseText": "You see these chains, kid? Ain’t exactly built for breakin’. And Mr. Greaves? That greasy bastard don’t leave the keys lyin’ around. Wants to hear us rattle when he walks by."
+                },
+                {
+                    "optionText": "Why should I stick my neck out for you?",
+                    "progressionEventPlayed": "ghoulAskedForHelp",
+                    "icon": "GUI/quest mark",
+                    "dontDisplayIfHasObjective": "Get the Keys from Mr. Greaves",
+                    "responseText": "'Cause I’m offerin’ you somethin’ better than a warm, fuzzy feelin’. I know where there’s treasure, real treasure. You get us those keys, and I’ll point you right to it.",
+                    "followUpOptions": [ 
+                        {
+                            "optionText": "You expect me to believe that?",
+                            "responseText": "Believe what you want, smoothskin. Just remember, when you’re sleepin’ in the dirt, you passed up the payday of a lifetime."
+                        },
+                        {
+                            "optionText": "How do I free you?",
+                            "icon": "GUI/quest mark",
+                            "responseText": "Simple. Mr. Greaves carries the keys. You find him, you get ‘em. No shootin’, no grand heroics. Just... get the damn keys. We can handle the rest.",
+                            "followUpOptions": [
+                                {
+                                    "optionText": "Fine. Sit tight, I’ll get the keys.",
+                                    "addObjective": "Get the Keys from Mr. Greaves",
+                                    "icon": "GUI/quest mark",
+                                    "responseText": "Heh... That’s the best news I’ve heard in two hundred years. Don’t keep us waitin’, kid.",
+                                    "exitLine": true
+                                },
+                                {
+                                    "optionText": "Forget it. Not my problem.",
+                                    "responseText": "*Coughs hard* Yeah... that’s the world for ya. Rot’s set in deep, smoothskin. Real deep.",
+                                    "exitLine": true
+                                }
+                            ]
+                        } 
+                    ]
+                }
+            ]
+        } 
+    ]
+} 

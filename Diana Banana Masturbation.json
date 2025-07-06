@@ -1,0 +1,49 @@
+{
+    "options": [
+        {
+            "optionText": "Is that... my banana?",
+            "responseText": "Oh, this? Yeah, your little 'gift' went to good use. Figured I'd make things... interesting.",
+            "followUpOptions": [ 
+                {
+                    "optionText": "Was it... worth it?",
+                    "responseText": "Depends. You like your potassium with a side of shame?",
+                    "followUpOptions": [
+                        {
+                            "optionText": "You have zero shame, do you?",
+                            "responseText": "Shame? I left that behind me long ago."
+                        } 
+                    ]
+                },
+                {
+                    "optionText": "Wanna go for round two with that?",
+                    "responseText": "You think I’m that easy, huh? You'll have to come up with something more... creative next time.",
+                    "followUpOptions": [
+                        {
+                            "optionText": "How about a cucumber?",
+                            "responseText": "Amateur hour. Try harder."
+                        } 
+                    ]
+                }
+            ]
+        },
+        {
+            "optionText": "I didn’t think you’d actually use it like THAT...",
+            "responseText": "Please, you handed me a banana in this hellhole, what did you *expect* me to do with it? Make a smoothie?",
+            "followUpOptions": [
+                {
+                    "optionText": "I thought you’d eat it like a normal person!",
+                    "responseText": "Sweetheart, there's nothing 'normal' about me or this vault. Get used to it."
+                },
+                {
+                    "optionText": "Honestly, I’m kind of impressed.",
+                    "responseText": "Of course you are. I should charge for this kind of performance. Next time, maybe throw in some whipped cream for an extra flair."
+                }
+            ]
+        }, 
+        {
+            "optionText": "Bye",
+            "responseText": "Leaving so soon? Don’t worry, the tension will follow you.",
+            "exitLine": true
+        }
+    ]
+}

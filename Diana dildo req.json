@@ -1,0 +1,33 @@
+{
+    "options": [
+        {
+            "optionText": "What do you want?",
+            "icon": "GUI/quest mark",
+            "responseText": "A dildo. D-I-L-D-O. I need it sleek and sturdy, and I don’t care how, or where—I require the real deal before I lose my grip on sanity. Just picture the Purity Police's faces when they catch me wielding some serious silicone in broad daylight!",
+            "followUpOptions": [
+                {
+                    "optionText": "Where can I get one?",
+                    "responseText": "Not in this rusted tin can, that’s for sure. I’ve already scoured the black market. Nada. If one exists, it’s gotta be somewhere in the wasteland."
+                },
+                {
+                    "optionText": "OK, I’ll get it.",
+                    "closeDialogueOptions": true,
+                    "addObjective": "Get dildo for Diana",
+                    "markEventAsPlayed": true,
+                    "icon": "GUI/quest mark",
+                    "fadeOutCharacter": true,
+                    "requestedItemFromDiana": "Monster Dildo",
+                    "responseText": "Oh, I knew you'd help a girl. You always deliver when the mission involves something firm, don’t you?"
+                },
+                {
+                    "optionText": "I'm not your errand boy.",
+                    "responseText": "Fine by me. I’ll find someone else. But don’t come crying to me when you miss out on all the fun.",
+                    "markEventAsPlayed": true,
+                    "fadeOutCharacter": true,
+                    "exitLine": true
+                }
+            ]
+        }
+    ],
+    "auto_lines": ["Alright, hero, this is it. The vault has finally broken me. I need a dildo. Yeah, you heard me. A dildo. And before you ask, yes, I’ve already tried improvising. And no, it didn’t go well."]
+}

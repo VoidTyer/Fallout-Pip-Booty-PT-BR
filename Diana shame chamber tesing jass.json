@@ -1,0 +1,54 @@
+{
+  "options": [
+    {
+      "optionText": "Diana… your place’s wide open...",
+      "responseText": "Is it? Huh. Must be the elastic wearing out. Vault-issue gear is *so* unreliable after all that stretching…",
+      "followUpOptions": [
+        {
+          "optionText": "You know damn well that’s not it.",
+          "responseText": "If you’re so concerned, maybe you should get on your knees and zip me up. Or is that not allowed either, Officer Touchy?"
+        },
+        {
+          "optionText": "Jesus. Hugh looks like he aged a decade.",
+          "responseText": "Poor thing. He’s been so quiet. Must be the shame getting to him. Or the view. Who knows? Vault psychology is so fascinating. He’s been such a good listener too. I just talk and stretch, and he… well, he processes. Loudly. Repeatedly."
+        },
+        {
+        "optionText": "You’re practically airing out, huh?",
+        "responseText": "Gotta keep things ventilated. Wouldn’t want to overheat… unless someone *likes* a little sweat, that is.",
+        "followUpOptions": [
+            {
+            "optionText": "You’re seriously doing this with him in here?",
+            "responseText": "Doing *what*, exactly? I’m just lounging. It’s hot. My hand just happens to rest… here. And tug… there. Completely innocent."
+            },
+            {
+            "optionText": "You’re gonna break him.",
+            "responseText": "He came in broken, sweetheart. I’m just polishing the cracks. Also, I merely... expand his spiritual limits. He ascended. Came back down. Then ascended again. Over and over."
+            }, 
+            {
+            "optionText": "Why’s your hand *always* pulling your suit down a little more every time I look away?",
+            "responseText": "Is it? Maybe it’s muscle memory. Or maybe my hand’s just… rebellious. Naughty fingers. Tsk tsk."
+            }
+        ]
+        },
+        {
+        "optionText": "You know this is exactly why you ended up here, right?",
+        "responseText": "Really? I thought it was because I smiled too hard at the rec-room camera. Gotta be careful with those dimples, huh?"
+        }
+      ]
+    },
+    {
+      "optionText": "Diana. Eye contact. Now.",
+      "responseText": "Oops, sorry. I was lost in thought. Or maybe I just got used to Hugh not lasting more than three seconds of eye contact anymore.",
+      "followUpOptions": [
+        {
+        "optionText": "This place is called the Shame Chamber, not the Strip Club.",
+        "responseText": "Well someone better tell Hugh. He keeps making it rain guilt and broken dignity over there."
+        }
+      ]
+    },  
+    {
+      "optionText": "I should report you again.",
+      "responseText": "Oh no. Not another report. Please. Report and maybe they’ll throw you in here too. Then we can all relax together."
+    } 
+  ]
+}

@@ -1,0 +1,37 @@
+{
+    "options": [
+        {
+            "optionText": "So... Shame Chamber, huh? Didn’t think you’d get caught with your pants down.",
+            "responseText": "Yeah, thanks for that, you little snitch. Thought we had an understanding, but I guess you couldn’t keep your mouth shut.",
+            "followUpOptions": [ 
+                {
+                    "optionText": "You mad? You look a little... tense.",
+                    "responseText": "Oh, I’m not mad. Just thinking about how much I’m gonna *enjoy* raising prices on your dumb ass when I get out. Don’t worry, I’ll be sure to ‘thank’ you real good for this."
+                },
+                {
+                    "optionText": "Was it worth it?",
+                    "responseText": "Oh, hell yeah. That little ass was tighter than the Overseer’s security, I tell ya." 
+                }
+            ]
+        },
+        {
+            "optionText": "Got anything for sale while you’re in here?",
+            "responseText": "What, you think I’m running a fucking bazaar out of the Shame Chamber? You report me, and now you want to trade? I can’t sell you shit from behind these bars.",
+            "followUpOptions": [
+                {
+                    "optionText": "Come on. You’ve gotta have *something* stashed in here.",
+                    "responseText": "Oh, I’ve got plenty stashed... But for you? All I’ve got is a big fuck you until I’m out."
+                },
+                {
+                    "optionText": "Guess I’ll come back later. Let me know when you’re out.",
+                    "responseText": "Oh, don’t worry, I’ll let you know. But when I do, your price list’s gonna look pretty fucked. You’ve been warned."
+                }
+            ]
+        },  
+        {
+            "optionText": "Bye",
+            "responseText": "Yeah, run along. Just remember, the next time you need something, your ‘special snitch tax’ is in full effect.",
+            "exitLine": true
+        }
+    ]
+}

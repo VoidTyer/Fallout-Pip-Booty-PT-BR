@@ -1,0 +1,29 @@
+{
+  "options": [
+    {
+      "optionText": "You okay in here?",
+      "responseText": "Yeah... just needed a moment. The water helps. Makes everything feel... lighter. Even when I’m carrying half of you inside me.",
+      "followUpOptions": [ 
+        {
+          "optionText": "You know there's a guy back there jerking off, right?",
+          "responseText": "Of course I do. I’m pregnant, not blind. He's been watching for a while—just another pathetic little perv. I could scream, call security... but honestly? I just don’t have the energy to care right now.",
+          "followUpOptions": [
+            {
+                "optionText": "Want me to deal with him?",
+                "responseText": "Part of me does. But another part of me... just wants to keep standing here, pretending it's nothing. I guess motherhood makes you weird like that."
+            },
+            {
+                "optionText": "Why are you just letting it happen?",
+                "responseText": "Because part of me used to love it—being watched, wanted, all eyes on me. But now? I just feel... exposed and tired. Everything’s changed, and I don’t know who I’m supposed to be anymore. But you're right. I know I don’t want to be that woman again. Not with you by my side."
+            },
+            {
+                "optionText": "*step between her and the man, shielding her*",
+                "responseText": "*quiet exhale* ...Thank you. I didn’t ask you to, but... I apriciate it. Just... be here with me for a while, okay? That’s all I need right now."
+            }
+          ]
+        } 
+      ]
+    }
+  ],
+  "showShadowFigures": "Showers when diana pregnant"
+} 

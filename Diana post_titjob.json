@@ -1,0 +1,45 @@
+{
+    "options": [ 
+        {
+            "optionText": "Uh... yeah, I guess so...",
+            "responseText": "No need to be shy now, you did *great*. I could feel it coming from a mile away. Honestly, I kinda love being covered in your cum..."
+        },
+        {
+            "optionText": "Uh... wow, I didn’t expect that to happen...",
+            "responseText": "Yeah, I get that a lot. What’s the matter? You look like you just got hit by a runaway brahmin. Never seen a pair in action before?",
+            "followUpOptions": [
+                {
+                    "optionText": "I-I mean, is this like... a normal thing for you?",
+                    "responseText": "Normal? Babe, nothing about this vault is normal. But when you’ve got these, you might as well put them to work, right?"
+                },
+                {
+                    "optionText": "Are you sure you’re okay with... all this?",
+                    "responseText": "<i>*Diana bites her lip, glancing at the mess on her chest*</i> Okay with it? Babe, I’m more than okay. Watching you explode like that got me *so* worked up... you have no idea. You’ve got one hell of a shot.",
+                    "followUpOptions": [
+                        {
+                        "optionText": "I mean, you *do* look pretty hot covered in it...",
+                        "responseText": "Oh, I know I do. And I know you like it too. The way you were staring, I could tell you were loving every second of it. Don’t lie."
+                        },
+                        {
+                        "optionText": "I didn’t know you were into... this much of a mess.",
+                        "responseText": "What can I say? It’s kinda hot knowing I drove you *that* crazy. Makes me wonder how much more you’ve got in that tank of yours."
+                        }
+                    ]
+                },
+                {
+                    "optionText": "So... is this the part where I say thank you or...?",
+                    "responseText": "I mean, if you’re into the whole ‘thanking’ thing, sure."
+                }
+            ]
+        },
+        {
+            "optionText": "You, uh, need a towel?",
+            "responseText": "A towel? Honey, I need a *fire hose*. You didn’t just shoot a load, you triggered a fucking flood warning."
+        },
+        {
+            "optionText": "Bye.",
+            "responseTexts": ["Later. Try not to pass out in the hallway thinking about this, alright? Wouldn’t want to explain that to the Purity Police."],
+            "exitLine": true
+        }
+    ]
+}

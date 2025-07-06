@@ -1,0 +1,15 @@
+{
+    "options": [
+    
+    {
+        "optionText": "[Gift]",
+        "icon": "GUI/gift icon",
+        "isGifting": true
+    },
+    {
+        "optionText": "Bye.",
+        "responseTexts": [ "Next time, knock before you walk in, for god's sake." ],
+        "exitLine": true
+    }
+    ]
+}

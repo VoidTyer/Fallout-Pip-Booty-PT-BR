@@ -1,0 +1,27 @@
+{
+    "options": [ 
+    {
+            "optionText": "How are you holding up in here? I’m sorry about this.",
+            "emotion": "Characters/Diana/shame chamber/emotions/opened eyes",
+            "responseText": "Oh, don’t sweat it, hero. I’m just peachy, enjoying the finest in wholesome 1950s propaganda and Hugh Jass staring at my tits. What’s not to love about being locked in a room with a masturbation maestro? All thanks to you.",
+            "followUpOptions": [
+                {
+                    "optionText": "Look, you pushed it too far. You knew the vault's rules.",
+                    "responseText": "Rules? Please. I was just stretching my legs… and maybe my shirt happened to stretch a little too. But hey, thanks for the betrayal. I really needed this quality time to reflect on my *wicked ways.*",
+                    "exitLine": true
+                },
+                {
+                    "optionText": "Come on, it’s not like you’re in here forever.",
+                    "responseText": "Forever? Honey, in this place, five minutes feels like forever. And you know how I get when I'm bored... or horny.",
+                    "exitLine": true
+                },
+                {
+                    "optionText": "You know, I actually enjoy seeing you in here. Serves you right for breaking the rules.",
+                    "responseText": "Oh, I bet you do. Getting your kicks from watching someone suffer in the Shame Chamber? That’s some real sick mentality right there.",
+                    "relationship": -20,
+                    "exitLine": true
+                }
+            ]
+        }
+    ]
+}

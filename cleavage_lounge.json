@@ -1,0 +1,14 @@
+{
+    "options": [
+        {
+            "optionText": "Your vault suit is unzipped a little... intentional?",
+            "responseText": "Caught your attention, did it? Good. Consider it my gift to this vault—keeping things interesting and reminding everyone what they can't have.",
+            "followUpOptions": [
+                {
+                    "optionText": "Are you trying to piss off the Purity Police?",
+                    "responseText": "Oh, absolutely. Watching those wannabe enforcers lose their cool over a little skin is my favorite pastime. They get so flustered, it's like watching robots trying to learn to dance."
+                }
+            ]
+        }
+    ]
+}

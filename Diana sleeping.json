@@ -1,0 +1,29 @@
+{
+    "options": [
+    {
+        "optionText": "Diana, wake up!",
+        "responseText": "Mmm... go away before I dream-punch you.",
+        "followUpOptions": [
+            {
+                "optionText": "We’re under attack!",
+                "responseText": "Mmm... let them win... sounds easier... zzz..."
+            }, 
+            {
+                "optionText": "Diana, I need you!",
+                "responseText": "Mmph... too bad... zzz..." ,
+                "followUpOptions": [
+                    {
+                        "optionText": "Get up or I’ll tell the Overseer!",
+                        "responseText": "Tell him I’m too fabulous to wake up... zzz..."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "optionText": "Enjoy your nap while I do all the work.",
+        "responseText": "Mmm... sounds perfect... zzz..."
+    }
+    ],
+    "auto_lines": ["Zzz..."]
+}

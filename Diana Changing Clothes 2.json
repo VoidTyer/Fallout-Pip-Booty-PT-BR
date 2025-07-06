@@ -1,0 +1,27 @@
+{
+    "options": [ 
+    {
+        "optionText": "Did you just drop something... or everything?",
+        "responseText": "Oh, did I? My bad. Guess I’m just too distracted thinking about all the potatoes I could be farming instead of wearing clothes. Seriously, get lost before I hit the panic button."
+    },
+    {
+        "optionText": "[Slap her ass]",
+        "specialEffects": ["Punch"],
+        "responseTexts": ["Mmm, is that all you got? I was hoping for more than just a love tap.", "Ooh, look at you, turning into Vault 6969's very own spanking champion. Next time, use both hands and maybe I'll hand you a medal.", "If you're going to slap my ass, at least make it worth my time. That felt like a toddler trying to swat a fly.", "Well, someone's feeling naughty today. Hope your spanking arm's as strong as your lack of self-control.","Damn, and here I thought you were just another boring vault dweller. Maybe there's hope for you yet.","Not bad, but I've had harder hits from the Purity Police’s bonk batons."],
+        "playSound": "slap2",
+        "desirePoints": 1,
+        "relationshipRequired": 35,
+        "failedCheckResponse": "…Did you just try to slap my ass? Honey, you're gonna need more than a desperate spank to impress me. Come back when you’ve got something worth slapping with."
+    },
+    {
+        "optionText": "[Gift]",
+        "icon": "GUI/gift icon",
+        "isGifting": true
+    },
+    {
+        "optionText": "Bye.",
+        "responseTexts": [ "Leaving already? Damn, I was just getting ready to start charging admission.", "Good riddance. And don’t forget to wipe the drool off your face." ],
+        "exitLine": true
+    }
+    ]
+}

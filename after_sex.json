@@ -1,0 +1,35 @@
+{
+    "options": [  
+        {
+            "optionText": "You weren’t kidding about being the best in the vault.",
+            "responseText": "Please, I could make the Overseer himself beg for it. You? You just got the VIP treatment—feel special yet?",
+            "followUpOptions": [ 
+                {
+                    "optionText": "Special? You should start charging tickets for this.",
+                    "responseText": "Oh, honey, if I charged for it, this vault would be bankrupt. Guess you’re lucky I was feeling generous tonight."
+                },
+                {
+                    "optionText": "So... round two?",
+                    "responseText": "Ahh, someone’s feeling brave. But you might need a couple hours... or days... to recover first. My pussy isn’t for the faint of heart."
+                }
+            ]
+        },
+        {
+            "optionText": "Is this going to be a one-time thing?",
+            "responseText": "Depends. Can you handle more of this? Or did I just ruin you for the rest of the vault? Don’t flatter yourself, I’ve got options ♥.",
+            "followUpOptions": [ 
+                {
+                    "optionText": "I’m... gonna need a lot of rest first.",
+                    "responseText": "Hah! Called it. Don’t worry, sweetie, take all the time you need to recover."
+                }
+            ]
+        },  
+        {
+            "optionText": "Bye.",
+            "responseTexts": [ 
+                "Bye now. Don’t worry, I won’t charge you for the mental images." 
+            ],
+            "exitLine": true
+        }
+    ]
+}

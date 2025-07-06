@@ -1,0 +1,62 @@
+[
+  {
+    "original_name": "Dodge",
+    "original_description": "Dodge incoming damage by X points.",
+    "translated_name": "",
+    "translated_description": ""
+  },
+  {
+    "original_name": "Baby Hands Mode",
+    "original_description": "Your damage output is reduced by 25%.",
+    "translated_name": "",
+    "translated_description": ""
+  },
+  {
+    "original_name": "Psycho",
+    "original_description": "You get additional X damage to your attacks.",
+    "translated_name": "",
+    "translated_description": ""
+  },
+  {
+    "original_name": "Mark",
+    "original_description": "The target takes 50% more damage.",
+    "translated_name": "",
+    "translated_description": ""
+  },
+  {
+    "original_name": "Double Attack",
+    "original_description": "Your next attack deals TWICE damage.",
+    "translated_name": "",
+    "translated_description": ""
+  },
+  {
+    "original_name": "Tina fall",
+    "original_description": "Tina gets stunned after taking 75 damage.",
+    "translated_name": "",
+    "translated_description": ""
+  },
+  {
+    "original_name": "Armor Rot",
+    "original_description": "You get 25% less Dodge from cards.",
+    "translated_name": "",
+    "translated_description": ""
+  },
+  {
+    "original_name": "Necrotic Fortitude",
+    "original_description": "Takes 50% less damage on the next X attacks. Removed when attacked X times in a single turn. Charges are refilled back to X at the start of each turn if not fully removed.",
+    "translated_name": "",
+    "translated_description": ""
+  },
+  {
+    "original_name": "Radstorm Curse",
+    "original_description": "Shuffles a copy of The Glow’s Grip into your draw pile whenever you play a non-attack card.",
+    "translated_name": "",
+    "translated_description": ""
+  },
+  {
+    "original_name": "Glowing Sickness",
+    "original_description": "Every turn gain X additional damage.",
+    "translated_name": "",
+    "translated_description": ""
+  }
+]

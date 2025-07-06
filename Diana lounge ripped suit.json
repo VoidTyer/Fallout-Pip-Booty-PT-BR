@@ -1,0 +1,21 @@
+{
+    "options": [
+        {
+            "optionText": "Nice... uh, ventilation you got there.",
+            "responseText": "Oh, this? Yeah, I was just doing some 'maintenance,' and whoops! Looks like the fabric couldn't handle my... overwhelming presence. Surprised?"
+        },
+        {
+            "optionText": "[Fappery] Bet I could help you with that rip... if you're interested.",
+            "responseText": "Oh, I’m sure you’re dying to get your hands on this fabric, aren’t you? But I don’t think you could handle the job. Maybe if you asked nicely... real nicely."
+        },
+        {
+            "optionText": "[Gift]",
+            "isGifting": true
+        },
+        {
+            "optionText": "Bye.",
+            "responseTexts": ["Leaving already? Guess I’ll just have to find another audience for my accidental rebellion.", "See you around, saint. Don’t let the purity propaganda mess with your head too much.", "Leaving so soon? Guess I’ll just have to keep the other nipple covered for now."],
+            "exitLine": true
+        }
+    ]
+}

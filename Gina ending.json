@@ -1,0 +1,298 @@
+{
+    "options": [
+        {
+            "optionText": "I brought you the cucumbers.", 
+            "icon": "GUI/quest mark",
+            "onlyDisplayIfHasObjective": "Grow cucumbers for Gina",
+            "itemRequired": "Special Cucumber",
+            "giveItemToCharacter": "Special Cucumber",
+            "markObjectiveComplete": "Grow cucumbers for Gina",
+            "showChoiceStats": "grow_cucumber",
+            "addGripGaugePoints": 200, 
+            "giveRandomItem": "random",
+            "addSusPoints": 10,
+            "relationshipPoints": 15,
+            "responseText": "Oh, *finally*! Let’s see ‘em... oh *wow*, would you look at these beauties? So firm, so... *plump*. Just the right amount of girth, too. You’ve outdone yourself, sugar!",
+            "followUpOptions": [
+                {
+                    "optionText": "I don’t like how you’re looking at them...",
+                    "exitLine": true,
+                    "responseText": "Oh, don’t be shy! It’s just appreciation for fine produce. Now, let’s get these bad boys prepped for my *very special salad*. You’re gonna *love* it."
+                },
+                {
+                    "optionText": "What exactly is this ‘special salad’?",
+                    "exitLine": true,
+                    "responseText": "Oh, you’ll find out soon enough. Just trust me—it’s a meal you won’t forget. A little salty, a little spicy, and a whole *lotta* flavor."
+                } 
+            ]
+        },
+        {
+            "optionText": "[Hand over Recipe Book]",
+            "icon": "GUI/quest mark",
+            "responseText": "You got it! My beautiful, dirty little book! Now we can really get this place sizzling. Oh, and trust me, you’re gonna *love* what I cook up next." ,
+            "dontDisplayIfObjectiveComplete": "Retrieve Recipe Book for Gina",
+            "onlyDisplayIfHasObjective": "Retrieve Recipe Book for Gina",
+            "giveItemToCharacter": "Gina's Recipe Book",
+            "itemRequired": "Gina's Recipe Book",
+            "giveRandomItem": "random", 
+            "markObjectiveComplete": "Retrieve Recipe Book for Gina",
+            "addGripGaugePoints": 600,
+            "addSusPoints": 10,
+            "relationshipPoints": 15,
+            "exitLine": true
+        },
+        {
+            "optionText": "Can I have some tuna? Uh... I need it for the cat.",
+            "icon": "GUI/quest mark",
+            "onlyDisplayIfHasObjective": "Get tuna for Sir Whiskers.",
+            "giveItem": "Tuna",
+            "wTokensRequired": 13,
+            "addWillpowerTokens": -13,
+            "exitLine": true,
+            "responseText": "The cat? Sure, sure. That’s what they all say. You vault boys are all the same. Well, I’ve got a can of the good stuff right here. But you better be careful opening it—it might squirt everywhere if you’re not gentle."
+        },
+        {
+            "optionText": "Well, Gina... looks like things are really heating up in here.",
+            "icon": "GUI/heart4",
+            "responseText": "Oh honey, you have no idea how *hot* it's been. The heat, the tension... it’s got me just begging to burst. Wanna taste my buns now that they're nice and steamy?",
+            "followUpOptions": [
+                {
+                    "optionText": "I've been hard all day just thinking about those buns.",
+                    "icon": "GUI/heart4",
+                    "responseText": "Mmm, baby, I can see that dick straining to burst out... why don’t you slap it on the counter and I’ll lather it in my special sauce?",
+                    "followUpOptions": [
+                        {
+                            "optionText": "Let’s see how deep I can get this ‘loaf’ in your oven.",
+                            "responseText": "Ohhh, yeah, shove it in deep! Let’s bake this dick until it’s dripping with cum. I bet you’ll be shooting your load all over my hot little oven."
+                        },
+                        {
+                            "optionText": "Careful, or I’ll cum all over your buns.",
+                            "responseText": "Oh, I *want* you to cum all over me. Cover these tits, pussy, wherever you want—I’ll take every drop of that thick, hot cum."
+                        },
+                        {
+                            "optionText": "[Fuck Gina]", 
+                            "icon": "GUI/heart4",
+                            "changeSprite": "Characters/Gina/sex",
+                            "newSpriteXPos": 3.33,
+                            "newSpriteYPos": -2.32,
+                            "closeDialogueOptions": true,
+                            "isHEventStarted": true,
+                            "spriteAtTheEndOfHscene": "Characters/Gina/IPAdapter_00466_(1)(1)",
+                            "spriteAtTheEndOfHscenePosition": [ 3.5, -1.13 ],
+                            "swapAnotherCharacterDialogue": [ "Buster", "Characters/Buster/Buster after banging Gina" ],
+                            "setAnotherCharacterEmotion": [ "Buster", "Characters/Buster/emotions/buster shock"],
+                            "lineAfterHevent": "Ahhh, I’m still shaking... fuck, you’ve ruined me. Mmm, I’ll be dreaming of that cock until you fuck me again. ♥︎",
+                            "emotionsDuringHevent": ["none", "Characters/Gina/emotions/sex/e1", "Characters/Gina/emotions/sex/e2", "Characters/Gina/emotions/sex/e3"],
+                            "specialEffects": ["Blackout", "Shake"],
+                            "endingEffects": ["Flashes"], 
+                            "hEventName": "gina_diner_PlayerSex",
+                            "auto_lines": ["Mmm, my pussy’s been aching for that cock... so fucking hard I can feel it throbbing. Ahh, fuck, you’re gonna make me cum just looking at you.",
+"Ohhh, you’ve no idea how bad I’ve needed this. Mmm, get that dick out for me, baby. Let me see it... Ahhh, yes, that’s what I need. So fucking thick.",
+"Slap that cock against my pussy. Mmm, yeah... ohh, fuck, I’m already dripping for you. This pussy’s been waiting so long it’s practically begging you to fuck me.",
+"Mmm, baby, I need you to fill me up. Ohhh, just shove it in already. I want that dick so deep inside me I can feel it <i>*in my fucking throat*</i>.",
+"Ahhh, yeah, just like that. fuck, you’re stretching me out so good. Mmm, every inch feels so fucking perfect inside me. Ohh, don’t stop!",
+"Mmm, harder, baby... oh, fuck, I need it harder. Pound this pussy until I can’t even think straight. Ahh, yeah, that’s it!",
+"Ohhh, yes, baby! fuck, I’m gonna cum already. Ohh, my pussy’s squeezing you so fucking tight. Mmm, I can feel every vein on that thick cock.",
+"Ahh, baby, I’m so close... just keep fucking me like that. Ohhh, fuck yes, don’t stop! Ohhh, I’m gonna cum so hard!",
+"Ohh, fuck yes! I’m cuming, baby! Ahh, ohhh, it feels so fucking good! Ohhh, I’m soaking your dick, you’re making me cum so fucking hard!",
+"Mmm, don’t stop... I need more. Ohh, baby, I’m not done. My pussy’s still throbbing for you. fuck me until I can’t walk!",
+"Ohhh, baby, you’re so deep inside me... mmm, I can feel your balls slapping against me. fuck, I want you to cum so hard inside me I can taste it!",
+"Ahhh, fuck, I love how you fill me up. Every time you thrust, I can feel it all the way in my guts. Ohh, don’t stop!",
+"Mmm, baby, I want you to cum deep inside me. fuck, I wanna feel your cock pulse as you shoot that thick load into me. Ohhh, give it to me!",
+"Mmm, yes, yes, yes! fuck, I can feel you getting close. Ohhh, baby, don’t pull out. I want that cum filling me up!",
+"Ahh, fuck, I’m so ready... mmm, shoot that cum so deep in my pussy. Ohhh, baby, I wanna feel it dripping out of me!",
+"Ohhh, fuck, yesss! Ahhh, cum for me, baby! Ohhh, fuck, fill me up... mmm, I want every drop of that hot, thick cum.",
+"Mmm, fuck yes, I can feel it... ohh, it’s so fucking hot inside me. fuck, you’re making me cum all over again, baby!",
+"Ahhh, fuck, you’re still hard? Ohh, I’m not done yet. Mmm, I need that cock again. Let me milk you dry, baby.",
+"Mmm, ride me until I’m fucking soaked. Ohhh, I want you to fucking ruin me. Ohh, baby, make me cum until I can’t even speak.",
+"Ahhh, fuck, you’re hitting all the right spots. Ohhh, I’m gonna squirt all over you! Mmm, I can’t hold back anymore!",
+"Mmm, yes, yes, ohh, yes! I’m fucking cuming again! Ahhh, baby, you’ve got me soaking wet!",
+"Ohhh, baby, fuck me harder! I want it so bad, I need more! fuck, I’m addicted to this c**k!",
+"Ahhh, don’t stop, don’t stop! Ohhh, baby, you’re driving me crazy... fuck, I’m cuming again!",
+"Ohhh, fuck, you’re so deep inside me. Mmm, I’m gonna feel this cock for days... ahhh, I want you to stretch me until I can’t take anymore!",
+"Mmm, baby, I need you to fucking wreck me. Ohh, pound me harder until I’m screaming your name. Ahhh, fuck!",
+"Ahh, yes, yes! Ohh, you’re so fucking good, baby. I’m so full, I can feel you in my fucking soul.",
+"Mmm, I’m gonna fucking explode! Ohhh, baby, I’m squirting again, fuck, I’m so wet! I’m drenching your d**k!",
+"Ahhh, fuck yes! I want one more load... ohhh, I want you to cum so hard inside me, I’ll be leaking for days.",
+"Mmm, fill me up one last time, baby... ohh, I want you to fucking destroy me with that cock!",
+"Ahhh, yes! Ohhh, I can feel you getting close. Don’t stop... fuck, cum for me, baby. I want that thick load all over me!",
+"Mmm, fuck, I’m cuming again! Ohhh, baby, I’m cuming so hard, my pussy’s gripping you so tight!",
+"Ahhh, fuck yes! Ohhh, cum for me! Mmm, cover me in that hot, sticky cum. I want it dripping off my tits!"]
+                        }
+                    ]
+                } 
+            ]
+        },
+        {
+            "optionText": "Those buns look extra plump today, Gina.",
+            "responseText": "Oh, darling, they’re nice and firm for you... and trust me, they’ve been handled with care. Wanna give them a squeeze?"
+        },
+        {
+            "optionText": "[Open Menu]",
+            "icon": "GUI/trade icon",
+            "isTrading": true,
+            "random_auto_line": ["Oh honey, you’re back for more of my buns? Careful, they’re extra hot today!", "Wanna try my special sauce? I made it extra creamy just for you.", "Mmm, you’ve got a good appetite. Think you can handle my big sausage today?", "Order up! My buns are so soft, they’ll melt in your mouth—just how you like it."]
+        },
+        {
+            "optionText": "Need any help?",
+            "icon": "GUI/quest mark",
+            "dontDisplayIfObjectiveComplete": "Retrieve Recipe Book for Gina",
+            "dontDisplayIfHasObjective": "Retrieve Recipe Book for Gina",
+            "responseText": "Actually, now that you mention it... those joy-sucking fun police nabbed my recipe book. They said it was ‘too suggestive.’ Can you believe that? I mean, sure, some of the dishes are a bit... risqué, but come on, it’s *art*. Anyway, I need it back if I’m gonna keep this vault from dying of boredom.",
+            "followUpOptions": [
+                {
+                    "optionText": "Why’d they take it? What’s so suggestive about a recipe book?",
+                    "responseText": "Oh, you’d be surprised! Apparently, my ‘Cream-Filled Donuts’ and ‘Thick, Juicy Sausage Surprise’ were a little too much for their delicate sensibilities. Bunch of prudes! They just couldn’t handle my *flavor*.",
+                    "followUpOptions": [
+                        {
+                            "optionText": "Alright, I’ll get it back for you.",
+                            "responseText": "Oh, you absolute hero! But those tight-assed Purity Police aren’t just gonna hand it over. You’ll need to sweet-talk or maybe *bribe* them. Play it right, and I’ll owe you big time. And by big time, I mean *you’ll never go hungry again*—if you catch my drift.",
+                            "addObjective": "Retrieve Recipe Book for Gina",
+                            "exitLine": true
+                        },
+                        {
+                            "optionText": "Sounds risky. Maybe I’ll pass.",
+                            "responseText": "Oh, don’t be such a wet noodle! But hey, if you change your mind and feel like spicing up your life, you know where to find me."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "optionText": "Need any more help?",
+            "icon": "GUI/quest mark",
+            "onlyDisplayIfObjectiveComplete": "Retrieve Recipe Book for Gina",
+            "dontDisplayIfObjectiveComplete": "Help Gina Clean the Diner", 
+            "responseText": "Well, now that you mention it, I could use some help cleaning up around here. It's a bit of a mess and my arms are just so tired. You up for lending a hand, honey? I'll make it worth your while—promise.",
+            "followUpOptions": [
+                {
+                    "optionText": "Sure, I’ll help out.",
+                    "specialEffects": ["Blackout"],
+                    "responseText": "Oh, you're a lifesaver! Alright, let’s get to it. Start with the floors, then we’ll tackle the tables.",
+                    "addObjective": "Help Gina Clean the Diner", 
+                    "followUpOptions": [
+                        {
+                            "optionText": "[Mop the Floor]",
+                            "specialEffects": ["Blackout"],
+                            "responseText": "*You grab the mop and start scrubbing the floor. The floor's a mess—someone spilled way too much 'sauce' back here.*",
+                            "followUpOptions": [
+                                {
+                                    "optionText": "[Clean the Tables]",
+                                    "specialEffects": ["Blackout"],
+                                    "responseText": "*Now it’s time to clean those sticky tables. There’s a mysterious stain you’re pretty sure has been here since before the bombs dropped.*",
+                                    "followUpOptions": [
+                                        {
+                                            "optionText": "[Wipe the Counter]",
+                                            "specialEffects": ["Blackout"],
+                                            "responseText": "*You wipe down the counter, and—yep, more sauce. Is Gina just spilling sauce everywhere on purpose? You might need to ask her for a spill-proof apron next time.*",
+                                            "followUpOptions": [
+                                                {
+                                                    "optionText": "[Look around for more mess]",
+                                                    "specialEffects": ["Blackout"],
+                                                    "responseText": "*You look around and feel pretty accomplished. The place is spotless... well, almost.*",
+                                                    "followUpOptions": [
+                                                        {
+                                                            "optionText": "[Get back to Gina]", 
+                                                            "changeSprite": "Characters/Gina/no panties",
+                                                            "newSpriteXPos": 3.6,
+                                                            "newSpriteYPos": 0.21,
+                                                            "resetToDefaultSpriteAfterClosingDialogues": true,
+                                                            "specialEffects": ["Blackout"],
+                                                            "hEventName": "gina_diner_oopsie",
+                                                            "followUpOptions": [
+                                                                {
+                                                                    "optionText": "Uh... Gina, I finished cleaning the—",
+                                                                    "markObjectiveComplete": "Help Gina Clean the Diner", 
+                                                                    "emotion": "Characters/Gina/emotions/IPAdapter_00922_(1)(1)",
+                                                                    "responseText": "Oh, great! Thanks for—wait, WHY ARE YOUR EYES BUGGING OUT LIKE THAT? Oh my god. OH, CRAP, THIS IS A NIGHTMARE. Forget this happened, or I’ll... I’ll feed you to the Mirelurks! JUST LEAVE!",
+                                                                    "followUpOptions": [
+                                                                        {
+                                                                            "optionText": "Uh... where are your pants?",
+                                                                            "responseText": "Oh! Uh... well, this is... embarrassing! I—I must’ve... uh, forgot them in the laundry! Yeah, that’s it! Just... try not to think too much about it, okay? I swear I don’t usually work like this!",
+                                                                            "followUpOptions": [
+                                                                                {
+                                                                                    "optionText": "Sure... totally an accident, huh?",
+                                                                                    "responseText": "Well... yeah, *totally*! I mean, who *forgets* their pants? It’s not like I planned this, right? Heh... right?! Anyway, how about I make us some food and we forget this ever happened?",                                                                                    
+                                                                                    "followUpOptions": [
+                                                                                        {
+                                                                                            "optionText": "Alright, I’ll take that food.",
+                                                                                            "responseText": "Oh, thank God! One mystery meal coming right up—don’t ask what’s in it. You’ve seen enough already.",
+                                                                                            "emotion": "none",
+                                                                                            "specialEffects": ["Blackout"],
+                                                                                            "giveRandomItem": "random_food_or_drink",
+                                                                                            "progressionEventPlayed": "took_food_from_gina",
+                                                                                            "showChoiceStats": "took_food_from_gina2",
+                                                                                            "relationshipPoints": 5,
+                                                                                            "exitLine": true
+                                                                                        },
+                                                                                        {
+                                                                                            "optionText": "[Report her for indecent exposure]",
+                                                                                            "icon": "GUI/eye icon",
+                                                                                            "responseText": "Oh... oh no. You’re seriously reporting me? For *this*? It’s not like I was doing squats on your bed. Fine. Vault Security’s gonna love this one. Hope you enjoy paperwork.",
+                                                                                            "emotion": "none",
+                                                                                            "specialEffects": ["Blackout"],
+                                                                                            "reported": 1,
+                                                                                            "progressionEventPlayed": "refused_food_from_gina",
+                                                                                            "showChoiceStats": "refused_food_from_gina",
+                                                                                            "exitLine": true
+                                                                                        }
+                                                                                    ]
+                                                                                } 
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                } 
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }, 
+                {
+                    "optionText": "Cleaning? Nah, I’m good.",
+                    "responseText": "Suit yourself, sugar. But I bet you're missing out on a... *real treat* back there. Hope you enjoy eating out of cans, though. You could’ve had my special sauce on the house.",
+                    "exitLine": true
+                }
+            ]
+        },
+        {
+            "optionText": "Need any more help?",
+            "icon": "GUI/quest mark",
+            "onlyDisplayIfObjectiveComplete": "Help Gina Clean the Diner",
+            "dontDisplayIfHasObjective": "Grow cucumbers for Gina",
+            "dontDisplayIfObjectiveComplete": "Grow cucumbers for Gina", 
+            "responseText": "Oh, honey, you have no idea how much I need a helping hand... I got these 'special' cucumber seeds, and I need you to plant ‘em in the grow room. They’re for a very *special* salad.",
+            "followUpOptions": [
+                {
+                    "optionText": "What’s so special about these cucumbers?",
+                    "responseText": "Oh, wouldn’t you *love* to know? Let’s just say these bad boys *throbbing* with nutrients, grow extra thick, extra juicy, and with a shape that—uh... *unique*. Purely for culinary purposes, of course!"
+                }, 
+                {
+                    "optionText": "Sure, I’ll grow them for you.",
+                    "icon": "GUI/quest mark",
+                    "addObjective": "Grow cucumbers for Gina", 
+                    "dontDisplayIfHasObjective": "Grow cucumbers for Gina", 
+                    "giveItem": "Special Cucumber Seeds",
+                    "exitLine": true,
+                    "responseText": "That’s the spirit! Head over to the grow room, get yourself a nice, deep hole, and slide these bad boys in nice and gentle. They like a *slow insertion*, real delicate. I’ll be waiting right here, dreaming of those big, fat, delicious—uh, cucumbers. *For the salad.*"
+                },
+                {
+                    "optionText": "Gina… are you just messing with me?",
+                    "responseText": "Me? Mess with you? Perish the thought! I’m just a humble cook with a deep, deep appreciation for... *produce*." 
+                }
+            ]
+        },
+        {
+            "optionText": "Bye",
+            "responseText": "Leaving already? Guess you’re not hungry enough for this feast... but you’ll be back, I know you will.",
+            "exitLine": true
+        }
+    ],
+    "showShadowFigures": "Diner ending"
+}

@@ -1,0 +1,140 @@
+[
+  {
+    "original_name": "Big Iron",
+    "original_description": "Deals 15 damage.",
+    "translated_name": "",
+    "translated_description": ""
+  },
+  {
+    "original_name": "Nope Out",
+    "original_description": "Gain 12 <color=#A7C039>Dodge</color>.",
+    "translated_name": "",
+    "translated_description": ""
+  },
+  {
+    "original_name": "Sniper in the Rye",
+    "original_description": "Deal 20 damage. Apply 2 <color=#A7C039>Mark</color>. Marked targets take 50% more damage.",
+    "translated_name": "",
+    "translated_description": ""
+  },
+  {
+    "original_name": "Mysterious Stranger",
+    "original_description": "Deal 15 damage. Add a copy of this card into your discard pile.",
+    "translated_name": "",
+    "translated_description": ""
+  },
+  {
+    "original_name": "Bulwark Bash",
+    "original_description": "Deal damage equal to your current <color=#A7C039>Dodge</color>.",
+    "translated_name": "",
+    "translated_description": ""
+  },
+  {
+    "original_name": "Plasma Grenade",
+    "original_description": "Deal 20 damage to ALL enemies.",
+    "translated_name": "",
+    "translated_description": ""
+  },
+  {
+    "original_name": "Shishkebab Slash",
+    "original_description": "Deal 30 damage. Apply 2 <color=#A7C039>Crippled</color>. Crippled units deal 25% less damage.",
+    "translated_name": "",
+    "translated_description": ""
+  },
+  {
+    "original_name": "Psycho Injection",
+    "original_description": "4 <color=#A7C039>Psycho</color>. Psycho adds additional damage to your attacks.",
+    "translated_name": "",
+    "translated_description": ""
+  },
+  {
+    "original_name": "Sledge Hammer",
+    "original_description": "Deal 35 damage. Psycho affects this card 3 times.",
+    "translated_name": "",
+    "translated_description": ""
+  },
+  {
+    "original_name": "Crippling Crossfire",
+    "original_description": "Deal 22 damage. Draw 1 card. ",
+    "translated_name": "",
+    "translated_description": ""
+  },
+  {
+    "original_name": "Stealth Boy Sidestep",
+    "original_description": "Gain 20 <color=#A7C039>Dodge</color>. Draw 1 card. ",
+    "translated_name": "",
+    "translated_description": ""
+  },
+  {
+    "original_name": "Laser Rifle Barrage",
+    "original_description": "Deal 7 damage to a random enemy 3 times. ",
+    "translated_name": "",
+    "translated_description": ""
+  },
+  {
+    "original_name": "Buffout Burn",
+    "original_description": "Lose 7 HP. Gain 2 <color=#A7C039>Action Points</color>.",
+    "translated_name": "",
+    "translated_description": ""
+  },
+  {
+    "original_name": "Fat Man Finale",
+    "original_description": "Deal 50 damage. Removed until the end of combat.",
+    "translated_name": "",
+    "translated_description": ""
+  },
+  {
+    "original_name": "Feral Ghoul Feint",
+    "original_description": "Double your <color=#A7C039>Dodge</color>.",
+    "translated_name": "",
+    "translated_description": ""
+  },
+  {
+    "original_name": "Hyperactive Rush",
+    "original_description": "At the start of each turn, gain 4 <color=#A7C039>Psycho</color>. Psycho adds additional damage to your attacks.",
+    "translated_name": "",
+    "translated_description": ""
+  },
+  {
+    "original_name": "Nuka-Cola Charged",
+    "original_description": "This turn, your next attack deals TWICE damage.",
+    "translated_name": "",
+    "translated_description": ""
+  },
+  {
+    "original_name": "Jet-Fueled Jump",
+    "original_description": "Gain 75 <color=#A7C039>Dodge</color>. Removed until the end of combat.",
+    "translated_name": "",
+    "translated_description": ""
+  },
+  {
+    "original_name": "Cannibal’s Feast",
+    "original_description": "Deals 10 damage to ALL enemies. Heal HP equal to the damage dealt.",
+    "translated_name": "",
+    "translated_description": ""
+  },
+  {
+    "original_name": "Mini-Nuke Purge",
+    "original_description": "Deals 80 damage.",
+    "translated_name": "",
+    "translated_description": ""
+  },
+  {
+    "original_name": "Pre-War Tax Receipts",
+    "original_description": "Unplayable.",
+    "translated_name": "",
+    "translated_description": ""
+  },
+  {
+    "original_name": "The Glow’s Grip",
+    "original_description": "Unplayable.",
+    "translated_name": "",
+    "translated_description": ""
+  },
+  {
+    "original_name": "Rabies",
+    "original_description": "Unplayable.",
+    "translated_name": "",
+    "translated_description": ""
+  }
+]

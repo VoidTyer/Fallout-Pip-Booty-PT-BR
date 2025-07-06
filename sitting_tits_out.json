@@ -1,0 +1,14 @@
+{
+    "options": [
+        {
+            "optionText": "Your... assets seem pretty, um, *on display* today.",
+            "responseText": "Oh, what’s the matter? Never seen a pair of tits before? I thought you’d have more... composure.",
+            "followUpOptions": [
+                {
+                    "optionText": "I’m handling it just fine, thanks.",
+                    "responseText": "Please. You’re sweating like you just ran a marathon. Honestly, it’s cute watching you pretend to have any control."
+                } 
+            ]
+        } 
+    ]
+}

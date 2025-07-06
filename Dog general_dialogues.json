@@ -1,0 +1,25 @@
+{
+    "options": [
+        {
+            "optionText": "Hey there, buddy! Who's a good boy?",
+            "playSound": "Sounds/fallout 4/bark",
+            "responseTexts": ["Woof! <i>(tail wagging sounds)"],
+            "followUpOptions": [
+                {
+                    "optionText": "Do you know where the Emergency Release Button is?",
+                    "responseText": "Woof woof! <i>(sniffs around and looks up, as if trying to be helpful but not really understanding)" 
+                },
+                {
+                    "optionText": "What's life like in Vault 6969, huh?",
+                    "responseText": "Ruff, ruff! <i>(spins in a circle, clearly just excited to be getting attention)" 
+                }
+            ]
+        },
+        {
+            "optionText": "[Pet]",
+            "playSound": "Sounds/fallout 4/dog breathing",
+            "responseText": "Woof! Woof! <i>(leans into your hand, tail wagging furiously, and gives a happy bark, enjoying the affection)",
+            "exitLine": true
+        }
+    ]
+}

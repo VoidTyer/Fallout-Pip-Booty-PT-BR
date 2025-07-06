@@ -1,0 +1,124 @@
+{
+    "options": [
+        {
+            "optionText": "What kind of hell did I just unleash?",
+            "onlyDisplayIfObjectiveComplete": "Turn the Mega Speaker on.",
+            "responseText": "Oh, you just gave birth to a bass-induced apocalypse! Raiders are creaming their pants, mutants are shitting themselves, and virgins are finally getting laid tonight. God, that drop was orgasmic!",
+            "followUpOptions": [
+                {
+                    "optionText": "What if the locals aren't fans?",
+                    "responseText": "Fuck 'em! You can’t fight the beat. It’s like herpes—contagious and here to stay!"
+                }
+            ]
+        }, 
+        {
+            "optionText": "Holy shit... that was intense. Are you dead yet, or are we doing round two?",
+            "responseText": "Fuck, daddy, give me a second! You went harder than Liberty Prime's dick with no lube! If you're ready for round two, at least spit on it first.",
+            "followUpOptions": [
+                {
+                    "optionText": "The fuck did you just say? Keep that gay shit to yourself, freak.",
+                    "responseText": "Oh? Someone got scared their dick twitched when I moaned. It’s okay, homophobe-kun, I’ll keep my 'gay shit' to myself—unless you bend over and beg for it.",
+                    "followUpOptions": [
+                      {
+                        "optionText": "Try me, faggot. I’ll staple your asshole shut and make you shit your spine out.",
+                        "exitLine": true,
+                        "responseText": "Mmm, violent threats make my cock throb. You keep talking like that and I’ll nut just from the verbal abuse. Go on—hurt me with words. Daddy needs a reason to cry into his cum-stained power-armor."
+                      } 
+                    ]
+                }, 
+                {
+                    "optionText": "I’ve never fought anyone like you. I might need therapy.",
+                    "responseText": "Therapy? Fuck that, embrace the trauma! Bottle it up, ferment it, and let it explode into the best angry-sex-fueled killing spree!"
+                } 
+            ]
+        },
+        {
+            "optionText": "What is 'The Way of the Shaft'?",
+            "dontDisplayIfHasObjective": "Turn the Mega Speaker on.",
+            "dontDisplayIfObjectiveComplete": "Turn the Mega Speaker on.",
+            "dontShowIfProgressionEventPlayed": "refused_joinning_gay_bos",
+            "icon": "GUI/quest mark",
+            "responseText": "It’s the TRUTH. A high-testosterone, ultra-dominant philosophy forged in the fires of pre-war gyms! It’s about BROTHERHOOD. It’s about DOMINANCE. It’s about grabbing life—and your enemies—by the balls and never letting go. And now, you’re gonna join my tribe!",
+            "followUpOptions": [
+                {
+                    "optionText": "Fuck it, I'm in. Let's spread the word of the Shaft!",
+                    "dontShowIfProgressionEventPlayed": "refused_joinning_gay_bos",
+                    "progressionEventPlayed": "agreed_joinning_gay_bos",
+                    "showChoiceStats": "agreed_joinning_gay_bos",
+                    "addPerk": "twink_massacre",
+                    "responseText": "I fucking knew it! Welcome aboard, you beautiful, murderous bastard. Let's make Maxson choke on envy—and maybe something else later. Now, how about help me spread the word with our Mega Speaker, aka the loudest, most violently erotic war cry the wasteland has ever heard?",
+                    "followUpOptions": [
+                        {
+                            "optionText": "Where did you even get this thing?",
+                            "responseText": "Oh, this bad boy wasn’t just lying around. We BUILT it—piece by glorious piece—like a sweaty, testosterone-fueled love child of engineering and pure, unbridled horniness. Months of blood, sweat, and… of course cum!"
+                        },
+                        {
+                            "optionText": "Fine, I’ll help.",
+                            "icon": "GUI/quest mark",
+                            "addObjective": "Turn the Mega Speaker on.",
+                            "dontDisplayIfHasObjective": "Turn the Mega Speaker on.",
+                            "dontDisplayIfObjectiveComplete": "Turn the Mega Speaker on.",
+                            "exitLine": true,
+                            "responseText": "Hell YES! I knew you had the testosterone to handle this. That big, juicy speaker’s been begging for someone with the balls to flip it on, and now, you’re gonna do it. Time to impregnate the wasteland with sick beats!"
+                        },                
+                        {
+                            "optionText": "What if it kills everyone nearby?",
+                            "responseText": "Then we go out legends. Imagine the headstones: 'Death by bass-induced orgasm.' Our ancestors would be proud!"
+                        },
+                        {
+                            "optionText": "I’m not touching that thing.",
+                            "responseText": "What’s the matter, scared of a little *homo energy*? Don’t worry, there’s still time to grow a pair."
+                        }
+                    ]
+                },
+                {
+                    "optionText": "I'm not a fucking faggot, keep your cock crusade to yourself.",
+                    "exitLine": true,
+                    "progressionEventPlayed": "refused_joinning_gay_bos",
+                    "dontShowIfProgressionEventPlayed": "agreed_joinning_gay_bos",
+                    "showChoiceStats": "refused_joinning_gay_bos",
+                    "responseText": "Oof, denial hits harder than a super mutant gangbang. Suit yourself—but you'll dream of me tonight."
+                } 
+            ]
+        },
+        {
+            "optionText": "What's your deal?",
+            "responseText": "MY DEAL? Oh, my deal is spreading *The Way of the Shaft*! I’m here to turn this wasteland into a homoerotic thunder-dome—oiled-up paradise of man-meat, Brotherhood dominance, and beats so hard they’ll blow the skin off a deathclaw’s nutsack. And YOU just proved you’ve got the stones to handle it!",
+            "followUpOptions": [
+                {
+                    "optionText": "What does the Brotherhood think of your 'philosophy'?", 
+                    "responseText": "They fucking LOVE it! Well, except Elder Maxson. That uptight little prude banned me after I used his precious Prydwen's PA to broadcast my remix of 'Steel Hard-On.' Something about 'undermining discipline.' Pfft. Discipline my ass—though I wouldn’t mind if Maxson tried. The real warriors? They know I’m what the wasteland needs: big homo energy with a side of BOOM."
+                },
+                {
+                    "optionText": "You're completely insane.",
+                    "responseText": "Oh, don’t act like you’re not turned on. I saw that suspicious twitch in your pants. You want to hate me, but deep down, you know I’m right. Homo dominance is the FUTURE, baby, and you’re either riding this steel meat train or getting run over by it!"
+                },  
+                {
+                    "optionText": "You’re goddamn disgusting.",
+                    "exitLine": true,
+                    "responseText": "Oh, you’re one to talk! Standing there all sweaty. Don’t hate me because I’ve got such a tight ass. Hate yourself for being too weak to admit you want a piece!"
+                }
+            ]
+        },  
+        {
+            "optionText": "[Kill the Outcast for Baron Voss]",
+            "icon": "GUI/quest mark",
+            "onlyDisplayIfHasObjective": "Eliminate the outcast.",
+            "markObjectiveComplete": "Eliminate the outcast.",
+            "addObjective": "Report back to Baron.",
+            "progressionEventPlayed": "gay_bos_killed",
+            "killCharacter": true,
+            "showChoiceStats": "gay_bos_killed",
+            "specialEffects": ["stab"],
+            "responseText": "Whoa, kinky. Didn't think you'd—Wait, wait, WAIT! If you wanna stab me, aim low, daddy!",
+            "exitLine": true
+        },
+        {
+            "optionText": "Bye.",
+            "responseText": "Listen, daddy, I’m not saying I want you to choke me in battle again, but if you’re ever in the mood, I’ll be right here, power armor oiled up and ready to rumble.",
+            "exitLine": true
+        }
+    ],
+    "auto_lines": [ "Oh. Oh, SWEET ATOM’S COCK. You just—ohhh, I think I came. Oh. Definitely. You hit harder than a Brotherhood orgy at full tilt. God DAMN, look what you did to me! Ever thought about joining 'The Way of the Shaft', boy?" ],
+    "showShadowFigures": "BoS"
+}

@@ -1,0 +1,37 @@
+{
+    "options": [
+        {
+            "optionText": "I think I pulled a muscle.",
+            "responseText": "Welcome to the big leagues, sport. Try stretching next time.",
+            "followUpOptions": [
+                {
+                    "optionText": "I thought you were trying to kill me for a second.",
+                    "responseText": "Oh, if I wanted you dead, you'd be fertilizer in the hydroponics lab right now. Consider yourself lucky I didn’t bring out the handcuffs."
+                },
+                {
+                    "optionText": "Flopping around? I thought I was giving my A-game!",
+                    "responseText": "A-game? Sweetheart, that was barely C-minus.",
+                    "followUpOptions": [
+                        {
+                            "optionText": "Harsh. You didn’t seem to mind.",
+                            "responseText": "Yeah, well, sometimes a girl’s gotta take what she can get."
+                        } 
+                    ]
+                }
+            ]
+        },
+        {
+            "optionText": "You almost ripped my bed apart!",
+            "responseText": "Maybe you should invest in stronger furniture. Or better moves. Either way, I'm not the one who's gonna break here."
+        },
+        {
+            "optionText": "I think the Purity Police heard us. You better bolt before they barge in.",
+            "responseText": "Let them come. I’ll shove that Bonk Baton where they won’t be able to sit for a week." 
+        }, 
+        {
+            "optionText": "Bye",
+            "responseText": "Try not to get arrested before I’m bored enough to visit again.",
+            "exitLine": true
+        }
+    ]
+}

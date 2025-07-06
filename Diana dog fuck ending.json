@@ -1,0 +1,27 @@
+{
+    "options": [ 
+        {
+            "optionText": "What the fuck?",
+            "responseText": "Uh, well, ever heard of experimentation? You know, pushing boundaries? Breaking new ground?", 
+            "specialEffects": ["removeBlur", "removeVignette"],
+            "followUpOptions": [
+                {
+                    "optionText": "Pretty sure there’s no 'dog' loophole in the vault rules.",
+                    "responseText": "Oh, relax. Worst-case scenario, they slap a ‘Furry’ label on me."
+                },
+                {
+                    "optionText": "You’re sick, you know that, right?",
+                    "responseText": "Pfft, call me whatever you want. But *this*... This is just me finding creative outlets, okay?"
+                }
+            ]
+        },
+        {
+            "optionText": "[Report her to the Purity Police]",
+            "responseTexts": ["Oh, honey, go ahead! ♥"],
+            "reported": 5,
+            "fadeOutCharacter": true,
+            "exitLine": true,
+            "specialEffects": ["removeBlur", "removeVignette"]
+        }
+    ] 
+}

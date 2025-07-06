@@ -1,0 +1,158 @@
+{
+  "options": [
+    {
+      "optionText": "How are you feeling, love?",
+      "responseText": "Heavy, sore, and strangely... happy. It's bizarre, but I kind of like it. This little parasite growing inside me is half you—makes it easier to deal with.",
+      "followUpOptions": [
+        {
+          "optionText": "I love seeing you like this.",
+          "responseText": "Keep talking like that and I might just forget how uncomfortable this damn suit is. Seriously, though… thank you. For being here."
+        },
+        {
+          "optionText": "Can't believe we're doing this. You, me, a baby...",
+          "responseText": "Believe it. Somehow loving you might be the most dangerous thing I’ve done. And the most worth it.",
+          "followUpOptions": [
+            {
+              "optionText": "We'll protect this kid. Together.",
+              "responseText": "Damn right we will. Anyone tries to hurt our family, they'll regret ever stepping foot near Vault 6969."
+            },
+            {
+              "optionText": "You sure you’re okay with this? Really okay?",
+              "responseText": "Honestly? I’ve never felt more certain about anything. Maybe power isn't about control anymore... maybe it's about choosing who you give your heart to."
+            },
+            {
+              "optionText": "How are we gonna name the kid?",
+              "responseText": "Hah, I've been thinking about that. Something strong, unforgettable... or maybe just not one of those cringy vault names. You got any ideas?",
+              "followUpOptions": [
+                {
+                  "optionText": "How about something classic? Like Nora. Or James.",
+                  "responseText": "*smiles softly* Old-world names. I kinda like that. Gives it weight."
+                }, 
+                {
+                  "optionText": "What about something badass? Like Blade, or... Doomslayer.",
+                  "responseText": "*laughs, then groans* Don’t make me laugh, it hurts. Doomslayer? You want our kid to get beat up and come home crying. Be serious, or I swear these hormones will slap you for me."
+                },
+                {
+                  "optionText": "I don’t care what we name them... as long as it’s with you.",
+                  "responseText": "*blinks slowly* ...You're dangerous when you're that sweet. Damn it. Say stuff like that again and I might just melt."
+                }
+              ]
+            } 
+          ]
+        },
+        {
+          "optionText": "Everyone’s staring at you...",
+          "responseText": "Let them stare. I'm carrying something more important than their judgment."
+        },
+        {
+      "optionText": "You look insanely hot right now. I want you. Right here.",
+      "icon": "GUI/heart4",
+      "responseText": "God, you're shameless. And I love it. But if you even *try* to start something in front of these gawkers, I swear you'll regret not waiting until we’re alone. Or maybe… you won’t.",
+      "followUpOptions": [
+        {
+          "optionText": "I don't care.",
+          "icon": "GUI/heart4",
+          "responseText": "Tch... You're impossible. And if you keep that look in your eyes, we *are* going to have a problem... a very wet, moaning kind of problem.",
+          "followUpOptions": [
+            {
+              "optionText": "[Have sex in front of everyone]",
+              "changeSprite": "Characters/Diana/pregnant/pregnant sex",
+                        "newSpriteXPos": 0.25,
+                        "newSpriteYPos": -1.17,
+                        "icon": "GUI/heart4",
+                        "closeDialogueOptions": true,
+                        "isHEventStarted": true,
+                        "setBGcolor": "#919191",
+                        "changeSpriteColor": "#E7E7E7",
+                        "specialEffects": ["Blackout"],
+                        "endingEffects": ["Flashes"],
+                        "showShadowFigures": "Pregnant lounge sex 2",
+                        "HideAllShadowFiguresAfterHevent": true,
+                        "progressionEventPlayed": "lounge_pregnant_PlayerSex",
+                        "spriteAtTheEndOfHscene": "Characters/Diana/pregnant/sitting pregnant cumshot", 
+                        "spriteAtTheEndOfHscenePosition": [ -6.43, -2.08 ],
+                        "lineAfterHevent": "Ahh... you better not have drowned the baby with how much you pumped in there...",
+                        "swapAnotherCharacterDialogue": [ "Diana", "Characters/Diana/Dialogues/after_pregnant_sex" ],
+                        "reduceDesireAfterAutoLines": 10,
+                        "hEventName": "diana_lounge_pregnant_PlayerSex",
+                        "auto_lines": ["Ahh! Right here? You’re fucking insane!",
+
+"Ohh god... your dick feels too good, it's driving me fucking crazy! ♥",
+
+"Mmm, harder! Fucking deeper! Make me forget they're all watching! ♥",
+
+"Ah, shit... yes, baby, fuck this pussy full again, remind me who owns it!",
+
+"Fuck—fuck! Oh god, stretch me, just like that, deeper, deeper!",
+
+"Mmmph, you animal... you're gonna get us fucking exiled—but damn it's worth it! ♥",
+
+"Ahh... I feel every fucking inch, pounding deep inside, marking me again! ♥",
+
+"Oh fuck yes, breed me harder, show everyone who I belong to!",
+
+"God, your dick is fucking perfect! Don’t you dare slow down!",
+
+"Nngh, you're hitting that spot—oh fuck yes, baby, right there!",
+
+"Ahhh! Make me scream louder, let them know how fucking good you fuck me! ♥",
+
+"Ohh, fuck my pussy raw, don’t stop until I’m leaking your cum everywhere!",
+
+"Ahh fuck, I need it—harder, rougher! Break me in front of everyone!",
+
+"Mmm, I can't believe we're doing this—but fuck, I don’t want you to stop! ♥",
+
+"Shit, yes, make me cum right here—oh god, fill me again, deeper, fuck!",
+
+"Oh fuck, my tits ache, squeeze them harder, bite me, make it hurt so good! ♥",
+
+"Ahhh, fuck me stupid—make me yours, forever yours, claim me completely!",
+
+"Goddamn, your dick... fuck, how are you always so fucking hard, so perfect? ♥",
+
+"Mmm, you’re gonna get me knocked up again at this rate... fucking do it!",
+
+"Ahh, I don't care if they exile us, as long as I have your cock buried deep in me! ♥",
+
+"Oh god yes, fuck, keep pounding, keep stretching my dripping pussy!",
+
+"Ahhh! ♥ Don’t you dare pull out—fuck me harder, fill me until it hurts! ♥",
+
+"Mmm, fuck—my pussy's gonna ache for days, but it feels so fucking good!",
+
+"Fuck, baby, cum deep inside, drown me in it—ah, yes, make a fucking mess! ♥",
+
+"Ohh! Mark me with your cum, let them see it dripping out!",
+
+"Mmm, claim me harder, I want every fucker here to know exactly who bred me! ♥",
+
+"Ahh, shit! I'm so close—fuck me faster, ruin me right here!",
+
+"Yes! Yes! Fuck! Fill me up again, stretch my belly more, breed me full! ♥",
+
+"Oh god, yes, cum with me—fuck, I want to feel you explode deep inside!",
+
+"Ahhh, fuck yes! ♥ I'm yours—totally, completely fucking yours... now and forever! ♥",
+"Fuck... your dick feels amazing stretching me open.", "Oh god, yes, harder! Fuck them all watching, let them see who owns this pussy. ♥", "Yes, fuck... I love you inside me, baby.", "Mmm, your cock is perfect, filling me exactly how I need it.", "Ahh... fuck me deeper, please, I need to feel you hit that spot again.", "Oh god, I'm so close... don't stop, keep pounding my pregnant pussy.", "Fill me until I can't take another drop.", "Mmm, I love you so much... ahh, fuck, yes! ♥"]
+            }
+          ]
+        }
+      ]
+    }
+      ]
+    },   
+    {
+        "optionText": "[Give a Gift]",
+        "emotion": "none",
+        "icon": "GUI/gift icon",
+        "neverGreyOut": true,
+        "isGifting": true
+    },
+    {
+      "optionText": "Bye",
+      "responseText": "Don't be gone long, alright? Just having you around... it makes everything feel a little easier.",
+      "exitLine": true
+    }
+  ]
+}

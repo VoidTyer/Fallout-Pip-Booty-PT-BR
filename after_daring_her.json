@@ -1,0 +1,96 @@
+{
+    "options": [
+        {
+            "optionText": "Holy shit...",
+            "responseText": "Surprised? I figured you'd enjoy the show. Although, from the looks of it, I think the Purity Police are about to either pass out or implode.",
+            "followUpOptions": [
+                {
+                    "optionText": "I can't tell if they want to arrest you or start taking notes.",
+                    "responseText": "Maybe both. I mean, can you blame them? They've been blue-balled so hard they probably think I'm a hallucination."
+                },
+                {
+                    "optionText": "Think they're trying to figure out if 'vibrator' counts as contraband?",
+                    "responseText": "Oh, I hope so. Let them try to confiscate it. I dare them. They'll have to pry it from my cold, dead thighs.",
+                    "followUpOptions": [
+                        {
+                            "optionText": "The mental image of that is... horrifying.",
+                            "responseText": "Horrifying? Try glorious. You should see the way they'd squirm. I'm practically doing them a favor at this point."
+                        },
+                        {
+                            "optionText": "Can’t wait to see their faces when it starts vibrating.",
+                            "responseText": "Oh, it's already on. I just have it on low for now. Wouldn’t want to distract anyone too much."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "optionText": "You actually strapped that thing on in public? You got some guts.",
+            "icon": "GUI/heart4",
+            "responseText": "Guts? Please. This is just foreplay. The real fun starts when they figure out it’s voice-activated.",
+            "followUpOptions": [
+                {
+                    "optionText": "Voice-activated? No way.",
+                    "icon": "GUI/heart4",
+                    "responseText": "Watch. 'Moist.' See? Now imagine saying that during a Purity Police briefing.",
+                    "followUpOptions": [
+                        {
+                            "optionText": "'Moist.'",  
+                            "closeDialogueOptions": true,
+                            "isHEventStarted": true,
+                            "lineAfterHevent": "Ahh... it was amazing... ♥︎",
+                            "endingEffects": ["Flashes"],
+                            "reduceDesireAfterAutoLines": 10,
+                            "hEventName": "diana_vibrator_lounge",
+                            "emotionsDuringHevent": [ "Characters/Diana/Emotions/lounge standing vibrator lewd req/1", "Characters/Diana/Emotions/lounge standing vibrator lewd req/2", "Characters/Diana/Emotions/lounge standing vibrator lewd req/3", "Characters/Diana/Emotions/lounge standing vibrator lewd req/4", "Characters/Diana/Emotions/lounge standing vibrator lewd req/5", "Characters/Diana/Emotions/lounge standing vibrator lewd req/6"],
+                            "auto_lines": [
+                                "Ohh, keep going, sweetheart, I’m about to cum so hard the Overseer’s office might flood.",
+                                "Ahh, this pussy’s soaking, and the Purity Police are right there pretending they don’t wanna taste it. Mmm ♥.",
+        "Mmm, you hear that? That’s the sound of this pussy getting wetter. I bet the Purity Police are ready to bust a nut just listening ♥.",
+        "Fuck, this pussy is throbbing harder than your dick right now, isn’t it? Mmm ♥.",
+        "Mmm, bet those Purity Police are trying not to cum in their uniforms. They’re fucking leaking under that armor ♥.",
+        "Ahh, you really think they don’t wanna shove their dicks in me right now? Ohh, I’m about to cum and make a scene ♥.",
+        "Ohh, this vibrator’s making my pussy drool ♥.",
+        "Mmm, if you keep that up, I’m gonna squirt so hard, it’ll short-circuit their equipment ♥.",
+        "Ahh, keep going, baby. You’re about to make me soak my thighs. These Purity Police can probably smell it from here ♥.",
+        "Mmm, dick’s getting hard just watching me, huh? Too bad you can’t stroke it here ♥.",
+        "Ahh, baby, you’re really gonna make me squirt in front of these limp-dick cops ♥.",
+        "Mmm, this pussy’s so tight, I bet the Purity Police are wishing they could fuck me right now.",
+        "Oh, don’t stop! I wanna cum so hard the Purity Police will need a mop ♥.",
+        "Mmm, I swear these cops wanna bust a load just listening to my wet fucking pussy ♥.",
+        "Ahh, this pussy’s dripping. I bet their dicks are hard right now ♥.",
+        "Sweetheart, keep that up and I’ll cum so hard, I’ll drown these fucking cops in my pussy juice ♥.",
+        "Mmm, you’re gonna make me cum right here, and these poor bastards can’t even touch themselves ♥.",
+        "Ahh, officer, wanna see how wet I can get? Too bad, you’re not allowed. I’ll make you cum just by watching ♥.",
+        "Mmm, my pussy’s about to flood, and there’s not a fucking thing these blue-balled losers can do about it ♥.",
+        "Ohh, you think they wanna arrest me, or just shove their dicks in this dripping pussy? Mmm ♥.",
+        "Ahh, these officers are probably ready to cum themselves just watching me fucking squirm ♥.",
+        "Oh, God, I’m so fucking close! The Purity Police might need a new rule for how wet my pussy’s about to get ♥.",
+        "Mmm, I bet their dicks are twitching under that armor. Too bad they can’t touch this pussy ♥.",
+        "I’m so wet, you’re gonna make me spray all over this fucking floor ♥.",
+        "Ahh, keep going, baby, I wanna cum so hard, they’ll need fucking backup to deal with the mess ♥.",
+        "Mmm, these Purity Police probably wish they could stick their dicks in me, but fuck them—this pussy’s too good ♥.",
+        "Ohh, I’m dripping so much, it’s gonna leave a fucking puddle. Let’s see them mop this up ♥.",
+        "Mmm, this vibrator’s gonna make me cum so hard, the Purity Police are gonna need new uniforms ♥.",
+        "I can feel my pussy throbbing. You keep this up, and I’m gonna make these losers lose their minds ♥.",
+        "Ohh, yes, harder, baby! These cops are about to bust a load just watching me cum ♥.",
+        "Mmm, you’re about to make me spray all over this place, and the cops can’t even look away ♥.",
+        "Ohh, baby, I’m gonna fucking cum so hard, the Purity Police are gonna need a fucking hose to clean up ♥.",
+        "Mmm, I bet their dicks are harder than a vault door right now, watching me about to explode ♥.",
+        "Ahh, officer, hope you’ve got tissues, 'cause I’m about to make this pussy cream right in front of you ♥.",
+        "Mmm, I’m so fucking close. You’re gonna make me cum all over these uptight fucks ♥.",
+        "Ohh, I’m about to cum. And all these prudes can do is pretend they don’t wanna watch ♥.",
+        "Ahhh, fuck, there it is! Oh god, my pussy’s gonna flood this whole vault. Ahhhhh ♥!"
+                            ]
+                        }
+                    ]
+                } 
+            ]
+        },  
+        {
+            "optionText": "Bye",
+            "responseText": "Leaving already? Didn’t even get a chance to turn the settings up.",
+            "exitLine": true
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "options": [  
+        {
+            "optionText": "You gonna be okay after that? You look like you ran a marathon.",
+            "responseText": "Mmm, honey, I feel like I ran one... in heels... uphill. But don’t worry, I’ve got plenty left in the tank ♥.",
+            "followUpOptions": [
+                {
+                    "optionText": "Plenty left? You sure you’re not about to pass out?",
+                    "responseText": "Pass out? Please. This body’s got more stamina than a Vault-Tec generator. It’s you who’s about to need a nap."
+                } 
+            ]
+        },
+        {
+            "optionText": "Bye.",
+            "responseText": "Leaving already? You didn’t even stay long enough to give me a cigarette, sweetheart ♥. But I’ll be sure to keep you in my thoughts...",
+            "exitLine": true
+        }
+    ]
+}

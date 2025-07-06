@@ -1,0 +1,31 @@
+{
+    "options": [
+        {
+            "optionText": "[Give tuna]",
+            "itemRequired": "Tuna",
+            "icon": "GUI/quest mark",
+            "giveItemToCharacter": "Tuna",
+            "onlyDisplayIfHasObjective": "Get tuna for Sir Whiskers.",
+            "markObjectiveComplete": "Get tuna for Sir Whiskers.", 
+            "responseText": "*Purrs deeply* (Translation: Finally, a human who understands their role. This pleases me.)",
+            "followUpOptions": [
+                {
+                    "optionText": "You’re welcome, Your Majesty.",
+                    "responseText": "*Chirp* (Translation: Don’t push it, peasant. Just keep the tuna coming, and we won’t have any problems.)",
+                    "exitLine": true
+                },
+                {
+                    "optionText": "That’s all you’re getting. Don’t expect more.",
+                    "responseText": "*Tail flick* (Translation: A bold declaration. I’ll be sure to remind you of this when you find your shoes mysteriously shredded.)",
+                    "exitLine": true
+                }
+            ]
+        },
+        {
+            "optionText": "[Pet]",
+            "playSound": "Sounds/fallout 4/purring",
+            "responseTexts": ["Meow...", "<i>Purrs softly, rubbing against your arm."],
+            "exitLine": true
+        }
+    ]
+}

@@ -1,0 +1,232 @@
+{
+    "options": [
+    {
+        "optionText": "[Hand over Lingerie]",
+        "responseText": "Oh my... I knew you had good taste, but this? Darling, you've outdone yourself! Those are fabulous! Thank you!",
+        "dontDisplayIfObjectiveComplete": "Get lingerie for Diana",
+        "onlyDisplayIfHasObjective": "Get lingerie for Diana",
+        "giveItemToCharacter": "Fancy Lingerie",
+        "itemRequired": "Fancy Lingerie",
+        "markObjectiveComplete": "Get lingerie for Diana",
+        "exitLine": true
+    },
+    {
+        "optionText": "[Hand over Banana]",
+        "responseText": "Oh my... you really know how to satisfy a girl’s cravings. I’ve been waiting all day for someone to hand me a big, juicy... banana. Thank you.",
+        "dontDisplayIfObjectiveComplete": "Get banana for Diana",
+        "onlyDisplayIfHasObjective": "Get banana for Diana",
+        "giveItemToCharacter": "Banana",
+        "itemRequired": "Banana",
+        "markObjectiveComplete": "Get banana for Diana",
+        "exitLine": true
+    },
+    {
+        "optionText": "Why are you naked in broad daylight?",
+        "responseText": "Broad daylight, midnight, who cares? If I’m tired, I’m tired. Or, you know, maybe I’m just comfortable in *my* room.",
+        "followUpOptions": [
+            {
+                "optionText": "Are you just gonna lie there all day, or...?",
+                "responseText": "Yep. That’s the plan. Got any other genius questions, or are you done being Captain Vault Etiquette?"
+            }
+        ]
+    },
+    
+    {
+        "optionText": "I want to ask you something... [<color=purple>Lewd Options</color>]",
+        "responseTexts": ["Oh, if this is a marriage proposal, make sure to get down on both knees. One just isn’t enough for me.", "Let me guess, you want to ask me if I’m a mind reader? Because the answer is no, and also yes.", "If this is another ‘How do you stay so hot?’ question, I swear, I’m charging admission next time.","Let me guess, you want to know how I keep dodging the Purity Police? Two words: Secret. Tunnels."],
+        "followUpOptions": [
+            {
+                "optionText": "So, uh, what are you wearing under that suit?",
+                "relationshipRequired": 20,
+                "desireRequired": 30,
+                "changeSprite": "Characters/Diana/new NSFW/resized/sitting naked",
+                "newSpriteXPos": 0.59,
+                "newSpriteYPos": -0.57, 
+                "failedCheckResponse": "Wouldn’t you like to know, Mr. FBI. Here’s a hint: it's definitely something you’ll never get to see in real life. How about you try focusing on your potato duty instead of what’s under my clothes, hmm?",
+                "responseText": "You really wanna know? Okay, but only because you asked so nicely. Surprise! It's nothing you’ve ever seen in this sad little vault. Touching is gonna cost you, though. Got anything to offer besides those puppy-dog eyes?",
+                "followUpOptions": [
+                    {
+                        "optionText": "Can I smell those panties? I bet they smell like... freedom.",
+                        "relationshipRequired": 30,
+                        "desireRequired": 35,
+                        "changeSprite": "Characters/Diana/new NSFW/sitting no panties",
+                        "newSpriteXPos": 0.59,
+                        "newSpriteYPos": -0.57,  
+                        "giveItem": "Diana's Panties",
+                        "failedCheckResponse": "Wow, bold move there. Maybe start with, like, a Vault-Tec manual on 'Basic Human Interaction' before you go straight for the weird stuff. Nice try, though. Points for... enthusiasm?",
+                        "responseText": "Freedom, huh? More like disappointment and regret. But sure, if that’s your kink. Go ahead, take a whiff. Just try not to pass out from the sheer awesomeness. Or, you know, the smell of despair that lingers in this vault."
+                    }
+                ]
+            },
+            {
+                "optionText": "I heard there's an Emergency Release Button somewhere. Wanna go look for it together?",
+                "relationshipRequired": 35,
+                "desireRequired": 45,
+                "failedCheckResponse": "Oh, you mean the mythical button that’s supposed to turn this vault into an orgy palace? Yeah, I’m sure it’s right next to the ‘Instant IQ Boost’ button you should’ve hit on the way in. Besides, if I wanted a release, I’d just let my cat shred my furniture again. Much more satisfying.",
+                "responseText": "Why search for some button when the real emergency release is right here? <i>*She suddenly reaches into a drawer and pulls out a vibrator.*</i> Who needs old, crusty magazines when you’ve got battery power and imagination? Stick around and watch the show",
+                "followUpOptions": [
+                    {
+                        "optionText": "[Watch]",
+                        "changeSprite": "Characters/Diana/new NSFW/resized/vibrator",
+                        "newSpriteXPos": 0.55,
+                        "newSpriteYPos": -0.72,
+                        "closeDialogueOptions": true,
+                        "isHEventStarted": true,
+                        "spriteAtTheEndOfHscene": "Characters/Diana/new NSFW/sitting no panties",
+                        "spriteAtTheEndOfHscenePosition": [ 0.59, -0.59 ],
+                        "lineAfterHevent": "Ahh... it was amazing... ♥︎",
+                        "specialEffects": ["Blackout"],
+                        "endingEffects": ["Flashes"],
+                        "auto_lines": ["Look at you, sitting there like a dog begging for scraps. Too bad this pussy’s a five-course meal, and I’m the only one eating. ♥︎",
+"Fuck, I’m so wet I could water the vault’s garden with this pussy. Hope you brought a life jacket, because it’s about to flood. Ahh...",
+"Oh, you like this? Watching me play with my pussy like it’s a damn video game? Bet you’d suck at this level, sweetie. ♥︎",
+"I swear, every time you blink, my pussy gets wetter. Keep staring, maybe you’ll make me drown in my own cum. Ahh... yes!",
+"You ever see a pussy this perfect? No? That's because this is the kind of premium content you can’t find on your shitty Wi-Fi connection. ♥︎",
+"Mmm, you’re so close you can probably smell how wet I am. Let’s be real, this is the best scent this vault’s ever had. ♥︎ Ahh!",
+"I’m about to cum so hard they’re gonna hear me all the way in the Overseer’s office. Who knows, maybe he’ll send a thank-you note. Ahh...!",
+"Every time you stare, I get hotter. Keep it up, and this pussy’s gonna need its own fire extinguisher. ♥︎ Fuck, yes!",
+"Bet you’ve never seen a girl make herself cum without even needing a sad little vault dweller to help. Guess you’re learning something today, huh? Ahh!",
+"Think of my pussy like a riddle. The answer’s always ‘Yes, please,’ but good luck ever getting the chance to solve it. ♥︎",
+"God, I’m so fucking wet, I could drown a Deathclaw in this pussy juice. Call FEMA because we’ve got a disaster in the making. Ahh...!",
+"Want a taste? Too bad. This pussy’s reserved for the VIP section only, and your broke ass doesn’t have a ticket. Ahh, ♥︎",
+"I bet you’re hard as a Deathclaw's horn right now, wishing you could trade places with my favorite toy. Too bad, it’s way more reliable. ♥︎",
+"I could make myself cum three times before you even get it up. Welcome to the big leagues, baby. Ahh... yes!",
+"See this? This is what a real woman looks like when she’s wet. Not those sad little fantasies you jack off to in the showers. ♥︎",
+"Fuck, my pussy’s wetter than a Nuka-Cola on a hot day. If I keep going, we’re gonna need a lifeguard in here. Ahh...!",
+"Go ahead, touch yourself while you watch. I dare you. Just try not to ruin the floor with your disappointment, okay? ♥︎ Ahh!",
+"Oh, yes! I’m so close, I’m gonna cum so hard the vault’s lights are gonna flicker. Power outage courtesy of my pussy. Ahh...!",
+"Mmm, bet you’re wishing you could slide that cock in right now, aren’t you? Too bad my pussy’s got a VIP list, and you’re not on it. ♥︎",
+"Holy fuck, I’m gonna cum. Hope you’re ready for a splash zone, because this pussy’s about to make a mess. Ahh, ♥︎ yes, yes!"]
+                    }
+                ]
+            },
+            {
+                "optionText": "Ever get lonely? You know, need some... company?",
+                "relationshipRequired": 45,
+                "desireRequired": 40,
+                "failedCheckResponse": "Lonely? Oh, I never get lonely. Between my cat's death stares and the constant sound of the Purity Police having a mental breakdown, I’m too busy being entertained. But thanks for the offer, Casanova. If I ever need someone to hold my bags, I’ll let you know.",
+                "responseText": "Lonely? Oh, honey, I’ve got plenty of company right here. <i>*She pulls out a small, pink dildo from under her pillow and waves it in your direction.*</i> But if you're offering a live demonstration, I'm all ears... and other parts.",
+                "followUpOptions": [ 
+                    {
+                        "optionText": "Mind if I just watch? I’ll keep my hands to myself, promise.",
+                        "responseText": "Oh, so you’re the 'sit in the corner and take notes' type? I can work with that. <i>*She grabs her dildo, holding it up like a trophy.*</i> Alright, voyeur boy, you want a front-row seat to the main event? You better be taking mental pictures, because this show doesn’t come with replays.",
+                        "followUpOptions": [
+                            {
+                                "optionText": "[Watch]",
+                                "changeSprite": "Characters/Diana/new NSFW/resized/riding dildo",
+                                "newSpriteXPos": 0.13,
+                                "newSpriteYPos": 0,
+                                "specialEffects": ["Blackout", "Shake"],
+                                "endingEffects": ["Flashes"],
+                                "spriteAtTheEndOfHscene": "Characters/Diana/new NSFW/resized/after riding dildo",
+                                "spriteAtTheEndOfHscenePosition": [ 0.59, -0.59 ],
+                                "lineAfterHevent": "Ahh... it was amazing... ♥︎",
+                                "closeDialogueOptions": true,
+                                "isHEventStarted": true,
+                                "auto_lines": ["Oh, fuck yeah, you like what you see? This pussy’s wetter than a nuclear meltdown. Watch me make it rain, baby. ♥︎",
+        "Mmm, every time I ride this dildo, I imagine it’s your dick. Better get in line, ‘cause this pussy’s got a waiting list. ♥︎ Ahh...",
+        "Fuck, I’m dripping like a leaky faucet. Got a mop, honey? ‘Cause I’m about to flood this vault. Ahh, ♥︎!",
+        "You hear that? That’s the sound of my pussy begging for more. I’m so fucking wet, I could start a tsunami. Ahh, oh yes!",
+        "Mmm, every stroke makes me wetter. You can almost hear my pussy purr. Like a fucking engine revving up, and I’m about to cum so hard, I’ll stall out. Ahh, ♥︎!",
+        "Oh god, I’m gonna cum so hard, it’ll feel like an earthquake hit this vault. Hold onto something, darling, ‘cause shit’s about to get real fucking wild! ♥︎ Ahh!",
+        "You see this? My dildo is all soaked, and I’m not even close to being done. This pussy’s like a slip ‘n slide—bet you wanna dive in, huh? Mmm, ♥︎",
+        "Mmm, that’s right, keep your eyes on this. I’m getting so fucking wet, I could drown a ghoul in my pussy. Ahh, oh yes!",
+        "Fuck, fuck, fuck, I’m so close. Watch this pussy cream like a fucking Twinkie. Hope you’re hungry, ‘cause there’s gonna be enough cum to go around. ♥︎",
+        "Mmm, just think about it. My wet pussy on your face, dripping like a faucet, and you lapping it up like a thirsty dog. Oh yes, ahh!",
+        "I want you to see me cum so hard, you’ll need a fucking raincoat. This pussy’s a fire hydrant, and you’re standing right in front of it. Mmm, ♥︎!",
+        "Oh, you like it when I play with my clit? Good, ‘cause I’m about to rub it raw. My pussy’s gonna be so red, it’ll look like a fucking emergency light. Ahh, ♥︎",
+        "Mmm, fuck yes. I’m gonna squirt so hard, the Purity Police will think the vault’s under attack. Get ready to duck and cover, sweetheart. Ahh, ♥︎!",
+        "Every time I slide my fingers in, it’s like slipping into a pool of honey. Sticky, sweet, and begging to be licked clean. Mmm, oh fuck, yes!",
+        "Oh god, I can feel my pussy clenching. It’s like a fucking vice grip. This cunt’s got a mind of its own, and it’s hungry. ♥︎ Ahh!",
+        "Ahh, fuck, my pussy’s throbbing. It’s like a heartbeat between my legs, pumping, pulsing, begging for cum. You watching, baby? ‘Cause I’m about to explode. ♥︎",
+        "Mmm, I’m dripping down my thighs now. This pussy’s wetter than a fucking shower, and you’re about to get soaked. Ahh, ♥︎",
+        "Fuck, I’m so close. My pussy’s like a volcano about to blow, and when it does, you’ll wish you brought an umbrella. Ahh, oh yes, ♥︎!",
+        "Mmm, I love teasing this pussy. It’s like playing with dynamite—one wrong move, and I’ll blow your mind. Watch me set this cunt on fire. Ahh, ♥︎",
+        "Oh fuck, I’m gonna cum so hard, the whole vault’s gonna hear me. Hope you like loud girls, ‘cause I’m about to scream your fucking name. Ahh, ♥︎ yes!"]
+                            }
+                        ]
+                    },
+                    {
+                        "optionText": "Your dildo’s nice, but I bet I could do better. Want a live performance?",
+                        "relationshipRequired": 60,
+                        "desireRequired": 60,
+                        "responseText": "Alright, Mr. Big Talk, let’s see what you’ve got. But fair warning, I’ve got a very short attention span for disappointments. Better hope you can outlast a AA battery because if not, it's back to the toy chest for me. Now, strip, and impress me!",
+                        "followUpOptions": [
+                            {
+                                "optionText": "[Fuck her]",
+                                "changeSprite": "Characters/Diana/new NSFW/resized/sex anal",
+                                "newSpriteXPos": 0.6,
+                                "newSpriteYPos": -0.16,
+                                "specialEffects": ["Shake", "Blackout"],
+                                "endingEffects": ["Flashes"],
+                                "spriteAtTheEndOfHscene": "Characters/Diana/new NSFW/sitting no panties",
+                                "spriteAtTheEndOfHscenePosition": [ 0.59, -0.59 ],
+                                "lineAfterHevent": "Ahh... it was amazing... ♥︎",
+                                "closeDialogueOptions": true,
+                                "isHEventStarted": true,
+                                "auto_lines": [ 
+                                "Oh, you think you’re a better ride than this bad boy? Let’s see if you can make my pussy purr louder than Mr. Buzz on max speed.",
+        "Mmm, ♥︎, strip down and show me if you’ve got more juice in you than these batteries. My pussy’s wetter than a Deathclaw in heat, and you’re about to get clawed.",
+        "Fuck, I’m already soaked. Come over here and slip in, or are you scared your joystick won’t measure up to my toys?",
+        "Ahh, ♥︎, yes! Make me cum so hard the vault’s gonna need a mop, and I’ll make sure you never have to do potato duty again.",
+        "Get on your knees and worship this pussy like it’s the last drop of Nuka-Cola in the wasteland, or go back to fapping in the Shame Chamber.",
+        "Ahh, ♥︎ harder! If you don’t make me squirt, I’m telling everyone in the vault you’re as dry as the Mojave Desert. Think you can handle that, stud?",
+        "Mmm, fuck, you better get over here and start working this clit before Mr. Buzz beats you to it. First one to make me cum gets bragging rights and maybe a blowjob later.",
+        "Oh, fuck yeah, ♥︎! Pound me like the vault door during a radstorm! Make me scream like I’m on the Emergency Release Button!",
+        "Ahh, ♥︎, that’s it! My pussy’s wetter than a Mirelurk’s ass. If you don’t make me cum, I’m throwing you to the Purity Police in nothing but handcuffs.",
+        "Damn, ♥︎, my dildo might be good, but I want your dick to hit spots that make me see stars. Make my pussy feel like it’s the Fourth of July, baby!",
+        "Ahh, fuck yes! Show me you’re not just another vault boy with big talk. Make me cum so hard I forget my own name!",
+        "Yeah, that’s right, ♥︎, keep going. Make me wetter than a Ghoul’s mouth. If you can get me off, I’ll scream so loud, the Overseer will think there’s a riot.",
+        "Mmm, ♥︎, you’re getting me close! If you can make me cum faster than Mr. Buzz, I’ll let you taste the afterglow straight from the source.",
+        "Oh, fuck, ♥︎, my pussy’s aching for you! If you don’t fill me up right now, I’m gonna replace you with the biggest dildo I can find and livestream it.",
+        "Ahh, fuck, yeah! Fuck me like the world’s ending, and I’ll let you cum on my tits while I ride you into next week.",
+        "Holy shit, ♥︎, don’t stop! My pussy’s so fucking wet. If you make me squirt, I’ll wear your cum like it’s the latest vault fashion.",
+        "Mmm, ♥︎, I’m dripping. You better fuck me harder than a radroach on Jet, or I’m gonna cum all over your face instead.",
+        "Fuck, ♥︎, yes! Make me cum so hard, they’ll hear us in the Wasteland. I want every single vault dweller to know who’s making me scream tonight.",
+        "Mmm, ♥︎, keep it up, and I’ll give you a reward that’ll make your vault suit stand at attention. Think you can handle a second round?",
+        "Fuck, ♥︎, I want you to fill me up like I’m a Nuka-Cola bottle, and you’re the last drop of cum in the wasteland. Don’t spill a single drop!", 
+        "Oh, you think you can out-fuck my dildo? Please. This pussy’s wetter than the Wasteland during monsoon season, and you’re about to drown, darling.",
+        "Alright, big shot, whip it out and let’s see if you can cum before I finish round two with Mr. Buzz. Spoiler: you’re gonna need a towel when you lose.",
+        "Mmm, this pussy’s been tighter than a Vault door, but for you? I’ll let it flood. Just make sure you know how to swim.",
+        "You’ve got one chance to fuck me harder than this toy, or I’m sending you to the Shame Chamber with blue balls and a sad story.",
+        "Oh, yeah? You think you can make me cum harder than this? Honey, my vibrator’s got a setting that’ll make your dick cry for its momma.",
+        "Mmm, make me wetter than a Mirelurk Queen on heat, and maybe I’ll let you taste what victory really feels like.",
+        "Ahh, fuck, that’s it. Show me what that dick can do, or it’s back to playing second fiddle to my buzzing bestie.",
+        "You make me cum so hard the Overseer will think there’s an earthquake, and maybe I’ll let you be my full-time boy toy.",
+        "♥︎ That’s it, make me scream louder than a Deathclaw in mating season. Show me you’re more than just a vault scrub with a boner.",
+        "I’ve got more tricks in this pussy than a Yao Guai in a circus, and I’m about to make you cum so hard you forget your own name.",
+        "Fuck, yes, make me wetter than a swamp rat’s asshole. You do a good job, and I’ll make sure you walk funny for a week.",
+        "Mmm, ♥︎ you think you’ve got what it takes to outlast this vibrator? Good luck, sweetheart, ‘cause I’ve been breaking men like you since before the bombs fell.",
+        "Ahh, harder, faster! Fuck me like the Wasteland’s ending again, and maybe I’ll let you survive the fallout of my orgasm.",
+        "Make this pussy cum like it’s the last day on Earth, and I’ll reward you with a ride that’ll make your Pip-Boy malfunction.",
+        "♥︎ Don’t stop now, baby. I want this vault to echo with the sound of your defeat as I cum all over your sad little ego.",
+        "Ahh, yes, fuck me like you mean it! If you make me cum harder than my dildo, I’ll let you call yourself Vault 6969’s new ‘Oversexy-er.’",
+        "Mmm, ♥︎ I can feel you shaking already. Can’t handle the pressure? Better put up or shut up, ‘cause this pussy doesn’t settle for second best.",
+        "Ahh, God, you’re good. But can you keep it up, or are you gonna cum before I even break a sweat?",
+        "Mmm, ♥︎ yes, harder! You’re making me wetter than a Nuka-Cola on a hot day. Keep it up, and I’ll make sure you’re the most envied man in the vault.",
+        "Ahh, fuck, that’s it! Make me cum so hard my pussy squirts like a broken water pipe. Let’s see if you can handle the flood, big boy."]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "optionText": "[Give a Gift]",
+        "isGifting": true
+    },
+    {
+        "optionText": "Want to hang out? [End Day]",
+        "isHangingOutWithDiana": true,
+        "relationshipPoints": 1,
+        "exitLine": true
+    },
+    {
+        "optionText": "Bye.",
+        "responseTexts": [ "Leaving so soon? I was just starting to have fun.", "Don’t be a stranger, okay? It’s nice to have someone around who can appreciate a little chaos." ],
+        "exitLine": true
+    }
+    ],
+    "auto_lines": ["Oh, hey, look who showed up! You here for me, or did you just wanna pet my pussy? The furry one, obviously!"]
+}

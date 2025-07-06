@@ -1,0 +1,141 @@
+{
+  "options": [
+    {
+      "optionText": "What’s going on? You look serious.",
+      "responseText": "I’m knocked up. And it’s yours. You pumped me full so hard the vault med-bot flagged me as compromised. Your dick apparently works a little too well. You put a baby in me and... for once I don’t feel like running from it. Or from you.",
+      "followUpOptions": [
+        {
+          "optionText": "You sure it's mine? I'm not the only guy in this vault, you know...",
+          "responseText": "It’s yours. I haven’t exactly been passing myself around, okay? You were the only one I let wreck me raw."
+        },
+        {
+          "optionText": "I don’t believe you.",
+          "responseText": "I get it. I wouldn’t have believed me either. But it’s real. I feel it every damn second—my body’s changing, my head’s a mess... and I keep thinking about you. About us. You think I'd lie about growing a whole human in me just to screw with you? You wanna see the med-scan, or maybe just the tits that don't fit in my damn suit anymore?"
+        },
+        {
+          "optionText": "So what now? You move in? We raise the kid?",
+          "icon": "GUI/quest mark",
+          "emotion": "Characters/Diana/Emotions/standing cleavage/closed eyes",
+          "responseText": "Honestly... part of me wants that, yes. But there's a problem. The purity police know—I’ve been flagged. They’re talking about exiling me unless you convince them otherwise.",
+          "followUpOptions": [
+            {
+              "optionText": "Are you sure you want this? It could mean trouble for both of us.",
+              "emotion": "none",
+              "responseText": "I didn’t plan on becoming the vault’s knocked-up scandal, and I’m scared, yeah—but I want to fight for this. For us. But only if you do too."
+            },
+            {
+              "optionText": "Don't worry. I'll deal with them.",
+              "icon": "GUI/quest mark",
+              "emotion": "none",
+              "responseText": "You will? God… thank you. I don't know what I'd do without you. Just… don't back down, okay? Show them we're serious. Otherwise, I'm gone, and this kid—our kid—might never know you.",
+              "addObjective": "Help Diana Avoid Exile"
+            },
+            {
+              "optionText": "If this is happening... I’m with you. All the way.",
+              "progressionEventPlayed": "acceptedToBeFatherForDiana",
+              "icon": "GUI/heart4",
+              "emotion": "none",
+              "responseText": "Really? You mean that? Shit... don’t make me cry. These hormones are already wrecking me. But yeah—I want this. With you. ♥",
+              "followUpOptions": [
+                {
+                  "optionText": "We'll figure this out. Together. I promise.",
+                  "emotion": "Characters/Diana/Emotions/standing cleavage/closed eyes", 
+                  "responseText": "Yeah. Together. Damn... I never thought I’d say this, but I’m glad it was you."
+                },
+                {
+                  "optionText": "I feel the same way, Diana... I didn’t expect this either, but I want it. I want *you.*",
+                  "emotion": "Characters/Diana/Emotions/standing cleavage/closed eyes",
+                  "responseText": "...God. Say that again. I swear, I thought I’d never hear anything like that meant for me. You actually mean it?"
+                },
+                {
+                  "optionText": "I love you, Diana. I think I have for a while now.",
+                  "icon": "GUI/heart4",
+                  "emotion": "Characters/Diana/Emotions/standing cleavage/shocked",
+                  "responseText": "Wait—what? You can't just... fuck. I... shit. I wasn't ready to hear that. My head's a mess, my heart’s racing, and I don’t even know what I’m supposed to say."
+                  ,"followUpOptions": [
+                    {
+                      "optionText": "Do you need a minute?",
+                      "emotion": "Characters/Diana/Emotions/standing cleavage/closed eyes", 
+                      "responseText": "Yeah... maybe? Fuck. I didn't expect to feel like this. You just threw me a curveball, and now I’m drowning in feelings I didn't even know I had."
+                    },
+                    {
+                      "optionText": "Just tell me the truth—how do you really feel?",
+                      "icon": "GUI/heart4",
+                      "emotion": "Characters/Diana/Emotions/standing cleavage/happy crying", 
+                      "responseText": "The truth? It terrifies me. Because I think... no, I *know* I'm in love with you too. It feels reckless and stupid, but goddammit, I can’t stop it."
+                      ,"followUpOptions": [
+                        {
+                          "optionText": "Is that really you talking, or just the hormones?",
+                          "emotion": "Characters/Diana/Emotions/standing cleavage/closed eyes", 
+                          "responseText": "I wish it were that simple. These feelings were here long before you knocked me up. The hormones just made hiding them impossible."
+                        },
+                        {
+                          "optionText": "Diana, we’ll make this work. I promise.",
+                          "emotion": "Characters/Diana/Emotions/standing cleavage/happy crying", 
+                          "responseText": "I believe you. And honestly, right now that scares me more than anything. But it's good. Maybe scary means it’s real."
+                        },
+                        {
+                          "optionText": "*kiss her*",
+                          "icon": "GUI/heart4",
+                          "changeSprite": "Characters/Diana/kiss",
+                          "newSpriteXPos": 0.4,
+                          "newSpriteYPos": 0.49,
+                          "emotion": "none", 
+                          "specialEffects": ["Blackout"],
+                          "responseText": "*soft gasp* ...God, I've wanted that. For so long. *slurp*",
+                          "followUpOptions": [
+                            {
+                              "optionText": "*hold her close, say nothing*",
+                              "responseText": "*leans into you* ...You don’t have to say anything. I already know. Just don’t let go."
+                            },
+                            {
+                              "optionText": "*whisper* I’m not going anywhere. Ever.",
+                              "responseText": "*eyes well up* ...Then stay. Just like this. For as long as you can.",
+                              "changeSprite": "Characters/Diana/standing cleavage 2",
+                              "emotion": "none", 
+                              "newSpriteXPos": 1.4,
+                              "newSpriteYPos": -0.72,
+                              "followUpOptions": [
+                                {
+                                  "optionText": "We'll convince the purity police. You're staying right here.",
+                                  "responseText": "You better. Because if I lose you, I lose everything. And that's not an option.",
+                                  "fadeOutCharacter": true,
+                                  "addObjective": "Help Diana Avoid Exile",
+                                  "dontShowThisCharacterTodayAnymore": true,
+                                  "exitLine": true
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "optionText": "So... what do you want from me?",
+              "emotion": "Characters/Diana/Emotions/standing cleavage/closed eyes",
+              "responseText": "I don’t know. Support? Presence? A sign that I’m not completely insane for thinking we could be something together? I’m not asking you to be perfect—not as a father, or anything else. Just be real with me."
+            },
+            {
+              "optionText": "This isn’t my problem. I never signed up for this.",
+              "emotion": "Characters/Diana/Emotions/standing cleavage/crying",
+              "responseText": "*tears up, voice cracking* ...Right. Of course you didn’t. Stupid me, thinking you might actually give a damn. Forget I said anything. Forget *me.*",
+              "fadeOutCharacter": true,
+              "progressionEventPlayed": "refusedToBeFatherForDiana",
+              "exitLine": true
+            }
+          ]
+        }
+      ]
+    },   
+    {
+      "optionText": "Bye", 
+      "responseText": "Go if you need to. But please... come back. This isn’t something I want to face alone. Not anymore.",
+      "exitLine": true
+    }
+  ],
+  "auto_lines": ["There you are. We need to talk. And before you say anything—just listen, okay?"]
+} 

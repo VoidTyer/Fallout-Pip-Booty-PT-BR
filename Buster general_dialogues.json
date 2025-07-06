@@ -1,0 +1,62 @@
+{
+    "options": [
+        {
+            "optionText": "Who the hell are you, and why are you sitting here like you own the place?",
+            "responseText": "Name's Buster. Buster 'Mellow' Burns. Self-appointed purity bouncer of this fine establishment. Gotta make sure no one's getting... you know... too excited over their Nuka-Cola. Ever seen a man meditate so hard his pants fall off? Stick around.",
+            "followUpOptions": [
+                {
+                    "optionText": "Purity bouncer? What, are you afraid someone's gonna get too handsy with the mashed potatoes?",
+                    "responseText": "Listen, bro, potatoes are the gateway tuber. You start with potatoes, next thing you know, you're neck-deep in contraband carrots. I’m just here to keep things zen, not... juicy."
+                }
+            ]
+        },
+        {
+            "optionText": "What’s that weird smell? Are you vaping farts?",
+            "responseText": "Haha. Nah, man. This here’s my own blend. I call it ‘Zen Master Kush.’ It’s got hints of enlightenment, mixed with a splash of ‘I don’t give a fuck.’ Clears the mind. Or so I tell the purity police.",
+            "followUpOptions": [
+                {
+                    "optionText": "You sure it's legal?",
+                    "responseText": "What’s legal anymore? They’re cracking down on everything fun. Pretty soon, they'll make breathing illegal. But I got the hookup from a guy in the hydroponics lab. Swears it's just mint... and maybe a bit of weed."
+                },
+                {
+                    "optionText": "Can I have a hit?",
+                    "responseText": "<i>Buster looks you up and down.</i> Alright, but only because you seem chill. One hit, though. Any more and you might start seeing the universe in 8K.",
+                    "followUpOptions": [
+                        {
+                            "optionText": "[Take a hit]",
+                            "responseText": "Welcome to the zen zone, newbie. Just don’t let the Purity Police see you, or we’re both gonna be spending quality time in the Shame Chamber.",
+                            "specialEffects": ["ChromaticAberration"],
+                            "playSound": "Sounds/fallout 4/chem eddict",
+                            "exitLine": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "optionText": "So what’s your deal? You just sit here flexing all day?",
+            "responseText": "Flexing is a way of life, man. You flex the mind, you flex the soul. The body just follows. Plus, it helps keep Gina safe from impure thoughts. Not mine, of course. I’m talking about all these other degenerates around here.",
+            "followUpOptions": [
+                {
+                    "optionText": "Who's Gina, your imaginary girlfriend?",
+                    "responseText": "Gina’s the real deal, man. She’s got the face of a 50s pin-up and the attitude of a Radroach on Jet. She’s the only reason I’m not meditating in the shame chamber right now. Gotta keep her safe from pervs... like you.",
+                    "followUpOptions": [
+                        {
+                            "optionText": "Sounds like you've got a major crush on her.",
+                            "responseText": "<i>Buster's face turns slightly red, but he tries to play it off with a shrug.</i> Nah, man, it’s not like that. I’m just… looking out for her. Like a guardian angel. With muscles. And a vape pen."
+                        },
+                        {
+                            "optionText": "And what if she’s the one with impure thoughts?",
+                            "responseText": "Whoa, that’s like… some next-level zen sh*t right there. But nah, Gina’s pure. I mean, as pure as you can be in a vault full of horny idiots and canned beans."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "optionText": "Bye",
+            "responseText": "<i>Buster gives a two-finger salute.</i> Stay cool, man.",
+            "exitLine": true
+        }
+    ]
+}

@@ -1,0 +1,73 @@
+{
+    "options": [
+        {
+            "optionText": "What’s your story, ghoul?",
+            "responseText": "*The ghoul cackles, licking cracked lips.* Stitch is the name. Used to draw, now I pick turnips for Mister Greaves over there. Life’s funny, ain’t it?",
+            "followUpOptions": [
+                {
+                    "optionText": "You were an artist?",
+                    "responseText": "Yeah. Did covers for sleaze rags—*Mutant Lust*, *Robo-Tarts of Venus*, that kinda thing. Big hips and more cleavage than plot. Sold like Med-X in a Raider den. Now I sketch ghouls getting railed by Mirelurks in the dirt. Still got the touch—just no audience.",
+                    "followUpOptions": [ 
+                        {
+                            "optionText": "You still draw?",
+                            "responseText": "When the boss ain’t lookin'. Scratch out filth in the mud with a fingerbone. Got one piece of *La Fantoma* riding a Behemoth in a bikini made of Radroach wings. Masterpiece. Blew it away in the wind like a fart in a sandstorm."
+                        }
+                    ]
+                },
+                {
+                    "optionText": "You ever think about escaping?",
+                    "responseText": "Escape? From what, meatbag? The chains? The farm? The *mind*? Heh... Even if I ran, the rot would follow.",
+                    "followUpOptions": [
+                        {
+                            "optionText": "You could still be free.",
+                            "responseText": "Freedom’s just slavery with more choices. Least here I know who owns me."
+                        },
+                        {
+                            "optionText": "You're pathetic.",
+                            "responseText": "Takes one to know one, shiny. We all wear chains—mine just jingle louder."
+                        }, 
+                        {
+                            "optionText": "I could kill your master.",
+                            "responseText": "Would you now? And what then? You think freedom’s gonna fix *this*?' *He taps his skull, then his chest.* The rot runs deep, friend."
+                        }
+                    ]
+                },
+                {
+                    "optionText": "That's your guitar?",
+                    "icon": "GUI/song icon",
+                    "responseText": "She’s mine, yeah. Name’s Lucy. Six-stringed lady—probably the cleanest thing I ever fingered. Found her in a corpse wagon ten years back. Strings were gut, real gut.",
+                    "followUpOptions": [
+                        {
+                            "optionText": "Can you still play?",
+                            "icon": "GUI/song icon",
+                            "responseText": "Still can. Still *do*. When the moon’s low and the master's passed out drunk. I pluck til my fingers bleed—makes the sound warmer.",
+                            "followUpOptions": [
+                                {
+                                    "optionText": "Play something.",
+                                    "icon": "GUI/song icon",
+                                    "progressionEventPlayed": "ghoul_song_request",
+                                    "playMusic": "Songs/Ghoul Song",
+                                    "responseText": "*Stitch picks up Lucy, fingers trembling. He strums a haunting, off-key tune.*",
+                                    "exitLine": true
+                                } 
+                            ]
+                        },
+                        {
+                            "optionText": "Why not sell it and get outta here?",
+                            "responseText": "Sell Lucy? That’s like sellin’ your mother. Or your daughter. Nah... I’ll die with her... and maybe she’ll hum over my bones."
+                        } 
+                    ]
+                }
+            ]
+        },
+        {
+            "optionText": "Who’s the guy with the shotgun?",
+            "responseText": "Oh, that? That’s Mr. Greaves. Keeper of the crops and my lovely leash. Say hi, Daddy!"
+        },   
+        {
+            "optionText": "Bye",
+            "responseText": "Leave fast, fresh meat. I start gnawin' if I get bored.",
+            "exitLine": true
+        }
+    ]
+} 

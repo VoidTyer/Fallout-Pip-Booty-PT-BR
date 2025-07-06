@@ -1,0 +1,33 @@
+{
+    "options": [ 
+        {
+            "optionText": "That was... intense.",
+            "responseText": "Mmm, oh honey, that was just the preview. If I really let loose, the whole vault would need new floors.",
+            "followUpOptions": [
+                {
+                    "optionText": "Did the vault's reactor just shut down, or was that you?",
+                    "responseText": "Oh, baby, that was all me. I swear, if the Overseer felt that, he's gonna think a fucking nuke went off."
+                },
+                {
+                    "optionText": "I thought I was gonna need a life raft for a second.",
+                    "responseText": "Life raft? Honey, you’re gonna need a submarine to survive the flood I just caused ♥."
+                }
+            ]
+        },
+        {
+            "optionText": "I can't believe the walls didn't shake.",
+            "responseText": "Oh, sweetheart, they did. You just didn't notice over the sound of my pussy breaking the sound barrier.",
+            "followUpOptions": [ 
+                {
+                    "optionText": "Next time, maybe don’t aim for the ceiling?",
+                    "responseText": "Oh, but that’s where the fun is! ♥"
+                }
+            ]
+        }, 
+        {
+            "optionText": "Bye.",
+            "responseText": "Running off already? You sure you’re not the one who needs to cool down, sweetheart?",
+            "exitLine": true
+        }
+    ]
+}

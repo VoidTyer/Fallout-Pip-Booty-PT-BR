@@ -1,0 +1,86 @@
+{
+    "options": [ 
+    {
+        "optionText": "[Watch]",
+        "spriteAtTheEndOfHscene": "Characters/Grace Wells/masturbating",
+        "spriteAtTheEndOfHscenePosition": [ 7.12, -0.6 ],
+        "changeSprite": "Characters/Grace Wells/Focused/masturbating",
+        "setBGcolor": "#FFFFFF",
+        "exitLine": true,
+        "isHEventStarted": true, 
+        "closeDialogueOptions": true,
+        "progressionEventPlayed": "first_grace_masturbation",
+        "newSpriteXPos": 0.8,
+        "newSpriteYPos": 0.3,
+        "swapAnotherCharacterDialogue": [ "Grace Wells", "Characters/Grace Wells/post_fapping"],
+        "icon": "GUI/eye icon",
+        "hEventName": "grace_masturbation",   
+        "lineAfterHevent": "Ahhh… okay, Grace. You officially love touching yourself. Congratulations on becoming the vault’s horniest girl!",
+        "auto_lines": [ "Okay... deep breaths, Grace. It’s just touching, right? How complicated could it be?",
+
+        "Oh god… oh god… what if someone comes in…",
+
+"Why do people make such a fuss about this anyway… like, it's just skin, right? Just—oh... oh my...",
+
+"Ahh… what was that feeling? It felt kinda… sparkly? Tingly?",
+
+"Mmm, okay, that feels weirdly good… Why haven't I done this before?",
+
+"Oh god, that little button thing... it’s super sensitive. No wonder everyone's obsessed with this!",
+
+"Uh, is this normal? It’s like… electricity, but good. Really good.",
+
+"Mmm, okay… slow down, Grace. You’re supposed to savor it, right? Right?",
+
+"Oh… oh wow, I can’t believe I’m actually doing this—mmm… breaking the rules never felt so good…",
+
+"Ugh… stupid fingers… just… keep going…",
+
+"Ahh… This whole vault thing is insane. How can they outlaw something this amazing?",
+
+"Ah! My legs are shaking… uh, what am I even supposed to think about right now?",
+
+"Mmm, imagining someone's hands instead of mine makes it feel even better… oh god, this is so naughty!",
+
+"Ah, uh, this wetness—is this normal? Am I supposed to be dripping this much?",
+
+"Uhh, oh god… I need more… harder? Faster? I don’t know! Just—mmm—more!",
+
+"I shouldn’t be doing this… but it feels… too good…",
+
+"Ah, oh uh, I think I'm gonna explode if I keep going—uh, is that supposed to happen?!",
+
+"Mmm, why didn’t anyone tell me my pussy could feel like this? It’s like discovering a hidden power…",
+
+"Ahhh, uh… why do I keep picturing others watching me right now? Why is this turning me on even more?",
+
+"Oh god… mmm… I wish someone was here watching me do this. uh, that’s so dirty… why does that make it even better?",
+
+"Uh, I think I'm close? Am I close? Oh my god, how do I even know!?",
+
+"Mmm—oh uh, uh—something’s happening! Oh god, am I breaking something!?",
+
+"Ahhhh… oh god… uh yes… is this it? This feels incredible, I’m gonna cry!",
+
+"Uh… is this why everyone always looks so happy after sneaking off to their rooms?",
+
+"Ohhh, wow… it’s like my whole body just thanked me. Why didn’t anyone tell me?",
+
+"Mmm, oh my god… I'm definitely doing that again… like, in ten seconds. Is that okay? Can you overdose on this?",
+
+"Ahhh, I don’t even care… rules be damned, my pussy demands attention!",
+
+"Oh god, my fingers feel perfect there… is it weird if I call them my new best friends?",
+
+"Uh, thinking about how someone'd react to seeing me like this… it makes me wanna keep going…",
+
+"Ohh, if touching myself feels this good, how much better could someone's fingers—or something else—feel?",
+
+"God, this is amazing… uh the rules. uh waiting. I need someone to see me like this…"],
+    "endingEffects": ["Flashes"]
+    }
+    ],
+    "auto_lines": ["Okay... deep breaths, Grace. It’s just touching, right? How complicated could it be?",
+
+"Why do people make such a fuss about this anyway… like, it's just skin, right? Just—oh... oh my..." ]
+}

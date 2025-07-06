@@ -1,0 +1,54 @@
+{
+    "options": [
+        {
+            "optionText": "Who the hell are you?",
+            "icon": "GUI/quest mark",
+            "responseText": "I’m Candy. Yes, that’s really my name. And no, you can’t fucking laugh right now. We’ve got bigger problems—like the swarm of bugs that want to make your nuts their midnight snack.",
+            "followUpOptions": [
+                {
+                    "optionText": "What the actual fuck are you talking about?",
+                    "icon": "GUI/quest mark",
+                    "responseText": "Nut Suckers, genius. Flying little shits that latch onto you and drain your family jewels like a Capri Sun. Now stop standing there with your mouth open and help me before we both end up shriveled raisins.",
+                    "followUpOptions": [ 
+                        {
+                            "optionText": "Nut Suckers? Are you fucking serious?",
+                            "responseText": "Does it look like I’m joking, newbie? I’ve already seen three guys wake up with deflated sacs, and let’s just say they’re not in a hurry to show their faces again."
+                        },
+                        {
+                            "optionText": "What do they look like?",
+                            "responseText": "Big, ugly fuckers with wings. Look like someone crossed a hornet with Satan’s worst hangover. You hear that high-pitched ‘zzzzreep’ sound? That’s your warning to get the hell out."
+                        },
+                        {
+                            "optionText": "Can’t we just hide?",
+                            "responseText": "Sure, try hiding. Let me know how it feels when you wake up with your sack looking like a dried-out raisin. I’ll wait... actually, no I won’t. Go ahead, hide, and tell me how that works out for you."
+                        },
+                        {
+                            "optionText": "And how exactly do I kill them?",
+                            "responseText": "Kill them? Honey, if I knew that, I wouldn’t be standing here wasting my time with you. Try squashing them, zapping them, hell, shout at them if it makes you feel better. But you’re gonna have to figure this one out yourself."
+                        },
+                        {
+                            "optionText": "Fine, I’ll help.", 
+                            "exitLine": true,
+                            "fadeOutCharacter": true,
+                            "icon": "GUI/quest mark",
+                            "addObjective": "Kill 5 Nutsuckers",
+                            "responseText": "Alright, here’s the plan: don’t die, don’t get sucked, and find something—*anything*—that can smash or fry these little perverts."
+                        }
+                    ]
+                }, 
+                {
+                    "optionText": "Why should I care?",
+                    "responseText": "Oh, I dunno. Maybe because you like walking around with a set between your legs? Or are you planning on entering some monk phase and this just doesn’t matter to you anymore?",
+                    "followUpOptions": [
+                        {
+                            "optionText": "Wait, how do I know you’re not fucking with me?",
+                            "responseText": "Pfft. Do I look like I’ve got time for jokes? You think I sprinted all the way down here just to mess with the new guy? If you hear buzzing, I’m not sticking around to say ‘I told you so.’"
+                        } 
+                    ]
+                }
+                
+            ]
+        } 
+    ],
+    "auto_line": [ "Rise and shine! Hope you had a good nap, ‘cause we’ve got a fucking problem. Unless you like the idea of bugs sucking the life out of your balls while you snooze, you better get your ass up!" ]
+}

@@ -1,0 +1,33 @@
+{
+    "options": [
+      {
+        "optionText": "Are you seriously just letting Hugh Jass enjoy the view? What’s wrong with you?",
+        "responseText": "What’s wrong with me? Oh, I dunno, maybe I’ve been trapped in a vault where I can’t get any release, and now I’m just *done* caring? Let him look. He can’t touch.",
+        "followUpOptions": [
+          {
+            "optionText": "It’s hard to tell if you’re trying to tease or if you’ve actually lost your damn mind.",
+            "responseText": "Oh, it’s both, sweetheart. I’m losing it, but I might as well have a little fun before I snap completely. Hugh seems to enjoy the show, at least!"
+          },
+          {
+            "optionText": "He’s probably imagining every horrible thing possible right now.",
+            "responseText": "Oh, trust me, I know. I can *feel* his pervy little brain working overtime. At least someone’s getting something out of this!"
+          },
+          {
+            "optionText": "Hugh, buddy, you might wanna close your mouth before you start drooling on yourself.",
+            "responseText": "*Hugh Jass*: 'I... I can’t help it! She’s right there, showing *everything*! This is too much for a man to handle!'",
+            "followUpOptions": [
+              {
+                "optionText": "You’ve officially broken Hugh. He’s like a puppy who’s just seen his first steak.",
+                "responseText": "Good. Maybe now he’ll shut up about his 'technique.' Honestly, watching him squirm is almost worth it."
+              },
+              {
+                "optionText": "Hugh’s about two seconds away from making this a lot messier. You might wanna cover up.",
+                "responseText": "Nah, let him suffer. It’s the most excitement he’s had in years. Besides, I’m just sitting here... totally innocent, right?"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

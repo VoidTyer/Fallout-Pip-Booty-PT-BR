@@ -1,0 +1,55 @@
+{
+    "options": [
+    {
+        "optionText": "[Report her to the Purity Police]",
+        "responseTexts": ["Oh, honey, go ahead! I could use the audience. ♥"],
+        "exitLine": true,
+        "specialEffects": ["removeBlur", "removeVignette"],
+        "reported": 5
+    },
+    {
+        "optionText": "[Watch]",
+        "spriteAtTheEndOfHscene": "Characters/Diana/in cum/sitting in cum",
+        "spriteAtTheEndOfHscenePosition": [ 1.73, -1.99 ],
+        "closeDialogueOptions": true,
+        "isHEventStarted": true,
+        "icon": "GUI/eye icon",
+        "HideAllShadowFiguresAfterHevent": true,
+        "addGripGaugePoints": 500,
+        "endingEffects": ["Flashes"],
+        "hEventName": "diana_shower_group_handjob",
+        "emotionsDuringHevent": ["none", "Characters/Diana/Emotions/Showers mass handjob/em1", "Characters/Diana/Emotions/Showers mass handjob/em2", "Characters/Diana/Emotions/Showers mass handjob/em3"],
+        "lineAfterHevent": "Ahh... it was amazing... ♥︎",
+        "auto_lines": ["Mmm, that’s it, let me taste all that pent-up frustration. You’ve been holding back, haven’t you? *slurp* ♥",
+"Vault dweller: She’s like a vacuum cleaner, man! Sucking the soul right out of him. I’m next in line!",
+"Ahh, there’s nothing like a good, hard dick to make these showers steamy. Hmmm, you boys are making me so wet down here.",
+"Vault dweller: Damn, no wonder the Purity Police can’t keep up with her. She’s like a one-woman rebellion!",
+"*slurp* Don’t be shy, boys, I’ve got room for everyone. Just line up and let Diana work her magic. ♥",
+"Vault dweller: This is why we need to make her the Overseer. She knows how to keep morale high... and other things.",
+"Oh, fuck yes, that’s what I like to see – all these cocks ready to burst. Aghh, keep it coming!",
+"giggles Mmm, you taste so good. I could do this all day. In fact, I just might. Who’s next?",
+"Oh, you’re so hard. I can feel your juices ready to explode. Hmmm, don’t hold back. ♥",
+"Mmm, I love it when you groan like that. Makes my pussy throb just thinking about all that cum. *slurp*",
+"Aghh, you’re really giving me a mouthful. Keep going, fill me up. I want to taste every drop. ♥",
+"Is that all you got? I’ve seen more action in the potato fields. Give me something to work with! *slurp*",
+"Ahhh... Oh, I love it when you grab my hair like that. Shows me just how desperate you are. ♥",
+"Aghh, yes! Cover me in your cum, let me feel your frustration all over my skin. Hmmm, I’m getting so fucking wet.",
+"*slurp* Oh, I can feel you twitching. Don’t you dare cum just yet; I’m not done playing with you.",
+"You taste like the Wasteland, dirty and desperate. Mmm, I fucking love it. ♥",
+"giggles I think I see some of you getting jealous. Don’t worry, there’s enough of me to go around.",
+"Ahh, so many hard cocks, so little time. Guess I’ll have to speed things up. Hmmm, don’t make me wait.",
+"Mmm, I can taste your juices mixing with mine. So sweet and sticky. Aghh, I can’t get enough.",
+"Who’s a good boy? Mmm, you are. Come on, cum for me. I want to see it all over my face.",
+"*slurp* Hmmm, you’re dripping pre-cum already. Someone’s eager. Don’t worry, I’ll take care of you. ♥",
+"Oh, fuck, that’s it. I love feeling all this power in my hands, in my mouth. Hmmm, more, give me more!",
+"Ahhh... You like watching me, don’t you? Mmm, the way I take every inch down my throat. Aghh, just wait your turn."],
+        "specialEffects": ["removeBlur", "removeVignette"]
+        
+    }
+    ],
+    "auto_lines": [
+"Oh, fuck yes, that’s what I like to see – all these cocks ready to burst. Aghh, keep it coming!",
+"Mmm, I love it when you groan like that. Makes my pussy throb just thinking about all that cum. *slurp*"],
+"hEventStarted": "shower_mass_blowjob",
+"showShadowFigures": "Showers Men 2"
+}

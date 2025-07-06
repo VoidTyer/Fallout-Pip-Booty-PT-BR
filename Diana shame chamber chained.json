@@ -1,0 +1,52 @@
+{
+    "options": [ 
+    {
+      "optionText": "What the hell..? Haha. Your ass looks like it got in a fight with the Bonk Baton. And lost.",
+      "responseText": "Ugh, don’t remind me. The Purity Police were *very* enthusiastic about reminding me of the rules... repeatedly. I might have taunted them a little too much.",
+      "followUpOptions": [ 
+        {
+          "optionText": "Next thing you know, you’ll be crawling all over the walls, hissing like some kind of horny gremlin.",
+          "responseText": "Give it another ten minutes in here, and that might just happen. You might wanna stand back."
+        },
+        {
+          "optionText": "Taunted them? What, did you literally *ask* for it? 'Hey, Purity Police, I double dare you to slap my ass!'",
+          "responseText": "Well... not in so many words, but let’s just say I bent over at *exactly* the wrong time. They took that as an invitation."
+        }, 
+        {
+          "optionText": "How many times has Hugh fapped while staring at your... *situation*?",
+          "responseText": "Oh my God, I *don’t* want to think about it! But judging by the weird noises and muttering... more times than I can count.",
+          "followUpOptions": [
+            {
+              "optionText": "So you’re telling me Hugh’s been going for some kind of world record while you’re stuck here?",
+              "responseText": "Impressive? More like disturbing. Every time I hear that *squish* noise, I die a little inside. He’s like a shame-powered machine!"
+            },
+            {
+              "optionText": "Hugh, how many times have you fapped her chained ass?",
+              "responseText": "Hugh Jass: Um... well, if you count today, it’s... a lot. I stopped counting after the first ten.",
+              "followUpOptions": [
+                {
+                  "optionText": "Ten? Diana, you’re practically his full-time job at this point!",
+                  "responseText": "I’m going to be sick. If these chains weren’t holding me, I’d personally ensure he never fapped again."
+                },
+                {
+                  "optionText": "Hugh, buddy, have you thought about... you know... taking *advantage* of the situation?",
+                  "responseText": "Hugh Jass: Uh... well, I mean... who wouldn’t? She’s right there, and, uh... it’s kinda hard not to think about it.",
+                  "followUpOptions": [
+                    {
+                      "optionText": "Diana, looks like Hugh’s been plotting something in that sick little head of his. How does that make you feel?",
+                      "responseText": "Oh, I feel *fantastic*, thanks. Knowing that Hugh Jass, wants a piece of me? Absolutely thrilled."
+                    },
+                    {
+                      "optionText": "Hugh, you’re playing a dangerous game, man. Diana might rip your head off if you even try.",
+                      "responseText": "Hugh: Yeah, well, I wouldn’t actually *do* it... I think."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        } 
+      ]
+    } 
+    ]
+}

@@ -1,0 +1,123 @@
+{
+    "options": [
+      {
+        "optionText": "You’re looking like a glitch in a raider’s wet dream. What are you doing here?",
+        "icon": "GUI/heart4",
+        "responseText": "Oh, you know, just giving you the chance of a lifetime. You really wanna play hero or you wanna play... something else? ♥",
+        "followUpOptions": [ 
+          {
+            "optionText": "Are you that pent up? Like, are we talking ‘nuclear reactor about to blow’ levels?",
+            "responseText": "Oh, baby, we’re talking *megaton* levels. I’m like a fucking ticking bomb, and you’re the only one who can defuse me... or make it explode even harder!"
+          },
+          {
+            "optionText": "Alright, let’s say I’m in. What now?",
+            "icon": "GUI/heart4",
+            "responseText": "Now? Oh, now the *real* fun starts. But first, why don’t you lock that door and we’ll make sure no one interrupts our little... fun? ♥",
+            "followUpOptions": [
+                {
+                    "optionText": "Alright.",
+                    "changeSprite": "Characters/Diana/Resized/sex with player",
+                    "newSpriteXPos": -1.07,
+                    "newSpriteYPos": -0.92,
+                    "icon": "GUI/heart4",
+                    "spriteAtTheEndOfHscene": "Characters/Diana/in cum/IPAdapter_00842_(1)",
+                    "interactableBGcolor": "#919191",
+                    "spriteAtTheEndOfHscenePosition": [ 4.84, -0.4 ],
+                    "interactable": "Characters/Diana/Interactables/sex",
+                    "specialEffects": ["Blackout"],
+                    "endingEffects": ["Flashes", "StopShake"],
+                    "closeDialogueOptions": true,
+                    "isHEventStarted": true, 
+                    "reduceDesireAfterAutoLines": 10,
+                    "addPerk": "got_diana_pregnant",
+                    "hEventName": "diana_asking_PlayerSex",
+                    "auto_lines": [
+                        "Mmm, you’re really making it hard to stay quiet... ♥",
+"Ahh, don’t stop! I’ve been craving this for weeks... oh god!",
+"Feels like I’m dripping wet with every thrust... hnnng, you’re gonna make me explode!",
+"Mmm, your dick is hitting all the right spots... ♥ Keep going!",
+"Ohhh, I can feel the juices running down my thighs... more, more!",
+"Fuck, I haven’t been this full in ages... don’t you dare stop!",
+"Ahh, that’s it... pound me like you mean it! ♥",
+"Mmm, you’re gonna make me cum all over your cock... hnnng!",
+"Ahh, deeper, I want to feel every inch of that dick... ♥",
+"You’ve got me soaking wet... I can’t get enough of this!",
+"Oh fuck, I’m so close... just a little more...!",
+"Mmm, every time you thrust, I feel it deep in my pussy... don’t stop now!",
+"Hnnng, your cock is driving me crazy... I’m gonna lose it!",
+"Ahhh, you’re hitting all the right spots... fuck, I’m cumming!",
+"Mmm, I can feel your cock throbbing... are you gonna fill me up with cum?",
+"Ohhh, fuck, you’re making me cum so hard... ♥",
+"Ahh, I love the way you stretch me out... give me more!",
+"Mmm, I’m gonna squeeze every drop of cum out of you... ♥",
+"Oh fuck, you’re making me so wet... I can’t hold back anymore!",
+"Mmm, I want to feel every drop of your cum inside me... don’t stop until I’m overflowing!" ,
+"Ahh, yes, right there! Don’t stop, oh god, I can feel every inch of you—so deep inside... ♥",
+"Mmm, your dick is so hard, it's driving me wild... hnnng, I’m so close, don’t you dare stop now!",
+"Oh fuck, you’re filling me up so perfectly... I can feel your cock stretching me, ahhh, yes!",
+"Hahhh, I’m dripping, can you feel how wet I am? Oh god, it's running down my thighs... ♥",
+"Mmm, your cock is throbbing so much, I can’t wait to feel your cum shooting deep inside me... hnngh, yes!",
+"Ahhh, harder! Fuck me harder! I want to feel you pound me until I can’t think straight... ♥",
+"Ohh, your tongue... it’s driving me insane! Ahh, lick my pussy just like that, don’t stop!",
+"Hnnngh, I’m so fucking close! Ahhh, I can’t hold it anymore... I’m gonna cum!",
+"Yes, yes, yes! Oh fuck, I love how you fill me up so perfectly... mmm, I’m gonna cum so hard!",
+"Hahhh, your dick feels so good inside me... ohh, I never want this to stop!",
+"Mmm, yes, your fingers are hitting all the right spots... oh god, I’m gonna explode!",
+"Ahh, I can feel your cock twitching... you’re about to cum, aren’t you? Mmm, give it to me, fill me up!",
+"Fuck, your cum feels so hot inside me... oh god, I can feel it dripping out... ahhh, yes!",
+"Mmm, your hands... they’re driving me wild, oh fuck, I’m so close to cumming all over your cock!",
+"Ahh, yes, just like that... don’t stop, don’t you dare stop, I want to feel every last drop of your cum inside me... hnngh!",
+"Ohh, you’re making me so wet, I can feel my juices running down... ahh, fuck, I want more!",
+"Mmm, yes, fuck me like you mean it! Ahh, I can’t get enough of your cock... ♥",
+"Hnnngh, I’m so fucking close, ahhh, yes! Make me cum, make me cum all over you!",
+"Ahh, your dick feels so fucking amazing, I can’t take it... hnngh, I’m gonna lose my mind!",
+"Mmm, your cock is so deep inside me... I can feel your cum filling me up, ohh, fuck, I’m cumming!"
+                    ]
+                }
+            ]
+          },
+          {
+            "optionText": "I’m gonna need an explanation, because this feels like the setup to the worst decision I’ve ever made.",
+            "responseText": "Worst decision? Baby, if this is your worst, then I’m gonna *ruin* your definition of 'bad choices.' Trust me, it’s worth it.",
+            "followUpOptions": [
+                {
+                    "optionText": "This has gotta be a joke. What’s the catch? There’s no way you’re just here to... 'have fun.'",
+                    "responseText": "No catch, babe, just me and you and a whole lot of 'fun' waiting to happen. Unless you’re too scared? I mean, that’d be *adorable* but disappointing.",
+                    "followUpOptions": [
+                      {
+                        "optionText": "You really expect me to believe this? You’re like two seconds away from turning into a horny feral ghoul.",
+                        "responseText": "Oh, I’m already there, babe. I’m feral, I’m wild, and I’m all over the place. But hey, it could be worse... you could be Hugh."
+                      },
+                      {
+                        "optionText": "So what, we do this and then what? You leave me to explain why I was stupid enough to fall for it?",
+                        "responseText": "Nah, no explanations needed. Just some good old-fashioned fun, and maybe a few bruises—if you’re lucky!"
+                      }
+                    ]
+                },
+                {
+                    "optionText": "You’re looking like a crazy nympho that just escaped from the Purity Police. How did you even get in here?",
+                    "responseText": "Oh, don’t worry about *how* I got in. Worry about what I’m gonna do now that I’m here. Or, if you’re lucky, what we’re gonna do together. ♥",
+                    "followUpOptions": [
+                      {
+                        "optionText": "You’re lucky I don’t call the Purity Police right now. This feels like entrapment.",
+                        "responseText": "Pfft, call them! They’d probably just join in... or pass out from the sheer heat coming off me. But I know you’re smarter than that."
+                      },
+                      {
+                        "optionText": "And what if I say no? You’re just gonna walk out, no big deal?",
+                        "responseText": "If you say no, I’ll just have to find someone with a spine. But hey, I had a feeling you were a little *more* than just talk."
+                      }
+                    ]
+                  } 
+            ]
+          }
+        ]
+      }, 
+      {
+        "optionText": "Bye",
+        "responseText": "Oh, come on! You’re really gonna kick me out when I’m like *this*? Fine, your loss. But you’ll be thinking about it later, trust me.",
+        "exitLine": true
+      }
+    ],
+    "auto_lines": ["Mmm, morning, sleepyhead. Hope you don’t mind me dropping by... like *this*."]
+}
+  

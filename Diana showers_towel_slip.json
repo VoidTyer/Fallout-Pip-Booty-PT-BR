@@ -1,0 +1,34 @@
+{
+    "options": [ 
+      {
+        "optionText": "What are you even doing here during male shower time?",
+        "responseText": "Just enjoying the sights... and sounds. Vault 6969 doesn't exactly leave room for much *fun*, so I have to take it where I can.",
+        "followUpOptions": [
+            {
+                "optionText": "Enjoying yourself a little too much, huh?",
+                "responseText": "Oh, sweetie, you have *no* idea. It’s like I’ve stumbled into a buffet... and I didn’t even have to pay for it.",
+                "followUpOptions": [
+                    {
+                        "optionText": "You sure you don’t want a plate?",
+                        "responseText": "Tempting, but I like to savor things... from a distance. For now."
+                    },
+                    {
+                        "optionText": "Careful, you might bite off more than you can chew.",
+                        "responseText": "I like a challenge. But looking around, I’d say most of you are bite-sized. Easy snack, really."
+                    }
+                ]
+            },
+            {
+                "optionText": "You’re *definitely* breaking some kind of rule.",
+                "responseText": "And yet, no one’s stopping me. Funny how that works, huh? Or maybe no one wants to. You don’t mind, right?"
+            }
+        ]
+      }, 
+      {
+        "optionText": "Bye",
+        "responseText": "Leaving already? Shame. Next time, don’t be so shy. I might just drop this towel, and wouldn’t that be a sight?",
+        "exitLine": true
+      }
+    ],
+    "showShadowFigures": "Showers Men"
+  }

@@ -1,0 +1,11 @@
+{
+    "options": [
+        {
+            "optionText": "Who's a good boy?",
+            "playSound": "Characters/Dog/dog guilty",
+            "exitLine": true,
+            "responseTexts": ["Whine... <i>(tail tucked, avoiding eye contact)"] 
+        } 
+    ],
+    "showShadowFigures": "Diner ending dog"
+}

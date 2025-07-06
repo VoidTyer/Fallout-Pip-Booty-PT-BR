@@ -1,0 +1,103 @@
+{
+    "options": [
+        {
+            "optionText": "Quite the welcoming committee. Who are you?",
+            "dontShowIfProgressionEventPlayed": "joined_enclave",
+            "responseText": "Commander Archibald Grim—and you've just stepped into a place where trespassers usually become fertilizer. Explain yourself, or you'll soon decorate the walls.",
+            "followUpOptions": [
+                {
+                    "optionText": "Your agent, Hans, gave me the passcode after our... cleanup at Vault 6969.",
+                    "responseText": "Hans, the miserable bastard. Efficient, if nothing else. But don't think that entitles you to rewards or trust. It merely earns you an audience.",
+                    "followUpOptions": [
+                        {
+                            "optionText": "Then how do I prove my loyalty?",
+                            "responseText": "Prove? You think mere words or a small service earns you the right to join the Enclave? If you truly want a place here, you'll earn it with blood, obedience, and absolute submission.",
+                            "followUpOptions": [ 
+                                {
+                                    "optionText": "I'm listening.",
+                                    "responseText": "Good. There's an oath you'll take—an oath that's as binding as a noose around your neck. A pledge of allegiance to America reborn. You vow your loyalty, your life, and your purpose to the Enclave, to the restoration of true American order. Break it, and I'll personally gut you like the vermin you are.",
+                                    "followUpOptions": [
+                                        {
+                                            "optionText": "What's involved in this 'oath'?",
+                                            "responseText": "You swear absolute, unwavering loyalty to me—to the Enclave. Your life, your soul, your dignity, all belong to the cause. Fail me, and you'll beg for death long before I grant it.",
+                                            "followUpOptions": [
+                                                {
+                                                    "optionText": "I understand. I'll swear the oath.", 
+                                                    "responseText": "Repeat precisely: 'I pledge my heart, soul, and worthless existence to the Enclave—the true guardians of American purity. My pathetic life is yours, Commander Grim, until my blood runs cold.'",
+                                                    "followUpOptions": [
+                                                        {
+                                                            "optionText": "I swear it—for the new America.",
+                                                            "addPerk": "enclave_joined",
+                                                            "progressionEventPlayed": "joined_enclave",
+                                                            "exitLine": true,
+                                                            "responseText": "Welcome to hell, recruit. You'll start at the bottom, and if you survive, perhaps you'll earn better than scraps. As for companionship—don't get ahead of yourself. Only my trusted elite breed freely here. You'll have privileges when you've proven yourself more useful than expendable."
+                                                        },
+                                                        {
+                                                            "optionText": "On second thought, maybe not.",
+                                                            "exitLine": true,
+                                                            "responseText": "Coward. Crawl back into your wasteland, and if I ever see you again, I'll skin you alive and use your bones as trophies."
+                                                        }
+                                                    ]
+                                                } 
+                                            ]
+                                        } 
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "optionText": "Just stumbled in. Guess security's gotten lax around here.",
+                    "responseText": "Careful. Your insolence amuses me, but it'll amuse me more to watch your slow end. Leave now, or experience firsthand what we do to intruders.",
+                    "exitLine": true
+                }
+            ]
+        },
+        {
+            "optionText": "Impressive setup. Was this place your creation?",
+            "responseText": "Flattering assumption, but no. I'm no architect; I’m a conqueror. This facility predates me. Built pre-war, it was meant to preserve American leadership. Now it's mine, and under my leadership, it finally fulfills its destiny—rebuilding America from these ashes.",
+            "followUpOptions": [
+                {
+                    "optionText": "Who exactly built this base, if not you?",
+                    "responseText": "Old-world leadership, those who foresaw America's downfall. They prepared bunkers like this for rebuilding once the smoke cleared. We are their rightful heirs."
+                }
+            ]
+        },
+        {
+            "optionText": "Who's the woman standing beside you?",
+            "responseText": "This is Vivienne—my wife, my weapon, my queen. She's the blade behind the velvet. Underestimate her, and you'll be choking on your own blood before you finish blinking.",
+            "followUpOptions": [
+                {
+                    "optionText": "Your wife looks like she stepped out of a pre-war painting. Lucky man.",
+                    "responseText": "Vivienne is my masterpiece—flawless, loyal, deadly. Respect that, and you'll enjoy your stay immensely."
+                }
+            ]
+        },
+        {
+            "optionText": "The Enclave has a... controversial reputation. Mind explaining your grand plan?",
+            "responseText": "Controversial to the ignorant. Our mission is simple: eradicate weakness, purge degeneracy, and rebuild America stronger than ever. Are you ready to be part of history?",
+            "followUpOptions": [
+                {
+                    "optionText": "Sounds ambitious. Got room for another patriot?",
+                    "responseText": "Ambition recognizes ambition. You'll fit right in—so long as your actions continue matching your bravado."
+                },
+                {
+                    "optionText": "Isn't that a bit extreme?",
+                    "responseText": "Extreme? You have no idea. Mercy breeds weakness, and weakness breeds decay. I'll carve purity into America's flesh with fire and steel, no matter the cost."
+                },
+                {
+                    "optionText": "Seems you enjoy playing god.",
+                    "responseText": "Gods show mercy—I do not. If I play anything, it's executioner. Cross me, and you'll experience that firsthand."
+                } 
+            ]
+        },     
+        {
+            "optionText": "Bye",
+            "responseText": "Dismissed. America awaits greatness—and your role in it.",
+            "exitLine": true
+        }
+    ],
+    "auto_lines": ["Vivienne, dear, it seems we have vermin again. How quaint. Excellent timing—my last execution was disappointingly brief. Perhaps you'll entertain me longer."],
+    "showShadowFigures": "Enclave Base"
+}

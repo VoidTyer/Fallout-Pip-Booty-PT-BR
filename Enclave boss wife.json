@@ -1,0 +1,31 @@
+{
+  "options": [
+    {
+      "optionText": "Who are you?",
+      "responseText": "Oh, sweet thing. I'm the last wet dream before the radiation boils your cock off. And if you're very lucky, I might let you crawl across my floor before I put a bullet in your skull with a kiss.",
+      "followUpOptions": [
+        {
+            "optionText": "How did you end up married to your husband?",
+            "responseText": "I made him bleed the first time we fucked. He proposed after I broke his jaw with my heel. It's been love ever since."
+        },
+        {
+            "optionText": "You really believe in this whole Enclave supremacy deal?",
+            "responseText": "Believe? I orchestrate it. Augustus screams about purity while I whisper into the ears of the broken and the brutalized. I decide who fucks, who dies, and who climbs. He's the warlord. I'm the ideology."
+        },  
+        {
+            "optionText": "What happens if I disrespect you?",
+            "responseText": "Depends. Publicly? I’ll have Augustus rip your tongue out. Privately? I’ll make you beg for death between my thighs, then leave you strapped to a chair while your replacement watches."
+        },
+        {
+            "optionText": "You’re terrifying. I think I’m in love.",
+            "responseText": "Oh good. That’s how it starts. Next comes obsession. Then self-destruction. But the ride’s unforgettable."
+        }
+      ]
+    }, 
+    {
+      "optionText": "Bye",
+      "responseText": "Run along, little meat puppet.",
+      "exitLine": true
+    }
+  ]
+} 

@@ -1,0 +1,19 @@
+{
+    "options": [
+        {
+            "optionText": "How's it feel to have the whole room staring at your tits?",
+            "responseText": "I don't mind the attention. At least these idiots are looking at something worth their time for once.",
+            "followUpOptions": [
+                {
+                    "optionText": "Do you think any of them are about to bust a nut?",
+                    "responseText": "If they do, I’ll give ‘em points for speed. Look at that one over there—he’s practically shaking. He’s either having an existential crisis or he’s about five seconds from a crisis in his pants."
+                } 
+            ]
+        },   
+        {
+            "optionText": "Bye",
+            "responseText": "Don’t be a prude, darling. You’ll miss all the fun",
+            "exitLine": true
+        }
+    ]
+}

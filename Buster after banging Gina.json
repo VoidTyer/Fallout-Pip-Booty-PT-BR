@@ -1,0 +1,26 @@
+{
+    "options": [
+        {
+            "optionText": "Well, that just happened. How you feeling, Buster?",
+            "emotion": "Characters/Buster/emotions/buster shock",
+            "markObjectiveComplete": "Speak with Buster",
+            "responseText": "YOU... YOU ACTUALLY... BRO, WHAT THE ACTUAL FUCK?! RIGHT IN FRONT OF ME?! <i>*IN FRONT OF ME?!*</i>",
+            "followUpOptions": [
+                {
+                    "optionText": "Yeah, I guess you weren’t much of a protector after all.",
+                    "emotion": "Characters/Buster/emotions/buster shock",
+                    "responseText": "YOU THINK THIS IS A JOKE?! I AM THE WALL THAT KEEPS THE FILTH OUT! AND YOU... YOU... YOU'RE A DEAD MAN! I’M GONNA SNAP YOU IN HALF!",
+                    "followUpOptions": [
+                        {
+                            "optionText": "Relax, Buster. You said you were *zen*, right?", 
+                            "playSound": "punch",  
+                            "progressionEventPlayed": "buster_punch",
+                            "specialEffects": ["Blackout", "Blur"],
+                            "advanceDayWithStatusMessage": "You wake up in your vault room, head pounding like you got hit by a radscorpion. Buster's backhand knocked you out cold."
+                        }
+                    ]
+                } 
+            ]
+        }
+    ]
+}

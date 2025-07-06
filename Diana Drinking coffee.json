@@ -1,0 +1,155 @@
+{
+    "options": [
+        {
+            "optionText": "Hey, Diana, I uh... need a favor.", 
+            "icon": "GUI/quest mark",
+            "onlyDisplayIfHasObjective": "Get Diana's Panties for Jass",
+            "dontShowIfProgressionEventPlayed": "diana_panties_received",
+            "responseText": "Mmm, a favor, huh? That sounds dangerous coming from you. What is it? Spit it out before I get bored.",
+            "followUpOptions": [ 
+                {
+                    "optionText": "I’m, uh, collecting something for a... vault experiment. You know, science stuff. Can I get your... um... panties?",
+                    "responseText": "Oh, panties? Well, I do love a man of research... but no. If anyone’s gonna be experimenting with my panties, it's me. Nice try though.",
+                    "followUpOptions": [
+                        {
+                            "optionText": "You know, I’m just asking for... a piece of fabric. Nothing too weird, right?",
+                            "responseText": "A piece of fabric? Sweetie, that’s the most roundabout way I’ve ever heard someone ask for my underwear. What’s next, you wanna borrow my bra too?"
+                        },
+                        {
+                            "optionText": "It’s for a, uh... friend. They dared me. Can I please just... get a pair?",
+                            "responseText": "Look, I don’t know what kind of bet you lost, but there’s no way I’m handing over my panties just to save your sorry ass."
+                        }, 
+                        {
+                            "optionText": "Okay, fine, you got me. Someone in the vault... uh, asked me to get them. Don’t ask why.",
+                            "responseText": "Ahh, so you’re the vault’s new delivery boy for pervs, huh? Cute. Well, you can go back and tell them that if they want my panties, they’ll have to do more than send a middleman. Like, I don’t know, maybe develop some self-respect.",
+                            "followUpOptions": [
+                                {
+                                    "optionText": "I figured you’d say no. Had to try though, right?",
+                                    "responseText": "Oh, I’m glad you tried. But, sweetie, I don’t hand out my panties like vault-issued jumpsuits. Keep dreaming."
+                                },
+                                {
+                                    "optionText": "Come on, Diana, you know me. We’ve been through some shit. Just help me out?",
+                                    "relationshipRequired": 35, 
+                                    "giveItem": "Diana's Panties",
+                                    "progressionEventPlayed": "diana_panties_received",
+                                    "exitLine": true,
+                                    "dontDisplayIfObjectiveComplete": "Get Diana's Panties for Jass",
+                                    "failedCheckResponse": "Wow, bold move there. Maybe start with, like, a Vault-Tec manual on 'Basic Human Interaction' before you go straight for the weird stuff. Nice try, though. Points for... enthusiasm?",
+                                    "responseText": "*Laughs* Oh, fine. I guess you’ve earned it after all this time. You want me to strip right here? Fine. Enjoy the show, honey. ♥︎" 
+                                }
+                            ]
+                        }
+                     ]
+                } 
+            ]
+        },
+        {
+            "optionText": "[Hand over Lingerie]",
+            "icon": "GUI/quest mark",
+            "responseText": "Oh my... I knew you had good taste, but this? Darling, you've outdone yourself! Those are fabulous! Thank you!", 
+            "onlyDisplayIfHasObjective": "Get lingerie for Diana",
+            "giveItemToCharacter": "Red Lingerie",
+            "itemRequired": "Red Lingerie",
+            "relationshipPoints": 15,
+            "markObjectiveComplete": "Get lingerie for Diana",
+            "exitLine": true
+        },
+        {
+            "optionText": "[Hand over Dildo]",
+            "icon": "GUI/quest mark",
+            "responseText": "Oh my... you really know how to satisfy a girl’s cravings. I’ve been waiting all day for someone to hand me a big, firm... dildo. Thank you.", 
+            "onlyDisplayIfHasObjective": "Get dildo for Diana",
+            "giveItemToCharacter": "Monster Dildo",
+            "itemRequired": "Monster Dildo",
+            "relationshipPoints": 20,
+            "markObjectiveComplete": "Get dildo for Diana",
+            "exitLine": true
+        },
+        {
+            "optionText": "Have you seen what’s happening? The vault turned into a full-on orgy!",
+            "gripGaugeRequired": 5000,
+            "hideOptionIfReqCheckFailed": true,
+            "responseText": "Oh, you mean the 'Fapocalypse'? Yeah, I noticed. I had a front-row seat to the orgy at the Diner. Some guy used a pile of mashed potatoes as lube. Really brings a tear to your eye.",
+            "followUpOptions": [
+                {
+                    "optionText": "I might’ve, uh… had a little something to do with that. I kinda helped the Fap Resistance Leader… y’know, distribute some, uh, fap material.",
+                    "responseText": "So that’s why I found a vault-wide subscription to ‘Pre-War Buns Monthly’ under my door. I should’ve known you were involved. You’ve single-handedly turned this place from a nunnery to an adult film studio."
+                },
+                {
+                    "optionText": "So… you cool with all this chaos?",
+                    "responseText": "Cool with it? Please. I’ve been waiting for this day since they handed me my first vault-issued chastity pamphlet. Watching the Purity Police scramble while people are literally fapping in the hallways? That’s the kind of poetic justice I live for."
+                }
+            ]
+        },
+        {
+            "optionText": "What are you drinking there?",
+            "responseText": "Oh, this? Just a mix of coffee and the tears of people who try too hard. Thought you might want a sip, since you fit the demographic so well. Just kidding.",
+            "followUpOptions": [
+                {
+                    "optionText": "You drink tears? That’s hardcore.",
+                    "responseText": "When you've seen as much idiocy as I have, tears are basically a vitamin supplement. Keeps me from losing brain cells by proximity."
+                },
+                {
+                    "optionText": "I’ll stick to water, thanks.",
+                    "responseText": "Water? Wow, living dangerously, I see."
+                }
+            ]
+        }, 
+        {
+            "optionText": "How’s your day going?",
+            "responseText": "A parade of incompetence, as usual. But I did manage to enjoy this lukewarm excuse for coffee, so that's something, I guess.",
+            "followUpOptions": [ 
+                {
+                    "optionText": "Mind if I join you? [End Day]",
+                    "isHangingOutWithDiana": true,
+                    "relationshipPoints": 2,
+                    "responseText": "Only if you're planning on sitting there quietly.",
+                    "exitLine": true
+                }
+            ]
+        }, 
+        {
+            "optionText": "So, what do you think about the food here?",
+            "responseText": "Oh, you mean the flavorless sludge they have the nerve to call 'nutritionally balanced'? It’s like someone tried to make depression edible and somehow succeeded.",
+            "followUpOptions": [
+                {
+                    "optionText": "But it’s healthy, right?",
+                    "responseText": "Sure, if your definition of ‘healthy’ includes slowly wishing for death with every bite. Honestly, I think I’d get more nutrients licking the cafeteria floor.",
+                    "followUpOptions": [
+                        {
+                            "optionText": "Oh, I’d watch it.",
+                            "responseText": "Wow, desperate much? If watching me lick the floor is what gets you going, you’re beyond help."
+                        },
+                        {
+                            "optionText": "Come on, I bet you'd look great doing it.",
+                            "responseText": "Oh, is that what you fantasize about at night? Me, bent over, licking the floor like some pre-war pin-up girl? Get a grip. I don’t do charity work, especially for guys who are one step away from licking the floor themselves."
+                        },
+                        {
+                            "optionText": "You’ve got to have better things to lick around here.",
+                            "responseText": "Oh, I do, but trust me—you’d never get close enough to find out. Besides, you’d probably cum the second I unzipped this jumpsuit, and I’m not here to mop up your mess."
+                        }
+                     ]
+                },
+                {
+                    "optionText": "What’s the best thing you’ve ever had to eat, then?",
+                    "responseText": "Before this prison? I had this steak once—perfectly cooked, seasoned like it was crafted by the gods."
+                },
+                {
+                    "optionText": "Come on, it’s not *that* bad, right?",
+                    "responseText": "Not that bad? It's *that* bad that they should label it ‘For External Use Only.’"
+                }
+            ]
+        },
+        {
+            "optionText": "[Give a Gift]",
+            "icon": "GUI/gift icon",
+            "neverGreyOut": true,
+            "isGifting": true
+        },
+        {
+            "optionText": "Bye",
+            "responseText": "Don’t let the vault door hit you on the way out.",
+            "exitLine": true
+        }
+    ]
+}

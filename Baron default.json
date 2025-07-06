@@ -1,0 +1,196 @@
+{
+    "options": [
+        {
+            "optionText": "Funny story—your daughter's probably mutant meat by now. Sold her off to a bunch of hungry super mutants. Needed the caps. Hope you understand.",
+            "onlyShowIfProgressionEventPlayed": "grace_sold_to_supermutants",
+            "responseText": "You… did what? You twisted fuck. You walk into MY fortress, stare me dead in the eye, and admit you handed my flesh and blood over to those drooling abominations? You better pray you're joking, because death's too quick for the hell I'll show you if you're serious.",
+            "followUpOptions": [
+                {
+                    "optionText": "Dead serious. Those freaks pay well—especially when fresh meat's involved.",
+                    "exitLine": true,
+                    "responseText": "I’ve peeled skin off men for far less. You're not leaving here alive—but I'll make sure every single minute hurts worse than the last."
+                },
+                {
+                    "optionText": "Hey, business is business. Not my fault your precious princess couldn't fetch a higher price elsewhere.",
+                    "exitLine": true,
+                    "responseText": "Then let's talk business, cunt. How many bones do you think you have to break before we're 'square'? I'll keep count. You just scream."
+                },
+                {
+                    "optionText": "Calm down, Baron. She might still be alive, probably as some mutant's pet or breeding stock by now. Maybe you can buy her back?",
+                    "responseText": "Buy her back? Fuck that—I'll massacre every mutant I find, then nail your twitching corpse to my gates as a reminder for anyone stupid enough to cross me.",
+                    "followUpOptions": [
+                        {
+                            "optionText": "Well shit, I didn't think you'd actually care this much.",
+                            "exitLine": true,
+                            "responseText": "Care? It's about pride, asshole. You've pissed on my name. I'm gonna piss acid on your open wounds."
+                        },
+                        {
+                            "optionText": "Maybe you should thank me—think of it as tough love. She needed to toughen up anyway.",
+                            "exitLine": true,
+                            "responseText": "I'll keep that in mind when my boys feed your fingers to the fucking dogs. We'll see how tough you are then."
+                        }
+                    ]
+                } 
+            ]
+        },
+        {
+            "optionText": "Your Brotherhood problem's been taken care of.",
+            "icon": "GUI/quest mark",
+            "onlyDisplayIfHasObjective": "Report back to Baron.",
+            "markObjectiveComplete": "Report back to Baron.",
+            "responseText": "Well, fuck me sideways. Thought you might pussy out, but seems you've got balls after all. Tell me, did our little 'cock prophet' squeal when you gutted him, or did he enjoy it to the bitter end?",
+            "followUpOptions": [
+                {
+                    "optionText": "Let's just say his screams were orgasmic.",
+                    "exitLine": true,
+                    "addCaps": 200,
+                    "responseText": "Ha! That's exactly the fucked-up poetry I was hoping for. Here's your caps, plus a little extra for the artistry. You're a sick fuck, and I respect that."
+                },
+                {
+                    "optionText": "He begged for mercy, so I gave him none.",
+                    "exitLine": true,
+                    "addCaps": 200,
+                    "responseText": "Mercy’s just foreplay anyway. Glad to hear you didn't disappoint. Embrace it—morality's a disease, and I’m glad to see you’re finally cured."
+                },
+                {
+                    "optionText": "Keep your caps. I'm done with your psycho shit.",
+                    "exitLine": true,
+                    "responseText": "Oh please. You pretend you're disgusted, but you'll crawl back when your pockets get empty. Violence is like a cheap whore—once you've tasted it, there's no going back."
+                } 
+            ]
+        }, 
+        {
+            "optionText": "Got your precious daughter here, old man. Alive, mostly.",
+            "icon": "GUI/quest mark",
+            "onlyDisplayIfHasObjective": "Bring Grace to her father.",
+            "progressionEventPlayed": "met_graces_father",
+            "responseText": "Hm. So you're the maggot who pulled Grace out from those Raider Sluts. You expect applause, hero?",
+            "followUpOptions": [
+                {
+                    "optionText": "No applause. Caps will do just fine.",
+                    "icon": "GUI/quest mark",
+                    "responseText": "Caps, huh? How many pieces of filth do you think have come sniffing around here for caps? You're lucky she's alive, or I'd have your head decorating my gate.",
+                    "followUpOptions": [
+                        {
+                            "optionText": "Threaten me again, and I’ll deliver Grace back to those raiders, piece by piece.",
+                            "exitLine": true,
+                            "icon": "GUI/quest mark",
+                            "markObjectiveComplete": "Bring Grace to her father.",
+                            "addCaps": 500,
+                            "showChoiceStats": "grace_returned_home",
+                            "removeFollower": "Grace",
+                            "responseText": "You've got balls, I'll give you that. Dangerous talk in my territory. But entertaining enough. Fine. 500 caps. More than you're worth. Take them, and remember the generosity of Baron fucking Voss."
+                        },
+                        {
+                            "optionText": "I'd like to see you try, old man.",
+                            "exitLine": true,
+                            "addCaps": 500,
+                            "icon": "GUI/quest mark",
+                            "removeFollower": "Grace",
+                            "markObjectiveComplete": "Bring Grace to her father.",
+                            "showChoiceStats": "grace_returned_home",
+                            "responseText": "Ha! You're either insane or the dumbest bastard walking this wasteland. Either way, it's amusing. I'll pay you 500 caps for the entertainment. Now leave, before I reconsider."
+                        }
+                    ]
+                },
+                {
+                    "optionText": "Grace mentioned you might pay good for her return. Seems she exaggerated your love.",
+                    "responseText": "Love? Sentimental bullshit rots faster than corpses in this wasteland. Grace is valuable property. You retrieved my investment—that’s all. Don't mistake this for gratitude."
+                },
+                {
+                    "optionText": "Those Raider Sluts had big plans for Grace. Heard you weren't exactly father-of-the-year.",
+                    "responseText": "Amusing. Raiders gossiping like wasteland housewives. Truth is, I'm worse than they imagine. I make their violence look merciful. Keep that in mind next time you think to threaten me with their words."
+                }
+            ]
+        },
+        {
+            "optionText": "What's this place, anyway? Seems a bit... too clean for the wasteland.",
+            "progressionEventPlayed": "met_graces_father",
+            "responseText": "Cumorah Crest. It's clean because we toss the filth outside—quickly and violently. Walls keep trouble out, and inside, my rules keep troublemakers quiet.",
+            "followUpOptions": [
+                {
+                    "optionText": "Those walls didn't stop Grace from getting snatched, though.",
+                    "responseText": "Careful, outsider. I appreciate your effort—but disrespect my walls again, and the only way you'll enter Cumorah Crest is as fertilizer."
+                },
+                {
+                    "optionText": "Impressive setup. How'd you manage to build something like this?",
+                    "responseText": "Same way everything worthwhile gets built out here—caps, blood, and broken bones. It's a simple recipe; people forget step three until I remind them."
+                },
+                {
+                    "optionText": "Grace mentioned you were a 'Baron.' That's some old-world bullshit title, right?",
+                    "responseText": "Titles are power. You mock what you fear, but people bow to strength—old world or new.",
+                    "followUpOptions": [
+                        {
+                            "optionText": "So, you run a little wasteland kingdom here?",
+                            "responseText": "Kingdom, dictatorship—call it whatever. Fact is, out there you're prey. In here, you're either useful or fertilizer."
+                        },
+                        {
+                            "optionText": "What about Grace? Is she just another tool for your power?",
+                            "responseText": "She's blood. Blood means legacy, and legacy is survival. But even blood can run cold if it becomes a liability."
+                        }
+                    ]
+                } 
+            ]
+        },
+        {
+            "optionText": "Any work around here? You seem like someone with... problems.",
+            "dontDisplayIfHasObjective": "Eliminate the outcast.",
+            "dontDisplayIfObjectiveComplete": "Eliminate the outcast.",
+            "dontShowIfProgressionEventPlayed": "refused_baron_quest",
+            "icon": "GUI/quest mark",
+            "responseText": "Everyone has problems. Difference is, my problems usually leave bloodstains and screams. You up for that kind of problem-solving?",
+            "followUpOptions": [
+                {
+                    "optionText": "Depends. Do the caps match the screams?",
+                    "icon": "GUI/quest mark",
+                    "responseText": "Caps flow quicker when the screams get loud. Got a Brotherhood reject out there preaching faggotry, corrupting every shit-stain he meets. He’s got some jerry-rigged speaker too—blasting his cult trash across half the goddamn wastes. I want his head decorating my gate—preferably still screaming.",
+                    "followUpOptions": [
+                        {
+                            "optionText": "Brotherhood doesn’t usually let their knights run free. What's his deal?",
+                            "responseText": "Official line? He couldn't keep his cock holstered around the other knights. Now he's out recruiting the wasteland's rejects—turning degenerates into like-minded faggots. It's bad for my business, and even worse for my digestion."
+                        },
+                        {
+                            "optionText": "You’re paying me to waste a man just because he prefers dick?",
+                            "icon": "GUI/quest mark",
+                            "responseText": "I couldn't give less of a fuck where he sticks it. Problem is, he's turned his bedroom tastes into a damn religion—with bass drops and 'praise be to cock' echoing for miles. Every weak-willed junkie is lining up to worship at his altar—and that altar is too close to my walls.",
+                            "followUpOptions": [
+                                {
+                                    "optionText": "Fine. Double my pay and I'll nail him to your gates personally.",
+                                    "icon": "GUI/quest mark",
+                                    "exitLine": true,
+                                    "addObjective": "Eliminate the outcast.",
+                                    "progressionEventPlayed": "accepted_baron_quest",
+                                    "showChoiceStats": "accepted_baron_quest2",
+                                    "responseText": "Now you're speaking my language. Make sure he's alive long enough to regret every word he ever preached. The bloodier the message, the bigger your bonus."
+                                },
+                                {
+                                    "optionText": "Not interested in becoming your personal executioner.",
+                                    "exitLine": true,
+                                    "progressionEventPlayed": "refused_baron_quest",
+                                    "showChoiceStats": "refused_baron_quest",
+                                    "responseText": "Morality? Here? Cute. Maybe I'll let you go—and when he eventually comes knocking with his band of cocksuckers, we'll hang you beside him."
+                                }
+                            ]
+                        },
+                        {
+                            "optionText": "A Brotherhood exile forming his own cult? Sounds interesting.",
+                            "responseText": "He's pathetic and pathetic shit still stinks. His stink is drifting over my walls. Erase him before I decide you're part of the problem."
+                        }
+                    ]
+                },
+                {
+                    "optionText": "Think I'll pass. I've seen enough blood for today.",
+                    "exitLine": true,
+                    "responseText": "Then you won't last long out here. The wasteland chews up weak stomachs first."
+                }
+            ]
+        },
+        {
+            "optionText": "Bye",
+            "responseText": "Get out. If we meet again, it won't be words we exchange.",
+            "exitLine": true
+        }
+    ],
+    "auto_lines": ["You look lost, wastelander. Keep walking unless you volunteering to fertilize my yard."],
+    "showShadowFigures": "Cumorah Crest Guard"
+}
