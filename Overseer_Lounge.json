@@ -1,0 +1,155 @@
+{
+    "options": [
+        {
+            "optionText": "Your daughter asked me to collect deathclaw ball sweat. For her garden project.",
+            "onlyShowIfProgressionEventPlayed": "daughter_asked_for_deathclaw_nut",
+            "dontDisplayIfObjectiveComplete": "Extract Deathclaw ball sweat",
+            "responseText": "YOU SHUT YOUR IRRADIATED WHORE MOUTH RIGHT NOW! I DON’T KNOW WHAT KIND OF POST-NUT FEVER DREAM YOU CRAWLED OUT OF, BUT MY DAUGHTER WOULD NEVER TOUCH MUTANT LIZARD THONG! YOU HEAR ME?! YOU LYING, DISEASED, CUM GOBLIN!",
+            "followUpOptions": [
+                {
+                    "optionText": "She said it 'enhanced soil fertility.' Showed me a chart. With graphs.",
+                    "responseText": "GRAPH MY ASS! YOU EXPECT ME TO BELIEVE MY BABY GIRL MADE A FUCKING POWERPOINT ABOUT HELLSPAWN LIZARD-DICK DISCHARGE AND CALLED IT SCIENCE?! YOU THINK I’M GONNA NOD ALONG WHILE YOU STAND THERE WITH A STRAIGHT FACE AND SAY, 'GEE WHIZ, OVERSEER, TURNS OUT MUTANT SWEAT’S THE SECRET TO A BETTER YIELD'? I WILL SHOVE YOUR CHARTS UP YOUR ASS UNTIL YOU’RE GROWING RADISHES OUT YOUR GODDAMN NOSTRILS, YOU SICK FUCK!"
+                },  
+                {
+                    "optionText": "She called it 'Love Potion' and asked if I wanted a taste test.", 
+                    "exitLine": true,
+                    "responseText": "AAHHH!!! I’M GOING TO VOMIT BLOOD, SHIT A FIST, AND ASCEND TO A PLANE OF PURE, UNFUCKABLE RAGE. YOU DISGUSTING, FILTHY, SEMEN-SMEARED FUCK OF A HUMAN—GET OUT! GET OUT BEFORE I CRAFT A TOILET OUT OF YOUR RIBCAGE TO DUMP THE ENTIRE VAULT’S WASTE INTO IT FOR A FUCKING YEAR!"
+                }
+            ]
+        },    
+    {
+        "optionText": "Saw your daughter getting railed by three deathclaws. She was totally into it.",
+        "onlyShowIfProgressionEventPlayed": "daughter_railed_by_deathclaw",
+        "responseText": "WHAT THE FUCK DID YOU JUST SAY, YOU DEGENERATE FUCK? MY DAUGHTER IS A PURE ANGEL OF CELIBACY! I'LL TEAR YOUR TONGUE OUT OF YOUR ASS FOR SAYING SOMETHING SO VILE ABOUT MY BLOOD!",
+        "followUpOptions": [
+            {
+                "optionText": "Trust me, she's full of deathclaw nut now.",
+                "responseText": "YOU VILE, PORN-BRAINED BASTARD! I'LL RIP YOUR COCK OFF AND STRANGLE YOU WITH IT! MY DAUGHTER WOULDN'T TOUCH A MUTANT DICK EVEN IF HER LIFE DEPENDED ON IT!"
+            },
+            {
+                "optionText": "Three oversized lizards, one girl. Do the math.",
+                "responseText": "ENOUGH! I'LL SKIN YOU ALIVE AND HANG YOUR DEGENERATE HIDE OVER MY OFFICE AS A WARNING TO OTHER FAP-ADDICTED FREAKS!"
+            },
+            {
+                "optionText": "She summoned them herself. Potion worked.",
+                "responseText": "A POTION?! YOU'VE GONE INSANE FROM TOO MUCH HAND-TO-DICK COMBAT! I'LL LOCK YOU IN A CELL UNTIL YOUR SACK EXPLODES LIKE A FUCKING GRENADE!"
+            },
+            {
+                "optionText": "Guess your no-fap cult drove her mutant-cock-loving pussy crazy.",
+                "playSound": "punch", 
+                "specialEffects": ["Blackout", "Blur"],
+                "addWillpowerTokens": -9999,
+                "advanceDayWithStatusMessage": "You wake up face-down in a mop bucket full of industrial bleach and someone's blood. Your jaw clicks when you breathe and your teeth feel like they're floating.",
+                "responseText": "I'LL SHOW YOU CRAZY, YOU DISGUSTING SHITSTAIN!!"
+            }
+        ]
+    },                
+    {
+        "optionText": "Who are you?",
+        "responseText": "WHO THE HELL AM I?! Listen up, slack-jawed degenerate! I'm the bastion of purity, the protector of discipline, the man who keeps this vault from descending into a cesspool of depravity. I AM OVERSEER BLUE BALLS! I enforce the sacred NO-FAP, NO-BONE POLICY so you weak-willed degenerates don’t drown in your own filthy thoughts. Now stand up straight when you're talking to me! Only the strong survive, and only the celibate thrive!",
+        "followUpOptions": [
+            {
+              "optionText": "You're insane. I think I'd prefer the wasteland.",
+              "responseText": "INSANE?! YOU'RE DAMN RIGHT I'M INSANE! INSANE FROM THE RAW POWER OF UNTAMED TESTOSTERONE! You think you’ll survive five minutes in the wasteland with your mind focused on debauched thoughts? THEY'LL RIP YOU APART OUT THERE!"
+            },
+            {
+                "optionText": "What happens if someone faps in here?",
+                "responseText": "We execute them. No trial. No hesitation. I personally rip your filthy stick clean off and choke you to death with it! One pump in this place is an act of TERRORISM. Every squirt saps the grid. You jerk off, the whole medbay loses power—babies flatline in the incubators and lives END. Is your greasy palm worth a mountain of infant corpses, Private? You want DEAD FUCKING BABIES ON YOUR HANDS?"
+            },
+            {
+              "optionText": "Sign me up, Overseer! Show me the path to ascension!",
+              "responseText": "Now THAT'S WHAT I LIKE TO HEAR! Embrace the agony! Feel your pathetic urges scream and beg for release—but DENY them every step of the way! Soon your veins will pump not blood, but PURE POWER! Soon you'll be an unstoppable force like me—a GOD AMONG MEN! Welcome, recruit, to the NO-FAP LEGION!"
+            },
+            {
+                "optionText": "Is this some sick joke?",
+                "responseText": "A JOKE?! Does this body look like a damn joke to you? This isn't a joke, weakling—it's the holy crusade against the filthy urges that enslave mankind! You see these muscles? They erupted from my body the moment I tossed temptation into the gutter! This isn't just a lifestyle—it's a RELIGION, maggot! Your pathetic libido will either be crushed willingly, OR I'LL CRUSHH IT MYSELF!"
+            }, 
+            {
+                "optionText": "How the hell do you make babies in this vault?",
+                "responseText": "We do it the *correct* way, soldier. Each viable male is milked once a fiscal quarter — under sedation, in the Extraction Chair — by a mechanized arm named *Mother*. No climax. Just a cold catheter and 30cc syringe.",
+                "followUpOptions": [
+                    {
+                        "optionText": "That's the most dystopian thing I've ever heard.",
+                        "responseText": "Good. Dystopia builds DISCIPLINE. I want my children born into a world where eye contact during conception is a myth. That’s why our kids don’t cry — THEY EMERGE STONE-FACED AND SILENT!"
+                    },
+                    {
+                        "optionText": "Why can't people just have normal sex?",
+                        "responseText": "NORMAL SEX?! Are you insane?! Normal sex leads to pleasure—pleasure leads to weakness—weakness DESTROYS discipline! Besides, we've got population quotas to control. One slip-up, and the vault turns into a fucking orgy pit! NOT ON MY WATCH!",
+                        "followUpOptions": [
+                            {
+                                "optionText": "Population control? What's that got to do with it?",
+                                "responseText": "EVERYTHING, you fool! Every birth is strictly regulated. Too many mouths, not enough rations, and soon we're cannibalizing each other like some fucking raiders!"
+                            },
+                            {
+                                "optionText": "You sound like you've got personal issues.",
+                                "responseText": "PERSONAL ISSUES?! My only issue is with undisciplined degenerates! I am purity personified, soldier! The only issue here is your lack of fucking vision for a future free of animalistic fucking urges!"
+                            } 
+                        ]
+                    } 
+                ]
+            } 
+        ]
+    }, 
+    {
+        "optionText": "Jesus Christ, what happened to your balls?",
+        "responseText": "My balls? They're the result of years of dedication and restraint! A symbol of my unbreakable resolve and self-control. I’ve got more testosterone in my left nut than the rest of you have in your entire bodies! BOW DOWN BEFORE MY SACK OF ETERNAL PURITY, MAGGOT!"
+    },
+    {
+        "optionText": "What do you want from me?",
+        "icon": "GUI/quest mark",
+        "responseText": "There’s a plague out there—a devil in heels—named *Mistress Domina*. She’s the reason I broke my 16-year no-fap streak two decades ago. She used her... her *feminine wiles* to bring me to my knees, quite literally. And now, she’s leading a band of simps and turning men into sniveling, doe-eyed slaves! I need you to take her down before she poisons the Wasteland with her simp army!",
+        "followUpOptions": [
+            {
+                "optionText": "Mistress Domina? What did she do to you?",
+                "responseText": "What did she do? WHAT DID SHE DO?! She seduced me with her devilish curves and whispered lies into my virgin ears! One moment of weakness, and I was undone! My perfect record, shattered! She made me *feel things*! She turned my own discipline against me and left me a broken man. But I rose from the ashes like a phoenix! And now, she must pay for what she’s done!",
+                "followUpOptions": [
+                    {
+                        "optionText": "Sounds personal, bro...",
+                        "responseText": "Of course it’s personal! Do you know what it’s like to break a 16-year streak of purity? My entire life was built around being the ultimate celibate warrior, and she shattered it with one wink! One wink, damn it! She seduced me like some two-cap gutter slut! I’ve waited 20 long, blue-balled years for revenge. I’ve trained, meditated, and sworn an oath to see her downfall. And you, outsider, are my weapon of choice."
+                    }
+                ]
+            },
+            {
+                "optionText": "Why's she such a big threat anyway?",
+                "responseText": "She’s building an empire of simps, that’s what! She preys on weak-willed men and turns them into spineless, yoga-doing simps, bootlickers who beg her to step on their pathetic balls! If she's not stopped, the wasteland will become a dystopian femdom nightmare, a matriarchy ruled by stiletto heels trampling on the faces of spineless beta cucks! We must annihilate her before she drowns civilization in estrogen and humiliation!"
+            },
+            {
+                "optionText": "What’s in it for me?",
+                "responseText": "What’s in it for you? Glory, honor, and the satisfaction of being a true warrior! But fine, if you need *material motivation*, I’ve got a fat sack of bottle caps waiting just for you. You bring me Domina’s head, and they’re yours. Plus, you’ll earn the respect of the most disciplined man in existence. That’s a reward money can’t buy!"
+            },
+            {
+                "optionText": "You want me to straight-up kill her?",
+                "icon": "GUI/quest mark",
+                "dontDisplayIfHasObjective": "Bring down Mistress Domina",
+                "dontDisplayIfObjectiveComplete": "Bring down Mistress Domina",
+                "responseText": "Exactly! She’s hiding out in the ruins of an old church. Your job is simple: infiltrate, slaughter her simps, then butcher that succubus bitch. Do not, under any circumstances, let her get into your head. That’s how she works! One moment you’re pointing a gun at her, and the next, you’re doing her laundry and calling her ‘Mommy.’ Are we clear, soldier?!",
+                "followUpOptions": [
+                    {
+                        "optionText": "Alright, I'll take care of your psycho dominatrix.",
+                        "icon": "GUI/quest mark",
+                        "markObjectiveComplete": "Talk to the Overseer",
+                        "addObjective": "Bring down Mistress Domina",
+                        "showChoiceStats": "down_with_the_devil",
+                        "exitLine": true,
+                        "responseText": "That’s what I like to hear, soldier! I knew there was a glimmer of potential in that wasteland-worn exterior of yours. Now listen up: this isn’t just a mission—it’s a crusade against THOT SUPREMACY! Remember, you’re not just fighting for yourself; you’re fighting for the honor of Vault 6969! Now, gear up, head out—DESTROY THAT THOT BEFORE SHE DESTROYS THE WORLD!"
+                    }
+                ] 
+            }
+        ]
+    },
+    {
+        "optionText": "Bye.",
+        "responseTexts": ["Good! Get out of my sight before I smell weakness on you!",
+                        "Just remember, every step you take away from me is a step closer to temptation!",
+                        "Yeah, you better keep walking. And remember, discipline is a 24/7 job! Now get lost, soldier!"],
+        "exitLine": true
+    }
+    ],
+    "random_auto_line": ["You think this is a lounge? NO! This is a battlefield! Every unspent load is a bullet in your mental chamber! LOCK AND LOAD, SOLDIER!", 
+    "Do you smell that, soldier? That’s the stench of weakness leaking from your pants! Plug it up before I plug you with a Bonk Baton!",
+    "I haven't busted a nut since the Great War, and I could bench press a deathclaw! What’s your excuse for being soft, limp-dick?!",
+    "You think you’re tense now? Wait ‘til you’re 40 years deep with a sack so full it’s got its own gravitational field! That’s REAL discipline!",
+    "I haven’t had a release in so long my balls are planning their own Vault rebellion. You think you can handle that kind of internal warfare, soldier?!",
+    "I see you looking at that wall. If that wall gives you any funny ideas, I’ll tear it down myself!",
+    "I once flexed so hard resisting the urge to fap that my veins spelled out the word ‘discipline.’ Now get back to work, before I make 'em spell ‘disappointment!’"]
+} 

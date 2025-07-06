@@ -1,0 +1,81 @@
+{
+    "options": [
+        {
+            "optionText": "Your tits look amazing...",
+            "icon": "GUI/heart4",
+            "responseText": "Aw, thanks, sweetheart! These bad boys could probably power the whole vault if we hooked them up right. But if we did that, there'd be a blackout from everyone trying to plug in at once.",
+            "followUpOptions": [
+                {
+                    "optionText": "Can I get a hands-on demonstration of this power source?",
+                    "icon": "GUI/heart4",
+                    "failedCheckResponse": "Ha! Nice try, but this power grid's off-limits. You don’t have nearly enough stamina to handle *these* high-voltage beauties. Maybe next time, when you’re not running on low battery.",
+                    "relationshipRequired": 40,
+                    "desireRequired": 35,
+                    "responseText": "Only if you promise not to short-circuit. Trust me, I’d hate to have to explain to the Purity Police why you’ve got a smile on your face and smoke coming out of your ears. Now, how about we put your wiring to the test?",
+                    "followUpOptions": [
+                        {
+                            "optionText": "[Accept]",
+                            "changeSprite": "Characters/Diana/Resized/titjob",
+                            "newSpriteXPos": 1.07,
+                            "newSpriteYPos": -2.18,
+                            "icon": "GUI/heart4",
+                            "closeDialogueOptions": true,
+                            "isHEventStarted": true,
+                            "hEventName": "diana_titjob_to_player",
+                            "addGripGaugePoints": 250,
+                            "endingEffects": ["Flashes"],
+                            "specialEffects": ["Shake"],
+                            "changeSpriteColor": "#CCD9D4",
+                            "endingSpriteColor": "#BFCBB1",
+                            "changeShadowFigureSprite": [ "Showers Men", "man_b4732", "Characters/Other characters/shocked" ],
+                            "emotionsDuringHevent": ["none", "Characters/Diana/Emotions/titjob/titjob1", "Characters/Diana/Emotions/titjob/titjob2", "Characters/Diana/Emotions/titjob/titjob3", "Characters/Diana/Emotions/titjob/titjob4"],
+                            "spriteAtTheEndOfHscene": "Characters/Diana/standing in cum 55",
+                            "spriteAtTheEndOfHscenePosition": [ 1.37, -0.87 ],
+                            "lineAfterHevent": "Mmm, wow... you really didn’t hold back, did you? Looks like I’m gonna need another shower. ♥︎",
+                            "auto_lines": ["Oh, wow... I didn’t know your dick could get even harder with all this hot water.",
+    "Mmm, you like these? They’re not just for show, you know. ♥",
+    "You’re gonna make a real mess, aren’t you? Don’t worry, I like getting wet.",
+    "Ahh, your dick feels so good sliding between them... think you can handle it?",
+    "Wow, you’re already throbbing. I haven’t even started properly yet!",
+    "Mmm, your cum’s gonna look so good all over me. ♥",
+    "I can feel every pulse... so sensitive, aren’t you?",
+    "Ohh, you’re making me feel naughty... and I love it. ♥",
+    "You like when I squeeze them together, huh? Ahh... bet you’ve been dreaming about this.",
+    "Mmm, you’re such a good boy... let’s see how long you can last.",
+    "Look at you, already leaking. That’s just precious. ♥",
+    "You’re lucky my towel fell off, huh? Now you get the full show.",
+    "I’m getting as wet as you are. Or... wetter.",
+    "Just let go... I can feel you’re close. Let it all out. ♥",
+    "Ahh, I love how thick your dick feels right now, pushing against me.",
+    "Don’t hold back... I want you to cum all over me.",
+    "Mmm, you’re so pent-up... I can feel the tension... ♥",
+    "Oh, baby, you’re so big between my tits. I could stay here all day.",
+    "Ahh, yeah, slide it deeper... feels good, doesn’t it?",
+    "I love how your dick twitches every time I tease you a little... ♥",
+    "Ohh, I think you’re gonna explode... let me feel that cum.",
+    "Mmm, you’ve been waiting for this, huh? Don’t worry, I’m enjoying it too.",
+    "You’re close, aren’t you? Ahh, I can feel it... ♥",
+    "Ahh, don’t stop... let me feel that throbbing cock... mmm.",
+    "I’m not stopping until you’re completely spent. So, you better be ready. ♥",
+    "Mmm, my tits are soaked... and it’s not just the water.",
+    "Your cum’s gonna make these look even better... don’t you agree? ♥",
+    "I want it all over me... don’t you dare hold back.",
+    "Oh, your dick’s practically begging me... and I love it.",
+    "Mmm, yeah, that’s it... feel every inch sliding between these... ♥",
+    "Don’t worry, baby, I’ll clean you up after. But for now... ahh, just let it go.",
+    "Oh, you’re getting harder... that’s what I love to see. ♥",
+    "Your cum’s gonna be everywhere... and I’m all for it.",
+    "Ahh, I love the way you look at me when I squeeze tighter. ♥",
+    "Mmm, you’re gonna burst soon, I can feel it... ♥",
+    "I can’t wait to feel your cum dripping down... let’s make a real mess.",
+    "You like it when I talk dirty, don’t you? Mmm, I knew you would.",
+    "You’re gonna cum so hard, baby. Don’t hold back on me now.",
+    "Ahh, yeah, just like that... so close... mmm, I can’t wait. ♥",
+    "Mmm, your dick’s already twitching... let’s see how much you’ve got for me. ♥"]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

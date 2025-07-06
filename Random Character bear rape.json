@@ -1,0 +1,62 @@
+{
+  "options": [ 
+    {
+    "optionText": "You ever gonna look at bears the same way again?",
+    "onlyShowIfProgressionEventPlayed": "rescuedBearFuckedWastelander",
+    "exitLine": true,
+    "fadeOutCharacter": true,
+    "responseText": "Look, man… I used to collect teddy bears when I was a kid. Had a whole shelf of the damn things. Now? Every time I see one, I clench instinctively. Childhood's over, okay?"
+    },
+    {
+      "optionText": "Holy shit... What the fuck?!",
+      "dontShowIfProgressionEventPlayed": "rescuedBearFuckedWastelander",
+      "responseText": "ARGH! THIS FUCKING YAO GUAI IS TURNING MY ASS INTO ITS PERSONAL CAVE! SHOOT IT! GET IT OUT OF ME!!",
+      "followUpOptions": [ 
+        {
+          "optionText": "How's it feel getting fucked by a yao guai?",
+          "responseText": "HA HA. HILARIOUS. MY ASS IS BEING STRETCHED TO NEW VEGAS AND BACK. STOP ASKING STUPID QUESTIONS AND SHOOT THIS HORNY BASTARD!"
+        }, 
+        {
+          "optionText": "[Shoot the yao guai]",
+          "responseText": "OH FUCK, THANK YOU. THANK YOU. Ugh… oh god… I can feel its cum leaking out… fuck my life. Just… just don’t tell anyone you saw this.",
+          "progressionEventPlayed": "rescuedBearFuckedWastelander",
+          "changeSprite": "Characters/Other characters/rape victim",
+          "newSpriteXPos": -6.46,
+          "newSpriteYPos": -1.5,
+          "playSound": "Sounds/combat/monsters/bear shot",
+          "specialEffects": ["Punch"],
+          "followUpOptions": [
+            {
+              "optionText": "You gonna be okay?",
+              "responseText": "Okay? My guts are scrambled eggs right now. Take these caps before I start crying.",
+              "followUpOptions": [
+                {
+                  "optionText": "Thanks. Try not to get raped by wildlife again.",
+                  "responseText": "Yeah, thanks for the life advice. Now if you’ll excuse me, I’m gonna get some beer.",
+                  "addCaps": 40,
+                  "fadeOutCharacter": true,
+                  "exitLine": true 
+                },
+                {
+                  "optionText": "Keep your caps. Buy yourself a new pair of underwear.",
+                  "responseText": "...Seriously? Damn… you’re a better person than I thought. Or just grossed out. Either way, thanks.",
+                  "exitLine": true,
+                  "fadeOutCharacter": true 
+                } 
+              ]
+            }
+          ]
+        }, 
+        {
+          "optionText": "I could just leave you here, you know.",
+          "responseText": "PLEASE DON'T! I DON'T WANT TO DIE WITH A BEAR DICK IN MY COLON! PLEASE, I'LL DO ANYTHING. JUST HELP ME!"
+        }
+      ]
+    } 
+  ],
+  "auto_lines": [
+    "AHHHH FUCK, IT'S INSIDE ME! GOD HELP ME! I DIDN’T SIGN UP FOR THIS FUCKING FURRY BULLSHIT!", 
+    "OH GOD, IT'S CUMMING. PLEASE, SOMEONE PUT A BULLET IN ME OR IT!",
+    "AHHHH—IT'S SO BIG, IT'S REARRANGING MY ORGANS! HELP! HELP!!!"
+  ]
+} 

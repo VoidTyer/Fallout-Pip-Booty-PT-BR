@@ -1,0 +1,94 @@
+{
+    "options": [
+        {
+            "optionText": "Guess what? I just set a vault record: First to defile a robot. Top that.",
+            "responseText": "YOU MONSTER! That bot was REPROGRAMMED to inspire restraint, not inspire…whatever disgusting display that was!",
+            "dontShowIfProgressionEventPlayed": "virginatrix_punished_player",
+            "reqProgressionEvent": "sexbot sex",
+            "followUpOptions": [
+                {
+                    "optionText": "Admit it, you liked the show. You were basically front-row.",
+                    "responseText": "I was ENSURING LAW AND ORDER, not indulging in your depraved display!",
+                    "followUpOptions": [
+                        {
+                            "optionText": "Oh, so you WERE watching! What was your favorite part? The hydraulics? The moaning?",
+                            "responseText": "I—You—HOW DARE YOU?! I wasn't! I was WATCHING FOR VIOLATIONS!",
+                            "followUpOptions": [
+                                {
+                                    "optionText": "Admit it, you loved it.",
+                                    "responseText": "I WANT YOU…OUT OF MY SIGHT, YOU INCORRIGIBLE SIN-BEAST!",
+                                    "followUpOptions": [
+                                        {
+                                            "optionText": "Admit it louder for the vault dwellers in the back!",
+                                            "progressionEventPlayed": "virginatrix_punished_player",
+                                            "addWillpowerTokens": -9999,
+                                            "advanceDayWithStatusMessage": "Virginatrix confiscated your willpower tokens, then tossed your sorry ass into the Shame Chamber. You spent the day strapped to a chair watching Vault-Tec’s ‘Say No to Pussy, Say Yes to Productivity!’ while a Bonk Baton smacked you every time you blinked too horny.",
+                                            "exitLine": true,
+                                            "responseText": "I’LL TELL THEM HOW MUCH YOU DESERVE PUNISHMENT! THAT’S IT! SHAME CHAMBER!"
+                                        },
+                                        {
+                                            "optionText": "Want me gone? Sorry, sweetheart, I’m your main character arc.",
+                                            "addWillpowerTokens": -9999,
+                                            "advanceDayWithStatusMessage": "Virginatrix confiscated your willpower tokens, then tossed your sorry ass into the Shame Chamber. You spent the day strapped to a chair watching Vault-Tec’s ‘Say No to Pussy, Say Yes to Productivity!’ while a Bonk Baton smacked you every time you blinked too horny.",
+                                            "exitLine": true,
+                                            "progressionEventPlayed": "virginatrix_punished_player",
+                                            "responseText": "MAIN CHARACTER?! You’re the main DISGRACE! BONK BATON, ENGAGE!"
+                                        }
+                                    ]
+                                }
+                            ]
+                        } 
+                    ]
+                }
+            ]
+        },
+        {
+            "optionText": "I was just thinking about potatoes. Lots of... big... round potatoes.",
+            "responseTexts": ["Potatoes? You think I’m stupid? Potatoes don’t make your pupils dilate like that. What filth is running through your mind?! Spill it, or it's double duty in the Shame Chamber for you!"],
+            "followUpOptions": [
+                {
+                    "optionText": "I swear, just potatoes! Maybe with a little butter... and some whipped cream?",
+                    "responseText": "You disgust me! Whipped cream? The only thing whipped around here will be you if you keep this up!"
+                },
+                {
+                    "optionText": "What’s the deal with the Shame Chamber?",
+                    "responseText": "The Shame Chamber is where weak minds are cleansed. It's a place of reflection, where your sinful urges are pounded into submission by the wholesome glory of 1950s family values. You’d be amazed how quickly watching a cartoon dog mow a lawn can rewire your brain.",
+                    "followUpOptions": [
+                        {
+                            "optionText": "Sounds like a party. Can I bring snacks?",
+                            "responseText": "The only snack allowed in the Shame Chamber is a bowl of unsweetened oatmeal. Flavor is a distraction, and distractions are a gateway to impurity! Now, unless you’re volunteering for a taste of it, keep your misguided jokes to yourself."
+                        },
+                        {
+                            "optionText": "What if I actually like 1950s cartoons?",
+                            "responseText": "Then you’re more broken than I thought. Those cartoons are meant to bore you into sanity, not serve as your personal entertainment. You know what, just for that, I’m scheduling you for a weekend marathon. Let’s see how much you 'like' it after 48 hours straight."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "optionText": "Uh, nice whip you got there...",
+            "responseText": "This isn’t just a whip, you lowly perv! It's the Chastity Whip 9000, designed to smack the degeneracy right out of your soul. One crack, and you'll be crying out for the sweet embrace of celibacy like a newborn lamb. So unless you’re ready to beg for a spanking, zip it!",
+            "followUpOptions": [
+                {
+                    "optionText": "What if I, uh, borrowed it for a bit?",
+                    "responseText": "You? HA! The only thing you'd whip is yourself into a frenzy over a pre-war bra ad. This whip is for purging impure thoughts, not encouraging them. You want a turn? Fine, but I’ll have to strap you down first. For safety, of course."
+                },
+                {
+                    "optionText": "Bet you keep it under your pillow at night.",
+                    "responseText": "Wrong! I keep it in a glass case on my nightstand, so it’s the first thing I see every morning. The whip and I are in perfect harmony. It's like a marriage, except without any of that disgusting love nonsense. Or touching. Or happiness. Pure bliss."
+                }
+            ]
+        }, 
+        {
+            "optionText": "Where do I file a complaint about the Purity Police?",
+            "responseText": "Right down the hall, second door on the left. Just kidding! There’s no complaint department. All complaints go directly into the shredder."
+        },
+        {
+            "optionText": "Bye",
+            "responseText": "Don't let the vault door hit your filthy thoughts on the way out. And remember, the Purity Police are like herpes—always watching, always ready to flare up when you least expect it!",
+            "exitLine": true
+        }
+    ],
+    "auto_lines": ["What are you doing here? The lounge is for relaxation, not contamination! I can smell your impurities from across the room, maggot!"]
+}

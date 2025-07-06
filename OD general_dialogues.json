@@ -1,0 +1,13 @@
+{
+    "options": [ 
+    {
+        "optionText": "You know your… uh, parts are out on display?",
+        "responseText": "Oops, my bad! Guess I’m giving the vault something real to gossip about. It’s not like they’ve got anything better to do anyway."
+    },
+    {
+        "optionText": "Bye.",
+        "responseText": "When you’re done pretending to be pure, come find me. Maybe I’ll even fix my pants by then—but where’s the fun in that?",
+        "exitLine": true
+    }
+    ]
+}

@@ -1,0 +1,126 @@
+{
+    "options": [ 
+      {
+        "optionText": "You look pretty strong. Ever ripped someone apart?",
+        "responseText": "*He smiles broadly* Yes! Many times! Green man likes sound humans make when bones break.",
+        "followUpOptions": [
+          {
+            "optionText": "What's your favorite way to kill?",
+            "responseText": "*The mutant gets excited* Squeeze head till pop. Messy, loud. Green man like loud."
+          },
+          {
+            "optionText": "Think you can take me?",
+            "responseText": "Little human funny. Green man crush human like radroach. Human stupid? Human no ask die before. Usually just scream."
+          }
+        ]
+      },
+      {
+        "optionText": "Where did something like you even come from?",
+        "responseText": "Green man remember tanks, green goo. Pain, screaming... then strong! Kill many humans, take females. Fun life!",
+        "followUpOptions": [
+          {
+            "optionText": "You enjoy being a freak?",
+            "responseText": "Freak? Green man strong. Humans weak. Weak die, strong live. Simple."
+          },
+          {
+            "optionText": "How many more like you are there?",
+            "responseText": "*He shrugs* Lots. Green man tribe big. Take what we want. You lucky live still."
+          },
+          {
+            "optionText": "You eat people?",
+            "responseText": "*He nods eagerly* Human meat chewy, good flavor. Females taste better, less tough."
+          }
+        ]
+      }, 
+      {
+        "optionText": "Do the raiders ever bother you?",
+        "responseText": "Raiders stupid. Shoot guns, bullets bounce off Green man. Then Green man pull off raider arms. Fun!",
+        "followUpOptions": [
+          {
+            "optionText": "Surprised they haven't tried to kill you yet.",
+            "responseText": "Tried many times. Green man put heads on spikes outside cave. Raiders learn fast."
+          },
+          {
+            "optionText": "Maybe you should join them. Might have fun.",
+            "responseText": "Raiders weak, scream too much. Annoy Green man. Better alone."
+          }
+        ]
+      },
+      {
+        "optionText": "The fuck is going on here?",
+        "responseText": "Green man pay caps, do whatever. You want next?",
+        "followUpOptions": [
+          {
+            "optionText": "You sick fuck. She's barely alive.",
+            "responseText": "She breathing. Breathing mean alive, stupid human. Alive mean still fun."
+          },
+          {
+            "optionText": "How much for a turn?",
+            "icon": "GUI/heart4",
+            "responseText": "*The mutant scratches his head, counting fingers* Um... five caps. Or Jet. Green man like Jet.",
+            "followUpOptions": [
+                {
+                  "optionText": "Here are the five caps.",
+                  "capsRequired": 5,
+                  "addCaps": -5,
+                  "icon": "GUI/heart4",
+                  "responseText": "*Green man grabs the caps* Good trade. No refunds if she bite. She bite sometimes.",
+                  "followUpOptions": [
+                    {
+                        "optionText": "[Fuck the girl]",
+                        "changeSprite": "Characters/Other characters/upper floor fuck", 
+                        "icon": "GUI/heart4",
+                        "closeDialogueOptions": true,
+                        "changeSpriteColor": "#D4D4D4",
+                        "newSpriteYPos": -0.84,
+                        "newSpriteXPos": 0.15,
+                        "isHEventStarted": true,  
+                        "hEventName": "brothel2ndFloorPlayerSex",
+                        "spriteAtTheEndOfHscene": "Characters/Super Mutant/IPAdapter_00814_(1)(1)",
+                        "spriteAtTheEndOfHscenePosition": [ -6.03, 0.41 ],
+                        "specialEffects": ["Blackout"],
+                        "endingEffects": ["Flashes"],  
+                        "emotionsDuringHevent": [ "none", "Characters/Super Mutant/Focused/emotions/upper floor fuck/2", "Characters/Super Mutant/Focused/emotions/upper floor fuck/3", "Characters/Super Mutant/Focused/emotions/upper floor fuck/5", "Characters/Super Mutant/Focused/emotions/upper floor fuck/6"],
+                        "lineAfterHevent": "Ahh... My body... f-feels so fucking empty... please fill me again...", 
+                        "auto_lines": ["Oh fuck... p-please... just keep stuffing me—ahh! My brain's fucking mush, can't—uhn—live without cock... please... deeper...",
+                            "M-more cum, daddy—fill my slutty little womb... p-please, I'll be good... god, I'll do anything, j-just don't stop fucking me...",
+                            "Ahh... h-hard cock... so much cock... I'm just a worthless fucking cumdump, breed me... break me... fuck my brains out...",
+                            "Please... my holes ache... goddamn, I-I’m addicted... can't go five minutes without dick—fucking fill me, use me, please don't leave me empty...",
+                            "Fuck... j-just choke me with it... I’m your personal breeding bitch... ruin me, m-make me cum again... I'll beg—I'll beg all day for your cock...",
+                            "F-fuck me again... p-please... can't think... empty without dick...",
+                            "N-no thoughts left... just c-cock... need more... now...", 
+                            "A-anyone... please use me... I-I need it so bad...",
+                            "C-can't stop shaking... just... need cum inside me... uhh, f-fuck...",
+                            "Don't l-leave me empty... please, shove it in... now...",
+                            "I-I’m yours... p-pet, hole, toy... whatever... j-just fuck me...",
+                            "B-break me again... ruin this useless c-cumdump... please...",
+                            "More cock... p-please... h-hurts to be empty...",
+                            "I-I can't... breathe... without dicks... inside...",
+                            "D-drip your cum into me... need it leaking out... always...",
+                            "Uhh... god... addicted... n-need more... please...",
+                            "P-pull my hair... choke me... j-just don't stop fucking me...",
+                            "My holes... aching... screaming for c-cock...",
+                            "F-fill my slutty womb... p-please, I beg you...",
+                            "C-cum all over me... cover me... mark your p-property...",
+                            "T-tell me... I’m your worthless fucktoy... please...",
+                            "P-please fuck me raw... use my body... harder...",
+                            "G-give me your cock... I'll be good... promise... s-so good...",
+                            "I’m just... a dumb, broken c-cumdump... f-fuck me again...",
+                            "U-use me harder... ruin me completely... I-I want it..."]
+                    }
+                  ]
+                } 
+            ]
+          }
+        ]
+      }, 
+      {
+        "optionText": "Forget it. Enjoy your 'fun.'",
+        "responseText": "Green man always enjoy. You leave now, weak human.",
+        "exitLine": true
+      }
+    ], 
+    "auto_lines": ["No touch! Green man’s turn! Green man paid good caps. Green man take his time."],
+    "showShadowFigures": "Raider Slut Room" 
+  }
+  

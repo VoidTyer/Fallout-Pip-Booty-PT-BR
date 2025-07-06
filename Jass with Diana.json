@@ -1,0 +1,71 @@
+{
+  "options": [
+    {
+      "optionText": "Uh... Hugh? You okay?",
+      "responseText": "*[Hugh stares straight ahead, trembling slightly]* She's... she's not even blinking. She's just sitting there. Like temptation distilled into human form. I'm not okay. I'm *never* gonna be okay again.",
+      "followUpOptions": [
+        {
+          "optionText": "Why don’t you look away, man?",
+          "responseText": "I *can’t*. It’s like trying to look away from a nuclear blast. My corneas are burned into her thighs. I can see the curves when I close my eyes now. Help me."
+        },
+        {
+          "optionText": "You’ve seen worse, right? In Porn Holotapes?",
+          "responseText": "Holotapes don’t *breathe*, bro. They don’t slowly shift their legs every five minutes like it’s an accident. That woman’s playing god-level mindgames with my dick. And I’m losing."
+        },
+        {
+        "optionText": "Just don’t stare, man. Focus on something else.",
+        "responseText": "Focus? Bro, my brain is a scrambled mess of forbidden curves. I tried counting ceiling tiles and ended up moaning by tile four. I don’t know who I am anymore."
+        },
+        {
+        "optionText": "Did she say anything to you?",
+        "responseText": "Not a word. That’s the worst part. Silence. Total eye-closed serenity. It’s like watching a naked monk meditate on the edge of my sanity. I sneezed once and she *stretched*. I almost died."
+        },
+        {
+        "optionText": "You’re sweating. Like... a lot.",
+        "responseText": "It’s not sweat. It’s pre-nut fear. I tried thinking about baseball stats and ended up imagining her licking a bat. I’m trapped in horny purgatory."
+        }
+      ]
+    },
+    {
+      "optionText": "Man up. She's just messing with you.",
+      "responseText": "You think I don't know that?! This is warfare. Psychological tit-based warfare. She's playing 8D chess with her nipples and I’m stuck playing checkers with my hand.",
+      "followUpOptions": [
+        {
+        "optionText": "Have you considered closing *your* eyes?",
+        "responseText": "Tried it. Ended up seeing her *better.* It’s like she’s inside my mind."
+        },  
+        {
+        "optionText": "Is this what finally broke you?",
+        "responseText": "No, what broke me was the *moment* she scratched her thigh. Just one long, lazy scratch. I transcended. Saw God. He was crying too."
+        },
+        {
+        "optionText": "Why don't you fuck her?",
+        "responseText": "*[Hugh violently flinches]* Are you insane?! That’s not a woman — that’s a siren made of tits and psychological damage. That’s not sex. That’s a boss fight. You don’t fuck Diana... you *enter* her like a cursed vault and pray you come out with your soul intact.",
+        "followUpOptions": [
+            {
+            "optionText": "You're afraid of her? Really? Thought you were Vault 6969’s stroking champ.",
+            "responseText": "Exactly! I'm the champ — I know when I’m outmatched. This isn’t a woman. This is a goddess. She’s got passive debuffs that trigger shame hallucinations. I once reached for my belt and saw my dead grandma screaming 'NO!'"
+            },
+            {
+            "optionText": "You could do it. Just walk up and take her.",
+            "responseText": "*[Hugh’s eyes widen in horror]* No. For the love of my dick, I couldn't. That way lies madness. She *wants* you to try. That’s how she wins. She’ll breathe slightly different and you’ll nut through your teeth."
+            },
+            {
+            "optionText": "You're pathetic. Just crawl into the corner and finish rotting.",
+            "responseText": "*[Hugh crawls a few inches away, mumbling]* Maybe the mold will have mercy. Maybe I can fap to fungus. I deserve this.",
+            "exitLine": true
+            }
+        ]
+        }
+      ]
+    },
+    {
+      "optionText": "Bye",
+      "responseText": "Don't leave me. She might sigh again. If she sighs, I might cum out of sheer psychic exhaustion.",
+      "exitLine": true
+    }
+  ],
+  "auto_lines": [
+    "She hasn’t said a word in a whole day. But her ass is speaking in tongues. I’m not built for this psychological warfare. Please kill me or blind me. Whichever gets me out of this nightmare..."
+  ]
+} 

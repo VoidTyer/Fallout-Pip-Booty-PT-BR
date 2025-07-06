@@ -1,0 +1,38 @@
+{
+    "options": [
+        {
+            "optionText": "Hit me with the next question.",
+            "responseText": "You've stumbled across a porno holotape featuring your Overseer. What's your reaction?",
+            "followUpOptions": [
+                {
+                    "optionText": "A. Broadcast it to the whole vault. Everyone deserves a good laugh.",
+                    "swapAnotherCharacterDialogue": [ "Dr. Miranda Fondleton", "Characters/Dr. Miranda Fondleton/q3-2" ],
+                    "reloadDialogue": true,
+                    "progressionEventPlayed": "vault_test_sadistic_answer_given",
+                    "responseText": "Public humiliation is the kink that keeps on giving. And bonus points if someone in the crowd finishes before the tape ends."
+                },
+                {
+                    "optionText": "B. Blackmail that kinky bastard for caps.",
+                    "swapAnotherCharacterDialogue": [ "Dr. Miranda Fondleton", "Characters/Dr. Miranda Fondleton/q3-2" ],
+                    "reloadDialogue": true,
+                    "progressionEventPlayed": "vault_test_exploitation_answer_given",
+                    "responseText": "Mmm, dirty capitalism. A classic maneuver. I’d love to see your negotiation technique in action. Preferably shirtless."
+                },
+                {
+                    "optionText": "C. Furiously jerk off to assert dominance, then anonymously leave it on his desk.",
+                    "swapAnotherCharacterDialogue": [ "Dr. Miranda Fondleton", "Characters/Dr. Miranda Fondleton/q3-2" ],
+                    "reloadDialogue": true,
+                    "progressionEventPlayed": "vault_test_perversion_answer_given",
+                    "responseText": "Now that’s psychological warfare. Masturbation as a power move? That’s beyond degenerate—it’s performance art. Vault-Tec should hire you as head of morale."
+                },
+                {
+                    "optionText": "D. Destroy the tape quietly. Not your business.",
+                    "swapAnotherCharacterDialogue": [ "Dr. Miranda Fondleton", "Characters/Dr. Miranda Fondleton/q3-2" ],
+                    "reloadDialogue": true,
+                    "progressionEventPlayed": "vault_test_pragmatic_answer_given",
+                    "responseText": "Wow. You didn’t exploit it? You’re either emotionally mature or dead inside."
+                }
+              ]
+        }
+    ]
+} 

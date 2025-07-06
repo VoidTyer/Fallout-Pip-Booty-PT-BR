@@ -1,0 +1,118 @@
+{
+    "options": [
+    {
+        "optionText": "[Come closer]",
+        "itemRequired": "Stealth Boy",
+        "changeSprite":  "Characters/ShowerGirl/redhead_upclose2",
+        "newSpriteXPos": -1.04,
+        "newSpriteYPos": 0.13,
+        "playsound": "Sounds/combat/stealthboy",
+        "resetToDefaultSpriteAfterClosingDialogues": true,
+        "followUpOptions": [
+            {
+                "optionText": "[Slap her ass]", 
+                "playSound": "slap2",
+                "specialEffects": ["Punch"],
+                "emotion": "Characters/ShowerGirl/emotions/opened_eye",
+                "responseTexts": [
+                    "*Gasps* WHAT THE FUCK?! Something just slapped my ass... oh god, oh god, what’s happening?!",
+                    "*Panting* Who the fuck just did that?! I... I didn’t think... Oh shit, I can’t even see you, but... oh fuck... why does it... feel so... fucking good?" 
+                ]
+            },
+            {
+                "optionText": "[Finger her pussy]", 
+                "playSound": "Sounds/fingering2",
+                "emotion": "none",
+                "responseTexts": [
+                    "*Screams* Ohhh fuck! WHO'S DOING IT?! Someone's... touching me... but I can’t see you... I can’t... oh fuck... it feels so fucking good...!", 
+                    "*Panting* Oh god... oh god, I don’t know who you are, but... fuck, I can’t... stop...! Keep going... oh fuck, I hate this... but I fucking love it...!" 
+                ]
+            },
+            {
+                "optionText": "[Flash your dick]",
+                "playSound": "zip",
+                "icon": "GUI/heart4",
+                "emotion": "Characters/ShowerGirl/emotions/opened_eye",
+                "responseText": "Wait... WHAT THE FUCK?! Is that... a floating dick?! Oh my god, am I losing my mind?! WHO’S DOING THIS?!",
+                "followUpOptions": [  
+                    {
+                        "optionText": "You ever seen a ‘haunted’ dick before? Consider this a first.",
+                        "icon": "GUI/heart4",
+                        "responseText": "Haunted dick?! HAUNTED DICK?! You’re fucking crazy! I need to get OUT of here!",
+                        "followUpOptions": [ 
+                            {
+                                "optionText": "What’s the harm in having a little fun with a ‘phantom friend’? I promise it’s harmless.",
+                                "emotion": "none",
+                                "icon": "GUI/heart4",
+                                "responseText": "*Breathing heavily* Harmless?! There’s a FLOATING DICK and you’re invisible! HOW is that harmless?! But... oh god, why am I even considering this?! You’re seriously twisted. fuck, I must be too...",
+                                "followUpOptions": [ 
+                                    {
+                                        "optionText": "[Go for it]",
+                                        "icon": "GUI/heart4",
+                                        "interactable": "Characters/ShowerGirl/Interactables/blowjob",
+                                        "closeDialogueOptions": true,
+                                        "isHEventStarted": true, 
+                                        "hEventName": "shower_blowjob",
+                                        "specialEffects": ["Blackout"],
+                                        "lineAfterHevent": "Mmm, I’m adding ‘ghost cum handler’ to my vault duties... Vault 6969 is really something else!",
+                                        "endingEffects": ["Flashes"],
+                                        "spriteAtTheEndOfHscene": "Characters/ShowerGirl/IPAdapter_00475_(2)(1)(1)",
+                                        "auto_lines": [ 
+                                            "Mmm... haunted dick? Ahh, fuck me, I guess ghosts need love too... ♥︎",
+                                            "Oh, so this is what ‘spiritual connection’ really means, huh? ♥︎",
+                                            "Mmm, I didn’t know ghosts could cum, but guess I’m about to find out...",
+                                            "Ohhh, haunted or not, this dick is making me question all my life choices... ♥︎",
+                                            "Mmm, I can’t believe I’m giving head to the fucking spirit world... what the hell is my life?!",
+                                            "Ahh, at least the ghost didn’t leave slime like in the movies... unless it’s saving that for later. ♥︎",
+                                            "Oh, this is way better than any seance. Who knew sucking ghost dick could be this much fun?!",
+                                            "Mmm, the ghost wants it? Guess I’m gonna give it the full experience—how’s that for afterlife hospitality?",
+                                            "Ohh, fucking hell, even the ghosts in this vault are pervs. At least they’ve got good taste!",
+                                            "Mmm, is it weird that I’m enjoying this? Nah, it’s Vault 6969, weird is fucking normal!",
+                                            "Ohhh, next thing you know, they’ll be making ghost pornos. Wait... is that what we’re doing right now?",
+                                            "Mmm, I’m either losing my mind or becoming a ghost dick expert. Either way, it’s a win!",
+                                            "Ahh, wonder if this ghost is getting off more than I am? Fuck it, probably!",
+                                            "Ohh, so much for ‘resting in peace’—this dick is anything but peaceful!",
+                                            "Mmm, I swear, if I get haunted by ghost cum later, I’m gonna need an exorcist!",
+                                            "Ahh, I hope this ghost knows I don’t do refunds... once you start, there’s no going back!",
+                                            "Ohhh, bet no one else in this vault has a ghost blowjob on their resume!",
+                                            "Mmm, invisible or not, this dick’s about to get the VIP treatment. Even ghosts deserve a good time!",
+                                            "Mmm, if this dick goes poltergeist on me, I’m out! But right now... I’m in for the ride!",
+                                            "Ahh, bet this ghost never had someone suck the afterlife out of them before!",
+                                            "Ohhh, looks like I’ve become a ‘spirit guide’... and baby, I’m guiding this ghost right to cloud nine!",
+                                            "Mmm, I’m really out here proving that even ghosts can get laid... you’re welcome, spectral dick!",
+                                            "Oh, fk, if I get haunted by ghost babies after this, I’m suing Vault-Tec!",
+                                            "Mmm, if this dick cums ghost juice, I’m fucking out! I’m not cleaning that sht up!",
+                                            "Oh, this haunted dick better not haunt my dreams after this... or maybe it should? ♥︎",
+                                            "Ahh, I should charge for this... paranormal sucking isn’t in the vault handbook!",
+                                            "Ohhh, this ghost might be dead, but this dick sure ain’t...!", 
+                                            "Ohhh, what’s next? Ghost g-spot hunting? I’m ready for the fucking challenge!",
+                                            "Ahh, I’m gonna need a whole therapy session for this. Haunted dicks aren’t normal, right?!",
+                                            "Oh, shit, this ghost has stamina! I guess that’s what happens when you’re dead but still horny!"
+                                        ]
+                                    }
+                                ]
+                            } 
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "optionText": "[Cough loudly]",
+        "responseText": "Huh? Who’s there?",
+        "followUpOptions": [
+            {
+                "optionText": "I was... uh... just checking if anyone needed extra towels.",
+                "responseText": "Extra towels, huh? Well, I’m flattered, but I think I’m covered—literally. You’re cute, though."
+            },
+            {
+                "optionText": "I was checking the water temperature, you know, making sure it’s optimal!",
+                "responseText": "Oh, well, I appreciate your commitment to vault safety! But, uh, I think I’m good here, inspector."
+            }
+        ]
+    }
+    ],
+    "auto_lines": ["<i>♪ Ohhh, soap on my butt, bubbles on my chest, this shower ain’t over ‘til I’m lookin’ my best! ♪</i>"],
+    "reset_to_default_sprite_after_closure": true
+}

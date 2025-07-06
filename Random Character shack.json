@@ -1,0 +1,146 @@
+{
+    "options": [
+        {
+            "optionText": "Calm down, I'm with no gang.",
+            "dontShowIfProgressionEventsPlayed": ["wastelanders_in_need_gave_caps","wastelanders_in_need_gave_caps_with_extra","wastelanders_in_need_gave_caps_for_tits","wastelanders_in_need_refused_giving_caps","wastelanders_in_need_gave_caps_for_mags","wastelanders_in_need_took_took_caps"],
+            "responseText": "Yeah, right. Heard that before. If you're here for caps, tell your boss we're still scraping them together. Unless you've come for somethin' else...",
+            "followUpOptions": [
+                {
+                    "optionText": "Actually, I want to help. How many caps do you need?",
+                    "responseText": "Help? Seriously? We need at least 80 caps more... If we don't pay up, they'll drag me off and probably slit Gramps' throat just to teach the kid a lesson.",
+                    "followUpOptions": [
+                        {
+                            "optionText": "[Give 80 caps] Here's what you need. Stay safe.",
+                            "addCaps": -80,
+                            "capsRequired": 80, 
+                            "progressionEventsPlayed": ["wastelanders_in_need_gave_caps", "wastelanders_gave"],
+                            "showChoiceStats": "wastelanders_in_need_gave_caps",
+                            "exitLine": true,
+                            "responseText": "Damn... You're really just givin' this up? No strings attached? Guess some people out here haven't lost everything yet."
+                        },
+                        {
+                          "optionText": "[Give 150 caps] Take extra—get yourself and the others something to eat too.",
+                          "addCaps": -150,
+                          "capsRequired": 150, 
+                          "progressionEventsPlayed": ["wastelanders_in_need_gave_caps_with_extra", "wastelanders_gave"],
+                          "showChoiceStats": "wastelanders_in_need_gave_caps",
+                          "exitLine": true,
+                          "responseText": "Wait, seriously? That's... damn, that's more than we even hoped for. I don’t know what to say. Thank you. Really. Maybe there’s still some good left out here."
+                        },
+                        {
+                            "optionText": "Actually, maybe there’s something you can do for me first.",
+                            "responseText": "Knew it. No one gives caps without wantin' somethin'. What exactly you got in mind?",
+                            "followUpOptions": [
+                                {
+                                    "optionText": "Show me your tits.",
+                                    "responseText": "Fuck you. Fine. Take a look, asshole—ain't nothing special.",
+                                    "changeSprite": "Characters/Wastelander/tits out",
+                                    "followUpOptions": [
+                                        {
+                                            "optionText": "Here. Take the caps. We're done.",
+                                            "responseText": "Caps for tits, huh? Fuckin' classy. Just go before I vomit.",
+                                            "addCaps": -80,
+                                            "capsRequired": 80, 
+                                            "progressionEventsPlayed": ["wastelanders_in_need_gave_caps_for_tits", "wastelanders_gave"],
+                                            "showChoiceStats": "wastelanders_in_need_gave_caps",
+                                            "changeSprite": "Characters/Wastelander/girl def",
+                                            "exitLine": true
+                                        },
+                                        {
+                                            "optionText": "Changed my mind. You're not worth it.",
+                                            "responseText": "Figures. Now piss off before I decide your ugly face needs buckshot.",
+                                            "progressionEventPlayed": "wastelanders_in_need_refused_giving_caps",
+                                            "changeSprite": "Characters/Wastelander/girl def",
+                                            "exitLine": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "optionText": "Do you have any fap material? Like pre-war porn mags?",
+                                    "responseText": "What the actual fuck... Yeah, got some old smut Gramps kept. Trade you the lot for those caps.",
+                                    "followUpOptions": [
+                                        {
+                                            "optionText": "[Give 80 caps] Deal. Here's the caps.",
+                                            "responseText": "Whatever floats your boat, freak. Pleasure doin' business.",
+                                            "addCaps": -80,
+                                            "capsRequired": 80,
+                                            "giveItem": "Loose Housewives vol. 2", 
+                                            "progressionEventsPlayed": ["wastelanders_in_need_gave_caps_for_mags", "wastelanders_gave"],
+                                            "showChoiceStats": "wastelanders_in_need_gave_caps",
+                                            "exitLine": true
+                                        },
+                                        {
+                                            "optionText": "Forget it. Keep your crusty porn.",
+                                            "responseText": "Your loss. Guess it's back to jerkin' off with your imagination, creep.",
+                                            "progressionEventPlayed": "wastelanders_in_need_refused_giving_caps",
+                                            "exitLine": true
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "optionText": "80 caps? What's stopping me from just taking yours right now?",
+                            "responseText": "Nothing but my dignity and a shotgun hidden behind the door. You wanna find out if I’m bluffing?",
+                            "followUpOptions": [
+                                {
+                                    "optionText": "Put the gun down, I'm taking your caps—easy way or hard.",
+                                    "addCaps": 100,
+                                    "progressionEventPlayed": "wastelanders_in_need_took_took_caps",
+                                    "showChoiceStats": "wastelanders_in_need_took_took_caps",
+                                    "exitLine": true,
+                                    "responseText": "Fine, asshole. Take them. But I swear, when the Gutters come for me, I'll make sure they know your ugly face too."
+                                },
+                                {
+                                    "optionText": "Easy. Just testing you. Keep your caps.",
+                                    "responseText": "Real funny. Humor's wasted around here. You done?"
+                                }
+                            ]
+                        }
+                    ]
+                } 
+            ]
+        },
+        {
+            "optionText": "I'm with the Gutters. Hand over the caps or things get ugly.",
+            "dontShowIfProgressionEventsPlayed": ["wastelanders_in_need_gave_caps","wastelanders_in_need_gave_caps_with_extra","wastelanders_in_need_gave_caps_for_tits","wastelanders_in_need_refused_giving_caps","wastelanders_in_need_gave_caps_for_mags","wastelanders_in_need_took_took_caps"],
+            "responseText": "You're early, bastard. Fine. We've only got 100. Take it and get out.",
+            "followUpOptions": [
+                {
+                    "optionText": "[Take caps] I'll take everything you've got. Hand it over.",
+                    "addCaps": 100,
+                    "progressionEventPlayed": "wastelanders_in_need_took_took_caps",
+                    "showChoiceStats": "wastelanders_in_need_took_took_caps",
+                    "exitLine": true,
+                    "responseText": "You heartless piece of shit. Take them then. But just know, if I survive tonight, I'll hunt you down myself."
+                },
+                {
+                    "optionText": "Keep your caps. I was testing your loyalty.",
+                    "responseText": "Loyalty? To you psychos? Just leave. Please."
+                }
+            ]
+        }, 
+        {
+            "optionText": "You seem tough. Why haven't you fought the raiders?",
+            "responseText": "Tough? Look around you. Gramps can barely lift himself, Sammy's just a kid, and I'm one bullet from leavin' them alone. You offering to fight alongside us, or just talkin' shit?",
+            "followUpOptions": [ 
+                {
+                    "optionText": "Forget I asked. Good luck out here.",
+                    "responseText": "Yeah, that's what I thought. Walk away like everyone else does.",
+                    "exitLine": true
+                }
+            ]
+        },
+        {
+            "optionText": "What's your story?",
+            "responseText": "You a shrink now? Alright, here's the short version: farm burned, Mom dead, raiders at the door, and I’m trying to keep the kid from eating dirt. Good enough for ya?"
+        },
+        {
+            "optionText": "Bye",
+            "responseText": "Don't get yourself killed out there—or do, I couldn't care less anymore.",
+            "exitLine": true
+        }
+    ], 
+    "auto_lines": [ "Stop right there. You with the Gutters? Say one wrong thing and I put a bullet through your eye." ],
+    "showShadowFigures": "Wastelanders"
+}  

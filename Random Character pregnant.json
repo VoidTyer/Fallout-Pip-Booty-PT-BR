@@ -1,0 +1,66 @@
+{
+    "options": [
+      {
+            "optionText": "I convinced the officers to exile you.",
+            "onlyShowIfProgressionEventPlayed": "chose_to_exile_pregnant_vault_dweller",
+            "responseText": "Of course you did. You looked me in the eye, saw this belly, and still threw me out like trash. I hope the radstorms eat me faster than your guilt does. Get the fuck away from me.",
+            "exitLine": true
+      },
+      {
+        "optionText": "I convinced the officers to let you stay.",
+        "onlyShowIfProgressionEventPlayed": "chose_to_spare_pregnant_vault_dweller",
+        "responseText": "Wait... you did? Really? I thought I was done for. Thank you. I mean it. That means more than you probably know.",
+        "followUpOptions": [
+          {
+            "optionText": "Yeah. Maybe you deserve a second chance.",
+            "responseText": "I don’t know what tomorrow looks like, but today... I feel like I can breathe again. Thank you for that."
+          },
+          {
+            "optionText": "Don’t get too grateful. You’re still under surveillance.",
+            "responseText": "I get it. Rules are rules. But I’ll prove I can still be part of this place. I’m not giving up."
+          }
+        ]
+      },
+      {
+        "optionText": "They’re asking me if I think you should be exiled.",
+        "onlyShowIfProgressionEventPlayed": "chose_to_interrogate_pregnant_vault_dweller",
+        "responseText": "Yeah. Sounds about right. It’s easier to turn people into problems than actually understand them. So... what do you think?",
+        "followUpOptions": [
+            {
+                "optionText": "They say you let someone cum in you. Is that true?",
+                "responseText": "Yeah. It happened. And no, it wasn’t rape. I wanted it. I wanted to feel something. Just once. I didn’t expect it to lead here... but I’m not ashamed of being human."
+            },
+            {
+                "optionText": "I could tell them you deserve to stay. Maybe you raise the kid in peace.",
+                "responseText": "That sounds like a dream. I don’t expect charity—but if you really believe in giving people a chance, thank you."
+            },
+            {
+                "optionText": "I could tell them you’re a walking offense. You’d be gone by sundown.",
+                "responseText": "Then at least I’d know. At least I’d stop hoping someone here had a heart left in them. If I’m going to be judged, just say it to my face. I’m not running from what I did."
+            }
+        ]
+      },
+      {
+        "optionText": "You alright?",
+        "responseText": "Do I look alright? They dragged me out of my bunk, made me strip, then marched me in here like livestock. Everyone stares like I did something unforgivable. I’m just trying to keep it together.",
+        "followUpOptions": [ 
+          {
+            "optionText": "Who was it? The father.",
+            "responseText": "Wouldn’t you love to know? Maybe it was someone like you—pretending to be clean, jerking it in the showers. Or maybe it was one of the officers.",
+            "followUpOptions": [
+              {
+                "optionText": "You’re not going to tell anyone?",
+                "responseText": "Not unless someone actually asks me without a stun baton in hand. Not unless someone treats me like a person. I’ll rot before I give them his name while strapped to this seat like a sow."
+              }
+            ]
+          }
+        ]
+      },  
+      {
+        "optionText": "Bye",
+        "responseText": "Yeah. Just walk away. Like everyone else did when it started showing. Just... don’t forget I’m still one of you. I didn’t stop being a person when I got pregnant.",
+        "exitLine": true
+      }
+    ]
+  }
+  

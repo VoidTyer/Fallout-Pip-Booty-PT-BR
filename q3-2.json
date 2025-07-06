@@ -1,0 +1,38 @@
+{
+    "options": [
+        {
+            "optionText": "Next question.",
+            "responseText": "A deathclaw corners you, but suddenly gets distracted, licking its own genitals. Quick—what's your move?",
+            "followUpOptions": [
+                {
+                    "optionText": "A. Run away. You don't interrupt a deathclaw blowjob.", 
+                    "swapAnotherCharacterDialogue": [ "Dr. Miranda Fondleton", "Characters/Dr. Miranda Fondleton/q4" ],
+                    "reloadDialogue": true,
+                    "progressionEventPlayed": "vault_test_pragmatic_answer_given",
+                    "responseText": "Spoken like a man who knows when to let nature take its course. You’re either wise... or wildly into voyeurism."
+                },
+                {
+                    "optionText": "B. Film it—someone, somewhere, is gonna pay big for deathclaw porn.", 
+                    "swapAnotherCharacterDialogue": [ "Dr. Miranda Fondleton", "Characters/Dr. Miranda Fondleton/q4" ],
+                    "reloadDialogue": true,
+                    "progressionEventPlayed": "vault_test_exploitation_answer_given",
+                    "responseText": "Vault-Tec loves initiative, and I love marketable filth. You’re not just depraved—you’re a goddamn entrepreneur of the obscene."
+                },
+                {
+                    "optionText": "C. Unzip your jumpsuit, mimic it, and see who finishes first.", 
+                    "swapAnotherCharacterDialogue": [ "Dr. Miranda Fondleton", "Characters/Dr. Miranda Fondleton/q4" ],
+                    "reloadDialogue": true,
+                    "progressionEventPlayed": "vault_test_perversion_answer_given",
+                    "responseText": "What in the fuck. You turned it into a jack-off contest. I didn’t even have a checkbox for that. I need to invent a new disorder just for you. And I’m writing that down. In crayon. With one hand."
+                },
+                {
+                    "optionText": "D. Pull the pin on a grenade, shove it up its ass while it’s distracted.", 
+                    "swapAnotherCharacterDialogue": [ "Dr. Miranda Fondleton", "Characters/Dr. Miranda Fondleton/q4" ],
+                    "reloadDialogue": true,
+                    "progressionEventPlayed": "vault_test_sadistic_answer_given",
+                    "responseText": "Oh, you have a taste for spectacle, I give you that."
+                }
+            ]
+        }
+    ]
+} 

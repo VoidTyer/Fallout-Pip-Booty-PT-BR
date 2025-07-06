@@ -1,0 +1,61 @@
+{
+    "options": [
+      {
+        "optionText": "What the hell’s going on here?",
+        "responseText": "Public enforcement, citizen. This filthy little cumslut was caught stuffing two fingers in her slippery cunt in the communal showers. That’s a Class-3 purity breach. Now she gets what every finger-fucking degenerate deserves—pain, shame, and a pussy too red to touch.",
+        "followUpOptions": [
+          {
+            "optionText": "You’re really gonna whip her in front of everyone?",
+            "responseText": "Oh, I’m not just going to whip her. I’m going to spank the sin out of her every hole. Each moan she makes is another soul saved. Watch this.",
+            "followUpOptions": [
+              {
+                "optionText": "[Watch silently]",
+                "specialEffects": ["Punch"],
+                "playSound": "Sounds/slap1",
+                "responseTexts": ["You like that, you slippery little whore? Moaning like you want it? Maybe I should whip your clit until you beg to be milked dry!", "Look at that slut twitch. Every time the whip lands, her pussy clenches like it wants to grab something. She’ll spend the next week dripping every time she hears a belt buckle.", "Look at her slutty little cunt twitch with every hit. It’s drooling like it wants a cock, but all she gets is pain. This pussy’s on display now — red, raw, and begging for an orgasm she’ll never get.", "You see that? Her asshole clenches every time the whip lands. Bet she used to finger both holes in the shower, didn’t you, slut?", "Watch her squirm. Her pussy’s leaking like a broken faucet — you could slide a fist in there right now. You want to, don’t you? I bet your cock’s twitching. Go ahead, perv. One twitch and you’ll hang next to her, dick first.", "Look at that fat clit throbbing. Bet she’d hump air if we let her. Hell, maybe I’ll bring a sybian next time and chain her to it until her cunt gives up and goes numb. That's purification through ruin.", "That was a moan. I heard it. You like this, don’t you, you dirty little whore? Bet you imagine the whole vault lining up to use you while I keep whipping that sloppy pussy for lube.", "Her pussy’s making more noise than her mouth. You hear that squelch? That’s a sin begging to be beaten out of her. I should gag her with her own panties next time. Soaked in guilt. Tasted by justice."]
+              },
+              {
+                "optionText": "She looks like she’s enjoying it. Isn’t this counterproductive?",
+                "responseText": "That’s the point, freak. If she cums during punishment, she gets another hour hanging. I want her twitching, drooling, and too overstimulated to know pleasure from pain."
+              }
+            ]
+          },
+          {
+            "optionText": "You always this into your job?",
+            "responseText": "You see these wet streaks down my thigh? That’s discipline. I get soaked making sluts pay for their sins. And don’t think you’re immune. Get a boner and I’ll make you join her—face down, ass up, balls exposed for cleansing."
+          },
+          {
+            "optionText": "You’re all insane. This vault is just a BDSM cult with extra steps.",
+            "responseText": "Spoken like a true future exile. But admit it—you’re hard watching her struggle, her tits bouncing while she sobs into a ball-gag. If you weren't, you wouldn’t still be here, freak.",
+            "followUpOptions": [
+              {
+                "optionText": "...Fuck. Maybe I am.",
+                "exitLine": true,
+                "responseText": "Then stay. Watch every strike. Every shudder. Let it remind you what’ll happen if you so much as stroke your cock without clearance."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "optionText": "The way she’s moaning... are you sure this is punishment?",
+        "responseText": "That’s why we keep going. She breaks once—fine. But this bitch started grinding the air like she was riding invisible cock. So now? She gets thirty more lashes until she forgets what cumming feels like.",
+        "followUpOptions": [
+          {
+            "optionText": "Can I help? I got some frustration to burn.",
+            "responseText": "Mmm. Tempting. But no. Only certified Purity enforcers get to whip holes around here. Unless you want to enlist. There’s an oral exam. I grade hard."
+          },
+          {
+            "optionText": "So what happens if she breaks again?",
+            "responseText": "Then we bring out the metal toys. Cold. Heavy. And very unforgiving. We stuff her with purity rods until she begs for exile—or goes catatonic from too many ruined orgasms."
+          }
+        ]
+      },
+      {
+        "optionText": "Bye",
+        "responseText": "Go, coward. But don’t jerk off thinking about this later. We monitor waste pipe fluid levels. One suspicious flush, and it’s your turn in the chains.",
+        "exitLine": true
+      }
+    ],
+    "auto_lines": ["Nnhhh... fuck... n-not again... not in front of everyone... I-I’ll leak if they hit me there...", "Mmmnh—I didn’t even finish… just a few fingers… now you’ve got me strung up like a dripping fuckdoll..."]
+}  

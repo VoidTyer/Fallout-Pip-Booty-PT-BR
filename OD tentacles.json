@@ -1,0 +1,105 @@
+{
+    "options": [ 
+    {
+        "optionText": "[Watch]",
+        "spriteAtTheEndOfHscene": "Characters/Overseer Daughter/od post deathclaw",
+        "spriteAtTheEndOfHscenePosition": [ 0.38, -1.64 ],
+        "exitLine": true,
+        "isHEventStarted": true, 
+        "closeDialogueOptions": true,  
+        "icon": "GUI/eye icon",
+        "hEventName": "daughter_tentacle_fuck",
+        "progressionEventPlayed": "daughter_tentacle_sex",
+        "interactable": "Characters/Overseer Daughter/Interactables/tentacles", 
+        "lineAfterHevent": "Ahh... thanks for growing this... it's amazing... ♥︎",
+        "auto_lines": [
+
+"Ahh, shit, okay, you're really going deep, huh? Guess I found the vault's kinkiest plant.",
+
+"Fuck, my pussy wasn't prepared for mutant cucumber domination today!",
+
+"Ahhh! Oh, god... is this why dad regulates gardening? Fucking figures.", 
+
+"God, my body betrayed me—fucking cucumber tentacles? Really?",
+
+"Fuck yes! This plant is officially my new favorite contraband.",
+
+"Ohhh, god... stretch me open—fuck Vault-Tec and their no-fun bullshit!",
+
+"Mmm, yes... rebellious pussy meets mutant cucumber—match made in heaven.",  
+
+"Ahhh… deeper! Fuck, I might actually endorse organic produce now!",
+
+"Goddamn, cucumber, if you impregnate me, we're gonna have a problem.",
+
+"Mmm, yes... show me exactly how nature breaks Daddy’s rules.",   
+
+"God, this mutant plant fucks better than most vault dwellers—ahhh!",
+
+"Fuck me, deeper! I swear this stays off the Boogeyman's tapes.",
+
+"Ahhh… my pussy has officially gone rogue—fuck the daddy’s authority!",
+
+"Damn, cucumber—fuck me like you’re smuggling contraband into my pussy!",   
+
+"Fuck, cucumber... make me forget Daddy's dumb rules.", 
+
+"Ahhh, shit... you're better at breaking rules than I am, fuck!",
+
+"Fuck, yes! My pussy is officially the vault's new black market hotspot!",
+            "Ahh, fuck… it’s sliding inside me—so deep, god, I can barely take it! ♥︎",
+
+"Mmm, my pussy’s soaking wet... fuck, this plant knows exactly what it wants. ♥︎",
+
+"Shit, I never imagined I'd be fucked like this… ahhh, god, don't stop! ♥︎",
+
+"Ohhh… fuck yes… stretch my pussy open—deeper, god, deeper! ♥︎",
+
+"Fucking hell, this mutated cucumber is fucking me better than anyone ever has. ♥︎",
+
+"Ahhh, god, it feels so good—fuck me harder, fill me completely! ♥︎",
+
+"Fuck, my thighs are shaking… yes, force your tentacles deep inside my pussy! ♥︎",
+
+"Oh god… it’s exploring every sensitive inch of my pussy… ahhh, fuck! ♥︎",  
+
+"Ahh, god, I’m getting fucked by a plant… fuck, and I love every second. ♥︎", 
+
+"Ahh, fuck, it’s so thick… my pussy is stretched beyond belief! ♥︎", 
+
+"Mmm… yes, spread me open, invade every inch—fuck, you're wild! ♥︎",
+
+"Fuck, it's filling me—so deep, god, it's hitting spots I didn't know existed! ♥︎",
+
+"Ahhh… I’m yours now… keep fucking my pussy like it's never been fucked before! ♥︎",
+
+"Oh god, this plant is making me cum… fuck yes! ♥︎",
+
+"Fuck, this is pure ecstasy… it's pumping in and out, owning my pussy completely! ♥︎",
+
+"Ahhh, god, I feel every thrust, every inch sliding deep inside... ♥︎", 
+
+"Oh, fuck… it’s pressing deeper, my pussy’s gripping tight—god, yes! ♥︎",
+
+"Fuck, I can barely handle it… but I can’t get enough of it filling me! ♥︎",
+
+"Ahhh… my body is shaking from pleasure… fuck, keep ravaging me! ♥︎",
+
+"God yes, flood me with your thick tentacles… fuck me until I break! ♥︎",
+
+"Fuck, it’s overwhelming… my pussy throbbing around you… ♥︎",
+
+"Oh god… it feels too good… fuck me deeper—I can take it! ♥︎",
+
+"Fuck, every inch deeper is pure bliss… ahhh, don’t hold back! ♥︎",
+
+"Ahh… god, you’re stretching me wide open—fuck, my body craves this! ♥︎",
+
+"Fuck, yes… fill me, use my pussy until it's fully seeded! ♥︎" ],
+    "endingEffects": ["Flashes"]
+    }
+    ],
+    "auto_lines": ["Ahh, god, I’m getting fucked by a plant… fuck, and I love every second. ♥︎",
+
+"Fuck… my juices are running everywhere—god, keep thrusting deeper! ♥︎" ] 
+}

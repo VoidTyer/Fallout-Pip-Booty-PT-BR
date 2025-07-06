@@ -1,0 +1,53 @@
+{
+    "options": [
+      {
+        "optionText": "Damn. Didn't know you could handle a weapon of ass destruction!", 
+        "emotion": "Characters/Female Purity Police/emotions/scared",
+        "specialEffects": ["removeVignette"],
+        "showChoiceStats": "pp_dildo_busted",
+        "responseText": "OH FUCK! NO WAIT—SHIT! Oh god oh god, it's NOT—I'm not—FUCK! How long have you been standing there?! Please PLEASE don't fucking tell anyone about this!",
+        "followUpOptions": [
+          {
+            "optionText": "Relax, Officer. Just doing some quality assurance testing, right?",
+            "responseText": "YES—wait NO! I mean, fuck, it was purely for... investigative... SHIT. Please don't ruin my fucking life over this. I'll give you whatever you want, just shut up!",
+            "followUpOptions": [
+              {
+                "optionText": "Gimme a confiscated mag. And wash your hands first.",
+                "responseText": "Fuck, fine! Take it! But please for fuck's sake don't tell anyone I got caught with a mega-dong!",
+                "giveItem": "Loose Housewives vol. 2",
+                "progressionEventPlayed": "pp_officer_blackmailed",
+                "fadeOutCharacter": true,
+                "markEventAsPlayed": true,
+                "exitLine": true
+              }, 
+              {
+                "optionText": "Hey, no judgement. Everyone needs to get nuked once in a while.",
+                "fadeOutCharacter": true,
+                "markEventAsPlayed": true,
+                "progressionEventPlayed": "pp_officer_busted_but_let_free",
+                "responseText": "God, you're awful—wait, you're serious? You won't actually rat me out? Oh thank god, please just pretend you saw nothing. I'll bonk you later—I mean fuck, I mean—JUST GO!",
+                "exitLine": true
+              }
+            ]
+          },
+          {
+            "optionText": "Need help handling that monster or should I leave you two alone?",
+            "emotion": "Characters/Female Purity Police/emotions/scared",
+            "responseText": "Fuck you! I mean—wait, no! Please, I swear I'm usually pure as fuck—this was just... research... FUCK!",
+            "followUpOptions": [
+              {
+                "optionText": "Yeah, researching your cervix with a mutant-sized dong, got it.",
+                "responseText": "SHUT UP! Oh my god, I'm ruined! Please just fucking leave! I'll owe you big time if you never mention this again!",
+                "fadeOutCharacter": true,
+                "progressionEventPlayed": "pp_officer_busted_but_let_free",
+                "markEventAsPlayed": true,
+                "exitLine": true
+              }
+            ]
+          } 
+        ]
+      } 
+    ],
+    "auto_lines": ["This isn’t volation, it’s a field drill... gotta make sure this pussy can withstand high-pressure interrogations... for Vault-Tec... for SCIENCE...","Fuuuck, yes... split this tight little purity pussy wide open... breach my vault like it's a crime... oh fuck, gonna go so deep in my regulation hole...", "Mmm—gonna override my shame protocols with that fat dildo... ughh, yes, fill my disciplinary chamber with unauthorized data uploads... yes, yes, YES—"]
+} 
+  

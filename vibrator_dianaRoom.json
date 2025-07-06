@@ -1,0 +1,14 @@
+{
+    "options": [
+        {
+            "optionText": "Wow, didn't expect to walk in on you... uh...",
+            "responseText": "Darling, when you own the room, you don’t need to cover anything. But if it bothers you that much, you can always turn around and stare at the door. Or stay. Just know I charge extra for an audience.",
+            "followUpOptions": [
+                {
+                    "optionText": "I'll... uh... just stare respectfully.",
+                    "responseText": "Good boy. But don’t get too comfortable—you might get mistaken for one of my toys."
+                }
+            ]
+        }
+    ]
+}

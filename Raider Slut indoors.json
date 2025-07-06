@@ -1,0 +1,52 @@
+{
+    "options": [
+      {
+        "optionText": "Hey... you alright?",
+        "responseText": "Depends what you mean by 'alright'.",
+        "followUpOptions": [
+            {
+            "optionText": "What happened to you?",
+            "responseText": "Got picked up by some bastards out west. Traded me in for a handful of caps. That was... weeks ago, maybe."
+            },
+            {
+            "optionText": "You need help getting out of here?",
+            "responseText": "You think anyone walks out of here? I wouldn't even know where to go." 
+            }
+        ]
+        },
+      {
+        "optionText": "*Kick the chair.* Wakey wakey, bitch.",
+        "responseText": "Who the fuck—? Oh... another asshole come to play. Fucking kill me or fuck off, I don't care anymore.",
+        "followUpOptions": [
+          {
+            "optionText": "Already broken, huh? Pathetic.",
+            "responseText": "Broken? I'm fucking pulverized, asshole. You wanna piece? Go ahead, see if there's anything left."
+          }, 
+          {
+            "optionText": "What's your price, slut?",
+            "responseText": "Couple caps, a dose of Jet, a bullet in my skull. Take your pick."
+          },
+          {
+            "optionText": "Mind your tongue or I'll rip it out.",
+            "responseText": "*She spits blood-stained saliva at your feet* Do it, pussy. You'll just get me excited."
+          }
+        ]
+      },
+      {
+        "optionText": "What's her story? *point to the girl on the floor.*",
+        "responseText": "Fresh meat. Raiders dragged her in screaming yesterday. Still crying. Give it a week, she'll beg you to put her down."
+      },
+      {
+        "optionText": "Enjoying the raider lifestyle?",
+        "responseText": "I'm their favorite toy—used, abused, broken. Only thing keeping me breathing is spite. And I have plenty left for you if you get too close."
+      },
+      {
+        "optionText": "Bye",
+        "responseText": "Yeah. Fuck off.",
+        "exitLine": true
+      }
+    ],
+    "auto_lines": ["They said I was lucky. Said the last girl didn’t even last a day.","He said if I cry again, he’ll cut my ears off.", "*wet coughing in the next room... followed by low, guttural sobbing*"],
+    "showShadowFigures": "Raider Slut Hall" 
+  }
+  

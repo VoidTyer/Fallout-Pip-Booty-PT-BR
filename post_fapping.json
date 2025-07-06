@@ -1,0 +1,36 @@
+{
+  "options": [
+    {
+      "optionText": "Grace… what exactly are you doing?",
+      "responseText": "*gasps loudly, pulling her hands away and covering her flushed face* Wh-what?! I-I wasn’t…! I mean… okay fine, I was! God, this is so embarrassing…",
+      "followUpOptions": [
+        {
+          "optionText": "Don't worry, it's okay to take care of yourself.",
+          "responseText": "*buries her face in her hands* Yeah but… not when someone’s standing right there watching! Ugh… can you, like, not look at me like that?"
+        },
+        {
+          "optionText": "Looks like someone took my advice to heart.",
+          "responseText": "*glares through her blush* Shut up. You were the one who told me about it, remember? I just… wanted to see what the big deal was…",
+          "followUpOptions": [
+            {
+              "optionText": "And? How was it?",
+              "responseText": "*groans, still covering her face* I don’t know, okay?! It felt… weird but… kinda nice… oh my god, why are we even TALKING about this?!"
+            },
+            {
+              "optionText": "Need any… help?",
+              "responseText": "*eyes widen in horror* EXCUSE ME?! Oh my god, no! Just… go away!!"
+            }
+          ]
+        },
+        {
+          "optionText": "Don’t stop on my account. Looks like you were having fun.",
+          "responseText": "*throws a pillow at you* Shut up shut up shut up! Ugh, you’re such a perv…"
+        },
+        {
+          "optionText": "Wow… guess the vault life is getting to you already.",
+          "responseText": "*pouts, still beet red* Yeah, well… maybe I’m just… curious. It’s boring here, okay?! Don’t make it weird…"
+        }
+      ]
+    }
+  ] 
+}

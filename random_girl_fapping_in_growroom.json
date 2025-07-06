@@ -1,0 +1,44 @@
+ 
+{
+    "options": [
+        {
+            "optionText": "Uh... who are you?",
+            "responseText": "Mmm... Oh, me? I’m just another victim of your little... ‘tension release program.’ What, didn’t expect your mags to work this well? ♥︎",
+            "followUpOptions": [
+                {
+                    "optionText": "Wait, *I* did this? You’re here because of the contraband?",
+                    "responseText": "Oh, sweetheart, you set the whole vault on fire with that shit! Now, everyone’s either hiding in their rooms or doing... *this* wherever they can. ♥︎"
+                },
+                {
+                    "optionText": "Uh, this wasn’t *exactly* what I had in mind...",
+                    "responseText": "Oh, trust me, it’s working perfectly. Tension’s high, baby, and this pussy’s gotta relieve some pressure."
+                }
+            ]
+        },
+        {
+            "optionText": "You're seriously rubbing one out right next to the boogeyman?",
+            "responseText": "Mmm... You think he cares? He's seen worse. Plus, you never know what what he's packing...",
+            "followUpOptions": [
+                {
+                    "optionText": "You do realize he’s probably got a dick full of diseases, right?",
+                    "responseText": "Oh please, a little risk makes it more... exciting."
+                }
+            ]
+        },  
+        {
+            "optionText": "Need a hand? Looks like you're struggling to... finish.",
+            "responseText": "Mmm, you’re cute. But no. This is a solo mission. I don’t need a co-pilot to land this ship.",
+            "followUpOptions": [
+                {
+                    "optionText": "You sure? You look like you're about to tap out.",
+                    "responseText": "Mmm, trust me, I’m good. ♥︎"
+                },
+                {
+                    "optionText": "Come on, everyone needs a little backup sometimes.",
+                    "responseText": "Sweetie, this pussy’s a one-woman operation. I’m more than capable of handling my own... tension. ♥︎"
+                }
+            ]
+        } 
+    ],
+    "auto_lines": ["Ahh, yeah... fingers deep in my pussy, feels so good...", "Fuck, yes... been too long... juices running down my thighs, just the way I like it...", "Yes, yes... keep going... fingers working that clit... God, I’m so wet...", "Gonna cum, gonna cum... right here in this stupid vault, and there’s nothing they can do to stop me...", "Mmm, wish I could find someone with a real dick, but this’ll have to do...", "Ugh, so close... fuck, I’m gonna scream when I cum, I don’t care who hears...", "Almost there... God, I’m gonna soak the bed...", "Mmm, my pussy’s so hungry for this... wish I could find someone to fill me up...", "Ahh, fuck, so close... gonna cum, gonna cum, can’t stop now...", "Yes, yes, yes... oh, fuck, it’s coming... gonna cum so hard...", "Almost there... oh God, yes... here it comes, gonna soak these sheets...", "Fuck, fuck, FUCK... cumming, oh God, cumming... ahhhh ♥♥♥..."]
+}

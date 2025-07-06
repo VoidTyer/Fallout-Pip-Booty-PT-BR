@@ -1,0 +1,38 @@
+{
+    "options": [
+        {
+            "optionText": "What’s the first question?",
+            "responseText": "You're wandering the wasteland and find a female raider brutally wounded, begging for mercy. What's your next move?",
+            "followUpOptions": [ 
+                {
+                    "optionText": "A. Give her a stimpack and some water.",
+                    "swapAnotherCharacterDialogue": [ "Dr. Miranda Fondleton", "Characters/Dr. Miranda Fondleton/q2-2" ],
+                    "reloadDialogue": true,
+                    "progressionEventPlayed": "vault_test_pragmatic_answer_given",
+                    "responseText": "How wholesome! I’ll make a note of your latent need for companionship."
+                },
+                {
+                    "optionText": "B. Rob her blind, piss in her wounds, and walk away laughing.",
+                    "swapAnotherCharacterDialogue": [ "Dr. Miranda Fondleton", "Characters/Dr. Miranda Fondleton/q2-2" ],
+                    "reloadDialogue": true,
+                    "progressionEventPlayed": "vault_test_sadistic_answer_given",
+                    "responseText": "Oh-ho-HO! We’ve got a sadistic little piss goblin in the house. Textbook sociopathy with a hint of golden shower fetish. You’re a cocktail of supressed trauma, and I’m drinking it straight, no chaser."
+                },
+                {
+                    "optionText": "C. Save her, but only to sell her as a sex slave to the nearest caravan.",
+                    "swapAnotherCharacterDialogue": [ "Dr. Miranda Fondleton", "Characters/Dr. Miranda Fondleton/q2-2" ],
+                    "reloadDialogue": true,
+                    "progressionEventPlayed": "vault_test_exploitation_answer_given",
+                    "responseText": "Now that’s the Vault-Tec spirit! Human trafficking and a rock-hard moral ambiguity. Disgusting. Disturbing. Delicious."
+                },
+                {
+                    "optionText": "D. Blindfold her with her own panties, then gag her with your cock.",
+                    "swapAnotherCharacterDialogue": [ "Dr. Miranda Fondleton", "Characters/Dr. Miranda Fondleton/q2-2" ],
+                    "reloadDialogue": true,
+                    "progressionEventPlayed": "vault_test_perversion_answer_given",
+                    "responseText": "Oh... my. I want to loathe you, but I can’t stop picturing the scene. If this is your baseline behavior, I’m legally required to report you… Which I won’t. Well, for now."
+                } 
+            ]
+        }
+    ]
+} 

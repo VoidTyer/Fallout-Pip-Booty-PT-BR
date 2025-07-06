@@ -1,0 +1,39 @@
+{
+    "options": [
+        {
+            "optionText": "Why the fuck did you just strip in front of me?",
+            "responseText": "Relax, champ. This highly scientific 'nudity protocol' is designed to measure exactly how close you are to violently snapping—or uncontrollably climaxing. Either way, fascinating data.",
+            "followUpOptions": [
+                {
+                    "optionText": "That's the stupidest excuse for flashing someone I've ever heard.",
+                    "responseText": "Maybe stupid, sure—but you're still shaking. Clearly, my methods penetrate deeper than expected."
+                },
+                {
+                    "optionText": "So this is how you get your kicks? Breaking residents with tits?",
+                    "responseText": "Break? Oh no, darling, I’m elevating you. Sexual frustration breeds innovation—or psychosis. Either way, Vault-Tec wins."
+                },
+                {
+                    "optionText": "Admit it. This isn't science; you're just fucking with me.",
+                    "responseText": "Me? Fucking with you? Perish the thought! If I wanted that, you'd already be cuffed to the bed. No, purely professional curiosity... mostly."
+                }
+            ]
+        },
+        {
+            "optionText": "Alright, we're done here. What are my results?",
+            "responseText": "Wonderful! You've supplied me with enough psychological dirt to fill a raider’s wet dreams. Now to the results...",
+            "vault_test_results": true,
+            "followUpOptions": [ 
+                {
+                    "optionText": "Do I at least get something for enduring this shitshow?",
+                    "responseText": "Absolutely! Your reward is my obsessive, borderline-stalker interest in your continued existence. Lucky you."
+                },
+                {
+                    "optionText": "I'm leaving. Bye.",
+                    "responseText": "Door’s always open if you need another 'therapy session.' Clothing optional.",
+                    "fadeOutCharacter": true,
+                    "exitLine": true
+                }
+            ]
+        } 
+    ]
+}

@@ -1,0 +1,77 @@
+{
+    "options": [
+        {
+            "optionText": "WHO... WHAT ARE YOU?!",
+            "dontShowIfProgressionEventsPlayed": ["refusedToAcceptToddBlessing", "ToddBlessingComplete"],
+            "emotion": "Characters/Todd Howard/emotions/open eyes",
+            "responseText": "Oh, you little Enclave helper. I’m Todd Howard. God of glitches, lord of save files and apparently the only one here with common sense. I’m the cosmic force that keeps this universe barely duct-taped together. And YOU just handed a gun to the vault's Hitler himself. Congrats, champ.",
+            "followUpOptions": [
+                {
+                    "optionText": "Why are you here, you glitchy deity?",
+                    "responseText": "Why am I here? Oh, I don’t know. Maybe because you just speedran your way to the most cursed ending in Vault-Tec history?",
+                    "followUpOptions": [
+                        {
+                            "optionText": "Alright, fair. Can you fix this?",
+                            "progressionEventPlayed": "agreedToAcceptToddBlessing",
+                            "responseText": "Fix it? FIX IT?! Of COURSE I can fix it. But should I? After all, you’re the psycho who played buddy-buddy with a Enclave.",
+                            "followUpOptions": [
+                                {
+                                    "optionText": "Yes, PLEASE fix it! I’ll do anything!",
+                                    "addObjective": "Undo your mess.",
+                                    "responseText": "Anything? Oh, now you’re speaking my language, you filthy little glitch in the system. To cleanse your sins, you must prove your devotion. Only the sacred mantra can save you. Repeat after me: 'It just works.'",
+                                    "followUpOptions": [
+                                        {
+                                            "optionText": "It just works.",
+                                            "responseText": "Pathetic! Do you think the bugs in Fallout 76 died with such weak conviction? AGAIN, louder!",
+                                            "followUpOptions": [
+                                                {
+                                                    "optionText": "IT JUST WORKS!",
+                                                    "responseText": "Yes! Yes! Let the mantra flow through you! Now chant it like the fate of the entire Bethesda Creation Engine rests on your broken little soul.",
+                                                    "followUpOptions": [
+                                                        {
+                                                            "optionText": "IT JUST WORKS!!",
+                                                            "responseText": "Beautiful! I can feel the Todd-energy radiating off you! Once more! Scream it like you’re patching a day-one release!",
+                                                            "followUpOptions": [
+                                                                {
+                                                                    "optionText": "IT JUST WORKS!!!",
+                                                                    "responseText": "PERFECT! Your devotion pleases me. Your sins are temporarily patched, but remember: I’m watching. Always watching.",
+                                                                    "markObjectiveComplete": "Undo your mess.",
+                                                                    "specialEffects": [ "restore color filter" ],
+                                                                    "showChoiceStats": "ToddBlessingComplete",
+                                                                    "progressionEventPlayed": "ToddBlessingComplete",
+                                                                    "advanceDayWithStatusMessage": "The divine Todd has spoken. Your sins are patched... for now. Praise him, for it just works.",
+                                                                    "fadeOutCharacter": true,
+                                                                    "exitLine": true
+                                                                },
+                                                                {
+                                                                    "optionText": "Do I really have to keep shouting this?",
+                                                                    "responseText": "Do you want to live in a vault full of corpses, or do you want Todd to bless your pathetic little world? KEEP GOING!" 
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "optionText": "Wait, what’s the catch?",
+                                    "responseText": "The catch? Oh, you sweet summer noob. The catch is that I’ll fix it MY way. It might work. It might not. It just works... sometimes." 
+                                }
+                            ]
+                        },
+                        {
+                            "optionText": "No, I’ll live with my choices. Even if it sucks.",
+                            "responseText": "Alright, big shot, enjoy your Nazi BFF and his blood-soaked art exhibit. I’ll just be over here... watching.",
+                            "showChoiceStats": "refusedToAcceptToddBlessing",
+                            "progressionEventPlayed": "refusedToAcceptToddBlessing",
+                            "fadeOutCharacter": true,
+                            "exitLine": true
+                        } 
+                    ]
+                } 
+            ]
+        } 
+    ]
+}

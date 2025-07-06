@@ -1,0 +1,79 @@
+{
+  "options": [
+    {
+      "optionText": "So we're here. Now what?",
+      "icon": "GUI/quest mark",
+      "emotion": "Characters/Overseer Daughter/emotions/at the bog/biting lip",
+      "responseText": "Now, we sprinkle this lovely Deathclaw nut marinade around and wait for the horny bastards to come running. Either we’ve revolutionized wasteland dating or we’re about to get gang-fucked into oblivion. Exciting, right?",
+      "followUpOptions": [
+        {
+          "optionText": "Remind me again why I'm risking my life for your insanity?",
+          "emotion": "Characters/Overseer Daughter/emotions/at the bog/biting lip",
+          "responseText": "Because deep down you love the thrill of potentially getting mounted by radioactive reptiles—or because you secretly like me. Your choice."
+        },
+        {
+          "optionText": "What's the escape plan if this goes sideways?",
+          "emotion": "Characters/Overseer Daughter/emotions/at the bog/smile",
+          "responseText": "Escape plan? Ha! Cute. If it goes wrong, you scream, I laugh, and then we both run like hell. Simple and foolproof."
+        },
+        {
+          "optionText": "This potion better work. I didn’t fondle Deathclaw balls for nothing.",
+          "icon": "GUI/quest mark",
+          "emotion": "Characters/Overseer Daughter/emotions/at the bog/biting lip closed eyes",
+          "responseText": "Oh, it'll work. Either they'll hump each other into exhaustion or hump us into exhaustion. Honestly, both sound like hilarious outcomes.",
+          "followUpOptions": [ 
+            {
+                "optionText": "How long until the Deathclaws arrive?",
+                "emotion": "none",
+                "responseText": "Could be minutes, could be seconds. If they're half as horny as you were grabbing their junk, they'll be here in no time."
+            },
+            {
+                "optionText": "You’re disturbingly excited about this.",
+                "emotion": "Characters/Overseer Daughter/emotions/at the bog/smile",
+                "responseText": "Disturbingly? Nah, I'm perfectly normal. If you’re not turned on by the idea of Deathclaws smashing each other senseless in a pheromone frenzy, are you even alive?"
+            },
+            {
+                "optionText": "[Wait silently]",
+                "icon": "GUI/quest mark",
+                "specialEffects": ["fade to black"],
+                "emotion": "none",
+                "responseText": "*pulls pin on the pheromone grenade* Too late to back out now, daddy. The swamp’s about to get real sticky. Pray to whatever God you still believe in—and maybe clench.",
+                "followUpOptions": [
+                    {
+                        "optionText": "I hear movement. Is that them?",
+                        "icon": "GUI/quest mark",
+                        "changeSprite": "Characters/Overseer Daughter/monster sex(1)", 
+                        "newSpriteYPos": -0.97,
+                        "newSpriteXPos": 0.38, 
+                        "changeSpriteColor": "9A8E8B",
+                        "responseText": "Either horny Deathclaws or raiders who just discovered a new kink. Either way, brace for penetration.",  
+                        "followUpOptions": [
+                          {
+                            "optionText": "Wanna play Fuck-Marry-Mutate while we die of suspense?",
+                            "responseText": "Sure. Fuck: Deathclaw. Marry: Mirelurk Queen. Mutate: Probably already happened from inhaling this shit."
+                          },
+                          {
+                                "optionText": "[Continue waiting nervously]",
+                                "icon": "GUI/quest mark",
+                                "playSound": "Sounds/combat/deathclaw OD snatch", 
+                                "responseText": "Relax—what's the worst that could—AHHH—holy shit! It's here! IT'S FUCKING HERE—PUT ME DOWN YOU SCALED PERVERT!",
+                                "exitLine": true,
+                                "specialEffects": ["restore color filter"],
+                                "showShadowFigures": "Deathclaws2",
+                                "swapAnotherCharacterDialogue": [ "Overseer Daughter", "Characters/Overseer Daughter/deathclaw_sex2" ]
+                          }
+                        ]
+                    }
+                ]
+            }
+          ]
+        } 
+      ]
+    },  
+    {
+      "optionText": "I've got a bad feeling about this.",
+      "emotion": "Characters/Overseer Daughter/emotions/at the bog/smile",
+      "responseText": "Good! That means your survival instincts aren't entirely dead. Stay sharp—and remember, if shit hits the fan, trip someone slower than you. Spoiler: it won't be me."
+    }
+  ]
+}

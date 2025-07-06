@@ -1,0 +1,95 @@
+{
+    "options": [
+        {
+            "optionText": "Alright, continue.",
+            "responseText": "Oh, this next exercise is a classic psychological evaluation technique. Very avant-garde. Now, close your eyes for a second. No peeking! Trust the process.",
+            "followUpOptions": [
+                {
+                    "optionText": "Uh... okay? I guess I’ll play along. [Close your eyes]",
+                    "specialEffects": ["fade to black"],
+                    "responseText": "Good, good. Just focus on your breathing and try not to overthink. Imagine yourself in a calm, peaceful place... and no, not the cafeteria.",
+                    "followUpOptions": [
+                        {
+                            "optionText": "Can I open my eyes yet?",
+                            "changeSprite": "Characters/Dr. Miranda Fondleton/naked", 
+                            "newSpriteYPos": -1.83,
+                            "newSpriteXPos": -5.37, 
+                            "scale": 1.4,
+                            "changeSpriteColor": "#DDDDDD",
+                            "responseText": "Oh, go ahead. Open up. Nice and slow. No sudden movements. Let’s see what that brain of yours does under *'stress'*.",
+                            "followUpOptions": [
+                                {
+                                    "optionText": "[Open your eyes]",
+                                    "specialEffects": ["restore color filter"],
+                                    "responseText": "Any... thoughts? Quick! First thing that comes to mind. Don’t hold back.",
+                                    "followUpOptions": [
+                                        {
+                                            "optionText": "Tits.",
+                                            "markObjectiveComplete": "Complete your personality test.",
+                                            "changeSprite": "Characters/Dr. Miranda Fondleton/psychologist",
+                                            "specialEffects": ["Blackout"],
+                                            "newSpriteYPos": -0.52,
+                                            "newSpriteXPos": 3.04,
+                                            "swapAnotherCharacterDialogue": [ "Dr. Miranda Fondleton", "Characters/Dr. Miranda Fondleton/test_finished2" ],
+                                            "reloadDialogue": true,
+                                            "scale": 1,
+                                            "responseText": "Ah, yes. The classic primal lizard-brain reaction. Refreshingly honest. And mildly disappointing."
+                                        },
+                                        {
+                                            "optionText": "You’re fucking insane.",
+                                            "markObjectiveComplete": "Complete your personality test.",
+                                            "changeSprite": "Characters/Dr. Miranda Fondleton/psychologist",
+                                            "specialEffects": ["Blackout"],
+                                            "newSpriteYPos": -0.52,
+                                            "newSpriteXPos": 3.04,
+                                            "swapAnotherCharacterDialogue": [ "Dr. Miranda Fondleton", "Characters/Dr. Miranda Fondleton/test_finished2" ],
+                                            "reloadDialogue": true,
+                                            "scale": 1,
+                                            "responseText": "Correct. That’s the first clinically accurate thing you’ve said all day. We're making progress."
+                                        },
+                                        {
+                                            "optionText": "I've seen worse in a Super Mutant nudist colony.",
+                                            "markObjectiveComplete": "Complete your personality test.",
+                                            "changeSprite": "Characters/Dr. Miranda Fondleton/psychologist",
+                                            "specialEffects": ["Blackout"],
+                                            "newSpriteYPos": -0.52,
+                                            "newSpriteXPos": 3.04,
+                                            "swapAnotherCharacterDialogue": [ "Dr. Miranda Fondleton", "Characters/Dr. Miranda Fondleton/test_finished2" ],
+                                            "reloadDialogue": true,
+                                            "scale": 1,
+                                            "responseText": "Charming! And now I have *so many* follow-up questions about your trauma."
+                                        },
+                                        {
+                                            "optionText": "Your bush is shaped like the Vault-Tec logo.",
+                                            "markObjectiveComplete": "Complete your personality test.",
+                                            "changeSprite": "Characters/Dr. Miranda Fondleton/psychologist",
+                                            "specialEffects": ["Blackout"],
+                                            "newSpriteYPos": -0.52,
+                                            "newSpriteXPos": 3.04,
+                                            "swapAnotherCharacterDialogue": [ "Dr. Miranda Fondleton", "Characters/Dr. Miranda Fondleton/test_finished2" ],
+                                            "reloadDialogue": true,
+                                            "scale": 1,
+                                            "responseText": "Observation skills: 10/10. Tact: 0/10. Arousal suppression: utterly hopeless. Noted."
+                                        },
+                                        {
+                                            "optionText": "Please put something on before I do something illegal.",
+                                            "markObjectiveComplete": "Complete your personality test.",
+                                            "changeSprite": "Characters/Dr. Miranda Fondleton/psychologist",
+                                            "specialEffects": ["Blackout"],
+                                            "newSpriteYPos": -0.52,
+                                            "newSpriteXPos": 3.04,
+                                            "swapAnotherCharacterDialogue": [ "Dr. Miranda Fondleton", "Characters/Dr. Miranda Fondleton/test_finished2" ],
+                                            "reloadDialogue": true,
+                                            "scale": 1,
+                                            "responseText": "Now *that’s* what I like to hear. You’re right on the edge of impulse control failure. Perfect test subject material!"
+                                        } 
+                                    ]
+                                } 
+                            ]
+                        }
+                    ]
+                } 
+            ]
+        }
+    ]
+} 

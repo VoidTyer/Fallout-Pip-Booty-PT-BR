@@ -1,0 +1,31 @@
+{
+    "options": [
+        {
+            "optionText": "What in the actual fuck just happened?",
+            "emotion": "Characters/Overseer Daughter/emotions/after deathclaw fuck/happy",
+            "responseText": "What does it look like? Science, obviously. Didn’t you read the Overseer’s memo on ‘pushing the boundaries of research’? My boundaries just got smashed hard, I tell ya. Also, relax. Those are just babies. Wait till I lure adult ones!",
+            "followUpOptions": [
+                {
+                    "optionText": "Science? You call getting deathclawed 'science'?",
+                    "emotion": "Characters/Overseer Daughter/emotions/after deathclaw fuck/closed eyes, determined",
+                    "responseText": "Absolutely. This is frontier biology, baby. I just wrote the book on radioactive sex education—with my pussy. It’s called hands-on experimentation. Well, maybe not hands-on. More like claws-on. Either way, I deserve a Nobel Prize... and a nap."
+                }, 
+                {
+                    "optionText": "Please tell me they're leaving now...",
+                    "emotion": "Characters/Overseer Daughter/emotions/after deathclaw fuck/happy",
+                    "responseText": "Oh, they’re staying. We just bonded. This bog is officially our love nest now. Plus, I'm like 90% sure at least one of them knocked me up, so congrats—you’re gonna be an uncle!"
+                },
+                {
+                    "optionText": "Seriously, you enjoyed THAT?",
+                    "emotion": "Characters/Overseer Daughter/emotions/after deathclaw fuck/closed eyes, determined",
+                    "responseText": "Oh, absolutely. Best stress relief I’ve had since... forever. Besides, you saw the way he looked at me—like a fresh Brahmin steak. Who could resist?"
+                }
+            ]
+        }, 
+        {
+            "optionText": "I don’t even know where to start with how fucked up that was...",
+            "emotion": "Characters/Overseer Daughter/emotions/after deathclaw fuck/closed eyes, sad",
+            "responseText": "Then maybe don’t start at all. Just fetch me a towel, some rad-away, and extra ball sweat if you can manage it. Science demands repeatability—and my pussy’s ready for round two."
+        } 
+    ]
+}

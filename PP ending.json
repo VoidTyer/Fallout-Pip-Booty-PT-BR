@@ -1,0 +1,224 @@
+{
+    "options": [
+        {
+            "optionText": "I’ve got a new resident, Grace. She needs a vault suit.",
+            "onlyDisplayIfHasObjective": "Get a vault suit for Grace.",
+            "icon": "GUI/quest mark",
+            "giveItem": "Vault suit",
+            "exitLine": true,
+            "dontShowIfProgressionEventPlayed": "get_suit_for_grace",
+            "progressionEventPlayed": "get_suit_for_grace",
+            "responseText": "A new resident? Fine, get her a vault suit. But make sure she knows it’s standard issue. The last thing we need is someone bedazzling the Vault-Tec logo."
+        },
+        {
+            "optionText": "I'm here about Gina’s recipe book...",
+            "icon": "GUI/quest mark",
+            "onlyDisplayIfHasObjective": "Retrieve Recipe Book for Gina",
+            "responseText": "Ah, the infamous 'recipe' book. Full of 'Cream-Filled Donuts' and 'Thick Sausage Surprises,' right? That book is a menace to decency. Why would you want it?",
+            "followUpOptions": [
+                {
+                    "optionText": "It’s just a cookbook. Can’t you let it slide?",
+                    "responseText": "Yeah, and I’m just a humble guardian of purity who doesn’t have to bonk pervs on the daily. You can try to sweet talk me all you want, but I need something *juicy* if you expect me to hand it over.",
+                    "followUpOptions": [
+                        {
+                            "optionText": "I’ve been keeping things pure, haven’t I? Cut me some slack.",
+                            "responseText": "Well, well, well... looks like you’ve kept those hands clean—for now. Alright, fine, take the book. But if I see any 'Buns of Sin' coming out of that kitchen, you and me are gonna have words... and they’re all gonna start with 'bonk.'",
+                            "relationshipRequired": 10,
+                            "giveItem": "Gina's Recipe Book", 
+                            "exitLine": true
+                        },
+                        {
+                            "optionText": "What if I offered you something else?",
+                            "responseText": "Oh-ho-ho! Nuka-Cola XXX, baby! Now this is the kind of 'pure refreshment' I can get behind. Consider that filthy cookbook yours—*enjoy your buns of sin, you devil!*",
+                            "failedCheckResponse": "Now we’re talking! Got anything... *stimulating*? Oh! I know—how about a bottle of Nuka-Cola XXX? That stuff's banned, and I’ve been dying to see what all the fizz is about. Bring me one, and I might just 'accidentally' drop Gina’s sinful little recipe book back into circulation.",
+                            "giveItemToCharacter": "Nuka-Cola XXX",
+                            "itemRequired": "Nuka-Cola XXX",
+                            "giveItem": "Gina's Recipe Book",
+                            "exitLine": true
+                        },
+                        {
+                            "optionText": "Never mind, I’ll figure something else out.",
+                            "exitLine": true,
+                            "responseText": "Suit yourself, but that book’s not leaving this room unless you give me a *good* reason."
+                        }
+                    ]
+                } 
+            ]
+        },
+        {
+            "optionText": "I heard you confiscated the robot's holotape. I need it.",
+            "icon": "GUI/quest mark",
+            "onlyDisplayIfHasObjective": "Fix the Vault Sexbot",
+            "dontShowIfProgressionEventPlayed": "got_sexbot_holotape",
+            "responseText": "Oh, you mean the FILTH? That revolting, immoral filth? That has NO PLACE in Vault 6969? Yeah, I confiscated it. Sealed it so tight even Liberty Prime couldn’t liberate it. Why do you want it?",
+            "followUpOptions": [ 
+                {
+                    "optionText": "It’s for the Overseer...",
+                    "responseText": "The Overseer?! Oh, my goodness gracious purified soul! Why didn’t you say so? If it’s for him, I’ll need written approval. Triple signed. And notarized. You don’t have that, do you? Hah, thought so."
+                }, 
+                {
+                    "optionText": "I’ll trade it for this... *bonk baton*.",
+                    "itemRequired": "Monster Dildo",
+                    "giveItem": "Sexbot holotape",
+                    "progressionEventPlayed": "got_sexbot_holotape",
+                    "giveItemToCharacter": "Monster Dildo",
+                    "exitLine": true,
+                    "responseText": "*Her eyes widen, and she blushes furiously* A... bonk baton? I... uh... might confiscate this... for safety purposes, of course! Hand it over, sinner. Here's your filthy holotape. Now... get out of here before I change my mind!"
+                }
+            ]
+        },
+        {
+            "optionText": "You’re not really following the rules anymore, are you?",
+            "responseText": "Rules? Pfft. I’m the last person still pretending to care. Look around, it’s a full-blown orgy with a front-row seat. The Purity Police gave up hours ago. Now we’re just here for the show."
+        },
+        {
+            "optionText": "Is this part of your strategy to catch offenders?",
+            "responseText": "Oh, totally. Let’s just say, standing here naked has made *everyone* guilty of ‘thought crimes.’ It’s like shooting fish in a barrel. Or... something else in a barrel.",
+            "followUpOptions": [
+                {
+                    "optionText": "So, what happens if someone touches?",
+                    "responseText": "Touch? Sweetie, we’re <i>*way*</i> past touching. I used to bonk offenders with the baton, now it’s just a free-for-all. You’d think I’d be out there arresting people, but I’m too busy dodging flying underwear. If someone touches, I’d probably just high-five them and ask if they need lube.",
+                    "followUpOptions": [
+                        {
+                            "optionText": "Are you getting in on the action too?",
+                            "responseText": "I’ve got people lined up begging to see if the ‘Purity Police’ pussy lives up to the hype. Spoiler: It does."
+                        },
+                        {
+                            "optionText": "What about the male part of Purity Police? They losing their minds?",
+                            "responseText": "Losing their minds? Honey, they're losing more than that. The dicks are out in full force—some of them have probably forgotten what pants feel like at this point. I’m telling you, the floors are slick with cum. It’s like a Slip ‘N Slide."
+                        },
+                        {
+                            "optionText": "So... what’s next?",
+                            "responseText": "Next? I mean, this vault’s basically turned into an all-you-can-fuck buffet. I’m surprised we haven’t drowned in cum by now. I guess the only thing left is to dive in. Got your swimsuit?"
+                        }
+                    ]
+                } 
+            ]
+        },
+        {
+            "optionText": "Why don’t you come join the rest of the vault already?",
+            "icon": "GUI/heart4",
+            "responseText": "Oh, what, you think I haven’t fantasized about getting railed against the hydroponics table while some perv jerks it in the Shame Chamber? Please. I’ve been edging on duty since day one.",
+            "followUpOptions": [
+              {
+                "optionText": "Then what the fuck are you waiting for?",
+                "icon": "GUI/heart4",
+                "responseText": "Fine, fuck it. The baton’s going in the toy box. This pussy’s *public fucking utility*. Tell the vault I’m off patrol and on all fours, face-down in a pile of vault meat, getting my insides rearranged by every dick that wants a turn. Vault-Tec can shove their rules right up their tight corporate assholes. This pussy’s open for business!",
+                "progressionEventPlayed": "purity_officer_joins_orgy", 
+                "followUpOptions": [
+                    {
+                        "optionText": "Now we're talking.",
+                        "changeSprite": "Characters/Female Purity Police/bukkake",
+                        "newSpriteXPos": 0.67,
+                        "newSpriteYPos": 0.11, 
+                        "icon": "GUI/heart4",
+                        "closeDialogueOptions": true,
+                        "isHEventStarted": true,
+                        "changeSpriteColor": "#E7E7E7",
+                        "setBGcolor": "#CCCCCC",
+                        "showChoiceStats": "pp_bukkake",
+                        "progressionEventPlayed": "purity_police_bukkake",
+                        "emotionsDuringHevent": ["none", "Characters/Female Purity Police/emotions/bukkake/1", "Characters/Female Purity Police/emotions/bukkake/2"],
+                        "specialEffects": ["Blackout"],
+                        "endingEffects": ["Flashes"],
+                        "lineAfterHevent": "M-my hands—fuck, I can't even feel my fingers—too much d-dick, too much c-cum—ohhh, and they’re still throbbing...",
+                        "hEventName": "purity_police_lounge_bukkake",
+                        "spriteAtTheEndOfHscene": "Characters/Female Purity Police/naked ending",
+                        "spriteAtTheEndOfHscenePosition": [ -0.79, -1.41 ],
+                        "auto_lines": [
+                            "Fuck, I can’t feel my wrists. How many dicks is that? Twelve? Fifteen? Who’s counting. Give me more.", 
+"Mmmfuck, I’ve got cum under my nails and I haven’t even made it past the first row of balls.",
+"Jesus Christ, who the fuck brought the mirelurk lube? This is incredible, keep stroking, don’t stop!",
+"That’s it, baby, spurt that hot cum all over my regulation tits. I’ll scrub it off with discipline later.",
+"I’m stroking faster than an auto-doc with a speed mod—fuck, gimme two more hands!", 
+"Oh my god, yes, line up those cocks like it’s a firing squad. I want to get executed by nut.",
+"Fuck, this guy's balls are bigger than my tits. Gimme that load, daddy.",
+"Don't wait your turn—use my hands, my tits, hell, fuck my armpit if you're desperate, I’m public service now.",
+"I used to hand out purity violations. Now I just hand out handjobs and prostate pressure checks.",
+"Yes, YES—cum on my face like it's the National Anthem. Drench me in your freedom, soldier!",
+"Sweetie, if your cock’s not leaking, you’re not trying hard enough. Gimme that pre-cum like it’s a rations pack.",
+"I’ve got three dicks in my fists and one in my throat, and I still have a free knee. Who wants it?",
+"God, I can smell the sin in this room and it’s making my pussy throb like a Geiger counter in a cum storm.",
+"Hurry up, fuckers! I’ve got twenty dicks on the waitlist and my jaw hasn’t locked yet.",
+"Slap your balls on my face like you’re ringing a dinner bell—feed me, you horny boys!",
+"Mmm, your dick’s so veiny it’s like stroking a deathclaw’s forearm. I’m obsessed.",
+"Stroke it! Spit on it! I wanna see those pipes explode like they haven't since the bombs dropped.",
+"If you’re not moaning like a banshee, I’m not working hard enough—cum in stereo, you degenerate fucks.",
+"This hand’s for stroking, this one’s for milking, and this mouth? It’s for the Vault-Tec oral exam.",
+"Don’t be gentle. Pound my face like it's a complaint form—I want bruises and cumshots.",
+"I used to bonk pervs. Now I jerk 'em off with precision and pride. Vault 6969 forever!",
+"Shove that dick between my tits. Make ‘em shake like I’m doing a morality purge.",
+"Someone start timing me—I’m going for a record. Fifty strokes per cock, no gag, no gloves.",
+"Fuck, the air’s so thick with cum I need a snorkel. Who’s got a spare?",
+"Yes! More dicks! Stack them like bottlecaps! Let me service this vault!",
+"I want your nut dripping off my ears like earrings. Accessorize me, you filthy animals.",
+"Stroke it like you're mad at me. Punish this mouth for every purity ticket I wrote!",
+"Gimme a cock to the elbow—I wanna feel the resistance of justice breaking.",
+"This isn’t an orgy, it’s a performance review—and I’m exceeding expectations.",
+"Who needs weapons? I’ve got five fingers and zero gag reflex. Come get blessed.",
+"Yes, fill my hands, my throat, my soul—I want to be soaked in cum like a vault sponge.",
+"This pussy used to hand out rules. Now it just receives protein.",
+"Keep it coming, boys. We’re not stopping till this vault turns into a flooded cum chamber. Bonk that.",
+
+"Ah—hahhh, fuck—so much cum—it's in my ears, why is it in my ears—mmghf—oh god, don't stop—", 
+"Wh-who just came on my badge? WHO THE FUCK—ahhhhhh, fuck it, it's yours now—",
+"I-I was gonna enforce rules—hahhh—but now I’m just jerking off strangers in the hallway—",
+"Oh god, this guy’s balls are so heavy—feels like I’m milking Brahmin—cum’s everywhere—",
+"Ughhh—fuuuck—I can’t even close my mouth without tasting someone’s load—delicious—",
+"D-don’t stop thrusting—I can work two more with my elbows—just keep cumming on me—",
+"OHHH fuck! That’s five loads in one minute—someone get a fucking bucket—I’m drowning—",
+"My pussy’s untouched and I’m still gonna cum just from this—fuck—look at my hands—",
+"I said ‘don’t cum on my face’ and then opened my mouth—I’m a liar—ahhh—",
+"Goddamn it, why does every dick taste like Nuka-Cola and regret—slap it harder—",
+"A-AHHH fuck I love it—fucking bukkake hallway—I’m a living cum target—",
+"I can’t tell if I’m lubing them or they’re lubing me—so much slick—so much dick—",
+"Hahhhh! F-fuck—there’s cum in my eye but I still see another cock—bring it here—",
+"Don’t ask if I’m okay—I came four times just from handjobs—hands are numb—",
+"Why are you all so fucking backed up? I’m not a cum bank! ...actually wait, yes I am—",
+"I-I can’t stop moaning—every sound makes someone else cum—fuck this is a loop—",
+"I touched one guy’s dick and three others came—telepathic nutting confirmed—",
+"Oh fuck—whose was that?! I just got shotgunned in the back with someone’s soul—",
+"My fingernails are sticky—MY FINGERNAILS—do you even know how much cum that is?!",
+"Yes—YES—give me all your sin—I’ll fucking polish it with my tongue—hahahfuuuuck—",
+"Why is the floor squelching—who dropped a gallon on the medbay tiles?!",
+"OHHHHH—I’m fisting two dudes while stroking a synth and I’m STILL not satisfied—",
+"Haaaahh—hahhh—my wrist is locking up—fuck it, I’ll use my face—bring it in—",
+"Don’t moan like that—I’m gonna cum again—fuck—I’m cumming on my own fucking palms—",
+"Who needs gloves when you’re fisting sinners barehanded like a goddamn vault priestess—",
+"Every moan is another load—every breath is full of cock mist—I’m thriving—",
+"This isn’t a vault anymore—it’s a cum-powered generator and I’m the fucking switch—",
+"I-I forgot who I was—I just know dicks and cum now—my whole life is handjobs—",
+"I thought my job was to bonk pervs—now I’m just squeezing seed out of every one of you—",
+"I can’t blink without getting another fucking facial—just nut already—fuck—",
+"Look at my fucking arms—I’m more lube than muscle—someone spray me down—",
+"OH FUCK—double-fisted again—someone mark the wall, I’m setting records here—",
+"Y-you’re still hard? I drained you three times—WHAT IS IN YOUR BALLS?!",
+"Ahhhhh—don’t stop—my hands were made for this—I was born to jerk—",
+"Fuck—someone just came on my feet—now I’m slipping around like a filthy ballerina—",
+"I just caught cum in my bellybutton—I don’t even know how that happened—",
+"My arms are cramping—someone fuck me before I pass out with a dick in each fist—",
+"G-god I love it—I’m the vault’s official sin sink—bring your loads, feed me—",
+"Ahhh! Yes—YES—cum for me, you disgusting fucks—I’ll jerk this vault off until the end of time!"
+                        ]           
+                    }
+                ]
+              },
+              {
+                "optionText": "Thought you liked watching. Afraid you’ll get addicted?",
+                "responseText": "Addicted? Sweetie, my pussy’s been twitching like a malfunctioning Protectron every time someone moans. I’m *already* addicted. I’m just trying not to explode on the way there."
+              },
+              {
+                "optionText": "Never mind. Didn't realize the 'Purity Police Pussy' was all talk.",
+                "responseText": "Bitch, say that again and I’ll climb on your face so hard the security cameras start steaming. You want the ‘Purity Police Pussy’? You better fucking brace for impact."              
+              }
+            ]
+        },
+        {
+            "optionText": "Bye",
+            "responseText": "Leaving already? Don’t worry. I’ll keep an eye on you. Literally. All the cameras are broken, so I just stand outside your room now.",
+            "exitLine": true
+        }
+    ],
+    "auto_lines": [ "Welcome to the vault’s orgy central. Don’t act so shocked." ],
+    "showShadowFigures": "Lounge ending orgy"
+} 

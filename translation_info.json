@@ -1,0 +1,14 @@
+{
+    "language": "[Translation language e.g. Française]",
+    "locale": "[keep it blank]",
+    "github_repo": "[keep it blank]",
+    "game_version": "[the game version this translation created for]",
+    "translation_detected_window":  
+    {
+        "message": "Translation found: ",
+        "message_part2": "Apply?",
+        "yes_btn": "Yes",
+        "no_btn": "No",
+        "update": "Update"
+    } 
+} 

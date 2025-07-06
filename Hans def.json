@@ -1,0 +1,163 @@
+{
+    "options": [
+      {
+        "optionText": "Here, is this what you wanted?",
+        "icon": "GUI/quest mark",
+        "itemRequired": "Raider's Automatic Rifle",
+        "onlyDisplayIfHasObjective": "Get a Gun for Hans",
+        "markObjectiveComplete": "Get a Gun for Hans",
+        "giveItemToCharacter": "Raider's Automatic Rifle",
+        "showChoiceStats": "hansGotGun",
+        "responseText": "Ah, now *this* is what I’m talking about! This beauty will do nicely... very nicely. You’ve just made yourself *very* useful and secured yourself a place in the new order, my friend. With this, I can stop pretending to be one of these degenerates. Now the real work begins. No more compromises. No more mating pools full of inbred squatters.",
+        "followUpOptions": [
+          {
+            "optionText": "So, what’s next?",
+            "responseText": "Next? Oh, the fun begins now. I’ll keep things quiet for a little while—let the weak feel safe. We isolate the viable stock—maybe two, three at most—and when the time is right, we *extract*. You’ll have your part to play, of course. There’s always a need for capable people in the new regime."
+          },
+          {
+            "optionText": "You better keep me in mind when you take over.",
+            "responseText": "Oh, trust me—you’ll be rewarded well beyond your wildest dreams. I don’t forget those who prove their worth, and you just proved yours. You might not qualify for the breeding program—but not everyone has to be a donor. Some of us are simply executioners."
+          },
+          {
+            "optionText": "Don’t go starting a massacre right away. We need to plan this carefully.",
+            "responseText": "Massacre? No, no. Not right away. We need subtlety first, precision. But don’t worry... there will be a time for *action*, and when that time comes, the purge will be swift. We’ll do this smart, and we’ll do it right.",
+            "exitLine": true
+          }
+        ]
+      },
+      {
+        "optionText": "Who are you?",
+        "icon": "GUI/quest mark",
+        "dontShowIfProgressionEventPlayed": "agreed_to_help_hans",
+        "responseText": "Who am I? Hah! I am Hans 'Übercel' Schmidt, chosen by destiny and my superior bloodline to purify this vault of degeneracy. You’re all parasites gnawing on the bones of the old world and I was sent here to assess what’s salvageable—and it’s not looking good.",
+        "followUpOptions": [
+          {
+            "optionText": "What does that mean? Salvageable?",
+            "responseText": "Genetic purity. Fertility range. Cognitive potential. Most of the residents here? Duds. Junk DNA stuffed in khaki. The only reason I'm still here is because there's a *fraction* of viable reproductive material walking around."
+          },
+          {
+            "optionText": "You mean... you’re with the Enclave?",
+            "responseText": "Ah, finally. A brain cell fires. Yes—I was born Enclave, trained Enclave, deployed Enclave. We never vanished, we just stopped wasting time explaining ourselves to subhumans. We are the continuity of order, and I'm here to sift through this genetic landfill for something worth saving.",
+            "followUpOptions": [ 
+              {
+                "optionText": "You know, I agree. This vault’s a clown show.",
+                "icon": "GUI/quest mark",
+                "responseText": "Finally. Someone who can see through the mildew-stained illusion of 'equality.' This place is a social experiment gone septic—idiots breeding with addicts, parasites voting on leadership. It’s a zoo without cages. But with the right alliance... we could cull the worst and elevate the worthy.",
+                "followUpOptions": [ 
+                  {
+                    "optionText": "I could be convinced to help you... if the plan is right.",
+                    "icon": "GUI/quest mark",
+                    "responseText": "Ah, now we’re getting somewhere. The plan, you see, is as simple as it is genius: Identify the fertile stock—young, untainted, good hip-to-skull ratio—and extract. The rest? Well, let’s just say they’ll be ‘removed’ from the equation.",
+                    "followUpOptions": [
+                        {
+                            "optionText": "Fertile? You mean, you’re planning to choose who gets to live?",
+                            "responseText": "Someone has to. You think letting sub-80 IQ squatters pump out kids is going to save humanity? No. We hand-pick the breeders. Anything less is sabotage against our species. Why let the weak drag us down? The future doesn’t need masses of mediocrity. It needs a select few—hand-picked, *pure* individuals who can restart humanity the *right* way.",
+                            "followUpOptions": [  
+                                {
+                                    "optionText": "So, who qualifies as 'worthy'?",
+                                    "responseText": "There are only a few in this vault who possess the right... *qualities*. Two, maybe three females who could help carry on the proper bloodlines. Strong stock. Fertile."
+                                } 
+                            ]
+                        }, 
+                        {
+                            "optionText": "And what happens to everyone else?",
+                            "responseText": "Everyone else? They’ve outlived their usefulness. Once we have what we need, they’ll be dealt with—quietly, of course. No mess, no fuss."
+                        },
+                        {
+                            "optionText": "What exactly do you want from me?",
+                            "icon": "GUI/quest mark",
+                            "responseText": "Ah, so you’re interested in making moves, are you? Good. I need a weapon—something loud enough that these morons stay out of my way while I move the assets. Get me one, and you’ll earn a place in the new order. Might even get breeding rights if your chromosomes aren’t trash.",
+                            "followUpOptions": [
+                              {
+                                "optionText": "You mean, like a gun?",
+                                "responseText": "Exactly. A little insurance policy. With a weapon in my hands, I’ll be able to steer this ship in the right direction."
+                              }, 
+                              {
+                                "optionText": "I’m in. This vault needs a change.",
+                                "icon": "GUI/quest mark",
+                                "addObjective": "Get a Gun for Hans", 
+                                "progressionEventPlayed": "agreed_to_help_hans",
+                                "exitLine": true,
+                                "responseText": "Smart. Very smart. With you on my side, we’ll set things straight. Get me that gun—we’ve got a vault to purge."
+                              },
+                              {
+                                "optionText": "I’ll think about it, but don’t count on me.",
+                                "responseText": "Think carefully. When this vault starts crumbling, you’ll want to be aligned with someone who has a plan—and the *will* to execute it. I won’t wait forever, but when you’re ready, you know where to find me."
+                              }
+                            ]
+                          }
+                    ]
+                  },
+                  {
+                    "optionText": "I agree. People are fucking dumb.",
+                    "responseText": "Dumb, diseased, delusional. You could show these mutants a genetic defect in their own bloodline and they'd still scream about 'inclusivity.' The vault’s a petting zoo for failures. But not for long. Not with people like *us* ready to wipe the slate."
+                  }
+                ]
+              },
+              {
+                "optionText": "You’re insane. I’m reporting you.",
+                "icon": "GUI/police hat",
+                "responseText": "What did you just say? Report me? Hah! Go ahead—run. You think I haven’t planned for this? I *am* the future, and when the time comes, you’ll regret turning against me.",
+                "followUpOptions": [
+                  {
+                    "optionText": "They'll know the truth about your sick plans soon enough. [Report]",
+                    "exitLine": true,
+                    "fadeOutCharacter": true,
+                    "killCharacter": true,
+                    "showChoiceStats": "hansReported", 
+                    "icon": "GUI/police hat",
+                    "progressionEventPlayed": "hans_reported",
+                    "addSusPoints": -40,
+                    "addWillpowerTokens": 100,
+                    "responseText": "The truth? You naive fool. You think they’ll act on your little ‘report’? Hah! But mark my words, when the purge begins, traitors like you will be the first to go."
+                  }, 
+                  {
+                    "optionText": "Actually, never mind... I’ll keep your little secret.",
+                    "responseText": "Hmm, smart choice. You don’t want to be on the wrong side of history when things go down. Remember, I don’t forget my friends—or my enemies. Watch your step, and maybe you’ll stay on my good side."
+                  }
+                ]
+              }
+            ]
+          } 
+        ]
+      },
+      {
+        "optionText": "What do you think of the vault?",
+        "responseText": "This vault? It's a zoo filled with mongrels, all pretending they’re civilized. They walk around like they’re special, but I can smell the *weakness* from a mile away. This place was supposed to be a sanctuary for the *worthy*—but the Overseer let in every weak-chinned subhuman they could find.",
+        "followUpOptions": [ 
+          {
+            "optionText": "What about the Overseer?",
+            "responseText": "The Overseer? Too delusional, too willing to tolerate genetic... contamination. A real leader would’ve weeded out the undesirables by now, if you catch my drift."
+          },
+          {
+            "optionText": "You think you're better than everyone here, huh?",
+            "responseText": "Oh, I'm not better. I'm *significantly* better. If brains were bullets, you'd be firing a musket while I'd be operating a fully automated missile defense system. You people are post-apocalyptic houseplants—clinging to scraps of civility. I don’t want to rule you. I want to erase you."
+          }
+        ]
+      },
+      {
+        "optionText": "What do you believe in?",
+        "responseText": "Legacy. Structure. Genetic architecture. The wasteland is a test, and most of you are failing it. The future belongs to the bloodlines that *earn* it. If that makes me sound cold, good. I’d rather be cold than extinct.",
+        "followUpOptions": [
+          {
+            "optionText": "Legacy? Dude, it’s the apocalypse, nobody cares who your grandfather was.",
+            "responseText": "Right. Keep telling yourself that while you watch your grandchildren mutate into thumb-faced abominations. Legacy is *everything*! The strong survive and rise to power, while the weak end up gnawing on old Brahmin bones for dinner."
+          }, 
+          {
+            "optionText": "You ever stop to think maybe you’re not as important as you think?",
+            "responseText": "Every time I breathe in this recycled filth air. But then I look around and remember: the bar is on the floor. I don’t need to be important—I just need to be *less defective* than the rest of you."
+          },
+          {
+            "optionText": "What's your vision for this 'perfect world' of yours?",
+            "responseText": "Cleansing. No dead weight. No mixed-code offspring. A new genesis, structured around verifiable strength—mental, physical, reproductive. The weak get silence. The strong get legacy. That’s the contract."
+          }
+        ]
+      },   
+      {
+        "optionText": "Bye",
+        "responseText": "Run along. Just remember—when the lights go out in this vault for good, you’ll want to be standing next to someone with a vision for the future. Not those who are about to be culled.",
+        "exitLine": true
+      }
+    ]
+  }
+  

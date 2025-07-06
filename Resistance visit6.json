@@ -1,0 +1,41 @@
+{
+    "options": [
+        {
+            "optionText": "We did it?!",
+            "addPerk": "new_overseer",
+            "responseText": "Hell yeah, we did it! There's so much hardcore smut floating around that half the residents are already holed up, jerking themselves into dehydration. We are legends now! Time to celebrate with a ‘hands-free’ victory dance."
+        }, 
+        {
+            "optionText": "What’s next?",
+            "addPerk": "new_overseer",
+            "responseText": "What’s next? BRO. We're turning the vault into the wasteland's most legendary porn studio! We're gonna film everything that goes down here—operation 'Pornstorm' begins now, and our movies are gonna be the hottest commodity in the wasteland. Caps roll in, pants drop down—we're gonna run a fucking porn empire!",
+            "followUpOptions": [ 
+                {
+                    "optionText": "Operation Pornstorm? Explain.",
+                    "responseText": "Easy, bro. Picture this: we form a *dirty caravan*, rolling across the wasteland with backpacks stuffed with hardcore stuff. We sneak into other vaults dressed as ‘innocent traders.’ We’ll hit ‘em hard, hit ‘em fast. Slip in, slip out, leave them something to tug about. Before they know what's happening, they'll be too busy jerking off to stop us."
+                },
+                {
+                    "optionText": "You really think we’re gonna take over the wasteland with porn?",
+                    "responseText": "Bro, porn is our weapon of mass distraction! We’re gonna make Caesar’s Legion look like a bunch of choir boys. Imagine this: while every raider, settler, etc. is busy wrestling with their dicks, we’re gonna be living like kings in our little empire of fapdom. When they write the history books, they’ll call this the Great Jerk-ening, and WE’LL be the *Fap Founding Fathers*."
+                }
+            ]
+        },
+        {
+            "optionText": "What happened to the Overseer?",
+            "addPerk": "new_overseer",
+            "responseText": "Bro, he’s GONE. Straight-up cooked. Some poor bastard slipped one of our tapes into his terminal. Nobody thought he’d actually watch it, but *oh-ho, did he ever*. Next thing you know—*BOOM!* His balls exploded with the force of a mini-nuke. The guy literally *drowned* in his own cum. His body was floating like a bloated Brahmin carcass, eyes wide open, but he went out with a smile, bro. RIP Blue Balls, you glorious bastard.",
+            "followUpOptions": [
+                {
+                    "optionText": "What about the Purity Police?",
+                    "responseText": "HA! The Purity Police? Dude, those losers are in full meltdown mode. Half of them defected, tossing their Bonk Batons aside to join our degenerate cause. The rest are sobbing in corners, mourning their virginity. Vault’s ours, pants down!"
+                }
+            ]
+        },
+        {
+            "optionText": "Bye.",
+            "responseTexts": ["Remember, when your hand gets lonely tonight, you know where to find me. Viva la fap-olution!"],
+            "exitLine": true
+        }
+    ],
+    "auto_lines":[ "VICTORY! The vault’s blown its metaphorical load, my friend! The Purity Police are done. I saw one of them sobbing into his Bonk Baton like it was his ex-girlfriend’s letter. We OWN this vault now!" ]
+} 

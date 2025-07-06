@@ -1,0 +1,59 @@
+{
+  "options": [
+    {
+      "optionText": "How are you feeling after… that?",
+      "emotion": "Characters/Grace Wells/emotions/grace closed eyes",
+      "responseText": "*wipes her lips quickly* I… I don’t know… weird… gross… kinda… tingly… I don’t know… don’t ask me that right now…",
+      "followUpOptions": [
+        {
+          "optionText": "Do you regret it?",
+          "emotion": "Characters/Grace Wells/emotions/grace closed eyes",
+          "responseText": "*lets out a shaky breath* I… I don’t know… maybe… maybe not… it just… it felt like I wasn’t myself… like my brain turned off and… ugh, just… forget it."
+        }, 
+        {
+          "optionText": "You looked so cute with my cock in your mouth.",
+          "emotion": "Characters/Grace Wells/emotions/biting lip closed eyes",
+          "responseText": "Stop… just… stop talking… god… Don’t say shit like that… it’s messed up…"
+        },
+        {
+        "optionText": "You went quiet. What’s going on in your head?",
+        "emotion": "Characters/Grace Wells/emotions/grace closed eyes",
+        "responseText": "*stares blankly at the floor* I don’t know… it’s like… everything feels heavy… and my chest hurts… but also… I can’t stop… feeling… weird… inside…",
+        "followUpOptions": [
+            {
+            "optionText": "Weird how?",
+            "emotion": "Characters/Grace Wells/emotions/grace closed eyes",
+            "responseText": "Like… like I want to curl up and die from embarrassment… but… also… I don’t know… warm… just… shut up…"
+            } 
+        ]
+        }, 
+        {
+          "optionText": "Your mouth felt amazing. I want more next time.",
+          "emotion": "Characters/Grace Wells/emotions/grace scared",
+          "responseText": "*eyes dart up in panic* Next time?! I… I don’t… know if I’m ready for that… god… I can’t even think straight right now…"
+        }
+      ]
+    }, 
+    {
+      "optionText": "Would you… ever want to do it again?",
+      "emotion": "Characters/Grace Wells/emotions/grace scared",
+      "responseText": "*tenses* I… I don’t know… okay? Don’t… don’t ask me that right now… my head’s all… messy…"
+    },  
+    {
+      "optionText": "Thanks, Grace.",
+      "emotion": "Characters/Grace Wells/emotions/biting lip closed eyes",
+      "responseText": "*blushes deeper* Don’t… thank me… it’s weird…"
+    },
+    {
+      "optionText": "Bye",
+      "emotion": "none",
+      "responseText": "Y-yeah… bye… and… just… don’t tell anyone… please…",
+      "exitLine": true
+    }
+  ],
+  "auto_lines": [ 
+    "God… what did I just do…",
+    "God… I can still taste it…", 
+    "Please… just let me disappear…"
+  ]
+}  

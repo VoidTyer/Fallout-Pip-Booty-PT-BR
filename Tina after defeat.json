@@ -1,0 +1,96 @@
+{
+    "options": [
+        {
+            "optionText": "So, what makes you think I shouldn’t just put a bullet between your eyes?", 
+            "dontDisplayIfObjectiveComplete": "Talk to Tina",
+            "icon": "GUI/quest mark",
+            "responseText": "Whoa, whoa, let’s not get trigger-happy, hot stuff! You’ve already humiliated me in front of my girls, alright? No need to finish the job. How about this—let me and my sluts walk, and I’ll sweeten the pot. You like caps, right?",
+            "followUpOptions": [
+                {
+                    "optionText": "Go on.", 
+                    "icon": "GUI/quest mark",
+                    "responseText": "That prissy little piece of tiny ass over there? Grace? Yeah, she’s not just some random wasteland trash. She’s the virgin princess of Cumorah Crest. Her daddy’s a big-shot baron, rolling in caps. I’ll give you her and the coordinates to daddy dearest. You bring her home, he pays you fat stacks and probably throws a parade or some shit.",
+                    "followUpOptions": [
+                        {
+                            "optionText": "Grace? What’s so special about her?",
+                            "responseText": "Oh, you’re gonna love this—she’s the only virgin in the brothel. Like, seriously, the *only* one. You know how hard it is to find someone that pure out here? She’s like... raider gold. The guys love the 'untouched' fantasy, and I was gonna cash in big-time. But hey, your win, my loss. Take her. Be a hero or whatever."
+                        },
+                        {
+                            "optionText": "Caps, huh? And what’s stopping me from just killing you and taking the girl?",
+                            "responseText": "Uh, ever heard of goodwill? You know, not making enemies everywhere you go? Besides, I’ve got her dad’s location. You shoot me, good luck finding him."
+                        },
+                        {
+                            "optionText": "Why the hell should I trust you? You’re a raider.",
+                            "responseText": "Fair point. But if I were lying, wouldn’t I offer you some fake bullshit instead of the truth? Grace’s daddy is loaded, and if you bring her back, you’re set for life. Plus, if I screw you, you’ll just hunt me down anyway, right? Not worth it."
+                        },  
+                        {
+                            "optionText": "Fine. Talk. Give me the coordinates.",
+                            "icon": "GUI/quest mark",
+                            "addObjective": "Talk to Grace",
+                            "markObjectiveComplete": "Talk to Tina",
+                            "dontDisplayIfObjectiveComplete": "Talk to Tina",
+                            "exitLine": true,
+                            "responseText": "That’s the spirit! Alright, listen up—Cumorah Crest is about three days south of here, across the big radstorm belt. Can’t miss it. Fancy walls, all shiny and pre-war looking."
+                        },
+                        {
+                            "optionText": "No deal. You and your sluts die here.",
+                            "dontDisplayIfObjectiveComplete": "Talk to Tina",
+                            "exitLine": true,
+                            "responseText": "Oh, come on! What’s the point? You get nothing outta killing us! Caps, a pretty girl, maybe even some gratitude sex if you play your cards right! You really wanna throw that away just to flex?"
+                        }
+                    ]
+                } 
+            ]
+        },
+        {
+            "optionText": "Who the hell are you, anyway?",
+            "responseText": "Me? I’m Thicc Tina, baby. Raider queen, boss bitch, and the mastermind behind this little slice of paradise. Yeah, the name’s not subtle, but hey, you see all this thiccness? Gotta own it.",
+            "followUpOptions": [
+                {
+                    "optionText": "‘Thicc Tina’? Really?",
+                    "responseText": "You got a problem with it? ‘Thicc’ ain’t just my brand, it’s my lifestyle. And trust me, it’s worked out pretty damn well so far—until you showed up, that is."
+                },
+                {
+                    "optionText": "What is this place? Some kind of raider brothel?",
+                    "responseText": "Damn right it is! Welcome to the Raider Sluts’ den. We give the horny masses what they want—pussy, drinks, and a damn good time.",
+                    "followUpOptions": [
+                        {
+                            "optionText": "So, you run a brothel and call yourselves ‘Raider Sluts’? Subtle.",
+                            "responseText": "Subtlety’s for pre-war office drones. We’re loud, proud, and we know how to party. You got a problem with that?"
+                        }, 
+                        {
+                            "optionText": "How’d you even end up running a place like this?",
+                            "responseText": "Oh, it’s a real rags-to-riches story. Started as a scrappy raider nobody, clawed my way to the top with guts, brains, and these thighs of steel. Now I’ve got my own crew, my own brothel, and big reputation."
+                        },
+                        {
+                            "optionText": "What’s the deal with Grace? Why keep her around?",
+                            "responseText": "Like I said, she’s a unicorn—a virgin in a sea of wasteland degenerates. That makes her valuable as hell. Plus, she’s got that stuck-up, helpless vibe that really sells the whole package. Daddy’s money was just the cherry on top."
+                        }
+                    ]
+                },
+                {
+                    "optionText": "Does your gang call you 'Thicc Tina' to your face, or is that just behind your back?",
+                    "responseText": "Oh, they say it to my face, alright. Because they know I’ll shove a power fist up their ass if they don’t say it with respect.",
+                    "followUpOptions": [
+                        {
+                            "optionText": "Respect? More like fear. Big difference.",
+                            "responseText": "Fear *is* respect in the Wasteland, sweetheart. Maybe you’ll learn that someday—if you live long enough."
+                        },
+                        {
+                            "optionText": "Honestly, fair. I wouldn’t argue with someone your size either.",
+                            "responseText": "Smart move. Stick with that instinct, and you’ll go far out here."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "optionText": "Got anything to trade?",
+            "icon": "GUI/trade icon",
+            "neverGreyOut": true,
+            "responseText": "Well, well, if it ain't the wasteland pervert come to stock up. Got whiskey strong enough to erase last night and enough Rad-Lube to handle whatever degeneracy you've got planned. You buying, or you just wasting my time?",
+            "isTrading": true
+        }
+    ],
+    "auto_lines": [ "Alright, alright, you win! Damn, my girls didn’t even back me up, the traitorous sluts. Now, how about we work something out?" ]
+}

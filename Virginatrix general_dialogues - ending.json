@@ -1,0 +1,34 @@
+{
+    "options": [
+        {
+            "optionText": "Nice nips, Supreme Commander. Are those standard issue, or just a perk for good behavior?",
+            "responseText": "You filthy degenerate! My resolve is harder than your... well, you know. This was a test, and clearly, you're failing spectacularly!",
+            "followUpOptions": [
+                {
+                    "optionText": "Harder than what, exactly? Come on, say it. I dare you.",
+                    "responseText": "Shut your mouth, sinner! I’ll be the one giving out the hard lessons around here!"
+                },
+                {
+                    "optionText": "Don’t be shy now, Commander. Looks like you're about five seconds away from breaking.",
+                    "responseText": "I… I will NOT break! You’re all weak, letting your base instincts take over! But me? *glances down* ... I’m in full control. Totally. Completely. Oh, God...",
+                    "followUpOptions": [
+                        {
+                            "optionText": "Full control? Really?",
+                            "responseText": "Don’t you even start! This is still a No-Bone Zone, and I’ll bonk the sin out of you until you forget what that thing between your legs is for!"
+                        },
+                        {
+                            "optionText": "Let's be real. Everyone’s having a good time, and here you are... nipples out, acting like you aren’t ready to join the fun.",
+                            "exitLine": true,
+                            "responseText": "Don’t you DARE imply that I’d ever lower myself to your... your... primal urges! But if I'm ever going down, I’m taking you with me. To the Shame Chamber. Naked. In chains. And you’ll never... ever... see daylight again!"
+                        }
+                    ]
+                }
+            ]
+        },   
+        {
+            "optionText": "Bye",
+            "responseText": "Run, sinner, but you can’t escape the Bonk forever! I’ll find you... and when I do, it’ll be one long session in the Shame Chamber!",
+            "exitLine": true
+        }
+    ]
+}

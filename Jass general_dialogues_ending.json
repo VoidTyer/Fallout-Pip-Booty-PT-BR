@@ -1,0 +1,40 @@
+{
+  "options": [
+    {
+      "optionText": "You realize the whole vault is fucking right now, right?",
+      "responseText": "Wait, what?! You serious? The No-Fap Vault is finally the All-Fap Vault? Shit, have I jerked off so much I've hallucinated my dreams into reality?",
+      "followUpOptions": [
+        {
+          "optionText": "Seriously. The Overseer’s been overthrown. It’s an orgy out there.",
+          "responseText": "Fuck, and I'm stuck in here jerking off solo like a fucking loser? Somebody get my dick out of retirement—I gotta make up for lost time!"
+        },
+        {
+          "optionText": "Want me to let you out?",
+          "responseText": "Are you kidding? This is my Olympics—my dick’s been training for this moment its whole life! Get me outta here, and I'll cum my way through the entire vault population!"
+        },
+        {
+          "optionText": "Honestly surprised you didn’t feel the orgy vibrations through the walls.",
+          "responseText": "Bro, my balls have been vibrating for years—I just thought it was chronic blue balls. Turns out it was the entire vault fucking without me. Damn, that's tragic."
+        },
+        {
+        "optionText": "Still chasing that Emergency Release Button?",
+        "responseText": "Dude, fuck the button! If what you're saying is true, the entire vault just became the world's greatest porn mag. I'm about to dive dick-first into paradise!"
+        }
+      ]
+    },
+    {
+      "optionText": "Why haven't you escaped yet? The door’s unlocked.",
+      "responseText": "Wait, the door was unlocked?! Fuck me sideways! I've literally been edging myself for weeks thinking I was trapped. Goddammit, my right hand’s got some serious explaining to do."
+    },
+    {
+      "optionText": "Thinking of turning the vault into a porn studio. Want to be our head scriptwriter?",
+      "responseText": "Scriptwriter?! Bro, I've got years' worth of plots stored in my spank bank. I've written entire cinematic universes in my head—Vault Bang: Infinity Cock, Rise of the Thighwalkers, Lord of the Rims... Sign me the fuck up!"
+    }, 
+    {
+      "optionText": "Bye.",
+      "exitLine": true,
+      "responseText": "You kidding? The second you leave, my dick’s staging a comeback tour. Vault 6969, here comes the ‘Masturbation Maestro’!"
+    }
+  ],
+  "auto_lines": ["Welcome to the chamber of shame! Population: me... and my right hand. Did you bring lube? No? Eh, rookie mistake."]
+} 

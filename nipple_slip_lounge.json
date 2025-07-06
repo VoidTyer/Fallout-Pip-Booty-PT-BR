@@ -1,0 +1,14 @@
+{
+    "options": [
+        {
+            "optionText": "Uh... I can see... a lot.",
+            "responseText": "Oh, this? Yeah, figured I’d give the girls a little air. What’s the matter? Feeling a bit *distracted*?",
+            "followUpOptions": [ 
+                {
+                    "optionText": "You’re seriously playing with fire here.",
+                    "responseText": "I’ve been walking around this vault with half my suit unzipped for days. Nobody’s gonna do anything."
+                }
+            ]
+        }
+    ]
+}

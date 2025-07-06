@@ -1,0 +1,58 @@
+{
+    "options": [
+        {
+            "optionText": "How’s the movement going?",
+            "responseText": "Bro, we’re spreading faster than a vault-wide case of crotch rot. I’ve got the entire agriculture crew sneaking in holotapes disguised as seed packets. Soon, they’ll be planting something way spicier than potatoes, if you know what I mean!"
+        },
+        {
+            "optionText": "Are the Purity Police onto us?",
+            "responseText": "Onto us? These spandex-wearing bozos can’t even tie their shoes without getting a wedgie! One of them got so paranoid, he locked himself in the Shame Chamber and threw away the key. We’re living rent-free in their heads, my friend."
+        },
+        {
+            "optionText": "Is there more I can do?",
+            "icon": "GUI/quest mark",
+            "dontDisplayIfHasObjective": "Fix the Vault Sexbot",
+            "responseText": "Actually, now that you mention it, there is. You know that janky sexbot wandering around? The Overseer reprogrammed it to spread his propaganda, but I bet if we fix it, we could turn it into the ultimate morale booster for the resistance!",
+            "followUpOptions": [
+                {
+                    "optionText": "How do we reprogram it?",
+                    "responseText": "Good question. First, we’ll need to find a holotape with its original programming. I heard one of the Purity Cops confiscated it and locked it in their quarters."
+                },
+                {
+                    "optionText": "What will the bot do once it’s reprogrammed?",
+                    "responseText": "What won’t it do? It’ll be a beacon of hope, spreading ‘alternative education.’ Plus, watching the Overseer’s head explode when it starts quoting pre-war erotic poetry? Priceless."
+                },
+                {
+                    "optionText": "I’ll do it.",
+                    "icon": "GUI/quest mark",
+                    "addObjective": "Fix the Vault Sexbot",
+                    "dontDisplayIfHasObjective": "Fix the Vault Sexbot",
+                    "exitLine": true,
+                    "responseText": "That’s the spirit! You, me, and a malfunctioning sex robot against the world. Get that tape, and let’s make the Overseer regret ever being born with ears!"
+                },
+                {
+                    "optionText": "No way, I’m not touching that thing.",
+                    "responseText": "Fine, coward. Go back to hoarding holotapes then."
+                }
+            ]
+        },
+        {
+            "optionText": "I ran out of the mags. Do you have more?",
+            "dontShowIfProgressionEventPlayed": "mags_vol2_handed",
+            "giveItem": "Loose Housewives Vol.2",
+            "numOfCopiesToGive": 4,
+            "progressionEventPlayed": "mags_vol2_handed",
+            "exitLine": true,
+            "icon": "GUI/magazine",
+            "responseText": "Ran out already? Damn, you’ve been busier than I thought! Here, take these—hot off the black market press. Supply chains are tight, but I pulled some strings."
+        },
+        {
+            "optionText": "Bye.", 
+            "responseTexts": ["Remember, when your hand gets lonely tonight, you know where to find me. Viva la fap-olution!",
+                            "When the potato farming and purity lectures get too much, just know there’s a stash of contraband and some loyal right hands waiting for you. Fap well, my friend.",
+                            "Later, dude. I’ll be in the usual place... right behind you, lurking in the shadows. No pressure, though."],
+            "exitLine": true
+        }
+    ],
+    "auto_lines":[ "Bro... you’ve turned this place into a damn powder keg! I just walked by a Purity Cop and he was sweating so much, I thought he’d drown in his own spandex. We’ve got them by the blue balls now!" ]
+}

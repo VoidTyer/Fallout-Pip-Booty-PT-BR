@@ -1,0 +1,61 @@
+{
+    "options": [
+        {
+            "optionText": "I see you haven’t learned your lesson.",
+            "responseText": "Well, well, if it isn’t my favorite Vault Dweller. Back to finish what you started?",
+            "followUpOptions": [
+                {
+                    "optionText": "Hand over everything you’ve got. Again.",
+                    "exitLine": true,
+                    "addCaps": 145,
+                    "responseText": "You sure you wanna do this? Second time’s the charm, huh? Fine, take it all, just leave my girls alone...again."
+                } 
+            ]
+        },
+        {
+            "optionText": "I’m just here to see how things are holding up.",
+            "responseText": "Oh, you mean how you kicked my ass in front of my girls last time? Yeah, we’re doing great, thanks for asking. Didn’t think you’d come back, though.",
+            "followUpOptions": [
+                {
+                    "optionText": "You’re lucky I didn’t wipe you all out.",
+                    "responseText": "Lucky? Vaultie, the only thing lucky here is that I didn’t shove your Pip-Boy where the sun don’t shine. I’m the queen here—pussy power and all. You’d miss me, and you fucking know it."
+                },
+                {
+                    "optionText": "You ever think about joining Vault 6969?",
+                    "responseText": "Vault 6969? Oh yeah, the vault where everyone’s too scared to touch their own dicks. What’s the motto there? ‘Blue balls build character?’ Honey, I’d rather die face-first in a pile of Brahmin shit then never ride another dick again."
+                }
+            ]
+        },
+        {
+            "optionText": "So, who are your favorite clients?",
+            "responseText": "Hmm, if you’re asking who fucks the best, it’s the super mutants. Those big, dumb, green bastards have dicks the size of Brahmin necks. I swear, one of my girls got railed so hard, her screams scared off half my other customers that night. Also, they pay top caps because they’re too stupid to haggle, and they leave my girls walking funny for a week. It’s a win-win.",
+            "followUpOptions": [
+                {
+                    "optionText": "How the hell do your girls survive that?",
+                    "responseText": "Survive? Pfft, most of ’em don’t. Had one chick try to ‘take it like a champ,’ but that champ ended up looking like Deathclaw leftovers. Now I charge extra for a ‘disposable service.’ Clients love it, and I don’t waste resources cleaning up after the dead ones. Capitalism, vaultie!"
+                },
+                {
+                    "optionText": "Ever let one of them fuck you?",
+                    "responseText": "Oh, you bet your ass I have. You think I’d sell this shit without knowing what it’s like? First time, I thought it’d kill me. Turned out it was the best damn lay I ever had. Sure, I couldn’t walk straight for a few days, but that’s a small price to pay. Now, though, I only let the ones with manners take me for a ride. Gotta set boundaries, y’know?"
+                },
+                {
+                    "optionText": "That’s... disturbing.",
+                    "responseText": "Disturbing? Sweetheart, you've seen nothing yet!"
+                } 
+            ]
+        }, 
+        {
+            "optionText": "Got anything to trade?",
+            "icon": "GUI/trade icon",
+            "neverGreyOut": true,
+            "responseText": "Well, well, if it ain't the wasteland pervert come to stock up. Got whiskey strong enough to erase last night and enough Rad-Lube to handle whatever degeneracy you've got planned. You buying, or you just wasting my time?",
+            "isTrading": true
+        },
+        {
+            "optionText": "Bye",
+            "responseText": "Get outta here, Vaultie. Next time, I’m the one kicking your ass.",
+            "exitLine": true
+        }
+    ],
+    "auto_lines": [ "You’re like a radroach infestation—ugly, persistent, and impossible to kill. What do you want this time?" ]
+}

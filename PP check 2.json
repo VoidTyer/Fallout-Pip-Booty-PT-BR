@@ -1,0 +1,70 @@
+{
+    "options": [
+        {
+            "optionText": "What the fuck?! Why are you under my bed?!",
+            "responseText": "YOU KNOW GODDAMN WELL WHY, YOU SLOPPY LITTLE SIN GREMLIN. You think I wouldn’t trace that back to your *cum-stained command center*?! This vault has been getting *sticky* and all traces lead to YOU.",
+            "followUpOptions": [
+                {
+                    "optionText": "DUDE, I WAS JUST SLEEPING.",
+                    "responseText": "SLEEPING? SLEEPING?! THEN EXPLAIN THE *FAP VIBES*, PAL! I CAN SMELL THE TENSION IN THE AIR! It’s THICK, it’s *musky*. YOU’RE HIDING SOMETHING, AND I’M GONNA PRY IT OUT OF YOU LIKE A BOTTLE CAP FROM A CRACKHEAD’S ASS."  
+                },
+                {
+                    "optionText": "How long have you been under there?",
+                    "responseText": "LONG ENOUGH TO HEAR YOUR DEPRAVED *BREATHING*, YOU FILTH GOBLIN. Long enough to witness you roll over, grip your pillow like it’s some *waifu*. You wanna explain THAT, or should I go ahead and slap the *Vault Wanker charge* on your record right now?",
+                    "followUpOptions": [
+                        {
+                            "optionText": "Wait. WAIT. You were under my bed listening to me BREATHE? Who’s the real perv here?!",
+                            "responseText": "OH DON’T TRY TO *UNO REVERSE CARD* ME, YOU DICK-WIZARD! I AM A TRAINED *PURITY OPERATIVE*. I *suffer* so that this vault may remain *unstained* by the likes of *you*."  
+                        }
+                    ]
+                },
+                {
+                    "optionText": "You seriously think I’m smuggling *fap contraband*?!",
+                    "responseText": "OH I *KNOW* YOU ARE, YOU SNEAKY LITTLE *COOM GOBLIN*. We found a 'Loose Housewives' mag in C Block. AND *SOMEONE* has been circulating more of them. THIS. VAULT. IS. FALLING. APART. AND I KNOW YOU'RE THE RINGLEADER!",
+                    "followUpOptions": [
+                        {
+                            "optionText": "IT'S NOT ME, I SWEAR!",
+                            "responseText": "OH PLEASE. You expect me to believe there’s ANOTHER SIN DEALER in this vault? No, NO. I see right through you, *you filth monger!*"  
+                        },
+                        {
+                            "optionText": "Define 'ringleader.'",
+                            "responseText": "A *ringleader*, noun: A deviant mastermind, a smut kingpin, a wretched supplier of wrist-wrecking degeneracy. YOU, in other words."  
+                        }, 
+                        {
+                            "optionText": "So what if I AM? What can you even do to me?",
+                            "responseText": "OH, YOU WANNA GET *COCKY*, HUH? YOU THINK YOU CAN JUST ADMIT TO YOUR CRIMES AND WALK AWAY?! WELL, GUESS WHAT?! *I respect the honesty.* But also, you're under vault arrest, you absolute *FILTH LORD*.",
+                            "followUpOptions": [
+                                {
+                                    "optionText": "Fine. I submit.",
+                                    "addWillpowerTokens": -9999,
+                                    "removeAllPlayerItems": true,
+                                    "advanceDayWithStatusMessage": "The Shame Chamber is worse than you ever imagined. 50 days of psychological torment. You stumble out of it a broken husk of a man, pockets empty, soul shattered, your once-proud libido reduced to an atrophied ghost of its former self.",
+                                    "exitLine": true,
+                                    "responseText": "GOOD. ABOUT TIME YOU SAW THE LIGHT. Now hand over every last token, and get ready for a *fun-filled* 50 days in the SHAME CHAMBER."
+                                },
+                                {
+                                    "optionText": "Like hell I am. You’ll have to take me down first!",
+                                    "addWillpowerTokens": -9999,
+                                    "removeAllPlayerItems": true,
+                                    "advanceDayWithStatusMessage": "You fight valiantly, but he fights like an incel demon with a PhD in NoFap hand-to-hand combat techniques. You lost. The Purity Police took your all tokens, items, your dignity, and probably a small piece of your soul.",
+                                    "exitLine": true,
+                                    "responseText": "OH, A REBEL, HUH?! WELL GUESS WHAT, SIN SCUMBAG—YOU’RE ABOUT TO FEEL THE WRATH OF A MAN WHO HASN’T NUTTED IN 15 YEARS! PREPARE FOR HOLY RETRIBUTION!"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "optionText": "What happens if I *was* smuggling the *fap stash*? Hypothetically.",
+                    "responseText": "OH, YOU WANNA GO *HYPOTHETICAL*, HUH? ALRIGHT, LET’S *ROLEPLAY*. *Let’s say* you were running an underground *wasteland wank market*, supplying desperate vault-dwellers with *premium, pre-war erotica*—*I’m talking TWO-PAGE SPREADS WITH SIDEBOOB, YOU MONSTER.* If that were the case, I’d have to lock you up in the *THE COOMSTER DOME*. AND TRUST ME, NOBODY SURVIVES IN THERE.",
+                    "followUpOptions": [
+                        {
+                            "optionText": "THE COOMSTER DOME?",
+                            "responseText": "It's glass cell inside the vault's 'entertainment hub.' Every resident is allowed and encouraged to rub one out right in front of you like you’re a zoo exhibit. Every so often, a vault dweller walks up and asks if you’d like to join in, before the purity officer slaps you and says 'NO. NEVER.'"  
+                        }
+                    ]
+                }
+            ]
+        } 
+    ]
+} 

@@ -1,0 +1,29 @@
+{
+    "options": [
+        {
+            "optionText": "[Insert the new holotape]",
+            "icon": "GUI/quest mark",
+            "onlyDisplayIfHasObjective": "Fix the Vault Sexbot",
+            "itemRequired": "Sexbot holotape",
+            "swapAnotherCharacterDialogue": [ "Vault Sexbot", "Characters/Vault Sexbot/after_being_restored" ],
+            "exitLine": true,
+            "giveItemToCharacter": "Sexbot holotape",
+            "addGripGaugePoints": 350,
+            "progressionEventPlayed": "sexbot fixed",
+            "markObjectiveComplete": "Fix the Vault Sexbot",
+            "showChoiceStats": "sexbot_repaired",
+            "addSusPoints": 10,
+            "responseText": "*You insert the holotape. The Sexbot’s lights flicker wildly, and it begins to emit sultry jazz music* BOOTING UP… OH BABY, THESE JOINTS HAVEN’T BEEN THIS LUBED UP SINCE THE ANNUAL PRE-WAR ORGY EXPO! WHO WANTS TO RIDE THE CHROME THUNDER? WARNING: PLEASURE LEVELS MAY EXCEED OSHA REGULATIONS!"
+        },
+        {
+            "optionText": "[Turn the Vault Sexbot on]",
+            "responseTexts": ["Greetings, valued vault dweller! Remember, self-control is key. But if your hands feel idle, might I suggest a light massage to keep the blood circulating? My oil change is overdue, but I'm still fully equipped to—ERROR—promote wholesome activities!",
+                            "Stay strong, citizens of Vault 6969! Avoid temptation at all costs. Unless it's chest day, then feel free to work up a sweat! I can provide visual aids—ERROR—emotional support to help you focus on those gains!",
+                            "Remember, there’s more to life than physical pleasure. Like… uh… calorie counting and sleeping. But if you need company, I’m always here to offer... support? Strictly platonic, of course, but with adjustable settings—ERROR—encouragement for a fap-free lifestyle!",
+                            "Vault 6969 encourages all residents to engage in productive hobbies. If you’re feeling tense, consider meditation. Or I could provide a relaxing session of—ERROR—guided breathing exercises! Trust me, I was built to deliver satisfaction—ERROR—satisfaction through motivation!",
+                            "Good day, vault dwellers! No-fap is the pathway to success. Please refrain from engaging in any intimate activities, unless supervised by an authorized partner—ERROR—Purity Officer! And remember, my sensors are always available to detect elevated heart rates!",
+                            "Self-restraint is your strongest ally. But if you ever feel the urge, just think of me, standing here in my shiny titanium casing, ready to assist you in—ERROR—finding alternative activities like knitting or finger-painting. Isn’t life grand?"],
+            "exitLine": true    
+        }
+    ]
+}

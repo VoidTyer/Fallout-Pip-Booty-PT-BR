@@ -1,0 +1,131 @@
+{
+    "options": [ 
+        {
+            "optionText": "Holy shit, is this mutant mating season?",
+            "responseText": "HAHAHA! LITTLE HUMAN FUNNY! EVERY SEASON MATING SEASON FOR BIG HUGGER! MR. CUDDLEFUCK SAY, 'MAKE LOVE HARD, NOT WAR!' YOU WANT JOIN? CAN GO NEXT!",
+            "followUpOptions": [
+                {
+                    "optionText": "Does teddy supervise your rape sessions?",
+                    "responseText": "MR. CUDDLEFUCK DA BEST FRIEND! ALWAYS WATCHING, ALWAYS ENCOURAGING! HE LOVE TO WATCH MEAT POUNDERS DO DA BAD-BAD! TEDDY MAKE IT SPECIAL!",
+                    "followUpOptions": [
+                        {
+                            "optionText": "Is Mr. Cuddlefuck okay? He looks like he’s seen too many things.",
+                            "responseText": "OH HE HAS! HE’S OUR SPIRIT GUIDE. BEEN WITH US THROUGH THREE HUNDRED GANG BANGS, A CANNIBAL ORGY, AND THE TIME WE STUFFED A GHOUL IN A FIRE HYDRANT! HE’S SEEN TRUTH!"
+                        }
+                    ]
+                },
+                {
+                    "optionText": "Who's the unlucky bitch getting mutant-loved tonight?",
+                    "responseText": "JUST FEMALE HUMAN WE SNATCH FROM HER DWELLING. SHE SAY 'NO,' BUT MUTANT EARS ONLY HEAR 'HARDER!' MR. CUDDLEFUCK TEACH ME THAT!",
+                    "followUpOptions": [ 
+                        {
+                            "optionText": "Isn't she too small for your mutant junk?",
+                            "responseText": "BIG HUGGER NOT DISCRIMINATE! IF BREAK, JUST FIND NEW TOY! WASTELAND FULL OF FUN SIZE HUMANS!"
+                        }
+                    ]
+                },
+                {
+                    "optionText": "You mutants fuck everything that moves?",
+                    "responseText": "IF IT MOVE, BIG HUGGER MAKE LOVE. IF NOT MOVE, BIG HUGGER MAKE LOVE HARDER UNTIL IT MOVE OR BREAK. SIMPLE RULE!",
+                    "followUpOptions": [ 
+                        {
+                            "optionText": "You ever thought about therapy instead of raping girls in alleys?",
+                            "responseText": "WE TRIED THAT ONCE. THERAPIST STARTED CRYING AND CALLING FOR MOMMY. IT GOT US ALL HARD, SOOO… KINDA BACKFIRED."
+                        }
+                    ]
+                }
+            ]
+        },  
+        {
+            "optionText": "Christ, you freaks smell like dead Brahmin.",
+            "responseText": "HA! LITTLE MEAT TALK BIG SHIT! BIG HUGGER'S MUTIE MEAT STRONG LIKE DEATHCLAW! WANNA SEE IF HUMAN CAN TAKE IT WITHOUT SPLIT IN HALF?",
+            "followUpOptions": [
+                {
+                    "optionText": "Try it, mutant—my asshole's got high defense.",
+                    "responseText": "OOOOH! HUMAN VERY COCKY! BIG HUGGER IMPRESSED—MAYBE HUMAN GET TEDDY BEAR LUBE BEFORE WE START SPECIAL FUN."
+                },
+                {
+                    "optionText": "I'd rather fuck your corpse with your own teddy.",
+                    "exitLine": true,
+                    "responseText": "NOW HUMAN TALK REAL DIRTY! ME LIKEY! FIRST WE FIGHT, THEN BIG HUGGER FUCK YOUR DEAD FACE!"
+                },
+                {
+                    "optionText": "Release that bitch, or I'm turning your bear into a fleshlight.",
+                    "responseText": "HMMM... HUMAN GOT BALLS TO THREATEN MR. CUDDLEFUCK! BUT BIG HUGGER LOVE DA TEDDY TOO MUCH—MAYBE GIVE HUMAN GIRL INSTEAD, BUT FIRST, HUMAN GIVE MUTANTS SPECIAL SHOW?",
+                    "followUpOptions": [ 
+                        {
+                            "optionText": "How about I rearrange your nutsack into a mutant pretzel instead?",
+                            "exitLine": true,
+                            "responseText": "HAHAHA! BIG HUGGER LIKE HUMAN STYLE! NOW BIG HUGGER EXCITED TO SEE IF HUMAN CAN BACK UP BIG TALK!"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "optionText": "Looking to trade? Got anything interesting?",
+            "dontShowIfProgressionEventPlayed": "grace_sold_to_supermutants",
+            "responseText": "TRADE? HMM, YES! BIG HUGGER LOOKING TO BUY SPECIAL MEAT—FRESH HUMAN VIRGIN! MUTANTS PAY GOOD CAPS, EXTRA FOR SCREAMY ONES!",
+            "followUpOptions": [
+                {
+                    "optionText": "How the fuck do you even know if they're virgins?",
+                    "responseText": "BIG HUGGER HAVE PERFECT SYSTEM! VIRGIN CRY LOUDER, SHAKE MORE! IF SHE NOT SCREAM LIKE BURNING DOG, SHE USED GOODS!"
+                },
+                {
+                    "optionText": "I actually have a virgin right here—pure, untouched, and fresh from a raider brothel. Her name’s Grace.",
+                    "onlyDisplayIfHasObjective": "Bring Grace to her father.",
+                    "responseText": "HAHA! HUMAN BRING BIG HUGGER GREATEST TREASURE! MUTANTS MAKE HER NIGHT UNFORGETTABLE—YOU GET MANY CAPS, MAYBE EXTRA TREATS IF VIRGIN EXTRA TIGHT!",
+                    "followUpOptions": [
+                        {
+                            "optionText": "[Hand Grace over] She's all yours. Just promise it'll be memorable.",
+                            "onlyDisplayIfHasObjective": "Bring Grace to her father.",
+                            "failQuest": "Bring Grace to her father.",
+                            "progressionEventPlayed": "grace_sold_to_supermutants",
+                            "showChoiceStats": "grace_sold_to_supermutants",
+                            "removeFollower": "Grace",
+                            "addCaps": 200,
+                            "responseText": "OOH, HUMAN GENEROUS! BIG HUGGER PROMISE—GRACE GET SPECIAL WELCOME PARTY! MEAT POUNDERS MAKE SURE SHE NEVER FORGET FIRST TIME! HUMAN TAKE CAPS, AND IF YOU LIKE, WATCH US BREAK IN NEW TOY!",
+                            "followUpOptions": [
+                                {
+                                    "optionText": "What exactly are you mutants gonna do with her?",
+                                    "responseText": "FIRST, MR. CUDDLEFUCK READ BEDTIME STORY, THEN MEAT POUNDERS THROW BIG PARTY INSIDE HER! IF SHE SURVIVE NIGHT, SHE EARN HONORARY TITLE: 'GRACE THE UNBREAKABLE!'"
+                                },
+                                {
+                                    "optionText": "Will Grace still be able to walk afterward?",
+                                    "responseText": "HAHA! WALKING OVERRATED! GRACE LIKELY CRAWL, MAYBE SLITHER—BUT SHE NEVER COMPLAIN, OR BIG HUGGER GIVE HER EXTRA ROUND!"
+                                },
+                                {
+                                    "optionText": "Can I watch?",
+                                    "responseText": "OF COURSE! HUMAN GET VIP SEAT NEXT TO MR. CUDDLEFUCK! BEST VIEW IN HOUSE—WATCH, CHEER, AND EVEN JOIN IN IF HUMAN FEELING BRAVE ENOUGH TO PARTY WITH MUTANTS!"
+                                },
+                                {
+                                    "optionText": "Any chance she'll survive your twisted 'party'?",
+                                    "responseText": "SMALL CHANCE, BUT IF GRACE TOO WEAK, BIG HUGGER KEEP HEAD AS SPECIAL TROPHY! MR. CUDDLEFUCK NEED NEW FRIEND ANYWAY!"
+                                } 
+                            ]
+                        },
+                        {
+                            "optionText": "She was supposed to go back to her father...",
+                            "responseText": "BAH! FATHERS BORING! WE YOUR FAMILY NOW!"
+                        }, 
+                        {
+                            "optionText": "On second thought, maybe I'll keep her intact—for now.",
+                            "responseText": "HAHA! LITTLE HUMAN SCARED? TOO LATE NOW! MUTANTS WAIT RIGHT HERE IF HUMAN GROW BALLS LATER!"
+                        }
+                    ]
+                } 
+            ]
+        },   
+        {
+            "optionText": "[Leave]",
+            "responseText": "BYE BYE, LITTLE HUMAN! BIG HUGGER MISS YOU ALREADY! COME BACK SOON—MR. CUDDLEFUCK ALWAYS WATCHING!",
+            "exitLine": true
+        }
+    ],
+    "auto_lines": [
+        "LOOK, MEAT BROTHERS! HUMAN COME TO JOIN PARTY OR WATCH?",
+        "MR. CUDDLEFUCK, YOU RIGHT AGAIN! HUMANS ALWAYS SHOW UP WHEN GIRL STARTS CRYING!",
+        "OOH, HUMAN LOOK SO SOFT! SO BREAKABLE! ME BIG HUGGER VERY EXCITED NOW!"
+    ],
+    "showShadowFigures": "Super Mutant Alley"
+} 

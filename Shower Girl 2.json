@@ -1,0 +1,49 @@
+{
+    "options": [
+        {
+            "optionText": "[Quickly cover your eyes]",
+            "responseText": "Whoa, you okay there? Covering your eyes like you just saw a deathclaw!",
+            "followUpOptions": [
+                {
+                    "optionText": "I didn’t see anything! I swear!",
+                    "responseText": "Didn’t see anything, huh? You’re awfully jumpy for someone who 'didn’t see anything'. But hey, no harm done."
+                },
+                {
+                "optionText": "I’m blind! I’m totally blind! Didn’t see a thing!",
+                "responseText": "Oh, totally blind? Well, good news for you—I’m not offended. But you might wanna work on those stealth skills!"
+                }
+            ]
+        },
+        {
+            "optionText": "[Approach]",
+            "gripGaugeRequired": 1800,
+            "changeSprite": "Characters/ShowerGirl/ass_upclose_2",
+            "newSpriteXPos": 0.51,
+            "newSpriteYPos": 0.27,
+            "changeSpriteColor": "#FFECD9",
+            "responseText": "What are you looking at back there?",
+            "resetToDefaultSpriteAfterClosingDialogues": true,
+            "followUpOptions": [
+                {
+                    "optionText": "[Slap her ass]", 
+                    "playSound": "slap2",
+                    "specialEffects": ["Punch"],
+                    "emotion": "Characters/ShowerGirl/emotions/biting_lip55",
+                    "responseTexts": ["What, did the vault install a spanking machine and forget to tell me? ♥", "Well, that better be Vault-Tec approved because I’d hate to think you just activated the 'butt-slap alarm.' Next one’s gonna cost ya! ♥"]
+                },
+                {
+                    "optionText": "[Finger her pussy]", 
+                    "playSound": "Sounds/fingering2",
+                    "emotion": "Characters/ShowerGirl/emotions/ahegao",
+                    "responseTexts": [
+        "Ohhh... Someone’s skipping the foreplay and diving right into the action. You better be ready to finish this job. ♥︎",
+        "Oh, didn’t think you’d go for it... but fuck, don’t stop now! My pussy’s got more mileage left than you can handle! ♥︎",
+        "Mmm, ohhh... you got some fucking nerve. But I like it. You better work those fingers like your life depends on it. ♥︎",
+        "*Panting* Oh fuck, you’re really going in, huh? Don’t stop ‘til my fucking legs give out. ♥︎"
+    ]
+                } 
+            ]
+        }
+    ],
+    "reset_to_default_sprite_after_closure": true
+}

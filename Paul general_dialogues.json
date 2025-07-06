@@ -1,0 +1,28 @@
+{
+    "options": [
+        {
+            "optionText": "What are you doing here?",
+            "responseText": "Oh shit! Uh, uh... I was just... doing the, uh, research! Yeah, that's it. Gotta make sure the water pressure is optimal. Can’t have the ladies getting... overexcited, right? Safety first!",
+            "followUpOptions": [
+                {
+                    "optionText": "What's your name, buddy?",
+                    "responseText": "Name’s Paul, Peeping Paul, the vault's unofficial purity inspector! Gotta keep an eye out for any, uh, inappropriate water usage, you know? Can't let any dirty deeds go unwashed, am I right?" 
+                },
+                {
+                    "optionText": "Honestly, respect. Someone’s gotta keep those pipes in check.",
+                    "responseText": "Exactly! I mean, these pipes aren’t gonna inspect themselves, right? Someone’s gotta make sure there’s no, uh, blockage. I like to think of myself as a... maintenance man. I keep things flowing smoothly." 
+                },
+                {
+                    "optionText": "Is this what you do for fun, creep?",
+                    "responseText": "Fun? No, no, no! This is a public service! Think of me as a lifeguard. Besides, who else is gonna make sure everyone’s shampooing the right way? Improper lathering can lead to... impurity." 
+                }
+            ]
+        },
+        {
+            "optionText": "Bye",
+            "responseText": "C’mon, you know you’re gonna be back. No one can resist the allure of... pipe maintenance.",
+            "exitLine": true
+        }
+    ],
+    "auto_lines": ["Ohhh, yeah… that’s the stuff. Just one little slip of that towel… come on, give ol' Paul a treat."]
+}

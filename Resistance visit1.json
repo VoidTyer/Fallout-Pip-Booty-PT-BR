@@ -1,0 +1,57 @@
+{
+    "options": [ 
+        {
+            "optionText": "What do you want from me?",
+            "icon": "GUI/quest mark",
+            "responseText": "I want you to help me stick it to the man—literally and metaphorically. We’re gonna flood this vault with so much fap material that even the Purity Police will need a cold shower.",
+            "followUpOptions": [ 
+                {
+                    "optionText": "What’s your plan?",
+                    "icon": "GUI/quest mark",
+                    "responseText": "The plan? Simple. We bring the fap back! I’ve got a network of loyal followers—true warriors—smuggling in pre-war magazines and holotapes. Join us. Take those contraband magazines and hand them out to others. We’re gonna turn this vault into a beacon of freedom, one jerk at a time!",
+                    "followUpOptions": [
+                        {
+                            "optionText": "I’m in! Let's fap 'em up!", 
+                            "closeDialogueOptions": true,
+                            "fadeOutCharacter": true,
+                            "markEventAsPlayed": true,
+                            "showChoiceStats": "sidedWithResistenceLeader",
+                            "progressionEventPlayed": "agreedToHelpResistenceLeader",
+                            "dontShowThisCharacterTodayAnymore": true,
+                            "giveItem": "Loose Housewives Vol.1",
+                            "numOfCopiesToGive": 5,
+                            "icon": "GUI/quest mark",
+                            "addObjective": "Reach 1000 Vault Tension",
+                            "responseText": "Now *that’s* the spirit I’m looking for! You’re gonna be a legend around here. Welcome to the resistance! Just don’t let your wrists get too tired, we’ve got a long road ahead. And remember, if you get caught, you never met me. Got it?"
+                        },
+                        {
+                            "optionText": "Not interested.", 
+                            "exitLine": true,
+                            "fadeOutCharacter": true,
+                            "dontShowThisCharacterTodayAnymore": true,
+                            "showChoiceStats": "refusedToSideWithResistenceLeader",
+                            "progressionEventPlayed": "refusedToHelpResistenceLeader",
+                            "responseText": "Not interested? That's what a simp would say! Look, pal, you either fap with us, or you get fapped over by the system. This isn’t just about getting off; it’s about sticking it to the man. And you’re walking around like Blue Balls himself has you on a leash."
+                        }
+                    ]
+                },
+                {
+                    "optionText": "Aren’t you afraid of getting caught?",
+                    "responseText": "Caught? By those spandex-clad morons with their Bonk Batons? Please. Even if they do catch us, what are they gonna do? Throw us in the Shame Chamber? I’ve been in there so many times, I practically have a loyalty card. As far as I’m concerned, I’ll die before I live in a world where a man can’t fap in peace."
+                }
+            ]
+        },
+        {
+            "optionText": "Who are you?!",
+            "responseText": "Me? I’m the guy who's gonna save your right hand from extinction. They call me the Fap Resistance Leader, but you can call me your savior. I’m the one brave enough to stand up to the Purity Police and their tyrant, Overseer Blue Balls. I know what men need, and it’s not another lecture on 'Harnessing Your Chi.' It’s freedom, brother. Freedom to fap without fear!"
+        },
+        {
+            "optionText": "Bye.",
+            "responseTexts": ["Remember, when your hand gets lonely tonight, you know where to find me. Viva la fap-olution!",
+                            "When the potato farming and purity lectures get too much, just know there’s a stash of contraband and some loyal right hands waiting for you. Fap well, my friend.",
+                            "Later, dude. I’ll be in the usual place... right behind you, lurking in the shadows. No pressure, though."],
+            "exitLine": true
+        }
+    ],
+    "auto_lines":[ "Psst, wake up, sleeper! No time for morning wet dreams. We’ve got a vault to liberate! Don’t scream—it’s just me, your friendly neighbor.", "I’ve been watching you. No, not like that, perv. I mean, I see potential in you. Potential to bring down Blue Balls and his celibacy squad. Now, are you ready to join the revolution, or are you just gonna lie there with your jaw on the floor?" ]
+}

@@ -1,0 +1,30 @@
+{
+    "options": [
+        {
+            "optionText": "Do you think we’ll win?",
+            "responseText": "Win? We’ve already won, champ. Every man, woman, and spandex-clad fool in here is two seconds away from losing their composure. The vault’s tighter than a radroach in a vacuum-sealed jumpsuit. One more push, and BOOM! It’s fap chaos!"
+        },
+        {
+            "optionText": "Are we in danger?",
+            "responseText": "In danger? Pfft, the only danger is my wrist snapping from how hard I’m clapping at these Purity Cops fumbling around. They installed security cams in the bathrooms... as if that’s gonna stop the hand-to-hand combat going down in there!"
+        },
+        {
+            "optionText": "I ran out of the mags. Do you have more?",
+            "dontShowIfProgressionEventPlayed": "mags_vol3_handed",
+            "giveItem": "Loose Housewives Vol.3",
+            "numOfCopiesToGive": 5,
+            "progressionEventPlayed": "mags_vol3_handed",
+            "exitLine": true,
+            "icon": "GUI/magazine",
+            "responseText": "Damn, man, you’re distributing these like some kind of wasteland Santa Claus. Fine, fine—take a fresh batch, but pace yourself. Even freedom fighters need wrist breaks."
+        },
+        {
+            "optionText": "Bye.",
+            "responseTexts": ["Remember, when your hand gets lonely tonight, you know where to find me. Viva la fap-olution!",
+                            "When the potato farming and purity lectures get too much, just know there’s a stash of contraband and some loyal right hands waiting for you. Fap well, my friend.",
+                            "Later, dude. I’ll be in the usual place... right behind you, lurking in the shadows. No pressure, though."],
+            "exitLine": true
+        }
+    ],
+    "auto_lines":[ "Holy hand cramps! You’ve got the vault so tense, the Purity Cops are literally tripping over their own Bonk Batons. We’re so deep in their heads, we might as well start charging rent!" ]
+}

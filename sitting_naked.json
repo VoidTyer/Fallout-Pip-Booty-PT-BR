@@ -1,0 +1,18 @@
+{
+    "options": [
+        {
+            "optionText": "I'm not drooling. Okay, maybe a little, but it's just hot in here.",
+            "responseText": "Sure, it's the heat. Not the sight of a naked woman. Did I walk into a vault full of teenagers, or are you just *that* hopeless?",
+            "followUpOptions": [
+                {
+                    "optionText": "Look, I can explain. I've just never been so... uh... unprepared.",
+                    "responseText": "Unprepared? Sweetheart, that's the understatement of the century. You look like you’ve been caught with your pants down—except, tragically, they're still on."
+                },
+                {
+                    "optionText": "I'm a man of *restraint*. Just... lots of restraint.",
+                    "responseText": "Restraint? Is that what you call that twitch in your pants? You might want to 'restrain' a little harder before the Purity Police break down the door."
+                }
+            ]
+        }
+    ]
+}

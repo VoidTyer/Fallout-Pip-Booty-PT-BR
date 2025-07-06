@@ -1,0 +1,14 @@
+{
+    "options": [
+        {
+            "optionText": "Isn't that towel a little... small?",
+            "responseText": "Well, I wasn’t exactly planning to stay *covered* for long, but I like to keep things interesting. Don't you agree?",
+            "followUpOptions": [
+              {
+                "optionText": "I... yeah, it’s pretty interesting.",
+                "responseText": "Good to know you appreciate the view. Maybe next time I’ll make it even more... exciting."
+              } 
+            ]
+        }
+    ]
+}

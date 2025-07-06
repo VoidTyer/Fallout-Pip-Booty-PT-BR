@@ -1,0 +1,23 @@
+{
+    "options": [
+        {
+            "optionText": "You’re welcome for this... unusual cucumber plant.",
+            "responseText": "Seriously, thank you! That thing single-handedly made my day—and my pussy's rebellion—ten times more exciting. You really know how to grow ‘em!",
+            "followUpOptions": [
+                {
+                    "optionText": "Glad it met your high standards.",
+                    "responseText": "Exceeded them! My standards are now officially mutant-cucumber high. You've set a dangerous precedent, friend."
+                },
+                {
+                    "optionText": "Next time, maybe warn me before going full in?",
+                    "responseText": "What, and spoil the surprise? Nah, half the fun is the tentacle ambush. Consider it an occupational hazard of gardening around me."
+                }
+            ]
+        }, 
+        {
+            "optionText": "I’ll leave you to your... gardening adventures.",
+            "responseText": "Appreciated! Stop by later—I might have discovered something even wilder by then.",
+            "exitLine": true
+        }
+    ]
+}
