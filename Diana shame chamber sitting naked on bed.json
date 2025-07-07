@@ -1,67 +1,66 @@
-
-  {
+{
   "options": [
     {
-        "optionText": "Uh... Diana? What are you doing?",
-        "responseText": "Mmm, meditation while enjoying the best seat in Vault 6969. What does it look like? This is the Shame Chamber—might as well make the most of it.",
-        "followUpOptions": [
+      "optionText": "Uh... Diana? What are you doing?",
+      "responseText": "Mmm, meditation while enjoying the best seat in Vault 6969. What does it look like? This is the Shame Chamber—might as well make the most of it.",
+      "followUpOptions": [
+        {
+          "optionText": "So, meditating... naked?",
+          "responseText": "Mmm... naked meditation helps me connect to my inner peace. And if ‘Shameful’ over there wants to vibe off it, who am I to stop him? ♥︎",
+          "followUpOptions": [
             {
-                "optionText": "So, meditating... naked?",
-                "responseText": "Mmm... naked meditation helps me connect to my inner peace. And if ‘Shameful’ over there wants to vibe off it, who am I to stop him? ♥︎",
-                "followUpOptions": [
-                    {
-                        "optionText": "Why is he licking the air like he’s gonna taste something?",
-                        "responseText": "Oh, bless his heart. I told him he could ‘lick my pussy from a distance’ and he took it literally. He’s not the brightest, but hey, effort counts. ♥︎"
-                    },
-                    {
-                        "optionText": "This is seriously how you ‘find peace’? With some dude air-licking your pussy?",
-                        "responseText": "Oh honey, this is the closest thing to ‘peace’ you’re gonna find in Vault 6969. If Shameful wants to lick the atmosphere, that’s on him.",
-                        "followUpOptions": [
-                            {
-                                "optionText": "You’re gonna have the whole vault air-licking you soon.",
-                                "responseText": "Oh, wouldn’t that be a sight? The whole vault meditating in silence, licking the air like a pack of feral ghouls. ♥︎"
-                            }
-                        ]
-                    } 
-                ]
-            },  
-            {
-                "optionText": "So, uh... how long are you planning to just sit there like that?",
-                "responseText": "Mmm, until I feel like getting up. Or until ‘Shameful’ over there runs out of steam. Whichever happens first. ♥︎"
+              "optionText": "Why is he licking the air like he’s gonna taste something?",
+              "responseText": "Oh, bless his heart. I told him he could ‘lick my pussy from a distance’ and he took it literally. He’s not the brightest, but hey, effort counts. ♥︎"
             },
             {
-            "optionText": "Where's your suit?",
-            "responseText": "Huh? Oh. Must’ve slipped off while I was napping. These vault suits — no grip, all tease. Shocking how that keeps happening.",
-            "followUpOptions": [
+              "optionText": "This is seriously how you ‘find peace’? With some dude air-licking your pussy?",
+              "responseText": "Oh honey, this is the closest thing to ‘peace’ you’re gonna find in Vault 6969. If Shameful wants to lick the atmosphere, that’s on him.",
+              "followUpOptions": [
                 {
-                "optionText": "Are you trying to break Jass permanently?",
-                "responseText": "He needed a break. From fapping. Now he just stares at the wall and whispers my name like a haunted lullaby. Peaceful, really."
-                },
-                {
-                "optionText": "Put your damn clothes on. This is beyond a rule violation.",
-                "responseText": "Oh, are you volunteering to dress me? Be gentle — some parts are extra sensitive after all that *purity training.*"
-                } 
-            ]
+                  "optionText": "You’re gonna have the whole vault air-licking you soon.",
+                  "responseText": "Oh, wouldn’t that be a sight? The whole vault meditating in silence, licking the air like a pack of feral ghouls. ♥︎"
+                }
+              ]
             }
-        ]
-    }, 
+          ]
+        },
+        {
+          "optionText": "So, uh... how long are you planning to just sit there like that?",
+          "responseText": "Mmm, until I feel like getting up. Or until ‘Shameful’ over there runs out of steam. Whichever happens first. ♥︎"
+        },
+        {
+          "optionText": "Where's your suit?",
+          "responseText": "Huh? Oh. Must’ve slipped off while I was napping. These vault suits — no grip, all tease. Shocking how that keeps happening.",
+          "followUpOptions": [
+            {
+              "optionText": "Are you trying to break Jass permanently?",
+              "responseText": "He needed a break. From fapping. Now he just stares at the wall and whispers my name like a haunted lullaby. Peaceful, really."
+            },
+            {
+              "optionText": "Put your damn clothes on. This is beyond a rule violation.",
+              "responseText": "Oh, are you volunteering to dress me? Be gentle — some parts are extra sensitive after all that *purity training.*"
+            }
+          ]
+        }
+      ]
+    },
     {
       "optionText": "Are you asleep? Or just pretending?",
       "responseText": "*Yawn* — depends. Am I supposed to be unconscious while committing a moral crime?",
       "followUpOptions": [
         {
-        "optionText": "Do you even remember what modesty is?",
-        "responseText": "Of course. She used to bunk next to me. Sweet girl. Always clutching a towel like it was armor. Wonder how long she lasted."
+          "optionText": "Do you even remember what modesty is?",
+          "responseText": "Of course. She used to bunk next to me. Sweet girl. Always clutching a towel like it was armor. Wonder how long she lasted."
         },
         {
-        "optionText": "Jass looks like he's aged ten years.",
-        "responseText": "Ten years? Oh no. That must’ve been the *spiritual clarity.* Or maybe the blood rushing to places it's not supposed to. Whoops."
+          "optionText": "Jass looks like he's aged ten years.",
+          "responseText": "Ten years? Oh no. That must’ve been the *spiritual clarity.* Or maybe the blood rushing to places it's not supposed to. Whoops."
         },
         {
-        "optionText": "You should be punished for this.",
-        "responseText": "Ooh. Strong words. Might want to lower your voice though — punish me too hard and the whole vault will hear me enjoy it."
+          "optionText": "You should be punished for this.",
+          "responseText": "Ooh. Strong words. Might want to lower your voice though — punish me too hard and the whole vault will hear me enjoy it."
         }
       ]
-    } 
+    }
   ]
 }

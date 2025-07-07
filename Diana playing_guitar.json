@@ -1,50 +1,52 @@
 {
-    "options": [
+  "options": [
+    {
+      "optionText": "Certo, me impressione. Toque algo que *não* soe como um Brahmin morrendo.",
+      "icon": "GUI/song icon",
+      "responseText": "Desafio aceito. Mas aviso justo: seus padrões podem realmente aumentar até o final disso.",
+      "followUpOptions": [
         {
-            "optionText": "Alright, impress me. Play something that *doesn’t* sound like a dying Brahmin.",
-            "icon": "GUI/song icon",
-            "responseText": "Challenge accepted. But fair warning: your standards might actually rise by the end of this.",
-            "followUpOptions": [ 
-                {
-                    "optionText": "Play 'Metal Thomb'",
-                    "playMusic": "Songs/Diana songs/Metal Thomb",
-                    "auto_lines": [ "Try not to cry, or worse, sing along." ],
-                    "progressionEventPlayed": "song_request_from_diana"
-                },
-                {
-                    "optionText": "Play 'Morning Light'",
-                    "playMusic": "Songs/Diana songs/Morning Light",
-                    "auto_lines": [ "Try not to cry, or worse, sing along." ],
-                    "progressionEventPlayed": "song_request_from_diana" 
-                },
-                {
-                    "optionText": "Play 'Toxic Water'",
-                    "playMusic": "Songs/Diana songs/Toxic Water",
-                    "targetCharacterShouldHaveItems": "Drums",
-                    "auto_lines": [ "Alright, hold on to your last brain cell—this might be the thing that finally knocks it loose." ],
-                    "progressionEventPlayed": "song_request_from_diana" 
-                }
-            ]
-        }, 
-        {
-            "optionText": "So, when are you releasing your mixtape?",
-            "responseText": "Oh, it’s dropping soon. Exclusively in vault bathrooms for that <i>*perfect*</i> acoustics experience.",
-            "followUpOptions": [
-                {
-                    "optionText": "Bathroom mixtape? That’s peak vault energy. I’d listen.",
-                    "responseText": "Good, because I expect rave reviews. Or, you know, just flushing sounds. Same thing."
-                } 
-            ]
+          "optionText": "Tocar 'Metal Thomb'",
+          "playMusic": "Songs/Diana songs/Metal Thomb",
+          "auto_lines": ["Tente não chorar, ou pior, cantar junto."],
+          "progressionEventPlayed": "song_request_from_diana"
         },
         {
-            "optionText": "[Give a Gift]",
-            "icon": "GUI/gift icon",
-            "isGifting": true
+          "optionText": "Tocar 'Morning Light'",
+          "playMusic": "Songs/Diana songs/Morning Light",
+          "auto_lines": ["Tente não chorar, ou pior, cantar junto."],
+          "progressionEventPlayed": "song_request_from_diana"
         },
         {
-            "optionText": "Bye",
-            "responseText": "Leaving already? You’re going to miss my grand finale. Or not. I haven’t decided yet.",
-            "exitLine": true
+          "optionText": "Tocar 'Toxic Water'",
+          "playMusic": "Songs/Diana songs/Toxic Water",
+          "targetCharacterShouldHaveItems": "Drums",
+          "auto_lines": [
+            "Certo, segure sua última célula cerebral—isso pode ser o que finalmente a soltará."
+          ],
+          "progressionEventPlayed": "song_request_from_diana"
         }
-    ]
+      ]
+    },
+    {
+      "optionText": "Então, quando você vai lançar sua mixtape?",
+      "responseText": "Oh, está saindo em breve. Exclusivamente nos banheiros do refúgio para aquela experiência acústica *perfeita*.",
+      "followUpOptions": [
+        {
+          "optionText": "Mixtape de banheiro? Isso é o auge da energia do refúgio. Eu ouviria.",
+          "responseText": "Ótimo, porque espero críticas entusiasmadas. Ou, sabe, apenas sons de descarga. Mesma coisa."
+        }
+      ]
+    },
+    {
+      "optionText": "[Dar um Presente]",
+      "icon": "GUI/gift icon",
+      "isGifting": true
+    },
+    {
+      "optionText": "Tchau",
+      "responseText": "Já vai? Você vai perder meu grande final. Ou não. Ainda não decidi.",
+      "exitLine": true
+    }
+  ]
 }

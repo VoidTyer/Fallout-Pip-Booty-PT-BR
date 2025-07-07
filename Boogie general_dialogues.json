@@ -1,69 +1,75 @@
 {
-    "options": [
+  "options": [
+    {
+      "optionText": "Que porra aconteceu com os preços? Você está me dando um golpe, ou a inflação atingiu o refúgio da noite para o dia?",
+      "responseText": "Oh, a inflação atingiu, sim. Logo depois que um certo alguém foi abrir a boca para a Polícia da Pureza. Acho que esse alguém esqueceu que bocas abertas aumentam os preços... especialmente quando são os *meus* preços.",
+      "priceMultiplierHigherThan": 1,
+      "hideOptionIfReqCheckFailed": true
+    },
+    {
+      "optionText": "Tenho que dizer, nunca pensei que te veria de pé de novo depois de te ver foder a filha do Supervisor.",
+      "dontShowIfProgressionEventPlayed": "got_holotape_from_boggie",
+      "onlyShowIfProgressionEventPlayed": "daughter_boogie_fuck",
+      "responseText": "Merda, garoto. Você tem olhos de lince. Você viu aquilo, hein? A vadiazinha quase me secou. Escuta—mantenha a boca fechada, e eu te dou a primeira escolha da minha mercadoria premium. Ou porra, talvez da próxima vez queira fazer uma dupla?",
+      "followUpOptions": [
         {
-            "optionText": "What the hell happened to the prices? Are you running a scam, or did inflation hit the vault overnight?",
-            "responseText": "Oh, inflation hit, alright. Right after a certain someone went running their mouth to the Purity Police. Guess that someone forgot that loose lips raise prices... especially when they’re *my* prices.",
-            "priceMultiplierHigherThan": 1,
-            "hideOptionIfReqCheckFailed": true
+          "optionText": "Porra, sim, me inclua da próxima vez. Eu queria provar aquela buceta há tanto tempo.",
+          "responseText": "Heh, sabia que você tinha isso em você. Da próxima vez, vou garantir que sobre bastante dela pingando para você—mas não prometo deixá-la coerente."
         },
         {
-            "optionText": "Gotta say, never thought I'd see you upright again after watching you fuck the Overseer's daughter.",
-            "dontShowIfProgressionEventPlayed":"got_holotape_from_boggie",
-            "onlyShowIfProgressionEventPlayed": "daughter_boogie_fuck",
-            "responseText": "Shit, kid. You got keen eyes. You caught that, huh? Little bitch damn near drained me dry. Listen—keep your mouth shut, and I'll give you first dibs on my premium merchandise. Or fuck, maybe next time you wanna tag-team?",
-            "followUpOptions": [ 
-                {
-                    "optionText": "Fuck yeah, count me in next time. I've wanted to taste that pussy for so long.",
-                    "responseText": "Heh, knew you had it in you. Next time I'll make sure there's plenty of her left dripping for you—no promises I'll leave her coherent, though."
-                },
-                {
-                    "optionText": "Was it her moaning 'Daddy Overseer' throughout?",
-                    "responseText": "Tch—bitch has a thing for power play. Made me wear the old man's hat while she rode me like a radstag."
-                },  
-                {
-                    "optionText": "Maybe I should tell the Overseer. Unless you sweeten the deal a little more.",
-                    "responseText": "Damn, you're ruthless. Fine—I got a custom holotape featuring your favorite little vault princess herself. Take it for a spin, but keep your lips sealed.",
-                    "progressionEventPlayed": "got_holotape_from_boggie",
-                    "giveItem": "Project Peach: Daddy’s Not Home",
-                    "exitLine": true
-                }
-            ]
-        }, 
-        {
-            "optionText": "I want to buy things...",
-            "isTrading": true,
-            "neverGreyOut": true,
-            "icon": "GUI/trade icon",
-            "random_auto_line": ["Step into my office… Just kidding, my office is wherever we don’t get caught. So, what are you buying?","You’re one shady decision away from being my favorite customer. What’s your vice?", "Trading with the Boogeyman, huh? Your parents must be so proud. Or dead. Probably dead. Either way, let’s get down to it."]
+          "optionText": "Ela estava gemendo 'Papai Supervisor' o tempo todo?",
+          "responseText": "Tch—a vadia tem um fetiche por jogos de poder. Me fez usar o chapéu do velho enquanto me cavalgava como um radstag."
         },
         {
-            "optionText": "Uh... who are you?",
-            "responseText": "Names are for those who can afford to be caught. But if you insist... They call me the Boogeyman. Or just Boogie. Your favorite salesman. I'm the guy who gets things—the things you're craving from outside Vault 6969. You looking to satisfy an itch or two?",
-            "followUpOptions": [
-                {
-                    "optionText": "What kind of 'itch' we talking?",
-                    "responseText": "The kind that could get us both thrown out. You want mags, toys, chems, or somethin'... wetter?",
-                    "followUpOptions": [
-                        {
-                            "optionText": "Got anything that'll relieve stress—fast?",
-                            "responseText": "Heh. I got jet, psycho, and a couple old holotapes that'll blow your mind—and maybe something else too."
-                        },
-                        {
-                            "optionText": "You smuggle in actual porn? In Vault 6969?",
-                            "responseText": "Damn right, kid. The Overseer's rules only make folks hornier. Supply and demand—basic economics."
-                        }
-                    ]
-                },
-                {
-                    "optionText": "Sounds risky. What's in it for you?",
-                    "responseText": "Caps, favors, pleasure. You name it. In here, everyone's desperate. And desperation pays well."
-                },
-                {
-                    "optionText": "Why do they call you the Boogeyman?",
-                    "responseText": "Because I’m the thing that goes bump in the night, the whisper you hear when you're all alone. I’m the dealer your parents warned you about."
-                }
-            ]
-        } 
-    ],
-    "auto_lines": ["You look like you’ve seen some things. Lucky for you, I sell things that’ll make you forget all about them… until you remember halfway through a nervous breakdown."]
+          "optionText": "Talvez eu devesse contar ao Supervisor. A menos que você adoce um pouco mais o acordo.",
+          "responseText": "Caramba, você é impiedoso. Certo—eu tenho uma holotape personalizada com a sua princesinha do refúgio favorita. Dê uma olhada, mas mantenha a boca fechada.",
+          "progressionEventPlayed": "got_holotape_from_boggie",
+          "giveItem": "Project Peach: Daddy’s Not Home",
+          "exitLine": true
+        }
+      ]
+    },
+    {
+      "optionText": "Quero comprar coisas...",
+      "isTrading": true,
+      "neverGreyOut": true,
+      "icon": "GUI/trade icon",
+      "random_auto_line": [
+        "Entre no meu escritório… Brincadeira, meu escritório é onde não somos pegos. Então, o que você vai comprar?",
+        "Você está a uma decisão duvidosa de se tornar meu cliente favorito. Qual é o seu vício?",
+        "Negociando com o Bicho-Papão, hein? Seus pais devem estar muito orgulhosos. Ou mortos. Provavelmente mortos. De qualquer forma, vamos ao que interessa."
+      ]
+    },
+    {
+      "optionText": "Uh... quem é você?",
+      "responseText": "Nomes são para aqueles que podem se dar ao luxo de serem pegos. Mas se você insiste... Eles me chamam de Bicho-Papão. Ou só Boogie. Seu vendedor favorito. Eu sou o cara que consegue as coisas—as coisas que você deseja de fora do Refúgio 6969. Querendo satisfazer uma coceira ou duas?",
+      "followUpOptions": [
+        {
+          "optionText": "Que tipo de 'coceira' estamos falando?",
+          "responseText": "Do tipo que poderia nos expulsar. Você quer revistas, brinquedos, drogas, ou algo... mais molhado?",
+          "followUpOptions": [
+            {
+              "optionText": "Tem algo que alivie o estresse—rápido?",
+              "responseText": "Heh. Eu tenho jet, psycho, e algumas holotapes antigas que vão explodir sua mente—e talvez algo mais também."
+            },
+            {
+              "optionText": "Você contrabandeia pornografia de verdade? No Refúgio 6969?",
+              "responseText": "Pode apostar, garoto. As regras do Supervisor só deixam o pessoal com mais tesão. Oferta e demanda—economia básica."
+            }
+          ]
+        },
+        {
+          "optionText": "Parece arriscado. O que você ganha com isso?",
+          "responseText": "Caps, favores, prazer. Você escolhe. Aqui dentro, todo mundo está desesperado. E desespero paga bem."
+        },
+        {
+          "optionText": "Por que te chamam de Bicho-Papão?",
+          "responseText": "Porque eu sou a coisa que faz barulho à noite, o sussurro que você ouve quando está sozinho. Sou o traficante sobre o qual seus pais te avisaram."
+        }
+      ]
+    }
+  ],
+  "auto_lines": [
+    "Você parece que já viu muita coisa. Sorte sua, eu vendo coisas que te farão esquecer de tudo… até você se lembrar no meio de um colapso nervoso."
+  ]
 }

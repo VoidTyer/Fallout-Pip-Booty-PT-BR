@@ -1,38 +1,50 @@
 {
-    "options": [
+  "options": [
+    {
+      "optionText": "Manda a próxima pergunta.",
+      "responseText": "Você encontrou uma holofita pornô com seu Supervisor. Qual é a sua reação?",
+      "followUpOptions": [
         {
-            "optionText": "Hit me with the next question.",
-            "responseText": "You've stumbled across a porno holotape featuring your Overseer. What's your reaction?",
-            "followUpOptions": [
-                {
-                    "optionText": "A. Broadcast it to the whole vault. Everyone deserves a good laugh.",
-                    "swapAnotherCharacterDialogue": [ "Dr. Miranda Fondleton", "Characters/Dr. Miranda Fondleton/q3-2" ],
-                    "reloadDialogue": true,
-                    "progressionEventPlayed": "vault_test_sadistic_answer_given",
-                    "responseText": "Public humiliation is the kink that keeps on giving. And bonus points if someone in the crowd finishes before the tape ends."
-                },
-                {
-                    "optionText": "B. Blackmail that kinky bastard for caps.",
-                    "swapAnotherCharacterDialogue": [ "Dr. Miranda Fondleton", "Characters/Dr. Miranda Fondleton/q3-2" ],
-                    "reloadDialogue": true,
-                    "progressionEventPlayed": "vault_test_exploitation_answer_given",
-                    "responseText": "Mmm, dirty capitalism. A classic maneuver. I’d love to see your negotiation technique in action. Preferably shirtless."
-                },
-                {
-                    "optionText": "C. Furiously jerk off to assert dominance, then anonymously leave it on his desk.",
-                    "swapAnotherCharacterDialogue": [ "Dr. Miranda Fondleton", "Characters/Dr. Miranda Fondleton/q3-2" ],
-                    "reloadDialogue": true,
-                    "progressionEventPlayed": "vault_test_perversion_answer_given",
-                    "responseText": "Now that’s psychological warfare. Masturbation as a power move? That’s beyond degenerate—it’s performance art. Vault-Tec should hire you as head of morale."
-                },
-                {
-                    "optionText": "D. Destroy the tape quietly. Not your business.",
-                    "swapAnotherCharacterDialogue": [ "Dr. Miranda Fondleton", "Characters/Dr. Miranda Fondleton/q3-2" ],
-                    "reloadDialogue": true,
-                    "progressionEventPlayed": "vault_test_pragmatic_answer_given",
-                    "responseText": "Wow. You didn’t exploit it? You’re either emotionally mature or dead inside."
-                }
-              ]
+          "optionText": "A. Transmiti-la para todo o refúgio. Todo mundo merece uma boa risada.",
+          "swapAnotherCharacterDialogue": [
+            "Dr. Miranda Fondleton",
+            "Characters/Dr. Miranda Fondleton/q3-2"
+          ],
+          "reloadDialogue": true,
+          "progressionEventPlayed": "vault_test_sadistic_answer_given",
+          "responseText": "A humilhação pública é o fetiche que não para de dar frutos. E pontos extras se alguém na multidão terminar antes da fita."
+        },
+        {
+          "optionText": "B. Chantagear aquele desgraçado pervertido por tampinhas.",
+          "swapAnotherCharacterDialogue": [
+            "Dr. Miranda Fondleton",
+            "Characters/Dr. Miranda Fondleton/q3-2"
+          ],
+          "reloadDialogue": true,
+          "progressionEventPlayed": "vault_test_exploitation_answer_given",
+          "responseText": "Mmm, capitalismo sujo. Uma manobra clássica. Adoraria ver sua técnica de negociação em ação. De preferência sem camisa."
+        },
+        {
+          "optionText": "C. Bater uma furiosamente para afirmar dominância e depois deixar anonimamente na mesa dele.",
+          "swapAnotherCharacterDialogue": [
+            "Dr. Miranda Fondleton",
+            "Characters/Dr. Miranda Fondleton/q3-2"
+          ],
+          "reloadDialogue": true,
+          "progressionEventPlayed": "vault_test_perversion_answer_given",
+          "responseText": "Isso sim é guerra psicológica. Masturbação como um movimento de poder? Isso é além de degenerado — é arte performática. A Vault-Tec deveria te contratar como chefe de moral."
+        },
+        {
+          "optionText": "D. Destruir a fita silenciosamente. Não é da minha conta.",
+          "swapAnotherCharacterDialogue": [
+            "Dr. Miranda Fondleton",
+            "Characters/Dr. Miranda Fondleton/q3-2"
+          ],
+          "reloadDialogue": true,
+          "progressionEventPlayed": "vault_test_pragmatic_answer_given",
+          "responseText": "Uau. Você não explorou isso? Você é emocionalmente maduro ou morto por dentro."
         }
-    ]
-} 
+      ]
+    }
+  ]
+}

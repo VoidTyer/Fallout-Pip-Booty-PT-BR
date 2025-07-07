@@ -1,61 +1,73 @@
 {
-    "options": [
-      {
-        "optionText": "What the hell’s going on here?",
-        "responseText": "Public enforcement, citizen. This filthy little cumslut was caught stuffing two fingers in her slippery cunt in the communal showers. That’s a Class-3 purity breach. Now she gets what every finger-fucking degenerate deserves—pain, shame, and a pussy too red to touch.",
-        "followUpOptions": [
-          {
-            "optionText": "You’re really gonna whip her in front of everyone?",
-            "responseText": "Oh, I’m not just going to whip her. I’m going to spank the sin out of her every hole. Each moan she makes is another soul saved. Watch this.",
-            "followUpOptions": [
-              {
-                "optionText": "[Watch silently]",
-                "specialEffects": ["Punch"],
-                "playSound": "Sounds/slap1",
-                "responseTexts": ["You like that, you slippery little whore? Moaning like you want it? Maybe I should whip your clit until you beg to be milked dry!", "Look at that slut twitch. Every time the whip lands, her pussy clenches like it wants to grab something. She’ll spend the next week dripping every time she hears a belt buckle.", "Look at her slutty little cunt twitch with every hit. It’s drooling like it wants a cock, but all she gets is pain. This pussy’s on display now — red, raw, and begging for an orgasm she’ll never get.", "You see that? Her asshole clenches every time the whip lands. Bet she used to finger both holes in the shower, didn’t you, slut?", "Watch her squirm. Her pussy’s leaking like a broken faucet — you could slide a fist in there right now. You want to, don’t you? I bet your cock’s twitching. Go ahead, perv. One twitch and you’ll hang next to her, dick first.", "Look at that fat clit throbbing. Bet she’d hump air if we let her. Hell, maybe I’ll bring a sybian next time and chain her to it until her cunt gives up and goes numb. That's purification through ruin.", "That was a moan. I heard it. You like this, don’t you, you dirty little whore? Bet you imagine the whole vault lining up to use you while I keep whipping that sloppy pussy for lube.", "Her pussy’s making more noise than her mouth. You hear that squelch? That’s a sin begging to be beaten out of her. I should gag her with her own panties next time. Soaked in guilt. Tasted by justice."]
-              },
-              {
-                "optionText": "She looks like she’s enjoying it. Isn’t this counterproductive?",
-                "responseText": "That’s the point, freak. If she cums during punishment, she gets another hour hanging. I want her twitching, drooling, and too overstimulated to know pleasure from pain."
-              }
-            ]
-          },
-          {
-            "optionText": "You always this into your job?",
-            "responseText": "You see these wet streaks down my thigh? That’s discipline. I get soaked making sluts pay for their sins. And don’t think you’re immune. Get a boner and I’ll make you join her—face down, ass up, balls exposed for cleansing."
-          },
-          {
-            "optionText": "You’re all insane. This vault is just a BDSM cult with extra steps.",
-            "responseText": "Spoken like a true future exile. But admit it—you’re hard watching her struggle, her tits bouncing while she sobs into a ball-gag. If you weren't, you wouldn’t still be here, freak.",
-            "followUpOptions": [
-              {
-                "optionText": "...Fuck. Maybe I am.",
-                "exitLine": true,
-                "responseText": "Then stay. Watch every strike. Every shudder. Let it remind you what’ll happen if you so much as stroke your cock without clearance."
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "optionText": "The way she’s moaning... are you sure this is punishment?",
-        "responseText": "That’s why we keep going. She breaks once—fine. But this bitch started grinding the air like she was riding invisible cock. So now? She gets thirty more lashes until she forgets what cumming feels like.",
-        "followUpOptions": [
-          {
-            "optionText": "Can I help? I got some frustration to burn.",
-            "responseText": "Mmm. Tempting. But no. Only certified Purity enforcers get to whip holes around here. Unless you want to enlist. There’s an oral exam. I grade hard."
-          },
-          {
-            "optionText": "So what happens if she breaks again?",
-            "responseText": "Then we bring out the metal toys. Cold. Heavy. And very unforgiving. We stuff her with purity rods until she begs for exile—or goes catatonic from too many ruined orgasms."
-          }
-        ]
-      },
-      {
-        "optionText": "Bye",
-        "responseText": "Go, coward. But don’t jerk off thinking about this later. We monitor waste pipe fluid levels. One suspicious flush, and it’s your turn in the chains.",
-        "exitLine": true
-      }
-    ],
-    "auto_lines": ["Nnhhh... fuck... n-not again... not in front of everyone... I-I’ll leak if they hit me there...", "Mmmnh—I didn’t even finish… just a few fingers… now you’ve got me strung up like a dripping fuckdoll..."]
-}  
+  "options": [
+    {
+      "optionText": "Que porra é essa que está acontecendo aqui?",
+      "responseText": "Aplicação pública da lei, cidadão. Esta putinha de porra foi pega enfiando dois dedos na sua xoxota escorregadia nos chuveiros comunitários. Isso é uma violação de pureza Classe 3. Agora ela recebe o que todo degenerado que se masturba merece — dor, vergonha e uma xoxota vermelha demais para tocar.",
+      "followUpOptions": [
+        {
+          "optionText": "Você vai mesmo açoitá-la na frente de todo mundo?",
+          "responseText": "Oh, não vou apenas açoitá-la. Vou espancar o pecado para fora de cada buraco dela. Cada gemido que ela der é outra alma salva. Observe.",
+          "followUpOptions": [
+            {
+              "optionText": "[Observar em silêncio]",
+              "specialEffects": ["Punch"],
+              "playSound": "Sounds/slap1",
+              "responseTexts": [
+                "Você gosta disso, sua putinha escorregadia? Gemendo como se quisesse? Talvez eu devesse chicotear seu clitóris até você implorar para ser ordenhada até secar!",
+                "Olha aquela vadia se contorcer. Toda vez que o chicote acerta, a xoxota dela se contrai como se quisesse agarrar algo. Ela vai passar a próxima semana pingando toda vez que ouvir uma fivela de cinto.",
+                "Olha a xoxota vadia dela se contorcendo a cada golpe. Está babando como se quisesse um pau, mas tudo o que ela recebe é dor. Esta xoxota está em exibição agora — vermelha, em carne viva e implorando por um orgasmo que ela nunca terá.",
+                "Você viu isso? O cu dela se contrai toda vez que o chicote acerta. Aposto que ela costumava enfiar o dedo nos dois buracos no chuveiro, não é, sua vadia?",
+                "Observe-a se contorcer. A xoxota dela está vazando como uma torneira quebrada — você poderia enfiar um punho lá agora mesmo. Você quer, não quer? Aposto que seu pau está se contorcendo. Vá em frente, pervertido. Uma contração e você vai pendurar ao lado dela, de pau primeiro.",
+                "Olha aquele clitóris gordo latejando. Aposto que ela transaria com o ar se a gente deixasse. Inferno, talvez da próxima vez eu traga um sybian e a acorrente a ele até a xoxota dela desistir e ficar dormente. Isso é purificação através da ruína.",
+                "Isso foi um gemido. Eu ouvi. Você gosta disso, não é, sua putinha suja? Aposto que você imagina o refúgio inteiro fazendo fila para te usar enquanto eu continuo chicoteando essa xoxota relaxada para lubrificar.",
+                "A xoxota dela está fazendo mais barulho que a boca. Ouviu esse som de esguicho? É um pecado implorando para ser espancado para fora dela. Eu deveria amordaçá-la com a própria calcinha da próxima vez. Encharcada de culpa. Provada pela justiça."
+              ]
+            },
+            {
+              "optionText": "Ela parece estar gostando. Isso não é contraproducente?",
+              "responseText": "Esse é o ponto, seu esquisito. Se ela gozar durante a punição, ganha mais uma hora pendurada. Quero que ela fique se contorcendo, babando e superestimulada demais para distinguir prazer de dor."
+            }
+          ]
+        },
+        {
+          "optionText": "Você sempre se dedica tanto ao seu trabalho?",
+          "responseText": "Vê essas listras molhadas na minha coxa? Isso é disciplina. Fico encharcada fazendo vadias pagarem por seus pecados. E não pense que você está imune. Fique de pau duro e eu te faço se juntar a ela — de bruços, bunda para cima, bolas expostas para a purificação."
+        },
+        {
+          "optionText": "Vocês são todos loucos. Este refúgio é apenas um culto BDSM com etapas extras.",
+          "responseText": "Falou como um verdadeiro futuro exilado. Mas admita — você fica duro assistindo ela lutar, suas tetas balançando enquanto ela soluça em uma mordaça. Se não estivesse, você não estaria mais aqui, seu esquisito.",
+          "followUpOptions": [
+            {
+              "optionText": "...Porra. Talvez eu esteja.",
+              "exitLine": true,
+              "responseText": "Então fique. Assista a cada golpe. Cada tremor. Deixe isso te lembrar o que acontecerá se você sequer acariciar seu pau sem permissão."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "optionText": "O jeito que ela está gemendo... tem certeza que isso é punição?",
+      "responseText": "É por isso que continuamos. Ela quebra uma vez — tudo bem. Mas essa vadia começou a se esfregar no ar como se estivesse cavalgando um pau invisível. Então agora? Ela leva mais trinta chibatadas até esquecer como é gozar.",
+      "followUpOptions": [
+        {
+          "optionText": "Posso ajudar? Tenho um pouco de frustração para queimar.",
+          "responseText": "Mmm. Tentador. Mas não. Apenas aplicadores da Pureza certificados podem chicotear buracos por aqui. A menos que queira se alistar. Há um exame oral. Eu sou rígida na correção."
+        },
+        {
+          "optionText": "Então o que acontece se ela quebrar de novo?",
+          "responseText": "Então nós trazemos os brinquedos de metal. Frios. Pesados. E muito implacáveis. Nós a enchemos com varas de pureza até ela implorar pelo exílio — ou entrar em estado catatônico por excesso de orgasmos arruinados."
+        }
+      ]
+    },
+    {
+      "optionText": "Tchau",
+      "responseText": "Vá, covarde. Mas não bata uma pensando nisso mais tarde. Nós monitoramos os níveis de fluido dos canos de esgoto. Uma descarga suspeita, e será a sua vez nas correntes.",
+      "exitLine": true
+    }
+  ],
+  "auto_lines": [
+    "Nnhhh... porra... n-não de novo... não na frente de todo mundo... E-eu vou vazar se me baterem aí...",
+    "Mmmnh—eu nem terminei… só alguns dedos… agora vocês me penduraram como uma boneca de foda pingando..."
+  ]
+}

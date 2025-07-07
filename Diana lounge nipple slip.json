@@ -1,48 +1,52 @@
 {
-    "options": [
+  "options": [
+    {
+      "optionText": "Uh, sabe que um dos seus mamilos está aparecendo, certo?",
+      "responseText": "Ah, essa coisa velha? Acho que só queria um pouco de ar fresco. Relaxa, não é como se estivéssemos quebrando nenhuma das grandes regras aqui—a menos que você queira dedurar para a Polícia da Pureza. Eles poderiam usar um pouco de emoção, mesmo que seja por um mamilo fujão.",
+      "followUpOptions": [
         {
-            "optionText": "Uh, you know one of your nipples is showing, right?",
-            "responseText": "Oh, that old thing? Guess it just wanted some fresh air. Chill out, it’s not like we’re breaking any of the big rules here—unless you want to go snitch to the Purity Police. They could use a little excitement, even if it's over a rogue nipple.",
-            "followUpOptions": [
-                {
-                    "optionText": "Are you crazy? If someone sees, you’re screwed.",
-                    "responseText": "Relax, prude. The only ones who would notice are too busy staring at their own navels, trying to repress their unholy thoughts. But sure, if you wanna run to Mommy Overseer, be my guest." 
-                }
-            ]
-        },
-        {
-            "optionText": "Uh, you know one of your nipples is showing, right?",
-            "responseText": "Oh, really? I guess my body is just crying out for freedom. But don’t get too excited—it’s more action than this vault has seen in years. If the Purity Police catch you staring, you’ll get a front-row seat in the Shame Chamber.",
-            "followUpOptions": [
-                {
-                    "optionText": "You know this could get you in serious trouble, right?",
-                    "responseText": "Trouble? If a little nip slip is what finally sends the Purity Police over the edge, maybe we’re all better off watching the fallout.",
-                    "followUpOptions": [
-                        {
-                            "optionText": "I don’t care. I’m reporting you to the Overseer.",
-                            "responseText": "Go ahead, be Vault 6969’s resident lounge monitor. Just remember, the Purity Police are probably more aroused by your dedication to the rules than by a bit of skin. Maybe you’ll end up in the Shame Chamber right next to me.",
-                            "report": true
-                        },
-                        {
-                            "optionText": "No way I’m reporting you. The Purity Police can’t keep everyone on a leash forever.",
-                            "responseText": "Now that’s the spirit! Let’s see if we can push the envelope a little. Who knows, maybe you’ll even start a revolution. Or at least make the next assembly slightly less mind-numbing."
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "optionText": "So, what do you think about this purity assembly?",
-            "responseText": "Oh, you mean this weekly reminder that we live in a post-apocalyptic nunnery? Yeah, I look forward to it like a radroach looks forward to pest control."
-        },
-        {
-            "optionText": "[Gift]",
-            "isGifting": true
-        },
-        {
-            "optionText": "Bye.",
-            "responseTexts": ["Leaving already? Guess I’ll just have to find another audience for my accidental rebellion.", "See you around, saint. Don’t let the purity propaganda mess with your head too much.", "Leaving so soon? Guess I’ll just have to keep the other nipple covered for now."],
-            "exitLine": true
+          "optionText": "Você está louca? Se alguém vir, você está ferrada.",
+          "responseText": "Relaxe, puritano. Os únicos que notariam estão ocupados demais olhando para os próprios umbigos, tentando reprimir seus pensamentos profanos. Mas claro, se quiser correr para a Mamãe Supervisora, fique à vontade."
         }
-    ]
+      ]
+    },
+    {
+      "optionText": "Uh, sabe que um dos seus mamilos está aparecendo, certo?",
+      "responseText": "Oh, é mesmo? Acho que meu corpo está apenas clamando por liberdade. Mas não se anime muito—é mais ação do que este refúgio viu em anos. Se a Polícia da Pureza te pegar olhando, você terá um lugar na primeira fila da Câmara da Vergonha.",
+      "followUpOptions": [
+        {
+          "optionText": "Sabe que isso pode te colocar em sérios apuros, certo?",
+          "responseText": "Apuros? Se um mamilo à mostra é o que finalmente fará a Polícia da Pureza surtar, talvez seja melhor para todos nós assistirmos às consequências.",
+          "followUpOptions": [
+            {
+              "optionText": "Não me importo. Vou te denunciar ao Supervisor.",
+              "responseText": "Vá em frente, seja o monitor de corredor residente do Refúgio 6969. Só lembre-se, a Polícia da Pureza provavelmente está mais excitada com sua dedicação às regras do que com um pouco de pele. Talvez você acabe na Câmara da Vergonha bem ao meu lado.",
+              "report": true
+            },
+            {
+              "optionText": "De jeito nenhum vou te denunciar. A Polícia da Pureza não pode manter todos na coleira para sempre.",
+              "responseText": "Agora sim, esse é o espírito! Vamos ver se conseguimos forçar um pouco mais os limites. Quem sabe, talvez você até comece uma revolução. Ou pelo menos torne a próxima assembleia um pouco menos entediante."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "optionText": "Então, o que você acha desta assembleia de pureza?",
+      "responseText": "Ah, você quer dizer este lembrete semanal de que vivemos em um convento pós-apocalíptico? Sim, eu espero por isso como uma barata radioativa espera pelo controle de pragas."
+    },
+    {
+      "optionText": "[Presente]",
+      "isGifting": true
+    },
+    {
+      "optionText": "Tchau.",
+      "responseTexts": [
+        "Já vai? Acho que terei que encontrar outra plateia para minha rebelião acidental.",
+        "Até mais, santo. Não deixe a propaganda da pureza bagunçar muito sua cabeça.",
+        "Já vai? Acho que terei que manter o outro mamilo coberto por enquanto."
+      ],
+      "exitLine": true
+    }
+  ]
 }

@@ -1,133 +1,135 @@
 {
-    "options": [
+  "options": [
+    {
+      "optionText": "Trouxe suas cabeças de mutante. Ainda estão moles.",
+      "icon": "GUI/quest mark",
+      "itemRequired": "Mutant Head",
+      "numItemsReq": 5,
+      "giveItemToCharacter": "Mutant Head",
+      "numOfCopiesToGive": 5,
+      "onlyDisplayIfHasObjective": "Bring 5 mutant heads to Enclave",
+      "markObjectiveComplete": "Bring 5 mutant heads to Enclave",
+      "showChoiceStats": "20_heads",
+      "responseText": "Doce Cristo nuclear. Olhe para esse saco de glória fedorenta... Você realmente se superou—cheira a vitória e carne podre. O General Grim vai gozar lágrimas patrióticas quando vir isso.",
+      "followUpOptions": [
         {
-            "optionText": "I've got your mutant heads. Still squishy.",
-            "icon": "GUI/quest mark",
-            "itemRequired": "Mutant Head",
-            "numItemsReq": 5,
-            "giveItemToCharacter": "Mutant Head",
-            "numOfCopiesToGive": 5,
-            "onlyDisplayIfHasObjective": "Bring 5 mutant heads to Enclave",
-            "markObjectiveComplete": "Bring 5 mutant heads to Enclave",
-            "showChoiceStats": "20_heads",
-            "responseText": "Sweet nuclear Christ. Look at that sack of stinking glory... You really outdid yourself—smells like victory and rotting flesh. General Grim’s gonna nut patriotic tears when he sees this.",
-            "followUpOptions": [ 
-                {
-                    "optionText": "So... can I join the Enclave now?", 
-                    "responseText": "Aww, look at you. Covered in guts and thinkin' you're one of us now? Hate to break your tiny, irradiated heart, but hauling mutant skulls don’t make you Enclave. I don’t hand out passwords like candy, and I sure as fuck don’t recruit vault-born jackoffs who think loyalty means a headcount. You want in? Go crawl up Grim’s ass and pray he coughs up a badge. Until then, you’re just another errand bitch with delusions of relevance."
-                },
-                {
-                    "optionText": "Where’s my payment?",
-                    "addCaps": 200,
-                    "exitLine": true,
-                    "responseText": "Right. Caps and a clean kill record in our files. You’ve earned it — don’t blow it all on chems and whores."
-                } 
-            ]
-        },        
-        {
-            "optionText": "Special delivery from the Capital Brotherhood—for your brave General Grim.",
-            "icon": "GUI/quest mark",
-            "onlyDisplayIfHasObjective": "Deliver the Special Cake to Enclave",
-            "itemRequired": "Special Cake",
-            "exitLine":true,
-            "giveItemToCharacter": "Special Cake",
-            "markObjectiveComplete": "Deliver the Special Cake to Enclave",
-            "responseText": "Well, fuck me sideways—a peace offering from those tin-can dipshits? Didn't peg those Brotherhood morons for bakers. Guess we'll see if Archie likes frosting as much as tap dancing. Thanks, courier—feel free to piss off now."
+          "optionText": "Então... posso me juntar ao Enclave agora?",
+          "responseText": "Aww, olhe para você. Coberto de tripas e achando que é um de nós agora? Odeio quebrar seu coraçãozinho irradiado, mas carregar crânios de mutantes não te torna do Enclave. Não distribuo senhas como doces, e com certeza não recruto idiotas nascidos em refúgios que acham que lealdade significa contar cabeças. Quer entrar? Vá lamber o cu do Grim e reze para ele cuspir um distintivo. Até lá, você é só mais uma puta de recados com delírios de relevância."
         },
         {
-            "optionText": "I helped one of your guys clear out Vault 6969. He sends his regards—and about a hundred heads on pikes.",
-            "responseText": "So you're one of the sick bastards behind that glorious bloodbath? You've earned yourself a personal suite—and hell, throw in one of our purest daughters as a wife. But I still need a password before I let you through.",
-            "onlyShowIfProgressionEventPlayed": "hansGavePassword", 
-            "dontShowIfProgressionEventPlayed": "enclavePasscodePassed",
-            "icon": "GUI/quest mark",
-            "followUpOptions": [
-                {
-                    "optionText": "\"Eden's Legacy.\"",
-                    "icon": "GUI/quest mark",
-                    "showButton": "enterEnclave",
-                    "progressionEventPlayed": "enclavePasscodePassed",
-                    "exitLine": true,
-                    "responseText": "Well, holy shit, you got it. Welcome to the clubhouse—don't fuck it up."
-                }
-            ]
-        },
-        {
-            "optionText": "Who the hell are you supposed to be?",
-            "responseText": "I'M YOUR FAIRY FUCKING GODMOTHER—HERE TO GRANT YOU THREE WISHES: A BULLET, A BOOT UP THE ASS, OR A GUIDED TOUR THROUGH HELL. Oh, and I’m also Enclave, here to scrape worthless shits like you off the boots of America. But you probably guessed that already. IF I SEE YOU TWITCH THE WRONG WAY, I'LL RIP YOUR SKULL OPEN AND PISS ON WHAT'S LEFT OF YOUR BRAIN.",
-            "followUpOptions": [
-                {
-                    "optionText": "Relax. I'm just exploring.",
-                    "responseText": "Exploring? THIS ISN'T A FUCKING AMUSEMENT PARK. Every mutant, raider, or wasteland vermin we've encountered ends up strung up, gutted, and displayed as a warning. You see those rotten carcasses? THAT'S OUR WELCOME SIGN. Make one wrong move, and you'll join our little roadside exhibit."
-                },
-                {
-                    "optionText": "What makes you think you're special?",
-                    "responseText": "Special? Nah, we're just regular folks with great dental care, a nuclear arsenal, and pristine genetics—pure-blood descendants of those who laughed while your ancestors melted into screaming puddles of goo. We're here to continue the tradition—by reducing shit-stains like you INTO ASHES.",
-                    "followUpOptions": [
-                        {
-                            "optionText": "Sounds like you're all just genocidal maniacs.",
-                            "responseText": "Genocidal? Nah. WE'RE ARTISTS. The masterpiece is a purified America, free from mutant trash. I'd flay you alive right now and decorate our perimeter with your intestines as proof of our dedication. HUMANITY'S REBIRTH DEMANDS YOUR BRUTAL EXTINCTION."
-                        },
-                        {
-                            "optionText": "Can someone join your ranks?",
-                            "responseText": "Join? HA, THAT'S FUCKING RICH. Still, if you've got the stomach to skin mutants alive and dance knee-deep in their blood... MAYBE WE'D LET YOU SERVE AS CANNON FODDER. But first, what's our fucking PASSWORD?",
-                            "followUpOptions": [
-                                {
-                                    "optionText": "Uh... 'Fuck Mutants'?",
-                                    "responseText": "Cute. BUT WRONG. Guess again, shit-for-brains, or fuck off."
-                                },
-                                {
-                                    "optionText": "'Death to the Brotherhood'?",
-                                    "responseText": "I appreciate the sentiment, but THAT AIN'T IT. Come back when your head’s less irradiated."
-                                },
-                                {
-                                    "optionText": "'President Dick Richardson'?",
-                                    "responseText": "Funny guy, huh? Say another word and you'll find out how your teeth taste."
-                                } 
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "optionText": "So, what's someone like you do for fun around here?",
-                    "responseText": "When I'm not stringing mutants up by their entrails? Oh, you know—target practice on live raiders, poker games with my buddies, or maybe just a casual night torturing captured Brotherhood scouts. Real good stuff."
-                },
-                {
-                    "optionText": "Who's running this fortress?",
-                    "responseText": "That would be General Archibald 'Archie' Grim. Brilliant strategist, total psychopath, and surprisingly skilled dancer. You haven't truly feared a man until you've watched him shuffle-step over mutant corpses while humming tunes."
-                } 
-            ]
-        },
-        {
-            "optionText": "What's this place you're guarding?",
-            "responseText": "THIS IS OUR FUCKING FORTRESS—the place where we’ll reignite America by napalming every radioactive abomination into screaming oblivion. Stick around, and your screams will echo nicely in our torture chambers!"
-        },  
-        {
-            "optionText": "Got any work?",
-            "icon": "GUI/quest mark",
-            "dontDisplayIfHasObjective": "Bring 5 mutant heads to Enclave",
-            "dontDisplayIfObjectiveComplete": "Bring 5 mutant heads to Enclave",
-            "responseText": "Always got room for eager psychopaths. Bring me the heads of five mutants—freshly severed preferred, not that freeze-dried shit—and you'll get a payout generous enough to make your mama proud. Assuming she's alive. Probably isn't, knowing your kind.",
-            "followUpOptions": [
-                {
-                    "optionText": "Alright, I’m in.",
-                    "icon": "GUI/quest mark",
-                    "exitLine": true,
-                    "addObjective": "Bring 5 mutant heads to Enclave",
-                    "responseText": "That’s the spirit! Now go spread some post-apocalyptic decapitation cheer."
-                },
-                {
-                    "optionText": "Yeah... no thanks.",
-                    "exitLine": true,
-                    "responseText": "Figures. Soft as brahmin shit. Go join the Brotherhood—maybe they'll give you a medal for not pissing yourself."
-                }
-            ]
-        },
-        {
-            "optionText": "Bye.",
-            "responseText": "Run back to your pit, coward. Next time we meet, I'll carve your cowardly spine out and mount it on our gates.",
-            "exitLine": true
+          "optionText": "Onde está meu pagamento?",
+          "addCaps": 200,
+          "exitLine": true,
+          "responseText": "Certo. Caps e um histórico de mortes limpo em nossos arquivos. Você mereceu — não gaste tudo em drogas e putas."
         }
-    ],
-    "showShadowFigures": "Enclave",
-    "random_auto_line": ["I was hoping something would wander in today. My rifle's been bored."]
+      ]
+    },
+    {
+      "optionText": "Entrega especial da Irmandade da Capital—para seu bravo General Grim.",
+      "icon": "GUI/quest mark",
+      "onlyDisplayIfHasObjective": "Deliver the Special Cake to Enclave",
+      "itemRequired": "Special Cake",
+      "exitLine": true,
+      "giveItemToCharacter": "Special Cake",
+      "markObjectiveComplete": "Deliver the Special Cake to Enclave",
+      "responseText": "Bem, puta que pariu—uma oferenda de paz daqueles idiotas de lata? Não imaginei que aqueles imbecis da Irmandade fossem padeiros. Veremos se Archie gosta de glacê tanto quanto de sapateado. Valeu, entregador—sinta-se à vontade para dar o fora agora."
+    },
+    {
+      "optionText": "Ajudei um de seus caras a limpar o Refúgio 6969. Ele manda lembranças—e umas cem cabeças em estacas.",
+      "responseText": "Então você é um dos bastardos doentes por trás daquele banho de sangue glorioso? Você ganhou uma suíte pessoal—e, diabos, inclua uma de nossas filhas mais puras como esposa. Mas ainda preciso de uma senha antes de te deixar passar.",
+      "onlyShowIfProgressionEventPlayed": "hansGavePassword",
+      "dontShowIfProgressionEventPlayed": "enclavePasscodePassed",
+      "icon": "GUI/quest mark",
+      "followUpOptions": [
+        {
+          "optionText": "\"Legado do Éden.\"",
+          "icon": "GUI/quest mark",
+          "showButton": "enterEnclave",
+          "progressionEventPlayed": "enclavePasscodePassed",
+          "exitLine": true,
+          "responseText": "Bem, puta merda, você acertou. Bem-vindo ao clube—não fode com tudo."
+        }
+      ]
+    },
+    {
+      "optionText": "Quem diabos você pensa que é?",
+      "responseText": "EU SOU A PORRA DA SUA FADA MADRINHA—AQUI PARA TE CONCEDER TRÊS DESEJOS: UMA BALA, UM PÉ NA BUNDA, OU UMA VISITA GUIADA AO INFERNO. Ah, e também sou do Enclave, aqui para raspar merdas inúteis como você das botas da América. Mas você provavelmente já adivinhou isso. SE EU TE VER FAZENDO UM MOVIMENTO ERRADO, VOU ARRANCAR SEU CRÂNIO E MIJAR NO QUE SOBRAR DO SEU CÉREBRO.",
+      "followUpOptions": [
+        {
+          "optionText": "Relaxe. Só estou explorando.",
+          "responseText": "Explorando? ISTO NÃO É UM PARQUE DE DIVERSÕES. Todo mutante, saqueador ou verme da wasteland que encontramos acaba pendurado, estripado e exibido como um aviso. Vê aquelas carcaças podres? ESSE É O NOSSO SINAL DE BOAS-VINDAS. Faça um movimento errado, e você se juntará à nossa pequena exposição na beira da estrada."
+        },
+        {
+          "optionText": "O que te faz pensar que você é especial?",
+          "responseText": "Especial? Não, somos apenas pessoas comuns com ótima higiene dental, um arsenal nuclear e genética impecável—descendentes de sangue puro daqueles que riram enquanto seus ancestrais derretiam em poças de gosma gritante. Estamos aqui para continuar a tradição—reduzindo manchas de merda como você A CINZAS.",
+          "followUpOptions": [
+            {
+              "optionText": "Parece que vocês são todos maníacos genocidas.",
+              "responseText": "Genocidas? Não. SOMOS ARTISTAS. A obra-prima é uma América purificada, livre do lixo mutante. Eu te esfolaria vivo agora mesmo e decoraria nosso perímetro com seus intestinos como prova de nossa dedicação. O RENASCIMENTO DA HUMANIDADE EXIGE SUA EXTINÇÃO BRUTAL."
+            },
+            {
+              "optionText": "Alguém pode se juntar às suas fileiras?",
+              "responseText": "Se juntar? HA, ESSA É BOA PRA CARALHO. Ainda assim, se você tem estômago para esfolar mutantes vivos e dançar com o sangue deles até os joelhos... TALVEZ DEIXEMOS VOCÊ SERVIR DE BUCHA DE CANHÃO. Mas primeiro, qual é a porra da nossa SENHA?",
+              "followUpOptions": [
+                {
+                  "optionText": "Uh... 'Foda-se os Mutantes'?",
+                  "responseText": "Fofo. MAS ERRADO. Adivinhe de novo, cérebro de merda, ou vá se foder."
+                },
+                {
+                  "optionText": "'Morte à Irmandade'?",
+                  "responseText": "Aprecio o sentimento, mas NÃO É ISSO. Volte quando sua cabeça estiver menos irradiada."
+                },
+                {
+                  "optionText": "'Presidente Dick Richardson'?",
+                  "responseText": "Engraçadinho, hein? Diga mais uma palavra e você descobrirá o gosto dos seus dentes."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "optionText": "Então, o que alguém como você faz por diversão por aqui?",
+          "responseText": "Quando não estou pendurando mutantes por suas entranhas? Ah, sabe—prática de tiro em saqueadores vivos, jogos de pôquer com meus amigos, ou talvez apenas uma noite casual torturando batedores da Irmandade capturados. Coisa boa de verdade."
+        },
+        {
+          "optionText": "Quem comanda esta fortaleza?",
+          "responseText": "Esse seria o General Archibald 'Archie' Grim. Estrategista brilhante, psicopata total e dançarino surpreendentemente habilidoso. Você não temeu um homem de verdade até vê-lo sapatear sobre cadáveres de mutantes enquanto cantarola melodias."
+        }
+      ]
+    },
+    {
+      "optionText": "Que lugar é este que você está guardando?",
+      "responseText": "ESTA É A NOSSA FORTALEZA—o lugar onde reacenderemos a América napalmando toda abominação radioativa até o esquecimento gritante. Fique por aqui, e seus gritos ecoarão bem em nossas câmaras de tortura!"
+    },
+    {
+      "optionText": "Tem algum trabalho?",
+      "icon": "GUI/quest mark",
+      "dontDisplayIfHasObjective": "Bring 5 mutant heads to Enclave",
+      "dontDisplayIfObjectiveComplete": "Bring 5 mutant heads to Enclave",
+      "responseText": "Sempre tem espaço para psicopatas ansiosos. Traga-me as cabeças de cinco mutantes—recém-cortadas, de preferência, não aquela merda liofilizada—e você receberá um pagamento generoso o suficiente para deixar sua mãe orgulhosa. Supondo que ela esteja viva. Provavelmente não está, conhecendo sua laia.",
+      "followUpOptions": [
+        {
+          "optionText": "Certo, estou dentro.",
+          "icon": "GUI/quest mark",
+          "exitLine": true,
+          "addObjective": "Bring 5 mutant heads to Enclave",
+          "responseText": "Esse é o espírito! Agora vá espalhar um pouco de alegria de decapitação pós-apocalíptica."
+        },
+        {
+          "optionText": "É... não, obrigado.",
+          "exitLine": true,
+          "responseText": "Imaginei. Mole como merda de brahmin. Vá se juntar à Irmandade—talvez eles te deem uma medalha por não se mijar."
+        }
+      ]
+    },
+    {
+      "optionText": "Tchau.",
+      "responseText": "Corra de volta para sua toca, covarde. Da próxima vez que nos encontrarmos, vou arrancar sua espinha covarde e montá-la em nossos portões.",
+      "exitLine": true
+    }
+  ],
+  "showShadowFigures": "Enclave",
+  "random_auto_line": [
+    "Eu esperava que algo entrasse por aqui hoje. Meu rifle tem estado entediado."
+  ]
 }

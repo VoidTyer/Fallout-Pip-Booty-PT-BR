@@ -1,73 +1,73 @@
 {
-    "options": [
+  "options": [
+    {
+      "optionText": "Oh Deus... QUE PORRA ACONTECEU COM VOCÊ?!",
+      "progressionEventPlayed": "talkedToODAfterPurge",
+      "responseText": "*cospe sangue, olhos revirando fracamente* o-o que... você acha? Hans... seu amiguinho... pirou... de vez. *tosse violentamente* o refúgio... é um grande... banho de sangue agora.",
+      "followUpOptions": [
         {
-            "optionText": "Oh God... WHAT THE HELL HAPPENED TO YOU?!",
-            "progressionEventPlayed": "talkedToODAfterPurge",
-            "responseText": "*spits blood, eyes rolling weakly* w-what... do you think? Hans... your little buddy... went... full psycho mode. *coughs violently* vault’s... one big... fucking bloodbath now.",
-            "followUpOptions": [
-                {
-                    "optionText": "Why didn’t you hide?!",
-                    "responseText": "*choking on blood* Hide? You think I could just... crawl into a corner... *coughs violently* he killed... Boogie. I wasn’t gonna... sit around... and let that bastard... win.",
-                    "followUpOptions": [
-                        {
-                            "optionText": "Boogie?",
-                            "responseText": "*eyes glassy with tears* he... he was my best friend... my family... *gasping for air* He tried... we both did... *weak smile* but, I guess... friendship bracelets don’t stop bullets." 
-                        },
-                        {
-                            "optionText": "You were brave to stand up to him.",
-                            "responseText": "*laughs weakly, coughing up blood* Brave? Yeah... sure... call it brave. *sputters blood*"
-                        },
-                        {
-                            "optionText": "Boogie tried to save you?",
-                            "responseText": "*eyes tearing up, struggling to breathe* He... he was the only one... who ever cared about me. *coughs violently* And now... he’s gone... *chokes, glaring weakly*"
-                        },
-                        {
-                            "optionText": "Oh God, your arm...",
-                            "responseText": "*glances at the bloody stump, smirking faintly through the pain* oh, this is just... Hans’ idea of a... handshake. *coughs up blood, voice weakening* Tried to block his axe... turns out... arms don’t grow back..."
-                        }
-                    ]
-                },               
-                {
-                    "optionText": "I didn’t know he’d do this!",
-                    "responseText": "*glaring weakly, blood dripping from her lips* Oh, you... didn't know? What... you think the swastikas... were for? *chokes sputtering blood* Idiot..."
-                },
-                {
-                    "optionText": "Hans is a lunatic! I should’ve stopped him.",
-                    "responseText": "*sarcastic snort, wincing in pain* Yeah, well... great timing. Real helpful now... *coughs*"
-                }, 
-                {
-                    "optionText": "I’m so sorry, I never meant for this to happen.",
-                    "responseText": "*glaring through the pain, coughing blood* You... you helped him, didn’t you? *chokes on a sob* You... brought him the gun. *voice breaking* This is... all on you.",
-                    "followUpOptions": [
-                        {
-                            "optionText": "I didn’t think he’d go this far.",
-                            "responseText": "*choking laugh, spitting blood* You didn’t think? Oh, well, great. Nobody... died because of you... just because you’re... dumb as rocks. *gasping* Feel better now?"
-                        },
-                        {
-                            "optionText": "I’ll make this right. I swear.",
-                            "responseText": "*eyes dulling, whispering faintly* Make it right? *choking laugh* Hans... made sure... there’s nothing left... to make right. You’re... just too late."
-                        }
-                    ]
-                }
-            ]
+          "optionText": "Por que você não se escondeu?!",
+          "responseText": "*engasgando com sangue* Esconder? Você acha que eu poderia simplesmente... me arrastar para um canto... *tosse violentamente* ele matou... o Boogie. Eu não ia... ficar sentada... e deixar aquele desgraçado... vencer.",
+          "followUpOptions": [
+            {
+              "optionText": "Boogie?",
+              "responseText": "*olhos vidrados de lágrimas* ele... ele era meu melhor amigo... minha família... *arquejando por ar* Ele tentou... nós dois tentamos... *sorriso fraco* mas, acho que... pulseiras da amizade não param balas."
+            },
+            {
+              "optionText": "Você foi corajosa ao enfrentá-lo.",
+              "responseText": "*ri fracamente, tossindo sangue* Corajosa? Sim... claro... chame de corajosa. *gagueja sangue*"
+            },
+            {
+              "optionText": "Boogie tentou te salvar?",
+              "responseText": "*olhos marejados, lutando para respirar* Ele... ele foi o único... que já se importou comigo. *tosse violentamente* E agora... ele se foi... *engasga, encarando fracamente*"
+            },
+            {
+              "optionText": "Oh Deus, seu braço...",
+              "responseText": "*olha para o coto ensanguentado, sorrindo fracamente através da dor* ah, isso é só... a ideia do Hans de um... aperto de mão. *cospe sangue, a voz enfraquecendo* Tentei bloquear o machado dele... acontece que... braços não crescem de volta..."
+            }
+          ]
         },
         {
-            "optionText": "This place deserved it.",
-            "exitLine": true,
-            "responseText": "*laughs bitterly, blood dripping down her chin* Oh sure... Hans... just did us all... a favor, huh? *weak snarl* You’re as sick... as he is... you fucking psycho..."
+          "optionText": "Eu não sabia que ele faria isso!",
+          "responseText": "*encarando fracamente, sangue escorrendo dos lábios* Ah, você... não sabia? O que... você acha que as suásticas... eram para quê? *engasga, cuspindo sangue* Idiota..."
         },
         {
-            "optionText": "[Finish her]", 
-            "killCharacter": true, 
-            "exitLine": true,
-            "specialEffects": ["stab"],
-            "progressionEventPlayed": "finishedOverseerDaughter",
-            "responseText": "*her eyes widen* ...wait—no... ahh, you— *chokes* why...? *a wet gasp escapes as her body goes limp*"
+          "optionText": "Hans é um lunático! Eu deveria tê-lo impedido.",
+          "responseText": "*bufa sarcasticamente, gemendo de dor* Sim, bem... ótimo timing. Muito útil agora... *tosse*"
         },
         {
-            "optionText": "Goodbye.",
-            "responseText": "*whispering faintly, her voice fading* fuck you... and fuck Hans... I hope... you both rot in hell... *collapses, lifeless*",
-            "exitLine": true
+          "optionText": "Sinto muito, nunca quis que isso acontecesse.",
+          "responseText": "*encarando através da dor, tossindo sangue* Você... você o ajudou, não foi? *engasga em um soluço* Você... trouxe a arma para ele. *voz falhando* A culpa é... toda sua.",
+          "followUpOptions": [
+            {
+              "optionText": "Eu não pensei que ele iria tão longe.",
+              "responseText": "*risada engasgada, cuspindo sangue* Você não pensou? Ah, bem, ótimo. Ninguém... morreu por sua causa... só porque você é... burro como uma porta. *arquejando* Se sente melhor agora?"
+            },
+            {
+              "optionText": "Vou consertar isso. Eu juro.",
+              "responseText": "*olhos perdendo o brilho, sussurrando fracamente* Consertar? *risada engasgada* Hans... garantiu... que não sobrasse nada... para consertar. Você... chegou tarde demais."
+            }
+          ]
         }
-    ]
+      ]
+    },
+    {
+      "optionText": "Este lugar mereceu.",
+      "exitLine": true,
+      "responseText": "*ri amargamente, sangue escorrendo pelo queixo* Ah, claro... Hans... só nos fez um favor a todos, hein? *rosnado fraco* Você é tão doente... quanto ele... seu psicopata do caralho..."
+    },
+    {
+      "optionText": "[Acabe com ela]",
+      "killCharacter": true,
+      "exitLine": true,
+      "specialEffects": ["stab"],
+      "progressionEventPlayed": "finishedOverseerDaughter",
+      "responseText": "*seus olhos se arregalam* ...espera—não... ahh, você— *engasga* por quê...? *um suspiro molhado escapa enquanto seu corpo amolece*"
+    },
+    {
+      "optionText": "Adeus.",
+      "responseText": "*sussurrando fracamente, sua voz sumindo* vai se foder... e foda-se o Hans... espero... que vocês dois apodreçam no inferno... *desaba, sem vida*",
+      "exitLine": true
+    }
+  ]
 }

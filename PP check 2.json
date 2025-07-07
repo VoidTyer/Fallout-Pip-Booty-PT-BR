@@ -1,70 +1,70 @@
 {
-    "options": [
+  "options": [
+    {
+      "optionText": "Que porra é essa?! Por que você está debaixo da minha cama?!",
+      "responseText": "VOCÊ SABE MUITO BEM O PORQUÊ, SEU PEQUENO GREMLIN PECADOR E DESLEIXADO. Você acha que eu не rastrearia isso até o seu *centro de comando manchado de porra*?! Este refúgio tem ficado *pegajoso* e todos os vestígios levam a VOCÊ.",
+      "followUpOptions": [
         {
-            "optionText": "What the fuck?! Why are you under my bed?!",
-            "responseText": "YOU KNOW GODDAMN WELL WHY, YOU SLOPPY LITTLE SIN GREMLIN. You think I wouldn’t trace that back to your *cum-stained command center*?! This vault has been getting *sticky* and all traces lead to YOU.",
-            "followUpOptions": [
+          "optionText": "CARA, EU SÓ ESTAVA DORMINDO.",
+          "responseText": "DORMINDO? DORMINDO?! ENTÃO EXPLIQUE AS *VIBRAÇÕES DE PUNHETA*, AMIGO! EU SINTO O CHEIRO DA TENSÃO NO AR! É GROSSO, é *almiscarado*. VOCÊ ESTÁ ESCONDENDO ALGO, E EU VOU ARRANCAR ISSO DE VOCÊ COMO UMA TAMPINHA DE GARRAFA DO CU DE UM CRACUDO."
+        },
+        {
+          "optionText": "Há quanto tempo você está aí embaixo?",
+          "responseText": "TEMPO SUFICIENTE PARA OUVIR SUA *RESPIRAÇÃO* DEPRAVADA, SEU GOBLIN IMUNDO. Tempo suficiente para testemunhar você rolar, agarrar seu travesseiro como se fosse alguma *waifu*. Quer explicar ISSO, ou devo registrar a acusação de *Punheteiro do Refúgio* na sua ficha agora mesmo?",
+          "followUpOptions": [
+            {
+              "optionText": "Espera. ESPERA. Você estava debaixo da minha cama me ouvindo RESPIRAR? Quem é o verdadeiro pervertido aqui?!",
+              "responseText": "OH, NÃO TENTE USAR A *CARTA DE REVERSÃO DO UNO* COMIGO, SEU MAGO DA ROLA! EU SOU UM *OPERATIVO DA PUREZA* TREINADO. EU *sofro* para que este refúgio permaneça *imaculado* por gente como *você*."
+            }
+          ]
+        },
+        {
+          "optionText": "Você realmente acha que estou contrabandeando *contrabando de punheta*?!",
+          "responseText": "OH, EU *SEI* QUE VOCÊ ESTÁ, SEU PEQUENO *GOBLIN DA GOZADA* SORRATEIRO. Encontramos uma revista 'Donas de Casa Safadas' no Bloco C. E *ALGUÉM* tem circulado mais delas. ESTE. REFÚGIO. ESTÁ. DESMORONANDO. E EU SEI QUE VOCÊ É O CABEÇA!",
+          "followUpOptions": [
+            {
+              "optionText": "NÃO SOU EU, EU JURO!",
+              "responseText": "AH, POR FAVOR. Você espera que eu acredite que há OUTRO TRAFICANTE DE PECADO neste refúgio? Não, NÃO. Eu vejo através de você, *seu mercador de imundície!*"
+            },
+            {
+              "optionText": "Defina 'cabeça'.",
+              "responseText": "Um *cabeça*, substantivo: Uma mente mestra desviante, um chefão da pornografia, um fornecedor miserável de degenerescência destruidora de pulsos. VOCÊ, em outras palavras."
+            },
+            {
+              "optionText": "E daí se EU FOR? O que você pode fazer comigo?",
+              "responseText": "OH, QUER FICAR *ARROGANTE*, HEIN? ACHA QUE PODE SIMPLESMENTE ADMITIR SEUS CRIMES E IR EMBORA?! BEM, ADIVINHA SÓ?! *EU respeito a honestidade.* Mas também, você está sob prisão do refúgio, seu absoluto *SENHOR DA IMUNDÍCIE*.",
+              "followUpOptions": [
                 {
-                    "optionText": "DUDE, I WAS JUST SLEEPING.",
-                    "responseText": "SLEEPING? SLEEPING?! THEN EXPLAIN THE *FAP VIBES*, PAL! I CAN SMELL THE TENSION IN THE AIR! It’s THICK, it’s *musky*. YOU’RE HIDING SOMETHING, AND I’M GONNA PRY IT OUT OF YOU LIKE A BOTTLE CAP FROM A CRACKHEAD’S ASS."  
+                  "optionText": "Tudo bem. Eu me rendo.",
+                  "addWillpowerTokens": -9999,
+                  "removeAllPlayerItems": true,
+                  "advanceDayWithStatusMessage": "A Câmara da Vergonha é pior do que você jamais imaginou. 50 dias de tormento psicológico. Você sai de lá uma casca quebrada de homem, bolsos vazios, alma estilhaçada, sua libido outrora orgulhosa reduzida a um fantasma atrofiado de si mesma.",
+                  "exitLine": true,
+                  "responseText": "BOM. JÁ ERA HORA DE VOCÊ VER A LUZ. Agora entregue cada token e prepare-se para 50 dias *cheios de diversão* na CÂMARA DA VERGONHA."
                 },
                 {
-                    "optionText": "How long have you been under there?",
-                    "responseText": "LONG ENOUGH TO HEAR YOUR DEPRAVED *BREATHING*, YOU FILTH GOBLIN. Long enough to witness you roll over, grip your pillow like it’s some *waifu*. You wanna explain THAT, or should I go ahead and slap the *Vault Wanker charge* on your record right now?",
-                    "followUpOptions": [
-                        {
-                            "optionText": "Wait. WAIT. You were under my bed listening to me BREATHE? Who’s the real perv here?!",
-                            "responseText": "OH DON’T TRY TO *UNO REVERSE CARD* ME, YOU DICK-WIZARD! I AM A TRAINED *PURITY OPERATIVE*. I *suffer* so that this vault may remain *unstained* by the likes of *you*."  
-                        }
-                    ]
-                },
-                {
-                    "optionText": "You seriously think I’m smuggling *fap contraband*?!",
-                    "responseText": "OH I *KNOW* YOU ARE, YOU SNEAKY LITTLE *COOM GOBLIN*. We found a 'Loose Housewives' mag in C Block. AND *SOMEONE* has been circulating more of them. THIS. VAULT. IS. FALLING. APART. AND I KNOW YOU'RE THE RINGLEADER!",
-                    "followUpOptions": [
-                        {
-                            "optionText": "IT'S NOT ME, I SWEAR!",
-                            "responseText": "OH PLEASE. You expect me to believe there’s ANOTHER SIN DEALER in this vault? No, NO. I see right through you, *you filth monger!*"  
-                        },
-                        {
-                            "optionText": "Define 'ringleader.'",
-                            "responseText": "A *ringleader*, noun: A deviant mastermind, a smut kingpin, a wretched supplier of wrist-wrecking degeneracy. YOU, in other words."  
-                        }, 
-                        {
-                            "optionText": "So what if I AM? What can you even do to me?",
-                            "responseText": "OH, YOU WANNA GET *COCKY*, HUH? YOU THINK YOU CAN JUST ADMIT TO YOUR CRIMES AND WALK AWAY?! WELL, GUESS WHAT?! *I respect the honesty.* But also, you're under vault arrest, you absolute *FILTH LORD*.",
-                            "followUpOptions": [
-                                {
-                                    "optionText": "Fine. I submit.",
-                                    "addWillpowerTokens": -9999,
-                                    "removeAllPlayerItems": true,
-                                    "advanceDayWithStatusMessage": "The Shame Chamber is worse than you ever imagined. 50 days of psychological torment. You stumble out of it a broken husk of a man, pockets empty, soul shattered, your once-proud libido reduced to an atrophied ghost of its former self.",
-                                    "exitLine": true,
-                                    "responseText": "GOOD. ABOUT TIME YOU SAW THE LIGHT. Now hand over every last token, and get ready for a *fun-filled* 50 days in the SHAME CHAMBER."
-                                },
-                                {
-                                    "optionText": "Like hell I am. You’ll have to take me down first!",
-                                    "addWillpowerTokens": -9999,
-                                    "removeAllPlayerItems": true,
-                                    "advanceDayWithStatusMessage": "You fight valiantly, but he fights like an incel demon with a PhD in NoFap hand-to-hand combat techniques. You lost. The Purity Police took your all tokens, items, your dignity, and probably a small piece of your soul.",
-                                    "exitLine": true,
-                                    "responseText": "OH, A REBEL, HUH?! WELL GUESS WHAT, SIN SCUMBAG—YOU’RE ABOUT TO FEEL THE WRATH OF A MAN WHO HASN’T NUTTED IN 15 YEARS! PREPARE FOR HOLY RETRIBUTION!"
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "optionText": "What happens if I *was* smuggling the *fap stash*? Hypothetically.",
-                    "responseText": "OH, YOU WANNA GO *HYPOTHETICAL*, HUH? ALRIGHT, LET’S *ROLEPLAY*. *Let’s say* you were running an underground *wasteland wank market*, supplying desperate vault-dwellers with *premium, pre-war erotica*—*I’m talking TWO-PAGE SPREADS WITH SIDEBOOB, YOU MONSTER.* If that were the case, I’d have to lock you up in the *THE COOMSTER DOME*. AND TRUST ME, NOBODY SURVIVES IN THERE.",
-                    "followUpOptions": [
-                        {
-                            "optionText": "THE COOMSTER DOME?",
-                            "responseText": "It's glass cell inside the vault's 'entertainment hub.' Every resident is allowed and encouraged to rub one out right in front of you like you’re a zoo exhibit. Every so often, a vault dweller walks up and asks if you’d like to join in, before the purity officer slaps you and says 'NO. NEVER.'"  
-                        }
-                    ]
+                  "optionText": "Nem fudendo. Você terá que me derrubar primeiro!",
+                  "addWillpowerTokens": -9999,
+                  "removeAllPlayerItems": true,
+                  "advanceDayWithStatusMessage": "Você luta bravamente, mas ele luta como um demônio incel com um PhD em técnicas de combate corpo a corpo do NoFap. Você perdeu. A Polícia da Pureza levou todos os seus tokens, itens, sua dignidade e provavelmente um pequeno pedaço de sua alma.",
+                  "exitLine": true,
+                  "responseText": "OH, UM REBELDE, HEIN?! BEM, ADIVINHA SÓ, ESCÓRIA DO PECADO — VOCÊ ESTÁ PRESTES A SENTIR A IRA DE UM HOMEM QUE NÃO GOZA HÁ 15 ANOS! PREPARE-SE PARA A RETRIBUIÇÃO DIVINA!"
                 }
-            ]
-        } 
-    ]
-} 
+              ]
+            }
+          ]
+        },
+        {
+          "optionText": "O que acontece se eu *estivesse* contrabandeando o *estoque de punheta*? Hipoteticamente.",
+          "responseText": "OH, QUER FALAR *HIPOTETICAMENTE*, HEIN? TUDO BEM, VAMOS *INTERPRETAR*. *Digamos que* você estivesse administrando um *mercado de punheta clandestino*, fornecendo aos moradores desesperados do refúgio *erotismo premium pré-guerra* — *estou falando de PÁGINAS DUPLAS COM PEITINHO DE LADO, SEU MONSTRO.* Se fosse o caso, eu teria que te trancar no *DOMO DA GOZADA*. E ACREDITE EM MIM, NINGUÉM SOBREVIVE LÁ.",
+          "followUpOptions": [
+            {
+              "optionText": "O DOMO DA GOZADA?",
+              "responseText": "É uma cela de vidro dentro do 'centro de entretenimento' do refúgio. Todo residente é permitido e encorajado a bater uma bem na sua frente como se você fosse uma exibição de zoológico. De vez em quando, um morador do refúgio se aproxima e pergunta se você quer participar, antes que o policial da pureza te dê um tapa e diga 'NÃO. NUNCA.'"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

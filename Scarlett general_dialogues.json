@@ -1,110 +1,110 @@
 {
-    "options": [
+  "options": [
+    {
+      "optionText": "Bela bunda. Se importa de virar para eu combinar um rosto com ela?",
+      "icon": "GUI/quest mark",
+      "changeSprite": "Characters/Scarlett/Scarlett front 2",
+      "responseText": "Fofo. A maioria dos visitantes leva um minuto antes de me lembrar que são uns merdas desesperados. Parabéns pelo novo recorde, otário. A boa notícia é que você está acordado, vivo e ainda não manchou meus lençóis. Mantenha assim.",
+      "followUpOptions": [
         {
-            "optionText": "Nice ass. Mind turning around so I can match a face to it?",
-            "icon": "GUI/quest mark",
-            "changeSprite": "Characters/Scarlett/Scarlett front 2", 
-            "responseText": "Cute. Most visitors take a minute before reminding me they're desperate pieces of shit. Congrats on the new record, jackass. Good news though—you're awake, alive, and haven't stained my sheets yet. Keep it that way.",
-            "followUpOptions": [ 
+          "optionText": "Onde diabos eu estou?",
+          "icon": "GUI/quest mark",
+          "emotion": "Characters/Scarlett/emotions/5",
+          "responseText": "Refúgio 6969. A prisão mais produtiva dos Ermos, onde todo mundo tem tesão e ninguém goza. Nunca. E antes que você pergunte, não, não é uma masmorra de sexo. Muito pelo contrário.",
+          "followUpOptions": [
+            {
+              "optionText": "Então, por que você me arrastou até aqui?",
+              "icon": "GUI/quest mark",
+              "emotion": "Characters/Scarlett/emotions/3",
+              "addObjective": "Talk to the Overseer",
+              "dontDisplayIfHasObjective": "Bring down Mistress Domina",
+              "responseText": "Porque assistir radroaches foderem seu cadáver pareceu moralmente questionável — até para os meus padrões. Além disso, o Supervisor disse algo sobre precisar de um forasteiro para 'um trabalho importante'. Sinceramente, pensei que você fosse uma isca armada por saqueadores até perceber que nem os saqueadores são estúpidos o suficiente para tentar esse truque duas vezes.",
+              "followUpOptions": [
                 {
-                    "optionText": "Where the hell am I?",
-                    "icon": "GUI/quest mark", 
-                    "emotion": "Characters/Scarlett/emotions/5",
-                    "responseText": "Vault 6969. The wasteland's most productive prison where everyone’s horny and nobody gets off. Ever. And before you ask, no, it’s not a sex dungeon. Quite the opposite.",
-                    "followUpOptions": [
-                        {
-                            "optionText": "So, why'd you drag my ass here?",
-                            "icon": "GUI/quest mark",
-                            "emotion": "Characters/Scarlett/emotions/3",
-                            "addObjective": "Talk to the Overseer",
-                            "dontDisplayIfHasObjective": "Bring down Mistress Domina",
-                            "responseText": "Because watching radroaches fuck your corpse felt morally questionable—even by my standards. Plus, the Overseer said something about needing an outsider for ‘an important job.’ Honestly thought you were bait set up by raiders until I realized even raiders aren't stupid enough to try that trick twice.",
-                            "followUpOptions": [
-                                {
-                                    "optionText": "What kind of job?",
-                                    "emotion": "Characters/Scarlett/emotions/5",
-                                    "responseText": "How should I know? Probably involves getting shot, irradiated, or cleaning someone's dried-up fluids off the reactor. Either way, you’d better go see him. The Overseer’s not exactly the patient type."
-                                },
-                                {
-                                    "optionText": "Wait, what happened to me outside?",
-                                    "emotion": "none",
-                                    "responseText": "You were face-down in dirt, passed out like some cheap whore after a jet bender, breathing shallow, and a radroach was sizing up your ass for a snack. Figured you either needed help or were dead—either way, dragging you back here meant my scouting shift was done early.",
-                                    "followUpOptions": [
-                                        {
-                                            "optionText": "Do you know who I am?",
-                                            "responseText": "Not a clue. You didn’t exactly have ID stapled to your forehead. But hey, you’re awake now, so maybe you can fill me in.",
-                                            "followUpOptions": [
-                                                {
-                                                    "optionText": "I can't remember a damn thing. Not even my name.",
-                                                    "emotion": "Characters/Scarlett/emotions/5",
-                                                    "responseText": "Fucking amnesia. Just my luck. Any second now, you’ll tell me you’re the Chosen One or some bullshit. Alright, hero, pick yourself a cool name and pretend you're somebody important. No one here gives a shit anyway.",
-                                                    "followUpOptions": [
-                                                        {
-                                                            "optionText": "What if I'm a wasteland warlord?",
-                                                            "emotion": "Characters/Scarlett/emotions/3",
-                                                            "responseText": "Oh no, a mighty warlord! I’m quaking in my boots. Right. If you're a warlord, then I'm the Overseer’s dominatrix. No. You’re just another schmuck who got face-planted by the wasteland. Relax."
-                                                        }, 
-                                                        {
-                                                            "optionText": "Maybe I'm a pre-war billionaire?",
-                                                            "emotion": "Characters/Scarlett/emotions/6",
-                                                            "responseText": "Yeah, right. And I'm a pre-war pornstar. Dream big, hotshot."
-                                                        } 
-                                                    ]
-                                                } 
-                                            ]
-                                        },
-                                        {
-                                            "optionText": "Do you know why I was passed out?",
-                                            "emotion": "Characters/Scarlett/emotions/6",
-                                            "responseText": "Beats me. Could’ve been radiation, booze, chems, boredom—I don't fucking know. If you're looking for answers, try asking your own shitty brain."
-                                        },
-                                        {
-                                            "optionText": "Nobody asked you to save me, you know.",
-                                            "emotion": "Characters/Scarlett/emotions/5",
-                                            "responseText": "Oh, my bad. Next time I'll let the radroaches use your face as a breeding ground. Gratitude noted."
-                                        }
-                                    ]
-                                },
-                                {
-                                    "optionText": "Any rules I should know about before I fuck something up?",
-                                    "emotion": "Characters/Scarlett/emotions/4",
-                                    "responseText": "Yeah. Don't fuck, don't jerk off, don't try to get laid, and especially don't talk about getting laid. Break any of these rules, and you'll end up like Gary—dead and decomposing."
-                                } 
-                            ]
-                        }
-                    ]
+                  "optionText": "Que tipo de trabalho?",
+                  "emotion": "Characters/Scarlett/emotions/5",
+                  "responseText": "Como eu deveria saber? Provavelmente envolve levar um tiro, ser irradiado ou limpar os fluidos secos de alguém do reator. De qualquer forma, é melhor você ir vê-lo. O Supervisor не é exatamente do tipo paciente."
                 },
                 {
-                    "optionText": "Who are you?",
-                    "emotion": "none",
-                    "responseText": "Scarlett. Vault scout, professional wasteland ass-kicker, and apparently the woman responsible for hauling your sorry unconscious ass around today. Try not to make me regret it.",
-                    "followUpOptions": [
+                  "optionText": "Espera, o que aconteceu comigo lá fora?",
+                  "emotion": "none",
+                  "responseText": "Você estava de cara na terra, desmaiado como uma puta barata depois de uma maratona de jet, respirando superficialmente, e uma radroach estava medindo sua bunda para um lanche. Pensei que você precisava de ajuda ou estava morto — de qualquer forma, te arrastar para cá significava que meu turno de patrulha terminaria mais cedo.",
+                  "followUpOptions": [
+                    {
+                      "optionText": "Você sabe quem eu sou?",
+                      "responseText": "Nenhuma ideia. Você não tinha exatamente uma identidade grampeada na testa. Mas ei, você está acordado agora, então talvez possa me contar.",
+                      "followUpOptions": [
                         {
-                            "optionText": "So, how’d you end up in this depressing hellhole?",
-                            "emotion": "Characters/Scarlett/emotions/2",
-                            "responseText": "Born here. Grew up sexually frustrated, pissed off, and too damn stubborn to die. Now I scout the wastes looking for something less shitty. Haven’t found it yet, obviously."
+                          "optionText": "Não consigo me lembrar de porra nenhuma. Nem meu nome.",
+                          "emotion": "Characters/Scarlett/emotions/5",
+                          "responseText": "Amnésia do caralho. Que sorte a minha. A qualquer segundo, você vai me dizer que é o Escolhido ou alguma merda assim. Certo, herói, escolha um nome legal e finja que é alguém importante. Ninguém aqui dá a mínima de qualquer maneira.",
+                          "followUpOptions": [
+                            {
+                              "optionText": "E se eu for um senhor da guerra dos Ermos?",
+                              "emotion": "Characters/Scarlett/emotions/3",
+                              "responseText": "Oh não, um poderoso senhor da guerra! Estou tremendo nas bases. Certo. Se você é um senhor da guerra, então eu sou a dominatrix do Supervisor. Não. Você é só mais um otário que levou uma surra dos Ermos. Relaxa."
+                            },
+                            {
+                              "optionText": "Talvez eu seja um bilionário pré-guerra?",
+                              "emotion": "Characters/Scarlett/emotions/6",
+                              "responseText": "Sim, claro. E eu sou uma estrela pornô pré-guerra. Sonhe alto, bonitão."
+                            }
+                          ]
                         }
-                    ]
+                      ]
+                    },
+                    {
+                      "optionText": "Você sabe por que eu estava desmaiado?",
+                      "emotion": "Characters/Scarlett/emotions/6",
+                      "responseText": "Sei lá. Podia ser radiação, bebida, drogas, tédio — eu não sei, porra. Se está procurando respostas, tente perguntar ao seu próprio cérebro de merda."
+                    },
+                    {
+                      "optionText": "Ninguém te pediu para me salvar, sabe.",
+                      "emotion": "Characters/Scarlett/emotions/5",
+                      "responseText": "Ah, foi mal. Da próxima vez, deixo as radroaches usarem seu rosto como criadouro. Gratidão anotada."
+                    }
+                  ]
                 },
                 {
-                    "optionText": "This room smells like cum-stained socks. Why?",
-                    "emotion": "Characters/Scarlett/emotions/3",
-                    "responseText": "That'd be Gary. Previous occupant. Poor bastard jerked himself into madness—claimed the walls whispering to him. Now he's fertilizing carrots in the hydroponics lab. Circle of life, you know.",
-                    "followUpOptions": [
-                        {
-                            "optionText": "Who is Gary?",
-                            "emotion": "Characters/Scarlett/emotions/5",
-                            "responseText": "Vault engineer gone crazy from sexual repression. Kept muttering about walls seducing him. Eventually tried to fuck a power conduit. He fried his dick—and the rest of him too."
-                        },
-                        {
-                            "optionText": "You couldn't clean this place up first?",
-                            "emotion": "Characters/Scarlett/emotions/3",
-                            "responseText": "Not my job, princess. You want cleanliness, grab a mop and start scrubbing."
-                        }
-                    ]
-                } 
-            ]
+                  "optionText": "Alguma regra que eu deva saber antes de foder tudo?",
+                  "emotion": "Characters/Scarlett/emotions/4",
+                  "responseText": "Sim. Não foda, не bata uma, não tente transar, e especialmente não fale sobre transar. Quebre qualquer uma dessas regras, e você acabará como o Gary — morto e em decomposição."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "optionText": "Quem é você?",
+          "emotion": "none",
+          "responseText": "Scarlett. Batedora do refúgio, chutadora de bundas profissional dos Ermos, e aparentemente a mulher responsável por carregar sua bunda inconsciente por aí hoje. Tente não me fazer arrepender.",
+          "followUpOptions": [
+            {
+              "optionText": "Então, como você acabou neste buraco infernal deprimente?",
+              "emotion": "Characters/Scarlett/emotions/2",
+              "responseText": "Nasci aqui. Cresci sexualmente frustrada, puta da vida e teimosa demais para morrer. Agora eu exploro os Ermos procurando por algo menos merda. Não encontrei ainda, obviamente."
+            }
+          ]
+        },
+        {
+          "optionText": "Este quarto cheira a meias manchadas de porra. Por quê?",
+          "emotion": "Characters/Scarlett/emotions/3",
+          "responseText": "Isso seria o Gary. Ocupante anterior. Pobre coitado se masturbou até a loucura — afirmava que as paredes sussurravam para ele. Agora ele está fertilizando cenouras no laboratório de hidroponia. Círculo da vida, sabe.",
+          "followUpOptions": [
+            {
+              "optionText": "Quem é Gary?",
+              "emotion": "Characters/Scarlett/emotions/5",
+              "responseText": "Engenheiro do refúgio que enlouqueceu de repressão sexual. Ficava resmungando sobre as paredes o seduzindo. No fim, tentou foder um conduíte de energia. Ele fritou o pau — e o resto dele também."
+            },
+            {
+              "optionText": "Você não podia limpar este lugar antes?",
+              "emotion": "Characters/Scarlett/emotions/3",
+              "responseText": "Não é meu trabalho, princesa. Se quer limpeza, pegue um esfregão e comece a esfregar."
+            }
+          ]
         }
-    ],
-    "reset_to_default_sprite_after_closure": true
+      ]
+    }
+  ],
+  "reset_to_default_sprite_after_closure": true
 }

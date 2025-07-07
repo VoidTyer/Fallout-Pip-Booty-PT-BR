@@ -1,78 +1,76 @@
 {
-    "options": [
+  "options": [
+    {
+      "optionText": "Aqui, pegue isso. Espero que o Sammy melhore logo.",
+      "giveItem": "Purified water",
+      "icon": "GUI/quest mark",
+      "itemRequired": "Purified water",
+      "onlyDisplayIfHasObjective": "Find Purified Water for Sammy",
+      "progressionEventPlayed": "gave_clean_water_sammy",
+      "markObjectiveComplete": "Find Purified Water for Sammy",
+      "responseText": "Você é um salva-vidas — literalmente. O Sammy te deve uma grande. Obrigada.",
+      "relationshipPoints": 10,
+      "exitLine": true
+    },
+    {
+      "optionText": "Bom ver que você ainda está inteira.",
+      "responseText": "Sim, graças a você. Os saqueadores pegaram suas tampinhas, nos deixaram em paz. Aqui, um pouco de comida como um pequeno agradecimento.",
+      "giveItem": "Homemade Stew",
+      "dontShowIfProgressionEventPlayed": "received_thank_you_food",
+      "progressionEventPlayed": "received_thank_you_food",
+      "followUpOptions": [
         {
-            "optionText": "Here, take this. Hope Sammy feels better soon.",
-            "giveItem": "Purified water", 
-            "icon": "GUI/quest mark",
-            "itemRequired": "Purified water",
-            "onlyDisplayIfHasObjective": "Find Purified Water for Sammy",
-            "progressionEventPlayed": "gave_clean_water_sammy",
-            "markObjectiveComplete": "Find Purified Water for Sammy",
-            "responseText": "You're a lifesaver—literally. Sammy owes you big time. Thank you.",
-            "relationshipPoints": 10,
-            "exitLine": true
+          "optionText": "Agradeço. O cheiro está bom.",
+          "exitLine": true,
+          "responseText": "Não espere milagres, mas vai te manter de pé. Sério, te devemos mais do que isso."
         },
         {
-            "optionText": "Good to see you're still in one piece.",
-            "responseText": "Yeah, thanks to you. Raiders got their caps, left us alone. Here, some food as a small thank you.",
-            "giveItem": "Homemade Stew",
-            "dontShowIfProgressionEventPlayed": "received_thank_you_food",
-            "progressionEventPlayed": "received_thank_you_food",
-            "followUpOptions": [
-                {
-                    "optionText": "Appreciate it. Smells good.",
-                    "exitLine": true,
-                    "responseText": "Don't expect miracles, but it'll keep you standing. Seriously though, we owe you more than that."
-                },
-                {
-                    "optionText": "Hope your cooking skills are good.",
-                    "exitLine": true,
-                    "responseText": "Charming as ever, huh? Just eat the stew and shut up."
-                } 
-            ]
-        },
-        {
-            "optionText": "Raiders still giving you trouble?",
-            "responseText": "Thankfully, no. After they got their caps, seems they moved onto other targets. For now, anyway. Won't last forever, but it's breathing room."
-        },
-        {
-            "optionText": "How's the old man and the kid holding up?",
-            "responseText": "Gramps finally got some sleep, and Sammy even smiled yesterday. Been a while since we saw that. Guess kindness isn't completely extinct out here."
-        },
-        {
-            "optionText": "Need anything else?",
-            "icon": "GUI/quest mark",
-            "dontShowIfProgressionEventPlayed": "gave_clean_water_sammy",
-            "dontDisplayIfHasObjective": "Find Purified Water for Sammy",
-            "responseText": "You've done plenty already. But... Sammy's got a small wound. If you come across clean water, it could help treat it.",
-            "followUpOptions": [
-                {
-                    "optionText": "Here, take this. Hope Sammy feels better soon.",
-                    "giveItem": "Purified water", 
-                    "itemRequired": "Purified water", 
-                    "exitLine": true,
-                    "progressionEventPlayed": "gave_clean_water_sammy",
-                    "responseText": "You're a lifesaver—literally. Sammy owes you big time. Thank you.",
-                    "relationshipPoints": 10 
-                },
-                {
-                    "optionText": "I'll keep an eye out. Hang tight.",
-                    "icon": "GUI/quest mark",
-                    "addObjective": "Find Purified Water for Sammy",
-                    "exitLine": true,
-                    "dontDisplayIfHasObjective": "Find Purified Water for Sammy",
-                    "responseText": "Thanks. It's good knowing we've got someone looking out for us."
-                }
-            ]
-        },
-        {
-            "optionText": "Just passing by. Take care.",
-            "responseText": "You too. Watch your back out there—world could use more folks like you.",
-            "exitLine": true
+          "optionText": "Espero que suas habilidades culinárias sejam boas.",
+          "exitLine": true,
+          "responseText": "Encantador como sempre, hein? Apenas coma o ensopado e cale a boca."
         }
-    ],
-    "auto_lines": [
-        "Well, look who it is. Glad you're still kickin'."
-    ],
-    "showShadowFigures": "Wastelanders"
-} 
+      ]
+    },
+    {
+      "optionText": "Os saqueadores ainda estão te dando problemas?",
+      "responseText": "Felizmente, não. Depois que pegaram suas tampinhas, parece que passaram para outros alvos. Por enquanto, pelo menos. Não vai durar para sempre, mas é um respiro."
+    },
+    {
+      "optionText": "Como estão o velho e o garoto?",
+      "responseText": "O vovô finalmente conseguiu dormir um pouco, e o Sammy até sorriu ontem. Fazia tempo que não víamos isso. Acho que a bondade não está completamente extinta por aqui."
+    },
+    {
+      "optionText": "Precisa de mais alguma coisa?",
+      "icon": "GUI/quest mark",
+      "dontShowIfProgressionEventPlayed": "gave_clean_water_sammy",
+      "dontDisplayIfHasObjective": "Find Purified Water for Sammy",
+      "responseText": "Você já fez muito. Mas... o Sammy tem um pequeno ferimento. Se encontrar água limpa, poderia ajudar a tratá-lo.",
+      "followUpOptions": [
+        {
+          "optionText": "Aqui, pegue isso. Espero que o Sammy melhore logo.",
+          "giveItem": "Purified water",
+          "itemRequired": "Purified water",
+          "exitLine": true,
+          "progressionEventPlayed": "gave_clean_water_sammy",
+          "responseText": "Você é um salva-vidas — literalmente. O Sammy te deve uma grande. Obrigada.",
+          "relationshipPoints": 10
+        },
+        {
+          "optionText": "Vou ficar de olho. Aguente firme.",
+          "icon": "GUI/quest mark",
+          "addObjective": "Find Purified Water for Sammy",
+          "exitLine": true,
+          "dontDisplayIfHasObjective": "Find Purified Water for Sammy",
+          "responseText": "Obrigada. É bom saber que temos alguém cuidando de nós."
+        }
+      ]
+    },
+    {
+      "optionText": "Só de passagem. Se cuida.",
+      "responseText": "Você também. Cuidado por aí — o mundo poderia usar mais gente como você.",
+      "exitLine": true
+    }
+  ],
+  "auto_lines": ["Bem, olha quem é. Fico feliz que ainda esteja vivo."],
+  "showShadowFigures": "Wastelanders"
+}

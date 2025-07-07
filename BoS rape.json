@@ -1,84 +1,85 @@
 {
-    "options": [
+  "options": [
+    {
+      "optionText": "O que está acontecendo aqui? Pensei que a Irmandade estivesse acima dessa merda de saqueador.",
+      "progressionEventPlayed": "foundFarmersWife",
+      "responseText": "Cuidado com esse tom, andarilho. Estamos ensinando lealdade a um fazendeiro local que achou que podia negar suprimentos para a Irmandade. A esposa dele se voluntariou como tributo—após alguma persuasão. Agora ela está aprendendo exatamente como é a autoridade da Irmandade.",
+      "followUpOptions": [
         {
-            "optionText": "What's going on here? Thought the Brotherhood was above raider shit.",
-            "progressionEventPlayed": "foundFarmersWife",
-            "responseText": "Careful with that tone, wastelander. We're teaching loyalty to a local farmer who thought he could deny supplies to the Brotherhood. His wife volunteered herself as tribute—after some persuasion. Now she's learning exactly what Brotherhood authority feels like.",
-            "followUpOptions": [ 
+          "optionText": "Parece que seu 'treinamento' a quebrou direitinho.",
+          "responseText": "Duas semanas em rotação com o esquadrão inteiro, e ela já está implorando por mais pau do que comida. Ela pode ter odiado no começo, mas agora ela geme como uma vadia da Irmandade toda vez que passamos por perto. Em breve, ela vai implorar para nunca a deixarmos ir.",
+          "followUpOptions": [
+            {
+              "optionText": "O que acontece quando terminarem com ela?",
+              "responseText": "Quando ela estiver completamente viciada em pau da Irmandade e devidamente inseminada, vamos mandá-la rastejando de volta para o marido, pingando nossa porra como um lembrete. Ou talvez a gente a mantenha aqui—todo posto avançado precisa de um depósito de porra dedicado."
+            },
+            {
+              "optionText": "Qualquer um pode dar uma vez, ou isso é exclusivo da Irmandade?",
+              "responseText": "Normalmente, é buceta só da Irmandade—mas se você estiver desesperado o suficiente, pode assistir. Talvez se estivermos nos sentindo generosos, deixaremos você bater uma ao som da autoridade da Irmandade batendo contra a buceta de fazendeira."
+            },
+            {
+              "optionText": "Que porra é essa que ela está vestindo?",
+              "responseText": "Heh, notou, hein? Nós a vestimos com equipamento de cavaleiro depenado—peitos nus saindo por uma armadura de reconhecimento aberta. A coleira no pescoço dela diz 'Depósito de Porra', só para ela não esquecer para que serve.",
+              "followUpOptions": [
                 {
-                    "optionText": "Looks like your 'training' broke her pretty good.",
-                    "responseText": "Two weeks on rotation with the whole squad, and she's already begging for more cock than food. She might’ve hated it at first, but now she moans like a Brotherhood slut every time we walk by. Soon, she'll beg us never to let her leave.",
-                    "followUpOptions": [
-                        {
-                            "optionText": "What happens when you're done with her?",
-                            "responseText": "When she's completely addicted to Brotherhood cock and properly seeded, we'll send her crawling back to her husband dripping with our cum as a reminder. Or maybe we'll keep her here—every outpost needs a dedicated cumdump."
-                        } ,
-                        {
-                            "optionText": "Can anyone take a turn, or is this Brotherhood-exclusive?",
-                            "responseText": "Usually Brotherhood-only pussy—but if you're desperate enough, you can watch. Maybe if we're feeling generous we'll let you jerk off to the sound of Brotherhood authority slapping against farmer cunt."
-                        },
-                        {
-                            "optionText": "What the hell is she even wearing?",
-                            "responseText": "Heh, noticed that, huh? We put her in stripped-down knight gear—bare tits poking through hacked-open recon suit. Collar around her neck says 'Cumdump', just in case she forgets what she's good for.",
-                            "followUpOptions": [
-                                {
-                                    "optionText": "So you turned your gear into slut gear?",
-                                    "responseText": "Armor's for warriors; slut gear is for Brotherhood pets. It helps remind her exactly who she belongs to—plus, easy access whenever the squad needs relief."
-                                } 
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "optionText": "Is breaking women a common Brotherhood practice now?",
-                    "responseText": "Only when peasants forget their place. Brotherhood's got needs—food, ammo, pussy. The locals either provide willingly or watch us turn their wives and daughters into Brotherhood fucktoys. Principles are flexible out here. If spreading our dominance means breaking a few sluts along the way, so be it. Better a cum-filled bitch than a rebellious farmer."
-                },
-                {
-                    "optionText": "The family's waiting for her to come home.",
-                    "onlyDisplayIfHasObjective": "Bring the Farmer's Wife back",
-                    "icon": "GUI/quest mark",
-                    "exitLine": true,
-                    "dontShowIfProgressionEventPlayed": "gotFarmersWife",
-                    "responseText": "Then they're fools. The woman that left ain’t the one who’s standin’ here now. She’s Brotherhood property. Even if we let her walk, she wouldn’t know where home is anymore."
-                },
-                {
-                    "optionText": "Do you know of that loudmouth preacher? He’s worm food now. I’m thinkin’ you owe me for that. How about letting her go?",
-                    "onlyDisplayIfHasObjective": "Bring the Farmer's Wife back",
-                    "onlyDisplayIfObjectiveComplete": "Eliminate the Brotherhood outcast.",
-                    "icon": "GUI/quest mark",
-                    "fadeOutCharacter": true,
-                    "killCharacter": true,
-                    "dontShowIfProgressionEventPlayed": "gotFarmersWife",
-                    "progressionEventPlayed": "gotFarmersWife",
-                    "addFollower": "Mira",
-                    "exitLine": true,
-                    "responseText": "Heh… That degenerate was a stain on our ranks. Can’t say we miss his little ‘philosophy.’ Not Brotherhood business, of course… but you did us a service. Fine. Take the woman. Just know she ain’t who you remember—and don’t come crying when she forgets how to live outside a command chain."
-                },
-                {
-                    "optionText": "I’ll trade you this rifle for her.",
-                    "onlyDisplayIfHasObjective": "Bring the Farmer's Wife back",
-                    "itemRequired": "Laser Rifle Mk IV",
-                    "hideOptionIfReqCheckFailed": true,
-                    "icon": "GUI/quest mark",
-                    "fadeOutCharacter": true,
-                    "killCharacter": true,
-                    "dontShowIfProgressionEventPlayed": "gotFarmersWife",
-                    "progressionEventPlayed": "gotFarmersWife",
-                    "addFollower": "Mira",
-                    "exitLine": true,
-                    "responseText": "Now *that’s* an offer worth considering. Brotherhood's stock always needs new toys… and she’s just a hole with tits. Fine. Take her—rifle first. But don’t think she’ll ever stop craving Brotherhood cock."
-                }, 
-                {
-                    "optionText": "You're Brotherhood knights, not raiders. Have some fucking dignity.",
-                    "responseText": "Dignity? We had dignity once—got boring quick. Now we prefer obedience. Don't pretend you wouldn't do the same, outsider. Power armor or not, pussy feels even better when it cries 'Ad Victoriam'."
+                  "optionText": "Então vocês transformaram seu equipamento em roupa de vadia?",
+                  "responseText": "Armadura é para guerreiros; roupa de vadia é para os bichinhos da Irmandade. Ajuda a lembrá-la exatamente a quem ela pertence—além disso, é fácil acesso sempre que o esquadrão precisa de alívio."
                 }
-                
-            ]
-        } 
-    ],
-    "showShadowFigures": "BoS random",
-    "auto_lines": [ "F-fuck... my husband never filled me like th-this... M-more, please... I—fuck—need... uhhhnn... Brotherhood cock... can't... breathe without... dicks inside me...",
-                    "D-daddy Paladin... please, fucking ruin... uhh—this worthless cunt... g-god, fill me... breed my slutty fucking womb...",
-                    "P-please... sir... n-no more waiting... cum inside me again... I'll be a good hole... I swear... uhh, fuck—just use me...",
-                    "I-I’m... fuck—I'm Brotherhood's fuckpet... c-can't think anymore... just fill me, fuck me, breed me... m-more cock, please... I'm addicted... fuuuck..."]
-} 
+              ]
+            }
+          ]
+        },
+        {
+          "optionText": "Quebrar mulheres é uma prática comum da Irmandade agora?",
+          "responseText": "Apenas quando os camponeses esquecem seu lugar. A Irmandade tem necessidades—comida, munição, buceta. Os locais fornecem de bom grado ou assistem a gente transformar suas esposas e filhas em brinquedos sexuais da Irmandade. Princípios são flexíveis por aqui. Se espalhar nosso domínio significa quebrar algumas vadias pelo caminho, que seja. Melhor uma puta cheia de porra do que um fazendeiro rebelde."
+        },
+        {
+          "optionText": "A família está esperando que ela volte para casa.",
+          "onlyDisplayIfHasObjective": "Bring the Farmer's Wife back",
+          "icon": "GUI/quest mark",
+          "exitLine": true,
+          "dontShowIfProgressionEventPlayed": "gotFarmersWife",
+          "responseText": "Então eles são tolos. A mulher que saiu não é a mesma que está aqui agora. Ela é propriedade da Irmandade. Mesmo que a deixássemos ir, ela não saberia mais onde fica sua casa."
+        },
+        {
+          "optionText": "Você sabe daquele pregador falastrão? Ele virou comida de verme agora. Acho que você me deve uma por isso. Que tal deixá-la ir?",
+          "onlyDisplayIfHasObjective": "Bring the Farmer's Wife back",
+          "onlyDisplayIfObjectiveComplete": "Eliminate the Brotherhood outcast.",
+          "icon": "GUI/quest mark",
+          "fadeOutCharacter": true,
+          "killCharacter": true,
+          "dontShowIfProgressionEventPlayed": "gotFarmersWife",
+          "progressionEventPlayed": "gotFarmersWife",
+          "addFollower": "Mira",
+          "exitLine": true,
+          "responseText": "Heh… Aquele degenerado era uma mancha em nossas fileiras. Não posso dizer que sentimos falta de sua pequena 'filosofia'. Não é assunto da Irmandade, claro… mas você nos fez um favor. Certo. Leve a mulher. Só saiba que ela não é quem você lembra—e não venha chorando quando ela esquecer como viver fora de uma cadeia de comando."
+        },
+        {
+          "optionText": "Eu troco este rifle por ela.",
+          "onlyDisplayIfHasObjective": "Bring the Farmer's Wife back",
+          "itemRequired": "Laser Rifle Mk IV",
+          "hideOptionIfReqCheckFailed": true,
+          "icon": "GUI/quest mark",
+          "fadeOutCharacter": true,
+          "killCharacter": true,
+          "dontShowIfProgressionEventPlayed": "gotFarmersWife",
+          "progressionEventPlayed": "gotFarmersWife",
+          "addFollower": "Mira",
+          "exitLine": true,
+          "responseText": "Agora *essa é* uma oferta que vale a pena considerar. O estoque da Irmandade sempre precisa de brinquedos novos… e ela é apenas um buraco com peitos. Certo. Leve-a—o rifle primeiro. Mas não pense que ela vai parar de desejar o pau da Irmandade."
+        },
+        {
+          "optionText": "Vocês são cavaleiros da Irmandade, não saqueadores. Tenham um pingo de dignidade.",
+          "responseText": "Dignidade? Tivemos dignidade uma vez—ficou chato rápido. Agora preferimos obediência. Não finja que não faria o mesmo, forasteiro. Com ou sem armadura potente, a buceta fica ainda melhor quando chora 'Ad Victoriam'."
+        }
+      ]
+    }
+  ],
+  "showShadowFigures": "BoS random",
+  "auto_lines": [
+    "F-foda-se... meu marido nunca me preencheu assim... M-mais, por favor... Eu—porra—preciso... uhhhnn... de pau da Irmandade... não consigo... respirar sem... paus dentro de mim...",
+    "P-papai Paladino... por favor, arruíne... uhh—essa puta inútil... d-deus, me encha... engravide meu útero de vadia...",
+    "P-por favor... senhor... n-não espere mais... goze dentro de mim de novo... serei um bom buraco... eu juro... uhh, porra—apenas me use...",
+    "E-eu sou... porra—sou o bichinho de foda da Irmandade... n-não consigo mais pensar... apenas me encha, me foda, me engravide... m-mais pau, por favor... estou viciada... fooooda-se..."
+  ]
+}

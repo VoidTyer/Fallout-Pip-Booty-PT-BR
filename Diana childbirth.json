@@ -1,76 +1,78 @@
 {
   "options": [
     {
-      "optionText": "Diana? What's wrong?",
-      "responseText": "It's happening—fuck, the baby’s coming now. God, it hurts, but… I want you to see everything as it happens. I want you with me.",
-      "followUpOptions": [ 
+      "optionText": "Diana? O que foi?",
+      "responseText": "Está acontecendo—porra, o bebê está vindo agora. Deus, dói, mas… eu quero que você veja tudo enquanto acontece. Eu quero você comigo.",
+      "followUpOptions": [
+        {
+          "optionText": "Abra as pernas, amor. Estou com você.",
+          "responseText": "Deus, sim… ver seus olhos na minha buceta assim, toda aberta, está me deixando molhada mesmo agora.",
+          "changeSprite": "Characters/Diana/pregnant/IPAdapter_04311_(1)(1)",
+          "changeSpriteColor": "#FFFFFF",
+          "newSpriteXPos": 0,
+          "newSpriteYPos": -0.45,
+          "hEventName": "diana_giving_birth",
+          "followUpOptions": [
             {
-              "optionText": "Spread your legs, baby. I've got you.",
-              "responseText": "God, yes… seeing your eyes on my pussy like this, stretched open, it’s making me wet even now.",
-              "changeSprite": "Characters/Diana/pregnant/IPAdapter_04311_(1)(1)",
-              "changeSpriteColor": "#FFFFFF",
-              "newSpriteXPos": 0,
-              "newSpriteYPos": -0.45,
-              "hEventName": "diana_giving_birth"
-              ,"followUpOptions": [
+              "optionText": "Você está linda. Continue fazendo força, amor.",
+              "responseText": "Porra, sua voz, suas mãos… Está fazendo isso quase parecer bom. Ahh… merda, continue me tocando.",
+              "followUpOptions": [
                 {
-                  "optionText": "You're gorgeous. Keep pushing, love.",
-                  "responseText": "Fuck, your voice, your hands… It's making this almost feel good. Ahh… shit, keep touching me."
-                  ,"followUpOptions": [
+                  "optionText": "Vou esfregar seu clitóris enquanto você faz força.",
+                  "responseText": "Ahh, porra, sim! Seus dedos bem aí, continue. Deus, está se misturando com a dor tão perfeitamente. É fodidamente avassalador—pressão, prazer, tudo de uma vez. Merda, estou chegando tão perto…",
+                  "followUpOptions": [
                     {
-                      "optionText": "I'm going to rub your clit while you push.",
-                      "responseText": "Ahh fuck, yes! Your fingers right there, keep going. God, it's mixing with the pain so perfectly. It's fucking overwhelming—pressure, pleasure, everything at once. Shit, I'm getting so close…"
-                      ,"followUpOptions": [ 
+                      "optionText": "Faça mais força, amor. Você está quase lá.",
+                      "responseText": "Porra, sua voz me comandando… deus, estou começando a gozar, mesmo com este bebê me abrindo.",
+                      "changeSprite": "Characters/Diana/pregnant/birth1",
+                      "followUpOptions": [
+                        {
+                          "optionText": "É isso. Consigo ver a cabeça—continue gozando. Goze para mim enquanto dá à luz nosso filho.",
+                          "responseText": "Ahh, porra, sim! Está me abrindo, me fazendo gozar ainda mais forte! Porra, continue, por favor! Sim! Oh deus, estou gozando! Porra, porra, seus dedos, sua voz, é tudo demais!",
+                          "followUpOptions": [
                             {
-                              "optionText": "Push harder, baby. You’re almost there.",
-                              "responseText": "Fuck, your voice commanding me… god, I'm starting to cum, even with this baby stretching me open.",
-                              "changeSprite": "Characters/Diana/pregnant/birth1"
-                              ,"followUpOptions": [ 
+                              "optionText": "Quase lá, gata. Mais uma força.",
+                              "responseText": "Porra, estou fazendo força, estou gozando… oh meu deus, é tão intenso pra caralho!",
+                              "changeSprite": "Characters/Diana/pregnant/birth2",
+                              "followUpOptions": [
+                                {
+                                  "optionText": "É isso, Diana! Deixe tudo sair agora!",
+                                  "responseText": "Ahhh, porra, aí vem! Sim, sim! Oh deus, está deslizando para fora, e eu estou explodindo pra caralho…!",
+                                  "specialEffects": ["Flashes"],
+                                  "changeSprite": "Characters/Diana/pregnant/birth3",
+                                  "playSound": "Sounds/baby cry",
+                                  "followUpOptions": [
                                     {
-                                      "optionText": "That's it. I can see the head—keep cumming. Cum for me while you birth our child.",
-                                      "responseText": "Ahh fuck, yes! It's stretching me, making me cum even harder! Fuck, keep going, please! Yes! Oh god, I’m cumming! Fuck, fuck, your fingers, your voice, it’s all too much!"
-                                      ,"followUpOptions": [
-                                        {
-                                          "optionText": "Almost there, babe. One more push.",
-                                          "responseText": "Fuck, I’m pushing, I'm cumming… oh my god, it's so fucking intense!",
-                                          "changeSprite": "Characters/Diana/pregnant/birth2"
-                                          ,"followUpOptions": [
-                                            {
-                                              "optionText": "That's it, Diana! Let it all out now!",
-                                              "responseText": "Ahhh fuck, here it comes! Yes, yes! Oh god, it's sliding out, and I'm fucking exploding…!", 
-                                              "specialEffects": ["Flashes"],
-                                              "changeSprite": "Characters/Diana/pregnant/birth3",
-                                              "playSound": "Sounds/baby cry"
-                                              ,"followUpOptions": [
-                                                {
-                                                  "optionText": "You did amazing, Diana. Our baby's here.",
-                                                  "responseText": "Fuck… fuck… That was insane. God, feeling you there, guiding me, made it incredible."
-                                                },
-                                                {
-                                                  "optionText": "You were unbelievably hot, cumming while giving birth.",
-                                                  "responseText": "God, shut up… you loved watching me cum, didn’t you? Felt your dick twitching the whole time."
-                                                }, 
-                                                {
-                                                  "optionText": "Rest now, gorgeous. You earned it.",
-                                                  "responseText": "Mmm, okay. But keep your hands on me… just a little longer.",
-                                                  "advanceDayWithStatusMessage": "You spent the day holding Diana, feeling her warmth as your newborn slept nearby. By morning, the vault staff had taken the baby to the medbay for checkups."
-                                                }
-                                              ]
-                                            }
-                                          ]
-                                        }
-                                      ]
-                                    } 
+                                      "optionText": "Você foi incrível, Diana. Nosso bebê está aqui.",
+                                      "responseText": "Porra… porra… Isso foi insano. Deus, sentir você lá, me guiando, tornou tudo incrível."
+                                    },
+                                    {
+                                      "optionText": "Você estava incrivelmente gostosa, gozando enquanto dava à luz.",
+                                      "responseText": "Deus, cale a boca… você adorou me ver gozar, não foi? Senti seu pau tremer o tempo todo."
+                                    },
+                                    {
+                                      "optionText": "Descanse agora, linda. Você mereceu.",
+                                      "responseText": "Mmm, ok. Mas mantenha suas mãos em mim… só mais um pouco.",
+                                      "advanceDayWithStatusMessage": "Você passou o dia abraçando Diana, sentindo o calor dela enquanto seu recém-nascido dormia por perto. Pela manhã, a equipe do refúgio levou o bebê para a enfermaria para exames."
+                                    }
+                                  ]
+                                }
                               ]
-                            } 
+                            }
+                          ]
+                        }
                       ]
                     }
                   ]
                 }
               ]
-            } 
+            }
+          ]
+        }
       ]
-    } 
+    }
   ],
-  "auto_lines": ["B-Babe… it’s… it’s time. Fuck, I’m so scared… I don’t think I can do this alone… please… I need you with me…"]
+  "auto_lines": [
+    "A-Amor… está… está na hora. Porra, estou com tanto medo… Não acho que consigo fazer isso sozinha… por favor… Eu preciso de você comigo…"
+  ]
 }

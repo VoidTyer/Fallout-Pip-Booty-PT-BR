@@ -2,61 +2,61 @@
   {
     "original_name": "Dodge",
     "original_description": "Dodge incoming damage by X points.",
-    "translated_name": "",
-    "translated_description": ""
+    "translated_name": "Esquiva",
+    "translated_description": "Esquiva de dano recebido em X pontos."
   },
   {
     "original_name": "Baby Hands Mode",
     "original_description": "Your damage output is reduced by 25%.",
-    "translated_name": "",
-    "translated_description": ""
+    "translated_name": "Modo Mãos de Bebê",
+    "translated_description": "Seu dano causado é reduzido em 25%."
   },
   {
     "original_name": "Psycho",
     "original_description": "You get additional X damage to your attacks.",
-    "translated_name": "",
-    "translated_description": ""
+    "translated_name": "Psycho",
+    "translated_description": "Você causa X de dano adicional em seus ataques."
   },
   {
     "original_name": "Mark",
     "original_description": "The target takes 50% more damage.",
-    "translated_name": "",
-    "translated_description": ""
+    "translated_name": "Marca",
+    "translated_description": "O alvo recebe 50% a mais de dano."
   },
   {
     "original_name": "Double Attack",
     "original_description": "Your next attack deals TWICE damage.",
-    "translated_name": "",
-    "translated_description": ""
+    "translated_name": "Ataque Duplo",
+    "translated_description": "Seu próximo ataque causa o DOBRO de dano."
   },
   {
     "original_name": "Tina fall",
     "original_description": "Tina gets stunned after taking 75 damage.",
-    "translated_name": "",
-    "translated_description": ""
+    "translated_name": "Queda da Tina",
+    "translated_description": "Tina fica atordoada após receber 75 de dano."
   },
   {
     "original_name": "Armor Rot",
     "original_description": "You get 25% less Dodge from cards.",
-    "translated_name": "",
-    "translated_description": ""
+    "translated_name": "Podridão de Armadura",
+    "translated_description": "Você recebe 25% menos Esquiva de cartas."
   },
   {
     "original_name": "Necrotic Fortitude",
     "original_description": "Takes 50% less damage on the next X attacks. Removed when attacked X times in a single turn. Charges are refilled back to X at the start of each turn if not fully removed.",
-    "translated_name": "",
-    "translated_description": ""
+    "translated_name": "Fortitude Necrótica",
+    "translated_description": "Recebe 50% menos dano nos próximos X ataques. Removido ao ser atacado X vezes em um único turno. As cargas são recarregadas para X no início de cada turno se não forem totalmente removidas."
   },
   {
     "original_name": "Radstorm Curse",
     "original_description": "Shuffles a copy of The Glow’s Grip into your draw pile whenever you play a non-attack card.",
-    "translated_name": "",
-    "translated_description": ""
+    "translated_name": "Maldição da Tempestade Radioativa",
+    "translated_description": "Embaralha uma cópia de Aperto do Brilho na sua pilha de compra sempre que você joga uma carta de não-ataque."
   },
   {
     "original_name": "Glowing Sickness",
     "original_description": "Every turn gain X additional damage.",
-    "translated_name": "",
-    "translated_description": ""
+    "translated_name": "Doença Brilhante",
+    "translated_description": "A cada turno, ganhe X de dano adicional."
   }
 ]

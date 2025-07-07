@@ -1,1094 +1,1094 @@
 [
-    {
-        "original": "NEW GAME",
-        "translation": ""
-    },
-    {
-        "original": "LOAD",
-        "translation": ""
-    },
-    {
-        "original": "SAVE",
-        "translation": ""
-    },
-    {
-        "original": "CONTINUE",
-        "translation": ""
-    },
-    {
-        "original": "SETTINGS",
-        "translation": ""
-    },
-    {
-        "original": "CREDITS",
-        "translation": ""
-    },
-    {
-        "original": "SUPPORT",
-        "translation": ""
-    },
-    {
-        "original": "EXIT",
-        "translation": ""
-    },
-    {
-        "original": "Day {0}, {1}",
-        "translation": ""
-    },
-    {
-        "original": "Day {0}",
-        "translation": ""
-    },
-    {
-        "original": "Mon",
-        "translation": ""
-    },
-    {
-        "original": "Tue",
-        "translation": ""
-    },
-    {
-        "original": "Wed",
-        "translation": ""
-    },
-    {
-        "original": "Thu",
-        "translation": ""
-    },
-    {
-        "original": "Fri",
-        "translation": ""
-    },
-    {
-        "original": "Sat",
-        "translation": ""
-    },
-    {
-        "original": "Sun",
-        "translation": ""
-    },
-    {
-        "original": "Desire: {0}/100",
-        "translation": ""
-    },
-    {
-        "original": "Relationship Points: {0}",
-        "translation": ""
-    },
-    {
-        "original": "End Day",
-        "translation": ""
-    }, 
-    {
-        "original": "Inventory",
-        "translation": ""
-    },
-    {
-        "original": "Help",
-        "translation": ""
-    },
-    {
-        "original": "Pip-Boy",
-        "translation": ""
-    },
-    {
-        "original": "Vault",
-        "translation": ""
-    },
-    {
-        "original": "Sleep",
-        "translation": ""
-    },
-    {
-        "original": "Play",
-        "translation": ""
-    },
-    {
-        "original": "Turn On",
-        "translation": ""
-    },
-    {
-        "original": "Next",
-        "translation": ""
-    },
-    {
-        "original": "Work at Diner",
-        "translation": ""
-    },
-    {
-        "original": "Work at Grow Room",
-        "translation": ""
-    },
-    {
-        "original": "Plant Seeds",
-        "translation": ""
-    },
-    {
-        "original": "Loot",
-        "translation": ""
-    },
-    {
-        "original": "Harvest",
-        "translation": ""
-    },
-    {
-        "original": "Water Veggies",
-        "translation": ""
-    },
-    {
-        "original": "Open Terminal",
-        "translation": ""
-    },
-    {
-        "original": "Exit",
-        "translation": ""
-    },
-    {
-        "original": "Enter",
-        "translation": ""
-    },
-    {
-        "original": "Go Upstairs",
-        "translation": ""
-    },
-    {
-        "original": "Travel Onwards",
-        "translation": ""
-    },
-    {
-        "original": "Shower",
-        "translation": ""
-    },
-    {
-        "original": "Fap",
-        "translation": ""
-    },
-    {
-        "original": "Fish",
-        "translation": ""
-    },
-    {
-        "original": "Quests ({0}):",
-        "translation": ""
-    },
-    {
-        "original": "<b>QUESTS</b>",
-        "translation": ""
-    },
-    {
-        "original": "<b>STATS</b>",
-        "translation": ""
-    },
-    {
-        "original": "Game completion:",
-        "translation": ""
-    },
-    {
-        "original": "Quests:",
-        "translation": ""
-    },
-    {
-        "original": "Achievements:",
-        "translation": ""
-    },
-    {
-        "original": "H-scenes:",
-        "translation": ""
-    },
-    {
-        "original": "Diana:",
-        "translation": ""
-    },
-    {
-        "original": "Gina:",
-        "translation": ""
-    },
-    {
-        "original": "Overseer's daughter:",
-        "translation": ""
-    },
-    {
-        "original": "Num of times had sex:",
-        "translation": ""
-    },
-    {
-        "original": "Bodycount:",
-        "translation": ""
-    },
-    {
-        "original": "Favorite Hole:",
-        "translation": ""
-    },
-    {
-        "original": "Children:",
-        "translation": ""
-    },
-    {
-        "original": "Wanks:",
-        "translation": ""
-    },
-    {
-        "original": "Longest abstinence:",
-        "translation": ""
-    },
-    {
-        "original": "Enemies killed:",
-        "translation": ""
-    },
-    {
-        "original": "Gifts given:",
-        "translation": ""
-    },
-    {
-        "original": "W Tokens earned:",
-        "translation": ""
-    },
-    {
-        "original": "Caps collected:",
-        "translation": ""
-    },
-    {
-        "original": "Not all quests are completable in a single playthrough!",
-        "translation": ""
-    },
-    {
-        "original": "Bonk pervs\n<size=20><color=grey>Help Purity Police keep the vault in check</color>",
-        "translation": ""
-    },
-    {
-        "original": "Produce Adult Movies\n<size=20><color=grey>Turn the vault into a porn studio!</color>",
-        "translation": ""
-    },
-    {
-        "original": "Work around the vault\n<size=20>(+<color=green>W tokens</color>)",
-        "translation": ""
-    },
-    {
-        "original": "Spread fap material\n<size=20>(<color=green>+W tokens</color>, <color=#d1234e>+Vault Tension</color>,\n<color=grey>5 mags left</color>)",
-        "translation": ""
-    },
-    {
-        "original": "Exit the vault",
-        "translation": ""
-    },
-    {
-        "original": "Lounge",
-        "translation": ""
-    },
-    {
-        "original": "Showers",
-        "translation": ""
-    },
-    {
-        "original": "Diner",
-        "translation": ""
-    },
-    {
-        "original": "Grow Room",
-        "translation": ""
-    },
-    {
-        "original": "Diana's Room",
-        "translation": ""
-    },
-    {
-        "original": "Grace's Room",
-        "translation": ""
-    },
-    {
-        "original": "My Room",
-        "translation": ""
-    },
-    {
-        "original": "Shame Chamber",
-        "translation": ""
-    },
-    {
-        "original": "Vault Tension ({0})",
-        "translation": ""
-    },
-    {
-        "original": "Boner Repression Trials start in <color=white>{0} days</color>!",
-        "translation": ""
-    },
-    {
-        "original": "Close <color=#5A5A5A>[RMB]",
-        "translation": ""
-    },
-    {
-        "original": "Close <color=#5A5A5A><size=24>[RMB]",
-        "translation": ""
-    },
-    {
-        "original": "Save",
-        "translation": ""
-    },
-    {
-        "original": "Load",
-        "translation": ""
-    },
-    {
-        "original": "Low",
-        "translation": ""
-    },
-    {
-        "original": "Moderate",
-        "translation": ""
-    },
-    {
-        "original": "High",
-        "translation": ""
-    },
-    {
-        "original": "W",
-        "translation": ""
-    },
-    {
-        "original": "C",
-        "translation": ""
-    },
-    {
-        "original": "Willpower Tokens",
-        "translation": ""
-    },
-    {
-        "original": "Bottle Caps",
-        "translation": ""
-    },
-    {
-        "original": "Buy <size=40>({0}{1})",
-        "translation": ""
-    },
-    {
-        "original": "Gift",
-        "translation": ""
-    },
-    {
-        "original": "Bubbleheads",
-        "translation": ""
-    },
-    {
-        "original": "Turn Me On <color=grey><size=22>Every 3 turns, gain 1 AP.",
-        "translation": ""
-    },
-    {
-        "original": "Late Reflex <color=grey><size=22>At the start of your 3rd turn, gain 45 Dodge.",
-        "translation": ""
-    },
-    {
-        "original": "Critical Edging <color=grey><size=22>Every 10th Attack you play deals double damage.",
-        "translation": ""
-    },
-    {
-        "original": "Quickshot <color=grey><size=22>Every time you play 3 non-attacks in a single turn, deal 12 damage to ALL enemies.",
-        "translation": ""
-    },
-    {
-        "original": "Explosive Finish <color=grey><size=22>At the end of turn 7, deal 130 damage to ALL enemies.",
-        "translation": ""
-    },
-    {
-        "original": "Mommy Love <color=grey><size=22>At the start of each combat, heal 12 HP.",
-        "translation": ""
-    },
-    {
-        "original": "Hot Reload <color=grey><size=22>Whenever an enemy dies, gain 1 AP and draw 1 card.",
-        "translation": ""
-    },
-    {
-        "original": "Comeback Kid <color=grey><size=22>If your HP is at or below 50% at the end of combat, heal 30 HP.",
-        "translation": ""
-    },
-    {
-        "original": "<color=white><size=60>How to play?</size></color>\n<color=white>1. Earn</color>      <color=white>Willpower Tokens</color> by working around the vault or completing objectives.\n<color=white>2. Buy items</color> from either the Boogeyman (<color=white>Grow Room</color>) or Gina (<color=white>Diner</color>).\n<color=white>3. Gift the items</color> to the key characters (<color=white>Diana</color>) to raise their    <color=white>desire</color> and improve    <color=white>relationships</color>. \nThe higher the desire, the more likely an    <color=white>H-event</color> is to trigger.\nRaise the <color=white>vault tension</color> to unlock H-events for the secondary characters e.g. Gina.\nCombat tip: Every hit hurts, so stack those Dodge buffs and avoid damage whenever you can.",
-        "translation": ""
-    },
-    {
-        "original": "Return to the vault",
-        "translation": ""
-    },
-    {
-        "original": "End Turn",
-        "translation": ""
-    },
-    {
-        "original": "Not enough AP",
-        "translation": ""
-    },
-    {
-        "original": "Enemy Turn",
-        "translation": ""
-    },
-    {
-        "original": "Your Turn",
-        "translation": ""
-    },
-    {
-        "original": "Discard pile",
-        "translation": ""
-    },
-    {
-        "original": "Draw pile",
-        "translation": ""
-    },
-    {
-        "original": "Action points",
-        "translation": ""
-    },
-    {
-        "original": "Choose a card",
-        "translation": ""
-    },
-    {
-        "original": "Skip",
-        "translation": ""
-    },
-    {
-        "original": "Rest",
-        "translation": ""
-    },
-    {
-        "original": "Grab Loot",
-        "translation": ""
-    },
-    {
-        "original": "Choose a Card",
-        "translation": ""
-    },
-    {
-        "original": "Save game",
-        "translation": ""
-    },
-    {
-        "original": "Load game",
-        "translation": ""
-    },
-    {
-        "original": "Wasteland Locations",
-        "translation": ""
-    },
-    {
-        "original": "The Brothel Of Thicc Raiders",
-        "translation": ""
-    },
-    {
-        "original": "A ruined pre-war motel turned into a sleazy den of sin run by Raider Sluts—a gang of crazed raiders who think weaponizing sex appeal and STDs is the key to ruling the Wasteland.",
-        "translation": ""
-    },
-    {
-        "original": "Enclave Citadel",
-        "translation": ""
-    },
-    {
-        "original": "A fortified structure of pre-war design, still heavily guarded. The Citadel is off-limits to outsiders and anyone attempting to breach it rarely returns. Approach with caution.",
-        "translation": ""
-    },
-    {
-        "original": "Merle's Farm",
-        "translation": ""
-    },
-    {
-        "original": "A working farm owned by Greaves family. Locals say the farm runs too well for one man alone—some have seen strange shapes move at night, and low groaning behind the barn.",
-        "translation": ""
-    },
-    {
-        "original": "Children of Atom Gathering",
-        "translation": ""
-    },
-    {
-        "original": "A group of Children of Atom have established a temporary camp within the remains of old ruins. They appear to be preparing for something. Travelers should keep their distance unless they're ready to deal with extreme rads.",
-        "translation": ""
-    },
-    {
-        "original": "The Brotherhood Outcasts Scrapyard",
-        "translation": ""
-    },
-    {
-        "original": "Kicked out of the Brotherhood for “dangerous ideologies”, this group now runs a fortified scrapyard. They've built a giant speaker blasting rebellious music heard for miles. Locals hate it. The outcasts don’t care. Armed, loud, and recruiting!",
-        "translation": ""
-    },
-    {
-        "original": "Brotherhood Outpost",
-        "translation": ""
-    },
-    {
-        "original": "A big, fortified checkpoint run by the Brotherhood of Steel—serves as a supply hub, recon station, or tech recovery point. Not friendly, not hostile—unless you give them a reason.",
-        "translation": ""
-    },
-    {
-        "original": "Cumorah Crest",
-        "translation": ""
-    },
-    {
-        "original": "A major fortified settlement and trade hub—one of the safest spots in the wasteland, but only those with caps are welcome here.",
-        "translation": ""
-    },
-    {
-        "original": "Super Mutant's Alley",
-        "translation": ""
-    },
-    {
-        "original": "A narrow, ruined backstreet controlled by a group of Super Mutants. Expect heavy resistance—Mutants here are aggressive, territorial and horny!",
-        "translation": ""
-    },
-    {
-        "original": "The Church of the Holy Mommy",
-        "translation": ""
-    },
-    {
-        "original": "This is ground zero for simp culture ruled by the devil herself - Mistress Domina.The air reeks of lavender and crushed male dignity.",
-        "translation": ""
-    },
-    {
-        "original": "Vault 6969",
-        "translation": ""
-    },
-    {
-        "original": "Mistress Domina",
-        "translation": ""
-    },
-    {
-        "original": "You haven't unlocked this location yet.",
-        "translation": ""
-    },
-    {
-        "original": "Health",
-        "translation": ""
-    },
-    {
-        "original": "Bottle caps",
-        "translation": ""
-    }, 
-    {
-        "original": "Followers",
-        "translation": ""
-    },
-    {
-        "original": "Download",
-        "translation": ""
-    },
-    {
-        "original": "Adult RPG for Android. Download & Play to support Pip-Booty!",
-        "translation": ""
-    },
-    {
-        "original": "You can skip the ad in 18 seconds...",
-        "translation": ""
-    },
-    {
-        "original": "Cancel",
-        "translation": ""
-    },
-    {
-        "original": "Music volume",
-        "translation": ""
-    },
-    {
-        "original": "BG music volume",
-        "translation": ""
-    },
-    {
-        "original": "Sound volume",
-        "translation": ""
-    },
-    {
-        "original": "Ambience volume",
-        "translation": ""
-    },
-    {
-        "original": "H-scene speed",
-        "translation": ""
-    },
-    {
-        "original": "Instant Response",
-        "translation": ""
-    },
-    {
-        "original": "Hardmode",
-        "translation": ""
-    },
-    {
-        "original": "Flashes when cumming",
-        "translation": ""
-    },
-    {
-        "original": "Fullscreen",
-        "translation": ""
-    },
-    {
-        "original": "Warning: The game was not designed for full screen!",
-        "translation": ""
-    },
-    {
-        "original": "Disable global player choices",
-        "translation": ""
-    },
-    {
-        "original": "Your choices won’t be compared with others. We only save the choices — no personal data is collected.",
-        "translation": ""
-    },
-    {
-        "original": "Lowers the Bubblehead drop rate.",
-        "translation": ""
-    },
-    {
-        "original": "Willpower Tokens: The Vault's Currency",
-        "translation": ""
-    },
-    {
-        "original": "Bottle Caps: The Wasteland's Currency",
-        "translation": ""
-    },
-    {
-        "original": "<color=grey>Increase the Vault Tension by:</color> \n\n<color=grey>- <color=white>Completing certain quests</color> that challenge the Overseer’s anti-fap regime.</color>\n\n<color=grey>- <color=white>Distributing contraband</color>—stash pre-war erotica from the wasteland or grab some fresh material from the Resistance Leader.</color>\n\n<color=grey>- <color=white>Stirring up some residents (like Diana)</color>—just get them in the mood and watch them do the work for you!</color>\n\n<color=grey>Once the vault tension reaches critical mass, the Great Release Orgy begins!</color>",
-        "translation": ""
-    },
-    {
-        "original": "A Purity Police Officer will tease, grind and do everything \nin her power to break you. And if she succeeds, you \nget exiled from the vault!",
-        "translation": ""
-    },
-    {
-        "original": "<color=grey>My Tension</color>\nYour Tension Meter is a direct measurement \nof how horny you are. Keep it low or you won't\npass the next Boner Repression Trials!",
-        "translation": ""
-    },
-    {
-        "original": "<color=grey>Sus Level</color>\nYou're looking kinda sus, vault \ndweller. When it reaches max, \nthe Purity Police are coming for \nyour ass!",
-        "translation": ""
-    },
-    {
-        "original": "productivity",
-        "translation": ""
-    },
-    {
-        "original": "pornographic material",
-        "translation": ""
-    },
-    {
-        "original": "Cash In",
-        "translation": ""
-    },
-    {
-        "original": "Cost                                 Exchange for                                        Status",
-        "translation": ""
-    },
-    {
-        "original": " per second",
-        "translation": ""
-    },
-    {
-        "original": "Has buffs:\n",
-        "translation": ""
-    },
-    {
-        "original": "Diana",
-        "translation": ""
-    },
-    {
-        "original": "Shameful Stroker Jass",
-        "translation": ""
-    },
-    {
-        "original": "Purity Police",
-        "translation": ""
-    },
-    {
-        "original": "Overseer \"Blue Balls\"",
-        "translation": ""
-    },
-    {
-        "original": "Resistence Leader",
-        "translation": ""
-    },
-    {
-        "original": "Overseer's Daughter",
-        "translation": ""
-    },
-    {
-        "original": "The Edge Lord",
-        "translation": ""
-    },
-    {
-        "original": "Boogeyman",
-        "translation": ""
-    },
-    {
-        "original": "Peeping Paul",
-        "translation": ""
-    },
-    {
-        "original": "Gina",
-        "translation": ""
-    },
-    {
-        "original": "Virginatrix McNoTouch",
-        "translation": ""
-    },
-    {
-        "original": "Buster",
-        "translation": ""
-    },
-    {
-        "original": "The Stealth Fapper",
-        "translation": ""
-    },
-    {
-        "original": "Hans",
-        "translation": ""
-    },
-    {
-        "original": "Big Thicc Tina",
-        "translation": ""
-    },
-    {
-        "original": "Grace Wells",
-        "translation": ""
-    },
-    {
-        "original": "BIG HUGGER",
-        "translation": ""
-    },
-    {
-        "original": "Baron Voss",
-        "translation": ""
-    },
-    {
-        "original": "Mother Virela",
-        "translation": ""
-    },
-    {
-        "original": "Merle Greaves",
-        "translation": ""
-    },
-    {
-        "original": "Slave Ghoul",
-        "translation": ""
-    },
-    {
-        "original": "June Greaves",
-        "translation": ""
-    },
-    {
-        "original": "Archibald 'Archie' Grim",
-        "translation": ""
-    },
-    {
-        "original": "Archi's wife",
-        "translation": ""
-    },
-    {
-        "original": "You and <color=white><b>{0}%</b></color> of players {1}",
-        "translation": ""
-    },
-    {
-        "original": "<color=white><uppercase>{0}</uppercase></color>\n<color=#605C55><size=25>Achievement unlocked: {1}",
-        "translation": ""
-    },
-    {
-        "original": "Location unlocked:",
-        "translation": "" 
-    },
-    {
-        "original": "Buy",
-        "translation": "" 
-    },
-    {
-        "original": "Upgrade",
-        "translation": "" 
-    }, 
-    {
-        "original": "{0} <color=grey><size=24>  Lvl {1}",
-        "translation": ""
-    }, 
-    {
-        "original": "+{0} <color=grey>click power.\nCurrent click power:</color> {1}<i>\n\n{2}",
-        "translation": ""
-    }, 
-    {
-        "original": "+{0} <color=grey>{1}/s.\nCurrent output:</color> {2}<color=grey>/s<i>\n\n{3}",
-        "translation": ""
-    },  
-    {
-        "original": "Not enough vault tension points",
-        "translation": ""
-    }, 
-    {
-        "original": "Not enough bottle caps",
-        "translation": ""
-    }, 
-    {
-        "original": "Not enough willpower tokens",
-        "translation": ""
-    }, 
-    {
-        "original": "You don't have ",
-        "translation": ""
-    }, 
-    {
-        "original": "You don't have enough ",
-        "translation": ""
-    }, 
-    {
-        "original": " doesn't have ",
-        "translation": ""
-    }, 
-    {
-        "original": "Relationship: <color=green>+",
-        "translation": ""
-    }, 
-    {
-        "original": "Desire: <color=purple>+",
-        "translation": ""
-    }, 
-    {
-        "original": "Vault Tension: <color=green>+",
-        "translation": ""
-    }, 
-    {
-        "original": "Relationship: <color=#c31026>-5",
-        "translation": ""
-    }, 
-    {
-        "original": "Willpower Tokens: <color=green>+",
-        "translation": ""
-    }, 
-    {
-        "original": "Sus Level Decreased.",
-        "translation": ""
-    }, 
-    {
-        "original": "Sus Level Increased.",
-        "translation": ""
-    }, 
-    {
-        "original": "Quest failed: ",
-        "translation": ""
-    }, 
-    {
-        "original": "Coming soon.",
-        "translation": ""
-    }, 
-    {
-        "original": "Can't open Main Menu while choosing destination.",
-        "translation": ""
-    }, 
-    {
-        "original": "The seeds are planted!",
-        "translation": ""
-    }, 
-    {
-        "original": "The plants watered!",
-        "translation": ""
-    }, 
-    {
-        "original": "Tension increased.",
-        "translation": ""
-    }, 
-    {
-        "original": "Tension decreased.",
-        "translation": ""
-    }, 
-    {
-        "original": "Can't enter without password.",
-        "translation": ""
-    }, 
-    {
-        "original": "No items left",
-        "translation": ""
-    }, 
-    {
-        "original": "You have no items",
-        "translation": ""
-    }, 
-    {
-        "original": "Not enough bottle caps!",
-        "translation": ""
-    }, 
-    {
-        "original": "Not enough willpower tokens!",
-        "translation": ""
-    }, 
-    {
-        "original": "Bought ",
-        "translation": ""
-    }, 
-    {
-        "original": "Item received: ",
-        "translation": ""
-    }, 
-    {
-        "original": "Can't gift this item.",
-        "translation": ""
-    }, 
-    {
-        "original": "Gifted.",
-        "translation": ""
-    }, 
-    {
-        "original": "You need some rest first.",
-        "translation": ""
-    }, 
-    {
-        "original": "Can't save in the wasteland.",
-        "translation": ""
-    }, 
-    {
-        "original": "Game saved.",
-        "translation": ""
-    }, 
-    {
-        "original": "Complete: ",
-        "translation": ""
-    }, 
-    {
-        "original": "</color> tokens.",
-        "translation": ""
-    }, 
-    {
-        "original": " is now following you.",
-        "translation": ""
-    }, 
-    {
-        "original": "Not enough relationship points",
-        "translation": ""
-    }, 
-    {
-        "original": "Not enough desire points",
-        "translation": ""
-    }, 
-    {
-        "original": ">Relationship: >",
-        "translation": ""
-    }, 
-    {
-        "original": ">Desire: >",
-        "translation": ""
-    }, 
-    {
-        "original": ">Vault Tension: >",
-        "translation": ""
-    }, 
-    {
-        "original": ">Caps: ",
-        "translation": ""
-    }, 
-    {
-        "original": ">W tokens: ",
-        "translation": ""
-    }, 
-    {
-        "original": "Require:",
-        "translation": ""
-    }, 
-    {
-        "original": " should have ",
-        "translation": ""
-    },
-    {
-        "original": "Loading...",
-        "translation": ""
-    },
-    {
-        "original": "Finish",
-        "translation": ""
-    },
-    {
-        "original": "Move Mouse Up & Down",
-        "translation": ""
-    },
-    {
-        "original": "Auto play",
-        "translation": ""
-    },
-    {
-        "original": "Play Moans",
-        "translation": ""
-    },
-    {
-        "original": "Vaginal",
-        "translation": ""
-    },
-    {
-        "original": "Anal",
-        "translation": ""
-    },
-    {
-        "original": "Both",
-        "translation": ""
-    },
-    {
-        "original": "Pleasure",
-        "translation": ""
-    },
-    {
-        "original": "You've fucked {SEX} times so far. Impressive—but don't stop until your dick falls off or your pussy turns radioactive green.",
-        "translation": ""
-    },
-    {
-        "original": "You’ve slaughtered {KILLS} motherfuckers. Nice kill count—but your body count should be higher, assuming your dick's still in place.",
-        "translation": ""
-    },
-    {
-        "original": "Seen that rusted Vault-Tec fuckbot? Repair it, and it'll jerk your dick clean off. Better stock up on Wonderglue first.",
-        "translation": ""
-    },
-    {
-        "original": "Check your pussy frequently. Mirelurks find dark, wet places appealing.",
-        "translation": ""
-    },
-    {
-        "original": "Trading sex for caps is fine, just don’t complain if you get more than you bargained for.",
-        "translation": ""
-    },
-    {
-        "original": "A synth might not have a soul, but damn if they don’t suck dick like they’re programmed by Satan himself.",
-        "translation": ""
-    },
-    {
-        "original": "Those wasteland hobos haven’t showered since before the bombs fell, but they'd still tongue-fuck your asshole for a stale Fancy Lad snack cake.",
-        "translation": ""
-    },
-    {
-        "original": "Farm girls are so cock-starved they'll milk your dick like a Brahmin until your balls implode.",
-        "translation": ""
-    },
-    {
-        "original": "Want to fuck your companion raw? Spam relationship points until they beg for cock or pussy, then shove it deep until they can't walk straight.",
-        "translation": ""
-    },
-    {
-        "original": "You’ve jerked off {FAPS} times. If only you shot enemies as fast as you blow your load. Hope you're hydrating, champ.",
-        "translation": ""
-    },
-    {
-        "original": "You're fucked anyway—might as well stick your dick or clit wherever it fits.",
-        "translation": ""
-    },
-    {
-        "original": "If you bully too many wastelanders, expect them to spit in your face instead of on your dick. Karma’s a bitch.",
-        "translation": ""
-    },
-    {
-        "original": "Every pussy you plow or cock you ride in this wasteland has a chance to spawn some unwanted surprises.",
-        "translation": ""
-    },
-    {
-        "original": "Loot isn’t just caps and chems—sometimes it’s a cum-soaked bedroll.",
-        "translation": ""
-    },
-    {
-        "original": "The Purity Police outlawed orgasms—but their tight-assed pussies ache worse than your radiation burns.",
-        "translation": ""
-    },
-    {
-        "original": "Rumor has it Mistress Domina was once a witch—now she's turning the wasteland into a femdom dungeon of cock cages and ball-busting.",
-        "translation": ""
-    },
-    {
-        "original": "Take",
-        "translation": ""
-    },
-    {
-        "original": "Slutty Bubblehead found!",
-        "translation": ""
-    }
+  {
+    "original": "NEW GAME",
+    "translation": "NOVO JOGO"
+  },
+  {
+    "original": "LOAD",
+    "translation": "CARREGAR"
+  },
+  {
+    "original": "SAVE",
+    "translation": "SALVAR"
+  },
+  {
+    "original": "CONTINUE",
+    "translation": "CONTINUAR"
+  },
+  {
+    "original": "SETTINGS",
+    "translation": "CONFIGURAÇÕES"
+  },
+  {
+    "original": "CREDITS",
+    "translation": "CRÉDITOS"
+  },
+  {
+    "original": "SUPPORT",
+    "translation": "SUPORTE"
+  },
+  {
+    "original": "EXIT",
+    "translation": "SAIR"
+  },
+  {
+    "original": "Day {0}, {1}",
+    "translation": "Dia {0}, {1}"
+  },
+  {
+    "original": "Day {0}",
+    "translation": "Dia {0}"
+  },
+  {
+    "original": "Mon",
+    "translation": "Seg"
+  },
+  {
+    "original": "Tue",
+    "translation": "Ter"
+  },
+  {
+    "original": "Wed",
+    "translation": "Qua"
+  },
+  {
+    "original": "Thu",
+    "translation": "Qui"
+  },
+  {
+    "original": "Fri",
+    "translation": "Sex"
+  },
+  {
+    "original": "Sat",
+    "translation": "Sáb"
+  },
+  {
+    "original": "Sun",
+    "translation": "Dom"
+  },
+  {
+    "original": "Desire: {0}/100",
+    "translation": "Desejo: {0}/100"
+  },
+  {
+    "original": "Relationship Points: {0}",
+    "translation": "Pontos de Relacionamento: {0}"
+  },
+  {
+    "original": "End Day",
+    "translation": "Terminar o Dia"
+  },
+  {
+    "original": "Inventory",
+    "translation": "Inventário"
+  },
+  {
+    "original": "Help",
+    "translation": "Ajuda"
+  },
+  {
+    "original": "Pip-Boy",
+    "translation": "Pip-Boy"
+  },
+  {
+    "original": "Vault",
+    "translation": "Refúgio"
+  },
+  {
+    "original": "Sleep",
+    "translation": "Dormir"
+  },
+  {
+    "original": "Play",
+    "translation": "Jogar"
+  },
+  {
+    "original": "Turn On",
+    "translation": "Ligar"
+  },
+  {
+    "original": "Next",
+    "translation": "Próximo"
+  },
+  {
+    "original": "Work at Diner",
+    "translation": "Trabalhar na Lanchonete"
+  },
+  {
+    "original": "Work at Grow Room",
+    "translation": "Trabalhar na Sala de Cultivo"
+  },
+  {
+    "original": "Plant Seeds",
+    "translation": "Plantar Sementes"
+  },
+  {
+    "original": "Loot",
+    "translation": "Saquear"
+  },
+  {
+    "original": "Harvest",
+    "translation": "Colher"
+  },
+  {
+    "original": "Water Veggies",
+    "translation": "Regar Vegetais"
+  },
+  {
+    "original": "Open Terminal",
+    "translation": "Abrir Terminal"
+  },
+  {
+    "original": "Exit",
+    "translation": "Sair"
+  },
+  {
+    "original": "Enter",
+    "translation": "Entrar"
+  },
+  {
+    "original": "Go Upstairs",
+    "translation": "Subir"
+  },
+  {
+    "original": "Travel Onwards",
+    "translation": "Seguir Viagem"
+  },
+  {
+    "original": "Shower",
+    "translation": "Tomar Banho"
+  },
+  {
+    "original": "Fap",
+    "translation": "Bater uma"
+  },
+  {
+    "original": "Fish",
+    "translation": "Pescar"
+  },
+  {
+    "original": "Quests ({0}):",
+    "translation": "Missões ({0}):"
+  },
+  {
+    "original": "<b>QUESTS</b>",
+    "translation": "<b>MISSÕES</b>"
+  },
+  {
+    "original": "<b>STATS</b>",
+    "translation": "<b>ESTATÍSTICAS</b>"
+  },
+  {
+    "original": "Game completion:",
+    "translation": "Conclusão do jogo:"
+  },
+  {
+    "original": "Quests:",
+    "translation": "Missões:"
+  },
+  {
+    "original": "Achievements:",
+    "translation": "Conquistas:"
+  },
+  {
+    "original": "H-scenes:",
+    "translation": "Cenas H:"
+  },
+  {
+    "original": "Diana:",
+    "translation": "Diana:"
+  },
+  {
+    "original": "Gina:",
+    "translation": "Gina:"
+  },
+  {
+    "original": "Overseer's daughter:",
+    "translation": "Filha do Supervisor:"
+  },
+  {
+    "original": "Num of times had sex:",
+    "translation": "Número de vezes que transou:"
+  },
+  {
+    "original": "Bodycount:",
+    "translation": "Contagem de Corpos:"
+  },
+  {
+    "original": "Favorite Hole:",
+    "translation": "Buraco Favorito:"
+  },
+  {
+    "original": "Children:",
+    "translation": "Filhos:"
+  },
+  {
+    "original": "Wanks:",
+    "translation": "Punhetas:"
+  },
+  {
+    "original": "Longest abstinence:",
+    "translation": "Abstinência mais longa:"
+  },
+  {
+    "original": "Enemies killed:",
+    "translation": "Inimigos mortos:"
+  },
+  {
+    "original": "Gifts given:",
+    "translation": "Presentes dados:"
+  },
+  {
+    "original": "W Tokens earned:",
+    "translation": "Tokens W ganhos:"
+  },
+  {
+    "original": "Caps collected:",
+    "translation": "Tampinhas coletadas:"
+  },
+  {
+    "original": "Not all quests are completable in a single playthrough!",
+    "translation": "Nem todas as missões podem ser concluídas em uma única jogada!"
+  },
+  {
+    "original": "Bonk pervs\n<size=20><color=grey>Help Purity Police keep the vault in check</color>",
+    "translation": "Dê 'bonk' em pervertidos\n<size=20><color=grey>Ajude a Polícia da Pureza a manter o refúgio na linha</color>"
+  },
+  {
+    "original": "Produce Adult Movies\n<size=20><color=grey>Turn the vault into a porn studio!</color>",
+    "translation": "Produza Filmes Adultos\n<size=20><color=grey>Transforme o refúgio em um estúdio pornô!</color>"
+  },
+  {
+    "original": "Work around the vault\n<size=20>(+<color=green>W tokens</color>)",
+    "translation": "Trabalhe pelo refúgio\n<size=20>(+<color=green>tokens W</color>)"
+  },
+  {
+    "original": "Spread fap material\n<size=20>(<color=green>+W tokens</color>, <color=#d1234e>+Vault Tension</color>,\n<color=grey>5 mags left</color>)",
+    "translation": "Espalhe material de punheta\n<size=20>(<color=green>+tokens W</color>, <color=#d1234e>+Tensão no Refúgio</color>,\n<color=grey>5 revistas restantes</color>)"
+  },
+  {
+    "original": "Exit the vault",
+    "translation": "Sair do refúgio"
+  },
+  {
+    "original": "Lounge",
+    "translation": "Salão"
+  },
+  {
+    "original": "Showers",
+    "translation": "Chuveiros"
+  },
+  {
+    "original": "Diner",
+    "translation": "Lanchonete"
+  },
+  {
+    "original": "Grow Room",
+    "translation": "Sala de Cultivo"
+  },
+  {
+    "original": "Diana's Room",
+    "translation": "Quarto da Diana"
+  },
+  {
+    "original": "Grace's Room",
+    "translation": "Quarto da Grace"
+  },
+  {
+    "original": "My Room",
+    "translation": "Meu Quarto"
+  },
+  {
+    "original": "Shame Chamber",
+    "translation": "Câmara da Vergonha"
+  },
+  {
+    "original": "Vault Tension ({0})",
+    "translation": "Tensão no Refúgio ({0})"
+  },
+  {
+    "original": "Boner Repression Trials start in <color=white>{0} days</color>!",
+    "translation": "Testes de Repressão de Ereção começam em <color=white>{0} dias</color>!"
+  },
+  {
+    "original": "Close <color=#5A5A5A>[RMB]",
+    "translation": "Fechar <color=#5A5A5A>[BDM]"
+  },
+  {
+    "original": "Close <color=#5A5A5A><size=24>[RMB]",
+    "translation": "Fechar <color=#5A5A5A><size=24>[BDM]"
+  },
+  {
+    "original": "Save",
+    "translation": "Salvar"
+  },
+  {
+    "original": "Load",
+    "translation": "Carregar"
+  },
+  {
+    "original": "Low",
+    "translation": "Baixo"
+  },
+  {
+    "original": "Moderate",
+    "translation": "Moderado"
+  },
+  {
+    "original": "High",
+    "translation": "Alto"
+  },
+  {
+    "original": "W",
+    "translation": "W"
+  },
+  {
+    "original": "C",
+    "translation": "T"
+  },
+  {
+    "original": "Willpower Tokens",
+    "translation": "Tokens de Força de Vontade"
+  },
+  {
+    "original": "Bottle Caps",
+    "translation": "Tampinhas de Garrafa"
+  },
+  {
+    "original": "Buy <size=40>({0}{1})",
+    "translation": "Comprar <size=40>({0}{1})"
+  },
+  {
+    "original": "Gift",
+    "translation": "Presentear"
+  },
+  {
+    "original": "Bubbleheads",
+    "translation": "Bobbleheads"
+  },
+  {
+    "original": "Turn Me On <color=grey><size=22>Every 3 turns, gain 1 AP.",
+    "translation": "Me Excite <color=grey><size=22>A cada 3 turnos, ganhe 1 PA."
+  },
+  {
+    "original": "Late Reflex <color=grey><size=22>At the start of your 3rd turn, gain 45 Dodge.",
+    "translation": "Reflexo Atrasado <color=grey><size=22>No início do seu 3º turno, ganhe 45 de Esquiva."
+  },
+  {
+    "original": "Critical Edging <color=grey><size=22>Every 10th Attack you play deals double damage.",
+    "translation": "Provocação Crítica <color=grey><size=22>A cada 10º Ataque que você joga, causa o dobro de dano."
+  },
+  {
+    "original": "Quickshot <color=grey><size=22>Every time you play 3 non-attacks in a single turn, deal 12 damage to ALL enemies.",
+    "translation": "Tiro Rápido <color=grey><size=22>Toda vez que você joga 3 não-ataques em um único turno, causa 12 de dano a TODOS os inimigos."
+  },
+  {
+    "original": "Explosive Finish <color=grey><size=22>At the end of turn 7, deal 130 damage to ALL enemies.",
+    "translation": "Final Explosivo <color=grey><size=22>No final do turno 7, causa 130 de dano a TODOS os inimigos."
+  },
+  {
+    "original": "Mommy Love <color=grey><size=22>At the start of each combat, heal 12 HP.",
+    "translation": "Amor de Mamãe <color=grey><size=22>No início de cada combate, cure 12 de PV."
+  },
+  {
+    "original": "Hot Reload <color=grey><size=22>Whenever an enemy dies, gain 1 AP and draw 1 card.",
+    "translation": "Recarga Quente <color=grey><size=22>Sempre que um inimigo morre, ganhe 1 PA e compre 1 carta."
+  },
+  {
+    "original": "Comeback Kid <color=grey><size=22>If your HP is at or below 50% at the end of combat, heal 30 HP.",
+    "translation": "Virada do Garoto <color=grey><size=22>Se seu PV estiver em 50% ou menos no final do combate, cure 30 de PV."
+  },
+  {
+    "original": "<color=white><size=60>How to play?</size></color>\n<color=white>1. Earn</color>      <color=white>Willpower Tokens</color> by working around the vault or completing objectives.\n<color=white>2. Buy items</color> from either the Boogeyman (<color=white>Grow Room</color>) or Gina (<color=white>Diner</color>).\n<color=white>3. Gift the items</color> to the key characters (<color=white>Diana</color>) to raise their    <color=white>desire</color> and improve    <color=white>relationships</color>. \nThe higher the desire, the more likely an    <color=white>H-event</color> is to trigger.\nRaise the <color=white>vault tension</color> to unlock H-events for the secondary characters e.g. Gina.\nCombat tip: Every hit hurts, so stack those Dodge buffs and avoid damage whenever you can.",
+    "translation": "<color=white><size=60>Como jogar?</size></color>\n<color=white>1. Ganhe</color>      <color=white>Tokens de Força de Vontade</color> trabalhando no refúgio ou completando objetivos.\n<color=white>2. Compre itens</color> do Boogeyman (<color=white>Sala de Cultivo</color>) ou da Gina (<color=white>Lanchonete</color>).\n<color=white>3. Dê os itens de presente</color> para os personagens-chave (<color=white>Diana</color>) para aumentar seu    <color=white>desejo</color> e melhorar os    <color=white>relacionamentos</color>. \nQuanto maior o desejo, maior a probabilidade de um    <color=white>evento H</color> ser acionado.\nAumente a <color=white>tensão no refúgio</color> para desbloquear eventos H para os personagens secundários, como a Gina.\nDica de combate: Cada golpe dói, então acumule bônus de Esquiva e evite danos sempre que puder."
+  },
+  {
+    "original": "Return to the vault",
+    "translation": "Retornar ao refúgio"
+  },
+  {
+    "original": "End Turn",
+    "translation": "Terminar Turno"
+  },
+  {
+    "original": "Not enough AP",
+    "translation": "PA insuficiente"
+  },
+  {
+    "original": "Enemy Turn",
+    "translation": "Turno do Inimigo"
+  },
+  {
+    "original": "Your Turn",
+    "translation": "Seu Turno"
+  },
+  {
+    "original": "Discard pile",
+    "translation": "Pilha de descarte"
+  },
+  {
+    "original": "Draw pile",
+    "translation": "Pilha de compra"
+  },
+  {
+    "original": "Action points",
+    "translation": "Pontos de ação"
+  },
+  {
+    "original": "Choose a card",
+    "translation": "Escolha uma carta"
+  },
+  {
+    "original": "Skip",
+    "translation": "Pular"
+  },
+  {
+    "original": "Rest",
+    "translation": "Descansar"
+  },
+  {
+    "original": "Grab Loot",
+    "translation": "Pegar Saque"
+  },
+  {
+    "original": "Choose a Card",
+    "translation": "Escolha uma Carta"
+  },
+  {
+    "original": "Save game",
+    "translation": "Salvar jogo"
+  },
+  {
+    "original": "Load game",
+    "translation": "Carregar jogo"
+  },
+  {
+    "original": "Wasteland Locations",
+    "translation": "Locais dos Ermos"
+  },
+  {
+    "original": "The Brothel Of Thicc Raiders",
+    "translation": "O Bordel das Saqueadoras Gostosas"
+  },
+  {
+    "original": "A ruined pre-war motel turned into a sleazy den of sin run by Raider Sluts—a gang of crazed raiders who think weaponizing sex appeal and STDs is the key to ruling the Wasteland.",
+    "translation": "Um motel pré-guerra em ruínas transformado em um covil de pecado decadente, administrado pelas Vadias Saqueadoras — uma gangue de saqueadoras loucas que acreditam que usar o apelo sexual e as DSTs como arma é a chave para dominar os Ermos."
+  },
+  {
+    "original": "Enclave Citadel",
+    "translation": "Cidadela do Enclave"
+  },
+  {
+    "original": "A fortified structure of pre-war design, still heavily guarded. The Citadel is off-limits to outsiders and anyone attempting to breach it rarely returns. Approach with caution.",
+    "translation": "Uma estrutura fortificada de design pré-guerra, ainda fortemente guardada. A Cidadela é proibida para forasteiros e qualquer um que tente invadi-la raramente retorna. Aproxime-se com cautela."
+  },
+  {
+    "original": "Merle's Farm",
+    "translation": "Fazenda do Merle"
+  },
+  {
+    "original": "A working farm owned by Greaves family. Locals say the farm runs too well for one man alone—some have seen strange shapes move at night, and low groaning behind the barn.",
+    "translation": "Uma fazenda em funcionamento de propriedade da família Greaves. Os locais dizem que a fazenda funciona bem demais para um homem só — alguns viram formas estranhas se moverem à noite e ouviram gemidos baixos atrás do celeiro."
+  },
+  {
+    "original": "Children of Atom Gathering",
+    "translation": "Reunião dos Filhos do Átomo"
+  },
+  {
+    "original": "A group of Children of Atom have established a temporary camp within the remains of old ruins. They appear to be preparing for something. Travelers should keep their distance unless they're ready to deal with extreme rads.",
+    "translation": "Um grupo de Filhos do Átomo estabeleceu um acampamento temporário dentro dos restos de ruínas antigas. Eles parecem estar se preparando para algo. Os viajantes devem manter distância, a menos que estejam prontos para lidar com radiação extrema."
+  },
+  {
+    "original": "The Brotherhood Outcasts Scrapyard",
+    "translation": "Ferro-Velho dos Renegados da Irmandade"
+  },
+  {
+    "original": "Kicked out of the Brotherhood for “dangerous ideologies”, this group now runs a fortified scrapyard. They've built a giant speaker blasting rebellious music heard for miles. Locals hate it. The outcasts don’t care. Armed, loud, and recruiting!",
+    "translation": "Expulso da Irmandade por “ideologias perigosas”, este grupo agora administra um ferro-velho fortificado. Eles construíram um alto-falante gigante que toca música rebelde ouvida a quilômetros. Os locais odeiam. Os renegados não se importam. Armados, barulhentos e recrutando!"
+  },
+  {
+    "original": "Brotherhood Outpost",
+    "translation": "Posto Avançado da Irmandade"
+  },
+  {
+    "original": "A big, fortified checkpoint run by the Brotherhood of Steel—serves as a supply hub, recon station, or tech recovery point. Not friendly, not hostile—unless you give them a reason.",
+    "translation": "Um grande posto de controle fortificado administrado pela Irmandade do Aço — serve como centro de suprimentos, estação de reconhecimento ou ponto de recuperação de tecnologia. Nem amigável, nem hostil — a menos que você lhes dê um motivo."
+  },
+  {
+    "original": "Cumorah Crest",
+    "translation": "Cumorah Crest"
+  },
+  {
+    "original": "A major fortified settlement and trade hub—one of the safest spots in the wasteland, but only those with caps are welcome here.",
+    "translation": "Um grande assentamento fortificado e centro comercial — um dos pontos mais seguros dos Ermos, mas apenas aqueles com tampinhas são bem-vindos aqui."
+  },
+  {
+    "original": "Super Mutant's Alley",
+    "translation": "Beco do Super Mutante"
+  },
+  {
+    "original": "A narrow, ruined backstreet controlled by a group of Super Mutants. Expect heavy resistance—Mutants here are aggressive, territorial and horny!",
+    "translation": "Uma rua estreita e em ruínas controlada por um grupo de Super Mutantes. Espere forte resistência — os Mutantes aqui são agressivos, territoriais e com tesão!"
+  },
+  {
+    "original": "The Church of the Holy Mommy",
+    "translation": "A Igreja da Santa Mamãe"
+  },
+  {
+    "original": "This is ground zero for simp culture ruled by the devil herself - Mistress Domina.The air reeks of lavender and crushed male dignity.",
+    "translation": "Este é o marco zero da cultura gado, governada pela própria diaba - Mistress Domina. O ar fede a lavanda e dignidade masculina esmagada."
+  },
+  {
+    "original": "Vault 6969",
+    "translation": "Refúgio 6969"
+  },
+  {
+    "original": "Mistress Domina",
+    "translation": "Mistress Domina"
+  },
+  {
+    "original": "You haven't unlocked this location yet.",
+    "translation": "Você ainda não desbloqueou este local."
+  },
+  {
+    "original": "Health",
+    "translation": "Saúde"
+  },
+  {
+    "original": "Bottle caps",
+    "translation": "Tampinhas de garrafa"
+  },
+  {
+    "original": "Followers",
+    "translation": "Seguidores"
+  },
+  {
+    "original": "Download",
+    "translation": "Baixar"
+  },
+  {
+    "original": "Adult RPG for Android. Download & Play to support Pip-Booty!",
+    "translation": "RPG adulto para Android. Baixe e jogue para apoiar o Pip-Booty!"
+  },
+  {
+    "original": "You can skip the ad in 18 seconds...",
+    "translation": "Você pode pular o anúncio em 18 segundos..."
+  },
+  {
+    "original": "Cancel",
+    "translation": "Cancelar"
+  },
+  {
+    "original": "Music volume",
+    "translation": "Volume da música"
+  },
+  {
+    "original": "BG music volume",
+    "translation": "Volume da música de fundo"
+  },
+  {
+    "original": "Sound volume",
+    "translation": "Volume do som"
+  },
+  {
+    "original": "Ambience volume",
+    "translation": "Volume do ambiente"
+  },
+  {
+    "original": "H-scene speed",
+    "translation": "Velocidade da cena H"
+  },
+  {
+    "original": "Instant Response",
+    "translation": "Resposta Instantânea"
+  },
+  {
+    "original": "Hardmode",
+    "translation": "Modo Difícil"
+  },
+  {
+    "original": "Flashes when cumming",
+    "translation": "Flashes ao gozar"
+  },
+  {
+    "original": "Fullscreen",
+    "translation": "Tela cheia"
+  },
+  {
+    "original": "Warning: The game was not designed for full screen!",
+    "translation": "Aviso: O jogo não foi projetado para tela cheia!"
+  },
+  {
+    "original": "Disable global player choices",
+    "translation": "Desativar escolhas globais de jogadores"
+  },
+  {
+    "original": "Your choices won’t be compared with others. We only save the choices — no personal data is collected.",
+    "translation": "Suas escolhas não serão comparadas com as de outros. Apenas salvamos as escolhas — nenhum dado pessoal é coletado."
+  },
+  {
+    "original": "Lowers the Bubblehead drop rate.",
+    "translation": "Diminui a taxa de queda de Bobbleheads."
+  },
+  {
+    "original": "Willpower Tokens: The Vault's Currency",
+    "translation": "Tokens de Força de Vontade: A Moeda do Refúgio"
+  },
+  {
+    "original": "Bottle Caps: The Wasteland's Currency",
+    "translation": "Tampinhas de Garrafa: A Moeda dos Ermos"
+  },
+  {
+    "original": "<color=grey>Increase the Vault Tension by:</color> \n\n<color=grey>- <color=white>Completing certain quests</color> that challenge the Overseer’s anti-fap regime.</color>\n\n<color=grey>- <color=white>Distributing contraband</color>—stash pre-war erotica from the wasteland or grab some fresh material from the Resistance Leader.</color>\n\n<color=grey>- <color=white>Stirring up some residents (like Diana)</color>—just get them in the mood and watch them do the work for you!</color>\n\n<color=grey>Once the vault tension reaches critical mass, the Great Release Orgy begins!</color>",
+    "translation": "<color=grey>Aumente a Tensão no Refúgio:</color> \n\n<color=grey>- <color=white>Completando certas missões</color> que desafiam o regime anti-punheta do Supervisor.</color>\n\n<color=grey>- <color=white>Distribuindo contrabando</color>—acumule erotismo pré-guerra dos Ermos ou pegue material novo com o Líder da Resistência.</color>\n\n<color=grey>- <color=white>Agitando alguns moradores (como a Diana)</color>—apenas os deixe no clima e observe-os fazer o trabalho por você!</color>\n\n<color=grey>Assim que a tensão no refúgio atingir a massa crítica, a Grande Orgia da Liberação começa!</color>"
+  },
+  {
+    "original": "A Purity Police Officer will tease, grind and do everything \nin her power to break you. And if she succeeds, you \nget exiled from the vault!",
+    "translation": "Uma Oficial da Polícia da Pureza irá te provocar, rebolar e fazer de tudo \nem seu poder para te quebrar. E se ela conseguir, você \nserá exilado do refúgio!"
+  },
+  {
+    "original": "<color=grey>My Tension</color>\nYour Tension Meter is a direct measurement \nof how horny you are. Keep it low or you won't\npass the next Boner Repression Trials!",
+    "translation": "<color=grey>Minha Tensão</color>\nSeu Medidor de Tensão é uma medição direta \nde quão excitado você está. Mantenha-o baixo ou você não\npassará nos próximos Testes de Repressão de Ereção!"
+  },
+  {
+    "original": "<color=grey>Sus Level</color>\nYou're looking kinda sus, vault \ndweller. When it reaches max, \nthe Purity Police are coming for \nyour ass!",
+    "translation": "<color=grey>Nível Sus</color>\nVocê está parecendo meio suspeito, morador do \nrefúgio. Quando atingir o máximo, \na Polícia da Pureza virá atrás \nde você!"
+  },
+  {
+    "original": "productivity",
+    "translation": "produtividade"
+  },
+  {
+    "original": "pornographic material",
+    "translation": "material pornográfico"
+  },
+  {
+    "original": "Cash In",
+    "translation": "Sacar"
+  },
+  {
+    "original": "Cost                                 Exchange for                                        Status",
+    "translation": "Custo                                Trocar por                                          Status"
+  },
+  {
+    "original": " per second",
+    "translation": " por segundo"
+  },
+  {
+    "original": "Has buffs:\n",
+    "translation": "Possui bônus:\n"
+  },
+  {
+    "original": "Diana",
+    "translation": "Diana"
+  },
+  {
+    "original": "Shameful Stroker Jass",
+    "translation": "Punheteiro Vergonhoso Jass"
+  },
+  {
+    "original": "Purity Police",
+    "translation": "Polícia da Pureza"
+  },
+  {
+    "original": "Overseer \"Blue Balls\"",
+    "translation": "Supervisor \"Saco Azul\""
+  },
+  {
+    "original": "Resistence Leader",
+    "translation": "Líder da Resistência"
+  },
+  {
+    "original": "Overseer's Daughter",
+    "translation": "Filha do Supervisor"
+  },
+  {
+    "original": "The Edge Lord",
+    "translation": "O Lorde Emo"
+  },
+  {
+    "original": "Boogeyman",
+    "translation": "Bicho-Papão"
+  },
+  {
+    "original": "Peeping Paul",
+    "translation": "Paul o Espião"
+  },
+  {
+    "original": "Gina",
+    "translation": "Gina"
+  },
+  {
+    "original": "Virginatrix McNoTouch",
+    "translation": "Virginatrix McNãoToca"
+  },
+  {
+    "original": "Buster",
+    "translation": "Buster"
+  },
+  {
+    "original": "The Stealth Fapper",
+    "translation": "O Punheteiro Furtivo"
+  },
+  {
+    "original": "Hans",
+    "translation": "Hans"
+  },
+  {
+    "original": "Big Thicc Tina",
+    "translation": "Thicc Tina"
+  },
+  {
+    "original": "Grace Wells",
+    "translation": "Grace Wells"
+  },
+  {
+    "original": "BIG HUGGER",
+    "translation": "GRANDE ABRAÇADOR"
+  },
+  {
+    "original": "Baron Voss",
+    "translation": "Barão Voss"
+  },
+  {
+    "original": "Mother Virela",
+    "translation": "Madre Virela"
+  },
+  {
+    "original": "Merle Greaves",
+    "translation": "Merle Greaves"
+  },
+  {
+    "original": "Slave Ghoul",
+    "translation": "Carniçal Escravo"
+  },
+  {
+    "original": "June Greaves",
+    "translation": "June Greaves"
+  },
+  {
+    "original": "Archibald 'Archie' Grim",
+    "translation": "Archibald 'Archie' Grim"
+  },
+  {
+    "original": "Archi's wife",
+    "translation": "Esposa do Archi"
+  },
+  {
+    "original": "You and <color=white><b>{0}%</b></color> of players {1}",
+    "translation": "Você e <color=white><b>{0}%</b></color> dos jogadores {1}"
+  },
+  {
+    "original": "<color=white><uppercase>{0}</uppercase></color>\n<color=#605C55><size=25>Achievement unlocked: {1}",
+    "translation": "<color=white><uppercase>{0}</uppercase></color>\n<color=#605C55><size=25>Conquista desbloqueada: {1}"
+  },
+  {
+    "original": "Location unlocked:",
+    "translation": "Local desbloqueado:"
+  },
+  {
+    "original": "Buy",
+    "translation": "Comprar"
+  },
+  {
+    "original": "Upgrade",
+    "translation": "Melhorar"
+  },
+  {
+    "original": "{0} <color=grey><size=24>  Lvl {1}",
+    "translation": "{0} <color=grey><size=24>  Nvl {1}"
+  },
+  {
+    "original": "+{0} <color=grey>click power.\nCurrent click power:</color> {1}<i>\n\n{2}",
+    "translation": "+{0} <color=grey>poder de clique.\nPoder de clique atual:</color> {1}<i>\n\n{2}"
+  },
+  {
+    "original": "+{0} <color=grey>{1}/s.\nCurrent output:</color> {2}<color=grey>/s<i>\n\n{3}",
+    "translation": "+{0} <color=grey>{1}/s.\nProdução atual:</color> {2}<color=grey>/s<i>\n\n{3}"
+  },
+  {
+    "original": "Not enough vault tension points",
+    "translation": "Pontos de tensão no refúgio insuficientes"
+  },
+  {
+    "original": "Not enough bottle caps",
+    "translation": "Tampinhas de garrafa insuficientes"
+  },
+  {
+    "original": "Not enough willpower tokens",
+    "translation": "Tokens de força de vontade insuficientes"
+  },
+  {
+    "original": "You don't have ",
+    "translation": "Você не tem "
+  },
+  {
+    "original": "You don't have enough ",
+    "translation": "Você não tem o suficiente de "
+  },
+  {
+    "original": " doesn't have ",
+    "translation": " não tem "
+  },
+  {
+    "original": "Relationship: <color=green>+",
+    "translation": "Relacionamento: <color=green>+"
+  },
+  {
+    "original": "Desire: <color=purple>+",
+    "translation": "Desejo: <color=purple>+"
+  },
+  {
+    "original": "Vault Tension: <color=green>+",
+    "translation": "Tensão no Refúgio: <color=green>+"
+  },
+  {
+    "original": "Relationship: <color=#c31026>-5",
+    "translation": "Relacionamento: <color=#c31026>-5"
+  },
+  {
+    "original": "Willpower Tokens: <color=green>+",
+    "translation": "Tokens de Força de Vontade: <color=green>+"
+  },
+  {
+    "original": "Sus Level Decreased.",
+    "translation": "Nível de Suspeita Diminuído."
+  },
+  {
+    "original": "Sus Level Increased.",
+    "translation": "Nível de Suspeita Aumentado."
+  },
+  {
+    "original": "Quest failed: ",
+    "translation": "Missão falhou: "
+  },
+  {
+    "original": "Coming soon.",
+    "translation": "Em breve."
+  },
+  {
+    "original": "Can't open Main Menu while choosing destination.",
+    "translation": "Não é possível abrir o Menu Principal ao escolher o destino."
+  },
+  {
+    "original": "The seeds are planted!",
+    "translation": "As sementes foram plantadas!"
+  },
+  {
+    "original": "The plants watered!",
+    "translation": "As plantas foram regadas!"
+  },
+  {
+    "original": "Tension increased.",
+    "translation": "Tensão aumentada."
+  },
+  {
+    "original": "Tension decreased.",
+    "translation": "Tensão diminuída."
+  },
+  {
+    "original": "Can't enter without password.",
+    "translation": "Não é possível entrar sem senha."
+  },
+  {
+    "original": "No items left",
+    "translation": "Nenhum item restante"
+  },
+  {
+    "original": "You have no items",
+    "translation": "Você не tem itens"
+  },
+  {
+    "original": "Not enough bottle caps!",
+    "translation": "Tampinhas de garrafa insuficientes!"
+  },
+  {
+    "original": "Not enough willpower tokens!",
+    "translation": "Tokens de força de vontade insuficientes!"
+  },
+  {
+    "original": "Bought ",
+    "translation": "Comprou "
+  },
+  {
+    "original": "Item received: ",
+    "translation": "Item recebido: "
+  },
+  {
+    "original": "Can't gift this item.",
+    "translation": "Não é possível presentear este item."
+  },
+  {
+    "original": "Gifted.",
+    "translation": "Presenteado."
+  },
+  {
+    "original": "You need some rest first.",
+    "translation": "Você precisa descansar primeiro."
+  },
+  {
+    "original": "Can't save in the wasteland.",
+    "translation": "Não é possível salvar nos Ermos."
+  },
+  {
+    "original": "Game saved.",
+    "translation": "Jogo salvo."
+  },
+  {
+    "original": "Complete: ",
+    "translation": "Completo: "
+  },
+  {
+    "original": "</color> tokens.",
+    "translation": "</color> tokens."
+  },
+  {
+    "original": " is now following you.",
+    "translation": " agora está te seguindo."
+  },
+  {
+    "original": "Not enough relationship points",
+    "translation": "Pontos de relacionamento insuficientes"
+  },
+  {
+    "original": "Not enough desire points",
+    "translation": "Pontos de desejo insuficientes"
+  },
+  {
+    "original": ">Relationship: >",
+    "translation": ">Relacionamento: >"
+  },
+  {
+    "original": ">Desire: >",
+    "translation": ">Desejo: >"
+  },
+  {
+    "original": ">Vault Tension: >",
+    "translation": ">Tensão no Refúgio: >"
+  },
+  {
+    "original": ">Caps: ",
+    "translation": ">Tampinhas: "
+  },
+  {
+    "original": ">W tokens: ",
+    "translation": ">W tokens: "
+  },
+  {
+    "original": "Require:",
+    "translation": "Requer:"
+  },
+  {
+    "original": " should have ",
+    "translation": " deve ter "
+  },
+  {
+    "original": "Loading...",
+    "translation": "Carregando..."
+  },
+  {
+    "original": "Finish",
+    "translation": "Finalizar"
+  },
+  {
+    "original": "Move Mouse Up & Down",
+    "translation": "Mova o Mouse para Cima e para Baixo"
+  },
+  {
+    "original": "Auto play",
+    "translation": "Jogar automaticamente"
+  },
+  {
+    "original": "Play Moans",
+    "translation": "Tocar Gemidos"
+  },
+  {
+    "original": "Vaginal",
+    "translation": "Vaginal"
+  },
+  {
+    "original": "Anal",
+    "translation": "Anal"
+  },
+  {
+    "original": "Both",
+    "translation": "Ambos"
+  },
+  {
+    "original": "Pleasure",
+    "translation": "Prazer"
+  },
+  {
+    "original": "You've fucked {SEX} times so far. Impressive—but don't stop until your dick falls off or your pussy turns radioactive green.",
+    "translation": "Você fodeu {SEX} vezes até agora. Impressionante — mas não pare até seu pau cair ou sua xoxota ficar verde radioativa."
+  },
+  {
+    "original": "You’ve slaughtered {KILLS} motherfuckers. Nice kill count—but your body count should be higher, assuming your dick's still in place.",
+    "translation": "Você massacrou {KILLS} filhos da puta. Bela contagem de mortes — mas sua contagem de corpos deveria ser maior, supondo que seu pau ainda esteja no lugar."
+  },
+  {
+    "original": "Seen that rusted Vault-Tec fuckbot? Repair it, and it'll jerk your dick clean off. Better stock up on Wonderglue first.",
+    "translation": "Viu aquele robô de foda enferrujado da Vault-Tec? Conserte-o, e ele vai arrancar seu pau na punheta. Melhor estocar Super-Cola primeiro."
+  },
+  {
+    "original": "Check your pussy frequently. Mirelurks find dark, wet places appealing.",
+    "translation": "Verifique sua xoxota com frequência. Mirelurks acham lugares escuros e úmidos atraentes."
+  },
+  {
+    "original": "Trading sex for caps is fine, just don’t complain if you get more than you bargained for.",
+    "translation": "Trocar sexo por tampinhas é ok, só não reclame se receber mais do que o esperado."
+  },
+  {
+    "original": "A synth might not have a soul, but damn if they don’t suck dick like they’re programmed by Satan himself.",
+    "translation": "Um sintético pode não ter alma, mas caramba, eles chupam pau como se fossem programados pelo próprio Satanás."
+  },
+  {
+    "original": "Those wasteland hobos haven’t showered since before the bombs fell, but they'd still tongue-fuck your asshole for a stale Fancy Lad snack cake.",
+    "translation": "Aqueles mendigos dos Ermos não tomam banho desde antes das bombas caírem, mas ainda lamberiam seu cu por um bolinho Velho Amigo velho."
+  },
+  {
+    "original": "Farm girls are so cock-starved they'll milk your dick like a Brahmin until your balls implode.",
+    "translation": "As garotas da fazenda são tão famintas por pau que vão ordenhar sua rola como um Brahmin até suas bolas implodirem."
+  },
+  {
+    "original": "Want to fuck your companion raw? Spam relationship points until they beg for cock or pussy, then shove it deep until they can't walk straight.",
+    "translation": "Quer foder seu companheiro sem camisinha? Acumule pontos de relacionamento até que eles implorem por pau ou xoxota, então enfie fundo até que não consigam andar direito."
+  },
+  {
+    "original": "You’ve jerked off {FAPS} times. If only you shot enemies as fast as you blow your load. Hope you're hydrating, champ.",
+    "translation": "Você bateu uma {FAPS} vezes. Se ao menos você atirasse nos inimigos tão rápido quanto goza. Espero que esteja se hidratando, campeão."
+  },
+  {
+    "original": "You're fucked anyway—might as well stick your dick or clit wherever it fits.",
+    "translation": "Você está fodido de qualquer maneira — pode muito bem enfiar seu pau ou clitóris onde quer que caiba."
+  },
+  {
+    "original": "If you bully too many wastelanders, expect them to spit in your face instead of on your dick. Karma’s a bitch.",
+    "translation": "Se você intimidar muitos andarilhos dos Ermos, espere que eles cuspam na sua cara em vez de no seu pau. O carma é uma vadia."
+  },
+  {
+    "original": "Every pussy you plow or cock you ride in this wasteland has a chance to spawn some unwanted surprises.",
+    "translation": "Cada xoxota que você ara ou pau que você monta nestes Ermos tem a chance de gerar algumas surpresas indesejadas."
+  },
+  {
+    "original": "Loot isn’t just caps and chems—sometimes it’s a cum-soaked bedroll.",
+    "translation": "Saque não é só tampinhas e drogas — às vezes é um saco de dormir encharcado de porra."
+  },
+  {
+    "original": "The Purity Police outlawed orgasms—but their tight-assed pussies ache worse than your radiation burns.",
+    "translation": "A Polícia da Pureza proibiu orgasmos — mas as xoxotas apertadas delas doem mais que suas queimaduras de radiação."
+  },
+  {
+    "original": "Rumor has it Mistress Domina was once a witch—now she's turning the wasteland into a femdom dungeon of cock cages and ball-busting.",
+    "translation": "Dizem os rumores que a Mistress Domina já foi uma bruxa — agora ela está transformando os Ermos em uma masmorra femdom de gaiolas de pau e esmagamento de bolas."
+  },
+  {
+    "original": "Take",
+    "translation": "Pegar"
+  },
+  {
+    "original": "Slutty Bubblehead found!",
+    "translation": "Bobblehead da Vadia encontrado!"
+  }
 ]

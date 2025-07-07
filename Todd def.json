@@ -1,77 +1,80 @@
 {
-    "options": [
+  "options": [
+    {
+      "optionText": "QUEM... O QUE É VOCÊ?!",
+      "dontShowIfProgressionEventsPlayed": [
+        "refusedToAcceptToddBlessing",
+        "ToddBlessingComplete"
+      ],
+      "emotion": "Characters/Todd Howard/emotions/open eyes",
+      "responseText": "Ah, seu ajudantezinho do Enclave. Eu sou Todd Howard. Deus dos glitches, senhor dos arquivos de salvamento e, aparentemente, o único aqui com bom senso. Eu sou a força cósmica que mantém este universo mal e mal remendado. E VOCÊ acabou de entregar uma arma para o próprio Hitler do refúgio. Parabéns, campeão.",
+      "followUpOptions": [
         {
-            "optionText": "WHO... WHAT ARE YOU?!",
-            "dontShowIfProgressionEventsPlayed": ["refusedToAcceptToddBlessing", "ToddBlessingComplete"],
-            "emotion": "Characters/Todd Howard/emotions/open eyes",
-            "responseText": "Oh, you little Enclave helper. I’m Todd Howard. God of glitches, lord of save files and apparently the only one here with common sense. I’m the cosmic force that keeps this universe barely duct-taped together. And YOU just handed a gun to the vault's Hitler himself. Congrats, champ.",
-            "followUpOptions": [
+          "optionText": "Por que você está aqui, sua divindade cheia de glitches?",
+          "responseText": "Por que estou aqui? Ah, não sei. Talvez porque você acabou de fazer um speedrun para o final mais amaldiçoado da história da Vault-Tec?",
+          "followUpOptions": [
+            {
+              "optionText": "Certo, justo. Você pode consertar isso?",
+              "progressionEventPlayed": "agreedToAcceptToddBlessing",
+              "responseText": "Consertar? CONSERTAR?! CLARO que posso consertar. Mas devo? Afinal, você é o psicopata que se fez de amiguinho de um membro do Enclave.",
+              "followUpOptions": [
                 {
-                    "optionText": "Why are you here, you glitchy deity?",
-                    "responseText": "Why am I here? Oh, I don’t know. Maybe because you just speedran your way to the most cursed ending in Vault-Tec history?",
-                    "followUpOptions": [
+                  "optionText": "Sim, POR FAVOR, conserte! Eu faço qualquer coisa!",
+                  "addObjective": "Undo your mess.",
+                  "responseText": "Qualquer coisa? Ah, agora você está falando a minha língua, seu pequeno glitch imundo no sistema. Para limpar seus pecados, você deve provar sua devoção. Apenas o mantra sagrado pode te salvar. Repita comigo: 'Simplesmente funciona.'",
+                  "followUpOptions": [
+                    {
+                      "optionText": "Simplesmente funciona.",
+                      "responseText": "Patético! Você acha que os bugs de Fallout 76 morreram com uma convicção tão fraca? DE NOVO, mais alto!",
+                      "followUpOptions": [
                         {
-                            "optionText": "Alright, fair. Can you fix this?",
-                            "progressionEventPlayed": "agreedToAcceptToddBlessing",
-                            "responseText": "Fix it? FIX IT?! Of COURSE I can fix it. But should I? After all, you’re the psycho who played buddy-buddy with a Enclave.",
-                            "followUpOptions": [
+                          "optionText": "SIMPLESMENTE FUNCIONA!",
+                          "responseText": "Sim! Sim! Deixe o mantra fluir através de você! Agora cante como se o destino de toda a Creation Engine da Bethesda dependesse da sua alminha quebrada.",
+                          "followUpOptions": [
+                            {
+                              "optionText": "SIMPLESMENTE FUNCIONA!!",
+                              "responseText": "Lindo! Posso sentir a Todd-energia irradiando de você! Mais uma vez! Grite como se estivesse corrigindo um lançamento do primeiro dia!",
+                              "followUpOptions": [
                                 {
-                                    "optionText": "Yes, PLEASE fix it! I’ll do anything!",
-                                    "addObjective": "Undo your mess.",
-                                    "responseText": "Anything? Oh, now you’re speaking my language, you filthy little glitch in the system. To cleanse your sins, you must prove your devotion. Only the sacred mantra can save you. Repeat after me: 'It just works.'",
-                                    "followUpOptions": [
-                                        {
-                                            "optionText": "It just works.",
-                                            "responseText": "Pathetic! Do you think the bugs in Fallout 76 died with such weak conviction? AGAIN, louder!",
-                                            "followUpOptions": [
-                                                {
-                                                    "optionText": "IT JUST WORKS!",
-                                                    "responseText": "Yes! Yes! Let the mantra flow through you! Now chant it like the fate of the entire Bethesda Creation Engine rests on your broken little soul.",
-                                                    "followUpOptions": [
-                                                        {
-                                                            "optionText": "IT JUST WORKS!!",
-                                                            "responseText": "Beautiful! I can feel the Todd-energy radiating off you! Once more! Scream it like you’re patching a day-one release!",
-                                                            "followUpOptions": [
-                                                                {
-                                                                    "optionText": "IT JUST WORKS!!!",
-                                                                    "responseText": "PERFECT! Your devotion pleases me. Your sins are temporarily patched, but remember: I’m watching. Always watching.",
-                                                                    "markObjectiveComplete": "Undo your mess.",
-                                                                    "specialEffects": [ "restore color filter" ],
-                                                                    "showChoiceStats": "ToddBlessingComplete",
-                                                                    "progressionEventPlayed": "ToddBlessingComplete",
-                                                                    "advanceDayWithStatusMessage": "The divine Todd has spoken. Your sins are patched... for now. Praise him, for it just works.",
-                                                                    "fadeOutCharacter": true,
-                                                                    "exitLine": true
-                                                                },
-                                                                {
-                                                                    "optionText": "Do I really have to keep shouting this?",
-                                                                    "responseText": "Do you want to live in a vault full of corpses, or do you want Todd to bless your pathetic little world? KEEP GOING!" 
-                                                                }
-                                                            ]
-                                                        }
-                                                    ]
-                                                }
-                                            ]
-                                        }
-                                    ]
+                                  "optionText": "SIMPLESMENTE FUNCIONA!!!",
+                                  "responseText": "PERFEITO! Sua devoção me agrada. Seus pecados estão temporariamente corrigidos, mas lembre-se: estou observando. Sempre observando.",
+                                  "markObjectiveComplete": "Undo your mess.",
+                                  "specialEffects": ["restore color filter"],
+                                  "showChoiceStats": "ToddBlessingComplete",
+                                  "progressionEventPlayed": "ToddBlessingComplete",
+                                  "advanceDayWithStatusMessage": "O divino Todd falou. Seus pecados estão corrigidos... por enquanto. Louve-o, pois simplesmente funciona.",
+                                  "fadeOutCharacter": true,
+                                  "exitLine": true
                                 },
                                 {
-                                    "optionText": "Wait, what’s the catch?",
-                                    "responseText": "The catch? Oh, you sweet summer noob. The catch is that I’ll fix it MY way. It might work. It might not. It just works... sometimes." 
+                                  "optionText": "Eu realmente tenho que continuar gritando isso?",
+                                  "responseText": "Você quer viver em um refúgio cheio de cadáveres, ou quer que Todd abençoe seu pequeno mundo patético? CONTINUE!"
                                 }
-                            ]
-                        },
-                        {
-                            "optionText": "No, I’ll live with my choices. Even if it sucks.",
-                            "responseText": "Alright, big shot, enjoy your Nazi BFF and his blood-soaked art exhibit. I’ll just be over here... watching.",
-                            "showChoiceStats": "refusedToAcceptToddBlessing",
-                            "progressionEventPlayed": "refusedToAcceptToddBlessing",
-                            "fadeOutCharacter": true,
-                            "exitLine": true
-                        } 
-                    ]
-                } 
-            ]
-        } 
-    ]
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "optionText": "Espera, qual é a pegadinha?",
+                  "responseText": "A pegadinha? Ah, seu doce novato de verão. A pegadinha é que eu vou consertar do MEU jeito. Pode funcionar. Pode não funcionar. Simplesmente funciona... às vezes."
+                }
+              ]
+            },
+            {
+              "optionText": "Não, vou viver com minhas escolhas. Mesmo que seja uma merda.",
+              "responseText": "Tudo bem, bonzão, aproveite seu melhor amigo nazista e sua exposição de arte encharcada de sangue. Estarei bem aqui... observando.",
+              "showChoiceStats": "refusedToAcceptToddBlessing",
+              "progressionEventPlayed": "refusedToAcceptToddBlessing",
+              "fadeOutCharacter": true,
+              "exitLine": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

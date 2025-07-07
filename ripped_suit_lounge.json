@@ -1,8 +1,8 @@
 {
-    "options": [
-        {
-            "optionText": "Nice... uh, ventilation you got there.",
-            "responseText": "Oh, this? Yeah, I was just doing some 'maintenance,' and whoops! Looks like the fabric couldn't handle my... overwhelming presence. Surprised?"
-        }
-    ]
+  "options": [
+    {
+      "optionText": "Bela... uh, ventilação que você tem aí.",
+      "responseText": "Ah, isso? Sim, eu estava apenas fazendo uma 'manutenção', e ops! Parece que o tecido não aguentou minha... presença avassaladora. Surpreso?"
+    }
+  ]
 }

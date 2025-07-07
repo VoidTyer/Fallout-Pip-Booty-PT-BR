@@ -1,163 +1,179 @@
 {
-    "options": [ 
+  "options": [
+    {
+      "optionText": "Você não parece muito preocupada por eu ter acabado de chutar o traseiro da sua chefe.",
+      "responseText": "Meh. A Tina é durona. Ela vai se recuperar — ou não. De qualquer forma, ainda estarei aqui. Não é meu primeiro ataque que dá errado, sabe?",
+      "followUpOptions": [
         {
-            "optionText": "You don’t seem too worried I just kicked your boss’s ass.",
-            "responseText": "Meh. Tina’s tough. She’ll bounce back—or not. Either way, I’m still be here. Ain’t my first raid gone sideways, you know?",
-            "followUpOptions": [
-                {
-                    "optionText": "You’re awfully chill for someone who might be out of a job.",
-                    "responseText": "Oh no, what will I do without my prestigious career in raider whoring? Guess I’ll have to freelance."
-                },
-                {
-                    "optionText": "Sounds like you’re not a big fan of Tina.",
-                    "responseText": "Eh, she’s fine. Bossy, but at least she doesn’t hog all the caps. Or the chems."
-                }
-            ]
+          "optionText": "Você está bem tranquila para alguém que pode ficar sem emprego.",
+          "responseText": "Oh não, o que farei sem minha prestigiosa carreira de prostituta saqueadora? Acho que terei que ser freelancer."
         },
         {
-            "optionText": "How’d you end up in this life?",
-            "responseText": "What, you mean the glamorous career path of raiding and slutting? Same way everyone else does—shitty upbringing and a healthy lack of self-respect. Got any other dumb questions?",
-            "followUpOptions": [ 
-                {
-                    "optionText": "You ever think about quitting this life?",
-                    "responseText": "Quitting? Ha! What for? So I can go be some farmer’s 'rad-tato wife'? No thanks. I’ll take my chances out here. At least the booze is free."
-                },
-                {
-                    "optionText": "Maybe think about doing something else?",
-                    "responseText": "What, like farming? Starting a family? Nah, I think I’ll stick with 'smoking and not dying today.' It’s working out so far."
-                }
-            ]
-        }, 
-        {
-            "optionText": "How’s business here anyway? You guys raking in the caps or what?",
-            "responseText": "Depends on how horny the caravan crowd is that week. Sometimes it’s great, sometimes you get stuck with cheapskates who think two bottle caps is a 'big tip.' Prostitution’s a real rollercoaster, y’know?"
-        },
-        {
-            "optionText": "How much for your services?",
-            "icon": "GUI/heart4",
-            "responseText": "Oh, interested, are we? Alright, big spender. What’ll it be?",
-            "followUpOptions": [
-                {
-                    "optionText": "Let’s keep it simple.",
-                    "capsRequired": 220,
-                    "failedCheckResponse": "Basic bitch, huh? Alright, 220 caps, step into the back and let’s get this over with. Don’t forget, no refunds.",
-                    "responseText": "Basic bitch, huh? Alright, 220 caps, step into the back and let’s get this over with. Don’t forget, no refunds.",
-                    "followUpOptions": [
-                        {
-                            "optionText": "Here are the caps.",  
-                            "changeSprite": "Characters/Raider Slut/raider slut sex",
-                            "newSpriteXPos": -0.22,
-                            "newSpriteYPos": -0.61,
-                            "closeDialogueOptions": true,
-                            "isHEventStarted": true,  
-                            "specialEffects": ["Blackout"],
-                            "endingEffects": ["Flashes"],
-                            "setBGcolor": "#D4D4D4",
-                            "changeSpriteColor": "#FFFFFF",
-                            "addPerk": "aids",
-                            "progressionEventPlayed": "raider_slut_sex",
-                            "spriteAtTheEndOfHscene": "Characters/Raider Slut/raider slut resized",
-                            "spriteAtTheEndOfHscenePosition": [ -5.35, -2.22 ],
-                            "emotionsDuringHevent": [ "Characters/Raider Slut/emotions/1", "Characters/Raider Slut/emotions/2", "Characters/Raider Slut/emotions/3", "Characters/Raider Slut/emotions/4", "Characters/Raider Slut/emotions/5", "Characters/Raider Slut/emotions/6" ],
-                            "lineAfterHevent": "Mmm, ♥︎, show’s over, sugar. Now get dressed and scram. You’ve had your fun.", 
-                            "hEventName": "PlayerSex_raider_slut",
-                            "auto_lines": ["Oh, there it is. Not bad, not bad. I’ve seen bigger, but I’ve definitely seen worse. ♥︎",
-                                            "Mmm, that’s the spirit. Just relax, honey, and let Smokey do her thing.",
-                                            "Ahh, don’t get all handsy on me. You paid for this, not a personal cuddle session.",
-                                            "Oh, yeah, right there. You like that, don’t you? ♥︎ Thought so.",
-                                            "Mmm, you’ve got that 'I haven’t cumed in weeks' look. Let’s fix that, huh?",
-                                            "Ahh, slow down, cowboy. We’ve got a whole... ten minutes to kill.",
-                                            "Don’t take this the wrong way, but you’re like the tenth guy today. It’s a numbers game, y’know?",
-                                            "Mmm, yeah, just like that. You’re not half-bad when you shut up.",
-                                            "Ahh, you’re making me work for it, huh? Good thing I’ve got plenty of practice.",
-                                            "Mmm, there we go. Bet you’ve been dreaming about this all week, haven’t you?",
-                                            "This is officially the highlight of your week, isn’t it? Pathetic, but cute. ♥︎",
-                                            "Oh, don’t start moaning too loud. I don’t need an audience out here.",
-                                            "You owe me a cigarette after this. House rules.",
-                                            "Mmm, yeah, take it slow, sweetheart. We’ve got... okay, not a lot of time, but still.",
-                                            "Ahh, there’s the face I was waiting for. You’re welcome, by the way. ♥︎",
-                                            "Hey, eyes up here. Just kidding—don’t care where you look.",
-                                            "Alright, speed it up, cowboy. Time’s money, and you’re burning both.",
-                                            "Oh, yeah, I feel that twitch. Come on, don’t be shy—let it out. ♥︎",
-                                            "Next time, maybe throw in a tip, huh? Gotta fund my chem stash somehow.",
-                                            "Mmm, there you go. Looks like someone needed this more than they let on.",
-                                            "Ahh, don’t get too comfy, sugar. We’re not playing house after this.",
-                                            "Mmm, ♥︎, you better be paying extra if you’re planning to go for round two.",
-                                            "Ahh, ♥︎, that’s it, baby. You’re all talk until you’re not, huh?",
-                                            "Mmm, ♥︎, I’ll give you a solid 7/10. Not bad, considering the competition.",
-                                            "Oh, yeah, that’s nice. But let’s not forget—I’ve got better things to do than hold your hand.",
-                                            "Mmm, ♥︎, you’re lucky I’m in a good mood. Usually, I charge more for this kind of energy.",
-                                            "Ahh, ♥︎, don’t start getting all sentimental on me. We’re not writing a love story here.",
-                                            "Mmm, ♥︎, alright, cowboy, time to wrap it up. Can’t keep the others waiting.",
-                                            "Oh, ♥︎, there it is. Bet that felt good, huh? You’re welcome." ]
-                        }
-                    ]
-                },
-                {
-                    "optionText": "How about a... blowjob?",
-                    "capsRequired": 155,
-                    "failedCheckResponse": "Blowjob, huh? 155 caps for that. I’d say it’s worth it—got plenty of practice.",
-                    "responseText": "Blowjob, huh? 155 caps for that. I’d say it’s worth it—got plenty of practice.",
-                    "followUpOptions": [
-                        {
-                            "optionText": "Here are the caps.",  
-                            "changeSprite": "Characters/Raider Slut/blowjob_resized",
-                            "newSpriteXPos": 0.86,
-                            "newSpriteYPos": 0,
-                            "closeDialogueOptions": true,
-                            "isHEventStarted": true,  
-                            "specialEffects": ["Blackout"],
-                            "setBGcolor": "#D4D4D4",
-                            "endingEffects": ["Flashes"],
-                            "progressionEventPlayed": "raider_slut_blowjob", 
-                            "spriteAtTheEndOfHscene": "Characters/Raider Slut/raider slut resized",
-                            "spriteAtTheEndOfHscenePosition": [ -5.35, -2.22 ],
-                            "emotionsDuringHevent": [ "none", "Characters/Raider Slut/emotions/blowjob/1", "Characters/Raider Slut/emotions/blowjob/2", "Characters/Raider Slut/emotions/blowjob/3" ],
-                            "lineAfterHevent": "Ahh, ♥︎, there it is. Mmm, ♥︎, nice and warm. Bet that felt good, huh?", 
-                            "hEventName": "blowjob_raider_slut",
-                            "auto_lines": ["Mmm, ♥︎, let me see what I’m working with here. Hope you cleaned it first.",
-                                            "Slurp Ahh, ♥︎, I can already tell this’ll be worth my time... and your caps.",
-                                            "Mmm, ♥︎, don’t worry, I’m a professional. Got more practice than your average brahmin herder.",
-                                            "Slurp Oh, ♥︎, that’s not bad at all. Guess today’s my lucky day.",
-                                            "Mmm, ♥︎, just sit back and let Smokey Jo handle things. You’re in good hands... or mouth.",
-                                            "Slurp Mmm, yeah, that’s the stuff. You’re already twitching, aren’t you?",
-                                            "Ahh, ♥︎, you’re not gonna last long, are you? Don’t worry, happens to the best of ‘em.",
-                                            "Slurp Mmm, ♥︎, you taste better than most caravaners. Not saying much, but still.",
-                                            "Slurp Mmm, ♥︎, easy there, cowboy. You’re not running a sprint here—pace yourself.",
-                                            "Oh, ♥︎, you’ve got that stupid grin already. I’m just getting started, sugar.",
-                                            "Slurp Mmm, ♥︎, bet you thought this was gonna be quick, huh? Too bad, I like to savor my work.",
-                                            "Ahh, ♥︎, relax. You’re paying me to take care of this, not make you do the heavy lifting.",
-                                            "Mmm, ♥︎, that’s it, sugar. Don’t hold back. I’ve heard it all before.",
-                                            "Slurp Oh, ♥︎, that’s cute. Trying to hold it in? Good luck with that.",
-                                            "Mmm, ♥︎, you’re already shaking. What, hasn’t anyone taken care of you before?",
-                                            "Slurp Mmm, ♥︎, slow down, big guy. We’ve got... well, not a lot of time, but still.",
-                                            "Slurp Oh, ♥︎, you’re making this too easy. Not that I’m complaining.",
-                                            "Mmm, ♥︎, there we go. Bet you’re loving every second of this, aren’t you?",
-                                            "Mmm, ♥︎, you better not pop early. I hate when clients can’t keep up.",
-                                            "Slurp Oh, ♥︎, there’s the face I was waiting for. You’re so predictable.",
-                                            "Mmm, ♥︎, good thing you’re paying, because this ain’t a freebie, sweetheart.",
-                                            "Slurp Ahh, ♥︎, yeah, you’re starting to squirm now. Just how I like it.",
-                                            "Oh, ♥︎, don’t even think about tapping out yet. We’ve still got time.",
-                                            "Slurp Mmm, ♥︎, you’re lucky I’m patient. Most guys fold like paper by now.",
-                                            "Slurp Mmm, ♥︎, keep going, sugar. You’re making me work for it today.",
-                                            "Ahh, ♥︎, there’s that twitch. Come on, don’t be shy—let it all out.",
-                                            "Slurp Mmm, ♥︎, oh, you’re close, aren’t you? That face says it all.",
-                                            "Mmm, ♥︎, yeah, just like that, sugar. Let me finish the job.",
-                                            "Slurp Mmm, ♥︎, that’s it. Don’t hold back now—you’re paying for this, remember?" ]
-                        }
-                    ]
-                }, 
-                {
-                    "optionText": "Actually, never mind.", 
-                    "exitLine": true,
-                    "responseText": "Pfft, tease. Get outta here before I charge you for wasting my time."
-                }
-            ]
-        },
-        {
-            "optionText": "Bye.",
-            "responseText": "Yeah, later. Don’t get eaten by a deathclaw or something.",
-            "exitLine": true
+          "optionText": "Parece que você não é muito fã da Tina.",
+          "responseText": "Eh, ela é ok. Mandona, mas pelo menos não fica com todas as tampinhas. Ou as drogas."
         }
-    ]
-} 
+      ]
+    },
+    {
+      "optionText": "Como você acabou nesta vida?",
+      "responseText": "O quê, você quer dizer a glamorosa carreira de saquear e ser puta? Do mesmo jeito que todo mundo — criação de merda e uma saudável falta de amor-próprio. Tem mais alguma pergunta idiota?",
+      "followUpOptions": [
+        {
+          "optionText": "Você já pensou em largar essa vida?",
+          "responseText": "Largar? Ha! Para quê? Para eu virar a 'esposa rad-tato' de algum fazendeiro? Não, obrigada. Prefiro arriscar aqui. Pelo menos a bebida é de graça."
+        },
+        {
+          "optionText": "Talvez pensar em fazer outra coisa?",
+          "responseText": "O quê, tipo agricultura? Começar uma família? Nah, acho que vou ficar com 'fumar e não morrer hoje'. Está funcionando até agora."
+        }
+      ]
+    },
+    {
+      "optionText": "Como estão os negócios por aqui? Vocês estão ganhando muitas tampinhas ou o quê?",
+      "responseText": "Depende do quão tarada a galera da caravana está naquela semana. Às vezes é ótimo, às vezes você pega uns pão-duros que acham que duas tampinhas é uma 'gorjeta grande'. A prostituição é uma montanha-russa, sabe?"
+    },
+    {
+      "optionText": "Quanto pelos seus serviços?",
+      "icon": "GUI/heart4",
+      "responseText": "Oh, interessado, é? Certo, ricaço. O que vai ser?",
+      "followUpOptions": [
+        {
+          "optionText": "Vamos manter simples.",
+          "capsRequired": 220,
+          "failedCheckResponse": "Básica, hein? Certo, 220 tampinhas, entre nos fundos e vamos acabar logo com isso. Não esqueça, sem reembolsos.",
+          "responseText": "Básica, hein? Certo, 220 tampinhas, entre nos fundos e vamos acabar logo com isso. Não esqueça, sem reembolsos.",
+          "followUpOptions": [
+            {
+              "optionText": "Aqui estão as tampinhas.",
+              "changeSprite": "Characters/Raider Slut/raider slut sex",
+              "newSpriteXPos": -0.22,
+              "newSpriteYPos": -0.61,
+              "closeDialogueOptions": true,
+              "isHEventStarted": true,
+              "specialEffects": ["Blackout"],
+              "endingEffects": ["Flashes"],
+              "setBGcolor": "#D4D4D4",
+              "changeSpriteColor": "#FFFFFF",
+              "addPerk": "aids",
+              "progressionEventPlayed": "raider_slut_sex",
+              "spriteAtTheEndOfHscene": "Characters/Raider Slut/raider slut resized",
+              "spriteAtTheEndOfHscenePosition": [-5.35, -2.22],
+              "emotionsDuringHevent": [
+                "Characters/Raider Slut/emotions/1",
+                "Characters/Raider Slut/emotions/2",
+                "Characters/Raider Slut/emotions/3",
+                "Characters/Raider Slut/emotions/4",
+                "Characters/Raider Slut/emotions/5",
+                "Characters/Raider Slut/emotions/6"
+              ],
+              "lineAfterHevent": "Mmm, ♥︎, o show acabou, docinho. Agora se vista e vaza. Você já se divertiu.",
+              "hEventName": "PlayerSex_raider_slut",
+              "auto_lines": [
+                "Oh, aí está. Nada mal, nada mal. Já vi maiores, mas com certeza já vi piores. ♥︎",
+                "Mmm, esse é o espírito. Apenas relaxe, querido, e deixe a Smokey fazer o trabalho dela.",
+                "Ahh, não venha com mão boba pra cima de mim. Você pagou por isso, não por uma sessão de carinho pessoal.",
+                "Oh, sim, bem aí. Você gosta disso, não gosta? ♥︎ Imaginei.",
+                "Mmm, você tem aquela cara de 'não gozo há semanas'. Vamos consertar isso, hein?",
+                "Ahh, vá com calma, cowboy. Temos uns... dez minutos inteiros para matar.",
+                "Não leve para o lado pessoal, mas você é tipo o décimo cara hoje. É um jogo de números, sabe?",
+                "Mmm, sim, desse jeito. Você não é tão ruim quando cala a boca.",
+                "Ahh, você está me fazendo trabalhar por isso, hein? Ainda bem que tenho muita prática.",
+                "Mmm, aí vamos nós. Aposto que você sonhou com isso a semana toda, não foi?",
+                "Este é oficialmente o ponto alto da sua semana, não é? Patético, mas fofo. ♥︎",
+                "Oh, não comece a gemer muito alto. Não preciso de uma plateia aqui.",
+                "Você me deve um cigarro depois disso. Regras da casa.",
+                "Mmm, sim, vá com calma, docinho. Temos... ok, não muito tempo, mas ainda assim.",
+                "Ahh, aí está a cara que eu estava esperando. De nada, a propósito. ♥︎",
+                "Ei, olhos aqui em cima. Brincadeira — não me importo para onde você olha.",
+                "Certo, acelera aí, cowboy. Tempo é dinheiro, e você está queimando ambos.",
+                "Oh, sim, sinto essa contração. Vamos, não seja tímido — solte tudo. ♥︎",
+                "Da próxima vez, talvez jogue uma gorjeta, hein? Tenho que financiar meu estoque de drogas de alguma forma.",
+                "Mmm, aí está. Parece que alguém precisava disso mais do que admitia.",
+                "Ahh, não fique muito à vontade, docinho. Não vamos brincar de casinha depois disso.",
+                "Mmm, ♥︎, é melhor você pagar extra se estiver planejando ir para o segundo round.",
+                "Ahh, ♥︎, é isso, querido. Você é só conversa até não ser mais, hein?",
+                "Mmm, ♥︎, vou te dar um sólido 7/10. Nada mal, considerando a concorrência.",
+                "Oh, sim, isso é bom. Mas não vamos esquecer — tenho coisas melhores para fazer do que segurar sua mão.",
+                "Mmm, ♥︎, você tem sorte de eu estar de bom humor. Normalmente, cobro mais por esse tipo de energia.",
+                "Ahh, ♥︎, não comece a ficar sentimental comigo. Não estamos escrevendo uma história de amor aqui.",
+                "Mmm, ♥︎, certo, cowboy, hora de terminar. Não posso deixar os outros esperando.",
+                "Oh, ♥︎, aí está. Aposto que foi bom, hein? De nada."
+              ]
+            }
+          ]
+        },
+        {
+          "optionText": "Que tal um... boquete?",
+          "capsRequired": 155,
+          "failedCheckResponse": "Boquete, hein? 155 tampinhas por isso. Eu diria que vale a pena — tenho muita prática.",
+          "responseText": "Boquete, hein? 155 tampinhas por isso. Eu diria que vale a pena — tenho muita prática.",
+          "followUpOptions": [
+            {
+              "optionText": "Aqui estão as tampinhas.",
+              "changeSprite": "Characters/Raider Slut/blowjob_resized",
+              "newSpriteXPos": 0.86,
+              "newSpriteYPos": 0,
+              "closeDialogueOptions": true,
+              "isHEventStarted": true,
+              "specialEffects": ["Blackout"],
+              "setBGcolor": "#D4D4D4",
+              "endingEffects": ["Flashes"],
+              "progressionEventPlayed": "raider_slut_blowjob",
+              "spriteAtTheEndOfHscene": "Characters/Raider Slut/raider slut resized",
+              "spriteAtTheEndOfHscenePosition": [-5.35, -2.22],
+              "emotionsDuringHevent": [
+                "none",
+                "Characters/Raider Slut/emotions/blowjob/1",
+                "Characters/Raider Slut/emotions/blowjob/2",
+                "Characters/Raider Slut/emotions/blowjob/3"
+              ],
+              "lineAfterHevent": "Ahh, ♥︎, aí está. Mmm, ♥︎, bom e quentinho. Aposto que foi bom, hein?",
+              "hEventName": "blowjob_raider_slut",
+              "auto_lines": [
+                "Mmm, ♥︎, deixa eu ver com o que estou trabalhando aqui. Espero que você tenha limpado primeiro.",
+                "Chup Ahh, ♥︎, já posso dizer que vai valer meu tempo... e suas tampinhas.",
+                "Mmm, ♥︎, não se preocupe, sou profissional. Tenho mais prática que o seu criador de brahmin médio.",
+                "Chup Oh, ♥︎, nada mal. Acho que hoje é meu dia de sorte.",
+                "Mmm, ♥︎, apenas sente-se e deixe a Smokey Jo cuidar das coisas. Você está em boas mãos... ou boca.",
+                "Chup Mmm, sim, é disso que eu gosto. Você já está se contorcendo, não está?",
+                "Ahh, ♥︎, você não vai durar muito, vai? Não se preocupe, acontece com os melhores.",
+                "Chup Mmm, ♥︎, você tem um gosto melhor que a maioria dos caravaneiros. Não quer dizer muito, mas ainda assim.",
+                "Chup Mmm, ♥︎, calma aí, cowboy. Você não está correndo uma maratona aqui — vá com calma.",
+                "Oh, ♥︎, você já está com aquele sorrisinho estúpido. Estou apenas começando, docinho.",
+                "Chup Mmm, ♥︎, aposto que você pensou que ia ser rápido, hein? Pena, gosto de saborear meu trabalho.",
+                "Ahh, ♥︎, relaxe. Você está me pagando para cuidar disso, não para fazer o trabalho pesado.",
+                "Mmm, ♥︎, é isso, docinho. Não se segure. Já ouvi de tudo.",
+                "Chup Oh, ♥︎, que fofo. Tentando segurar? Boa sorte com isso.",
+                "Mmm, ♥︎, você já está tremendo. O quê, ninguém nunca cuidou de você antes?",
+                "Chup Mmm, ♥︎, vá com calma, grandão. Temos... bem, não muito tempo, mas ainda assim.",
+                "Chup Oh, ♥︎, você está tornando isso fácil demais. Não que eu esteja reclamando.",
+                "Mmm, ♥︎, aí vamos nós. Aposto que você está amando cada segundo disso, não está?",
+                "Mmm, ♥︎, é melhor você não gozar cedo. Odeio quando os clientes não conseguem acompanhar.",
+                "Chup Oh, ♥︎, aí está a cara que eu estava esperando. Você é tão previsível.",
+                "Mmm, ♥︎, ainda bem que você está pagando, porque isso não é de graça, docinho.",
+                "Chup Ahh, ♥︎, sim, você está começando a se contorcer agora. Do jeito que eu gosto.",
+                "Oh, ♥︎, nem pense em desistir ainda. Ainda temos tempo.",
+                "Chup Mmm, ♥︎, você tem sorte de eu ser paciente. A maioria dos caras desiste como papel a essa altura.",
+                "Chup Mmm, ♥︎, continue, docinho. Você está me fazendo trabalhar hoje.",
+                "Ahh, ♥︎, aí está aquela contração. Vamos, não seja tímido — solte tudo.",
+                "Chup Mmm, ♥︎, oh, você está perto, não está? Essa cara diz tudo.",
+                "Mmm, ♥︎, sim, desse jeito, docinho. Deixa eu terminar o trabalho.",
+                "Chup Mmm, ♥︎, é isso. Não se segure agora — você está pagando por isso, lembra?"
+              ]
+            }
+          ]
+        },
+        {
+          "optionText": "Na verdade, deixa pra lá.",
+          "exitLine": true,
+          "responseText": "Pfft, provocador. Dá o fora daqui antes que eu te cobre por desperdiçar meu tempo."
+        }
+      ]
+    },
+    {
+      "optionText": "Tchau.",
+      "responseText": "Sim, até mais. Não seja comido por um Deathclaw ou algo assim.",
+      "exitLine": true
+    }
+  ]
+}

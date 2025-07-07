@@ -1,44 +1,46 @@
-{ 
+{
   "options": [
     {
-      "optionText": "She looks beautiful. Both of you.",
-      "responseText": "You big sap. If you keep saying stuff like that, you'll turn me soft. Seriously though, I love you.",
+      "optionText": "Ela é linda. Vocês duas.",
+      "responseText": "Seu bobão. Se continuar dizendo coisas assim, vai me amolecer. Sério, eu te amo.",
       "followUpOptions": [
         {
-        "optionText": "Can I hold our baby?",
-        "responseText": "Of course. Careful now—they're tiny. Watching you hold our kid… it's enough to melt me all over again."
+          "optionText": "Posso segurar nosso bebê?",
+          "responseText": "Claro. Cuidado agora—eles são pequenininhos. Ver você segurando nosso filho… é o suficiente para me derreter de novo."
         },
         {
-        "optionText": "How are you feeling, babe?",
-        "responseText": "Tired as hell, but weirdly… amazing. Holding our baby, seeing their little face—I never imagined feeling this much love."
+          "optionText": "Como você está se sentindo, amor?",
+          "responseText": "Cansada pra caralho, mas estranhamente… feliz. Segurar nosso bebê, ver o rostinho deles—nunca imaginei sentir tanto amor."
         },
         {
-        "optionText": "Is parenting as scary as they say?",
-        "responseText": "Scarier, but it's also better. Just promise you'll stay close—I think we can handle anything together."
-        },    
-        {
-        "optionText": "I didn't realize how emotional this would be.",
-        "responseText": "Right? Suddenly everything's different. And I wouldn’t trade these feelings for anything."
+          "optionText": "Ser pai é tão assustador quanto dizem?",
+          "responseText": "Mais assustador, mas também é melhor. Apenas prometa que vai ficar por perto—acho que podemos lidar com qualquer coisa juntos."
         },
         {
-        "optionText": "You're gonna be an amazing mom.",
-        "responseText": "You're killing me with kindness, babe. I'm honestly terrified, but hearing you say that makes it easier."
+          "optionText": "Não percebi o quão emocionante isso seria.",
+          "responseText": "Né? De repente, tudo é diferente. E eu não trocaria esses sentimentos por nada."
+        },
+        {
+          "optionText": "Você vai ser uma mãe incrível.",
+          "responseText": "Você está me matando de gentileza, amor. Sinceramente, estou apavorada, mas ouvir você dizer isso torna tudo mais fácil."
         }
       ]
-    },  
-    {
-      "optionText": "I promise I'll always protect you both.",
-      "responseText": "I believe you. And that's why I'll follow you to the end of this damn vault and beyond."
-    }, 
-    {
-      "optionText": "I love you more than ever.",
-      "responseText": "Now you're just trying to make me cry. I love you too, you stubborn, incredible pain in my ass."
     },
     {
-      "optionText": "I'll let you rest. Call me if you need anything.",
-      "responseText": "Don't go too far. We miss you already.",
+      "optionText": "Prometo que sempre protegerei vocês dois.",
+      "responseText": "Eu acredito em você. E é por isso que te seguirei até o fim deste maldito refúgio e além."
+    },
+    {
+      "optionText": "Eu te amo mais do que nunca.",
+      "responseText": "Agora você só está tentando me fazer chorar. Eu também te amo, seu teimoso e incrível pé no saco."
+    },
+    {
+      "optionText": "Vou te deixar descansar. Me chame se precisar de algo.",
+      "responseText": "Não vá muito longe. Já estamos com saudades.",
       "exitLine": true
     }
   ],
-  "auto_lines": ["Hey there, come meet your baby. Look at us—officially a family now."]
+  "auto_lines": [
+    "Ei, venha conhecer seu bebê. Olhe para nós—oficialmente uma família agora."
+  ]
 }

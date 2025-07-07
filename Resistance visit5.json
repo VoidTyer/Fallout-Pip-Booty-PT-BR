@@ -1,30 +1,34 @@
 {
-    "options": [
-        {
-            "optionText": "Is this the final push?",
-            "responseText": "Final push? This is the climax, bro! The vault’s wound up tighter than a pre-war vault jumpsuit after Thanksgiving. One more nudge, and the Purity Cops will be the ones begging for a release. Just be ready for the fireworks."
-        },
-        {
-            "optionText": "How do we avoid the lockdown?",
-            "responseText": "Avoid it? Bro, we lean into it. We’ve hidden contraband in every corner. When they go searching, they’re gonna find more holotapes than an adult convention. It’s like tossing grenades into a toddler's birthday party—total chaos. They’ll be crying for their moms by the time we're done."
-        },
-        {
-            "optionText": "I ran out of the mags. Do you have more?",
-            "dontShowIfProgressionEventPlayed": "mags_vol5_handed",
-            "giveItem": "Loose Housewives Vol.5",
-            "numOfCopiesToGive": 4,
-            "progressionEventPlayed": "mags_vol5_handed",
-            "exitLine": true,
-            "icon": "GUI/magazine",
-            "responseText": "Magazines? Oh, you mean ‘historical documents.’ Of course, citizen. Take these and preserve our ‘cultural heritage.’"
-        },
-        {
-            "optionText": "Bye.",
-            "responseTexts": ["Remember, when your hand gets lonely tonight, you know where to find me. Viva la fap-olution!",
-                            "When the potato farming and purity lectures get too much, just know there’s a stash of contraband and some loyal right hands waiting for you. Fap well, my friend.",
-                            "Later, dude. I’ll be in the usual place... right behind you, lurking in the shadows. No pressure, though."],
-            "exitLine": true
-        }
-    ],
-    "auto_lines":[ "My dude, this place is a pressure cooker! The Overseer’s ordering a full lockdown, and the Purity Police are walking around like they’ve got bowling pins shoved up their ass. We’re *this* close to total meltdown!" ]
+  "options": [
+    {
+      "optionText": "Este é o empurrão final?",
+      "responseText": "Empurrão final? Este é o clímax, mano! O refúgio está mais apertado que um macacão pré-guerra depois do Dia de Ação de Graças. Mais um empurrãozinho, e os Policiais da Pureza serão os que implorarão por uma liberação. Apenas esteja pronto para os fogos de artifício."
+    },
+    {
+      "optionText": "Como evitamos o lockdown?",
+      "responseText": "Evitar? Mano, a gente abraça. Escondemos contrabando em cada canto. Quando eles forem procurar, vão encontrar mais holofitas que uma convenção de adultos. É como jogar granadas na festa de aniversário de uma criança — caos total. Eles estarão chorando pelas mães quando terminarmos."
+    },
+    {
+      "optionText": "Acabaram as minhas revistas. Você tem mais?",
+      "dontShowIfProgressionEventPlayed": "mags_vol5_handed",
+      "giveItem": "Loose Housewives Vol.5",
+      "numOfCopiesToGive": 4,
+      "progressionEventPlayed": "mags_vol5_handed",
+      "exitLine": true,
+      "icon": "GUI/magazine",
+      "responseText": "Revistas? Ah, você quer dizer 'documentos históricos'. Claro, cidadão. Pegue estes e preserve nossa 'herança cultural'."
+    },
+    {
+      "optionText": "Tchau.",
+      "responseTexts": [
+        "Lembre-se, quando sua mão se sentir solitária esta noite, você sabe onde me encontrar. Viva a revolução da punheta!",
+        "Quando a agricultura de batata e as palestras de pureza ficarem demais, saiba que há um estoque de contrabando e algumas mãos direitas leais esperando por você. Bata uma bem, meu amigo.",
+        "Até mais, cara. Estarei no lugar de sempre... bem atrás de você, à espreita nas sombras. Sem pressão, no entanto."
+      ],
+      "exitLine": true
+    }
+  ],
+  "auto_lines": [
+    "Meu chapa, este lugar é uma panela de pressão! O Supervisor está ordenando um lockdown total, e a Polícia da Pureza está andando por aí como se tivessem enfiado pinos de boliche no cu. Estamos *tão* perto do colapso total!"
+  ]
 }

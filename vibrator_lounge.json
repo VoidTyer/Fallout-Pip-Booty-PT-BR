@@ -1,14 +1,14 @@
 {
-    "options": [
+  "options": [
+    {
+      "optionText": "Você está mesmo com essa coisa vibrando com ela parada bem aí?",
+      "responseText": "Ah, pode apostar que sim. Ela provavelmente pensa que é um defeito no duto de ventilação. Os coitados da Polícia da Pureza estão ocupados demais se masturbando com os olhos para notar que estou gozando à vista de todos.",
+      "followUpOptions": [
         {
-            "optionText": "You seriously have that thing buzzing while she's standing right there?",
-            "responseText": "Oh, you bet your sweet ass. She probably thinks it’s an air vent malfunction. Poor Purity Police are too busy jacking each other off with their eyes to notice me cumming in plain sight.",
-            "followUpOptions": [
-                {
-                    "optionText": "You really don't give a fuck, do you?",
-                    "responseText": "Sweetie, I haven’t given a fuck since the bombs dropped. If anything, I give out frustration."
-                } 
-            ]
+          "optionText": "Você realmente não dá a mínima, não é?",
+          "responseText": "Docinho, eu não dou a mínima desde que as bombas caíram. Se eu dou alguma coisa, é frustração."
         }
-    ]
+      ]
+    }
+  ]
 }

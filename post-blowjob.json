@@ -1,59 +1,59 @@
 {
   "options": [
     {
-      "optionText": "How are you feeling after… that?",
+      "optionText": "Como você está se sentindo depois… daquilo?",
       "emotion": "Characters/Grace Wells/emotions/grace closed eyes",
-      "responseText": "*wipes her lips quickly* I… I don’t know… weird… gross… kinda… tingly… I don’t know… don’t ask me that right now…",
+      "responseText": "*limpa os lábios rapidamente* Eu… eu não sei… estranho… nojento… meio que… formigando… eu não sei… não me pergunte isso agora…",
       "followUpOptions": [
         {
-          "optionText": "Do you regret it?",
+          "optionText": "Você se arrepende?",
           "emotion": "Characters/Grace Wells/emotions/grace closed eyes",
-          "responseText": "*lets out a shaky breath* I… I don’t know… maybe… maybe not… it just… it felt like I wasn’t myself… like my brain turned off and… ugh, just… forget it."
-        }, 
-        {
-          "optionText": "You looked so cute with my cock in your mouth.",
-          "emotion": "Characters/Grace Wells/emotions/biting lip closed eyes",
-          "responseText": "Stop… just… stop talking… god… Don’t say shit like that… it’s messed up…"
+          "responseText": "*solta uma respiração trêmula* Eu… eu não sei… talvez… talvez não… só… parecia que não era eu… como se meu cérebro tivesse desligado e… ugh, só… esquece."
         },
         {
-        "optionText": "You went quiet. What’s going on in your head?",
-        "emotion": "Characters/Grace Wells/emotions/grace closed eyes",
-        "responseText": "*stares blankly at the floor* I don’t know… it’s like… everything feels heavy… and my chest hurts… but also… I can’t stop… feeling… weird… inside…",
-        "followUpOptions": [
-            {
-            "optionText": "Weird how?",
-            "emotion": "Characters/Grace Wells/emotions/grace closed eyes",
-            "responseText": "Like… like I want to curl up and die from embarrassment… but… also… I don’t know… warm… just… shut up…"
-            } 
-        ]
-        }, 
+          "optionText": "Você estava tão fofa com meu pau na sua boca.",
+          "emotion": "Characters/Grace Wells/emotions/biting lip closed eyes",
+          "responseText": "Para… só… para de falar… Deus… Não diga merdas assim… é doentio…"
+        },
         {
-          "optionText": "Your mouth felt amazing. I want more next time.",
+          "optionText": "Você ficou quieta. O que está se passando na sua cabeça?",
+          "emotion": "Characters/Grace Wells/emotions/grace closed eyes",
+          "responseText": "*olha fixamente para o chão* Eu não sei… é como… tudo parece pesado… e meu peito dói… mas também… não consigo parar de… me sentir… estranha… por dentro…",
+          "followUpOptions": [
+            {
+              "optionText": "Estranha como?",
+              "emotion": "Characters/Grace Wells/emotions/grace closed eyes",
+              "responseText": "Tipo… como se eu quisesse me encolher e morrer de vergonha… mas… também… não sei… quente… só… cala a boca…"
+            }
+          ]
+        },
+        {
+          "optionText": "Sua boca foi incrível. Quero mais da próxima vez.",
           "emotion": "Characters/Grace Wells/emotions/grace scared",
-          "responseText": "*eyes dart up in panic* Next time?! I… I don’t… know if I’m ready for that… god… I can’t even think straight right now…"
+          "responseText": "*olhos se arregalam em pânico* Próxima vez?! Eu… eu não… sei se estou pronta para isso… Deus… não consigo nem pensar direito agora…"
         }
       ]
-    }, 
-    {
-      "optionText": "Would you… ever want to do it again?",
-      "emotion": "Characters/Grace Wells/emotions/grace scared",
-      "responseText": "*tenses* I… I don’t know… okay? Don’t… don’t ask me that right now… my head’s all… messy…"
-    },  
-    {
-      "optionText": "Thanks, Grace.",
-      "emotion": "Characters/Grace Wells/emotions/biting lip closed eyes",
-      "responseText": "*blushes deeper* Don’t… thank me… it’s weird…"
     },
     {
-      "optionText": "Bye",
+      "optionText": "Você… gostaria de fazer de novo?",
+      "emotion": "Characters/Grace Wells/emotions/grace scared",
+      "responseText": "*fica tensa* Eu… eu não sei… ok? Não… não me pergunte isso agora… minha cabeça está toda… confusa…"
+    },
+    {
+      "optionText": "Obrigado, Grace.",
+      "emotion": "Characters/Grace Wells/emotions/biting lip closed eyes",
+      "responseText": "*cora ainda mais* Não… me agradeça… é estranho…"
+    },
+    {
+      "optionText": "Tchau",
       "emotion": "none",
-      "responseText": "Y-yeah… bye… and… just… don’t tell anyone… please…",
+      "responseText": "S-sim… tchau… e… só… não conte a ninguém… por favor…",
       "exitLine": true
     }
   ],
-  "auto_lines": [ 
-    "God… what did I just do…",
-    "God… I can still taste it…", 
-    "Please… just let me disappear…"
+  "auto_lines": [
+    "Deus… o que eu acabei de fazer…",
+    "Deus… ainda consigo sentir o gosto…",
+    "Por favor… só me deixe desaparecer…"
   ]
-}  
+}

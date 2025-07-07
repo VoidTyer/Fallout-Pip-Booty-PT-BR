@@ -1,62 +1,62 @@
 {
-    "options": [
+  "options": [
+    {
+      "optionText": "Quem diabos é você, e por que está sentado aqui como se fosse o dono do lugar?",
+      "responseText": "Meu nome é Buster. Buster 'Suave' Burns. Segurança de pureza autoproclamado deste fino estabelecimento. Tenho que garantir que ninguém esteja ficando... sabe... animado demais com sua Nuka-Cola. Já viu um homem meditar tão intensamente que as calças caem? Fique por aqui.",
+      "followUpOptions": [
         {
-            "optionText": "Who the hell are you, and why are you sitting here like you own the place?",
-            "responseText": "Name's Buster. Buster 'Mellow' Burns. Self-appointed purity bouncer of this fine establishment. Gotta make sure no one's getting... you know... too excited over their Nuka-Cola. Ever seen a man meditate so hard his pants fall off? Stick around.",
-            "followUpOptions": [
-                {
-                    "optionText": "Purity bouncer? What, are you afraid someone's gonna get too handsy with the mashed potatoes?",
-                    "responseText": "Listen, bro, potatoes are the gateway tuber. You start with potatoes, next thing you know, you're neck-deep in contraband carrots. I’m just here to keep things zen, not... juicy."
-                }
-            ]
-        },
-        {
-            "optionText": "What’s that weird smell? Are you vaping farts?",
-            "responseText": "Haha. Nah, man. This here’s my own blend. I call it ‘Zen Master Kush.’ It’s got hints of enlightenment, mixed with a splash of ‘I don’t give a fuck.’ Clears the mind. Or so I tell the purity police.",
-            "followUpOptions": [
-                {
-                    "optionText": "You sure it's legal?",
-                    "responseText": "What’s legal anymore? They’re cracking down on everything fun. Pretty soon, they'll make breathing illegal. But I got the hookup from a guy in the hydroponics lab. Swears it's just mint... and maybe a bit of weed."
-                },
-                {
-                    "optionText": "Can I have a hit?",
-                    "responseText": "<i>Buster looks you up and down.</i> Alright, but only because you seem chill. One hit, though. Any more and you might start seeing the universe in 8K.",
-                    "followUpOptions": [
-                        {
-                            "optionText": "[Take a hit]",
-                            "responseText": "Welcome to the zen zone, newbie. Just don’t let the Purity Police see you, or we’re both gonna be spending quality time in the Shame Chamber.",
-                            "specialEffects": ["ChromaticAberration"],
-                            "playSound": "Sounds/fallout 4/chem eddict",
-                            "exitLine": true
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "optionText": "So what’s your deal? You just sit here flexing all day?",
-            "responseText": "Flexing is a way of life, man. You flex the mind, you flex the soul. The body just follows. Plus, it helps keep Gina safe from impure thoughts. Not mine, of course. I’m talking about all these other degenerates around here.",
-            "followUpOptions": [
-                {
-                    "optionText": "Who's Gina, your imaginary girlfriend?",
-                    "responseText": "Gina’s the real deal, man. She’s got the face of a 50s pin-up and the attitude of a Radroach on Jet. She’s the only reason I’m not meditating in the shame chamber right now. Gotta keep her safe from pervs... like you.",
-                    "followUpOptions": [
-                        {
-                            "optionText": "Sounds like you've got a major crush on her.",
-                            "responseText": "<i>Buster's face turns slightly red, but he tries to play it off with a shrug.</i> Nah, man, it’s not like that. I’m just… looking out for her. Like a guardian angel. With muscles. And a vape pen."
-                        },
-                        {
-                            "optionText": "And what if she’s the one with impure thoughts?",
-                            "responseText": "Whoa, that’s like… some next-level zen sh*t right there. But nah, Gina’s pure. I mean, as pure as you can be in a vault full of horny idiots and canned beans."
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "optionText": "Bye",
-            "responseText": "<i>Buster gives a two-finger salute.</i> Stay cool, man.",
-            "exitLine": true
+          "optionText": "Segurança de pureza? O quê, você tem medo que alguém fique muito saidinho com o purê de batatas?",
+          "responseText": "Escuta, mano, batatas são o tubérculo de entrada. Você começa com batatas, e quando vê, está atolado em cenouras de contrabando. Estou aqui só para manter as coisas zen, não... suculentas."
         }
-    ]
+      ]
+    },
+    {
+      "optionText": "Que cheiro estranho é esse? Você está vaporizando peidos?",
+      "responseText": "Haha. Não, cara. Esta aqui é minha mistura própria. Eu chamo de ‘Zen Master Kush’. Tem toques de iluminação, misturados com um pingo de ‘não dou a mínima’. Limpa a mente. Ou pelo menos é o que eu digo para a polícia da pureza.",
+      "followUpOptions": [
+        {
+          "optionText": "Tem certeza que é legal?",
+          "responseText": "O que é legal hoje em dia? Eles estão reprimindo tudo que é divertido. Daqui a pouco, vão tornar a respiração ilegal. Mas eu consegui com um cara do laboratório de hidroponia. Ele jura que é só menta... e talvez um pouco de maconha."
+        },
+        {
+          "optionText": "Posso dar um trago?",
+          "responseText": "<i>Buster te olha de cima a baixo.</i> Certo, mas só porque você parece tranquilo. Um trago, no entanto. Mais que isso e você pode começar a ver o universo em 8K.",
+          "followUpOptions": [
+            {
+              "optionText": "[Dar um trago]",
+              "responseText": "Bem-vindo à zona zen, novato. Só não deixe a Polícia da Pureza te ver, ou nós dois vamos passar um tempo de qualidade na Câmara da Vergonha.",
+              "specialEffects": ["ChromaticAberration"],
+              "playSound": "Sounds/fallout 4/chem eddict",
+              "exitLine": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "optionText": "Então, qual é a sua? Você só fica aí flexionando o dia todo?",
+      "responseText": "Flexionar é um estilo de vida, cara. Você flexiona a mente, você flexiona a alma. O corpo apenas segue. Além disso, ajuda a manter a Gina a salvo de pensamentos impuros. Não os meus, claro. Estou falando de todos esses outros degenerados por aqui.",
+      "followUpOptions": [
+        {
+          "optionText": "Quem é Gina, sua namorada imaginária?",
+          "responseText": "A Gina é de verdade, cara. Ela tem o rosto de uma pin-up dos anos 50 e a atitude de uma Radroach chapada de Jet. Ela é a única razão pela qual não estou meditando na câmara da vergonha agora. Tenho que mantê-la a salvo de pervertidos... como você.",
+          "followUpOptions": [
+            {
+              "optionText": "Parece que você tem uma queda enorme por ela.",
+              "responseText": "<i>O rosto de Buster fica um pouco vermelho, mas ele tenta disfarçar com um encolher de ombros.</i> Não, cara, não é assim. Estou só… cuidando dela. Como um anjo da guarda. Com músculos. E uma caneta vape."
+            },
+            {
+              "optionText": "E se for ela quem tem pensamentos impuros?",
+              "responseText": "Uau, isso é tipo… uma merda zen de outro nível. Mas não, a Gina é pura. Quer dizer, tão pura quanto se pode ser em um refúgio cheio de idiotas com tesão e feijão enlatado."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "optionText": "Tchau",
+      "responseText": "<i>Buster faz uma saudação com dois dedos.</i> Fique tranquilo, cara.",
+      "exitLine": true
+    }
+  ]
 }

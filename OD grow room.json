@@ -1,200 +1,199 @@
 {
-    "options": [
+  "options": [
+    {
+      "optionText": "Então... a gente não vai falar sobre a suruba de Deathclaws?",
+      "onlyShowIfProgressionEventPlayed": "daughter_railed_by_deathclaw",
+      "responseText": "Ah, *aquela* pequena delícia da tarde? Honestamente, eu estava mais preocupada em pegar farpas de Deathclaw nos lugares errados. Aquelas garras não são brincadeira — você já tentou fazer a vaqueira reversa em um tanque biológico com facas no lugar das mãos? É um esporte.",
+      "followUpOptions": [
         {
-            "optionText": "So... we’re just not gonna talk about the Deathclaw gangbang?",
-            "onlyShowIfProgressionEventPlayed": "daughter_railed_by_deathclaw",
-            "responseText": "Oh, *that* little afternoon delight? Honestly, I was more worried about getting Deathclaw splinters in the wrong places. Those claws are no joke—you ever try reverse-cowgirl on a biological tank with knives for hands? It’s a sport.",
-            "followUpOptions": [
-                {
-                    "optionText": "I still hear the slapping in my dreams.",
-                    "responseText": "That’s the rhythm of the wild. Nature finds a way—and sometimes it finds three radioactive roid-lizards and a girl with zero shame and a death wish. Just be glad they didn’t take much interest in *you*. Though they were eyeing you like dessert."
-                }, 
-                {
-                    "optionText": "You waved at me. *Mid-thrust.*",
-                    "responseText": "What was I supposed to do, ignore you? That’s just rude. Besides, I thought you might wanna join. You were lurking like a creep behind hydroponics like you just walked in on your parents."
-                },
-                {
-                    "optionText": "That Deathclaw at the end winked at me. Explain.",
-                    "responseText": "Yeah, that’s Krugg. Don’t mind him—he’s got a lazy eye and an even lazier pullout game. If he starts mailing you eggs, just block him. Or raise ‘em. I don’t judge."
-                }
-            ]
+          "optionText": "Ainda ouço os tapas nos meus sonhos.",
+          "responseText": "Esse é o ritmo da selva. A natureza encontra um jeito — e às vezes ela encontra três lagartos radioativos e anabolizados e uma garota com zero vergonha e um desejo de morte. Agradeça por eles не terem se interessado muito por *você*. Embora estivessem te olhando como sobremesa."
         },
         {
-            "optionText": "What in the name of all that’s holy are you going to do with the sweat?",
-            "dontDisplayIfHasObjective": "Escort Overseer's Daughter to Deathroot Bog",
-            "onlyDisplayIfObjectiveComplete": "Extract Deathclaw ball sweat",
-            "dontShowIfProgressionEventPlayed": "daughter_railed_by_deathclaw",
-            "icon": "GUI/quest mark",
-            "responseText": "Oh, it’s simple science! I mix it with a dash of Boogey’s home-brewed psychedelic root extract, sprinkle in some vault-grown catnip, and voilà—a perfume so potent it’ll have Deathclaws stampeding from miles away. It’s either gonna be groundbreaking or I’ll get mauled. Either way, it’s gonna be hilarious.",
-            "followUpOptions": [
-                {
-                "optionText": "That's insane.",
-                "icon": "GUI/quest mark",
-                "responseText": "You think that's insane? Wait till you see the field test. Which reminds me—pack your gear. We're headed out to the wasteland so I can test this baby somewhere less likely to end with a vault-wide deathclaw gangbang.",
-                "followUpOptions": [
-                    {
-                        "optionText": "Count me in. I can't miss this.",
-                        "addObjective": "Escort Overseer's Daughter to Deathroot Bog",
-                        "icon": "GUI/quest mark",
-                        "addFollower": "Overseer’s Daughter",
-                        "responseText": "Hell yes. Grab your gun, your meds—we’re about to catfish some horny deathclaws. And if I get groped or killed, I’m blaming you!",
-                        "exitLine": true
-                    },
-                    {
-                        "optionText": "Nope. I’m not getting raw-dogged by radioactive lizards.",
-                        "responseText": "Coward. Fine. I’ll go alone—and if I end up gang-raped by some raiders, I’m naming the babies after you.",
-                        "exitLine": true
-                    }
-                ]
-                }
-            ]
+          "optionText": "Você acenou para mim. *No meio da metida.*",
+          "responseText": "O que eu deveria fazer, te ignorar? Isso é falta de educação. Além disso, pensei que você talvez quisesse participar. Você estava espreitando como um tarado atrás da hidroponia, como se tivesse acabado de pegar seus pais no flagra."
         },
         {
-            "optionText": "Here. I got your... uh... Deathclaw juice.",
-            "onlyDisplayIfHasObjective": "Extract Deathclaw ball sweat",
-            "dontDisplayIfObjectiveComplete": "Extract Deathclaw ball sweat",
-            "itemRequired": "Deathclaw ball sweat",
-            "giveItemToCharacter": "Deathclaw ball sweat",
-            "markObjectiveComplete": "Extract Deathclaw ball sweat",
-            "addSusPoints": 10,
-            "relationshipPoints": 15,
-            "icon": "GUI/quest mark",
-            "responseText": "Sweet mother of Vault-Tec, you actually did it. Look at this—the unholy nut nectar of a radioactive murder lizard, and it’s still warm. You didn’t... taste-test it or anything, right? Nah, don’t answer that. I don’t want to know.",
-            "followUpOptions": [
-                {
-                    "optionText": "You’re one sick girl, you know that?",
-                    "responseText": "Says the brave weirdo who fondled a Deathclaw’s undercarriage to make it happen. Don’t get all high and mighty on me now."
-                },
-                {
-                    "optionText": "What in the name of all that’s holy are you going to do with this?",
-                    "dontDisplayIfHasObjective": "Escort Overseer's Daughter to Deathroot Bog",
-                    "icon": "GUI/quest mark",
-                    "responseText": "Oh, it’s simple science! I mix it with a dash of Boogey’s home-brewed psychedelic root extract, sprinkle in some vault-grown catnip, and voilà—a perfume so potent it’ll have Deathclaws stampeding from miles away. It’s either gonna be groundbreaking or I’ll get mauled. Either way, it’s gonna be hilarious.",
-                    "followUpOptions": [
-                        {
-                        "optionText": "That's insane.",
-                        "icon": "GUI/quest mark",
-                        "responseText": "You think that's insane? Wait till you see the field test. Which reminds me—pack your gear. We're headed out to the wasteland so I can test this monstrosity somewhere less likely to end with a vault-wide deathclaw gangbang.",
-                        "followUpOptions": [
-                            {
-                                "optionText": "Count me in. I can't miss this.",
-                                "addObjective": "Escort Overseer's Daughter to Deathroot Bog",
-                                "icon": "GUI/quest mark",
-                                "addFollower": "Overseer’s Daughter",
-                                "responseText": "Hell yes. Grab your gun, your meds—we’re about to catfish some horny deathclaws. And if I get groped or killed, I’m blaming you!",
-                                "exitLine": true
-                            },
-                            {
-                                "optionText": "Nope. I’m not getting raw-dogged by radioactive lizards.",
-                                "responseText": "Coward. Fine. I’ll go alone—and if I end up gang-raped by some raiders, I’m naming the babies after you.",
-                                "exitLine": true
-                            }
-                        ]
-                        }
-                    ]
-                },
-                {
-                    "optionText": "You better pay up. I nearly died for this.",
-                    "addWillpowerTokens": 200,
-                    "exitLine": true,
-                    "responseText": "Pay up? You’ve got it, fearless Deathclaw sack wrangler. Here’s your 200 tokens. That’s enough to buy yourself a stiff drink—or maybe some therapy for whatever trauma you just went through."
-                } 
-            ]
-        },        
-        {
-            "optionText": "Who's the creepy tall guy? He looks like he collects teeth.",
-            "responseText": "Oh, that’s Boogie. Yeah, he’s a creep, but in a fun way. He collects weird stuff alright, but don’t worry, he collects teeth only from people who really piss him off.",
-            "followUpOptions": [
-                {
-                    "optionText": "What's your deal with him?",
-                    "responseText": "Oh, we’re like the Bonnie and Clyde of vault fuckery. He’s the brains behind the black market, and I’m the smartass who finds ways to get us out of trouble. We’re basically the heroes this place doesn’t deserve."
-                }
-            ]
-        },
-        {
-            "optionText": "Is this... the grow room?",
-            "responseText": "Wow, Sherlock, you really cracked the case. Yes, it’s the grow room. Plants, dirt, and me—the overseer’s daughter—the only source of entertainment in this vault. Wanna take a guess what I’m really growing here?",
-            "followUpOptions": [
-                {
-                    "optionText": "Wait, you're the Overseer’s daughter?",
-                    "responseText": "Ding ding ding! Yeah, I’m the lucky spawn of the vault’s fun-police chief himself. Don’t let that fool you though—I don’t plan on wasting my life on this no-fap bullshit like he does.",
-                    "followUpOptions": [ 
-                        {
-                            "optionText": "So, you're... rebellious.",
-                            "responseText": "Rebellious? Ha! I prefer ‘professional loophole exploiter.’ Rules are just suggestions for people who don’t know how to have fun. If there’s trouble, you can bet your ass I’m involved in some way."
-                        },  
-                        {
-                            "optionText": "What’s it like being the Overseer’s daughter?",
-                            "responseText": "It’s like being in a prison cell with Daddy’s rules plastered on every wall, except I’ve got a key and zero fucks to give. He drones on about ‘responsibility’ while I’m smuggling holotapes and taking bets on when he’ll have his next nervous breakdown."
-                        },
-                        {
-                            "optionText": "Aren’t you worried your dad will find out what you’re doing?",
-                            "responseText": "My dad? Please. He couldn’t find his own ass with both hands and a fucking GPS. I’ve been dodging his 'You must remain pure!' speeches since I was old enough to roll my eyes."
-                        },
-                        {
-                            "optionText": "If your dad forbids sexual release, how do you even exist?",
-                            "responseText": "Yeah, that one stumps most people. Vault records say I ‘just appeared’ one day in the nursery with a note taped to my onesie: 'A gift from the Overseer’s devotion.' Pretty sure that’s cult-speak for 'no one wants to admit how it happened.' Even he doesn’t talk about it. Real immaculate conception vibes, right?"
-                        }
-                        
-                    ]
-                },
-                {
-                    "optionText": "What are you growing in here?",
-                    "responseText": "Oh, wouldn’t you like to know? Let’s just say it’s a little ‘special blend’ Boogeyman and I have been working on. One hit and even the Purity Patrol starts humping furniture. And yes, it’s illegal as hell. That’s half the fun."
-                }
-            ]
-        },
-        {
-            "optionText": "Do you need any help?",
-            "dontDisplayIfHasObjective": "Extract Deathclaw ball sweat",
-            "dontDisplayIfObjectiveComplete": "Extract Deathclaw ball sweat",
-            "dontShowIfProgressionEventPlayed": "refused_overseer_daughter_request",
-            "icon": "GUI/quest mark",
-            "responseText": "Oh, you’re volunteering? Brave. Or stupid. But yeah, I’ve got a little ‘mission’. You in?",
-            "followUpOptions": [
-                {
-                    "optionText": "What’s the job?",
-                    "progressionEventPlayed": "daughter_asked_for_deathclaw_nut",
-                    "responseText": "I need you to collect some Deathclaw ball sweat. Yeah, you heard me. I need those big scaly murder-lizards' nut marinate in a jar. Don’t ask why—just grab the sack nectar and haul ass back here.",
-                    "followUpOptions": [
-                        {
-                            "optionText": "Why the hell do you need THAT?",
-                            "responseText": "It’s for an experiment. I’m working on a special ‘love potion’ for Deathclaws. Don’t look at me like that—it’s purely scientific. Definitely not about creating a Deathclaw mating ritual in the vault for my own twisted amusement or anything. Ahem."
-                        },
-                        {
-                            "optionText": "You’re out of your damn mind.",
-                            "responseText": "Oh, absolutely. But here’s the thing: no one remembers the boring people. Legends are made by lunatics like me—and the poor suckers like you who help out."
-                        }, 
-                        {
-                            "optionText": "Fine. How do I even DO that?",
-                            "icon": "GUI/quest mark",
-                            "exitLine": true,
-                            "progressionEventPlayed": "accepted_overseer_daughter_request",
-                            "showChoiceStats": "accepted_overseer_daughter_request",
-                            "addObjective": "Extract Deathclaw ball sweat", 
-                            "responseText": "Easy! First, find a Deathclaw. Second, wait for it to charge you. Third, dive under the legs, dodge those talons, and give its scaly boys a squeeze. Fourth, run like hell before it makes you its next chew toy. Got it? Great!"
-                        },
-                        {
-                            "optionText": "[Report her]",
-                            "progressionEventPlayed": "refused_overseer_daughter_request",
-                            "showChoiceStats": "refused_overseer_daughter_request", 
-                            "onlyShowIfProgressionEventPlayed": "REMOVED",
-                            "reported": 1,
-                            "exitLine": true,
-                            "responseText": "Pfft, coward. Guess I’ll have to find someone else then..."
-                        }
-                    ]
-                },
-                {
-                    "optionText": "What’s in it for me?",
-                    "responseText": "Oh, I’ll make it worth your while, don’t worry. How does 200 W Tokens sound? That’s enough to bribe half the vault, stock up on snacks, or bet it all on Boogeyman’s next underground fight. Plus, you get eternal bragging rights for touching a Deathclaw where no one’s dared before. Cool, right?"
-                }
-            ]
-        },
-        {
-            "optionText": "Bye.",
-            "exitLine": true,
-            "responseText": "Catch you later."
+          "optionText": "Aquele Deathclaw no final piscou para mim. Explique.",
+          "responseText": "Ah, aquele é o Krugg. Não liga pra ele — ele tem um olho preguiçoso e uma gozada ainda mais preguiçosa. Se ele começar a te enviar ovos pelo correio, apenas bloqueie-o. Ou crie-os. Eu não julgo."
         }
-]
-} 
+      ]
+    },
+    {
+      "optionText": "Em nome de tudo que é sagrado, o que você vai fazer com o suor?",
+      "dontDisplayIfHasObjective": "Escort Overseer's Daughter to Deathroot Bog",
+      "onlyDisplayIfObjectiveComplete": "Extract Deathclaw ball sweat",
+      "dontShowIfProgressionEventPlayed": "daughter_railed_by_deathclaw",
+      "icon": "GUI/quest mark",
+      "responseText": "Ah, é ciência simples! Eu misturo com uma pitada do extrato de raiz psicodélica caseiro do Boogey, salpico um pouco de erva de gato cultivada no refúgio e voilà — um perfume tão potente que fará os Deathclaws virem em debandada de quilômetros de distância. Ou vai ser revolucionário ou vou ser estraçalhada. De qualquer forma, vai ser hilário.",
+      "followUpOptions": [
+        {
+          "optionText": "Isso é insano.",
+          "icon": "GUI/quest mark",
+          "responseText": "Você acha isso insano? Espere até ver o teste de campo. O que me lembra — prepare seu equipamento. Estamos indo para os Ermos para que eu possa testar essa belezinha em algum lugar com menos probabilidade de terminar em uma suruba de Deathclaws em todo o refúgio.",
+          "followUpOptions": [
+            {
+              "optionText": "Pode contar comigo. Não posso perder isso.",
+              "addObjective": "Escort Overseer's Daughter to Deathroot Bog",
+              "icon": "GUI/quest mark",
+              "addFollower": "Overseer’s Daughter",
+              "responseText": "Porra, sim. Pegue sua arma, seus remédios — estamos prestes a usar iscas falsas em uns Deathclaws tarados. E se eu for apalpada ou morta, vou culpar você!",
+              "exitLine": true
+            },
+            {
+              "optionText": "Não. Não vou ser empalado a seco por lagartos radioativos.",
+              "responseText": "Covarde. Tudo bem. Eu vou sozinha — e se eu acabar sendo estuprada por alguns saqueadores, vou dar o seu nome para os bebês.",
+              "exitLine": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "optionText": "Aqui. Eu peguei seu... uh... suco de Deathclaw.",
+      "onlyDisplayIfHasObjective": "Extract Deathclaw ball sweat",
+      "dontDisplayIfObjectiveComplete": "Extract Deathclaw ball sweat",
+      "itemRequired": "Deathclaw ball sweat",
+      "giveItemToCharacter": "Deathclaw ball sweat",
+      "markObjectiveComplete": "Extract Deathclaw ball sweat",
+      "addSusPoints": 10,
+      "relationshipPoints": 15,
+      "icon": "GUI/quest mark",
+      "responseText": "Puta merda, você conseguiu mesmo. Olha só isso — o néctar profano das bolas de um lagarto assassino radioativo, e ainda está quente. Você não... provou nem nada, né? Nah, não responde. Não quero saber.",
+      "followUpOptions": [
+        {
+          "optionText": "Você é uma garota doente, sabia?",
+          "responseText": "Diz o esquisito corajoso que apalpou as partes baixas de um Deathclaw para conseguir isso. Não venha com moralismo pra cima de mim agora."
+        },
+        {
+          "optionText": "Em nome de tudo que é sagrado, o que você vai fazer com isso?",
+          "dontDisplayIfHasObjective": "Escort Overseer's Daughter to Deathroot Bog",
+          "icon": "GUI/quest mark",
+          "responseText": "Ah, é ciência simples! Eu misturo com uma pitada do extrato de raiz psicodélica caseiro do Boogey, salpico um pouco de erva de gato cultivada no refúgio e voilà — um perfume tão potente que fará os Deathclaws virem em debandada de quilômetros de distância. Ou vai ser revolucionário ou vou ser estraçalhada. De qualquer forma, vai ser hilário.",
+          "followUpOptions": [
+            {
+              "optionText": "Isso é insano.",
+              "icon": "GUI/quest mark",
+              "responseText": "Você acha isso insano? Espere até ver o teste de campo. O que me lembra — prepare seu equipamento. Estamos indo para os Ermos para que eu possa testar essa monstruosidade em algum lugar com menos probabilidade de terminar em uma suruba de Deathclaws em todo o refúgio.",
+              "followUpOptions": [
+                {
+                  "optionText": "Pode contar comigo. Não posso perder isso.",
+                  "addObjective": "Escort Overseer's Daughter to Deathroot Bog",
+                  "icon": "GUI/quest mark",
+                  "addFollower": "Overseer’s Daughter",
+                  "responseText": "Porra, sim. Pegue sua arma, seus remédios — estamos prestes a usar iscas falsas em uns Deathclaws tarados. E se eu for apalpada ou morta, vou culpar você!",
+                  "exitLine": true
+                },
+                {
+                  "optionText": "Não. Não vou ser empalado a seco por lagartos radioativos.",
+                  "responseText": "Covarde. Tudo bem. Eu vou sozinha — e se eu acabar sendo estuprada por alguns saqueadores, vou dar o seu nome para os bebês.",
+                  "exitLine": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "optionText": "É melhor você me pagar. Quase morri por isso.",
+          "addWillpowerTokens": 200,
+          "exitLine": true,
+          "responseText": "Pagar? Pode deixar, corajoso apalpador de sacos de Deathclaw. Aqui estão seus 200 Tokens W. É o suficiente para comprar uma bebida forte — ou talvez uma terapia para qualquer trauma que você acabou de passar."
+        }
+      ]
+    },
+    {
+      "optionText": "Quem é o cara alto e esquisito? Ele parece que coleciona dentes.",
+      "responseText": "Ah, esse é o Boogie. Sim, ele é esquisito, mas de um jeito divertido. Ele coleciona coisas estranhas, sim, mas não se preocupe, ele só coleciona dentes de pessoas que o irritam de verdade.",
+      "followUpOptions": [
+        {
+          "optionText": "Qual é a sua relação com ele?",
+          "responseText": "Ah, somos como a Bonnie e o Clyde da putaria do refúgio. Ele é o cérebro por trás do mercado negro, e eu sou a espertinha que encontra maneiras de nos tirar de enrascadas. Basicamente, somos os heróis que este lugar não merece."
+        }
+      ]
+    },
+    {
+      "optionText": "Isso é... a sala de cultivo?",
+      "responseText": "Uau, Sherlock, você realmente desvendou o caso. Sim, é a sala de cultivo. Plantas, terra e eu — a filha do Supervisor — a única fonte de entretenimento neste refúgio. Quer adivinhar o que eu realmente estou cultivando aqui?",
+      "followUpOptions": [
+        {
+          "optionText": "Espera, você é a filha do Supervisor?",
+          "responseText": "Ding ding ding! Sim, sou a sortuda cria do próprio chefe da polícia da diversão do refúgio. Não se deixe enganar por isso — não pretendo desperdiçar minha vida nessa baboseira de abstinência como ele faz.",
+          "followUpOptions": [
+            {
+              "optionText": "Então, você é... rebelde.",
+              "responseText": "Rebelde? Ha! Prefiro 'exploradora profissional de brechas'. Regras são apenas sugestões para pessoas que não sabem se divertir. Se houver problema, pode apostar que estou envolvida de alguma forma."
+            },
+            {
+              "optionText": "Como é ser a filha do Supervisor?",
+              "responseText": "É como estar em uma cela de prisão com as regras do papai estampadas em todas as paredes, exceto que eu tenho uma chave e zero fodas para dar. Ele fica falando sobre 'responsabilidade' enquanto eu contrabandeio holofitas e faço apostas sobre quando ele terá seu próximo colapso nervoso."
+            },
+            {
+              "optionText": "Você não se preocupa que seu pai descubra o que você está fazendo?",
+              "responseText": "Meu pai? Por favor. Ele não conseguiria encontrar a própria bunda com as duas mãos e um GPS do caralho. Tenho evitado seus discursos de 'Você deve permanecer pura!' desde que tive idade para revirar os olhos."
+            },
+            {
+              "optionText": "Se seu pai proíbe a liberação sexual, como você sequer existe?",
+              "responseText": "Sim, essa deixa a maioria das pessoas confusa. Os registros do refúgio dizem que eu 'simplesmente apareci' um dia no berçário com um bilhete colado no meu macacão: 'Um presente da devoção do Supervisor'. Tenho quase certeza de que isso é linguagem de culto para 'ninguém quer admitir como aconteceu'. Nem ele fala sobre isso. Vibe de concepção imaculada, né?"
+            }
+          ]
+        },
+        {
+          "optionText": "O que você está cultivando aqui?",
+          "responseText": "Ah, você não gostaria de saber? Digamos apenas que é uma pequena 'mistura especial' em que o Boogeyman e eu estamos trabalhando. Um trago e até a Patrulha da Pureza começa a transar com os móveis. E sim, é ilegal pra caralho. Isso é metade da diversão."
+        }
+      ]
+    },
+    {
+      "optionText": "Você precisa de ajuda?",
+      "dontDisplayIfHasObjective": "Extract Deathclaw ball sweat",
+      "dontDisplayIfObjectiveComplete": "Extract Deathclaw ball sweat",
+      "dontShowIfProgressionEventPlayed": "refused_overseer_daughter_request",
+      "icon": "GUI/quest mark",
+      "responseText": "Oh, você está se voluntariando? Corajoso. Ou estúpido. Mas sim, eu tenho uma pequena 'missão'. Topa?",
+      "followUpOptions": [
+        {
+          "optionText": "Qual é o trabalho?",
+          "progressionEventPlayed": "daughter_asked_for_deathclaw_nut",
+          "responseText": "Preciso que você colete um pouco de suor de saco de Deathclaw. Sim, você ouviu direito. Preciso da marinada de bolas daqueles grandes lagartos assassinos escamosos em um pote. Não pergunte por que — apenas pegue o néctar do saco e dê o fora daqui.",
+          "followUpOptions": [
+            {
+              "optionText": "Por que diabos você precisa DISSO?",
+              "responseText": "É para um experimento. Estou trabalhando em uma 'poção do amor' especial para Deathclaws. Não me olhe assim — é puramente científico. Definitivamente não é sobre criar um ritual de acasalamento de Deathclaw no refúgio para minha própria diversão doentia ou algo assim. Ahem."
+            },
+            {
+              "optionText": "Você está completamente maluca.",
+              "responseText": "Ah, com certeza. Mas a questão é a seguinte: ninguém se lembra das pessoas chatas. Lendas são feitas por lunáticos como eu — e pelos pobres coitados como você que ajudam."
+            },
+            {
+              "optionText": "Beleza. Como eu faço isso?",
+              "icon": "GUI/quest mark",
+              "exitLine": true,
+              "progressionEventPlayed": "accepted_overseer_daughter_request",
+              "showChoiceStats": "accepted_overseer_daughter_request",
+              "addObjective": "Extract Deathclaw ball sweat",
+              "responseText": "Fácil! Primeiro, encontre um Deathclaw. Segundo, espere ele te atacar. Terceiro, mergulhe por baixo das pernas, desvie daquelas garras e dê um aperto nos seus brinquedinhos escamosos. Quarto, corra como o diabo antes que ele faça de você seu próximo brinquedo de mastigar. Entendeu? Ótimo!"
+            },
+            {
+              "optionText": "[Denunciá-la]",
+              "progressionEventPlayed": "refused_overseer_daughter_request",
+              "showChoiceStats": "refused_overseer_daughter_request",
+              "onlyShowIfProgressionEventPlayed": "REMOVED",
+              "reported": 1,
+              "exitLine": true,
+              "responseText": "Pfft, covarde. Acho que vou ter que encontrar outra pessoa então..."
+            }
+          ]
+        },
+        {
+          "optionText": "O que eu ganho com isso?",
+          "responseText": "Ah, farei valer a pena, não se preocupe. Que tal 200 Tokens W? É o suficiente para subornar metade do refúgio, estocar lanches ou apostar tudo na próxima luta clandestina do Boogeyman. Além disso, você ganha o direito de se gabar eternamente por tocar em um Deathclaw onde ninguém ousou antes. Legal, né?"
+        }
+      ]
+    },
+    {
+      "optionText": "Tchau.",
+      "exitLine": true,
+      "responseText": "Até mais."
+    }
+  ]
+}

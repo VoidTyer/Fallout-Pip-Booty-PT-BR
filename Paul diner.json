@@ -1,46 +1,46 @@
 {
-    "options": [
+  "options": [
+    {
+      "optionText": "Uau. Isso foi... inesperado. De um jeito bom.",
+      "onlyShowIfProgressionEventPlayed": "listen_to_paul_song",
+      "responseText": "Ha! Eu ouço muito isso. A maioria das pessoas vê o macacão engordurado e assume que sou apenas mais um esquisito do refúgio. Mas a música? A música mantém as coisas unidas quando todo o resto desmorona."
+    },
+    {
+      "optionText": "Não esperava encontrar música ao vivo neste refúgio.",
+      "icon": "GUI/song icon",
+      "responseText": "Oh! Ei, heh. Sim, não há muito mais o que fazer por aqui quando a energia está estável e ninguém está gritando sobre radroaches. Pensei em pegar as velhas cordas de novo.",
+      "followUpOptions": [
         {
-            "optionText": "Wow. That was... unexpected. In a good way.",
-            "onlyShowIfProgressionEventPlayed": "listen_to_paul_song",
-            "responseText": "Ha! I get that a lot. Most folks see the greasy jumpsuit and assume I’m just another vault weirdo. But music? Music keeps things together when everything else falls apart."
+          "optionText": "Você é bom? Se importa de tocar algo?",
+          "icon": "GUI/song icon",
+          "responseText": "Sério? Bem, tudo bem então. Não tenho um público há um tempo... Esta se chama *“Lar no Vazio.”* Escrevi quando as portas do refúgio ainda rangiam.",
+          "followUpOptions": [
+            {
+              "optionText": "[Ouvir em silêncio.]",
+              "icon": "GUI/song icon",
+              "progressionEventPlayed": "listen_to_paul_song",
+              "playMusic": "Songs/Vault Dweller's Blues",
+              "exitLine": true,
+              "responseText": "*Paul começa a dedilhar uma melodia lenta e calorosa*"
+            }
+          ]
         },
         {
-            "optionText": "Didn't expect to find live music in this vault.",
-            "icon": "GUI/song icon",
-            "responseText": "Oh! Hey, heh. Yeah, not much else to do around here when the power’s stable and no one’s screaming about radroaches. Thought I’d pick up the ol’ strings again.",
-            "followUpOptions": [
-                {
-                    "optionText": "You any good? Mind playing something?",
-                    "icon": "GUI/song icon",
-                    "responseText": "You serious? Well, alright then. Haven’t had an audience in a while... This one’s called *“Home in the Hollow.”* Wrote it back when the vault doors still creaked.",
-                    "followUpOptions": [
-                        {
-                            "optionText": "[Listen quietly.]",
-                            "icon": "GUI/song icon",
-                            "progressionEventPlayed": "listen_to_paul_song",
-                            "playMusic": "Songs/Vault Dweller's Blues",
-                            "exitLine": true,
-                            "responseText": "*Paul starts strumming a slow, warm melody*"
-                        } 
-                    ]
-                },
-                {
-                    "optionText": "Interesting hobby. What's your name?",
-                    "responseText": "Name’s Paul. Folks just call me Peeping Paul now, I guess. Better than what they used to call me... but that’s another story."
-                }
-            ]
-        },
-        {
-            "optionText": "You from around here?",
-            "responseText": "Born two vaults over. Vault 472. Moved here after the water recycler back home turned half the crops blue. Vault 6969’s got its quirks, but it’s quiet... mostly."
-        },
-        {
-            "optionText": "Sorry, didn't mean to interrupt.",
-            "responseText": "No worries. Music’s always better with someone to hear it. Maybe next time stick around for a song.",
-            "exitLine": true
+          "optionText": "Hobby interessante. Qual seu nome?",
+          "responseText": "O nome é Paul. As pessoas me chamam de Paul o Espião agora, eu acho. Melhor do que me chamavam antes... mas isso é outra história."
         }
-    ],
-    "auto_lines": ["Let’s see if I remember the chords to this one…"],
-    "showShadowFigures": "Diner Paul"
+      ]
+    },
+    {
+      "optionText": "Você é daqui?",
+      "responseText": "Nasci dois refúgios para lá. Refúgio 472. Mudei para cá depois que o reciclador de água de casa deixou metade das colheitas azuis. O Refúgio 6969 tem suas esquisitices, mas é quieto... na maior parte do tempo."
+    },
+    {
+      "optionText": "Desculpe, não quis interromper.",
+      "responseText": "Sem problemas. A música é sempre melhor com alguém para ouvir. Talvez da próxima vez você fique para uma canção.",
+      "exitLine": true
+    }
+  ],
+  "auto_lines": ["Vamos ver se eu lembro dos acordes desta aqui…"],
+  "showShadowFigures": "Diner Paul"
 }

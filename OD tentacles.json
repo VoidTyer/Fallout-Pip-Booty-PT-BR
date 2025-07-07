@@ -1,105 +1,107 @@
 {
-    "options": [ 
+  "options": [
     {
-        "optionText": "[Watch]",
-        "spriteAtTheEndOfHscene": "Characters/Overseer Daughter/od post deathclaw",
-        "spriteAtTheEndOfHscenePosition": [ 0.38, -1.64 ],
-        "exitLine": true,
-        "isHEventStarted": true, 
-        "closeDialogueOptions": true,  
-        "icon": "GUI/eye icon",
-        "hEventName": "daughter_tentacle_fuck",
-        "progressionEventPlayed": "daughter_tentacle_sex",
-        "interactable": "Characters/Overseer Daughter/Interactables/tentacles", 
-        "lineAfterHevent": "Ahh... thanks for growing this... it's amazing... ♥︎",
-        "auto_lines": [
+      "optionText": "[Observar]",
+      "spriteAtTheEndOfHscene": "Characters/Overseer Daughter/od post deathclaw",
+      "spriteAtTheEndOfHscenePosition": [0.38, -1.64],
+      "exitLine": true,
+      "isHEventStarted": true,
+      "closeDialogueOptions": true,
+      "icon": "GUI/eye icon",
+      "hEventName": "daughter_tentacle_fuck",
+      "progressionEventPlayed": "daughter_tentacle_sex",
+      "interactable": "Characters/Overseer Daughter/Interactables/tentacles",
+      "lineAfterHevent": "Ahh... obrigada por cultivar isso... é incrível... ♥︎",
+      "auto_lines": [
+        "Ahh, merda, ok, você tá indo bem fundo, hein? Acho que encontrei a planta mais tarada do refúgio.",
 
-"Ahh, shit, okay, you're really going deep, huh? Guess I found the vault's kinkiest plant.",
+        "Porra, minha xoxota não estava preparada para a dominação do pepino mutante hoje!",
 
-"Fuck, my pussy wasn't prepared for mutant cucumber domination today!",
+        "Ahhh! Oh, Deus... é por isso que o papai regula a jardinagem? Faz sentido, porra.",
 
-"Ahhh! Oh, god... is this why dad regulates gardening? Fucking figures.", 
+        "Deus, meu corpo me traiu — tentáculos de pepino? Sério?",
 
-"God, my body betrayed me—fucking cucumber tentacles? Really?",
+        "Porra, sim! Esta planta é oficialmente meu novo contrabando favorito.",
 
-"Fuck yes! This plant is officially my new favorite contraband.",
+        "Ohhh, Deus... me arromba — foda-se a Vault-Tec e a chatice deles!",
 
-"Ohhh, god... stretch me open—fuck Vault-Tec and their no-fun bullshit!",
+        "Mmm, sim... xoxota rebelde encontra pepino mutante — combinação perfeita.",
 
-"Mmm, yes... rebellious pussy meets mutant cucumber—match made in heaven.",  
+        "Ahhh… mais fundo! Porra, talvez eu comece a apoiar produtos orgânicos agora!",
 
-"Ahhh… deeper! Fuck, I might actually endorse organic produce now!",
+        "Puta merda, pepino, se você me engravidar, vamos ter um problema.",
 
-"Goddamn, cucumber, if you impregnate me, we're gonna have a problem.",
+        "Mmm, sim... me mostre exatamente como a natureza quebra as regras do papai.",
 
-"Mmm, yes... show me exactly how nature breaks Daddy’s rules.",   
+        "Deus, esta planta mutante fode melhor que a maioria dos moradores do refúgio — ahhh!",
 
-"God, this mutant plant fucks better than most vault dwellers—ahhh!",
+        "Me fode, mais fundo! Juro que isso fica fora das fitas do Boogeyman.",
 
-"Fuck me, deeper! I swear this stays off the Boogeyman's tapes.",
+        "Ahhh… minha xoxota oficialmente se tornou rebelde — foda-se a autoridade do papai!",
 
-"Ahhh… my pussy has officially gone rogue—fuck the daddy’s authority!",
+        "Caralho, pepino — me fode como se estivesse contrabandeando para dentro da minha xoxota!",
 
-"Damn, cucumber—fuck me like you’re smuggling contraband into my pussy!",   
+        "Porra, pepino... me faça esquecer as regras idiotas do papai.",
 
-"Fuck, cucumber... make me forget Daddy's dumb rules.", 
+        "Ahhh, merda... você é melhor em quebrar regras do que eu, porra!",
 
-"Ahhh, shit... you're better at breaking rules than I am, fuck!",
+        "Porra, sim! Minha xoxota é oficialmente o novo ponto de mercado negro do refúgio!",
+        "Ahh, porra… está deslizando dentro de mim — tão fundo, Deus, mal consigo aguentar! ♥︎",
 
-"Fuck, yes! My pussy is officially the vault's new black market hotspot!",
-            "Ahh, fuck… it’s sliding inside me—so deep, god, I can barely take it! ♥︎",
+        "Mmm, minha xoxota está encharcada... porra, esta planta sabe exatamente o que quer. ♥︎",
 
-"Mmm, my pussy’s soaking wet... fuck, this plant knows exactly what it wants. ♥︎",
+        "Merda, nunca imaginei que seria comida assim… ahhh, Deus, não pare! ♥︎",
 
-"Shit, I never imagined I'd be fucked like this… ahhh, god, don't stop! ♥︎",
+        "Ohhh… porra, sim… me arromba — mais fundo, Deus, mais fundo! ♥︎",
 
-"Ohhh… fuck yes… stretch my pussy open—deeper, god, deeper! ♥︎",
+        "Puta que pariu, este pepino mutante está me fodendo melhor do que qualquer um já fez. ♥︎",
 
-"Fucking hell, this mutated cucumber is fucking me better than anyone ever has. ♥︎",
+        "Ahhh, Deus, é tão bom — me fode mais forte, me enche completamente! ♥︎",
 
-"Ahhh, god, it feels so good—fuck me harder, fill me completely! ♥︎",
+        "Porra, minhas coxas estão tremendo… sim, enfia seus tentáculos fundo na minha xoxota! ♥︎",
 
-"Fuck, my thighs are shaking… yes, force your tentacles deep inside my pussy! ♥︎",
+        "Oh Deus… está explorando cada centímetro sensível da minha xoxota… ahhh, porra! ♥︎",
 
-"Oh god… it’s exploring every sensitive inch of my pussy… ahhh, fuck! ♥︎",  
+        "Ahh, Deus, estou sendo comida por uma planta… porra, e eu amo cada segundo. ♥︎",
 
-"Ahh, god, I’m getting fucked by a plant… fuck, and I love every second. ♥︎", 
+        "Ahh, porra, é tão grosso… minha xoxota está esticada ao máximo! ♥︎",
 
-"Ahh, fuck, it’s so thick… my pussy is stretched beyond belief! ♥︎", 
+        "Mmm… sim, me abre, invade cada centímetro — porra, você é selvagem! ♥︎",
 
-"Mmm… yes, spread me open, invade every inch—fuck, you're wild! ♥︎",
+        "Porra, está me enchendo — tão fundo, Deus, está atingindo lugares que eu não sabia que existiam! ♥︎",
 
-"Fuck, it's filling me—so deep, god, it's hitting spots I didn't know existed! ♥︎",
+        "Ahhh… sou sua agora… continue fodendo minha xoxota como nunca foi fodida antes! ♥︎",
 
-"Ahhh… I’m yours now… keep fucking my pussy like it's never been fucked before! ♥︎",
+        "Oh Deus, esta planta está me fazendo gozar… porra, sim! ♥︎",
 
-"Oh god, this plant is making me cum… fuck yes! ♥︎",
+        "Porra, isto é puro êxtase… está bombando para dentro e para fora, dominando completamente minha xoxota! ♥︎",
 
-"Fuck, this is pure ecstasy… it's pumping in and out, owning my pussy completely! ♥︎",
+        "Ahhh, Deus, sinto cada estocada, cada centímetro deslizando fundo... ♥︎",
 
-"Ahhh, god, I feel every thrust, every inch sliding deep inside... ♥︎", 
+        "Oh, porra… está pressionando mais fundo, minha xoxota se apertando — Deus, sim! ♥︎",
 
-"Oh, fuck… it’s pressing deeper, my pussy’s gripping tight—god, yes! ♥︎",
+        "Porra, mal consigo aguentar… mas não me canso de sentir isso me enchendo! ♥︎",
 
-"Fuck, I can barely handle it… but I can’t get enough of it filling me! ♥︎",
+        "Ahhh… meu corpo está tremendo de prazer… porra, continue me devastando! ♥︎",
 
-"Ahhh… my body is shaking from pleasure… fuck, keep ravaging me! ♥︎",
+        "Deus, sim, me inunde com seus tentáculos grossos… me fode até eu quebrar! ♥︎",
 
-"God yes, flood me with your thick tentacles… fuck me until I break! ♥︎",
+        "Porra, é avassalador… minha xoxota latejando ao seu redor… ♥︎",
 
-"Fuck, it’s overwhelming… my pussy throbbing around you… ♥︎",
+        "Oh Deus… é bom demais… me fode mais fundo — eu aguento! ♥︎",
 
-"Oh god… it feels too good… fuck me deeper—I can take it! ♥︎",
+        "Porra, cada centímetro mais fundo é pura felicidade… ahhh, não se segure! ♥︎",
 
-"Fuck, every inch deeper is pure bliss… ahhh, don’t hold back! ♥︎",
+        "Ahh… Deus, você está me arrombando — porra, meu corpo anseia por isso! ♥︎",
 
-"Ahh… god, you’re stretching me wide open—fuck, my body craves this! ♥︎",
-
-"Fuck, yes… fill me, use my pussy until it's fully seeded! ♥︎" ],
-    "endingEffects": ["Flashes"]
+        "Porra, sim… me encha, use minha xoxota até que esteja totalmente semeada! ♥︎"
+      ],
+      "endingEffects": ["Flashes"]
     }
-    ],
-    "auto_lines": ["Ahh, god, I’m getting fucked by a plant… fuck, and I love every second. ♥︎",
+  ],
+  "auto_lines": [
+    "Ahh, Deus, estou sendo comida por uma planta… porra, e eu amo cada segundo. ♥︎",
 
-"Fuck… my juices are running everywhere—god, keep thrusting deeper! ♥︎" ] 
+    "Porra… meus sucos estão escorrendo por toda parte — Deus, continue metendo mais fundo! ♥︎"
+  ]
 }

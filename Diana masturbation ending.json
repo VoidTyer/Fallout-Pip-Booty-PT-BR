@@ -1,37 +1,40 @@
 {
-    "options": [
+  "options": [
+    {
+      "optionText": "Te peguei no flagra, Diana. Ou devo dizer, com os dedos vermelhos?",
+      "emotion": "Characters/Diana/Emotions/laying_naked_opened_eyes",
+      "specialEffects": ["removeBlur", "removeVignette"],
+      "responseText": "Oh, por favor. Se você vai me assistir *'polindo minha buceta'*, o mínimo que poderia fazer é não ser tão ruim de piada.",
+      "followUpOptions": [
         {
-            "optionText": "Caught you red-handed, Diana. Or should I say, red-fingered?",
-            "emotion": "Characters/Diana/Emotions/laying_naked_opened_eyes",
-            "specialEffects": ["removeBlur", "removeVignette"], 
-            "responseText": "Oh, please. If you’re gonna watch me *'polish my pussy'* the least you could do is not suck at jokes.",
-            "followUpOptions": [
-                {
-                    "optionText": "[Report her to the Purity Police]",
-                    "responseTexts": ["Go ahead, snitch. Just make sure to tell them how long you stood there watching before you decided to tattle. I’ll be sure to mention how you couldn’t keep your eyes off me.", "What the f--?! You little snitch! Go ahead, report me, but don’t act like you weren’t thinking of joining in. Just remember: snitches get... nothing. And I do mean nothing."],
-                    "exitLine": true, 
-                    "reported": 5,
-                    "fadeOutCharacter": true, 
-                    "emotion": "Characters/Diana/Emotions/laying angry"
-                }, 
-                {
-                    "optionText": "You’re pretty cocky for someone who just risked a Bonk Baton to the face.", 
-                    "emotion": "Characters/Diana/Emotions/laying_naked_opened_eyes",
-                    "responseText": "Oh, honey, I’ve taken bigger hits in my sleep. You really think those spandex-clad rejects can stop me? I could have them *begging* to let me off the hook in five minutes."
-                },
-                {
-                    "optionText": "If you're gonna break the rules, at least invite me next time.", 
-                    "responseText": "*You*? Oh, sweetheart, you wouldn’t last five seconds in the same room with me. You’d cramp up before we even got started.",
-                    "followUpOptions": [ 
-                        {
-                            "optionText": "You sure talk big for someone who just made a mess.",
-                            "emotion": "Characters/Diana/Emotions/laying_naked_opened_eyes",
-                            "responseText": "A mess? This was *art*."
-                        }
-                    ]
-                }
-            ]
-        } 
-    ],
-    "auto_lines": ["Ah, it was amazing... ♥"]
-} 
+          "optionText": "[Denunciá-la para a Polícia da Pureza]",
+          "responseTexts": [
+            "Vá em frente, dedo-duro. Só não se esqueça de dizer a eles quanto tempo você ficou aí assistindo antes de decidir dedurar. Com certeza mencionarei como você não conseguia tirar os olhos de mim.",
+            "Que p--?! Seu dedo-duro! Vá em frente, me denuncie, mas não finja que não estava pensando em participar. Só lembre-se: dedos-duros não ganham... nada. E quero dizer nada mesmo."
+          ],
+          "exitLine": true,
+          "reported": 5,
+          "fadeOutCharacter": true,
+          "emotion": "Characters/Diana/Emotions/laying angry"
+        },
+        {
+          "optionText": "Você é bem convencida para alguém que arriscou levar uma porrada de Cassetete Bonk na cara.",
+          "emotion": "Characters/Diana/Emotions/laying_naked_opened_eyes",
+          "responseText": "Oh, querido, já levei golpes maiores dormindo. Você realmente acha que esses rejeitados de spandex podem me parar? Eu poderia tê-los *implorando* para me deixarem em paz em cinco minutos."
+        },
+        {
+          "optionText": "Se for para quebrar as regras, pelo menos me convide da próxima vez.",
+          "responseText": "*Você*? Oh, docinho, você não duraria cinco segundos na mesma sala que eu. Você teria uma cãibra antes mesmo de começarmos.",
+          "followUpOptions": [
+            {
+              "optionText": "Você fala grosso para alguém que acabou de fazer uma bagunça.",
+              "emotion": "Characters/Diana/Emotions/laying_naked_opened_eyes",
+              "responseText": "Uma bagunça? Isso foi *arte*."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "auto_lines": ["Ah, foi incrível... ♥"]
+}

@@ -1,79 +1,82 @@
 {
   "options": [
     {
-      "optionText": "So we're here. Now what?",
+      "optionText": "Então estamos aqui. E agora?",
       "icon": "GUI/quest mark",
       "emotion": "Characters/Overseer Daughter/emotions/at the bog/biting lip",
-      "responseText": "Now, we sprinkle this lovely Deathclaw nut marinade around and wait for the horny bastards to come running. Either we’ve revolutionized wasteland dating or we’re about to get gang-fucked into oblivion. Exciting, right?",
+      "responseText": "Agora, a gente espalha essa bela marinada de nozes de Deathclaw por aí e espera os desgraçados tarados virem correndo. Ou a gente revolucionou os encontros nos Ermos ou estamos prestes a levar uma suruba até o esquecimento. Empolgante, né?",
       "followUpOptions": [
         {
-          "optionText": "Remind me again why I'm risking my life for your insanity?",
+          "optionText": "Me lembra de novo por que estou arriscando minha vida pela sua insanidade?",
           "emotion": "Characters/Overseer Daughter/emotions/at the bog/biting lip",
-          "responseText": "Because deep down you love the thrill of potentially getting mounted by radioactive reptiles—or because you secretly like me. Your choice."
+          "responseText": "Porque no fundo você ama a emoção de potencialmente ser montado por répteis radioativos — ou porque você secretamente gosta de mim. A escolha é sua."
         },
         {
-          "optionText": "What's the escape plan if this goes sideways?",
+          "optionText": "Qual é o plano de fuga se isso der merda?",
           "emotion": "Characters/Overseer Daughter/emotions/at the bog/smile",
-          "responseText": "Escape plan? Ha! Cute. If it goes wrong, you scream, I laugh, and then we both run like hell. Simple and foolproof."
+          "responseText": "Plano de fuga? Ha! Fofo. Se der errado, você grita, eu rio, e então nós dois corremos como o diabo. Simples e à prova de falhas."
         },
         {
-          "optionText": "This potion better work. I didn’t fondle Deathclaw balls for nothing.",
+          "optionText": "É melhor essa poção funcionar. Não apalpei bolas de Deathclaw à toa.",
           "icon": "GUI/quest mark",
           "emotion": "Characters/Overseer Daughter/emotions/at the bog/biting lip closed eyes",
-          "responseText": "Oh, it'll work. Either they'll hump each other into exhaustion or hump us into exhaustion. Honestly, both sound like hilarious outcomes.",
-          "followUpOptions": [ 
+          "responseText": "Ah, vai funcionar. Ou eles vão se acasalar até a exaustão ou nos acasalar até a exaustão. Honestamente, ambos parecem resultados hilários.",
+          "followUpOptions": [
             {
-                "optionText": "How long until the Deathclaws arrive?",
-                "emotion": "none",
-                "responseText": "Could be minutes, could be seconds. If they're half as horny as you were grabbing their junk, they'll be here in no time."
+              "optionText": "Quanto tempo até os Deathclaws chegarem?",
+              "emotion": "none",
+              "responseText": "Pode levar minutos, pode levar segundos. Se eles estiverem com metade da tesão que você estava ao pegar as partes deles, estarão aqui rapidinho."
             },
             {
-                "optionText": "You’re disturbingly excited about this.",
-                "emotion": "Characters/Overseer Daughter/emotions/at the bog/smile",
-                "responseText": "Disturbingly? Nah, I'm perfectly normal. If you’re not turned on by the idea of Deathclaws smashing each other senseless in a pheromone frenzy, are you even alive?"
+              "optionText": "Você está perturbadoramente empolgada com isso.",
+              "emotion": "Characters/Overseer Daughter/emotions/at the bog/smile",
+              "responseText": "Perturbadoramente? Nah, sou perfeitamente normal. Se você não fica excitado com a ideia de Deathclaws se quebrando na porrada em um frenesi de feromônios, você está mesmo vivo?"
             },
             {
-                "optionText": "[Wait silently]",
-                "icon": "GUI/quest mark",
-                "specialEffects": ["fade to black"],
-                "emotion": "none",
-                "responseText": "*pulls pin on the pheromone grenade* Too late to back out now, daddy. The swamp’s about to get real sticky. Pray to whatever God you still believe in—and maybe clench.",
-                "followUpOptions": [
+              "optionText": "[Esperar em silêncio]",
+              "icon": "GUI/quest mark",
+              "specialEffects": ["fade to black"],
+              "emotion": "none",
+              "responseText": "*puxa o pino da granada de feromônios* Tarde demais para desistir agora, papai. O pântano vai ficar bem grudento. Reze para qualquer Deus em que você ainda acredita — e talvez contraia o cu.",
+              "followUpOptions": [
+                {
+                  "optionText": "Estou ouvindo um movimento. São eles?",
+                  "icon": "GUI/quest mark",
+                  "changeSprite": "Characters/Overseer Daughter/monster sex(1)",
+                  "newSpriteYPos": -0.97,
+                  "newSpriteXPos": 0.38,
+                  "changeSpriteColor": "9A8E8B",
+                  "responseText": "Ou são Deathclaws tarados ou saqueadores que acabaram de descobrir um novo fetiche. De qualquer forma, prepare-se para a penetração.",
+                  "followUpOptions": [
                     {
-                        "optionText": "I hear movement. Is that them?",
-                        "icon": "GUI/quest mark",
-                        "changeSprite": "Characters/Overseer Daughter/monster sex(1)", 
-                        "newSpriteYPos": -0.97,
-                        "newSpriteXPos": 0.38, 
-                        "changeSpriteColor": "9A8E8B",
-                        "responseText": "Either horny Deathclaws or raiders who just discovered a new kink. Either way, brace for penetration.",  
-                        "followUpOptions": [
-                          {
-                            "optionText": "Wanna play Fuck-Marry-Mutate while we die of suspense?",
-                            "responseText": "Sure. Fuck: Deathclaw. Marry: Mirelurk Queen. Mutate: Probably already happened from inhaling this shit."
-                          },
-                          {
-                                "optionText": "[Continue waiting nervously]",
-                                "icon": "GUI/quest mark",
-                                "playSound": "Sounds/combat/deathclaw OD snatch", 
-                                "responseText": "Relax—what's the worst that could—AHHH—holy shit! It's here! IT'S FUCKING HERE—PUT ME DOWN YOU SCALED PERVERT!",
-                                "exitLine": true,
-                                "specialEffects": ["restore color filter"],
-                                "showShadowFigures": "Deathclaws2",
-                                "swapAnotherCharacterDialogue": [ "Overseer Daughter", "Characters/Overseer Daughter/deathclaw_sex2" ]
-                          }
-                        ]
+                      "optionText": "Quer brincar de Foder-Casar-Mutar enquanto morremos de suspense?",
+                      "responseText": "Claro. Foder: Deathclaw. Casar: Rainha Mirelurk. Mutar: Provavelmente já aconteceu ao inalar essa merda."
+                    },
+                    {
+                      "optionText": "[Continuar esperando nervosamente]",
+                      "icon": "GUI/quest mark",
+                      "playSound": "Sounds/combat/deathclaw OD snatch",
+                      "responseText": "Relaxa — qual é a pior coisa que pode aconte— AHHH — puta merda! Ele está aqui! ELE ESTÁ AQUI PRA CARALHO — ME PÕE NO CHÃO SEU PERVERTIDO ESCAMOSO!",
+                      "exitLine": true,
+                      "specialEffects": ["restore color filter"],
+                      "showShadowFigures": "Deathclaws2",
+                      "swapAnotherCharacterDialogue": [
+                        "Overseer Daughter",
+                        "Characters/Overseer Daughter/deathclaw_sex2"
+                      ]
                     }
-                ]
+                  ]
+                }
+              ]
             }
           ]
-        } 
+        }
       ]
-    },  
+    },
     {
-      "optionText": "I've got a bad feeling about this.",
+      "optionText": "Estou com um mau pressentimento sobre isso.",
       "emotion": "Characters/Overseer Daughter/emotions/at the bog/smile",
-      "responseText": "Good! That means your survival instincts aren't entirely dead. Stay sharp—and remember, if shit hits the fan, trip someone slower than you. Spoiler: it won't be me."
+      "responseText": "Bom! Isso significa que seus instintos de sobrevivência não estão totalmente mortos. Fique esperto — e lembre-se, se a merda feder, derrube alguém mais lento que você. Spoiler: não serei eu."
     }
   ]
 }

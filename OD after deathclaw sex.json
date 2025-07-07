@@ -1,31 +1,31 @@
 {
-    "options": [
+  "options": [
+    {
+      "optionText": "Que porra foi essa que acabou de acontecer?",
+      "emotion": "Characters/Overseer Daughter/emotions/after deathclaw fuck/happy",
+      "responseText": "O que parece? Ciência, obviamente. Você não leu o memorando do Supervisor sobre 'ultrapassar os limites da pesquisa'? Meus limites acabaram de ser arrebentados com força, pode ter certeza. Além disso, relaxa. Esses são apenas bebês. Espere até eu atrair os adultos!",
+      "followUpOptions": [
         {
-            "optionText": "What in the actual fuck just happened?",
-            "emotion": "Characters/Overseer Daughter/emotions/after deathclaw fuck/happy",
-            "responseText": "What does it look like? Science, obviously. Didn’t you read the Overseer’s memo on ‘pushing the boundaries of research’? My boundaries just got smashed hard, I tell ya. Also, relax. Those are just babies. Wait till I lure adult ones!",
-            "followUpOptions": [
-                {
-                    "optionText": "Science? You call getting deathclawed 'science'?",
-                    "emotion": "Characters/Overseer Daughter/emotions/after deathclaw fuck/closed eyes, determined",
-                    "responseText": "Absolutely. This is frontier biology, baby. I just wrote the book on radioactive sex education—with my pussy. It’s called hands-on experimentation. Well, maybe not hands-on. More like claws-on. Either way, I deserve a Nobel Prize... and a nap."
-                }, 
-                {
-                    "optionText": "Please tell me they're leaving now...",
-                    "emotion": "Characters/Overseer Daughter/emotions/after deathclaw fuck/happy",
-                    "responseText": "Oh, they’re staying. We just bonded. This bog is officially our love nest now. Plus, I'm like 90% sure at least one of them knocked me up, so congrats—you’re gonna be an uncle!"
-                },
-                {
-                    "optionText": "Seriously, you enjoyed THAT?",
-                    "emotion": "Characters/Overseer Daughter/emotions/after deathclaw fuck/closed eyes, determined",
-                    "responseText": "Oh, absolutely. Best stress relief I’ve had since... forever. Besides, you saw the way he looked at me—like a fresh Brahmin steak. Who could resist?"
-                }
-            ]
-        }, 
+          "optionText": "Ciência? Você chama ser comida por um Deathclaw de 'ciência'?",
+          "emotion": "Characters/Overseer Daughter/emotions/after deathclaw fuck/closed eyes, determined",
+          "responseText": "Com certeza. Isso é biologia de fronteira, querido. Acabei de escrever o livro sobre educação sexual radioativa — com a minha xoxota. Chama-se experimentação prática. Bem, talvez não prática. Mais como 'garras na massa'. De qualquer forma, mereço um Prêmio Nobel... e uma soneca."
+        },
         {
-            "optionText": "I don’t even know where to start with how fucked up that was...",
-            "emotion": "Characters/Overseer Daughter/emotions/after deathclaw fuck/closed eyes, sad",
-            "responseText": "Then maybe don’t start at all. Just fetch me a towel, some rad-away, and extra ball sweat if you can manage it. Science demands repeatability—and my pussy’s ready for round two."
-        } 
-    ]
+          "optionText": "Por favor, me diga que eles estão indo embora agora...",
+          "emotion": "Characters/Overseer Daughter/emotions/after deathclaw fuck/happy",
+          "responseText": "Ah, eles vão ficar. A gente acabou de criar um vínculo. Este pântano é oficialmente nosso ninho de amor agora. Além disso, tenho 90% de certeza de que pelo menos um deles me engravidou, então parabéns — você vai ser titio!"
+        },
+        {
+          "optionText": "Sério, você gostou DAQUILO?",
+          "emotion": "Characters/Overseer Daughter/emotions/after deathclaw fuck/closed eyes, determined",
+          "responseText": "Ah, com certeza. O melhor alívio de estresse que tive desde... sempre. Além disso, você viu o jeito que ele olhou para mim — como um bife de Brahmin fresco. Quem poderia resistir?"
+        }
+      ]
+    },
+    {
+      "optionText": "Eu nem sei por onde começar a descrever o quão fodido foi isso...",
+      "emotion": "Characters/Overseer Daughter/emotions/after deathclaw fuck/closed eyes, sad",
+      "responseText": "Então talvez nem comece. Apenas me traga uma toalha, um pouco de Rad-X e um suor de saco extra, se conseguir. A ciência exige repetibilidade — e minha xoxota está pronta para o segundo round."
+    }
+  ]
 }

@@ -1,67 +1,67 @@
 {
-    "options": [
+  "options": [
+    {
+      "optionText": "Então... como você está aguentando com todo mundo ficando completamente primitivo lá fora?",
+      "responseText": "Hah! Estou intocado por esta imundície! Veja bem, eles são escravos de seus desejos mais básicos. Mas eu, eu estou à beira da iluminação! Meu poder está crescendo!",
+      "followUpOptions": [
         {
-            "optionText": "So... how are you holding up with everyone going full-on primal out there?",
-            "responseText": "Hah! I am untouched by this filth! You see, they are slaves to their basest desires. But I, I am on the verge of enlightenment! My power is growing!",
-            "followUpOptions": [
-                {
-                    "optionText": "Dude, you're sweating through your pants. You sure you're not about to explode like the rest of them?",
-                    "responseText": "This sweat is a sign of my imminent transcendence! The tension is my fuel, and I am pushing the limits of what the body can endure! I am... UNBREAKABLE!"
-                },
-                {
-                    "optionText": "Sounds to me like you’re just one bad thought away from completely losing it.",
-                    "responseText": "You doubt me? Ha! I am the Edge Lord! You think these mortals rolling around in their filth can shake me?",
-                    "followUpOptions": [
-                        {
-                            "optionText": "Yeah, and I bet your 'ascension' involves locking yourself in a bathroom real soon.",
-                            "responseText": "Mock me all you want, plebeian! Soon, when I achieve my final form, you will grovel at the feet of my restraint!"
-                        } 
-                    ]
-                }
-            ]
+          "optionText": "Cara, você está suando pelas calças. Tem certeza de que não vai explodir como o resto deles?",
+          "responseText": "Este suor é um sinal da minha transcendência iminente! A tensão é meu combustível, e estou empurrando os limites do que o corpo pode suportar! Sou... INQUEBRÁVEL!"
         },
         {
-            "optionText": "What exactly happens when you 'ascend' anyway? Glowing? Floating? Maybe a pair of wings?",
-            "responseText": "When I ascend, I will no longer be constrained by the limits of the flesh! I will become pure energy— a being of sheer willpower, uncorrupted by desire! I’ll be able to... to… resist… anything!",
-            "followUpOptions": [
-                {
-                    "optionText": "Right. And you'll just float above everyone, watching them get busy while you're... well, just watching?",
-                    "responseText": "Watching? Pah! I will be above such things! While they rut like animals, I will be soaring the cosmos! I'll no longer be tied down by... by... dammit, it's getting really hot in here!"
-                },
-                {
-                    "optionText": "Wait, pure energy? So, you're saying... no more *ahem* needs at all? You sure that's what you want?",
-                    "responseText": "It is the ultimate goal! To be beyond such weakness! To— to... wait... wait, maybe I didn’t think this through...",
-                    "followUpOptions": [
-                        {
-                            "optionText": "Yeah, that's what I thought. You’ll be floating around, bored out of your mind. Forever.",
-                            "responseText": "Bored? I, the Edge Lord, bored? Impossible! I will have... endless... strength! Right? RIGHT?!"
-                        },
-                        {
-                            "optionText": "You'd miss the fun, Edge Lord. All work and no play makes you a... pretty uptight guy.",
-                            "responseText": "No... no, you're wrong! I don’t need... fun. Fun is for the weak! It’s... I mean... maybe just a little fun wouldn’t hurt..."
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "optionText": "Have you... um... ascended yet? Or still just edging?",
-            "responseText": "I am on the very brink! So close! One more test... just a little more... I can feel the power surging through me!",
-            "followUpOptions": [
-                {
-                    "optionText": "Wow. You're really pushing it. But at this rate, aren't you worried you'll... uh... 'ascend' right in front of everyone?",
-                    "responseText": "Nonsense! I have perfect control! I will ascend when I choose! I am the master of my own release! Wait... not like that... you know what I mean!"
-                },
-                {
-                    "optionText": "Let me guess, one more 'session' and you'll unlock god mode, huh?",
-                    "responseText": "EXACTLY! One more test of my endurance, and I will transcend to a higher plane! I will be untouchable, unshakable... ahh, so much power! So much tension!"
-                }
-            ]
-        },
-        {
-            "optionText": "Bye",
-            "responseText": "Hah! Run along, mortal. While you waste your energy, I shall continue my path to godhood!",
-            "exitLine": true
+          "optionText": "Para mim, parece que você está a um mau pensamento de perder completamente o controle.",
+          "responseText": "Você duvida de mim? Ha! Eu sou o Lorde da Borda! Você acha que esses mortais rolando em sua própria imundície podem me abalar?",
+          "followUpOptions": [
+            {
+              "optionText": "Sim, e aposto que sua 'ascensão' envolve se trancar em um banheiro muito em breve.",
+              "responseText": "Zombe de mim o quanto quiser, plebeu! Em breve, quando eu atingir minha forma final, você se curvará aos pés da minha contenção!"
+            }
+          ]
         }
-    ]
+      ]
+    },
+    {
+      "optionText": "O que exatamente acontece quando você 'ascende', afinal? Brilha? Flutua? Talvez um par de asas?",
+      "responseText": "Quando eu ascender, não serei mais constrangido pelos limites da carne! Me tornarei pura energia—um ser de pura força de vontade, incorruptível pelo desejo! Serei capaz de... de… resistir… a qualquer coisa!",
+      "followUpOptions": [
+        {
+          "optionText": "Certo. E você vai apenas flutuar acima de todos, observando-os se ocuparem enquanto você está... bem, apenas observando?",
+          "responseText": "Observando? Pah! Estarei acima de tais coisas! Enquanto eles acasalam como animais, estarei voando pelo cosmos! Não estarei mais preso por... por... droga, está ficando muito quente aqui!"
+        },
+        {
+          "optionText": "Espere, pura energia? Então, você está dizendo... sem mais *ahem* necessidades? Tem certeza de que é isso que você quer?",
+          "responseText": "É o objetivo final! Estar além de tal fraqueza! Para— para... espere... espere, talvez eu não tenha pensado bem nisso...",
+          "followUpOptions": [
+            {
+              "optionText": "Sim, foi o que pensei. Você estará flutuando por aí, entediado pra caralho. Para sempre.",
+              "responseText": "Entediado? Eu, o Lorde da Borda, entediado? Impossível! Terei... força... infinita! Certo? CERTO?!"
+            },
+            {
+              "optionText": "Você sentiria falta da diversão, Lorde da Borda. Só trabalho e nenhuma diversão te torna um... cara bem tenso.",
+              "responseText": "Não... não, você está errado! Eu não preciso de... diversão. Diversão é para os fracos! É... quero dizer... talvez um pouco de diversão não faria mal..."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "optionText": "Você... um... já ascendeu? Ou ainda está só na borda?",
+      "responseText": "Estou no limite! Tão perto! Mais um teste... só um pouco mais... consigo sentir o poder percorrendo meu corpo!",
+      "followUpOptions": [
+        {
+          "optionText": "Uau. Você está realmente forçando a barra. Mas nesse ritmo, não está preocupado em... uh... 'ascender' bem na frente de todo mundo?",
+          "responseText": "Bobagem! Tenho controle perfeito! Ascenderei quando eu escolher! Sou o mestre da minha própria liberação! Espere... não desse jeito... você sabe o que quero dizer!"
+        },
+        {
+          "optionText": "Deixe-me adivinhar, mais uma 'sessão' e você desbloqueará o modo deus, hein?",
+          "responseText": "EXATAMENTE! Mais um teste da minha resistência, e transcenderei para um plano superior! Serei intocável, inabalável... ahh, tanto poder! Tanta tensão!"
+        }
+      ]
+    },
+    {
+      "optionText": "Tchau",
+      "responseText": "Hah! Vá andando, mortal. Enquanto você desperdiça sua energia, continuarei meu caminho para a divindade!",
+      "exitLine": true
+    }
+  ]
 }

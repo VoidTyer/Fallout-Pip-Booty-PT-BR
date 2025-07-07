@@ -1,44 +1,56 @@
- 
 {
-    "options": [
+  "options": [
+    {
+      "optionText": "Uh... quem é você?",
+      "responseText": "Mmm... Ah, eu? Sou apenas mais uma vítima do seu pequeno... 'programa de alívio de tensão'. O quê, não esperava que suas revistas funcionassem tão bem? ♥︎",
+      "followUpOptions": [
         {
-            "optionText": "Uh... who are you?",
-            "responseText": "Mmm... Oh, me? I’m just another victim of your little... ‘tension release program.’ What, didn’t expect your mags to work this well? ♥︎",
-            "followUpOptions": [
-                {
-                    "optionText": "Wait, *I* did this? You’re here because of the contraband?",
-                    "responseText": "Oh, sweetheart, you set the whole vault on fire with that shit! Now, everyone’s either hiding in their rooms or doing... *this* wherever they can. ♥︎"
-                },
-                {
-                    "optionText": "Uh, this wasn’t *exactly* what I had in mind...",
-                    "responseText": "Oh, trust me, it’s working perfectly. Tension’s high, baby, and this pussy’s gotta relieve some pressure."
-                }
-            ]
+          "optionText": "Espera, *eu* fiz isso? Você está aqui por causa do contrabando?",
+          "responseText": "Oh, docinho, você incendiou o refúgio inteiro com essa merda! Agora, todo mundo está escondido em seus quartos ou fazendo... *isso* onde quer que possam. ♥︎"
         },
         {
-            "optionText": "You're seriously rubbing one out right next to the boogeyman?",
-            "responseText": "Mmm... You think he cares? He's seen worse. Plus, you never know what what he's packing...",
-            "followUpOptions": [
-                {
-                    "optionText": "You do realize he’s probably got a dick full of diseases, right?",
-                    "responseText": "Oh please, a little risk makes it more... exciting."
-                }
-            ]
-        },  
+          "optionText": "Uh, não era *exatamente* isso que eu tinha em mente...",
+          "responseText": "Oh, confie em mim, está funcionando perfeitamente. A tensão está alta, querido, e esta xoxota precisa aliviar um pouco a pressão."
+        }
+      ]
+    },
+    {
+      "optionText": "Você está falando sério, batendo uma bem ao lado do bicho-papão?",
+      "responseText": "Mmm... Você acha que ele se importa? Ele já viu coisa pior. Além disso, nunca se sabe o que ele tem nas calças...",
+      "followUpOptions": [
         {
-            "optionText": "Need a hand? Looks like you're struggling to... finish.",
-            "responseText": "Mmm, you’re cute. But no. This is a solo mission. I don’t need a co-pilot to land this ship.",
-            "followUpOptions": [
-                {
-                    "optionText": "You sure? You look like you're about to tap out.",
-                    "responseText": "Mmm, trust me, I’m good. ♥︎"
-                },
-                {
-                    "optionText": "Come on, everyone needs a little backup sometimes.",
-                    "responseText": "Sweetie, this pussy’s a one-woman operation. I’m more than capable of handling my own... tension. ♥︎"
-                }
-            ]
-        } 
-    ],
-    "auto_lines": ["Ahh, yeah... fingers deep in my pussy, feels so good...", "Fuck, yes... been too long... juices running down my thighs, just the way I like it...", "Yes, yes... keep going... fingers working that clit... God, I’m so wet...", "Gonna cum, gonna cum... right here in this stupid vault, and there’s nothing they can do to stop me...", "Mmm, wish I could find someone with a real dick, but this’ll have to do...", "Ugh, so close... fuck, I’m gonna scream when I cum, I don’t care who hears...", "Almost there... God, I’m gonna soak the bed...", "Mmm, my pussy’s so hungry for this... wish I could find someone to fill me up...", "Ahh, fuck, so close... gonna cum, gonna cum, can’t stop now...", "Yes, yes, yes... oh, fuck, it’s coming... gonna cum so hard...", "Almost there... oh God, yes... here it comes, gonna soak these sheets...", "Fuck, fuck, FUCK... cumming, oh God, cumming... ahhhh ♥♥♥..."]
+          "optionText": "Você percebe que ele provavelmente tem um pau cheio de doenças, certo?",
+          "responseText": "Ah, por favor, um pouco de risco torna tudo mais... emocionante."
+        }
+      ]
+    },
+    {
+      "optionText": "Precisa de uma mão? Parece que você está com dificuldade para... terminar.",
+      "responseText": "Mmm, você é fofo. Mas não. Esta é uma missão solo. Não preciso de um copiloto para pousar esta nave.",
+      "followUpOptions": [
+        {
+          "optionText": "Tem certeza? Você parece que vai desistir.",
+          "responseText": "Mmm, confie em mim, estou bem. ♥︎"
+        },
+        {
+          "optionText": "Vamos lá, todo mundo precisa de um pouco de ajuda às vezes.",
+          "responseText": "Docinho, esta xoxota é uma operação de uma mulher só. Sou mais do que capaz de lidar com minha própria... tensão. ♥︎"
+        }
+      ]
+    }
+  ],
+  "auto_lines": [
+    "Ahh, sim... dedos fundos na minha xoxota, que delícia...",
+    "Porra, sim... faz muito tempo... sucos escorrendo pelas minhas coxas, do jeito que eu gosto...",
+    "Sim, sim... continue... dedos trabalhando nesse clitóris... Deus, estou tão molhada...",
+    "Vou gozar, vou gozar... aqui mesmo neste refúgio estúpido, e não há nada que eles possam fazer para me impedir...",
+    "Mmm, queria poder encontrar alguém com um pau de verdade, mas isso vai ter que servir...",
+    "Ugh, tão perto... porra, vou gritar quando gozar, não me importo com quem ouça...",
+    "Quase lá... Deus, vou encharcar a cama...",
+    "Mmm, minha xoxota está com tanta fome disso... queria poder encontrar alguém para me encher...",
+    "Ahh, porra, tão perto... vou gozar, vou gozar, não posso parar agora...",
+    "Sim, sim, sim... oh, porra, está vindo... vou gozar tanto...",
+    "Quase lá... oh Deus, sim... lá vem, vou encharcar esses lençóis...",
+    "Porra, porra, PORRA... gozando, oh Deus, gozando... ahhhh ♥♥♥..."
+  ]
 }

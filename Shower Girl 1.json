@@ -1,118 +1,120 @@
 {
-    "options": [
+  "options": [
     {
-        "optionText": "[Come closer]",
-        "itemRequired": "Stealth Boy",
-        "changeSprite":  "Characters/ShowerGirl/redhead_upclose2",
-        "newSpriteXPos": -1.04,
-        "newSpriteYPos": 0.13,
-        "playsound": "Sounds/combat/stealthboy",
-        "resetToDefaultSpriteAfterClosingDialogues": true,
-        "followUpOptions": [
+      "optionText": "[Aproximar-se]",
+      "itemRequired": "Stealth Boy",
+      "changeSprite": "Characters/ShowerGirl/redhead_upclose2",
+      "newSpriteXPos": -1.04,
+      "newSpriteYPos": 0.13,
+      "playsound": "Sounds/combat/stealthboy",
+      "resetToDefaultSpriteAfterClosingDialogues": true,
+      "followUpOptions": [
+        {
+          "optionText": "[Dar um tapa na bunda dela]",
+          "playSound": "slap2",
+          "specialEffects": ["Punch"],
+          "emotion": "Characters/ShowerGirl/emotions/opened_eye",
+          "responseTexts": [
+            "*Ofega* QUE PORRA FOI ESSA?! Algo acabou de dar um tapa na minha bunda... oh Deus, oh Deus, o que está acontecendo?!",
+            "*Ofegando* Quem caralhos acabou de fazer isso?! Eu... eu não pensei... Oh merda, não consigo nem te ver, mas... oh porra... por que isso... é tão... bom?"
+          ]
+        },
+        {
+          "optionText": "[Dedilhar a xoxota dela]",
+          "playSound": "Sounds/fingering2",
+          "emotion": "none",
+          "responseTexts": [
+            "*Grita* Ohhh porra! QUEM ESTÁ FAZENDO ISSO?! Alguém está... me tocando... mas não consigo te ver... não consigo... oh porra... é tão bom!",
+            "*Ofegando* Oh Deus... oh Deus, não sei quem você é, mas... porra, não consigo... parar...! Continue... oh porra, eu odeio isso... mas eu amo pra caralho...!"
+          ]
+        },
+        {
+          "optionText": "[Mostrar seu pau]",
+          "playSound": "zip",
+          "icon": "GUI/heart4",
+          "emotion": "Characters/ShowerGirl/emotions/opened_eye",
+          "responseText": "Espera... QUE PORRA É ESSA?! Aquilo é... um pau flutuante?! Oh meu Deus, estou enlouquecendo?! QUEM ESTÁ FAZENDO ISSO?!",
+          "followUpOptions": [
             {
-                "optionText": "[Slap her ass]", 
-                "playSound": "slap2",
-                "specialEffects": ["Punch"],
-                "emotion": "Characters/ShowerGirl/emotions/opened_eye",
-                "responseTexts": [
-                    "*Gasps* WHAT THE FUCK?! Something just slapped my ass... oh god, oh god, what’s happening?!",
-                    "*Panting* Who the fuck just did that?! I... I didn’t think... Oh shit, I can’t even see you, but... oh fuck... why does it... feel so... fucking good?" 
-                ]
-            },
-            {
-                "optionText": "[Finger her pussy]", 
-                "playSound": "Sounds/fingering2",
-                "emotion": "none",
-                "responseTexts": [
-                    "*Screams* Ohhh fuck! WHO'S DOING IT?! Someone's... touching me... but I can’t see you... I can’t... oh fuck... it feels so fucking good...!", 
-                    "*Panting* Oh god... oh god, I don’t know who you are, but... fuck, I can’t... stop...! Keep going... oh fuck, I hate this... but I fucking love it...!" 
-                ]
-            },
-            {
-                "optionText": "[Flash your dick]",
-                "playSound": "zip",
-                "icon": "GUI/heart4",
-                "emotion": "Characters/ShowerGirl/emotions/opened_eye",
-                "responseText": "Wait... WHAT THE FUCK?! Is that... a floating dick?! Oh my god, am I losing my mind?! WHO’S DOING THIS?!",
-                "followUpOptions": [  
+              "optionText": "Já viu um pau 'assombrado' antes? Considere esta a primeira vez.",
+              "icon": "GUI/heart4",
+              "responseText": "Pau assombrado?! PAU ASSOMBRADO?! Você é louco! Preciso SAIR daqui!",
+              "followUpOptions": [
+                {
+                  "optionText": "Qual o mal em se divertir um pouco com um 'amigo fantasma'? Prometo que é inofensivo.",
+                  "emotion": "none",
+                  "icon": "GUI/heart4",
+                  "responseText": "*Respirando pesadamente* Inofensivo?! Há um PAU FLUTUANTE e você é invisível! COMO isso é inofensivo?! Mas... oh Deus, por que estou sequer considerando isso?! Você é seriamente pervertido. Porra, eu devo ser também...",
+                  "followUpOptions": [
                     {
-                        "optionText": "You ever seen a ‘haunted’ dick before? Consider this a first.",
-                        "icon": "GUI/heart4",
-                        "responseText": "Haunted dick?! HAUNTED DICK?! You’re fucking crazy! I need to get OUT of here!",
-                        "followUpOptions": [ 
-                            {
-                                "optionText": "What’s the harm in having a little fun with a ‘phantom friend’? I promise it’s harmless.",
-                                "emotion": "none",
-                                "icon": "GUI/heart4",
-                                "responseText": "*Breathing heavily* Harmless?! There’s a FLOATING DICK and you’re invisible! HOW is that harmless?! But... oh god, why am I even considering this?! You’re seriously twisted. fuck, I must be too...",
-                                "followUpOptions": [ 
-                                    {
-                                        "optionText": "[Go for it]",
-                                        "icon": "GUI/heart4",
-                                        "interactable": "Characters/ShowerGirl/Interactables/blowjob",
-                                        "closeDialogueOptions": true,
-                                        "isHEventStarted": true, 
-                                        "hEventName": "shower_blowjob",
-                                        "specialEffects": ["Blackout"],
-                                        "lineAfterHevent": "Mmm, I’m adding ‘ghost cum handler’ to my vault duties... Vault 6969 is really something else!",
-                                        "endingEffects": ["Flashes"],
-                                        "spriteAtTheEndOfHscene": "Characters/ShowerGirl/IPAdapter_00475_(2)(1)(1)",
-                                        "auto_lines": [ 
-                                            "Mmm... haunted dick? Ahh, fuck me, I guess ghosts need love too... ♥︎",
-                                            "Oh, so this is what ‘spiritual connection’ really means, huh? ♥︎",
-                                            "Mmm, I didn’t know ghosts could cum, but guess I’m about to find out...",
-                                            "Ohhh, haunted or not, this dick is making me question all my life choices... ♥︎",
-                                            "Mmm, I can’t believe I’m giving head to the fucking spirit world... what the hell is my life?!",
-                                            "Ahh, at least the ghost didn’t leave slime like in the movies... unless it’s saving that for later. ♥︎",
-                                            "Oh, this is way better than any seance. Who knew sucking ghost dick could be this much fun?!",
-                                            "Mmm, the ghost wants it? Guess I’m gonna give it the full experience—how’s that for afterlife hospitality?",
-                                            "Ohh, fucking hell, even the ghosts in this vault are pervs. At least they’ve got good taste!",
-                                            "Mmm, is it weird that I’m enjoying this? Nah, it’s Vault 6969, weird is fucking normal!",
-                                            "Ohhh, next thing you know, they’ll be making ghost pornos. Wait... is that what we’re doing right now?",
-                                            "Mmm, I’m either losing my mind or becoming a ghost dick expert. Either way, it’s a win!",
-                                            "Ahh, wonder if this ghost is getting off more than I am? Fuck it, probably!",
-                                            "Ohh, so much for ‘resting in peace’—this dick is anything but peaceful!",
-                                            "Mmm, I swear, if I get haunted by ghost cum later, I’m gonna need an exorcist!",
-                                            "Ahh, I hope this ghost knows I don’t do refunds... once you start, there’s no going back!",
-                                            "Ohhh, bet no one else in this vault has a ghost blowjob on their resume!",
-                                            "Mmm, invisible or not, this dick’s about to get the VIP treatment. Even ghosts deserve a good time!",
-                                            "Mmm, if this dick goes poltergeist on me, I’m out! But right now... I’m in for the ride!",
-                                            "Ahh, bet this ghost never had someone suck the afterlife out of them before!",
-                                            "Ohhh, looks like I’ve become a ‘spirit guide’... and baby, I’m guiding this ghost right to cloud nine!",
-                                            "Mmm, I’m really out here proving that even ghosts can get laid... you’re welcome, spectral dick!",
-                                            "Oh, fk, if I get haunted by ghost babies after this, I’m suing Vault-Tec!",
-                                            "Mmm, if this dick cums ghost juice, I’m fucking out! I’m not cleaning that sht up!",
-                                            "Oh, this haunted dick better not haunt my dreams after this... or maybe it should? ♥︎",
-                                            "Ahh, I should charge for this... paranormal sucking isn’t in the vault handbook!",
-                                            "Ohhh, this ghost might be dead, but this dick sure ain’t...!", 
-                                            "Ohhh, what’s next? Ghost g-spot hunting? I’m ready for the fucking challenge!",
-                                            "Ahh, I’m gonna need a whole therapy session for this. Haunted dicks aren’t normal, right?!",
-                                            "Oh, shit, this ghost has stamina! I guess that’s what happens when you’re dead but still horny!"
-                                        ]
-                                    }
-                                ]
-                            } 
-                        ]
+                      "optionText": "[Ir em frente]",
+                      "icon": "GUI/heart4",
+                      "interactable": "Characters/ShowerGirl/Interactables/blowjob",
+                      "closeDialogueOptions": true,
+                      "isHEventStarted": true,
+                      "hEventName": "shower_blowjob",
+                      "specialEffects": ["Blackout"],
+                      "lineAfterHevent": "Mmm, estou adicionando 'manipuladora de porra fantasma' às minhas tarefas do refúgio... O Refúgio 6969 é realmente algo!",
+                      "endingEffects": ["Flashes"],
+                      "spriteAtTheEndOfHscene": "Characters/ShowerGirl/IPAdapter_00475_(2)(1)(1)",
+                      "auto_lines": [
+                        "Mmm... pau assombrado? Ahh, foda-se, acho que fantasmas também precisam de amor... ♥︎",
+                        "Oh, então é isso que 'conexão espiritual' realmente significa, hein? ♥︎",
+                        "Mmm, não sabia que fantasmas podiam gozar, mas acho que estou prestes a descobrir...",
+                        "Ohhh, assombrado ou não, este pau está me fazendo questionar todas as minhas escolhas de vida... ♥︎",
+                        "Mmm, não acredito que estou fazendo um boquete para o mundo espiritual... que porra é a minha vida?!",
+                        "Ahh, pelo menos o fantasma não deixou gosma como nos filmes... a menos que esteja guardando para mais tarde. ♥︎",
+                        "Oh, isso é muito melhor que qualquer sessão espírita. Quem diria que chupar pau de fantasma podia ser tão divertido?!",
+                        "Mmm, o fantasma quer? Acho que vou dar a ele a experiência completa — que tal essa hospitalidade pós-vida?",
+                        "Ohh, puta que pariu, até os fantasmas neste refúgio são pervertidos. Pelo menos eles têm bom gosto!",
+                        "Mmm, é estranho eu estar gostando disso? Nah, é o Refúgio 6969, estranho é a porra do normal!",
+                        "Ohhh, a próxima coisa que sei é que estarão fazendo pornôs de fantasmas. Espera... é isso que estamos fazendo agora?",
+                        "Mmm, ou estou enlouquecendo ou me tornando uma especialista em pau de fantasma. De qualquer forma, é uma vitória!",
+                        "Ahh, me pergunto se este fantasma está gozando mais do que eu? Foda-se, provavelmente!",
+                        "Ohh, tanto para 'descansar em paz' — este pau é tudo menos pacífico!",
+                        "Mmm, juro, se eu for assombrada por porra de fantasma mais tarde, vou precisar de um exorcista!",
+                        "Ahh, espero que este fantasma saiba que não faço reembolsos... uma vez que você começa, não há como voltar atrás!",
+                        "Ohhh, aposto que ninguém mais neste refúgio tem um boquete de fantasma no currículo!",
+                        "Mmm, invisível ou não, este pau está prestes a receber o tratamento VIP. Até fantasmas merecem um bom momento!",
+                        "Mmm, se este pau virar um poltergeist em mim, estou fora! Mas agora... estou dentro para a viagem!",
+                        "Ahh, aposto que este fantasma nunca teve alguém chupando a vida após a morte dele antes!",
+                        "Ohhh, parece que me tornei uma 'guia espiritual'... e querido, estou guiando este fantasma direto para o sétimo céu!",
+                        "Mmm, estou aqui provando que até fantasmas podem transar... de nada, pau espectral!",
+                        "Oh, porra, se eu for assombrada por bebês fantasmas depois disso, vou processar a Vault-Tec!",
+                        "Mmm, se este pau gozar suco de fantasma, estou fora! Não vou limpar essa merda!",
+                        "Oh, este pau assombrado é melhor não assombrar meus sonhos depois disso... ou talvez devesse? ♥︎",
+                        "Ahh, eu deveria cobrar por isso... chupar paranormal não está no manual do refúgio!",
+                        "Ohhh, este fantasma pode estar morto, mas este pau com certeza não está...!",
+                        "Ohhh, o que vem a seguir? Caça ao ponto G fantasma? Estou pronta para o desafio!",
+                        "Ahh, vou precisar de uma sessão de terapia inteira para isso. Paus assombrados não são normais, certo?!",
+                        "Oh, merda, este fantasma tem fôlego! Acho que é isso que acontece quando você está morto, mas ainda com tesão!"
+                      ]
                     }
-                ]
+                  ]
+                }
+              ]
             }
-        ]
+          ]
+        }
+      ]
     },
     {
-        "optionText": "[Cough loudly]",
-        "responseText": "Huh? Who’s there?",
-        "followUpOptions": [
-            {
-                "optionText": "I was... uh... just checking if anyone needed extra towels.",
-                "responseText": "Extra towels, huh? Well, I’m flattered, but I think I’m covered—literally. You’re cute, though."
-            },
-            {
-                "optionText": "I was checking the water temperature, you know, making sure it’s optimal!",
-                "responseText": "Oh, well, I appreciate your commitment to vault safety! But, uh, I think I’m good here, inspector."
-            }
-        ]
+      "optionText": "[Tossir alto]",
+      "responseText": "Huh? Quem está aí?",
+      "followUpOptions": [
+        {
+          "optionText": "Eu estava... uh... só verificando se alguém precisava de toalhas extras.",
+          "responseText": "Toalhas extras, huh? Bem, estou lisonjeada, mas acho que estou coberta — literalmente. Você é fofo, no entanto."
+        },
+        {
+          "optionText": "Eu estava verificando a temperatura da água, sabe, garantindo que está ótima!",
+          "responseText": "Oh, bem, agradeço seu compromisso com a segurança do refúgio! Mas, uh, acho que estou bem aqui, inspetor."
+        }
+      ]
     }
-    ],
-    "auto_lines": ["<i>♪ Ohhh, soap on my butt, bubbles on my chest, this shower ain’t over ‘til I’m lookin’ my best! ♪</i>"],
-    "reset_to_default_sprite_after_closure": true
+  ],
+  "auto_lines": [
+    "<i>♪ Ohhh, sabão na minha bunda, bolhas no meu peito, este chuveiro não acaba até eu estar no meu melhor! ♪</i>"
+  ],
+  "reset_to_default_sprite_after_closure": true
 }

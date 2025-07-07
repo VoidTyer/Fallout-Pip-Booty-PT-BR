@@ -1,14 +1,14 @@
 {
-    "options": [
+  "options": [
+    {
+      "optionText": "Seus... atributos parecem bem, um, *à mostra* hoje.",
+      "responseText": "Oh, qual é o problema? Nunca viu um par de tetas antes? Pensei que você tivesse mais... compostura.",
+      "followUpOptions": [
         {
-            "optionText": "Your... assets seem pretty, um, *on display* today.",
-            "responseText": "Oh, what’s the matter? Never seen a pair of tits before? I thought you’d have more... composure.",
-            "followUpOptions": [
-                {
-                    "optionText": "I’m handling it just fine, thanks.",
-                    "responseText": "Please. You’re sweating like you just ran a marathon. Honestly, it’s cute watching you pretend to have any control."
-                } 
-            ]
-        } 
-    ]
+          "optionText": "Estou lidando muito bem, obrigado.",
+          "responseText": "Por favor. Você está suando como se tivesse acabado de correr uma maratona. Honestamente, é fofo te ver fingir que tem algum controle."
+        }
+      ]
+    }
+  ]
 }

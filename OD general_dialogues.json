@@ -1,13 +1,13 @@
 {
-    "options": [ 
+  "options": [
     {
-        "optionText": "You know your… uh, parts are out on display?",
-        "responseText": "Oops, my bad! Guess I’m giving the vault something real to gossip about. It’s not like they’ve got anything better to do anyway."
+      "optionText": "Sabe que suas... uh, partes estão à mostra?",
+      "responseText": "Opa, foi mal! Acho que estou dando ao refúgio um motivo real para fofocar. Não é como se eles tivessem algo melhor para fazer, de qualquer maneira."
     },
     {
-        "optionText": "Bye.",
-        "responseText": "When you’re done pretending to be pure, come find me. Maybe I’ll even fix my pants by then—but where’s the fun in that?",
-        "exitLine": true
+      "optionText": "Tchau.",
+      "responseText": "Quando terminar de fingir que é puro, venha me encontrar. Talvez eu até conserte minhas calças até lá — mas qual seria a graça nisso?",
+      "exitLine": true
     }
-    ]
+  ]
 }

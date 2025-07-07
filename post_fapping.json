@@ -1,36 +1,36 @@
 {
   "options": [
     {
-      "optionText": "Grace… what exactly are you doing?",
-      "responseText": "*gasps loudly, pulling her hands away and covering her flushed face* Wh-what?! I-I wasn’t…! I mean… okay fine, I was! God, this is so embarrassing…",
+      "optionText": "Grace… o que exatamente você está fazendo?",
+      "responseText": "*ofega alto, tirando as mãos e cobrindo o rosto corado* O-o quê?! E-eu não estava…! Quer dizer… ok, tudo bem, eu estava! Deus, isso é tão vergonhoso…",
       "followUpOptions": [
         {
-          "optionText": "Don't worry, it's okay to take care of yourself.",
-          "responseText": "*buries her face in her hands* Yeah but… not when someone’s standing right there watching! Ugh… can you, like, not look at me like that?"
+          "optionText": "Não se preocupe, tudo bem cuidar de si mesma.",
+          "responseText": "*enterra o rosto nas mãos* Sim, mas… не quando alguém está parado ali observando! Ugh… pode, tipo, não me olhar assim?"
         },
         {
-          "optionText": "Looks like someone took my advice to heart.",
-          "responseText": "*glares through her blush* Shut up. You were the one who told me about it, remember? I just… wanted to see what the big deal was…",
+          "optionText": "Parece que alguém levou meu conselho a sério.",
+          "responseText": "*encara através do rubor* Cala a boca. Foi você quem me falou sobre isso, lembra? Eu só… queria ver qual era a grande coisa…",
           "followUpOptions": [
             {
-              "optionText": "And? How was it?",
-              "responseText": "*groans, still covering her face* I don’t know, okay?! It felt… weird but… kinda nice… oh my god, why are we even TALKING about this?!"
+              "optionText": "E? Como foi?",
+              "responseText": "*geme, ainda cobrindo o rosto* Eu não sei, ok?! Foi… estranho, mas… meio bom… oh meu Deus, por que estamos sequer FALANDO sobre isso?!"
             },
             {
-              "optionText": "Need any… help?",
-              "responseText": "*eyes widen in horror* EXCUSE ME?! Oh my god, no! Just… go away!!"
+              "optionText": "Precisa de alguma… ajuda?",
+              "responseText": "*olhos se arregalam de horror* COMO É QUE É?! Oh meu Deus, não! Só… vai embora!!"
             }
           ]
         },
         {
-          "optionText": "Don’t stop on my account. Looks like you were having fun.",
-          "responseText": "*throws a pillow at you* Shut up shut up shut up! Ugh, you’re such a perv…"
+          "optionText": "Não pare por minha causa. Parece que você estava se divertindo.",
+          "responseText": "*joga um travesseiro em você* Cala a boca cala a boca cala a boca! Ugh, você é um tarado…"
         },
         {
-          "optionText": "Wow… guess the vault life is getting to you already.",
-          "responseText": "*pouts, still beet red* Yeah, well… maybe I’m just… curious. It’s boring here, okay?! Don’t make it weird…"
+          "optionText": "Uau… acho que a vida no refúgio já está te afetando.",
+          "responseText": "*faz beicinho, ainda vermelha como um pimentão* É, bem… talvez eu só esteja… curiosa. É chato aqui, ok?! Não torne as coisas estranhas…"
         }
       ]
     }
-  ] 
+  ]
 }

@@ -1,166 +1,168 @@
 {
-    "options": [
+  "options": [
+    {
+      "optionText": "Quando a tempestade de radiação virá?",
+      "onlyShowIfProgressionEventPlayed": "joined_coa",
+      "responseText": "O sopro do Átomo não está preso a relógios ou calendários. Mas em breve—muito em breve. Você sente a ardência no ar? Esteja pronto, andarilho. A tempestade não espera pelos despreparados.",
+      "exitLine": true
+    },
+    {
+      "optionText": "Qual é, eu te ajudei! Deixe-me entrar!",
+      "icon": "GUI/quest mark",
+      "onlyDisplayIfObjectiveComplete": "Bring a Brahmin to Children of Atom",
+      "dontShowIfProgressionEventPlayed": "joined_coa",
+      "responseText": "O Átomo valoriza o sacrifício, forasteiro—mas a entrada no círculo sagrado requer um tipo diferente de tributo. Ofereça 500 caps para demonstrar sua verdadeira devoção, e você poderá tirar suas roupas e se juntar ao brilho sob a tempestade.",
+      "followUpOptions": [
         {
-            "optionText": "When will the radstorm come?",
-            "onlyShowIfProgressionEventPlayed": "joined_coa",
-            "responseText": "Atom's breath is not bound by clocks or calendars. But soon—very soon. Do you feel the sting in the air? Be ready, wanderer. The storm does not wait for the unprepared.",
-            "exitLine": true
+          "optionText": "Certo, pegue seus 500 caps.",
+          "addCaps": -500,
+          "addPerk": "coa_joined",
+          "icon": "GUI/quest mark",
+          "capsRequired": 500,
+          "progressionEventPlayed": "joined_coa",
+          "responseText": "O Átomo vê sua devoção e sorri para você. Quando os céus se abrirem, você estará conosco, nu e desprotegido, bem-vindo à sagrada união da tempestade. Prepare-se—o abraço do Átomo não é gentil, mas é glorioso.",
+          "exitLine": true
         },
         {
-            "optionText": "C'mon, I helped you! Let me join!",
-            "icon": "GUI/quest mark",
-            "onlyDisplayIfObjectiveComplete": "Bring a Brahmin to Children of Atom",
-            "dontShowIfProgressionEventPlayed": "joined_coa",
-            "responseText": "Atom values sacrifice, outsider—but entry to the sacred circle requires a different kind of tribute. Offer up 500 caps to demonstrate your true devotion, and you may shed your clothing and join the glow beneath the storm.",
-            "followUpOptions": [
-                {
-                    "optionText": "Fine, take your 500 caps.",
-                    "addCaps": -500,
-                    "addPerk": "coa_joined",
-                    "icon": "GUI/quest mark",
-                    "capsRequired": 500,
-                    "progressionEventPlayed": "joined_coa",
-                    "responseText": "Atom sees your devotion and smiles upon you. When the heavens split, you shall stand with us, bare and unshielded, welcomed into the holy storm-joining. Prepare yourself—Atom’s embrace is not gentle, but it is glorious.",
-                    "exitLine": true
-                },
-                {
-                    "optionText": "That's too steep for me.",
-                    "responseText": "Then remain at the edge of the circle, outsider. Perhaps one day your pockets—or your soul—will feel lighter.",
-                    "exitLine": true
-                }
-            ]
-        },
-        {
-            "optionText": "I brought the brahmin you wanted.",
-            "onlyShowIfProgressionEventPlayed": "gotBrahmin",
-            "icon": "GUI/quest mark",
-            "markObjectiveComplete": "Bring a Brahmin to Children of Atom",
-            "dontDisplayIfObjectiveComplete": "Bring a Brahmin to Children of Atom",
-            "addCaps": 200,
-            "removeFollower": "Brahmin",
-            "responseText": "Oh, praise the glow between your fingers. Look at it—trembling, confused, beautifully unaware. Just like we were, before the fire. You’ve done well, wanderer. Atom sees your offering. And when the sky splits, you'll have a place at the edge of the circle. Not inside... not yet. But close enough to feel the heat.",
-            "followUpOptions": [
-                {
-                    "optionText": "So what happens now?",
-                    "responseText": "Now? We prepare the pit. We anoint the beast in sacred oils. When the storm comes, we burn it alive and howl its soul into the wind. Then... well. Then we celebrate until we forget we were ever human."
-                },
-                {
-                    "optionText": "That’s it? I bring the brahmin and just get to watch?",
-                    "responseText": "Watch, listen, learn. Atom doesn’t hand out epiphanies like Sugar Bombs. But keep walking the path, keep bleeding for the light... and maybe next time, you’ll be *inside* the circle. Naked and glowing with the rest of us."
-                },
-                {
-                    "optionText": "C'mon, I helped you! Let me join!",
-                    "icon": "GUI/quest mark",
-                    "responseText": "Atom values sacrifice, outsider—but entry to the sacred circle requires a different kind of tribute. Offer up 500 caps to demonstrate your true devotion, and you may shed your clothing and join the glow beneath the storm.",
-                    "followUpOptions": [
-                        {
-                            "optionText": "Fine, take your 500 caps.",
-                            "addCaps": -500,
-                            "addPerk": "coa_joined",
-                            "icon": "GUI/quest mark",
-                            "capsRequired": 500,
-                            "progressionEventPlayed": "joined_coa",
-                            "responseText": "Atom sees your devotion and smiles upon you. When the heavens split, you shall stand with us, bare and unshielded, welcomed into the holy storm-joining. Prepare yourself—Atom’s embrace is not gentle, but it is glorious.",
-                            "exitLine": true
-                        },
-                        {
-                            "optionText": "That's too steep for me.",
-                            "responseText": "Then remain at the edge of the circle, outsider. Perhaps one day your pockets—or your soul—will feel lighter.",
-                            "exitLine": true
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "optionText": "Who are you?",
-            "responseText": "We are the Children of Atom. The chosen embers born from the old world’s fire. We drink the glow and speak in static. We are the ones who saw the bomb as a sermon and the crater as a cradle."
-        },        
-        {
-            "optionText": "What is this place?",
-            "responseText": "You tread upon Atom’s Ulcer, outsider. The rot-scab of the old world—split open and weeping light. This ruin is sacred. Do you feel the burn in your lungs? That’s Atom.",
-            "followUpOptions": [ 
-                {
-                    "optionText": "Why are you naked?",
-                    "responseText": "Because the Atom sees all. Because cloth is a barrier to the breath of Atom. Because when the radstorm comes, we want nothing between our skin and the breath of our father-sun.",
-                    "followUpOptions": [
-                        {
-                            "optionText": "Are you waiting for a radstorm?",
-                            "responseText": "Yes. The sky grows heavy. Any hour now it will split wide and pour the fire. Do you smell it? That copper sting on the wind? The storm is coming to peel us clean.",
-                            "followUpOptions": [
-                                {
-                                    "optionText": "And what happens when it comes?",
-                                    "responseText": "The air thickens. The glow comes—then the static—the taste of metal on your teeth. The birds stop singing, and the sky turns red. We light the fires, chant the verses... and then start an orgy.",
-                                    "followUpOptions": [
-                                        {
-                                            "optionText": "What? An orgy?",
-                                            "responseText": "The copulation beneath Atom’s wrath is sacred. The radiation, the heat, the thunder—it’s all part of the conception. When the radstorm comes, it tears the veil thin. Atom’s fire warms our wombs—during this time we become most fertile. And the children conceived beneath the storm will be forever blessed by Atom. Resilient. Glowing. Holy.",
-                                            "followUpOptions": [
-                                                {
-                                                    "optionText": "Can I join?",
-                                                    "responseText": "The storm-joining is for the devout—those who have burned enough to earn our fire. You may watch, but not to join. Prove your devotion first, walk our path, and maybe then you *can* join.",
-                                                    "exitLine": true
-                                                }                                                
-                                            ]
-                                        }
-                                    ]
-                                } 
-                            ]
-                        }
-                    ]
-                }
-            ]
-        }, 
-        {
-            "optionText": "Do you need anything?",
-            "icon": "GUI/quest mark",
-            "dontDisplayIfHasObjective": "Bring a Brahmin to Children of Atom",
-            "dontDisplayIfObjectiveComplete": "Bring a Brahmin to Children of Atom",
-            "responseText": "Yes. There is something we need—the twin-headed beast, the brahmin—for the holy radstorm. We feed it to the storm, let Atom claim it. Burn from tongue to tail, its smoke carries our prayers skyward. Atom will see our devotion.",
-            "followUpOptions": [
-                {
-                    "optionText": "Is this for some kind of ritual?",
-                    "responseText": "More than a ritual. A consummation. Sacrifice pleases Atom—it feeds the fusion. Bring us a brahmin, and you’ll have a seat by the fire when the sky cries."
-                },
-                {
-                    "optionText": "What's the point of this sacrifice?",
-                    "responseText": "To remind Atom that we are thankful. That we strayed from the light once—before the fire, before the silence—and still, we were spared. The Great Detonation was no accident—it was a warning. Every sacrifice is our way of showing gratitude for another chance we were given by Atom to walk this earth."
-                },
-                {
-                    "optionText": "Where can I find a brahmin?",
-                    "icon": "GUI/quest mark",
-                    "responseText": "I do not chart the paths of beasts, outsider—only the storms. But there are farmers out there who cling to their brahmins like lifelines. Offer them something and maybe they'll part with one. Trade, trick, steal—I don't care. Just bring it breathing.",
-                    "followUpOptions": [
-                        {
-                            "optionText": "And if they say no?",
-                            "responseText": "Then make them understand. Words, caps, bullets—whichever you prefer. But remember that Atom watches how you choose to negotiate."
-                        },
-                        {
-                            "optionText": "Alright. I'll bring you brahmin.",
-                            "icon": "GUI/quest mark",
-                            "addObjective": "Bring a Brahmin to Children of Atom",
-                            "responseText": "Yes… guide the beast to us like a lamb to its sacred drowning. When the radwinds rise, we’ll offer its body, and the heavens will tremble with gratitude.",
-                            "exitLine": true
-                        }
-                    ]
-                } 
-            ]
-        }, 
-        {
-            "optionText": "Bye",
-            "responseText": "When the storm comes, you will feel the heat in your bones, outsider.",
-            "exitLine": true
+          "optionText": "Isso é muito caro para mim.",
+          "responseText": "Então permaneça à beira do círculo, forasteiro. Talvez um dia seus bolsos—ou sua alma—se sintam mais leves.",
+          "exitLine": true
         }
-    ], 
-    "showShadowFigures": "Children of Atom",
-    "auto_lines": ["Brothers and sisters, we stand today in the hallowed glow of Atom’s message, the light born not only of destruction but of revelation. The Great War was no mere tragedy—it was humanity’s final warning, a testament etched eternally into the bones of our world...",
-    "... It was Atom’s voice, fierce and undeniable, reminding mankind of its hubris, of the peril in thinking ourselves masters rather than humble guardians of our Earth...",
-    "... We, the Children of Atom, bear witness to this truth each day. We have felt the sting of Atom's flame, and we have seen the rebirth that follows devastation...",
-    "... Radiation is not merely a force—it is the tangible echo of our ancestors' folly, the consequence of their arrogance, forever reminding us of our sacred duty...",
-    "... We are tasked to live in humility, to understand our place within this fragile world, and to balance carefully on the knife’s edge of existence...",
-    "... Atom’s glow illuminates our path forward, guiding us toward redemption through stewardship, harmony, and respect for the scars left upon our Earth...",
-    "... Together, let us cultivate the irradiated soil not with fear, but reverence. Let us reclaim and heal our land, not to erase Atom’s lessons but to honor them, knowing the glow is our eternal guide...",
-    "... We carry within us the memory of past arrogance, and we pledge ourselves anew each day to humility, vigilance, and renewal...",
-    "May Atom’s light forever guide us, reminding us always of what we must never again become.",
-    "Praise be to Atom!"]
+      ]
+    },
+    {
+      "optionText": "Eu trouxe o brahmin que você queria.",
+      "onlyShowIfProgressionEventPlayed": "gotBrahmin",
+      "icon": "GUI/quest mark",
+      "markObjectiveComplete": "Bring a Brahmin to Children of Atom",
+      "dontDisplayIfObjectiveComplete": "Bring a Brahmin to Children of Atom",
+      "addCaps": 200,
+      "removeFollower": "Brahmin",
+      "responseText": "Oh, louvado seja o brilho entre seus dedos. Olhe para ele—tremendo, confuso, lindamente inconsciente. Assim como éramos, antes do fogo. Você fez bem, andarilho. O Átomo vê sua oferenda. E quando o céu se abrir, você terá um lugar à beira do círculo. Não dentro... ainda não. Mas perto o suficiente para sentir o calor.",
+      "followUpOptions": [
+        {
+          "optionText": "E o que acontece agora?",
+          "responseText": "Agora? Preparamos o fosso. Ungimos a besta com óleos sagrados. Quando a tempestade vier, a queimamos viva e uivamos sua alma ao vento. Então... bem. Então celebramos até esquecermos que já fomos humanos."
+        },
+        {
+          "optionText": "É só isso? Eu trago o brahmin e só posso assistir?",
+          "responseText": "Assista, ouça, aprenda. O Átomo não distribui epifanias como Sugar Bombs. Mas continue trilhando o caminho, continue sangrando pela luz... e talvez da próxima vez, você estará *dentro* do círculo. Nu e brilhando com o resto de nós."
+        },
+        {
+          "optionText": "Qual é, eu te ajudei! Deixe-me entrar!",
+          "icon": "GUI/quest mark",
+          "responseText": "O Átomo valoriza o sacrifício, forasteiro—mas a entrada no círculo sagrado requer um tipo diferente de tributo. Ofereça 500 caps para demonstrar sua verdadeira devoção, e você poderá tirar suas roupas e se juntar ao brilho sob a tempestade.",
+          "followUpOptions": [
+            {
+              "optionText": "Certo, pegue seus 500 caps.",
+              "addCaps": -500,
+              "addPerk": "coa_joined",
+              "icon": "GUI/quest mark",
+              "capsRequired": 500,
+              "progressionEventPlayed": "joined_coa",
+              "responseText": "O Átomo vê sua devoção e sorri para você. Quando os céus se abrirem, você estará conosco, nu e desprotegido, bem-vindo à sagrada união da tempestade. Prepare-se—o abraço do Átomo não é gentil, mas é glorioso.",
+              "exitLine": true
+            },
+            {
+              "optionText": "Isso é muito caro para mim.",
+              "responseText": "Então permaneça à beira do círculo, forasteiro. Talvez um dia seus bolsos—ou sua alma—se sintam mais leves.",
+              "exitLine": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "optionText": "Quem são vocês?",
+      "responseText": "Nós somos os Filhos do Átomo. As brasas escolhidas nascidas do fogo do velho mundo. Bebemos o brilho e falamos em estática. Somos aqueles que viram a bomba como um sermão e a cratera como um berço."
+    },
+    {
+      "optionText": "Que lugar é este?",
+      "responseText": "Você pisa na Úlcera do Átomo, forasteiro. A crosta podre do velho mundo—aberta e vertendo luz. Esta ruína é sagrada. Você sente a queimação em seus pulmões? Isso é o Átomo.",
+      "followUpOptions": [
+        {
+          "optionText": "Por que vocês estão nus?",
+          "responseText": "Porque o Átomo vê tudo. Porque o tecido é uma barreira para o sopro do Átomo. Porque quando a tempestade de radiação vem, não queremos nada entre nossa pele e o sopro de nosso pai-sol.",
+          "followUpOptions": [
+            {
+              "optionText": "Vocês estão esperando por uma tempestade de radiação?",
+              "responseText": "Sim. O céu fica pesado. A qualquer hora ele se abrirá e derramará o fogo. Você sente o cheiro? Aquela ardência de cobre no vento? A tempestade está vindo para nos limpar.",
+              "followUpOptions": [
+                {
+                  "optionText": "E o que acontece quando ela vem?",
+                  "responseText": "O ar engrossa. O brilho vem—então a estática—o gosto de metal em seus dentes. Os pássaros param de cantar, e o céu fica vermelho. Acendemos as fogueiras, cantamos os versos... e então começamos uma orgia.",
+                  "followUpOptions": [
+                    {
+                      "optionText": "O quê? Uma orgia?",
+                      "responseText": "A copulação sob a ira do Átomo é sagrada. A radiação, o calor, o trovão—tudo faz parte da concepção. Quando a tempestade de radiação vem, ela rasga o véu. O fogo do Átomo aquece nossos úteros—durante este tempo nos tornamos mais férteis. E as crianças concebidas sob a tempestade serão para sempre abençoadas pelo Átomo. Resilientes. Brilhantes. Sagradas.",
+                      "followUpOptions": [
+                        {
+                          "optionText": "Posso participar?",
+                          "responseText": "A união da tempestade é para os devotos—aqueles que queimaram o suficiente para merecer nosso fogo. Você pode assistir, mas não participar. Prove sua devoção primeiro, caminhe nosso caminho, e talvez então você *possa* participar.",
+                          "exitLine": true
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "optionText": "Vocês precisam de algo?",
+      "icon": "GUI/quest mark",
+      "dontDisplayIfHasObjective": "Bring a Brahmin to Children of Atom",
+      "dontDisplayIfObjectiveComplete": "Bring a Brahmin to Children of Atom",
+      "responseText": "Sim. Há algo que precisamos—a besta de duas cabeças, o brahmin—para a sagrada tempestade de radiação. Nós a alimentamos para a tempestade, deixamos o Átomo reivindicá-la. Queimando da língua à cauda, sua fumaça leva nossas preces aos céus. O Átomo verá nossa devoção.",
+      "followUpOptions": [
+        {
+          "optionText": "Isso é para algum tipo de ritual?",
+          "responseText": "Mais que um ritual. Uma consumação. O sacrifício agrada o Átomo—alimenta a fusão. Traga-nos um brahmin, e você terá um lugar junto ao fogo quando o céu chorar."
+        },
+        {
+          "optionText": "Qual o sentido deste sacrifício?",
+          "responseText": "Para lembrar ao Átomo que somos gratos. Que nos desviamos da luz uma vez—antes do fogo, antes do silêncio—e ainda assim, fomos poupados. A Grande Detonação não foi um acidente—foi um aviso. Cada sacrifício é nossa maneira de mostrar gratidão por outra chance que nos foi dada pelo Átomo para caminhar nesta terra."
+        },
+        {
+          "optionText": "Onde posso encontrar um brahmin?",
+          "icon": "GUI/quest mark",
+          "responseText": "Eu não traço os caminhos das bestas, forasteiro—apenas as tempestades. Mas há fazendeiros por aí que se apegam a seus brahmins como salva-vidas. Ofereça-lhes algo e talvez eles se desfaçam de um. Troque, engane, roube—não me importo. Apenas traga-o respirando.",
+          "followUpOptions": [
+            {
+              "optionText": "E se eles disserem não?",
+              "responseText": "Então faça-os entender. Palavras, caps, balas—o que você preferir. Mas lembre-se que o Átomo observa como você escolhe negociar."
+            },
+            {
+              "optionText": "Certo. Eu trarei um brahmin.",
+              "icon": "GUI/quest mark",
+              "addObjective": "Bring a Brahmin to Children of Atom",
+              "responseText": "Sim… guie a besta até nós como um cordeiro para seu afogamento sagrado. Quando os ventos radioativos se levantarem, ofereceremos seu corpo, e os céus tremerão de gratidão.",
+              "exitLine": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "optionText": "Tchau",
+      "responseText": "Quando a tempestade vier, você sentirá o calor em seus ossos, forasteiro.",
+      "exitLine": true
+    }
+  ],
+  "showShadowFigures": "Children of Atom",
+  "auto_lines": [
+    "Irmãos e irmãs, estamos hoje no brilho sagrado da mensagem do Átomo, a luz nascida não apenas da destruição, mas da revelação. A Grande Guerra não foi uma mera tragédia—foi o aviso final da humanidade, um testamento gravado eternamente nos ossos do nosso mundo...",
+    "... Foi a voz do Átomo, feroz e inegável, lembrando a humanidade de sua arrogância, do perigo de nos acharmos mestres em vez de humildes guardiões de nossa Terra...",
+    "... Nós, os Filhos do Átomo, testemunhamos essa verdade todos os dias. Sentimos a ardência da chama do Átomo, e vimos o renascimento que se segue à devastação...",
+    "... A radiação não é meramente uma força—é o eco tangível da loucura de nossos ancestrais, a consequência de sua arrogância, lembrando-nos para sempre de nosso dever sagrado...",
+    "... Somos encarregados de viver em humildade, de entender nosso lugar neste mundo frágil, e de nos equilibrarmos cuidadosamente no fio da navalha da existência...",
+    "... O brilho do Átomo ilumina nosso caminho adiante, guiando-nos para a redenção através da mordomia, harmonia e respeito pelas cicatrizes deixadas em nossa Terra...",
+    "... Juntos, cultivemos o solo irradiado não com medo, mas com reverência. Reivindiquemos e curemos nossa terra, não para apagar as lições do Átomo, mas para honrá-las, sabendo que o brilho é nosso guia eterno...",
+    "... Carregamos dentro de nós a memória da arrogância passada, e nos comprometemos novamente a cada dia com a humildade, vigilância e renovação...",
+    "Que a luz do Átomo nos guie para sempre, lembrando-nos sempre do que nunca mais devemos nos tornar.",
+    "Louvado seja o Átomo!"
+  ]
 }

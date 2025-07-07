@@ -1,25 +1,25 @@
 {
-    "options": [
+  "options": [
+    {
+      "optionText": "E aí, amigão! Quem é um bom garoto?",
+      "playSound": "Sounds/fallout 4/bark",
+      "responseTexts": ["Au! <i>(sons de rabo abanando)</i>"],
+      "followUpOptions": [
         {
-            "optionText": "Hey there, buddy! Who's a good boy?",
-            "playSound": "Sounds/fallout 4/bark",
-            "responseTexts": ["Woof! <i>(tail wagging sounds)"],
-            "followUpOptions": [
-                {
-                    "optionText": "Do you know where the Emergency Release Button is?",
-                    "responseText": "Woof woof! <i>(sniffs around and looks up, as if trying to be helpful but not really understanding)" 
-                },
-                {
-                    "optionText": "What's life like in Vault 6969, huh?",
-                    "responseText": "Ruff, ruff! <i>(spins in a circle, clearly just excited to be getting attention)" 
-                }
-            ]
+          "optionText": "Você sabe onde fica o Botão de Liberação de Emergência?",
+          "responseText": "Au au! <i>(cheira ao redor e olha para cima, como se tentasse ser útil, mas sem realmente entender)</i>"
         },
         {
-            "optionText": "[Pet]",
-            "playSound": "Sounds/fallout 4/dog breathing",
-            "responseText": "Woof! Woof! <i>(leans into your hand, tail wagging furiously, and gives a happy bark, enjoying the affection)",
-            "exitLine": true
+          "optionText": "Como é a vida no Refúgio 6969, hein?",
+          "responseText": "Au, au! <i>(gira em círculos, claramente apenas animado por receber atenção)</i>"
         }
-    ]
+      ]
+    },
+    {
+      "optionText": "[Fazer carinho]",
+      "playSound": "Sounds/fallout 4/dog breathing",
+      "responseText": "Au! Au! <i>(encosta na sua mão, abanando o rabo furiosamente, e late feliz, aproveitando o carinho)</i>",
+      "exitLine": true
+    }
+  ]
 }

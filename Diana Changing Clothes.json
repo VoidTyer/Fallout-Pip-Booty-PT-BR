@@ -1,15 +1,16 @@
 {
-    "options": [
-    
+  "options": [
     {
-        "optionText": "[Gift]",
-        "icon": "GUI/gift icon",
-        "isGifting": true
+      "optionText": "[Presente]",
+      "icon": "GUI/gift icon",
+      "isGifting": true
     },
     {
-        "optionText": "Bye.",
-        "responseTexts": [ "Next time, knock before you walk in, for god's sake." ],
-        "exitLine": true
+      "optionText": "Tchau.",
+      "responseTexts": [
+        "Da próxima vez, bata antes de entrar, pelo amor de deus."
+      ],
+      "exitLine": true
     }
-    ]
+  ]
 }

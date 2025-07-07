@@ -1,61 +1,63 @@
 {
-    "options": [
+  "options": [
+    {
+      "optionText": "Vejo que você não aprendeu a lição.",
+      "responseText": "Bem, bem, se não é o meu Morador do Refúgio favorito. Voltou para terminar o que começou?",
+      "followUpOptions": [
         {
-            "optionText": "I see you haven’t learned your lesson.",
-            "responseText": "Well, well, if it isn’t my favorite Vault Dweller. Back to finish what you started?",
-            "followUpOptions": [
-                {
-                    "optionText": "Hand over everything you’ve got. Again.",
-                    "exitLine": true,
-                    "addCaps": 145,
-                    "responseText": "You sure you wanna do this? Second time’s the charm, huh? Fine, take it all, just leave my girls alone...again."
-                } 
-            ]
-        },
-        {
-            "optionText": "I’m just here to see how things are holding up.",
-            "responseText": "Oh, you mean how you kicked my ass in front of my girls last time? Yeah, we’re doing great, thanks for asking. Didn’t think you’d come back, though.",
-            "followUpOptions": [
-                {
-                    "optionText": "You’re lucky I didn’t wipe you all out.",
-                    "responseText": "Lucky? Vaultie, the only thing lucky here is that I didn’t shove your Pip-Boy where the sun don’t shine. I’m the queen here—pussy power and all. You’d miss me, and you fucking know it."
-                },
-                {
-                    "optionText": "You ever think about joining Vault 6969?",
-                    "responseText": "Vault 6969? Oh yeah, the vault where everyone’s too scared to touch their own dicks. What’s the motto there? ‘Blue balls build character?’ Honey, I’d rather die face-first in a pile of Brahmin shit then never ride another dick again."
-                }
-            ]
-        },
-        {
-            "optionText": "So, who are your favorite clients?",
-            "responseText": "Hmm, if you’re asking who fucks the best, it’s the super mutants. Those big, dumb, green bastards have dicks the size of Brahmin necks. I swear, one of my girls got railed so hard, her screams scared off half my other customers that night. Also, they pay top caps because they’re too stupid to haggle, and they leave my girls walking funny for a week. It’s a win-win.",
-            "followUpOptions": [
-                {
-                    "optionText": "How the hell do your girls survive that?",
-                    "responseText": "Survive? Pfft, most of ’em don’t. Had one chick try to ‘take it like a champ,’ but that champ ended up looking like Deathclaw leftovers. Now I charge extra for a ‘disposable service.’ Clients love it, and I don’t waste resources cleaning up after the dead ones. Capitalism, vaultie!"
-                },
-                {
-                    "optionText": "Ever let one of them fuck you?",
-                    "responseText": "Oh, you bet your ass I have. You think I’d sell this shit without knowing what it’s like? First time, I thought it’d kill me. Turned out it was the best damn lay I ever had. Sure, I couldn’t walk straight for a few days, but that’s a small price to pay. Now, though, I only let the ones with manners take me for a ride. Gotta set boundaries, y’know?"
-                },
-                {
-                    "optionText": "That’s... disturbing.",
-                    "responseText": "Disturbing? Sweetheart, you've seen nothing yet!"
-                } 
-            ]
-        }, 
-        {
-            "optionText": "Got anything to trade?",
-            "icon": "GUI/trade icon",
-            "neverGreyOut": true,
-            "responseText": "Well, well, if it ain't the wasteland pervert come to stock up. Got whiskey strong enough to erase last night and enough Rad-Lube to handle whatever degeneracy you've got planned. You buying, or you just wasting my time?",
-            "isTrading": true
-        },
-        {
-            "optionText": "Bye",
-            "responseText": "Get outta here, Vaultie. Next time, I’m the one kicking your ass.",
-            "exitLine": true
+          "optionText": "Entregue tudo que você tem. De novo.",
+          "exitLine": true,
+          "addCaps": 145,
+          "responseText": "Tem certeza que quer fazer isso? A segunda vez é que dá sorte, hein? Tudo bem, pegue tudo, só deixe minhas garotas em paz... de novo."
         }
-    ],
-    "auto_lines": [ "You’re like a radroach infestation—ugly, persistent, and impossible to kill. What do you want this time?" ]
+      ]
+    },
+    {
+      "optionText": "Só estou aqui para ver como as coisas estão.",
+      "responseText": "Ah, você quer dizer como você chutou meu traseiro na frente das minhas garotas da última vez? Sim, estamos ótimas, obrigada por perguntar. Não pensei que você voltaria, no entanto.",
+      "followUpOptions": [
+        {
+          "optionText": "Você tem sorte de eu não ter acabado com todas vocês.",
+          "responseText": "Sorte? Garoto do refúgio, a única coisa de sorte aqui é que eu não enfiei seu Pip-Boy onde o sol não bate. Eu sou a rainha aqui — poder da xoxota e tudo mais. Você sentiria minha falta, e você sabe disso."
+        },
+        {
+          "optionText": "Você já pensou em se juntar ao Refúgio 6969?",
+          "responseText": "Refúgio 6969? Ah sim, o refúgio onde todo mundo tem medo de tocar no próprio pau. Qual é o lema lá? 'Saco azul constrói caráter?' Querido, prefiro morrer de cara numa pilha de merda de Brahmin a nunca mais cavalgar um pau."
+        }
+      ]
+    },
+    {
+      "optionText": "Então, quem são seus clientes favoritos?",
+      "responseText": "Hmm, se você está perguntando quem fode melhor, são os super mutantes. Aqueles desgraçados grandes, burros e verdes têm paus do tamanho do pescoço de um Brahmin. Juro, uma das minhas garotas foi tão arrombada que os gritos dela espantaram metade dos meus outros clientes naquela noite. Além disso, eles pagam as melhores tampinhas porque são burros demais para pechinchar, e deixam minhas garotas andando engraçado por uma semana. É uma vitória para todos.",
+      "followUpOptions": [
+        {
+          "optionText": "Como diabos suas garotas sobrevivem a isso?",
+          "responseText": "Sobrevivem? Pfft, a maioria não sobrevive. Tive uma garota que tentou 'aguentar como uma campeã', mas essa campeã acabou parecendo restos de Deathclaw. Agora eu cobro extra por um 'serviço descartável'. Os clientes adoram, e eu não desperdiço recursos limpando as mortas. Capitalismo, garoto do refúgio!"
+        },
+        {
+          "optionText": "Já deixou um deles te foder?",
+          "responseText": "Pode apostar que sim. Você acha que eu venderia essa merda sem saber como é? Na primeira vez, pensei que ia me matar. Acontece que foi a melhor foda que já tive. Claro, não consegui andar direito por alguns dias, mas é um preço pequeno a pagar. Agora, porém, só deixo os que têm modos me darem uma volta. Tenho que impor limites, sabe?"
+        },
+        {
+          "optionText": "Isso é... perturbador.",
+          "responseText": "Perturbador? Docinho, você ainda não viu nada!"
+        }
+      ]
+    },
+    {
+      "optionText": "Tem algo para trocar?",
+      "icon": "GUI/trade icon",
+      "neverGreyOut": true,
+      "responseText": "Bem, bem, se não é o pervertido dos Ermos vindo se abastecer. Tenho uísque forte o suficiente para apagar a noite passada e Rad-Lube o bastante para lidar com qualquer depravação que você planejou. Vai comprar ou só está perdendo meu tempo?",
+      "isTrading": true
+    },
+    {
+      "optionText": "Tchau.",
+      "responseText": "Dá o fora daqui, Garoto do Refúgio. Da próxima vez, sou eu quem chuta seu traseiro.",
+      "exitLine": true
+    }
+  ],
+  "auto_lines": [
+    "Você é como eine infestação de radroaches — feio, persistente e impossível de matar. O que você quer desta vez?"
+  ]
 }

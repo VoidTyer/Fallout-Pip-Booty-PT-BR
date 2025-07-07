@@ -1,131 +1,131 @@
 {
-    "options": [ 
+  "options": [
+    {
+      "optionText": "Puta merda, é a temporada de acasalamento dos mutantes?",
+      "responseText": "HAHAHA! HUMANINHO ENGRAÇADO! TODA ESTAÇÃO É ESTAÇÃO DE ACASALAMENTO PARA O GRANDE ABRAÇADOR! SR. ABRAÇAFODA DIZ, 'FAÇA AMOR FORTE, NÃO GUERRA!' VOCÊ QUER PARTICIPAR? PODE IR DEPOIS!",
+      "followUpOptions": [
         {
-            "optionText": "Holy shit, is this mutant mating season?",
-            "responseText": "HAHAHA! LITTLE HUMAN FUNNY! EVERY SEASON MATING SEASON FOR BIG HUGGER! MR. CUDDLEFUCK SAY, 'MAKE LOVE HARD, NOT WAR!' YOU WANT JOIN? CAN GO NEXT!",
-            "followUpOptions": [
-                {
-                    "optionText": "Does teddy supervise your rape sessions?",
-                    "responseText": "MR. CUDDLEFUCK DA BEST FRIEND! ALWAYS WATCHING, ALWAYS ENCOURAGING! HE LOVE TO WATCH MEAT POUNDERS DO DA BAD-BAD! TEDDY MAKE IT SPECIAL!",
-                    "followUpOptions": [
-                        {
-                            "optionText": "Is Mr. Cuddlefuck okay? He looks like he’s seen too many things.",
-                            "responseText": "OH HE HAS! HE’S OUR SPIRIT GUIDE. BEEN WITH US THROUGH THREE HUNDRED GANG BANGS, A CANNIBAL ORGY, AND THE TIME WE STUFFED A GHOUL IN A FIRE HYDRANT! HE’S SEEN TRUTH!"
-                        }
-                    ]
-                },
-                {
-                    "optionText": "Who's the unlucky bitch getting mutant-loved tonight?",
-                    "responseText": "JUST FEMALE HUMAN WE SNATCH FROM HER DWELLING. SHE SAY 'NO,' BUT MUTANT EARS ONLY HEAR 'HARDER!' MR. CUDDLEFUCK TEACH ME THAT!",
-                    "followUpOptions": [ 
-                        {
-                            "optionText": "Isn't she too small for your mutant junk?",
-                            "responseText": "BIG HUGGER NOT DISCRIMINATE! IF BREAK, JUST FIND NEW TOY! WASTELAND FULL OF FUN SIZE HUMANS!"
-                        }
-                    ]
-                },
-                {
-                    "optionText": "You mutants fuck everything that moves?",
-                    "responseText": "IF IT MOVE, BIG HUGGER MAKE LOVE. IF NOT MOVE, BIG HUGGER MAKE LOVE HARDER UNTIL IT MOVE OR BREAK. SIMPLE RULE!",
-                    "followUpOptions": [ 
-                        {
-                            "optionText": "You ever thought about therapy instead of raping girls in alleys?",
-                            "responseText": "WE TRIED THAT ONCE. THERAPIST STARTED CRYING AND CALLING FOR MOMMY. IT GOT US ALL HARD, SOOO… KINDA BACKFIRED."
-                        }
-                    ]
-                }
-            ]
-        },  
-        {
-            "optionText": "Christ, you freaks smell like dead Brahmin.",
-            "responseText": "HA! LITTLE MEAT TALK BIG SHIT! BIG HUGGER'S MUTIE MEAT STRONG LIKE DEATHCLAW! WANNA SEE IF HUMAN CAN TAKE IT WITHOUT SPLIT IN HALF?",
-            "followUpOptions": [
-                {
-                    "optionText": "Try it, mutant—my asshole's got high defense.",
-                    "responseText": "OOOOH! HUMAN VERY COCKY! BIG HUGGER IMPRESSED—MAYBE HUMAN GET TEDDY BEAR LUBE BEFORE WE START SPECIAL FUN."
-                },
-                {
-                    "optionText": "I'd rather fuck your corpse with your own teddy.",
-                    "exitLine": true,
-                    "responseText": "NOW HUMAN TALK REAL DIRTY! ME LIKEY! FIRST WE FIGHT, THEN BIG HUGGER FUCK YOUR DEAD FACE!"
-                },
-                {
-                    "optionText": "Release that bitch, or I'm turning your bear into a fleshlight.",
-                    "responseText": "HMMM... HUMAN GOT BALLS TO THREATEN MR. CUDDLEFUCK! BUT BIG HUGGER LOVE DA TEDDY TOO MUCH—MAYBE GIVE HUMAN GIRL INSTEAD, BUT FIRST, HUMAN GIVE MUTANTS SPECIAL SHOW?",
-                    "followUpOptions": [ 
-                        {
-                            "optionText": "How about I rearrange your nutsack into a mutant pretzel instead?",
-                            "exitLine": true,
-                            "responseText": "HAHAHA! BIG HUGGER LIKE HUMAN STYLE! NOW BIG HUGGER EXCITED TO SEE IF HUMAN CAN BACK UP BIG TALK!"
-                        }
-                    ]
-                }
-            ]
+          "optionText": "O ursinho supervisiona suas sessões de estupro?",
+          "responseText": "SR. ABRAÇAFODA É O MELHOR AMIGO! SEMPRE OBSERVANDO, SEMPRE INCENTIVANDO! ELE ADORA VER OS BATEDORES DE CARNE FAZEREM O MAL-MAL! URSINHO TORNA TUDO ESPECIAL!",
+          "followUpOptions": [
+            {
+              "optionText": "O Sr. Abraçafoda está bem? Ele parece ter visto coisas demais.",
+              "responseText": "OH, ELE VIU! ELE É NOSSO GUIA ESPIRITUAL. ESTEVE CONOSCO EM TREZENTAS SURUBAS, UMA ORGIA CANIBAL, E A VEZ QUE ENFIAMOS UM CARNIÇAL NUM HIDRANTE! ELE VIU A VERDADE!"
+            }
+          ]
         },
         {
-            "optionText": "Looking to trade? Got anything interesting?",
-            "dontShowIfProgressionEventPlayed": "grace_sold_to_supermutants",
-            "responseText": "TRADE? HMM, YES! BIG HUGGER LOOKING TO BUY SPECIAL MEAT—FRESH HUMAN VIRGIN! MUTANTS PAY GOOD CAPS, EXTRA FOR SCREAMY ONES!",
-            "followUpOptions": [
+          "optionText": "Quem é a vadia azarada sendo amada por mutantes esta noite?",
+          "responseText": "SÓ FÊMEA HUMANA QUE PEGAMOS DA CASA DELA. ELA DIZ 'NÃO', MAS OUVIDOS DE MUTANTE SÓ OUVEM 'MAIS FORTE!' SR. ABRAÇAFODA ME ENSINOU ISSO!",
+          "followUpOptions": [
+            {
+              "optionText": "Ela não é pequena demais para o seu material mutante?",
+              "responseText": "GRANDE ABRAÇADOR NÃO DISCRIMINA! SE QUEBRAR, SÓ ACHAR BRINQUEDO NOVO! ERMOS CHEIOS DE HUMANOS TAMANHO DIVERSÃO!"
+            }
+          ]
+        },
+        {
+          "optionText": "Vocês, mutantes, fodem tudo que se move?",
+          "responseText": "SE SE MOVE, GRANDE ABRAÇADOR FAZ AMOR. SE NÃO SE MOVE, GRANDE ABRAÇADOR FAZ AMOR MAIS FORTE ATÉ SE MOVER OU QUEBRAR. REGRA SIMPLES!",
+          "followUpOptions": [
+            {
+              "optionText": "Já pensaram em terapia em vez de estuprar garotas em becos?",
+              "responseText": "NÓS TENTAMOS UMA VEZ. TERAPEUTA COMEÇOU A CHORAR E CHAMAR PELA MAMÃE. ISSO NOS DEIXOU TODOS DUROS, ENTÃO... MEIO QUE DEU ERRADO."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "optionText": "Cristo, vocês, aberrações, cheiram a Brahmin morto.",
+      "responseText": "HA! CARNINHA FALA MERDA GRANDE! CARNE DE MUTANTE DO GRANDE ABRAÇADOR FORTE COMO DEATHCLAW! QUER VER SE HUMANO AGUENTA SEM PARTIR AO MEIO?",
+      "followUpOptions": [
+        {
+          "optionText": "Tente, mutante — meu cu tem defesa alta.",
+          "responseText": "OOOOH! HUMANO MUITO CONFIANTE! GRANDE ABRAÇADOR IMPRESSIONADO — TALVEZ HUMANO GANHE LUBRIFICANTE DE URSINHO ANTES DE COMEÇARMOS DIVERSÃO ESPECIAL."
+        },
+        {
+          "optionText": "Prefiro foder seu cadáver com seu próprio ursinho.",
+          "exitLine": true,
+          "responseText": "AGORA HUMANO FALA BEM SUJO! EU GOSTAR! PRIMEIRO NÓS LUTA, DEPOIS GRANDE ABRAÇADOR FODE SUA CARA MORTA!"
+        },
+        {
+          "optionText": "Solte essa vadia, ou transformo seu urso em uma lanterna de carne.",
+          "responseText": "HMMM... HUMANO TEM BOLAS PARA AMEAÇAR SR. ABRAÇAFODA! MAS GRANDE ABRAÇADOR AMA O URSINHO DEMAIS — TALVEZ DAR GAROTA HUMANA EM VEZ DISSO, MAS PRIMEIRO, HUMANO DÁ AOS MUTANTES SHOW ESPECIAL?",
+          "followUpOptions": [
+            {
+              "optionText": "Que tal eu rearranjar seu saco em um pretzel mutante?",
+              "exitLine": true,
+              "responseText": "HAHAHA! GRANDE ABRAÇADOR GOSTA DO ESTILO DO HUMANO! AGORA GRANDE ABRAÇADOR EMPOLGADO PARA VER SE HUMANO PODE BANCAR O PAPO GROSSO!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "optionText": "Querendo trocar? Tem algo interessante?",
+      "dontShowIfProgressionEventPlayed": "grace_sold_to_supermutants",
+      "responseText": "TROCAR? HMM, SIM! GRANDE ABRAÇADOR PROCURANDO COMPRAR CARNE ESPECIAL — VIRGEM HUMANA FRESCA! MUTANTES PAGAM BOAS TAMPINHAS, EXTRA PELAS QUE GRITAM!",
+      "followUpOptions": [
+        {
+          "optionText": "Como diabos vocês sabem se elas são virgens?",
+          "responseText": "GRANDE ABRAÇADOR TEM SISTEMA PERFEITO! VIRGEM CHORA MAIS ALTO, TREME MAIS! SE ELA NÃO GRITAR COMO CACHORRO QUEIMANDO, ELA É MERCADORIA USADA!"
+        },
+        {
+          "optionText": "Na verdade, tenho uma virgem bem aqui — pura, intocada e fresca de um bordel de saqueadores. O nome dela é Grace.",
+          "onlyDisplayIfHasObjective": "Bring Grace to her father.",
+          "responseText": "HAHA! HUMANO TRAZ PARA O GRANDE ABRAÇADOR O MAIOR TESOURO! MUTANTES TORNARÃO A NOITE DELA INESQUECÍVEL — VOCÊ GANHA MUITAS TAMPINHAS, TALVEZ GULOSEIMAS EXTRAS SE A VIRGEM FOR EXTRA APERTADA!",
+          "followUpOptions": [
+            {
+              "optionText": "[Entregar Grace] Ela é toda de vocês. Só prometam que será memorável.",
+              "onlyDisplayIfHasObjective": "Bring Grace to her father.",
+              "failQuest": "Bring Grace to her father.",
+              "progressionEventPlayed": "grace_sold_to_supermutants",
+              "showChoiceStats": "grace_sold_to_supermutants",
+              "removeFollower": "Grace",
+              "addCaps": 200,
+              "responseText": "OOH, HUMANO GENEROSO! GRANDE ABRAÇADOR PROMETE — GRACE TERÁ FESTA DE BOAS-VINDAS ESPECIAL! BATEDORES DE CARNE GARANTIRÃO QUE ELA NUNCA ESQUEÇA A PRIMEIRA VEZ! HUMANO PEGA TAMPINHAS, E SE QUISER, ASSISTA A GENTE ESTREAR BRINQUEDO NOVO!",
+              "followUpOptions": [
                 {
-                    "optionText": "How the fuck do you even know if they're virgins?",
-                    "responseText": "BIG HUGGER HAVE PERFECT SYSTEM! VIRGIN CRY LOUDER, SHAKE MORE! IF SHE NOT SCREAM LIKE BURNING DOG, SHE USED GOODS!"
+                  "optionText": "O que exatamente vocês, mutantes, vão fazer com ela?",
+                  "responseText": "PRIMEIRO, SR. ABRAÇAFODA LÊ HISTÓRIA DE NINAR, DEPOIS BATEDORES DE CARNE DÃO GRANDE FESTA DENTRO DELA! SE ELA SOBREVIVER À NOITE, ELA GANHA TÍTULO HONORÁRIO: 'GRACE, A INQUEBRÁVEL!'"
                 },
                 {
-                    "optionText": "I actually have a virgin right here—pure, untouched, and fresh from a raider brothel. Her name’s Grace.",
-                    "onlyDisplayIfHasObjective": "Bring Grace to her father.",
-                    "responseText": "HAHA! HUMAN BRING BIG HUGGER GREATEST TREASURE! MUTANTS MAKE HER NIGHT UNFORGETTABLE—YOU GET MANY CAPS, MAYBE EXTRA TREATS IF VIRGIN EXTRA TIGHT!",
-                    "followUpOptions": [
-                        {
-                            "optionText": "[Hand Grace over] She's all yours. Just promise it'll be memorable.",
-                            "onlyDisplayIfHasObjective": "Bring Grace to her father.",
-                            "failQuest": "Bring Grace to her father.",
-                            "progressionEventPlayed": "grace_sold_to_supermutants",
-                            "showChoiceStats": "grace_sold_to_supermutants",
-                            "removeFollower": "Grace",
-                            "addCaps": 200,
-                            "responseText": "OOH, HUMAN GENEROUS! BIG HUGGER PROMISE—GRACE GET SPECIAL WELCOME PARTY! MEAT POUNDERS MAKE SURE SHE NEVER FORGET FIRST TIME! HUMAN TAKE CAPS, AND IF YOU LIKE, WATCH US BREAK IN NEW TOY!",
-                            "followUpOptions": [
-                                {
-                                    "optionText": "What exactly are you mutants gonna do with her?",
-                                    "responseText": "FIRST, MR. CUDDLEFUCK READ BEDTIME STORY, THEN MEAT POUNDERS THROW BIG PARTY INSIDE HER! IF SHE SURVIVE NIGHT, SHE EARN HONORARY TITLE: 'GRACE THE UNBREAKABLE!'"
-                                },
-                                {
-                                    "optionText": "Will Grace still be able to walk afterward?",
-                                    "responseText": "HAHA! WALKING OVERRATED! GRACE LIKELY CRAWL, MAYBE SLITHER—BUT SHE NEVER COMPLAIN, OR BIG HUGGER GIVE HER EXTRA ROUND!"
-                                },
-                                {
-                                    "optionText": "Can I watch?",
-                                    "responseText": "OF COURSE! HUMAN GET VIP SEAT NEXT TO MR. CUDDLEFUCK! BEST VIEW IN HOUSE—WATCH, CHEER, AND EVEN JOIN IN IF HUMAN FEELING BRAVE ENOUGH TO PARTY WITH MUTANTS!"
-                                },
-                                {
-                                    "optionText": "Any chance she'll survive your twisted 'party'?",
-                                    "responseText": "SMALL CHANCE, BUT IF GRACE TOO WEAK, BIG HUGGER KEEP HEAD AS SPECIAL TROPHY! MR. CUDDLEFUCK NEED NEW FRIEND ANYWAY!"
-                                } 
-                            ]
-                        },
-                        {
-                            "optionText": "She was supposed to go back to her father...",
-                            "responseText": "BAH! FATHERS BORING! WE YOUR FAMILY NOW!"
-                        }, 
-                        {
-                            "optionText": "On second thought, maybe I'll keep her intact—for now.",
-                            "responseText": "HAHA! LITTLE HUMAN SCARED? TOO LATE NOW! MUTANTS WAIT RIGHT HERE IF HUMAN GROW BALLS LATER!"
-                        }
-                    ]
-                } 
-            ]
-        },   
-        {
-            "optionText": "[Leave]",
-            "responseText": "BYE BYE, LITTLE HUMAN! BIG HUGGER MISS YOU ALREADY! COME BACK SOON—MR. CUDDLEFUCK ALWAYS WATCHING!",
-            "exitLine": true
+                  "optionText": "A Grace ainda conseguirá andar depois?",
+                  "responseText": "HAHA! ANDAR SUPERESTIMADO! GRACE PROVAVELMENTE RASTEJARÁ, TALVEZ SERPENTEARÁ — MAS ELA NUNCA RECLAMARÁ, OU GRANDE ABRAÇADOR DÁ A ELA ROUND EXTRA!"
+                },
+                {
+                  "optionText": "Posso assistir?",
+                  "responseText": "CLARO! HUMANO GANHA LUGAR VIP AO LADO DO SR. ABRAÇAFODA! MELHOR VISTA DA CASA — ASSISTA, TORÇA, E ATÉ PARTICIPE SE HUMANO SE SENTIR CORAJOSO O SUFICIENTE PARA FESTEJAR COM MUTANTES!"
+                },
+                {
+                  "optionText": "Alguma chance dela sobreviver à sua 'festa' pervertida?",
+                  "responseText": "CHANCE PEQUENA, MAS SE GRACE FOR FRACA DEMAIS, GRANDE ABRAÇADOR GUARDA CABEÇA COMO TROFÉU ESPECIAL! SR. ABRAÇAFODA PRECISA DE NOVO AMIGO DE QUALQUER FORMA!"
+                }
+              ]
+            },
+            {
+              "optionText": "Ela deveria voltar para o pai dela...",
+              "responseText": "BAH! PAIS CHATOS! NÓS SOMOS SUA FAMÍLIA AGORA!"
+            },
+            {
+              "optionText": "Pensando bem, talvez eu a mantenha intacta — por enquanto.",
+              "responseText": "HAHA! HUMANINHO COM MEDO? TARDE DEMAIS AGORA! MUTANTES ESPERAM AQUI SE HUMANO CRIAR BOLAS MAIS TARDE!"
+            }
+          ]
         }
-    ],
-    "auto_lines": [
-        "LOOK, MEAT BROTHERS! HUMAN COME TO JOIN PARTY OR WATCH?",
-        "MR. CUDDLEFUCK, YOU RIGHT AGAIN! HUMANS ALWAYS SHOW UP WHEN GIRL STARTS CRYING!",
-        "OOH, HUMAN LOOK SO SOFT! SO BREAKABLE! ME BIG HUGGER VERY EXCITED NOW!"
-    ],
-    "showShadowFigures": "Super Mutant Alley"
-} 
+      ]
+    },
+    {
+      "optionText": "[Sair]",
+      "responseText": "TCHAU TCHAU, HUMANINHO! GRANDE ABRAÇADOR JÁ SENTE SAUDADES! VOLTE LOGO — SR. ABRAÇAFODA ESTÁ SEMPRE OBSERVANDO!",
+      "exitLine": true
+    }
+  ],
+  "auto_lines": [
+    "OLHA, IRMÃOS DE CARNE! HUMANO VEIO PARA SE JUNTAR À FESTA OU ASSISTIR?",
+    "SR. ABRAÇAFODA, VOCÊ ESTAVA CERTO DE NOVO! HUMANOS SEMPRE APARECEM QUANDO A GAROTA COMEÇA A CHORAR!",
+    "OOH, HUMANO PARECE TÃO MACIO! TÃO QUEBRÁVEL! EU, GRANDE ABRAÇADOR, MUITO EMPOLGADO AGORA!"
+  ],
+  "showShadowFigures": "Super Mutant Alley"
+}

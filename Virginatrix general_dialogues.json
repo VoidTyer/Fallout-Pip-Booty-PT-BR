@@ -1,94 +1,98 @@
 {
-    "options": [
+  "options": [
+    {
+      "optionText": "Adivinha? Acabei de quebrar um recorde do refúgio: Primeiro a profanar um robô. Supere essa.",
+      "responseText": "SEU MONSTRO! Aquele robô foi REPROGRAMADO para inspirar contenção, não para inspirar… seja lá que exibição nojenta foi aquela!",
+      "dontShowIfProgressionEventPlayed": "virginatrix_punished_player",
+      "reqProgressionEvent": "sexbot sex",
+      "followUpOptions": [
         {
-            "optionText": "Guess what? I just set a vault record: First to defile a robot. Top that.",
-            "responseText": "YOU MONSTER! That bot was REPROGRAMMED to inspire restraint, not inspire…whatever disgusting display that was!",
-            "dontShowIfProgressionEventPlayed": "virginatrix_punished_player",
-            "reqProgressionEvent": "sexbot sex",
-            "followUpOptions": [
+          "optionText": "Admita, você gostou do show. Você estava praticamente na primeira fila.",
+          "responseText": "EU ESTAVA GARANTINDO A LEI E A ORDEM, não me deliciando com sua exibição depravada!",
+          "followUpOptions": [
+            {
+              "optionText": "Oh, então você ESTAVA assistindo! Qual foi sua parte favorita? A hidráulica? Os gemidos?",
+              "responseText": "Eu—Você—COMO OUSA?! Eu não estava! Eu estava OBSERVANDO VIOLAÇÕES!",
+              "followUpOptions": [
                 {
-                    "optionText": "Admit it, you liked the show. You were basically front-row.",
-                    "responseText": "I was ENSURING LAW AND ORDER, not indulging in your depraved display!",
-                    "followUpOptions": [
-                        {
-                            "optionText": "Oh, so you WERE watching! What was your favorite part? The hydraulics? The moaning?",
-                            "responseText": "I—You—HOW DARE YOU?! I wasn't! I was WATCHING FOR VIOLATIONS!",
-                            "followUpOptions": [
-                                {
-                                    "optionText": "Admit it, you loved it.",
-                                    "responseText": "I WANT YOU…OUT OF MY SIGHT, YOU INCORRIGIBLE SIN-BEAST!",
-                                    "followUpOptions": [
-                                        {
-                                            "optionText": "Admit it louder for the vault dwellers in the back!",
-                                            "progressionEventPlayed": "virginatrix_punished_player",
-                                            "addWillpowerTokens": -9999,
-                                            "advanceDayWithStatusMessage": "Virginatrix confiscated your willpower tokens, then tossed your sorry ass into the Shame Chamber. You spent the day strapped to a chair watching Vault-Tec’s ‘Say No to Pussy, Say Yes to Productivity!’ while a Bonk Baton smacked you every time you blinked too horny.",
-                                            "exitLine": true,
-                                            "responseText": "I’LL TELL THEM HOW MUCH YOU DESERVE PUNISHMENT! THAT’S IT! SHAME CHAMBER!"
-                                        },
-                                        {
-                                            "optionText": "Want me gone? Sorry, sweetheart, I’m your main character arc.",
-                                            "addWillpowerTokens": -9999,
-                                            "advanceDayWithStatusMessage": "Virginatrix confiscated your willpower tokens, then tossed your sorry ass into the Shame Chamber. You spent the day strapped to a chair watching Vault-Tec’s ‘Say No to Pussy, Say Yes to Productivity!’ while a Bonk Baton smacked you every time you blinked too horny.",
-                                            "exitLine": true,
-                                            "progressionEventPlayed": "virginatrix_punished_player",
-                                            "responseText": "MAIN CHARACTER?! You’re the main DISGRACE! BONK BATON, ENGAGE!"
-                                        }
-                                    ]
-                                }
-                            ]
-                        } 
-                    ]
+                  "optionText": "Admita, você adorou.",
+                  "responseText": "EU QUERO VOCÊ… FORA DA MINHA VISTA, SUA BESTA PECAMINOSA INCORRIGÍVEL!",
+                  "followUpOptions": [
+                    {
+                      "optionText": "Admita mais alto para os moradores do refúgio lá no fundo!",
+                      "progressionEventPlayed": "virginatrix_punished_player",
+                      "addWillpowerTokens": -9999,
+                      "advanceDayWithStatusMessage": "A Virginatrix confiscou seus tokens de força de vontade e depois jogou seu traseiro lamentável na Câmara da Vergonha. Você passou o dia amarrado a uma cadeira assistindo ao 'Diga Não à Xoxota, Diga Sim à Produtividade!' da Vault-Tec enquanto um Cassetete de Bonk te batia toda vez que você piscava com tesão demais.",
+                      "exitLine": true,
+                      "responseText": "EU VOU DIZER A ELES O QUANTO VOCÊ MERECE PUNIÇÃO! É ISSO! CÂMARA DA VERGONHA!"
+                    },
+                    {
+                      "optionText": "Quer que eu suma? Desculpe, docinho, sou o arco principal da sua história.",
+                      "addWillpowerTokens": -9999,
+                      "advanceDayWithStatusMessage": "A Virginatrix confiscou seus tokens de força de vontade e depois jogou seu traseiro lamentável na Câmara da Vergonha. Você passou o dia amarrado a uma cadeira assistindo ao 'Diga Não à Xoxota, Diga Sim à Produtividade!' da Vault-Tec enquanto um Cassetete de Bonk te batia toda vez que você piscava com tesão demais.",
+                      "exitLine": true,
+                      "progressionEventPlayed": "virginatrix_punished_player",
+                      "responseText": "PERSONAGEM PRINCIPAL?! Você é a principal DESGRAÇA! CASSETE DE BONK, ATIVAR!"
+                    }
+                  ]
                 }
-            ]
-        },
-        {
-            "optionText": "I was just thinking about potatoes. Lots of... big... round potatoes.",
-            "responseTexts": ["Potatoes? You think I’m stupid? Potatoes don’t make your pupils dilate like that. What filth is running through your mind?! Spill it, or it's double duty in the Shame Chamber for you!"],
-            "followUpOptions": [
-                {
-                    "optionText": "I swear, just potatoes! Maybe with a little butter... and some whipped cream?",
-                    "responseText": "You disgust me! Whipped cream? The only thing whipped around here will be you if you keep this up!"
-                },
-                {
-                    "optionText": "What’s the deal with the Shame Chamber?",
-                    "responseText": "The Shame Chamber is where weak minds are cleansed. It's a place of reflection, where your sinful urges are pounded into submission by the wholesome glory of 1950s family values. You’d be amazed how quickly watching a cartoon dog mow a lawn can rewire your brain.",
-                    "followUpOptions": [
-                        {
-                            "optionText": "Sounds like a party. Can I bring snacks?",
-                            "responseText": "The only snack allowed in the Shame Chamber is a bowl of unsweetened oatmeal. Flavor is a distraction, and distractions are a gateway to impurity! Now, unless you’re volunteering for a taste of it, keep your misguided jokes to yourself."
-                        },
-                        {
-                            "optionText": "What if I actually like 1950s cartoons?",
-                            "responseText": "Then you’re more broken than I thought. Those cartoons are meant to bore you into sanity, not serve as your personal entertainment. You know what, just for that, I’m scheduling you for a weekend marathon. Let’s see how much you 'like' it after 48 hours straight."
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "optionText": "Uh, nice whip you got there...",
-            "responseText": "This isn’t just a whip, you lowly perv! It's the Chastity Whip 9000, designed to smack the degeneracy right out of your soul. One crack, and you'll be crying out for the sweet embrace of celibacy like a newborn lamb. So unless you’re ready to beg for a spanking, zip it!",
-            "followUpOptions": [
-                {
-                    "optionText": "What if I, uh, borrowed it for a bit?",
-                    "responseText": "You? HA! The only thing you'd whip is yourself into a frenzy over a pre-war bra ad. This whip is for purging impure thoughts, not encouraging them. You want a turn? Fine, but I’ll have to strap you down first. For safety, of course."
-                },
-                {
-                    "optionText": "Bet you keep it under your pillow at night.",
-                    "responseText": "Wrong! I keep it in a glass case on my nightstand, so it’s the first thing I see every morning. The whip and I are in perfect harmony. It's like a marriage, except without any of that disgusting love nonsense. Or touching. Or happiness. Pure bliss."
-                }
-            ]
-        }, 
-        {
-            "optionText": "Where do I file a complaint about the Purity Police?",
-            "responseText": "Right down the hall, second door on the left. Just kidding! There’s no complaint department. All complaints go directly into the shredder."
-        },
-        {
-            "optionText": "Bye",
-            "responseText": "Don't let the vault door hit your filthy thoughts on the way out. And remember, the Purity Police are like herpes—always watching, always ready to flare up when you least expect it!",
-            "exitLine": true
+              ]
+            }
+          ]
         }
-    ],
-    "auto_lines": ["What are you doing here? The lounge is for relaxation, not contamination! I can smell your impurities from across the room, maggot!"]
+      ]
+    },
+    {
+      "optionText": "Eu só estava pensando em batatas. Muitas... batatas grandes... e redondas.",
+      "responseTexts": [
+        "Batatas? Você acha que sou estúpida? Batatas não fazem suas pupilas dilatarem assim. Que imundície está passando pela sua mente?! Desembucha, ou será serviço dobrado na Câmara da Vergonha para você!"
+      ],
+      "followUpOptions": [
+        {
+          "optionText": "Juro, só batatas! Talvez com um pouco de manteiga... e um pouco de chantilly?",
+          "responseText": "Você me enoja! Chantilly? A única coisa chicoteada por aqui será você se continuar com isso!"
+        },
+        {
+          "optionText": "Qual é a da Câmara da Vergonha?",
+          "responseText": "A Câmara da Vergonha é onde mentes fracas são purificadas. É um lugar de reflexão, onde seus impulsos pecaminosos são esmagados pela glória saudável dos valores familiares dos anos 1950. Você ficaria surpreso com a rapidez com que assistir a um cachorro de desenho animado cortar a grama pode reprogramar seu cérebro.",
+          "followUpOptions": [
+            {
+              "optionText": "Parece uma festa. Posso levar lanches?",
+              "responseText": "O único lanche permitido na Câmara da Vergonha é uma tigela de aveia sem açúcar. O sabor é uma distração, e distrações são uma porta de entrada para a impureza! Agora, a menos que você esteja se voluntariando para provar, guarde suas piadas equivocadas para si mesmo."
+            },
+            {
+              "optionText": "E se eu realmente gostar de desenhos dos anos 1950?",
+              "responseText": "Então você está mais quebrado do que eu pensava. Esses desenhos são para te entediar até a sanidade, не para servir como seu entretenimento pessoal. Sabe de uma coisa, só por isso, vou agendar para você uma maratona de fim de semana. Vamos ver o quanto você 'gosta' depois de 48 horas seguidas."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "optionText": "Uh, belo chicote que você tem aí...",
+      "responseText": "Isto não é apenas um chicote, seu pervertido de baixo nível! É o Chicote da Castidade 9000, projetado para arrancar a depravação da sua alma. Uma estalada, e você estará clamando pelo doce abraço da castidade como um cordeirinho recém-nascido. Então, a menos que esteja pronto para implorar por uma surra, cale a boca!",
+      "followUpOptions": [
+        {
+          "optionText": "E se eu, uh, o pegasse emprestado por um tempo?",
+          "responseText": "Você? HA! A única coisa que você chicotearia é a si mesmo em um frenesi por um anúncio de sutiã pré-guerra. Este chicote é para purgar pensamentos impuros, não para incentivá-los. Quer uma vez? Tudo bem, mas terei que te amarrar primeiro. Por segurança, claro."
+        },
+        {
+          "optionText": "Aposto que você o guarda debaixo do travesseiro à noite.",
+          "responseText": "Errado! Eu o guardo em uma caixa de vidro na minha mesa de cabeceira, para que seja a primeira coisa que vejo todas as manhãs. O chicote e eu estamos em perfeita harmonia. É como um casamento, exceto sem toda aquela bobagem nojenta de amor. Ou toque. Ou felicidade. Pura bem-aventurança."
+        }
+      ]
+    },
+    {
+      "optionText": "Onde eu apresento uma queixa sobre a Polícia da Pureza?",
+      "responseText": "No final do corredor, segunda porta à esquerda. Brincadeirinha! Não há departamento de queixas. Todas as queixas vão diretamente para o triturador."
+    },
+    {
+      "optionText": "Tchau",
+      "responseText": "Não deixe a porta do refúgio bater em seus pensamentos imundos ao sair. E lembre-se, a Polícia da Pureza é como herpes — sempre observando, sempre pronta para atacar quando você menos espera!",
+      "exitLine": true
+    }
+  ],
+  "auto_lines": [
+    "O que você está fazendo aqui? O salão é para relaxar, não para contaminar! Consigo sentir o cheiro de suas impurezas do outro lado da sala, seu verme!"
+  ]
 }

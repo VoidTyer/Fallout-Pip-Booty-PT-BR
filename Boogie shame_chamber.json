@@ -1,37 +1,37 @@
 {
-    "options": [
+  "options": [
+    {
+      "optionText": "Então... Câmara da Vergonha, hein? Não pensei que te pegariam com as calças arriadas.",
+      "responseText": "É, obrigado por isso, seu dedinho-duro. Pensei que tínhamos um acordo, mas acho que você não conseguiu manter a boca fechada.",
+      "followUpOptions": [
         {
-            "optionText": "So... Shame Chamber, huh? Didn’t think you’d get caught with your pants down.",
-            "responseText": "Yeah, thanks for that, you little snitch. Thought we had an understanding, but I guess you couldn’t keep your mouth shut.",
-            "followUpOptions": [ 
-                {
-                    "optionText": "You mad? You look a little... tense.",
-                    "responseText": "Oh, I’m not mad. Just thinking about how much I’m gonna *enjoy* raising prices on your dumb ass when I get out. Don’t worry, I’ll be sure to ‘thank’ you real good for this."
-                },
-                {
-                    "optionText": "Was it worth it?",
-                    "responseText": "Oh, hell yeah. That little ass was tighter than the Overseer’s security, I tell ya." 
-                }
-            ]
+          "optionText": "Você está bravo? Parece um pouco... tenso.",
+          "responseText": "Ah, não estou bravo. Só pensando no quanto vou *adorar* aumentar os preços para o seu traseiro burro quando eu sair. Não se preocupe, vou ter certeza de te 'agradecer' muito bem por isso."
         },
         {
-            "optionText": "Got anything for sale while you’re in here?",
-            "responseText": "What, you think I’m running a fucking bazaar out of the Shame Chamber? You report me, and now you want to trade? I can’t sell you shit from behind these bars.",
-            "followUpOptions": [
-                {
-                    "optionText": "Come on. You’ve gotta have *something* stashed in here.",
-                    "responseText": "Oh, I’ve got plenty stashed... But for you? All I’ve got is a big fuck you until I’m out."
-                },
-                {
-                    "optionText": "Guess I’ll come back later. Let me know when you’re out.",
-                    "responseText": "Oh, don’t worry, I’ll let you know. But when I do, your price list’s gonna look pretty fucked. You’ve been warned."
-                }
-            ]
-        },  
-        {
-            "optionText": "Bye",
-            "responseText": "Yeah, run along. Just remember, the next time you need something, your ‘special snitch tax’ is in full effect.",
-            "exitLine": true
+          "optionText": "Valeu a pena?",
+          "responseText": "Ah, com certeza. Aquele cuzinho era mais apertado que a segurança do Supervisor, te digo."
         }
-    ]
+      ]
+    },
+    {
+      "optionText": "Tem algo para vender enquanto está aqui?",
+      "responseText": "O quê, você acha que estou comandando um bazar da Câmara da Vergonha? Você me denuncia, e agora quer negociar? Não posso te vender merda nenhuma atrás dessas grades.",
+      "followUpOptions": [
+        {
+          "optionText": "Vamos lá. Você deve ter *algo* escondido aqui.",
+          "responseText": "Ah, eu tenho muita coisa escondida... Mas para você? Tudo que tenho é um grande foda-se até eu sair."
+        },
+        {
+          "optionText": "Acho que volto mais tarde. Me avise quando sair.",
+          "responseText": "Ah, não se preocupe, eu avisarei. Mas quando eu o fizer, sua lista de preços vai parecer bem fodida. Você foi avisado."
+        }
+      ]
+    },
+    {
+      "optionText": "Tchau",
+      "responseText": "É, vá andando. Só lembre-se, da próxima vez que precisar de algo, seu 'imposto especial de dedo-duro' estará em pleno vigor.",
+      "exitLine": true
+    }
+  ]
 }

@@ -1,37 +1,39 @@
 {
-    "options": [
+  "options": [
     {
-        "optionText": "What do you want?",
-        "icon": "GUI/quest mark",
-        "responseText": "Well... this is a bit awkward, but I need, uh… lingerie. And no, not the vault-approved scratchy stuff. I’m talking something a little more… refined. You know, lace, satin… maybe a bit sheer. Look, I know it’s a weird ask, but it’s for... personal reasons.",
-        "followUpOptions": [
-            {
-                "optionText": "Why would you come to me with this?",
-                "responseText": "Why? Well, let's see—who else am I gonna ask? The guy who thinks tinfoil hats are the height of fashion? You're the only one in this vault who doesn't make me want to claw my eyes out with a rusty spoon. Or maybe I just feel like I can trust you, okay? Ugh, don't make this weird. Are you in or not?"
-            },
-            {
-                "optionText": "Where can I get them?",
-                "responseText": "Oh, some creep in the grow room sells ‘em. Just be discreet, or you’ll end up getting bonked by those spandex-wrapped maniacs."
-            },
-            {
-                "optionText": "Alright, I’ll get it.",
-                "closeDialogueOptions": true,
-                "addObjective": "Get lingerie for Diana",
-                "fadeOutCharacter": true,
-                "icon": "GUI/quest mark",
-                "markEventAsPlayed": true,
-                "requestedItemFromDiana": "Lingerie", 
-                "responseText": "Knew you’d say yes. You’ve got that ‘I’d-do-anything-for-a-glimpse-of-a-shoulder’ energy. Just remember, this stays between us. If anyone asks why you’re buying panties from a black-market dealer, tell ‘em you’re working on a ‘quilting project.’"
-            },
-            {
-                "optionText": "I'm not one of your simps.", 
-                "responseText": "Totally your call. I can always find someone else, but I figured you might want in on the fun.",
-                "markEventAsPlayed": true,
-                "fadeOutCharacter": true,
-                "exitLine": true
-            }
-        ]
-    } 
-    ],
-    "auto_lines": ["Morning, sunshine. Sleep well? Good, 'cause I’ve got a little favor to ask."]
+      "optionText": "O que você quer?",
+      "icon": "GUI/quest mark",
+      "responseText": "Bem... isso é um pouco estranho, mas eu preciso de, uh… lingerie. E não, não daquele tipo áspero aprovado pelo refúgio. Estou falando de algo um pouco mais… refinado. Sabe, renda, cetim… talvez um pouco transparente. Olha, eu sei que é um pedido estranho, mas é por... razões pessoais.",
+      "followUpOptions": [
+        {
+          "optionText": "Por que você veio a mim com isso?",
+          "responseText": "Por quê? Bem, vejamos—a quem mais eu vou pedir? Ao cara que acha que chapéus de papel alumínio são o auge da moda? Você é o único neste refúgio que não me faz querer arrancar os olhos com uma colher enferrujada. Ou talvez eu apenas sinta que posso confiar em você, ok? Ugh, não torne isso estranho. Você vai ajudar ou não?"
+        },
+        {
+          "optionText": "Onde posso conseguir isso?",
+          "responseText": "Ah, um cara esquisito na estufa vende. Só seja discreto, ou você vai acabar levando uma porrada daqueles maníacos de spandex."
+        },
+        {
+          "optionText": "Certo, eu pego.",
+          "closeDialogueOptions": true,
+          "addObjective": "Get lingerie for Diana",
+          "fadeOutCharacter": true,
+          "icon": "GUI/quest mark",
+          "markEventAsPlayed": true,
+          "requestedItemFromDiana": "Lingerie",
+          "responseText": "Sabia que você diria sim. Você tem aquela energia de 'eu faria qualquer coisa por um vislumbre de um ombro'. Só lembre-se, isso fica entre nós. Se alguém perguntar por que você está comprando calcinhas de um traficante do mercado negro, diga que está trabalhando em um 'projeto de colcha de retalhos'."
+        },
+        {
+          "optionText": "Não sou um dos seus gados.",
+          "responseText": "A escolha é sua. Sempre posso encontrar outra pessoa, mas achei que você talvez quisesse participar da diversão.",
+          "markEventAsPlayed": true,
+          "fadeOutCharacter": true,
+          "exitLine": true
+        }
+      ]
+    }
+  ],
+  "auto_lines": [
+    "Bom dia, raio de sol. Dormiu bem? Ótimo, porque tenho um pequeno favor a pedir."
+  ]
 }

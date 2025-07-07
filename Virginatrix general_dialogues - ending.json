@@ -1,34 +1,34 @@
 {
-    "options": [
+  "options": [
+    {
+      "optionText": "Belos mamilos, Comandante Suprema. São de fábrica ou apenas uma vantagem por bom comportamento?",
+      "responseText": "Seu degenerado imundo! Minha determinação é mais dura que o seu... bem, você sabe. Isto foi um teste, e claramente, você está falhando espetacularmente!",
+      "followUpOptions": [
         {
-            "optionText": "Nice nips, Supreme Commander. Are those standard issue, or just a perk for good behavior?",
-            "responseText": "You filthy degenerate! My resolve is harder than your... well, you know. This was a test, and clearly, you're failing spectacularly!",
-            "followUpOptions": [
-                {
-                    "optionText": "Harder than what, exactly? Come on, say it. I dare you.",
-                    "responseText": "Shut your mouth, sinner! I’ll be the one giving out the hard lessons around here!"
-                },
-                {
-                    "optionText": "Don’t be shy now, Commander. Looks like you're about five seconds away from breaking.",
-                    "responseText": "I… I will NOT break! You’re all weak, letting your base instincts take over! But me? *glances down* ... I’m in full control. Totally. Completely. Oh, God...",
-                    "followUpOptions": [
-                        {
-                            "optionText": "Full control? Really?",
-                            "responseText": "Don’t you even start! This is still a No-Bone Zone, and I’ll bonk the sin out of you until you forget what that thing between your legs is for!"
-                        },
-                        {
-                            "optionText": "Let's be real. Everyone’s having a good time, and here you are... nipples out, acting like you aren’t ready to join the fun.",
-                            "exitLine": true,
-                            "responseText": "Don’t you DARE imply that I’d ever lower myself to your... your... primal urges! But if I'm ever going down, I’m taking you with me. To the Shame Chamber. Naked. In chains. And you’ll never... ever... see daylight again!"
-                        }
-                    ]
-                }
-            ]
-        },   
+          "optionText": "Mais dura que o quê, exatamente? Vamos, diga. Eu te desafio.",
+          "responseText": "Cale a boca, pecador! Serei eu quem dará as lições duras por aqui!"
+        },
         {
-            "optionText": "Bye",
-            "responseText": "Run, sinner, but you can’t escape the Bonk forever! I’ll find you... and when I do, it’ll be one long session in the Shame Chamber!",
-            "exitLine": true
+          "optionText": "Não seja tímida agora, Comandante. Parece que você está a cinco segundos de quebrar.",
+          "responseText": "Eu… eu NÃO vou quebrar! Vocês são todos fracos, deixando seus instintos básicos tomarem conta! Mas eu? *olha para baixo* ... Estou no controle total. Totalmente. Completamente. Oh, Deus...",
+          "followUpOptions": [
+            {
+              "optionText": "Controle total? Sério?",
+              "responseText": "Nem comece! Esta ainda é uma Zona Sem Pau Duro, e vou arrancar o pecado de você na base do 'bonk' até você esquecer para que serve essa coisa entre suas pernas!"
+            },
+            {
+              "optionText": "Sejamos realistas. Todo mundo está se divertindo, e aqui está você... mamilos de fora, agindo como se não estivesse pronta para se juntar à diversão.",
+              "exitLine": true,
+              "responseText": "Não se ATREVA a insinuar que eu me rebaixaria aos seus... seus... impulsos primitivos! Mas se eu for cair, vou te levar junto. Para a Câmara da Vergonha. Nu. Acorrentado. E você nunca... nunca mais... verá a luz do dia!"
+            }
+          ]
         }
-    ]
+      ]
+    },
+    {
+      "optionText": "Tchau",
+      "responseText": "Corra, pecador, mas você não pode escapar do Bonk para sempre! Vou te encontrar... e quando o fizer, será uma longa sessão na Câmara da Vergonha!",
+      "exitLine": true
+    }
+  ]
 }

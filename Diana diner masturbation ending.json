@@ -1,46 +1,49 @@
 {
-    "options": [
+  "options": [
+    {
+      "optionText": "Preciso de uma bebida. Assistir aquilo foi demais.",
+      "responseText": "Uma bebida? Querido, depois daquela performance, você vai precisar de um *banho frio* e uma oração.",
+      "followUpOptions": [
         {
-            "optionText": "I need a drink. Watching that was too much.",
-            "responseText": "A drink? Honey, after that performance, you’re gonna need a *cold shower* and a prayer.",
-            "followUpOptions": [
-                {
-                    "optionText": "This place has more tension than a pre-war pin-up convention.",
-                    "responseText": "Tension? Ha! Let them explode. I’m not here to babysit their hormones.",
-                    "followUpOptions": [
-                        {
-                            "optionText": "If you keep going, this vault’s gonna turn into a *nuclear* disaster zone.",
-                            "responseText": "I guess we’ll call it the Big Bang 2.0. First, the vault implodes, then *I* explode. It’s win-win, baby."
-                        },
-                        {
-                            "optionText": "You’re gonna drive people insane. Some guy just passed out in his mashed potatoes.",
-                            "responseText": "Poor guy probably hasn’t touched himself in years..."
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "optionText": "Did you just rub one out in front of *everyone*?",
-            "responseText": "Oh, sweetie, the way those boys were staring, I was doing them a favor. Can’t have them going back to their bunks with *blue balls*, can I?",
-            "followUpOptions": [
-                {
-                    "optionText": "That’s one way to get an audience.",
-                    "responseText": "Audience? Honey, that was a *standing ovation*. Hell, if they could’ve moved, they would’ve clapped with more than just their hands."
-                } 
-            ]
-        }, 
-        {
-            "optionText": "[Report her to the Purity Police]",
-            "responseTexts": ["Go ahead, snitch. Just make sure to tell them how long you stood there watching before you decided to tattle. I’ll be sure to mention how you couldn’t keep your eyes off me.", "What the f--?! You little snitch! Go ahead, report me, but don’t act like you weren’t thinking of joining in. Just remember: snitches get... nothing. And I do mean nothing."],
-            "exitLine": true, 
-            "reported": 5,
-            "fadeOutCharacter": true
-        },
-        {
-            "optionText": "Bye",
-            "responseText": "Oh, running off already? Just make sure you don't trip on your... 'situation' on the way out.",
-            "exitLine": true
+          "optionText": "Este lugar tem mais tensão que uma convenção de pin-ups pré-guerra.",
+          "responseText": "Tensão? Ha! Deixe que explodam. Não estou aqui para ser babá dos hormônios deles.",
+          "followUpOptions": [
+            {
+              "optionText": "Se você continuar, este refúgio vai virar uma zona de desastre *nuclear*.",
+              "responseText": "Acho que vamos chamar de Big Bang 2.0. Primeiro, o refúgio implode, depois *eu* explodo. É uma vitória dupla, querido."
+            },
+            {
+              "optionText": "Você vai enlouquecer as pessoas. Um cara acabou de desmaiar no purê de batatas.",
+              "responseText": "Coitado, provavelmente não se toca há anos..."
+            }
+          ]
         }
-    ]
+      ]
+    },
+    {
+      "optionText": "Você acabou de bater uma na frente de *todo mundo*?",
+      "responseText": "Oh, docinho, do jeito que aqueles garotos estavam olhando, eu estava fazendo um favor a eles. Não podemos deixá-los voltar para os beliches com *saco azul*, podemos?",
+      "followUpOptions": [
+        {
+          "optionText": "Essa é uma maneira de conseguir uma plateia.",
+          "responseText": "Plateia? Querido, aquilo foi uma *ovação de pé*. Inferno, se eles pudessem se mover, teriam aplaudido com mais do que apenas as mãos."
+        }
+      ]
+    },
+    {
+      "optionText": "[Denunciá-la para a Polícia da Pureza]",
+      "responseTexts": [
+        "Vá em frente, dedo-duro. Só não se esqueça de dizer a eles quanto tempo você ficou aí assistindo antes de decidir dedurar. Com certeza mencionarei como você não conseguia tirar os olhos de mim.",
+        "Que p--?! Seu dedo-duro! Vá em frente, me denuncie, mas não finja que não estava pensando em participar. Só lembre-se: dedos-duros não ganham... nada. E quero dizer nada mesmo."
+      ],
+      "exitLine": true,
+      "reported": 5,
+      "fadeOutCharacter": true
+    },
+    {
+      "optionText": "Tchau",
+      "responseText": "Oh, já vai? Só tome cuidado para não tropeçar na sua... 'situação' na saída.",
+      "exitLine": true
+    }
+  ]
 }

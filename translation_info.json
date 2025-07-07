@@ -1,14 +1,14 @@
 {
-    "language": "[Translation language e.g. Française]",
-    "locale": "[keep it blank]",
-    "github_repo": "[keep it blank]",
-    "game_version": "[the game version this translation created for]",
+    "language": "Portugues Brasileiro",
+    "locale": "",
+    "github_repo": "https://github.com/VoidTyer/Fallout-Pip-Booty-PT-BR",
+    "game_version": "0.5.2a",
     "translation_detected_window":  
     {
-        "message": "Translation found: ",
-        "message_part2": "Apply?",
-        "yes_btn": "Yes",
-        "no_btn": "No",
-        "update": "Update"
+        "message": "Tradução Encontrada: ",
+        "message_part2": "Aplicar?",
+        "yes_btn": "Sim",
+        "no_btn": "Não",
+        "update": "Atualizar"
     } 
 } 

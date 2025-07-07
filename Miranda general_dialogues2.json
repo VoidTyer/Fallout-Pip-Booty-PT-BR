@@ -1,88 +1,90 @@
 {
-    "options": [
+  "options": [
+    {
+      "optionText": "O que você está fazendo no meu quarto?",
+      "changeSpriteColor": "#D8DEDA",
+      "icon": "GUI/quest mark",
+      "responseText": "Oh! Desculpe pela visita inesperada. Sou a Dra. Miranda Fondleton, a psicóloga do Refúgio. Estou aqui para administrar seu teste de personalidade obrigatório. Ou, como gosto de chamar, uma espiada em sua... psique deliciosamente emaranhada — estritamente científico, garanto, embora eu secretamente espere que você seja um tarado do caralho.",
+      "followUpOptions": [
         {
-            "optionText": "What are you doing in my room?",
-            "changeSpriteColor": "#D8DEDA",
-            "icon": "GUI/quest mark", 
-            "responseText": "Oh! Apologies for the unexpected visit. I'm Dr. Miranda Fondleton, the Vault's psychologist. I'm here to administer your mandatory personality test. Or, as I like to call it, a peek into your... deliciously tangled psyche—strictly scientific, I assure you, though I'm secretly hoping you're a twisted fuck.",
-            "followUpOptions": [
+          "optionText": "Obrigatório? Quem obrigou, exatamente?",
+          "emotion": "Characters/Dr. Miranda Fondleton/emotions/psychologist closed eyes",
+          "responseText": "A Vault-Tec, claro! Eles se preocupam profundamente com sua saúde mental. Não se preocupe, são apenas algumas perguntas inofensivas. A menos que você tenha algo a esconder?"
+        },
+        {
+          "optionText": "Isso não pode esperar? Estou meio ocupado.",
+          "emotion": "none",
+          "responseText": "Ocupado? Fazendo o quê, exatamente? Não se preocupe, isso será rápido."
+        },
+        {
+          "optionText": "Para que serve este teste?",
+          "emotion": "none",
+          "responseText": "Ah, é só um pequeno questionário inofensivo para medir seus traços de personalidade, mecanismos de enfrentamento e o quão degenerado você é antes que tenhamos que intervir com nossas... medidas.",
+          "followUpOptions": [
+            {
+              "optionText": "Defina 'medidas'.",
+              "dontShowIfProgressionEventPlayed": "gotStressBalls",
+              "emotion": "Characters/Dr. Miranda Fondleton/emotions/psychologist closed eyes",
+              "responseText": "Apenas algumas correções comportamentais gentis. Um pouco de terapia, um pouco de disciplina, talvez algumas bolas de estresse ou corda — puramente clínico, a menos que você curta.",
+              "followUpOptions": [
                 {
-                    "optionText": "Mandatory? Who mandated it, exactly?",
-                    "emotion": "Characters/Dr. Miranda Fondleton/emotions/psychologist closed eyes",
-                    "responseText": "Vault-Tec, of course! They care deeply about your mental health. Don't worry, it's just a few harmless questions. Unless you have something to hide?"
-                },
-                {
-                    "optionText": "Can't this wait? I'm kind of busy.",
-                    "emotion": "none",
-                    "responseText": "Busy? Doing what, exactly? Don’t worry, this will be quick."
-                },
-                {
-                    "optionText": "What’s this test for?",
-                    "emotion": "none",
-                    "responseText": "Oh, it’s just a harmless little quiz to measure your personality traits, coping mechanisms, and how much of a degenerate you are before we have to intervene with our... measures.",
-                    "followUpOptions": [ 
-                        {
-                            "optionText": "Define ‘measures.’",
-                            "dontShowIfProgressionEventPlayed": "gotStressBalls",
-                            "emotion": "Characters/Dr. Miranda Fondleton/emotions/psychologist closed eyes",
-                            "responseText": "Just some gentle behavioral corrections. A little therapy, a little discipline, maybe some stress balls or rope—purely clinical, unless you're into it.",
-                            "followUpOptions": [ 
-                                {
-                                    "optionText": "Stress balls?",
-                                    "emotion": "none",
-                                    "dontShowIfProgressionEventPlayed": "gotStressBalls",
-                                    "responseText": "My revolutionary therapeutic aids. Anatomically inspired and precision-engineered for maximum therapeutic value. Want one?",
-                                    "followUpOptions": [
-                                        {
-                                            "optionText": "Sure.",
-                                            "giveItem": "Stress balls",
-                                            "dontShowIfProgressionEventPlayed": "gotStressBalls",
-                                            "progressionEventPlayed": "gotStressBalls",
-                                            "exitLine": true,
-                                            "responseText": "Excellent choice! Here you go. Just remember, excessive squeezing voids the warranty. And if anyone asks, it’s a perfectly legitimate stress-management tool—not whatever they might be imagining."
-                                        } 
-                                    ]
-                                }
-                            ]
-                        }, 
-                        {
-                            "optionText": "Is this test just a thinly veiled kink for you?",
-                            "emotion": "none",
-                            "responseText": "How dare you! I’m a professional. That said, I’m deeply intrigued by how you reached that conclusion. Perhaps I could pencil you in to... explore my theories privately."
-                        },
-                        {
-                            "optionText": "What happens if I fail?",
-                            "emotion": "Characters/Dr. Miranda Fondleton/emotions/psychologist closed eyes",
-                            "responseText": "Fail? Honey, this isn’t math class. Worst-case scenario, I strap you into a padded room and we explore your kinks with electrotherapy. It’s surprisingly therapeutic—trust me."
-                        },
-                        {
-                            "optionText": "Why are you so weirdly excited about it?",
-                            "emotion": "none",
-                            "responseText": "Weird? Excited? Oh, perish the thought! I’m just... invested in your development. That’s not strange, is it? It’s not like I sit up at night analyzing your every movement or anything. Ha. Ha.",
-                            "followUpOptions": [
-                                {
-                                    "optionText": "I feel like you’re way too invested in my movements.",
-                                    "responseText": "Oh, only your psychological movements. Unless you’re offering other data for analysis... No? Just me? Forget I said anything."
-                                },
-                                {
-                                    "optionText": "I’m starting to feel violated...",
-                                    "responseText": "Oh, don’t flatter yourself! If I wanted to violate you, trust me—you'd already know. Professional boundaries and all that."
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "optionText": "Fuck it. Let's get it over with.",
-                    "emotion": "none",
-                    "icon": "GUI/quest mark",
-                    "addObjective": "Complete your personality test.",
-                    "swapAnotherCharacterDialogue": [ "Dr. Miranda Fondleton", "Characters/Dr. Miranda Fondleton/q1-2" ],
-                    "reloadDialogue": true,
-                    "responseText": "Splendid! Try not to cry, squirm, or get aroused—unless, of course, that's your thing. Let's dive in." 
+                  "optionText": "Bolas de estresse?",
+                  "emotion": "none",
+                  "dontShowIfProgressionEventPlayed": "gotStressBalls",
+                  "responseText": "Minhas revolucionárias ajudas terapêuticas. Anatomicamente inspiradas e projetadas com precisão para o máximo valor terapêutico. Quer uma?",
+                  "followUpOptions": [
+                    {
+                      "optionText": "Claro.",
+                      "giveItem": "Stress balls",
+                      "dontShowIfProgressionEventPlayed": "gotStressBalls",
+                      "progressionEventPlayed": "gotStressBalls",
+                      "exitLine": true,
+                      "responseText": "Excelente escolha! Aqui está. Apenas lembre-se, apertar excessivamente anula a garantia. E se alguém perguntar, é uma ferramenta de gerenciamento de estresse perfeitamente legítima — não o que quer que eles possam estar imaginando."
+                    }
+                  ]
                 }
-                
-            ]
-        } 
-    ]
-} 
+              ]
+            },
+            {
+              "optionText": "Este teste é apenas um fetiche mal disfarçado para você?",
+              "emotion": "none",
+              "responseText": "Como ousa! Eu sou uma profissional. Dito isso, estou profundamente intrigada em como você chegou a essa conclusão. Talvez eu pudesse agendar um horário para... explorarmos minhas teorias em particular."
+            },
+            {
+              "optionText": "O que acontece se eu for reprovado?",
+              "emotion": "Characters/Dr. Miranda Fondleton/emotions/psychologist closed eyes",
+              "responseText": "Reprovado? Querido, isso não é aula de matemática. Na pior das hipóteses, eu te prendo numa sala acolchoada e exploramos seus fetiches com eletroterapia. É surpreendentemente terapêutico — confie em mim."
+            },
+            {
+              "optionText": "Por que você está tão estranhamente animada com isso?",
+              "emotion": "none",
+              "responseText": "Estranha? Animada? Ah, que ideia! Estou apenas... investida no seu desenvolvimento. Isso não é estranho, é? Não é como se eu ficasse acordada à noite analisando cada movimento seu ou algo assim. Ha. Ha.",
+              "followUpOptions": [
+                {
+                  "optionText": "Sinto que você está investida demais nos meus movimentos.",
+                  "responseText": "Ah, apenas nos seus movimentos psicológicos. A menos que você esteja oferecendo outros dados para análise... Não? Só eu? Esqueça o que eu disse."
+                },
+                {
+                  "optionText": "Estou começando a me sentir violado...",
+                  "responseText": "Ah, não se elogie tanto! Se eu quisesse te violar, acredite — você já saberia. Limites profissionais e tudo mais."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "optionText": "Foda-se. Vamos acabar logo com isso.",
+          "emotion": "none",
+          "icon": "GUI/quest mark",
+          "addObjective": "Complete seu teste de personalidade.",
+          "swapAnotherCharacterDialogue": [
+            "Dr. Miranda Fondleton",
+            "Characters/Dr. Miranda Fondleton/q1-2"
+          ],
+          "reloadDialogue": true,
+          "responseText": "Esplêndido! Tente não chorar, se contorcer ou ficar excitado — a menos, é claro, que essa seja a sua praia. Vamos mergulhar nisso."
+        }
+      ]
+    }
+  ]
+}

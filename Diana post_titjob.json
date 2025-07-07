@@ -1,45 +1,47 @@
 {
-    "options": [ 
+  "options": [
+    {
+      "optionText": "Uh... sim, acho que sim...",
+      "responseText": "Não precisa ser tímido agora, você foi *ótimo*. Eu podia sentir vindo de longe. Sinceramente, eu meio que amo estar coberta com sua porra..."
+    },
+    {
+      "optionText": "Uh... uau, não esperava que isso acontecesse...",
+      "responseText": "Sim, ouço muito isso. Qual é o problema? Parece que você foi atingido por um brahmin em fuga. Nunca viu um par em ação antes?",
+      "followUpOptions": [
         {
-            "optionText": "Uh... yeah, I guess so...",
-            "responseText": "No need to be shy now, you did *great*. I could feel it coming from a mile away. Honestly, I kinda love being covered in your cum..."
+          "optionText": "Q-quer dizer, isso é tipo... uma coisa normal para você?",
+          "responseText": "Normal? Querido, nada neste refúgio é normal. Mas quando se tem estes, é melhor colocá-los para trabalhar, certo?"
         },
         {
-            "optionText": "Uh... wow, I didn’t expect that to happen...",
-            "responseText": "Yeah, I get that a lot. What’s the matter? You look like you just got hit by a runaway brahmin. Never seen a pair in action before?",
-            "followUpOptions": [
-                {
-                    "optionText": "I-I mean, is this like... a normal thing for you?",
-                    "responseText": "Normal? Babe, nothing about this vault is normal. But when you’ve got these, you might as well put them to work, right?"
-                },
-                {
-                    "optionText": "Are you sure you’re okay with... all this?",
-                    "responseText": "<i>*Diana bites her lip, glancing at the mess on her chest*</i> Okay with it? Babe, I’m more than okay. Watching you explode like that got me *so* worked up... you have no idea. You’ve got one hell of a shot.",
-                    "followUpOptions": [
-                        {
-                        "optionText": "I mean, you *do* look pretty hot covered in it...",
-                        "responseText": "Oh, I know I do. And I know you like it too. The way you were staring, I could tell you were loving every second of it. Don’t lie."
-                        },
-                        {
-                        "optionText": "I didn’t know you were into... this much of a mess.",
-                        "responseText": "What can I say? It’s kinda hot knowing I drove you *that* crazy. Makes me wonder how much more you’ve got in that tank of yours."
-                        }
-                    ]
-                },
-                {
-                    "optionText": "So... is this the part where I say thank you or...?",
-                    "responseText": "I mean, if you’re into the whole ‘thanking’ thing, sure."
-                }
-            ]
+          "optionText": "Tem certeza que está bem com... tudo isso?",
+          "responseText": "<i>*Diana morde o lábio, olhando para a bagunça em seu peito*</i> Bem com isso? Querido, estou mais do que bem. Ver você explodir assim me deixou *tão* excitada... você não faz ideia. Você tem uma mira do caralho.",
+          "followUpOptions": [
+            {
+              "optionText": "Quer dizer, você *parece* muito gostosa coberta com isso...",
+              "responseText": "Oh, eu sei que sim. E sei que você também gosta. Do jeito que você estava olhando, eu podia dizer que estava amando cada segundo. Não minta."
+            },
+            {
+              "optionText": "Não sabia que você curtia... tanta bagunça.",
+              "responseText": "O que posso dizer? É meio gostoso saber que te deixei *tão* louco. Me faz pensar quanto mais você tem nesse tanque."
+            }
+          ]
         },
         {
-            "optionText": "You, uh, need a towel?",
-            "responseText": "A towel? Honey, I need a *fire hose*. You didn’t just shoot a load, you triggered a fucking flood warning."
-        },
-        {
-            "optionText": "Bye.",
-            "responseTexts": ["Later. Try not to pass out in the hallway thinking about this, alright? Wouldn’t want to explain that to the Purity Police."],
-            "exitLine": true
+          "optionText": "Então... essa é a parte em que eu digo obrigado ou...?",
+          "responseText": "Quer dizer, se você curte essa coisa de 'agradecer', claro."
         }
-    ]
+      ]
+    },
+    {
+      "optionText": "Você, uh, precisa de uma toalha?",
+      "responseText": "Uma toalha? Querido, preciso de uma *mangueira de incêndio*. Você não apenas gozou, você acionou um alerta de inundação do caralho."
+    },
+    {
+      "optionText": "Tchau.",
+      "responseTexts": [
+        "Até mais. Tente não desmaiar no corredor pensando nisso, ok? Não gostaria de ter que explicar isso para a Polícia da Pureza."
+      ],
+      "exitLine": true
+    }
+  ]
 }

@@ -1,457 +1,447 @@
 {
-    "options": [
+  "options": [
+    {
+      "optionText": "Ei, como você está aguentando?",
+      "onlyShowIfProgressionEventPlayed": "grace_blowjob",
+      "responseText": "*olha para cima, cansada e na defensiva* …Por que você está aqui?",
+      "followUpOptions": [
         {
-        "optionText": "Hey, how are you holding up?",
-        "onlyShowIfProgressionEventPlayed": "grace_blowjob",
-        "responseText": "*looks up tired and guarded* …Why are you here?",
-        "followUpOptions": [
+          "optionText": "Só vim ver como você está.",
+          "responseText": "É… bem… acho que não tenho muito o que te dizer agora…"
+        },
+        {
+          "optionText": "Pensando no boquete do outro dia?",
+          "responseText": "*se encolhe* Não. Só… não fale sobre isso. Nunca mais.",
+          "followUpOptions": [
             {
-            "optionText": "Just checking in on you.",
-            "responseText": "Yeah… well… guess I don’t have much to say to you right now…"
-            },
-            {
-            "optionText": "Thinking about the blowjob the other day?",
-            "responseText": "*flinches* Don’t. Just… don’t bring that up. Ever again.",
-            "followUpOptions": [
+              "optionText": "Por que não? Você parecia… estar gostando.",
+              "responseText": "*te encara, com os olhos marejados instantaneamente apesar da raiva* Não diga isso. Não… não distorça as coisas assim. Foi um erro… tá? Eu não estava pensando direito. Eu não… eu não quero ser essa garota…",
+              "followUpOptions": [
                 {
-                    "optionText": "Why not? You seemed… into it.",
-                    "responseText": "*glares at you, tears welling up instantly despite her anger* Don’t say that. Don’t… don’t twist it like that. It was a mistake… okay? I wasn’t thinking straight. I don’t… I don’t want to be that girl…",
-                    "followUpOptions": [
+                  "optionText": "Você já é essa garota, Grace. Não tem como voltar atrás.",
+                  "responseText": "*desvia o olhar bruscamente, com a voz trêmula* Cala a boca. Só cala a boca. Eu te odeio…"
+                },
+                {
+                  "optionText": "Por que você não quer ser 'essa garota'?",
+                  "responseText": "…Porque… eu vi o que acontece com garotas assim…",
+                  "followUpOptions": [
+                    {
+                      "optionText": "Como assim?",
+                      "responseText": "*a voz falha um pouco* Lá no bordel dos saqueadores… as garotas de lá… elas simplesmente… deixaram de ser pessoas. Era como… como se suas almas tivessem sumido…"
+                    },
+                    {
+                      "optionText": "Você não é como elas, Grace.",
+                      "responseText": "*balança a cabeça rapidamente* Você не entende… é o que todas elas pensavam no começo… até que não pensavam mais em nada…"
+                    },
+                    {
+                      "optionText": "Por que isso te assusta tanto?",
+                      "responseText": "*um pequeno soluço escapa de seus lábios* Porque eu não quero acabar como elas… só… usada… quebrada… algo que as pessoas tocam e jogam fora quando se cansam…"
+                    },
+                    {
+                      "optionText": "O que você quer então?",
+                      "responseText": "…Eu só… eu quero ser feliz… Eu quero que alguém… realmente se importe comigo… não… só com o meu corpo…"
+                    },
+                    {
+                      "optionText": "Você acha que sou como eles? Os saqueadores?",
+                      "responseText": "*olha para você* Eu não sei… quero pensar que você não é… mas… eu não sei mais…",
+                      "followUpOptions": [
                         {
-                            "optionText": "You’re already that girl, Grace. There’s no taking it back.",
-                            "responseText": "*looks away sharply, her voice shaking* Shut up. Just shut up. I hate you…"
+                          "optionText": "Eu não sou como eles. Eu prometo. Eu… me importo com você, Grace.",
+                          "responseText": "*respira tremulamente* Não… não minta pra mim… por favor… eu não aguento se você estiver mentindo…"
                         },
                         {
-                            "optionText": "Why don’t you want to be ‘that girl’?",
-                            "responseText": "…Because… I’ve seen what happens to girls like that…",
-                            "followUpOptions": [
+                          "optionText": "Sinceramente? Não me importo com o que você pensa. Você é só minha putinha de estimação agora.",
+                          "emotion": "Characters/Grace Wells/emotions/grace scared",
+                          "responseText": "*seus olhos se arregalam de horror* Não… não… eu não sou… eu não sou isso… eu não sou…",
+                          "followUpOptions": [
+                            {
+                              "optionText": "É bom se acostumar. Da próxima vez, vou enfiar meu pau na sua garganta, quer você queira ou não.",
+                              "responseText": "*balança a cabeça violentamente, lágrimas escorrendo pelo rosto*",
+                              "exitLine": true,
+                              "advanceDayWithStatusMessage": "Grace corre para a porta, soluçando incontrolavelmente enquanto desce o corredor, deixando você sozinho.",
+                              "progressionEventPlayed": "grace_doesnt_talk_to_you_anymore"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "optionText": "Não finja que você não gostou.",
+              "responseText": "*treme* Eu não… quer dizer… talvez… não… eu não sei… Deus, só me deixa em paz… por favor…",
+              "followUpOptions": [
+                {
+                  "optionText": "Que tal continuarmos de onde paramos? Ir mais longe desta vez.",
+                  "emotion": "Characters/Grace Wells/emotions/grace scared",
+                  "responseText": "*balança a cabeça violentamente* Não. Não… eu não vou… eu não vou fazer isso de novo… eu não posso… eu não quero…"
+                },
+                {
+                  "optionText": "Tudo bem. Outra hora, então.",
+                  "emotion": "none",
+                  "responseText": "*suspira tremulamente* …Tanto faz… só… vai embora…"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "optionText": "Pensando sobre… o que aconteceu outro dia?",
+      "dontShowIfProgressionEventPlayed": "grace_blowjob",
+      "onlyShowIfProgressionEventPlayed": "first_grace_masturbation",
+      "responseText": "*geme baixinho* Podemos não falar sobre isso? Eu já sinto vontade de morrer toda vez que me lembro…",
+      "followUpOptions": [
+        {
+          "optionText": "Se te faz sentir melhor… é normal. Sério.",
+          "responseText": "É, bem… normal ou não, ainda me sinto uma completa idiota. Eu nem sei por que eu… ugh, deixa pra lá. Eu só não pensei que alguém realmente entraria… sabe."
+        },
+        {
+          "optionText": "Você tem me evitado desde então.",
+          "responseText": "*dá uma risada nervosa* Bem… sim. Pode me culpar? Toda vez que vejo seu rosto, eu só me lembro… sabe. Daquilo. E meu cérebro derrete e minha boca para de funcionar."
+        },
+        {
+          "optionText": "Sabe… existem maneiras melhores de se sentir bem do que usar apenas os dedos.",
+          "emotion": "Characters/Grace Wells/emotions/grace shocked",
+          "icon": "GUI/heart4",
+          "responseText": "*os olhos se levantam de repente, arregalados e nervosos* O-o que diabos isso quer dizer?! Você está falando sério… sugerindo… sexo…?",
+          "followUpOptions": [
+            {
+              "optionText": "Sim. Sexo é melhor do que os dedos jamais poderiam ser.",
+              "emotion": "Characters/Grace Wells/emotions/grace scared",
+              "icon": "GUI/heart4",
+              "responseText": "*abraça os joelhos com mais força, balançando a cabeça rapidamente* D-de jeito nenhum. Isso… isso parece doloroso. Todo mundo diz que a primeira vez dói pra caramba. Eu não estou… não estou pronta para isso.",
+              "followUpOptions": [
+                {
+                  "optionText": "Não precisa doer. Mas tudo bem… poderíamos começar com algo mais fácil.",
+                  "emotion": "none",
+                  "icon": "GUI/heart4",
+                  "responseText": "*olha para cima hesitantemente* Mais fácil…? Tipo… o quê?",
+                  "followUpOptions": [
+                    {
+                      "optionText": "Outra lição. Apenas… olhar. Tocar. Aprender.",
+                      "icon": "GUI/heart4",
+                      "emotion": "Characters/Grace Wells/emotions/biting lip closed eyes",
+                      "responseText": "*o rosto queima de vermelho instantaneamente* Deus… você é… você é inacreditável… mas… eu… acho que… não… machucaria… só… olhar… certo?",
+                      "followUpOptions": [
+                        {
+                          "optionText": "Exato. Vem aqui. Você está apenas aprendendo. Nada assustador.",
+                          "icon": "GUI/heart4",
+                          "emotion": "Characters/Grace Wells/emotions/grace scared",
+                          "responseText": "*se arrasta para mais perto, relutante* Certo… aprendendo… totalmente normal… não acredito que estou fazendo isso… Deus…",
+                          "followUpOptions": [
+                            {
+                              "optionText": "Vá em frente. Tire para fora e… envolva sua mão nele, devagar.",
+                              "icon": "GUI/heart4",
+                              "changeSprite": "Characters/Grace Wells/handjob2",
+                              "setBGcolor": "#B0B0B0",
+                              "emotion": "none",
+                              "newSpriteXPos": -3.03,
+                              "newSpriteYPos": 0.11,
+                              "responseText": "*engole em seco audivelmente, os olhos se arregalando* O-o quê… tipo… realmente… tocar nele…? *respira tremulamente, sua pequena mão pairando antes de finalmente envolver seu pau* Oh meu Deus… é… quente… e… tão estranho…",
+                              "followUpOptions": [
                                 {
-                                "optionText": "What do you mean?",
-                                "responseText": "*voice cracks slightly* Back at the raider brothel… the girls there… they just… stopped being people. It was like… like their souls were gone…"
-                                },
-                                {
-                                "optionText": "You’re not like them, Grace.",
-                                "responseText": "*shakes her head quickly* You don’t get it… that’s what they all thought at first… until they didn’t think anything at all anymore…"
-                                },
-                                {
-                                "optionText": "Why does it scare you so much?",
-                                "responseText": "*tiny sob escapes her lips* Because I don’t want to end up like them… just… used… broken… something people touch and throw away when they’re bored…"
-                                },
-                                {
-                                "optionText": "What do you want then?",
-                                "responseText": "…I just… I want to be happy… I want someone to… actually care about me… not… just my body…"
-                                },
-                                {
-                                "optionText": "You think I’m like them? The raiders?",
-                                "responseText": "*looks up at you* I don’t know… I want to think you’re not… but… I don’t know anymore…",
-                                "followUpOptions": [
+                                  "optionText": "Você está indo muito bem. Tente… acariciá-lo um pouco.",
+                                  "icon": "GUI/heart4",
+                                  "responseText": "*um pequeno guincho escapa de seus lábios enquanto ela move a mão* A-assim…? Oh Deus… está ficando… maior…",
+                                  "followUpOptions": [
                                     {
-                                    "optionText": "I’m not like them. I promise. I… care about you, Grace.",
-                                    "responseText": "*breathes shakily* Don’t… don’t lie to me… please… I can’t handle it if you’re lying…",
-                                    "followUpOptions": [
-                                        {
-                                        "optionText": "I’m not lying. I’ll be here. You’re not alone anymore.",
-                                        "responseText": "*silent tears slip down her cheeks as her shoulders shake* …Don’t leave me… please… just… don’t leave me…"
-                                        },
-                                        {
-                                        "optionText": "I’ll protect you. Even if you hate me for everything else I’ve done.",
-                                        "responseText": "*looks down* I… I don’t hate you… I just… don’t know how to feel about you…"
-                                        }
-                                    ]
+                                      "optionText": "Isso é porque você está me excitando.",
+                                      "responseText": "*dá uma risada trêmula e nervosa* Não… não diga isso… faz minha cabeça ficar estranha…"
                                     },
                                     {
-                                    "optionText": "Honestly? I don’t care what you think. You’re just my little cocksleeve now.",
-                                    "emotion": "Characters/Grace Wells/emotions/grace scared",
-                                    "responseText": "*her eyes widen in horror* No… no… I’m not… I’m not that… I’m not…",
-                                    "followUpOptions": [
+                                      "optionText": "Quer ver que gosto tem?",
+                                      "icon": "GUI/heart4",
+                                      "responseText": "*os olhos se levantam para os seus, horrorizados e curiosos ao mesmo tempo* P-provar…? Você é… você é louco…",
+                                      "followUpOptions": [
                                         {
-                                        "optionText": "Get used to it. Next time, I’m shoving my cock down your throat whether you want it or not.",
-                                        "responseText": "*shakes her head violently, tears streaming down her face*",
-                                        "exitLine": true,
-                                        "advanceDayWithStatusMessage": "Grace bolts for the door, sobbing uncontrollably as she runs down the hallway, leaving you alone.",
-                                        "progressionEventPlayed": "grace_doesnt_talk_to_you_anymore"
-                                        }
-                                    ]
-                                    } 
-                                ]
-                                }
-                            ]
-                            } 
-                    ]
-                },
-                {
-                    "optionText": "Don’t act like you didn’t like it.",
-                    "responseText": "*trembles* I didn’t… I mean… maybe… no… I don’t know… god, just leave me alone… please…",
-                    "followUpOptions": [
-                        {
-                        "optionText": "How about we pick up where we left off? Go further this time.",
-                        "emotion": "Characters/Grace Wells/emotions/grace scared",
-                        "responseText": "*shakes her head violently* No. No… I’m not… I’m not doing that again… I can’t… I don’t want to…" 
-                        },
-                        {
-                        "optionText": "Fine. Another time, then.",
-                        "emotion": "none",
-                        "responseText": "*breathes out shakily* …Whatever… just… go…"
-                        }
-                    ]
-                }
-            ]
-            } 
-        ]
-        },
-        {
-        "optionText": "Thinking about… what happened the other day?",
-        "dontShowIfProgressionEventPlayed": "grace_blowjob",
-        "onlyShowIfProgressionEventPlayed": "first_grace_masturbation",
-        "responseText": "*groans softly* Can we not talk about that? I already feel like dying every time I remember…",
-        "followUpOptions": [ 
-            {
-                "optionText": "If it makes you feel better… it’s normal. Really.",
-                "responseText": "Yeah, well… normal or not, I still feel like a total idiot. I don’t even know why I… ugh, never mind. I just didn’t think anyone would actually walk in… you know."
-            },
-            {
-                "optionText": "You’ve been avoiding me since then.",
-                "responseText": "*lets out a nervous laugh* Well… yeah. Can you blame me? Every time I see your face I just remember… you know. That. And my brain melts and my mouth stops working."
-            },
-            {
-                "optionText": "You know… there are better ways to feel good than just using your fingers.",
-                "emotion": "Characters/Grace Wells/emotions/grace shocked",
-                "icon":"GUI/heart4",
-                "responseText": "*eyes snap up, wide and flustered* Wh-what the hell is that supposed to mean?! Are you seriously… suggesting… sex…?",
-                "followUpOptions": [
-                {
-                    "optionText": "Yeah. Sex feels better than fingers ever could.",
-                    "emotion": "Characters/Grace Wells/emotions/grace scared",
-                    "icon":"GUI/heart4",
-                    "responseText": "*hugs her knees tighter, shaking her head quickly* N-no way. That… that sounds painful. Everyone says the first time hurts like hell. I’m not… I’m not ready for that.",
-                    "followUpOptions": [
-                        {
-                        "optionText": "It doesn’t have to hurt. But fine… we could start with something easier.",
-                        "emotion": "none",
-                        "icon":"GUI/heart4",
-                        "responseText": "*peeks up hesitantly* Easier…? Like… what?",
-                        "followUpOptions": [
-                            {
-                            "optionText": "Another lesson. Just… looking. Touching. Learning.",
-                            "icon":"GUI/heart4",
-                            "emotion": "Characters/Grace Wells/emotions/biting lip closed eyes",
-                            "responseText": "*face burns red instantly* God… you’re… you’re unbelievable… but… I… I guess… it wouldn’t… hurt… to just… look… right?",
-                            "followUpOptions": [ 
-                                {
-                                "optionText": "Exactly. Come here. You’re just learning. Nothing scary.",
-                                "icon":"GUI/heart4", 
-                                "emotion": "Characters/Grace Wells/emotions/grace scared",
-                                "responseText": "*shuffles closer reluctantly* Right… learning… totally normal… I can’t believe I’m doing this… god…",
-                                "followUpOptions": [
-                                    {
-                                    "optionText": "Go ahead. Take it out and… wrap your hand around it, slowly.", 
-                                    "icon":"GUI/heart4",
-                                    "changeSprite": "Characters/Grace Wells/handjob2",
-                                    "setBGcolor": "#B0B0B0",
-                                    "emotion": "none",
-                                    "newSpriteXPos": -3.03,
-                                    "newSpriteYPos": 0.11,
-                                    "responseText": "*gulps audibly, eyes widening* Wh-what… like… actually… touch it…? *breathes shakily, her small hand hovering before finally wrapping around your dick* Oh my god… it’s… warm… and… so weird…",
-                                    "followUpOptions": [
-                                        {
-                                        "optionText": "You’re doing great. Try… stroking it a little.", 
-                                        "icon":"GUI/heart4",
-                                        "responseText": "*tiny squeak escapes her lips as she moves her hand* L-like… this…? Oh god… it’s getting… bigger…",
-                                        "followUpOptions": [
-                                            {
-                                            "optionText": "That’s because you’re turning me on.",
-                                            "responseText": "*lets out a shaky, nervous laugh* Don’t… don’t say that… it makes my head feel funny…"
-                                            },
-                                            {
-                                            "optionText": "Want to see how it tastes?",
-                                            "icon":"GUI/heart4",
-                                            "responseText": "*eyes snap up to yours, horrified and curious all at once* T-taste it…? You’re… you’re insane…",
-                                            "followUpOptions": [
-                                                {
-                                                "optionText": "Come on. It won’t hurt. Just a little lick.",
-                                                "icon":"GUI/heart4",
-                                                "changeSprite": "Characters/Grace Wells/blowjob",
-                                                "emotion": "none",
-                                                "newSpriteXPos": 3.97,
-                                                "newSpriteYPos": 0.11,
-                                                "progressionEventPlayed": "grace_blowjob",
-                                                "spriteAtTheEndOfHscene": "Characters/Grace Wells/grace in vault suit",
-                                                "spriteAtTheEndOfHscenePosition": [1.1, -0.52],
-                                                "swapAnotherCharacterDialogue": ["Grace Wells", "Characters/Grace Wells/post-blowjob"],
-                                                "emotionsDuringHevent": ["none","Characters/Grace Wells/emotions/blowjob/1","Characters/Grace Wells/emotions/blowjob/2"],
-                                                "lineAfterHevent": "God… I… can’t believe I just… did that…",  
-                                                "exitLine": true,
-                                                "isHEventStarted": true, 
-                                                "closeDialogueOptions": true,
-                                                "hEventName": "grace_blowjob", 
-                                                "auto_lines": [ "*breathing shakily, cheeks flaming* I… I… okay… just… don’t… don’t laugh at me…",
-                                                    "Oh god… it’s… it’s salty…",
-                                                    "Is… is this okay… am I doing it right…?",
-                                                    "*gags slightly, pulling back with watery eyes* S-sorry… it’s… it’s so big…", 
-                                                    "It’s… so warm… and… hard…",
-                                                    "I can… feel it twitching… is that… because of me…?", 
-                                                    "God… it’s… filling my whole mouth…",
-                                                    "*pulls off with a gasp* I can’t… it’s so much…",
-                                                    "I… I can taste… something…", 
-                                                    "*moans faintly around your cock without realising*",
-                                                    "Why… why does it feel… kinda good… to do this…?",
-                                                    "*eyes flutter shut as she bobs her head slowly*",
-                                                    "Please… tell me I’m… doing okay…",
-                                                    "*pulls off, panting softly* My jaw… hurts… but… I can keep going…",
-                                                    "*breathing shakily through her nose as she tries to take more*",
-    "Nnnh… it’s… stretching my lips so much…",
-    "God… my mouth… it feels so full…",
-    "I… I don’t know if it’s supposed to taste like this…",
-    "Mmm… ngh… please… don’t push in too deep…",
-    "It’s… it’s leaking something… salty…",
-    "I can’t… breathe… when it’s all the way in…",
-    "My… my chest feels funny every time you twitch in my mouth…",
-    "Am… am I making you feel good…? Really…?",
-    "God… I’m such an idiot… why am I doing this…",
-    "It’s so… thick… god…",
-    "Mmmph… it’s… it’s getting even harder…",
-    "*pulls back coughing softly* I’m sorry… I’ll… try again…",
-    "Please… tell me when you’re… gonna…",
-    "*little moan vibrates around your tip as she tries to take it deeper*",
+                                          "optionText": "Vamos lá. Não vai doer. Só uma lambidinha.",
+                                          "icon": "GUI/heart4",
+                                          "changeSprite": "Characters/Grace Wells/blowjob",
+                                          "emotion": "none",
+                                          "newSpriteXPos": 3.97,
+                                          "newSpriteYPos": 0.11,
+                                          "progressionEventPlayed": "grace_blowjob",
+                                          "spriteAtTheEndOfHscene": "Characters/Grace Wells/grace in vault suit",
+                                          "spriteAtTheEndOfHscenePosition": [
+                                            1.1, -0.52
+                                          ],
+                                          "swapAnotherCharacterDialogue": [
+                                            "Grace Wells",
+                                            "Characters/Grace Wells/post-blowjob"
+                                          ],
+                                          "emotionsDuringHevent": [
+                                            "none",
+                                            "Characters/Grace Wells/emotions/blowjob/1",
+                                            "Characters/Grace Wells/emotions/blowjob/2"
+                                          ],
+                                          "lineAfterHevent": "Deus… eu… não acredito que eu acabei de… fazer isso…",
+                                          "exitLine": true,
+                                          "isHEventStarted": true,
+                                          "closeDialogueOptions": true,
+                                          "hEventName": "grace_blowjob",
+                                          "auto_lines": [
+                                            "*respirando tremulamente, bochechas em chamas* Eu… eu… ok… só… não… não ria de mim…",
+                                            "Oh Deus… é… é salgado…",
+                                            "Isso… está ok… estou fazendo certo…?",
+                                            "*engasga um pouco, recuando com os olhos marejados* D-desculpa… é… é tão grande…",
+                                            "É… tão quente… e… duro…",
+                                            "Eu posso… sentir ele se contorcendo… isso é… por minha causa…?",
+                                            "Deus… está… enchendo minha boca inteira…",
+                                            "*se afasta com um suspiro* Eu não consigo… é demais…",
+                                            "Eu… eu posso sentir o gosto… de algo…",
+                                            "*geme fracamente em volta do seu pau sem perceber*",
+                                            "Por que… por que é… meio bom… fazer isso…?",
+                                            "*os olhos se fecham enquanto ela balança a cabeça lentamente*",
+                                            "Por favor… me diga que estou… indo bem…",
+                                            "*se afasta, ofegando suavemente* Meu maxilar… dói… mas… eu posso continuar…",
+                                            "*respirando tremulamente pelo nariz enquanto tenta pegar mais*",
+                                            "Nnnh… está… esticando tanto meus lábios…",
+                                            "Deus… minha boca… parece tão cheia…",
+                                            "Eu… não sei se deveria ter esse gosto…",
+                                            "Mmm… ngh… por favor… não empurre muito fundo…",
+                                            "Está… está vazando algo… salgado…",
+                                            "Eu não consigo… respirar… quando está todo dentro…",
+                                            "Meu… meu peito fica estranho toda vez que você se mexe na minha boca…",
+                                            "Eu… estou te dando prazer…? Mesmo…?",
+                                            "Deus… sou uma idiota… por que estou fazendo isso…",
+                                            "É tão… grosso… Deus…",
+                                            "Mmmph… está… está ficando ainda mais duro…",
+                                            "*recua tossindo suavemente* Me desculpe… eu vou… tentar de novo…",
+                                            "Por favor… me diga quando você for…",
+                                            "*pequeno gemido vibra em volta da sua ponta enquanto ela tenta ir mais fundo*",
 
-    "Ngh… oh god… I… I can’t believe I’m… actually doing this…", 
-    "Mmmph… mmph… please… don’t look at me like that… it’s embarrassing…",
+                                            "Ngh… oh Deus… eu… não acredito que estou… realmente fazendo isso…",
+                                            "Mmmph… mmph… por favor… не olhe para mim assim… é vergonhoso…",
 
-    "*gags softly again, tears slipping down her flushed cheeks*",
-    "Nnnh… it’s so… thick… I can’t…",
-    "*tries swirling her tongue shyly around your tip*",
-    "Mmm… is… is this… better…?",
-    "Why… why does my chest feel so tight… it’s just… a dick…",
-    "*hiccups softly around you as drool drips from her chin*",
-    "I… I can feel it… throbbing… are you… gonna…?",
-    "*eyes squeeze shut as she speeds up her bobbing awkwardly*",
-    "Mmmph… please… just… finish already…",
-    "*pulls back gasping for breath before diving back down*",
-    "Am… am I doing good enough for you to… finish…?",
-    "*tiny whimper as you hit the back of her throat again*",
-    "I… I don’t know if I can take all of it…",
-    "It’s… so hot… inside my mouth…",
-    "*chokes again, tears running down her face but she doesn’t stop*",
-    "Mmmph… just… finish already… please… I can’t…",
-    "*her tongue laps desperately at your tip, her hand stroking what she can’t fit*",
-    "Nnnh… are you… are you cumming…?"
-                                                ]
-                                                } 
-                                            ]
-                                            }
-                                        ]
+                                            "*engasga suavemente de novo, lágrimas escorrendo por suas bochechas coradas*",
+                                            "Nnnh… é tão… grosso… eu não consigo…",
+                                            "*tenta passar a língua timidamente em volta da sua ponta*",
+                                            "Mmm… isso… está… melhor…?",
+                                            "Por que… por que meu peito está tão apertado… é só… um pau…",
+                                            "*soluça suavemente em volta de você enquanto a baba escorre de seu queixo*",
+                                            "Eu… eu posso sentir… latejando… você vai…?",
+                                            "*os olhos se fecham com força enquanto ela acelera seu movimento desajeitadamente*",
+                                            "Mmmph… por favor… só… termine logo…",
+                                            "*se afasta ofegando antes de mergulhar de volta*",
+                                            "Estou… indo bem o suficiente para você… terminar…?",
+                                            "*pequeno gemido quando você atinge o fundo da garganta dela de novo*",
+                                            "Eu… não sei se consigo aguentar tudo…",
+                                            "Está… tão quente… dentro da minha boca…",
+                                            "*engasga de novo, lágrimas escorrendo pelo rosto, mas ela não para*",
+                                            "Mmmph… só… termine logo… por favor… eu não consigo…",
+                                            "*sua língua lambe desesperadamente sua ponta, sua mão acariciando o que ela não consegue engolir*",
+                                            "Nnnh… você está… você está gozando…?"
+                                          ]
                                         }
-                                    ]
+                                      ]
                                     }
-                                ]
+                                  ]
                                 }
-                            ]
+                              ]
                             }
-                        ]
+                          ]
                         }
-                    ]
+                      ]
+                    }
+                  ]
                 }
-                ]
+              ]
             }
-        ]
-        },
-        {
-            "optionText": "I’m sensing some mixed signals here, in regard to the lesson earlier.",
-            "reqProgressionEvent": "showing_dick_to_grace",
-            "dontShowIfProgressionEventPlayed": "grace_blowjob",
-            "responseText": "The only signal you should be sensing is: RUN. FAR AWAY. Preferably back to the Shame Chamber where you belong.",
-            "followUpOptions": [
-                {
-                    "optionText": "Hey, at least I tried! You’re welcome for the lesson.", 
-                    "exitLine": true,
-                    "responseText": "A ‘lesson’?! Oh, I learned something, alright. I learned that you’re the *last person* I’d want teaching me anything. Ever."
-                }
-            ]
-        },
-        {
-            "optionText": "What do you think of the vault?",
-            "emotion": "Characters/Grace Wells/emotions/grace closed eyes",
-            "onlyDisplayIfObjectiveComplete": "Get a vault suit for Grace.",
-            "responseText": "It’s... definitely not what I expected. I mean, I’m glad to be safe, but some of the rules here are kinda bonkers. Like, no holding hands? No touching at all? People keep saying it’s ‘for science,’ but I think they’re all just being really silly.",
-            "followUpOptions": [
-                {
-                    "optionText": "Yeah, this place is pretty strict.",
-                    "emotion": "none",
-                    "responseText": "Right? Like, I get it—don’t murder anyone, don’t steal food—but ‘no private time’ is a bit much."
-                },
-                {
-                    "optionText": "Maybe they have a good reason for the rules?",
-                    "icon":"GUI/heart4",
-                    "dontShowIfProgressionEventPlayed": "showing_dick_to_grace",
-                    "emotion": "none",
-                    "responseText": "Maybe? I mean, I’ve heard the whole ‘no-fap energy’ pitch, but... uh, what does ‘fap’ mean exactly? Everyone keeps saying it like I’m supposed to know, but nobody explains it.",
-                    "followUpOptions": [ 
-                        {
-                            "optionText": "It means... taking care of yourself, privately.",
-                            "responseText": "Oh, like brushing your hair or something? Wait, no, that doesn’t sound right. Why would they make a rule about that?"
-                        },
-                        {
-                            "optionText": "It’s, uh, something people do when they’re alone and... excited.",
-                            "emotion": "Characters/Grace Wells/emotions/grace closed eyes",
-                            "responseText": "Excited? Like, happy? I get happy when I’m alone sometimes. Is that bad?"
-                        }, 
-                        {
-                            "optionText": "It’s when someone touches their dick or pussy to feel good, you know, sexually.",
-                            "icon":"GUI/heart4",
-                            "emotion": "Characters/Grace Wells/emotions/grace shocked",
-                            "responseText": "WAIT, WHAT?! Uh, people do that? WHY?",
-                            "followUpOptions": [ 
-                                {
-                                    "optionText": "You’ve seriously never done it?",
-                                    "icon":"GUI/heart4",
-                                    "responseText": "No! Why would I? I mean, I’ve never even thought about it. Is it supposed to feel good or something?",
-                                    "followUpOptions": [
-                                        {
-                                            "optionText": "Yes, most people feel really good doing it.",
-                                            "responseText": "Huh... I guess I just never thought about it. Is it really that big of a deal for people?"
-                                        }, 
-                                        {
-                                            "optionText": "Well, if you ever want to, just don’t get caught here.",
-                                            "responseText": "Wait, they actually catch people doing that? What do they even do if someone gets caught?"
-                                        }, 
-                                        {
-                                            "optionText": "Want me to show you how it’s done?",
-                                            "icon":"GUI/heart4",
-                                            "dontShowIfProgressionEventPlayed": "showing_dick_to_grace",
-                                            "responseText": "Wait, what? Show me? Are you serious? That’s... that’s so weird! But... you’re kidding, right?",
-                                            "followUpOptions": [ 
-                                                {
-                                                    "optionText": "No, I'm serious. Look. [Drop your pants]",
-                                                    "specialEffects": ["Blackout"],
-                                                    "icon":"GUI/heart4",
-                                                    "changeSprite": "Characters/Grace Wells/grace and dick",
-                                                    "emotion": "none",
-                                                    "newSpriteXPos": 0.86,
-                                                    "newSpriteYPos": 0.19,
-                                                    "hEventName": "showing_dick_to_grace",
-                                                    "progressionEventPlayed": "showing_dick_to_grace",
-                                                    "responseText": "WAIT. WHAT?! EHH?! OH MY GOD, WHAT IS THAT?! WHY IS IT STARING AT ME?!",
-                                                    "followUpOptions": [ 
-                                                        {
-                                                            "optionText": "Relax, it’s just a cock, girl.",
-                                                            "responseText": "COCK?! COCK?! IT’S A FREAKING VEINY MUTANT MOLE RAT! PUT IT AWAY BEFORE I VOMIT EVERYWHERE!! THAT'S IT! I'M OUTTA HERE!",
-                                                            "exitLine": true,
-                                                            "advanceDayWithStatusMessage": "Grace ran straight to the Overseer screaming about 'veiny mutant mole rat' and now you're spending the rest of the day in the Shame Chamber—staring at a wall while a voice from TV repeats 'Bad Vault Dweller.' on loop."
-                                                        },
-                                                        {
-                                                            "optionText": "You said you wanted to learn! Consider this a lesson.",
-                                                            "responseText": "VAULT-TEC DOES NOT APPROVE THIS! VAULT-TEC DOES NOT APPROVE THIS AT ALL! WHO PUT YOU IN CHARGE OF TEACHING ANYTHING?! THAT'S IT! I'M OUTTA HERE!",
-                                                            "exitLine": true,
-                                                            "advanceDayWithStatusMessage": "Grace ran straight to the Overseer screaming about 'veiny mutant mole rat' and now you're spending the rest of the day in the Shame Chamber—staring at a wall while a voice from TV repeats 'Bad Vault Dweller.' on loop."
-                                                        }, 
-                                                        {
-                                                            "optionText": "You’re blushing. Admit it, you’re curious.",
-                                                            "responseText": "I—I AM NOT BLUSHING! YOU’RE A LUNATIC. A WEIRD, PERVERTED LUNATIC! THAT'S IT! I'M OUTTA HERE!",
-                                                            "exitLine": true,
-                                                            "advanceDayWithStatusMessage": "Grace ran straight to the Overseer screaming about 'veiny mutant mole rat' and now you're spending the rest of the day in the Shame Chamber—staring at a wall while a voice from TV repeats 'Bad Vault Dweller.' on loop."
-                                                        } 
-                                                    ]
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "optionText": "What do you think of your room?",
-                    "emotion": "Characters/Grace Wells/emotions/grace closed eyes",
-                    "responseText": "It’s… small. And plain. I guess it beats a raider camp, though. At least it doesn’t smell like jet and piss.",
-                    "followUpOptions": [ 
-                        {
-                            "optionText": "It’s just temporary. We’ll get you back to your dad soon.",
-                            "emotion": "none",
-                            "responseText": "Right, back to Dad. I’m sure he’s worried..."
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "optionText": "Here's your vault suit. Behold its glorious, skin-tight perfection.",
-            "markObjectiveComplete": "Get a vault suit for Grace.",
-            "onlyDisplayIfHasObjective": "Get a vault suit for Grace.",
-            "itemRequired": "Vault suit",
-            "exitLine": true,
-            "specialEffects": ["Blackout"],
-            "giveItemToCharacter": "Vault suit",
-            "relationshipPoints": 5,
-            "changeSprite": "Characters/Grace Wells/grace in vault suit",
-            "responseText": "Whoa, uh, what? Why did you say it like that? You’re... weird. Seriously, this place is full of weirdos. Look, I’ll put it on, just... stop looking at me like that, okay?"
-        },
-        {
-            "optionText": "Why are you still in your underwear?",
-            "icon": "GUI/quest mark",
-            "dontDisplayIfHasObjective": "Get a vault suit for Grace.",
-            "dontDisplayIfObjectiveComplete": "Get a vault suit for Grace.",
-            "responseText": "Oh! Uh... is that a problem? Nobody’s given me anything else to wear, and I’m not exactly raiding closets here. Do people actually wear those funny blue jumpsuits all the time?",
-            "followUpOptions": [
-                {
-                    "optionText": "I’ll find you a vault suit. Just... stay put for now.",
-                    "addObjective": "Get a vault suit for Grace.",
-                    "exitLine": true,
-                    "responseText": "A vault suit? Oh, you mean those tight, shiny things everyone’s wearing? Well, sure. Guess it’s better than this, right?"
-                },
-                {
-                    "optionText": "You can’t just walk around like this. It’s distracting. Stay here, I’ll get you something.",
-                    "addObjective": "Get a vault suit for Grace.",
-                    "exitLine": true,
-                    "responseText": "Distracting? To who? Everyone here acts like they’ve never even seen a girl before! Fine, go grab your fancy suit thing."
-                }, 
-                {
-                    "optionText": "Honestly, you’re rocking it. Maybe you should just make this your signature look?",
-                    "responseText": "Wow, thanks for the vote of confidence, but I think I’ll pass."
-                }
-            ]
-        },  
-        {
-            "optionText": "We need to talk about your plans. Are you still thinking about going back to your dad?",
-            "responseText": "I mean, I guess that’s the plan? Unless… you think it’s not safe? I’ve seen what’s out there, and it’s... terrifying.",
-            "followUpOptions": [
-                {
-                    "optionText": "It’s not safe yet. I need time to clear the road.",
-                    "responseText": "Oh. Well, I guess staying here a bit longer won’t hurt. At least you’re not, like, throwing me back to the Raider Sluts. Thanks for that, by the way."
-                }, 
-                {
-                    "optionText": "Honestly, I think you’d be better off staying here for good.",
-                    "onlyShowIfProgressionEventPlayed": "met_graces_father",
-                    "responseText": "Here? For good? I mean, it’s not terrible, but what about my dad? What if he thinks I’m dead? What if he’s waiting for me?",
-                    "followUpOptions": [
-                        {
-                            "optionText": "I met your dad. He’s... not a nice guy.", 
-                            "responseText": "What? What do you mean? He’s always been... I mean, he’s strict, sure, but... he's still my dad. Did he say anything about me?",
-                            "followUpOptions": [
-                                {
-                                    "optionText": "He didn't seem like losing you was a big deal for him. You deserve better than that.", 
-                                    "responseText": "He didn't...? I... That really hurts. I kept hoping I was wrong about how distant he got after Mom died. Maybe I’ve been clinging to a person long gone.",
-                                    "followUpOptions": [
-                                        {
-                                            "optionText": "What happened to your mom?",
-                                            "responseText": "She died when I was little. Bandit raid. Dad never forgave the world for taking her. I think... something broke in him after that. He turned everything into walls and rules. Love didn’t survive the cutbacks."
-                                        },
-                                        {
-                                            "optionText": "You’re safe here. You don’t need to chase someone who won’t come looking for you.", 
-                                            "responseText": "Yeah... maybe you’re right. It’s just hard to let go. But if I’m being honest, this place already feels more like home than anywhere else I’ve been."
-                                        }
-                                    ]
-                                } 
-                            ]
-                        } 
-                    ]
-                }
-            ]
-        },
-        {
-            "optionText": "Bye",
-            "responseText": "Oh, okay! Uh, don’t be a stranger, alright? I mean, it’s not like I have anyone else to talk to here... yet.",
-            "exitLine": true
+          ]
         }
-    ]
-} 
+      ]
+    },
+    {
+      "optionText": "Estou sentindo uns sinais confusos aqui, sobre a lição de mais cedo.",
+      "reqProgressionEvent": "showing_dick_to_grace",
+      "dontShowIfProgressionEventPlayed": "grace_blowjob",
+      "responseText": "O único sinal que você deveria estar sentindo é: CORRA. PARA BEM LONGE. De preferência de volta para a Câmara da Vergonha, onde você pertence.",
+      "followUpOptions": [
+        {
+          "optionText": "Ei, pelo menos eu tentei! De nada pela lição.",
+          "exitLine": true,
+          "responseText": "Uma 'lição'?! Ah, eu aprendi algo, sim. Aprendi que você é a *última pessoa* que eu gostaria que me ensinasse qualquer coisa. Nunca."
+        }
+      ]
+    },
+    {
+      "optionText": "O que você acha do refúgio?",
+      "emotion": "Characters/Grace Wells/emotions/grace closed eyes",
+      "onlyDisplayIfObjectiveComplete": "Get a vault suit for Grace.",
+      "responseText": "É... definitivamente não é o que eu esperava. Quer dizer, fico feliz por estar segura, mas algumas das regras aqui são meio malucas. Tipo, não pode dar as mãos? Não pode tocar de jeito nenhum? As pessoas ficam dizendo que é 'pela ciência', mas acho que estão todos sendo muito bobos.",
+      "followUpOptions": [
+        {
+          "optionText": "É, este lugar é bem rigoroso.",
+          "emotion": "none",
+          "responseText": "Né? Tipo, eu entendo — não mate ninguém, não roube comida — mas 'sem tempo a sós' é um pouco demais."
+        },
+        {
+          "optionText": "Talvez eles tenham um bom motivo para as regras?",
+          "icon": "GUI/heart4",
+          "dontShowIfProgressionEventPlayed": "showing_dick_to_grace",
+          "emotion": "none",
+          "responseText": "Talvez? Quer dizer, ouvi todo o papo da 'energia da abstinência', mas... uh, o que 'abstinência' significa exatamente? Todo mundo fica falando como se eu devesse saber, mas ninguém explica.",
+          "followUpOptions": [
+            {
+              "optionText": "Significa... cuidar de si mesmo, em particular.",
+              "responseText": "Ah, tipo pentear o cabelo ou algo assim? Espera, não, isso não parece certo. Por que eles fariam uma regra sobre isso?"
+            },
+            {
+              "optionText": "É, uh, algo que as pessoas fazem quando estão sozinhas e... excitadas.",
+              "emotion": "Characters/Grace Wells/emotions/grace closed eyes",
+              "responseText": "Excitadas? Tipo, felizes? Eu fico feliz quando estou sozinha às vezes. Isso é ruim?"
+            },
+            {
+              "optionText": "É quando alguém toca no próprio pau ou xoxota para se sentir bem, sabe, sexualmente.",
+              "icon": "GUI/heart4",
+              "emotion": "Characters/Grace Wells/emotions/grace shocked",
+              "responseText": "ESPERA, O QUÊ?! Uh, as pessoas fazem isso? POR QUÊ?",
+              "followUpOptions": [
+                {
+                  "optionText": "Você nunca fez isso, sério?",
+                  "icon": "GUI/heart4",
+                  "responseText": "Não! Por que eu faria? Quer dizer, eu nunca nem pensei nisso. É pra ser bom ou algo assim?",
+                  "followUpOptions": [
+                    {
+                      "optionText": "Sim, a maioria das pessoas se sente muito bem fazendo isso.",
+                      "responseText": "Huh... acho que eu nunca pensei nisso. É realmente algo tão importante para as pessoas?"
+                    },
+                    {
+                      "optionText": "Bem, se algum dia você quiser, só não seja pega aqui.",
+                      "responseText": "Espera, eles realmente pegam pessoas fazendo isso? O que eles fazem se alguém for pego?"
+                    },
+                    {
+                      "optionText": "Quer que eu te mostre como se faz?",
+                      "icon": "GUI/heart4",
+                      "dontShowIfProgressionEventPlayed": "showing_dick_to_grace",
+                      "responseText": "Espera, o quê? Me mostrar? Você está falando sério? Isso é... isso é tão estranho! Mas... você está brincando, certo?",
+                      "followUpOptions": [
+                        {
+                          "optionText": "Não, estou falando sério. Olhe. [Abaixa as calças]",
+                          "specialEffects": ["Blackout"],
+                          "icon": "GUI/heart4",
+                          "changeSprite": "Characters/Grace Wells/grace and dick",
+                          "emotion": "none",
+                          "newSpriteXPos": 0.86,
+                          "newSpriteYPos": 0.19,
+                          "hEventName": "showing_dick_to_grace",
+                          "progressionEventPlayed": "showing_dick_to_grace",
+                          "responseText": "ESPERA. O QUÊ?! EHH?! MEU DEUS, O QUE É ISSO?! POR QUE ESTÁ ME ENCARANDO?!",
+                          "followUpOptions": [
+                            {
+                              "optionText": "Calma, é só um pau, garota.",
+                              "responseText": "PAU?! PAU?! É UM RATO-TOUPEIRA MUTANTE E VEIUDO DO CARALHO! GUARDA ISSO ANTES QUE EU VOMITE EM TUDO!! É ISSO! TÔ FORA DAQUI!",
+                              "exitLine": true,
+                              "advanceDayWithStatusMessage": "Grace correu direto para o Supervisor gritando sobre 'rato-toupeira mutante e veiado' e agora você vai passar o resto do dia na Câmara da Vergonha — encarando uma parede enquanto uma voz da TV repete 'Mau Morador do Refúgio.' sem parar."
+                            },
+                            {
+                              "optionText": "Você disse que queria aprender! Considere isso uma lição.",
+                              "responseText": "A VAULT-TEC NÃO APROVA ISSO! A VAULT-TEC NÃO APROVA ISSO DE JEITO NENHUM! QUEM TE COLOCOU NO COMANDO DE ENSINAR QUALQUER COISA?! É ISSO! TÔ FORA DAQUI!",
+                              "exitLine": true,
+                              "advanceDayWithStatusMessage": "Grace correu direto para o Supervisor gritando sobre 'rato-toupeira mutante e veiado' e agora você vai passar o resto do dia na Câmara da Vergonha — encarando uma parede enquanto uma voz da TV repete 'Mau Morador do Refúgio.' sem parar."
+                            },
+                            {
+                              "optionText": "Você está corando. Admita, você está curiosa.",
+                              "responseText": "E-EU NÃO ESTOU CORANDO! VOCÊ É UM LUNÁTICO. UM LUNÁTICO ESTRANHO E PERVERTIDO! É ISSO! TÔ FORA DAQUI!",
+                              "exitLine": true,
+                              "advanceDayWithStatusMessage": "Grace correu direto para o Supervisor gritando sobre 'rato-toupeira mutante e veiado' e agora você vai passar o resto do dia na Câmara da Vergonha — encarando uma parede enquanto uma voz da TV repete 'Mau Morador do Refúgio.' sem parar."
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "optionText": "O que você acha do seu quarto?",
+          "emotion": "Characters/Grace Wells/emotions/grace closed eyes",
+          "responseText": "É… pequeno. E simples. Mas acho que é melhor que um acampamento de saqueadores. Pelo menos não cheira a jet e mijo.",
+          "followUpOptions": [
+            {
+              "optionText": "É só temporário. Vamos te levar de volta para seu pai em breve.",
+              "emotion": "none",
+              "responseText": "Certo, de volta para o papai. Tenho certeza de que ele está preocupado..."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "optionText": "Aqui está seu macacão do refúgio. Contemple sua gloriosa perfeição colada à pele.",
+      "markObjectiveComplete": "Get a vault suit for Grace.",
+      "onlyDisplayIfHasObjective": "Get a vault suit for Grace.",
+      "itemRequired": "Vault suit",
+      "exitLine": true,
+      "specialEffects": ["Blackout"],
+      "giveItemToCharacter": "Vault suit",
+      "relationshipPoints": 5,
+      "changeSprite": "Characters/Grace Wells/grace in vault suit",
+      "responseText": "Uau, uh, o quê? Por que você disse isso desse jeito? Você é... estranho. Sério, este lugar está cheio de esquisitos. Olha, eu vou vestir, só... para de me olhar assim, ok?"
+    },
+    {
+      "optionText": "Por que você ainda está de calcinha e sutiã?",
+      "icon": "GUI/quest mark",
+      "dontDisplayIfHasObjective": "Get a vault suit for Grace.",
+      "dontDisplayIfObjectiveComplete": "Get a vault suit for Grace.",
+      "responseText": "Ah! Uh... isso é um problema? Ninguém me deu mais nada para vestir, e eu não estou exatamente saqueando armários por aqui. As pessoas realmente usam aqueles macacões azuis engraçados o tempo todo?",
+      "followUpOptions": [
+        {
+          "optionText": "Vou te arrumar um macacão do refúgio. Só... fica aí por enquanto.",
+          "addObjective": "Get a vault suit for Grace.",
+          "exitLine": true,
+          "responseText": "Um macacão do refúgio? Ah, você quer dizer aquelas coisas apertadas e brilhantes que todo mundo está usando? Bem, claro. Acho que é melhor do que isso, né?"
+        },
+        {
+          "optionText": "Você não pode simplesmente andar por aí assim. É uma distração. Fique aqui, vou te trazer algo.",
+          "addObjective": "Get a vault suit for Grace.",
+          "exitLine": true,
+          "responseText": "Distração? Para quem? Todo mundo aqui age como se nunca tivesse visto uma garota antes! Tudo bem, vá pegar sua coisa chique de macacão."
+        },
+        {
+          "optionText": "Sinceramente, você está arrasando. Talvez devesse fazer disso o seu visual característico?",
+          "responseText": "Uau, obrigada pelo voto de confiança, mas acho que vou passar."
+        }
+      ]
+    },
+    {
+      "optionText": "Precisamos falar sobre seus planos. Você ainda está pensando em voltar para o seu pai?",
+      "responseText": "Quer dizer, acho que esse é o plano? A menos que… você ache que não é seguro? Eu vi o que tem lá fora, e é... aterrorizante.",
+      "followUpOptions": [
+        {
+          "optionText": "Ainda não é seguro. Preciso de tempo para limpar a estrada.",
+          "responseText": "Ah. Bem, acho que ficar aqui mais um pouco não vai fazer mal. Pelo menos você não está, tipo, me jogando de volta para as Vadias Saqueadoras. Obrigada por isso, a propósito."
+        },
+        {
+          "optionText": "Sinceramente, acho que seria melhor você ficar aqui para sempre.",
+          "onlyShowIfProgressionEventPlayed": "met_graces_father",
+          "responseText": "Aqui? Para sempre? Quer dizer, não é terrível, mas e o meu pai? E se ele pensar que estou morta? E se ele estiver me esperando?",
+          "followUpOptions": [
+            {
+              "optionText": "Eu conheci seu pai. Ele... não é um cara legal.",
+              "responseText": "O quê? Como assim? Ele sempre foi... quer dizer, ele é rigoroso, claro, mas... ele ainda é meu pai. Ele disse alguma coisa sobre mim?",
+              "followUpOptions": [
+                {
+                  "optionText": "Ele não parecia se importar muito em ter te perdido. Você merece coisa melhor.",
+                  "responseText": "Ele não...? Eu... Isso realmente dói. Eu continuei esperando estar errada sobre o quão distante ele ficou depois que a mamãe morreu. Talvez eu estivesse me apegando a uma pessoa que já se foi há muito tempo."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "optionText": "Tchau",
+      "responseText": "Ah, ok! Uh, não some, tá? Quer dizer, não é como se eu tivesse mais alguém para conversar aqui... ainda.",
+      "exitLine": true
+    }
+  ]
+}

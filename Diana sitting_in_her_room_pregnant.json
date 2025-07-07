@@ -1,32 +1,32 @@
 {
   "options": [
     {
-        "optionText": "[Hand over Lingerie]",
-        "icon": "GUI/quest mark",
-        "responseText": "Oh my... I knew you had good taste, but this? Darling, you've outdone yourself! Those are fabulous! Thank you!", 
-        "onlyDisplayIfHasObjective": "Get lingerie for Diana",
-        "giveItemToCharacter": "Red Lingerie",
-        "itemRequired": "Red Lingerie",
-        "relationshipPoints": 15,
-        "markObjectiveComplete": "Get lingerie for Diana",
-        "exitLine": true
+      "optionText": "[Entregar Lingerie]",
+      "icon": "GUI/quest mark",
+      "responseText": "Oh, meu... eu sabia que você tinha bom gosto, mas isso? Querido, você se superou! São fabulosas! Obrigada!",
+      "onlyDisplayIfHasObjective": "Get lingerie for Diana",
+      "giveItemToCharacter": "Red Lingerie",
+      "itemRequired": "Red Lingerie",
+      "relationshipPoints": 15,
+      "markObjectiveComplete": "Get lingerie for Diana",
+      "exitLine": true
     },
     {
-        "optionText": "[Hand over Dildo]",
-        "icon": "GUI/quest mark",
-        "responseText": "Oh my... you really know how to satisfy a girl’s cravings. I’ve been waiting all day for someone to hand me a big, firm... dildo. Thank you.", 
-        "onlyDisplayIfHasObjective": "Get dildo for Diana",
-        "giveItemToCharacter": "Monster Dildo",
-        "itemRequired": "Monster Dildo",
-        "relationshipPoints": 20,
-        "markObjectiveComplete": "Get dildo for Diana",
-        "exitLine": true
+      "optionText": "[Entregar Dildo]",
+      "icon": "GUI/quest mark",
+      "responseText": "Oh, meu... você realmente sabe como satisfazer os desejos de uma garota. Esperei o dia todo para alguém me entregar um... dildo grande e firme. Obrigada.",
+      "onlyDisplayIfHasObjective": "Get dildo for Diana",
+      "giveItemToCharacter": "Monster Dildo",
+      "itemRequired": "Monster Dildo",
+      "relationshipPoints": 20,
+      "markObjectiveComplete": "Get dildo for Diana",
+      "exitLine": true
     },
     {
-      "optionText": "I've got the fish, baby.",
+      "optionText": "Eu peguei o peixe, amor.",
       "onlyDisplayIfHasObjective": "Bring Diana fish.",
       "icon": "GUI/quest mark",
-      "responseText": "You actually did it? Oh my god... this is amazing. It smells awful and I love it. Thank you. Seriously.",
+      "responseText": "Você conseguiu mesmo? Oh meu deus... isso é incrível. Cheira horrível e eu amo isso. Obrigada. Sério.",
       "markObjectiveComplete": "Bring Diana fish.",
       "relationshipPoints": 15,
       "giveItemToCharacter": "Radbass",
@@ -34,153 +34,129 @@
       "exitLine": true
     },
     {
-      "optionText": "How’s my babygirl doing today?",
-      "responseText": "Ugh, don’t say that unless you’re ready for me to melt into your arms. Hormones are doing backflips right now. I'm tired, sore... but kind of peaceful. You being here helps. Thank you.",
-      "followUpOptions":[
+      "optionText": "Como está minha garotinha hoje?",
+      "responseText": "Ugh, não diga isso a menos que esteja pronto para eu derreter em seus braços. Os hormônios estão dando piruetas agora. Estou cansada, dolorida... mas meio em paz. Você estar aqui ajuda. Obrigada.",
+      "followUpOptions": [
         {
-          "optionText": "You’re carrying our whole future in that belly.",
-          "responseText": "God, why do you say things like that? Now I’m tearing up. Come hold me before I ruin this already too-tight suit."
+          "optionText": "Você está carregando todo o nosso futuro nessa barriga.",
+          "responseText": "Deus, por que você diz coisas assim? Agora estou chorando. Venha me abraçar antes que eu estrague este macacão já apertado demais."
         },
         {
-          "optionText": "You’re not alone in this, Diana. I’m here. Always.",
-          "responseText": "Good. Because I don’t want to do this without you. And not just the baby stuff. Everything."
+          "optionText": "Você não está sozinha nisso, Diana. Estou aqui. Sempre.",
+          "responseText": "Bom. Porque não quero fazer isso sem você. E não só as coisas do bebê. Tudo."
         },
         {
-          "optionText": "I love you.",
+          "optionText": "Eu te amo.",
           "icon": "GUI/heart4",
-          "responseText": "Say that again. No, seriously. I need to hear it. Because I love you too—and I’m scared and excited at the same time.",
+          "responseText": "Diga de novo. Não, sério. Preciso ouvir. Porque eu também te amo—e estou com medo e animada ao mesmo tempo.",
           "followUpOptions": [
             {
-              "optionText": "Come here. Let me help you forget everything else for a while.",
+              "optionText": "Venha aqui. Deixe-me ajudar a esquecer todo o resto por um tempo.",
               "icon": "GUI/heart4",
-              "responseText": "Mmm... yeah. That sounds perfect. Just... hold me for a minute first. Then don't let go.",
+              "responseText": "Mmm... sim. Parece perfeito. Só... me abrace por um minuto primeiro. Depois não solte.",
               "followUpOptions": [
                 {
-              "optionText": "[Have sex]",
-              "changeSprite": "Characters/Diana/pregnant/pregnant_Diana_room",
-                        "newSpriteXPos": 0.72,
-                        "newSpriteYPos": -0.45,
-                        "icon": "GUI/heart4",
-                        "closeDialogueOptions": true,
-                        "isHEventStarted": true,
-                        "setBGcolor": "#919191",
-                        "changeSpriteColor": "#E7E7E7",
-                        "specialEffects": ["Blackout"],
-                        "endingEffects": ["Flashes"],
-                        "progressionEventPlayed": "diana_herRoom_pregnant_PlayerSex",
-                        "spriteAtTheEndOfHscene": "Characters/Diana/pregnant/post sex pregnant",
-                        "emotionsDuringHevent": [ ""],
-                        "spriteAtTheEndOfHscenePosition": [ 1.3, -2.52 ],
-                        "endingSpriteColor": "#D1D1D1",
-                        "lineAfterHevent": "Ahh... you better not have drowned the baby with how much you pumped in there...", 
-                        "reduceDesireAfterAutoLines": 10,
-                        "hEventName": "diana_herRoom_pregnant_PlayerSex",
-                        "auto_lines": ["Ahhh! Fuck... your cock feels even bigger now that I'm swollen like this... ♥",
-
-"Mmm, goddamn it, I’ve never been this sensitive... you’ve ruined me, baby. Completely ruined.",
-
-"Yes, right there—fuck! Fill me deeper. Make sure I feel it right against your baby. ♥",
-
-"Oh, baby, my tits ache so bad... please, squeeze them harder.",
-
-"Fuck, fuck, I swear you’ve turned me into a complete mess. Pregnant, horny, needy—just your perfect little breeding slut, huh? ♥",
-
-"Ahhh… this belly—mmm—fuck, just feeling you pounding me while our baby’s kicking inside… it's so wrong, but God, I love it!",
-
-"Ohhh, harder! Show me how much you love knocking me up, make this pussy ache for days! ♥",
-
-"Yes—fuck!—make me moan so loud everyone outside knows exactly who’s fucking me tonight.",
-
-"Mmm, your dick feels amazing… every thrust reminding me why I broke every damn rule just to feel you cum inside. ♥",
-
-"Ah, ah, don’t you dare stop! I need this cock, baby. Pregnant or not, I'm yours anytime, anywhere!",
-
-"Ohhh, god, yes, fuck your baby mama just like that... Make sure I know exactly who owns this pussy. ♥",
-
-"Mmm, the deeper you go, the harder the baby kicks. You’re driving us both wild—don’t you dare pull out!",
-
-"Ahhh! I'm leaking everywhere already… pregnant tits, swollen pussy, all dripping because of you. ♥",
-
-"Yes! Stretch me out, baby—fuck me until this pregnant belly shakes, let everyone know how deeply loved I am.",
-
-"Fuck… I can feel every pulse of your cock inside me… you're marking me so deep… our child feeling exactly how desperate you’ve made their mommy. ♥",
-
-"Mmmm, I hope you never get tired of fucking me pregnant. Because I could do this—oh fuck—every day!",
-
-"Yes, yes—goddammit, I’m cumming! Fucking cumming around your cock with your baby inside me... ahhh fuck! ♥",  
-
-"Mmm, kiss me harder while you fuck me senseless… I wanna taste how much you love making me yours.",
-
-"Oh, god, your cock hits me so good… every thrust reminds me exactly why I let you breed me. ♥",
-
-"Fuck me until I can't walk, until everyone in this vault knows exactly why I broke the rules for you! ♥",
-
-"Oh, baby, cum inside me… fill me up again, remind me how perfectly your seed belongs right here.",
-
-"Ahhh, yes! I'm your slut, your lover, your pregnant fuck-toy… never stop fucking me! ♥", 
-
-"Keep going, please… breed me again and again, baby… I'll carry your babies forever if this is what I get. ♥",
-
-"Oh, god… mmm… my pussy throbs every time you touch my belly, reminding me exactly why I'm yours…",
-
-"Fuck… yes… deeper, harder… I want to feel your cum dripping down my thighs when we walk out of here… ♥",
-
-"Ahhh… I love you so damn much… fuck me, breed me, love me forever, because I’m yours… completely yours. ♥",
-
-"Fuck, you're amazing… filling me with everything you've got… please, drown me, make me overflow… ♥"]
-            }
+                  "optionText": "[Fazer sexo]",
+                  "changeSprite": "Characters/Diana/pregnant/pregnant_Diana_room",
+                  "newSpriteXPos": 0.72,
+                  "newSpriteYPos": -0.45,
+                  "icon": "GUI/heart4",
+                  "closeDialogueOptions": true,
+                  "isHEventStarted": true,
+                  "setBGcolor": "#919191",
+                  "changeSpriteColor": "#E7E7E7",
+                  "specialEffects": ["Blackout"],
+                  "endingEffects": ["Flashes"],
+                  "progressionEventPlayed": "diana_herRoom_pregnant_PlayerSex",
+                  "spriteAtTheEndOfHscene": "Characters/Diana/pregnant/post sex pregnant",
+                  "emotionsDuringHevent": [""],
+                  "spriteAtTheEndOfHscenePosition": [1.3, -2.52],
+                  "endingSpriteColor": "#D1D1D1",
+                  "lineAfterHevent": "Ahh... é melhor você não ter afogado o bebê com o tanto que bombeou aí dentro...",
+                  "reduceDesireAfterAutoLines": 10,
+                  "hEventName": "diana_herRoom_pregnant_PlayerSex",
+                  "auto_lines": [
+                    "Ahhh! Porra... seu pau parece ainda maior agora que estou inchada assim... ♥",
+                    "Mmm, caramba, nunca estive tão sensível... você me arruinou, amor. Completamente arruinada.",
+                    "Sim, bem aí—porra! Me encha mais fundo. Certifique-se de que eu sinta bem contra seu bebê. ♥",
+                    "Oh, amor, meus peitos doem tanto... por favor, aperte-os mais forte.",
+                    "Porra, porra, juro que você me transformou numa bagunça completa. Grávida, com tesão, carente—apenas sua putinha de cria perfeita, hein? ♥",
+                    "Ahhh… essa barriga—mmm—porra, só de sentir você me batendo enquanto nosso bebê chuta lá dentro… é tão errado, mas Deus, eu amo!",
+                    "Ohhh, mais forte! Me mostre o quanto você ama me engravidar, faça essa buceta doer por dias! ♥",
+                    "Sim—porra!—me faça gemer tão alto que todos lá fora saibam exatamente quem está me fodendo esta noite.",
+                    "Mmm, seu pau é incrível… cada estocada me lembrando por que quebrei todas as malditas regras só para sentir você gozar dentro de mim. ♥",
+                    "Ah, ah, não se atreva a parar! Eu preciso desse pau, amor. Grávida ou não, sou sua a qualquer hora, em qualquer lugar!",
+                    "Ohhh, deus, sim, foda a mãe do seu filho exatamente assim... Me faça saber exatamente quem é o dono desta buceta. ♥",
+                    "Mmm, quanto mais fundo você vai, mais forte o bebê chuta. Você está nos enlouquecendo—não se atreva a tirar!",
+                    "Ahhh! Já estou vazando por todo lado… peitos grávidos, buceta inchada, tudo pingando por sua causa. ♥",
+                    "Sim! Me alargue, amor—me foda até esta barriga de grávida tremer, deixe todo mundo saber o quão profundamente amada eu sou.",
+                    "Porra… consigo sentir cada pulso do seu pau dentro de mim… você está me marcando tão profundamente… nosso filho sentindo exatamente o quão desesperada você me deixou.",
+                    "Mmmm, espero que você nunca se canse de me foder grávida. Porque eu poderia fazer isso—oh porra—todos os dias!",
+                    "Sim, sim—caramba, estou gozando! Gozando pra caralho ao redor do seu pau com seu bebê dentro de mim... ahhh, porra! ♥",
+                    "Mmm, me beije com mais força enquanto me fode sem piedade… quero provar o quanto você ama me fazer sua.",
+                    "Oh, deus, seu pau me atinge tão bem… cada estocada me lembra exatamente por que deixei você me engravidar. ♥",
+                    "Me foda até eu não conseguir andar, até todos neste refúgio saberem exatamente por que quebrei as regras por você! ♥",
+                    "Oh, amor, goze dentro de mim… me encha de novo, me lembre como sua semente pertence perfeitamente aqui.",
+                    "Ahhh, sim! Sou sua vadia, sua amante, seu brinquedo sexual grávido… nunca pare de me foder! ♥",
+                    "Continue, por favor… me engravide de novo e de novo, amor… carregarei seus bebês para sempre se for isso que ganho. ♥",
+                    "Oh, deus… mmm… minha buceta pulsa toda vez que você toca minha barriga, me lembrando exatamente por que sou sua…",
+                    "Porra… sim… mais fundo, mais forte… quero sentir sua porra escorrendo pelas minhas coxas quando sairmos daqui… ♥",
+                    "Ahhh… eu te amo tanto… me foda, me engravide, me ame para sempre, porque sou sua… completamente sua. ♥",
+                    "Porra, você é incrível… me enchendo com tudo que você tem… por favor, me afogue, me faça transbordar… ♥"
+                  ]
+                }
               ]
             }
           ]
         },
         {
-          "optionText": "Damn, you’re really showing now...",
-          "responseText": "I know, right? It feels like I’ve got a whole vault pod in there. And somehow, it’s still kind of beautiful. Weird, huh?",
-          "followUpOptions":[ 
+          "optionText": "Caramba, você está realmente aparecendo agora...",
+          "responseText": "Eu sei, né? Parece que tenho um pod inteiro do refúgio aí dentro. E de alguma forma, ainda é meio bonito. Estranho, hein?",
+          "followUpOptions": [
             {
-              "optionText": "You're still the hottest thing in this vault.",
-              "responseText": "You’re sweet. Either that, or you're trying to distract me from the fact that I can’t bend over without swearing."
+              "optionText": "Você ainda é a coisa mais gostosa deste refúgio.",
+              "responseText": "Você é um doce. Ou isso, ou está tentando me distrair do fato de que não consigo me curvar sem xingar."
             },
             {
-              "optionText": "That suit is losing the fight...",
-              "responseText": "Tell me about it. Every stretch feels like it's holding on for dear life. And my tits are staging a full-blown rebellion."
+              "optionText": "Esse macacão está perdendo a luta...",
+              "responseText": "Me fale sobre isso. Cada esticada parece que está se segurando pela vida. E meus peitos estão encenando uma rebelião completa."
             }
           ]
         }
       ]
     },
     {
-      "optionText": "You need anything? Water? Back rub? Morale boost?",
+      "optionText": "Você precisa de algo? Água? Massagem nas costas? Incentivo moral?",
       "dontDisplayIfHasObjective": "Bring Diana fish.",
       "dontDisplayIfObjectiveComplete": "Bring Diana fish.",
       "icon": "GUI/quest mark",
-      "responseText": "Honestly? I want something salty. Like fish. Real fish. Not nutrient bars or whatever the vault thinks counts as protein. I want to taste it. I want it greasy, hot, and falling apart in my hands. But of course... the vault doesn't have it.",
+      "responseText": "Sinceramente? Quero algo salgado. Como peixe. Peixe de verdade. Não barras de nutrientes ou o que quer que o refúgio considere proteína. Quero sentir o gosto. Quero gorduroso, quente e se desfazendo nas minhas mãos. Mas claro... o refúgio não tem.",
       "followUpOptions": [
         {
-          "optionText": "I’ll get it for you. Even if I have to fish it out of the damn wasteland river myself.",
+          "optionText": "Eu pego para você. Mesmo que eu tenha que pescá-lo no maldito rio da wasteland.",
           "icon": "GUI/quest mark",
-          "responseText": "You’d really do that for me, honey? Go out there just to bring me a fish? ...God, I love you. I love you. Just come back to me in one piece. Please.",
+          "responseText": "Você faria isso por mim, querido? Sairia lá fora só para me trazer um peixe? ...Deus, eu te amo. Eu te amo. Apenas volte para mim inteiro. Por favor.",
           "addObjective": "Bring Diana fish.",
           "exitLine": true
         },
         {
-          "optionText": "Sorry, no fish in the vault menu. You're stuck with beans and vague meat cubes.",
-          "responseText": "Ugh. Don’t joke right now. My hormones will either make me cry or murder you. Possibly both.",
+          "optionText": "Desculpe, não há peixe no menu do refúgio. Você está presa com feijão e cubos de carne vagos.",
+          "responseText": "Ugh. Não brinque agora. Meus hormônios vão me fazer chorar ou te matar. Possivelmente ambos.",
           "exitLine": true
         }
       ]
-    }, 
+    },
     {
-        "optionText": "[Give a Gift]",
-        "emotion": "none",
-        "icon": "GUI/gift icon",
-        "neverGreyOut": true,
-        "isGifting": true
-    },    
+      "optionText": "[Dar um Presente]",
+      "emotion": "none",
+      "icon": "GUI/gift icon",
+      "neverGreyOut": true,
+      "isGifting": true
+    },
     {
-      "optionText": "Bye",
-      "responseText": "Okay. Just... don’t be gone too long. I feel safer when you’re around.",
+      "optionText": "Tchau",
+      "responseText": "Ok. Só... não demore muito. Me sinto mais segura quando você está por perto.",
       "exitLine": true
     }
   ]
-}  
+}

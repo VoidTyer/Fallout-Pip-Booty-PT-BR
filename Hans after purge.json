@@ -1,85 +1,85 @@
 {
-    "options": [
+  "options": [
+    {
+      "optionText": "Então... e agora?",
+      "icon": "GUI/quest mark",
+      "dontShowIfProgressionEventPlayed": "hansGavePassword",
+      "progressionEventPlayed": "speakingWithHansAfterPurge",
+      "responseText": "Agora? Eu deixo este monte de composto e retorno para onde a civilização ainda existe. Você se provou útil, então vou te dar um presente: acesso à Cidadela do Enclave.",
+      "followUpOptions": [
         {
-          "optionText": "So... what now?",
-          "icon": "GUI/quest mark",
-          "dontShowIfProgressionEventPlayed": "hansGavePassword",
-          "progressionEventPlayed": "speakingWithHansAfterPurge",
-          "responseText": "Now? I leave this compost heap and return to where civilization still exists. You’ve proven yourself useful, so I’ll give you a gift: access to the Enclave Citadel.",
+          "optionText": "Continue...",
+          "responseText": "**Coordenadas:** 22.91°N, 102.77°O. Antiga estação de energia sob o Lago Turquesa. **Senha:** *Legado do Éden*. Diga a um dos guardas e eles saberão que você é meu representante. Não estrague tudo.",
+          "progressionEventPlayed": "hansGavePassword",
+          "addObjective": "Entrar na Cidadela do Enclave",
+          "exitLine": true
+        }
+      ]
+    },
+    {
+      "optionText": "Hans... QUE PORRA VOCÊ FEZ?!",
+      "progressionEventPlayed": "speakingWithHansAfterPurge",
+      "responseText": "Eu fiz o que VOCÊ não pôde. O que NINGUÉM teve coragem de fazer! Os indignos se foram, o sangue deles é a tinta que escreverá o futuro do refúgio. Lindo, não é?",
+      "followUpOptions": [
+        {
+          "optionText": "Lindo? Você está parado numa poça do baço do Paul!",
+          "responseText": "Ah, Paul. Um homem sem ambição, sem propósito... e um baço perturbadoramente pequeno. Ele serviu como exemplo do que acontece com os fracos!",
           "followUpOptions": [
             {
-              "optionText": "Go on...",
-              "responseText": "**Coordinates:** 22.91°N, 102.77°W. Old world power station under Lake Turquoise. **Password:** *Eden's Legacy*. Tell it to one of the guards and they’ll know you’re my proxy. Don’t screw this up.",
-              "progressionEventPlayed": "hansGavePassword",
-              "addObjective": "Enter the Enclave Citadel",
+              "optionText": "Tenho que admitir... o Paul era um cuzão.",
+              "responseText": "Exato! Paul era um microcosmo de tudo que havia de errado neste refúgio. Sua morte foi um ato de caridade."
+            },
+            {
+              "optionText": "Não, você é um psicopata. Hora de eu dar o fora daqui.",
+              "responseText": "Corra, pequeno verme. Você só atrasará a purificação inevitável. E confie em mim, o acerto de contas está CHEGANDO!",
               "exitLine": true
-            } 
+            },
+            {
+              "optionText": "Hora de te abater como o cão raivoso que você é...",
+              "itemRequired": "Knife",
+              "nutSuckerKilled": true,
+              "killCharacter": true,
+              "responseText": "Me abater? Ah, por favor, eu sou o alfa aqui, queridi... AAAHHH!",
+              "exitLine": true
+            }
           ]
         },
         {
-            "optionText": "Hans... WHAT THE HELL DID YOU DO?!",
-            "progressionEventPlayed": "speakingWithHansAfterPurge",
-            "responseText": "I did what YOU couldn’t. What NO ONE had the guts to do! The unworthy are gone, their blood is the ink that will write the vault's future. Beautiful, isn't it?",
-            "followUpOptions": [
-                {
-                    "optionText": "Beautiful? You’re standing in a puddle of Paul's spleen!",
-                    "responseText": "Ah, Paul. A man of no ambition, no purpose... and a disturbingly small spleen. He served as an example of what happens to the weak!",
-                    "followUpOptions": [ 
-                        {
-                            "optionText": "Gotta admit... Paul was a bitch.",
-                            "responseText": "Exactly! Paul was a microcosm of everything wrong with this vault. His death was an act of charity." 
-                        },
-                        {
-                            "optionText": "Nah, you’re a psycho. Time for me to nope out of here.",
-                            "responseText": "Run, little worm. You’ll only delay the inevitable cleansing. And trust me, the reckoning is COMING!",
-                            "exitLine": true
-                        },
-                        {
-                            "optionText": "Time to put you down like the rabid dog you are...",
-                            "itemRequired": "Knife",
-                            "nutSuckerKilled": true,
-                            "killCharacter": true,
-                            "responseText": "Put ME down? Oh please, I’m the alpha here, cupca—AAAHHH!",
-                            "exitLine": true
-                        }
-                    ]
-                },
-                {
-                    "optionText": "This isn’t purification! It’s a goddamn horror movie!",
-                    "responseText": "Horror? No, no, no. This is ART. The pre-war directors WISH they had the budget for this level of carnage.",
-                    "followUpOptions": [ 
-                        {
-                            "optionText": "Whatever helps you sleep at night, psycho.",
-                            "responseText": "Oh, I sleep like a baby. The screams of the unworthy are my lullaby." 
-                        },
-                        {
-                            "optionText": "I can’t even be mad, Hans. This is so FUCKED UP it’s impressive.",
-                            "responseText": "Thank you! Finally, someone who appreciates the finer details of societal rebirth through creative destruction. Art always offends the unintelligent. But you? You get it." 
-                        }
-                    ]
-                },
-                {
-                    "optionText": "You've butchered Diana. She was one of the few decent people left!",
-                    "onlyShowIfProgressionEventPlayed": "talkedToDianaAfterPurge",
-                    "responseText": "Diana? That manipulative little semen sponge? She collected men like bottle caps and played dress-up like she wasn’t just another walking STD vector. No discipline. No legacy. No loss."
-                },
-                {
-                    "optionText": "Overseer's daughter... She was just a kid, man.",
-                    "onlyShowIfProgressionEventPlayed": "talkedToODAfterPurge",
-                    "responseText": "Indoctrinated from birth to uphold this joke of a system. Her father was a failure—she wasn't going to turn out much different. I cut the bad bloodlines like a tumor."
-                },
-                {
-                    "optionText": "You've killed Gina. She didn’t do anything to you.",
-                    "onlyShowIfProgressionEventPlayed": "talkedToGinaAfterPurge",
-                    "responseText": "Exactly. She *existed*. That was enough. She had a womb and zero worth: emotional eater, emotional breeder. Nothing but hormone soup in an apron. Not mother material—just a worthless whore."
-                }
-            ]
-        }, 
+          "optionText": "Isso não é purificação! É um filme de terror do caralho!",
+          "responseText": "Terror? Não, não, não. Isso é ARTE. Os diretores pré-guerra DESEJARIAM ter o orçamento para este nível de carnificina.",
+          "followUpOptions": [
+            {
+              "optionText": "O que quer que te ajude a dormir à noite, psicopata.",
+              "responseText": "Ah, eu durmo como um bebê. Os gritos dos indignos são minha canção de ninar."
+            },
+            {
+              "optionText": "Não consigo nem ficar bravo, Hans. Isso é tão FODIDO que é impressionante.",
+              "responseText": "Obrigado! Finalmente, alguém que aprecia os detalhes mais refinados do renascimento social através da destruição criativa. A arte sempre ofende os pouco inteligentes. Mas você? Você entende."
+            }
+          ]
+        },
         {
-            "optionText": "I’m just gonna go...",
-            "responseText": "Oh, go ahead! Run back to your little corner of mediocrity. But know this: mediocrity always dies in the end.",
-            "exitLine": true
-        } 
-    ],
-    "showShadowFigures": "HansSelectedGirls"
-} 
+          "optionText": "Você massacrou a Diana. Ela era uma das poucas pessoas decentes que restavam!",
+          "onlyShowIfProgressionEventPlayed": "talkedToDianaAfterPurge",
+          "responseText": "Diana? Aquela esponja de sêmen manipuladora? Ela colecionava homens como tampinhas de garrafa e se vestia como se não fosse apenas mais um vetor de DST ambulante. Sem disciplina. Sem legado. Nenhuma perda."
+        },
+        {
+          "optionText": "A filha do Supervisor... Ela era só uma criança, cara.",
+          "onlyShowIfProgressionEventPlayed": "talkedToODAfterPurge",
+          "responseText": "Doutrinada desde o nascimento para manter este sistema de piada. O pai dela era um fracasso — ela não seria muito diferente. Eu corto as linhagens ruins como um tumor."
+        },
+        {
+          "optionText": "Você matou a Gina. Ela não fez nada para você.",
+          "onlyShowIfProgressionEventPlayed": "talkedToGinaAfterPurge",
+          "responseText": "Exatamente. Ela *existia*. Isso foi o suficiente. Ela tinha um útero e valor zero: comedora emocional, reprodutora emocional. Nada além de uma sopa de hormônios num avental. Não era material para mãe — apenas uma puta inútil."
+        }
+      ]
+    },
+    {
+      "optionText": "Eu só vou indo...",
+      "responseText": "Ah, vá em frente! Corra de volta para o seu cantinho de mediocridade. Mas saiba de uma coisa: a mediocridade sempre morre no final.",
+      "exitLine": true
+    }
+  ],
+  "showShadowFigures": "HansSelectedGirls"
+}

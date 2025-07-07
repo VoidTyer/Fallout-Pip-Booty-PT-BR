@@ -1,52 +1,52 @@
 {
-    "options": [ 
+  "options": [
     {
-      "optionText": "What the hell..? Haha. Your ass looks like it got in a fight with the Bonk Baton. And lost.",
-      "responseText": "Ugh, don’t remind me. The Purity Police were *very* enthusiastic about reminding me of the rules... repeatedly. I might have taunted them a little too much.",
-      "followUpOptions": [ 
+      "optionText": "Que porra é essa..? Haha. Sua bunda parece que brigou com o Cassetete Bonk. E perdeu.",
+      "responseText": "Ugh, não me lembre. A Polícia da Pureza estava *muito* entusiasmada em me lembrar das regras... repetidamente. Talvez eu os tenha provocado um pouco demais.",
+      "followUpOptions": [
         {
-          "optionText": "Next thing you know, you’ll be crawling all over the walls, hissing like some kind of horny gremlin.",
-          "responseText": "Give it another ten minutes in here, and that might just happen. You might wanna stand back."
+          "optionText": "O próximo passo é você rastejar pelas paredes, sibilando como uma espécie de gremlin com tesão.",
+          "responseText": "Me dê mais dez minutos aqui, e isso pode muito bem acontecer. Talvez você queira se afastar."
         },
         {
-          "optionText": "Taunted them? What, did you literally *ask* for it? 'Hey, Purity Police, I double dare you to slap my ass!'",
-          "responseText": "Well... not in so many words, but let’s just say I bent over at *exactly* the wrong time. They took that as an invitation."
-        }, 
+          "optionText": "Provocou eles? O quê, você literalmente *pediu* por isso? 'Ei, Polícia da Pureza, eu te desafio a dar um tapa na minha bunda!'",
+          "responseText": "Bem... não com tantas palavras, mas digamos que eu me inclinei na hora *exatamente* errada. Eles levaram isso como um convite."
+        },
         {
-          "optionText": "How many times has Hugh fapped while staring at your... *situation*?",
-          "responseText": "Oh my God, I *don’t* want to think about it! But judging by the weird noises and muttering... more times than I can count.",
+          "optionText": "Quantas vezes o Hugh bateu uma olhando para sua... *situação*?",
+          "responseText": "Oh meu Deus, eu *não* quero pensar nisso! Mas a julgar pelos barulhos estranhos e murmúrios... mais vezes do que posso contar.",
           "followUpOptions": [
             {
-              "optionText": "So you’re telling me Hugh’s been going for some kind of world record while you’re stuck here?",
-              "responseText": "Impressive? More like disturbing. Every time I hear that *squish* noise, I die a little inside. He’s like a shame-powered machine!"
+              "optionText": "Então você está me dizendo que o Hugh está tentando bater algum tipo de recorde mundial enquanto você está presa aqui?",
+              "responseText": "Impressionante? Mais para perturbador. Toda vez que ouço aquele barulho de *esguicho*, eu morro um pouco por dentro. Ele é como uma máquina movida a vergonha!"
             },
             {
-              "optionText": "Hugh, how many times have you fapped her chained ass?",
-              "responseText": "Hugh Jass: Um... well, if you count today, it’s... a lot. I stopped counting after the first ten.",
+              "optionText": "Hugh, quantas vezes você bateu uma para a bunda acorrentada dela?",
+              "responseText": "Hugh Jass: Um... bem, se contar hoje, foram... muitas. Parei de contar depois das primeiras dez.",
               "followUpOptions": [
                 {
-                  "optionText": "Ten? Diana, you’re practically his full-time job at this point!",
-                  "responseText": "I’m going to be sick. If these chains weren’t holding me, I’d personally ensure he never fapped again."
+                  "optionText": "Dez? Diana, você é praticamente o trabalho de tempo integral dele a esta altura!",
+                  "responseText": "Vou passar mal. Se essas correntes não estivessem me segurando, eu pessoalmente garantiria que ele nunca mais batesse uma."
                 },
                 {
-                  "optionText": "Hugh, buddy, have you thought about... you know... taking *advantage* of the situation?",
-                  "responseText": "Hugh Jass: Uh... well, I mean... who wouldn’t? She’s right there, and, uh... it’s kinda hard not to think about it.",
+                  "optionText": "Hugh, amigo, você já pensou em... sabe... tirar *proveito* da situação?",
+                  "responseText": "Hugh Jass: Uh... bem, quero dizer... quem não pensaria? Ela está bem ali, e, uh... é meio difícil não pensar nisso.",
                   "followUpOptions": [
                     {
-                      "optionText": "Diana, looks like Hugh’s been plotting something in that sick little head of his. How does that make you feel?",
-                      "responseText": "Oh, I feel *fantastic*, thanks. Knowing that Hugh Jass, wants a piece of me? Absolutely thrilled."
+                      "optionText": "Diana, parece que o Hugh tem tramado algo naquela cabecinha doente dele. Como isso te faz sentir?",
+                      "responseText": "Oh, me sinto *fantástica*, obrigada. Saber que Hugh Jass quer um pedaço de mim? Absolutamente emocionada."
                     },
                     {
-                      "optionText": "Hugh, you’re playing a dangerous game, man. Diana might rip your head off if you even try.",
-                      "responseText": "Hugh: Yeah, well, I wouldn’t actually *do* it... I think."
+                      "optionText": "Hugh, você está jogando um jogo perigoso, cara. A Diana pode arrancar sua cabeça se você sequer tentar.",
+                      "responseText": "Hugh: Sim, bem, eu não faria de verdade... eu acho."
                     }
                   ]
                 }
               ]
             }
           ]
-        } 
+        }
       ]
-    } 
-    ]
+    }
+  ]
 }

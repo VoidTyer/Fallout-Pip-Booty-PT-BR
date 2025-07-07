@@ -1,33 +1,33 @@
 {
-    "options": [ 
+  "options": [
+    {
+      "optionText": "Isso foi... intenso.",
+      "responseText": "Mmm, oh querido, isso foi só uma prévia. Se eu realmente me soltasse, o refúgio inteiro precisaria de pisos novos.",
+      "followUpOptions": [
         {
-            "optionText": "That was... intense.",
-            "responseText": "Mmm, oh honey, that was just the preview. If I really let loose, the whole vault would need new floors.",
-            "followUpOptions": [
-                {
-                    "optionText": "Did the vault's reactor just shut down, or was that you?",
-                    "responseText": "Oh, baby, that was all me. I swear, if the Overseer felt that, he's gonna think a fucking nuke went off."
-                },
-                {
-                    "optionText": "I thought I was gonna need a life raft for a second.",
-                    "responseText": "Life raft? Honey, you’re gonna need a submarine to survive the flood I just caused ♥."
-                }
-            ]
+          "optionText": "O reator do refúgio acabou de desligar, ou foi você?",
+          "responseText": "Oh, amor, fui toda eu. Juro, se o Supervisor sentiu isso, ele vai pensar que uma porra de uma bomba nuclear explodiu."
         },
         {
-            "optionText": "I can't believe the walls didn't shake.",
-            "responseText": "Oh, sweetheart, they did. You just didn't notice over the sound of my pussy breaking the sound barrier.",
-            "followUpOptions": [ 
-                {
-                    "optionText": "Next time, maybe don’t aim for the ceiling?",
-                    "responseText": "Oh, but that’s where the fun is! ♥"
-                }
-            ]
-        }, 
-        {
-            "optionText": "Bye.",
-            "responseText": "Running off already? You sure you’re not the one who needs to cool down, sweetheart?",
-            "exitLine": true
+          "optionText": "Por um segundo, achei que ia precisar de um bote salva-vidas.",
+          "responseText": "Bote salva-vidas? Querido, você vai precisar de um submarino para sobreviver à inundação que acabei de causar ♥."
         }
-    ]
+      ]
+    },
+    {
+      "optionText": "Não acredito que as paredes não tremeram.",
+      "responseText": "Oh, docinho, elas tremeram. Você só não percebeu por causa do som da minha buceta quebrando a barreira do som.",
+      "followUpOptions": [
+        {
+          "optionText": "Da próxima vez, talvez não mire no teto?",
+          "responseText": "Oh, mas é aí que está a graça! ♥"
+        }
+      ]
+    },
+    {
+      "optionText": "Tchau.",
+      "responseText": "Já está indo embora? Tem certeza de que não é você quem precisa se acalmar, docinho?",
+      "exitLine": true
+    }
+  ]
 }

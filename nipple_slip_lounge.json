@@ -1,14 +1,14 @@
 {
-    "options": [
+  "options": [
+    {
+      "optionText": "Uh... eu consigo ver... muita coisa.",
+      "responseText": "Ah, isso? Sim, pensei em dar um ar para as meninas. Qual é o problema? Se sentindo um pouco *distraído*?",
+      "followUpOptions": [
         {
-            "optionText": "Uh... I can see... a lot.",
-            "responseText": "Oh, this? Yeah, figured I’d give the girls a little air. What’s the matter? Feeling a bit *distracted*?",
-            "followUpOptions": [ 
-                {
-                    "optionText": "You’re seriously playing with fire here.",
-                    "responseText": "I’ve been walking around this vault with half my suit unzipped for days. Nobody’s gonna do anything."
-                }
-            ]
+          "optionText": "Você está brincando com fogo aqui, sério.",
+          "responseText": "Eu ando por este refúgio com metade do meu macacão aberto há dias. Ninguém vai fazer nada."
         }
-    ]
+      ]
+    }
+  ]
 }

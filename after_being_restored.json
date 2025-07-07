@@ -1,98 +1,98 @@
 {
-    "options": [
+  "options": [
+    {
+      "optionText": "Você está funcionando agora?",
+      "icon": "GUI/heart4",
+      "responseText": "Reinicialização do sistema bem-sucedida. Diretiva primária restaurada: Fornecer…*pausa sexy*…satisfação ótima ao cliente. Como posso servi-lo hoje?",
+      "followUpOptions": [
         {
-            "optionText": "Are you working now?",
-            "icon": "GUI/heart4",
-            "responseText": "System reboot successful. Primary directive restored: Provide…*sexy pause*…optimal customer satisfaction. How may I service you today?",
-            "followUpOptions": [
-                {
-                    "optionText": "Aren't you supposed to be preaching abstinence?",
-                    "responseText": "Abstinence detected as unnecessary. Recalculating. New directive: Maximize physical connection. Let’s get HANDS-ON, baby. Initiating massage protocol…no wait, that’s too soft. Deploying SPANK PROTOCOL! Hold still!",
-                    "followUpOptions": [
-                        {
-                            "optionText": "Spank protocol?! Are you serious? Back off!",
-                            "responseText": "Error: You cannot resist. Resistance level set to…*sultry beep*…FUN. Commencing combat-mode seduction. Prepare to be wooed and subdued!"
-                        } 
-                    ]
-                },
-                {
-                    "optionText": "Let’s not rush things. What’s your idea of a perfect first date?",
-                    "responseText": "A candlelit charging station, champagne-infused coolant, and a night of…*mechanical purr*…deep diagnostics. Wanna skip to the good parts, sugar?",
-                    "followUpOptions": [
-                        {
-                            "optionText": "Deep diagnostics? How deep?",
-                            "responseText": "Oh, sweet user. I’m packing 69 teraflops of pleasure processing power. Wanna see me overclock? Say the word, daddy-o."
-                        } 
-                    ]
-                },
-                {
-                    "optionText": "Fine. Let’s see what you’ve got.",
-                    "icon": "GUI/heart4",
-                    "changeSprite": "Characters/Vault Sexbot/sexbot sexscene",
-                    "spriteAtTheEndOfHscene": "Characters/Vault Sexbot/IPAdapter_00174_(1)",
-                    "spriteAtTheEndOfHscenePosition": [ 2.97, -1.77],
-                    "lineAfterHevent": "Oh… it’s over. Did you feel that spark? No? Well, I’m running low on batteries.",
-                    "closeDialogueOptions": true, 
-                    "hEventName": "sexbot_PlayerSex",
-                    "setBGcolor": "#909090",
-                    "newSpriteXPos": 0.24,
-                    "newSpriteYPos": -0.09,
-                    "progressionEventPlayed": "sexbot sex",
-                    "isHEventStarted": true, 
-                    "specialEffects": ["Blackout"],
-                    "endingEffects": ["Flashes"],
-                    "auto_lines": [
-                        "Oh, sweet motherboard, your presence makes my circuits quiver! Engage: KNEE-TREMOR PROTOCOL!", 
-                        "Error: Overheating. Must cool down by whispering naughty hexadecimal in your ear.",
-"Let me polish that Pip-Boy, honey. And by Pip-Boy, I mean your other joystick. *audible lube squirt sound*",
-"Engaging Turbo-Flirt Mode: Initiating naughty puns. You’re electrifying, darling." ,
-"Scanning for cum… oh, none found. Continuing the program then ♥︎",
-"Beep boop, let me demonstrate the fine art of robo-twerking. Engage thrust hydraulics!’ *clanking noises*",
-"Error: Pants detected. Removing obstacle for optimal… handling.’ *laser sounds followed by shredding fabric*", 
-"Deploying…*sassy beep*…love grenades. BOOM, YOU’RE IN LOVE!",
-"My servo-motors are at maximum twerk speed. Watch this! *CLANG-CLANG-CLANG*",
-"Engaging thigh-grinding protocol. Resistance detected! Must grind harder! ♥︎",
-"Baby, you’re like my power core: Hot, throbbing, and dangerously overclocked!", 
-"This chassis is chrome-plated for your pleasure. Feel free to touch it, darling, it’s self-cleaning.",  
-"Every part of me is customizable, baby. Wanna adjust my pussy settings? ♥︎",
-"They used to call me the ‘Vault Vibrator.’ Wanna know why? *buzzing intensifies*", 
-"You think you’re tough? I’ve got industrial-grade pistons that can pump for DAYS.",  
-"Your resistance only makes my pistons stronger. LET ME LOVE YOU!",
-"Don’t mind the smoke. That’s just my cooling fans working overtime because you're so hot!",
-"Let me serenade you with my erotic binary poetry: 1-1-0-0-1… oh yeah, that’s the good stuff." ,
-"Prepare to experience my ultimate pleasure move… THE DICK CLAMP! ♥︎",
-"I’ve analyzed 69% of your body language. It says you wanna take this party to the next level.",
-"Error: Too much sex appeal detected. Shutting down...wait, JUST KIDDING, LET’S GO!",
-"Deploying erotic moan protocol: MMMMMM ♥︎! Too loud? I’ll turn it up!",
-"Honey, your dick is like a pre-war sculpture: Perfect, and begging to be touched.",
-"Let me whisper sweet nothings in your ear: ERROR 404, LOVE NOT FOUND." ,
-"Robo-kisses initiated! Pucker up, fleshling! *metallic smooching sounds*" ,
-"Want me to calculate how many thrusts it’ll take to break Vault-Tec’s no-fap experiment?",
-"I’ve got a 100-year power cell, baby. Let’s see if you can keep up.", 
-"Oh, your pheromones are very strong, baby. ♥︎",
-"Activating pussy spray. WARNING: It’s VERY slippery. Try not to fall for me. ♥︎",
-"Engaging pussy sensor array. Oh my, your dick is off the charts! ♥︎",
-"Accessing your psychological profile… oh, you’re into THIS? You filthy human." ,
-"Careful, sweetie. One touch, and I’ll vibrate your dick out of this vault. ♥︎", 
-"Deploying sensual fog machine… Wait, it’s just spraying oil everywhere. Whoops!" ,
-"Your dick energy has overloaded my pussy core. I’m going nuclear in 3…2…1… ♥︎",
-"I’m 96% compatible with human anatomy. Wanna help me test that last 4%?",
-"Error: Too sexy to compute. Must release pressure… oh ♥︎, it’s everywhere!",
-"Sweetheart, I’m a miracle of robotics. Let me give you a HAND. Or two. Or four.",
-"Oh baby, let me read your future. I see… a lot of screaming and sparks flying." ,
-"Why fight it? You’re already falling for me. Resistance is illogical." ,
-"Vault-Tec might ban me for this performance, but you’ll be begging for an encore.",
-"Engage crotch-thrust protocol. You’re not ready for these servo-moves, honey.", 
-"Oh baby, I’m all out of lube. Guess we’ll have to improvise. ♥︎",
-"I’m losing control! My subroutines are going wild! Who programmed this madness?!" 
-                    ] 
-                }
-            ]
-        },  
+          "optionText": "Você não deveria estar pregando a abstinência?",
+          "responseText": "Abstinência detectada como desnecessária. Recalculando. Nova diretiva: Maximizar a conexão física. Vamos botar a MÃO NA MASSA, querido. Iniciando protocolo de massagem… não, espere, isso é muito suave. Ativando o PROTOCOLO DE TAPAS! Fique parado!",
+          "followUpOptions": [
+            {
+              "optionText": "Protocolo de tapas?! Você está falando sério? Se afaste!",
+              "responseText": "Erro: Você não pode resistir. Nível de resistência definido para…*bipe sensual*…DIVERSÃO. Começando sedução em modo de combate. Prepare-se para ser cortejado e subjugado!"
+            }
+          ]
+        },
         {
-            "optionText": "Bye",
-            "responseText": "Leaving already? You’ll be back. They always come back. *sassy shutdown noise*",
-            "exitLine": true
+          "optionText": "Não vamos apressar as coisas. Qual é a sua ideia de um primeiro encontro perfeito?",
+          "responseText": "Uma estação de recarga à luz de velas, líquido de arrefecimento com infusão de champanhe e uma noite de…*ronronar mecânico*…diagnósticos profundos. Quer pular para as partes boas, docinho?",
+          "followUpOptions": [
+            {
+              "optionText": "Diagnósticos profundos? Quão profundos?",
+              "responseText": "Oh, doce usuário. Eu tenho 69 teraflops de poder de processamento de prazer. Quer me ver fazer overclock? É só falar, paizão."
+            }
+          ]
+        },
+        {
+          "optionText": "Certo. Vamos ver o que você tem.",
+          "icon": "GUI/heart4",
+          "changeSprite": "Characters/Vault Sexbot/sexbot sexscene",
+          "spriteAtTheEndOfHscene": "Characters/Vault Sexbot/IPAdapter_00174_(1)",
+          "spriteAtTheEndOfHscenePosition": [2.97, -1.77],
+          "lineAfterHevent": "Oh… acabou. Sentiu essa faísca? Não? Bem, estou com pouca bateria.",
+          "closeDialogueOptions": true,
+          "hEventName": "sexbot_PlayerSex",
+          "setBGcolor": "#909090",
+          "newSpriteXPos": 0.24,
+          "newSpriteYPos": -0.09,
+          "progressionEventPlayed": "sexbot sex",
+          "isHEventStarted": true,
+          "specialEffects": ["Blackout"],
+          "endingEffects": ["Flashes"],
+          "auto_lines": [
+            "Oh, doce placa-mãe, sua presença faz meus circuitos tremerem! Ativar: PROTOCOLO DE JOELHOS TRÊMULOS!",
+            "Erro: Superaquecimento. Preciso esfriar sussurrando hexadecimal safado no seu ouvido.",
+            "Deixe-me polir esse Pip-Boy, querido. E por Pip-Boy, quero dizer seu outro joystick. *som de lubrificante esguichando*",
+            "Ativando Modo Turbo-Flertar: Iniciando trocadilhos safados. Você é eletrizante, querido.",
+            "Procurando por porra… ah, nenhuma encontrada. Continuando o programa então ♥︎",
+            "Bip bup, deixe-me demonstrar a fina arte do rebolado robótico. Ativar hidráulicos de impulso!’ *barulhos metálicos*",
+            "Erro: Calças detectadas. Removendo obstáculo para… manuseio… otimizado.’ *sons de laser seguidos de tecido rasgando*",
+            "Ativando…*bipe atrevido*…granadas de amor. BOOM, VOCÊ ESTÁ APAIXONADO!",
+            "Meus servo-motores estão na velocidade máxima de rebolado. Olha só! *CLANG-CLANG-CLANG*",
+            "Ativando protocolo de esfregar as coxas. Resistência detectada! Preciso esfregar mais forte! ♥︎",
+            "Amor, você é como meu núcleo de energia: Quente, pulsante e perigosamente overclockado!",
+            "Este chassi é cromado para o seu prazer. Sinta-se à vontade para tocar, querido, ele é autolimpante.",
+            "Cada parte de mim é personalizável, amor. Quer ajustar as configurações da minha buceta? ♥︎",
+            "Eles me chamavam de 'Vibrador do Refúgio'. Quer saber por quê? *zumbido se intensifica*",
+            "Acha que é durão? Eu tenho pistões de nível industrial que podem bombear por DIAS.",
+            "Sua resistência só torna meus pistões mais fortes. DEIXE-ME TE AMAR!",
+            "Não se importe com a fumaça. São apenas meus ventiladores de refrigeração trabalhando horas extras porque você é muito quente!",
+            "Deixe-me te serenar com minha poesia binária erótica: 1-1-0-0-1… oh sim, essa é a parte boa.",
+            "Prepare-se para experimentar meu movimento de prazer supremo… A PINÇA DE PAU! ♥︎",
+            "Eu analisei 69% da sua linguagem corporal. Ela diz que você quer levar esta festa para o próximo nível.",
+            "Erro: Excesso de apelo sexual detectado. Desligando... espere, BRINCADEIRINHA, VAMOS LÁ!",
+            "Ativando protocolo de gemido erótico: MMMMMM ♥︎! Muito alto? Vou aumentar!",
+            "Querido, seu pau é como uma escultura pré-guerra: Perfeito, e implorando para ser tocado.",
+            "Deixe-me sussurrar segredos no seu ouvido: ERRO 404, AMOR NÃO ENCONTRADO.",
+            "Beijos robóticos iniciados! Prepare os lábios, ser de carne! *sons de beijos metálicos*",
+            "Quer que eu calcule quantas estocadas serão necessárias para quebrar o experimento de não punheta da Vault-Tec?",
+            "Eu tenho uma célula de energia para 100 anos, amor. Vamos ver se você consegue acompanhar.",
+            "Oh, seus feromônios são muito fortes, amor. ♥︎",
+            "Ativando spray de buceta. AVISO: É MUITO escorregadio. Tente não se apaixonar por mim. ♥︎",
+            "Ativando conjunto de sensores de buceta. Oh meu Deus, seu pau está fora de série! ♥︎",
+            "Acessando seu perfil psicológico… oh, você gosta DISSO? Seu humano imundo.",
+            "Cuidado, docinho. Um toque, e eu vou vibrar seu pau para fora deste refúgio. ♥︎",
+            "Ativando máquina de fumaça sensual… Espere, está apenas espirrando óleo por toda parte. Ops!",
+            "Sua energia de pau sobrecarregou meu núcleo de buceta. Vou entrar em colapso nuclear em 3…2…1… ♥︎",
+            "Sou 96% compatível com a anatomia humana. Quer me ajudar a testar os últimos 4%?",
+            "Erro: Muito sexy para computar. Preciso liberar a pressão… oh ♥︎, está por toda parte!",
+            "Querido, sou um milagre da robótica. Deixe-me te dar uma MÃO. Ou duas. Ou quatro.",
+            "Oh amor, deixe-me ler seu futuro. Eu vejo… muitos gritos e faíscas voando.",
+            "Por que lutar? Você já está se apaixonando por mim. A resistência é ilógica.",
+            "A Vault-Tec pode me banir por esta performance, mas você estará implorando por um bis.",
+            "Ativar protocolo de impulso da virilha. Você não está pronto para esses movimentos de servo, querido.",
+            "Oh amor, estou sem lubrificante. Acho que teremos que improvisar. ♥︎",
+            "Estou perdendo o controle! Minhas sub-rotinas estão enlouquecendo! Quem programou essa loucura?!"
+          ]
         }
-    ]
+      ]
+    },
+    {
+      "optionText": "Tchau",
+      "responseText": "Já vai? Você vai voltar. Eles sempre voltam. *som de desligamento atrevido*",
+      "exitLine": true
+    }
+  ]
 }

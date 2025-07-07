@@ -2,25 +2,23 @@
   "options": [
     {
       "optionText": "Grace…",
-      "responseText": "*She’s staring blankly at the floor. When you say her name, she flinches visibly but doesn’t look up.*",
-      "followUpOptions": [ 
+      "responseText": "*Ela está olhando fixamente para o chão. Quando você diz o nome dela, ela se encolhe visivelmente, mas não levanta o olhar.*",
+      "followUpOptions": [
         {
-          "optionText": "Say something.",
-          "responseText": "*Her lips part slightly, a shaky breath escaping her chest, but no words come out. Her entire body is trembling as she curls in on herself tighter.*"
+          "optionText": "Diga alguma coisa.",
+          "responseText": "*Seus lábios se entreabrem levemente, uma respiração trêmula escapando de seu peito, mas nenhuma palavra sai. Seu corpo inteiro está tremendo enquanto ela se encolhe ainda mais.*"
         },
         {
-          "optionText": "Don’t pretend I’m not here.",
-          "responseText": "*Her eyes squeeze shut as tears spill down her cheeks, silent sobs wracking her thin shoulders. Still, she refuses to speak or look up at you.*"
-        }, 
+          "optionText": "Não finja que não estou aqui.",
+          "responseText": "*Seus olhos se fecham com força enquanto lágrimas escorrem por suas bochechas, soluços silenciosos sacudindo seus ombros finos. Ainda assim, ela se recusa a falar ou olhar para você.*"
+        },
         {
-          "optionText": "Fine. Stay like this.",
-          "responseText": "*She doesn’t move. Doesn’t speak. Small tears drip onto her thighs.*",
+          "optionText": "Tudo bem. Fique assim.",
+          "responseText": "*Ela não se move. Não fala. Pequenas lágrimas pingam em suas coxas.*",
           "exitLine": true
         }
       ]
-    } 
+    }
   ],
-  "auto_lines": [
-    "*silent sobbing*"
-  ]
+  "auto_lines": ["*soluçando silenciosamente*"]
 }

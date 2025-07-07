@@ -1,47 +1,47 @@
 {
-    "options": [
+  "options": [
+    {
+      "optionText": "Uau, Diana. Dia cheio? Ou apenas mais uma terça-feira?",
+      "responseText": "Querido, se fosse apenas mais uma terça-feira, eu não estaria coberta de toda essa... 'apreciação'. Acho que realmente deixei uma impressão, hein?",
+      "followUpOptions": [
         {
-            "optionText": "Wow, Diana. Busy day? Or just another Tuesday?",
-            "responseText": "Honey, if it were just another Tuesday, I wouldn’t still be covered in all this... ‘appreciation’. Guess I really left an impression, huh?",
-            "followUpOptions": [
-                {
-                    "optionText": "Yeah, you’re really dripping in success...",
-                    "responseText": "Oh, I don’t mind a little mess. Think of it as proof of my... *productivity*. Some girls collect stamps. I collect control.",
-                    "followUpOptions": [
-                        {
-                            "optionText": "You’re practically a charity worker at this point.",
-                            "responseText": "Charity? Please. This is *strategic*. Keep the tension up, give them a taste, and watch them squirm. I’m basically running this vault by now."
-                        },
-                        {
-                            "optionText": "Ever consider charging a fee? You could corner the market.",
-                            "responseText": "You think anyone here could afford me? I run this place on supply and *demand*. And trust me, the demand is real high."
-                        }
-                    ]
-                },
-                {
-                    "optionText": "So, should I bring you a mop or a medal?",
-                    "responseText": "Neither. I’m more into... hands-on recognition, if you catch my drift. The vault’s tension is up, and so are they.",
-                    "followUpOptions": [
-                        {
-                            "optionText": "Hands-on? Guess those guys know that *firsthand* now.",
-                            "responseText": "Exactly. And believe me, they’ll be coming back for more. Nobody handles pressure like I do."
-                        },
-                        {
-                            "optionText": "Gonna need more than two hands at this rate.",
-                            "responseText": "Two? Honey, you underestimate me. I’ve got a vault full of needy men, and I’m handling all of them just fine."
-                        }
-                    ]
-                }
-            ]
-        },  
-        {
-            "optionText": "I’m not sure what I just walked in on, but... good job, I guess?",
-            "responseText": "You walked in on the future of this vault, honey. And you’re welcome to join the winning team. If you can keep up, that is."
+          "optionText": "Sim, você está realmente pingando de sucesso...",
+          "responseText": "Oh, não me importo com um pouco de bagunça. Pense nisso como prova da minha... *produtividade*. Algumas garotas colecionam selos. Eu coleciono controle.",
+          "followUpOptions": [
+            {
+              "optionText": "Você é praticamente uma trabalhadora de caridade a esta altura.",
+              "responseText": "Caridade? Por favor. Isso é *estratégico*. Mantenha a tensão alta, dê a eles um gostinho e observe-os se contorcer. Basicamente, estou comandando este refúgio agora."
+            },
+            {
+              "optionText": "Já considerou cobrar uma taxa? Você poderia dominar o mercado.",
+              "responseText": "Você acha que alguém aqui poderia me pagar? Eu comando este lugar com base na oferta e *demanda*. E confie em mim, a demanda está bem alta."
+            }
+          ]
         },
         {
-            "optionText": "Bye",
-            "responseText": "Leaving already? Don’t worry, they’ll be back soon enough. And when they do, I’ll be ready for another round.",
-            "exitLine": true
+          "optionText": "Então, devo te trazer um rodo ou uma medalha?",
+          "responseText": "Nenhum dos dois. Estou mais para... reconhecimento prático, se é que me entende. A tensão do refúgio está alta, e eles também.",
+          "followUpOptions": [
+            {
+              "optionText": "Prático? Acho que aqueles caras sabem disso em *primeira mão* agora.",
+              "responseText": "Exatamente. E acredite em mim, eles voltarão para mais. Ninguém lida com a pressão como eu."
+            },
+            {
+              "optionText": "Vai precisar de mais de duas mãos nesse ritmo.",
+              "responseText": "Duas? Querido, você me subestima. Tenho um refúgio cheio de homens carentes, e estou lidando com todos eles muito bem."
+            }
+          ]
         }
-    ]
+      ]
+    },
+    {
+      "optionText": "Não tenho certeza do que acabei de ver, mas... bom trabalho, eu acho?",
+      "responseText": "Você acabou de ver o futuro deste refúgio, querido. E você é bem-vindo para se juntar à equipe vencedora. Se conseguir acompanhar, é claro."
+    },
+    {
+      "optionText": "Tchau",
+      "responseText": "Já vai? Não se preocupe, eles voltarão em breve. E quando voltarem, estarei pronta para outra rodada.",
+      "exitLine": true
+    }
+  ]
 }

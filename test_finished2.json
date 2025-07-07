@@ -1,39 +1,39 @@
 {
-    "options": [
+  "options": [
+    {
+      "optionText": "Por que caralhos você acabou de tirar a roupa na minha frente?",
+      "responseText": "Relaxe, campeão. Este 'protocolo de nudez' altamente científico foi projetado para medir exatamente o quão perto você está de surtar violentamente — ou de ter um orgasmo incontrolável. De qualquer forma, dados fascinantes.",
+      "followUpOptions": [
         {
-            "optionText": "Why the fuck did you just strip in front of me?",
-            "responseText": "Relax, champ. This highly scientific 'nudity protocol' is designed to measure exactly how close you are to violently snapping—or uncontrollably climaxing. Either way, fascinating data.",
-            "followUpOptions": [
-                {
-                    "optionText": "That's the stupidest excuse for flashing someone I've ever heard.",
-                    "responseText": "Maybe stupid, sure—but you're still shaking. Clearly, my methods penetrate deeper than expected."
-                },
-                {
-                    "optionText": "So this is how you get your kicks? Breaking residents with tits?",
-                    "responseText": "Break? Oh no, darling, I’m elevating you. Sexual frustration breeds innovation—or psychosis. Either way, Vault-Tec wins."
-                },
-                {
-                    "optionText": "Admit it. This isn't science; you're just fucking with me.",
-                    "responseText": "Me? Fucking with you? Perish the thought! If I wanted that, you'd already be cuffed to the bed. No, purely professional curiosity... mostly."
-                }
-            ]
+          "optionText": "Essa é a desculpa mais estúpida para mostrar o corpo que já ouvi.",
+          "responseText": "Talvez estúpida, claro — mas você ainda está tremendo. Claramente, meus métodos penetram mais fundo do que o esperado."
         },
         {
-            "optionText": "Alright, we're done here. What are my results?",
-            "responseText": "Wonderful! You've supplied me with enough psychological dirt to fill a raider’s wet dreams. Now to the results...",
-            "vault_test_results": true,
-            "followUpOptions": [ 
-                {
-                    "optionText": "Do I at least get something for enduring this shitshow?",
-                    "responseText": "Absolutely! Your reward is my obsessive, borderline-stalker interest in your continued existence. Lucky you."
-                },
-                {
-                    "optionText": "I'm leaving. Bye.",
-                    "responseText": "Door’s always open if you need another 'therapy session.' Clothing optional.",
-                    "fadeOutCharacter": true,
-                    "exitLine": true
-                }
-            ]
-        } 
-    ]
+          "optionText": "Então é assim que você se diverte? Enlouquecendo os moradores com as tetas?",
+          "responseText": "Enlouquecer? Oh não, querido, estou te elevando. A frustração sexual gera inovação — ou psicose. De qualquer forma, a Vault-Tec vence."
+        },
+        {
+          "optionText": "Admita. Isso não é ciência; você só está fodendo comigo.",
+          "responseText": "Eu? Fodendo com você? Longe de mim! Se eu quisesse isso, você já estaria algemado na cama. Não, curiosidade puramente profissional... na maior parte."
+        }
+      ]
+    },
+    {
+      "optionText": "Certo, terminamos aqui. Quais são meus resultados?",
+      "responseText": "Maravilhoso! Você me forneceu sujeira psicológica suficiente para encher os sonhos molhados de um saqueador. Agora, aos resultados...",
+      "vault_test_results": true,
+      "followUpOptions": [
+        {
+          "optionText": "Pelo menos ganho algo por aguentar esse show de merda?",
+          "responseText": "Com certeza! Sua recompensa é meu interesse obsessivo e quase perseguidor em sua existência contínua. Sorte a sua."
+        },
+        {
+          "optionText": "Estou de saída. Tchau.",
+          "responseText": "A porta está sempre aberta se precisar de outra 'sessão de terapia'. Roupas opcionais.",
+          "fadeOutCharacter": true,
+          "exitLine": true
+        }
+      ]
+    }
+  ]
 }

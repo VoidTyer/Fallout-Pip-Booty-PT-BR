@@ -1,63 +1,62 @@
 {
-    "options": [ 
+  "options": [
+    {
+      "optionText": "Eu não queria entrar enquanto você estava... assim.",
+      "responseText": "Ah, por favor, não finja que está reclamando. Foi você quem me deu esta calcinha, lembra? Parece que você conseguiu exatamente o que queria.",
+      "followUpOptions": [
         {
-            "optionText": "I didn’t mean to walk in while you were... like this.",
-            "responseText": "Oh please, don’t act like you’re complaining. You’re the one who gave me these panties, remember? Looks like you got exactly what you wanted.",
-            "followUpOptions": [ 
+          "optionText": "Não vou mentir, você está incrível nela.",
+          "responseText": "Bem, essa era a reação que eu esperava. Talvez você tenha um gosto melhor do que eu pensava."
+        },
+        {
+          "optionText": "Essa calcinha fica ainda melhor em você do que eu imaginei.",
+          "responseText": "Oh, você me imaginou nela, hein? Agora estou curiosa sobre o que mais você imaginou. Continue, não seja tímido.",
+          "followUpOptions": [
+            {
+              "optionText": "Eu imaginei muito mais do que apenas te ver nela...",
+              "responseText": "Oh, é mesmo? Quer compartilhar essas fantasias?",
+              "followUpOptions": [
                 {
-                    "optionText": "Not gonna lie, you look amazing in them.",
-                    "responseText": "Well, that’s the reaction I was hoping for. Maybe you’ve got better taste than I thought."
+                  "optionText": "Na minha fantasia, essa calcinha sai com meus dentes.",
+                  "responseText": "Dentes? Oh, agora estamos sendo criativos. Mas sejamos realistas—você provavelmente estaria babando tanto que engasgaria antes mesmo de chegar na cintura. ♥︎"
                 },
                 {
-                    "optionText": "Those panties look even better on you than I imagined.",
-                    "responseText": "Oh, you imagined me in them, huh? Now you’re making me curious about what else you’ve imagined. Go on, don’t be shy.",
-                    "followUpOptions": [ 
-                        {
-                            "optionText": "I imagined a lot more than just seeing you in them...",
-                            "responseText": "Oh really? Care to share those fantasies?",
-                            "followUpOptions": [  
-                                {
-                                    "optionText": "In my fantasy, those panties come off with my teeth.",
-                                    "responseText": "Teeth? Oh, now we’re getting creative. But let’s be real—you’d probably be drooling so much you’d choke before you even got to the waistband. ♥︎"
-                                }, 
-                                {
-                                    "optionText": "Let’s just say I’d be using my tongue for more than just talking.",
-                                    "responseText": "Oh, you’d love that, wouldn’t you? Too bad you’d probably cum the second your tongue got near my pussy. I need more than just enthusiasm, sweetie."
-                                }, 
-                                {
-                                    "optionText": "I imagined you sitting on my face.",
-                                    "responseText": "Now we’re getting somewhere. But be careful what you wish for—because once I’m up there, you might just cum before you can even breathe.",
-                                    "followUpOptions": [
-                                        {
-                                            "optionText": "Cumming is the plan. You like it messy, right?",
-                                            "responseText": "Oh, you dirty little thing. I don’t mind a little mess, but you better hope you’ve got some stamina left afterward. ♥︎"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "optionText": "I imagined your pussy dripping on me while I cum.",
-                                    "responseText": "Oh, so you like it wet, huh? I doubt you'd last long once I got started. But nice fantasy. ♥︎",
-                                    "followUpOptions": [
-                                        {
-                                            "optionText": "Trust me, I can handle anything you give me.",
-                                            "responseText": "Oh, confident now, are we? I like that. But I’m not convinced yet—talk is cheap."
-                                        },
-                                        {
-                                            "optionText": "We both know I’d cum the second you touched me.",
-                                            "responseText": "*laughs* Oh, no question about it. But that’s the fun part, isn’t it? Watching you lose control the moment I get close. Don’t worry, I won’t hold it against you... much."
-                                        }
-                                    ]
-                                }
-                                
-                            ]
-                        },
-                        {
-                            "optionText": "Okay, I didn’t just imagine—I've been dreaming about this.",
-                            "responseText": "Dreaming, huh? Well, dreams are nice, but reality’s a lot more fun."
-                        }
-                    ]
+                  "optionText": "Digamos que eu usaria minha língua para mais do que apenas falar.",
+                  "responseText": "Oh, você adoraria isso, não é? Pena que provavelmente gozaria no segundo em que sua língua chegasse perto da minha buceta. Preciso de mais do que apenas entusiasmo, docinho."
+                },
+                {
+                  "optionText": "Eu imaginei você sentando na minha cara.",
+                  "responseText": "Agora estamos chegando a algum lugar. Mas cuidado com o que deseja—porque uma vez que eu estiver lá em cima, você pode gozar antes mesmo de conseguir respirar.",
+                  "followUpOptions": [
+                    {
+                      "optionText": "Gozar é o plano. Você gosta de bagunça, certo?",
+                      "responseText": "Oh, seu safadinho. Não me importo com um pouco de bagunça, mas é melhor você ter alguma estamina de sobra depois. ♥︎"
+                    }
+                  ]
+                },
+                {
+                  "optionText": "Eu imaginei sua buceta pingando em mim enquanto eu gozo.",
+                  "responseText": "Oh, então você gosta molhado, hein? Duvido que você durasse muito depois que eu começasse. Mas boa fantasia. ♥︎",
+                  "followUpOptions": [
+                    {
+                      "optionText": "Confie em mim, eu aguento qualquer coisa que você me der.",
+                      "responseText": "Oh, confiante agora, estamos? Eu gosto disso. Mas ainda não estou convencida—conversa é barata."
+                    },
+                    {
+                      "optionText": "Nós dois sabemos que eu gozaria no segundo em que você me tocasse.",
+                      "responseText": "*risos* Ah, sem dúvida. Mas essa é a parte divertida, não é? Ver você perder o controle no momento em que eu chego perto. Não se preocupe, não vou te culpar por isso... muito."
+                    }
+                  ]
                 }
-            ]
-        } 
-    ]
+              ]
+            },
+            {
+              "optionText": "Ok, eu não apenas imaginei—tenho sonhado com isso.",
+              "responseText": "Sonhando, hein? Bem, sonhos são bons, mas a realidade é muito mais divertida."
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

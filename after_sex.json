@@ -1,35 +1,35 @@
 {
-    "options": [  
+  "options": [
+    {
+      "optionText": "Você não estava brincando sobre ser a melhor do refúgio.",
+      "responseText": "Por favor, eu poderia fazer o próprio Supervisor implorar. Você? Você acabou de receber o tratamento VIP — já se sente especial?",
+      "followUpOptions": [
         {
-            "optionText": "You weren’t kidding about being the best in the vault.",
-            "responseText": "Please, I could make the Overseer himself beg for it. You? You just got the VIP treatment—feel special yet?",
-            "followUpOptions": [ 
-                {
-                    "optionText": "Special? You should start charging tickets for this.",
-                    "responseText": "Oh, honey, if I charged for it, this vault would be bankrupt. Guess you’re lucky I was feeling generous tonight."
-                },
-                {
-                    "optionText": "So... round two?",
-                    "responseText": "Ahh, someone’s feeling brave. But you might need a couple hours... or days... to recover first. My pussy isn’t for the faint of heart."
-                }
-            ]
+          "optionText": "Especial? Você deveria começar a cobrar ingressos para isso.",
+          "responseText": "Oh, querido, se eu cobrasse por isso, este refúgio iria à falência. Acho que você teve sorte de eu estar me sentindo generosa esta noite."
         },
         {
-            "optionText": "Is this going to be a one-time thing?",
-            "responseText": "Depends. Can you handle more of this? Or did I just ruin you for the rest of the vault? Don’t flatter yourself, I’ve got options ♥.",
-            "followUpOptions": [ 
-                {
-                    "optionText": "I’m... gonna need a lot of rest first.",
-                    "responseText": "Hah! Called it. Don’t worry, sweetie, take all the time you need to recover."
-                }
-            ]
-        },  
-        {
-            "optionText": "Bye.",
-            "responseTexts": [ 
-                "Bye now. Don’t worry, I won’t charge you for the mental images." 
-            ],
-            "exitLine": true
+          "optionText": "Então... segundo round?",
+          "responseText": "Ahh, alguém está se sentindo corajoso. Mas você pode precisar de algumas horas... ou dias... para se recuperar primeiro. Minha buceta não é para os fracos de coração."
         }
-    ]
+      ]
+    },
+    {
+      "optionText": "Isso vai ser só desta vez?",
+      "responseText": "Depende. Você aguenta mais disso? Ou eu acabei de te estragar para o resto do refúgio? Não se iluda, eu tenho opções ♥.",
+      "followUpOptions": [
+        {
+          "optionText": "Eu... vou precisar de muito descanso primeiro.",
+          "responseText": "Hah! Sabia. Não se preocupe, docinho, leve o tempo que precisar para se recuperar."
+        }
+      ]
+    },
+    {
+      "optionText": "Tchau.",
+      "responseTexts": [
+        "Tchau. Não se preocupe, não vou te cobrar pelas imagens mentais."
+      ],
+      "exitLine": true
+    }
+  ]
 }

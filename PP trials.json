@@ -1,82 +1,84 @@
 {
-    "options": [
-      {
-        "optionText": "What the fuck is this?", 
-        "responseText": "Shut up, deviant! Boner Repression Trial, now! Protocol 48—no stiffies, no leaks, or it's exile time. Drop your pants, hands behind your back, and eyes on my pussy!",
-        "followUpOptions": [
-          {
-            "optionText": "This is fucked. You're just trying to make me fail.",  
-            "responseText": "Oh, I AM trying. Look at my pussy. Wet and aching. You wouldn't love to slam your fat cock inside, huh? Ruin me right here on the floor like a degenerate.",
-            "followUpOptions": [
-              {
-                "optionText": "I’m not giving you the satisfaction.",
-                "changeSprite": "Characters/Male Purity Police/IPAdapter_01135_",
-                "newSpriteXPos": 0.71,
-                "changeSpriteColor": "#90907C",
-                "specialEffects": ["Blackout"],
-                "hEventName": "boner_repression_trials_1",
-                "responseText": "Brave words. Let’s see how brave you are when I spread it for you. You see that? My pussy's dripping. Dripping for a failure like you to slide in.",
-                "followUpOptions": [
-                  {
-                    "optionText": "Still soft. Try harder.",
-                    "responseText": "Oh I will. Watch me finger myself. Two fingers in, nice and slow. Hear that? That squelch is for you, sinner. I want you to imagine how tight it would feel wrapped around your pathetic, twitching dick.",
-                    "followUpOptions": [
+  "options": [
+    {
+      "optionText": "Que porra é essa?",
+      "responseText": "Cala a boca, seu pervertido! Teste de Repressão de Ereção, agora! Protocolo 48 — sem pau duro, sem vazamentos, ou é hora do exílio. Abaixe as calças, mãos atrás das costas e olhos na minha xoxota!",
+      "followUpOptions": [
+        {
+          "optionText": "Isso é doentio. Você só está tentando me fazer falhar.",
+          "responseText": "Oh, eu ESTOU tentando. Olhe para a minha xoxota. Molhada e dolorida. Você não adoraria enfiar sua rola gorda aqui dentro, hein? Me arruinar aqui mesmo no chão como um degenerado.",
+          "followUpOptions": [
+            {
+              "optionText": "Não vou te dar essa satisfação.",
+              "changeSprite": "Characters/Male Purity Police/IPAdapter_01135_",
+              "newSpriteXPos": 0.71,
+              "changeSpriteColor": "#90907C",
+              "specialEffects": ["Blackout"],
+              "hEventName": "boner_repression_trials_1",
+              "responseText": "Palavras corajosas. Vamos ver o quão corajoso você é quando eu abri-la para você. Viu isso? Minha xoxota está pingando. Pingando para um fracassado como você deslizar para dentro.",
+              "followUpOptions": [
+                {
+                  "optionText": "Ainda mole. Tente com mais força.",
+                  "responseText": "Oh, eu vou. Observe-me me masturbar. Dois dedos dentro, bem devagar. Ouviu isso? Esse som de esguicho é para você, pecador. Quero que você imagine como seria apertado em volta do seu pau patético e trêmulo.",
+                  "followUpOptions": [
+                    {
+                      "optionText": "Vou passar. Continue falando.",
+                      "responseText": "Você gosta do som? Imagine-me sentando na sua cara, esfregando essa xoxota vadia e molhada até seus lábios se afogarem nela. Você fica flácido enquanto eu gemo como uma puta tarada. Acha que consegue, hein?",
+                      "followUpOptions": [
                         {
-                            "optionText": "I'm gonna pass. Keep talking.",
-                            "responseText": "You like the sound of it? Imagine me sitting on your face, grinding this slutty, wet pussy until your lips drown in it. You stay flaccid while I moan like a horny slut. Think you can do that, huh?",
-                            "followUpOptions": [
+                          "optionText": "Você não vai me quebrar. Aguento qualquer sujeira que você jogue em mim.",
+                          "changeSprite": "Characters/Male Purity Police/naked1",
+                          "specialEffects": ["Blackout"],
+                          "newSpriteXPos": 4.72,
+                          "changeSpriteColor": "#A0A288",
+                          "responseText": "Então eu te darei tudo. Quero que você assista enquanto eu cavalgo este cassetete como se fosse seu pau. Ouviu o tapa? É assim que suas bolas soariam batendo na minha bunda enquanto você explode sua carga dentro de mim.",
+                          "followUpOptions": [
+                            {
+                              "optionText": "Nada. Nenhuma contração. Já acabou?",
+                              "changeSprite": "Characters/Male Purity Police/IPAdapter_01135_",
+                              "newSpriteXPos": 0.71,
+                              "changeSpriteColor": "#DEDEDE",
+                              "specialEffects": ["Blackout"],
+                              "responseText": "Acabou? Você ainda não me viu implorar. Olhe nos meus olhos enquanto eu abro minha xoxota. Por favor, me foda, por favor, quebre seu juramento e me encha como uma putinha inútil.",
+                              "followUpOptions": [
                                 {
-                                    "optionText": "You're not breaking me. I can take whatever filth you throw at me.",
-                                    "changeSprite": "Characters/Male Purity Police/naked1",
-                                    "specialEffects": ["Blackout"], 
-                                    "newSpriteXPos": 4.72,
-                                    "changeSpriteColor": "#A0A288",
-                                    "responseText": "Then I’ll give you everything. I want you to watch as I hump this baton like it’s your cock. Hear the slap? That’s what your balls would sound like hitting my ass while you blow your load inside.",
-                                    "followUpOptions": [
-                                      {
-                                        "optionText": "Nothing. Not a twitch. You done yet?",
-                                        "changeSprite": "Characters/Male Purity Police/IPAdapter_01135_",
-                                        "newSpriteXPos": 0.71,
-                                        "changeSpriteColor": "#DEDEDE",
-                                        "specialEffects": ["Blackout"],
-                                        "responseText": "Done? You haven’t seen me beg yet. Look me in the eyes while I spread my pussy. Please fuck me, please break your oath and fill me like a useless little slut.",
-                                        "followUpOptions": [
-                                          {
-                                            "optionText": "Still soft. You’re pathetic.",
-                                            "changeSprite": "Characters/Male Purity Police/naked2",
-                                            "specialEffects": ["Blackout"],
-                                            "progressionEventPlayed": "boner_repression_trials_passed",
-                                            "newSpriteXPos": 4.83,
-                                            "newSpriteYPos": 0.06,
-                                            "changeSpriteColor": "#90917D",
-                                            "responseText": "Fuck... Fine. You passed. No movement, no stain. You win, freak. Get out of here before I break protocol and let you ruin me anyway. Don’t think this is over. Next trial, I’m going full in.",
-                                            "followUpOptions": [
-                                                {
-                                                    "optionText": "I bet you’re soaked just from humiliating yourself like this.",
-                                                    "exitLine": true, 
-                                                    "fadeOutCharacter": true, 
-                                                    "responseText": "Maybe. Maybe I’m soaked. But your cock’s still a dead noodle, and that means you pass. Disgusting. But pure. Get dressed, before I do something I’ll report you for. I'm out of here."
-                                                }
-                                            ]
-                                          }
-                                        ]
-                                      } 
-                                    ]
+                                  "optionText": "Ainda mole. Você é patética.",
+                                  "changeSprite": "Characters/Male Purity Police/naked2",
+                                  "specialEffects": ["Blackout"],
+                                  "progressionEventPlayed": "boner_repression_trials_passed",
+                                  "newSpriteXPos": 4.83,
+                                  "newSpriteYPos": 0.06,
+                                  "changeSpriteColor": "#90917D",
+                                  "responseText": "Porra... Tudo bem. Você passou. Nenhum movimento, nenhuma mancha. Você vence, seu esquisito. Saia daqui antes que eu quebre o protocolo e deixe você me arruinar de qualquer maneira. Não pense que acabou. No próximo teste, vou com tudo.",
+                                  "followUpOptions": [
+                                    {
+                                      "optionText": "Aposto que você está encharcada só de se humilhar assim.",
+                                      "exitLine": true,
+                                      "fadeOutCharacter": true,
+                                      "responseText": "Talvez. Talvez eu esteja encharcada. Mas seu pau ainda está morto, e isso significa que você passa. Nojento. Mas puro. Vista-se, antes que eu faça algo pelo qual te denunciarei. Estou fora daqui."
+                                    }
+                                  ]
                                 }
-                            ]
+                              ]
+                            }
+                          ]
                         }
-                    ]
-                  } 
-                ]
-              }
-            ]
-          }, 
-          {
-            "optionText": "I want out. I'm not doing this shit.",
-            "responseText": "There is no 'out.' You refuse the trial, you’re done. Exiled. You’ll be stripped, caged, and tossed out hard—dripping, leaking, and pathetic. The wasteland will finish you off."
-          } 
-        ]
-      }
-    ],
-    "auto_lines": ["On your fucking knees, citizen. It’s Boner Repression Trials time. Eyes on my dripping pussy and hands behind your head. If that pathetic cock so much as breathes, I’m dragging you to the wasteland with a sign around your neck that says 'Breed Me, Muties.' Let’s see how pure you really are."]
-} 
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "optionText": "Quero sair. Não vou fazer essa merda.",
+          "responseText": "Não há 'saída'. Se você recusar o teste, está acabado. Exilado. Você será despido, enjaulado e jogado para fora com força — pingando, vazando e patético. Os Ermos acabarão com você."
+        }
+      ]
+    }
+  ],
+  "auto_lines": [
+    "De joelhos, cidadão. É hora dos Testes de Repressão de Ereção. Olhos na minha xoxota pingando e mãos atrás da cabeça. Se esse seu pau patético sequer respirar, vou te arrastar para os Ermos com uma placa no pescoço dizendo 'Me Fodam, Mutis'. Vamos ver o quão puro você realmente é."
+  ]
+}

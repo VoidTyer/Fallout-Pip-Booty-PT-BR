@@ -1,24 +1,26 @@
 {
-    "options": [
+  "options": [
     {
-        "optionText": "Have you seen what’s happening out there? The vault turned into a full-on orgy!",
-        "responseText": "Oh, you mean the 'Fapocalypse'? Yeah, I noticed. I had a front-row seat to the orgy at the Diner. Some guy used a pile of mashed potatoes as lube. Really brings a tear to your eye.",
-        "followUpOptions": [
-            {
-                "optionText": "I might’ve, uh… had a little something to do with that. I kinda helped the Fap Resistance Leader… y’know, distribute some, uh, fap material.",
-                "responseText": "So that’s why I found a vault-wide subscription to ‘Pre-War Buns Monthly’ under my door. I should’ve known you were involved. You’ve single-handedly turned this place from repressed nuns in a bunker to a scene out of a pre-War porno."
-            },
-            {
-                "optionText": "So… you cool with all this chaos?",
-                "responseText": "Cool with it? Please. I’ve been waiting for this day since they handed me my first vault-issued chastity pamphlet. Watching the Purity Police scramble while people are literally fapping in the hallways? That’s the kind of poetic justice I live for."
-            }
-        ]
+      "optionText": "Você viu o que está acontecendo lá fora? O refúgio virou uma orgia completa!",
+      "responseText": "Ah, você quer dizer o 'Sirirocalipse'? Sim, eu notei. Tive um lugar na primeira fila para a orgia no Restaurante. Um cara usou uma pilha de purê de batatas como lubrificante. Realmente comove.",
+      "followUpOptions": [
+        {
+          "optionText": "Eu talvez, uh… tenha tido algo a ver com isso. Eu meio que ajudei o Líder da Resistência da Masturbação… sabe, a distribuir algum, uh, material de masturbação.",
+          "responseText": "Então é por isso que encontrei uma assinatura para todo o refúgio de ‘Bumbuns Pré-Guerra Mensal’ debaixo da minha porta. Eu deveria saber que você estava envolvido. Você sozinho transformou este lugar de um convento de freiras reprimidas em uma cena de um pornô pré-guerra."
+        },
+        {
+          "optionText": "Então… você está de boa com todo esse caos?",
+          "responseText": "De boa com isso? Por favor. Eu esperei por este dia desde que me deram meu primeiro panfleto de castidade do refúgio. Ver a Polícia da Pureza se atrapalhar enquanto as pessoas estão literalmente se masturbando nos corredores? Esse é o tipo de justiça poética pela qual eu vivo."
+        }
+      ]
     },
     {
-        "optionText": "Bye.",
-        "responseText": "Good. Now go enjoy your handiwork, hero. You’ve earned it. Just be careful—you might trip over a few… well, let’s just say there’s a lot of slippery floors out there.",
-        "exitLine": true
+      "optionText": "Tchau.",
+      "responseText": "Bom. Agora vá aproveitar sua obra, herói. Você mereceu. Só tome cuidado—você pode tropeçar em alguns… bem, digamos que há muitos pisos escorregadios por aí.",
+      "exitLine": true
     }
-    ],
-    "auto_lines": ["I knew this place was hanging by a thread, but I didn’t expect the final straw to be a vault-wide sex riot. What took ‘em so long?"]
+  ],
+  "auto_lines": [
+    "Eu sabia que este lugar estava por um fio, mas não esperava que a gota d'água fosse uma rebelião sexual em todo o refúgio. Por que demoraram tanto?"
+  ]
 }

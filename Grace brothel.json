@@ -1,106 +1,106 @@
 {
-    "options": [
+  "options": [
+    {
+      "optionText": "Certo, Grace. Parece que você vem comigo. Pronta para ir?",
+      "dontDisplayIfHasObjective": "Talk to Tina",
+      "dontDisplayIfObjectiveComplete": "Talk to Grace",
+      "icon": "GUI/quest mark",
+      "responseText": "Espere, você está... você está me levando? Tipo, realmente me resgatando? Isso é uma piada ou... você está falando sério?",
+      "followUpOptions": [
         {
-            "optionText": "Alright, Grace. Looks like you’re coming with me. Ready to go?",
-            "dontDisplayIfHasObjective": "Talk to Tina",
-            "dontDisplayIfObjectiveComplete": "Talk to Grace",
-            "icon": "GUI/quest mark",
-            "responseText": "Wait, you’re... you’re taking me? Like, actually rescuing me? Is this a joke or... are you serious?",
-            "followUpOptions": [
-                {
-                    "optionText": "Dead serious. Pack up your... well, you don’t have anything. Let’s just go.",
-                    "markObjectiveComplete": "Talk to Grace",
-                    "exitLine": true,
-                    "icon": "GUI/quest mark",
-                    "addFollower": "Grace",
-                    "addObjective": "Bring Grace to her father.",
-                    "progressionEventPlayed": "grace_rescued",
-                    "responseText": "Wow, way to rub it in. But okay, yeah, I’m ready. I think. Do you... have a coat or something? It’s a little breezy in this, uh, situation."
-                },
-                {
-                    "optionText": "Not a joke, Grace. You’ve been through enough. Time to get you out of here.",
-                    "markObjectiveComplete": "Talk to Grace",
-                    "exitLine": true,
-                    "icon": "GUI/quest mark",
-                    "addObjective": "Bring Grace to her father.",
-                    "addFollower": "Grace",
-                    "progressionEventPlayed": "grace_rescued",
-                    "responseText": "Thank you... I didn’t think anyone would actually come for me. I don’t even know what to say."
-                },
-                {
-                    "optionText": "Serious as a deathclaw in heat. Let’s move before Tina changes her mind.",
-                    "markObjectiveComplete": "Talk to Grace",
-                    "exitLine": true,
-                    "icon": "GUI/quest mark",
-                    "addObjective": "Bring Grace to her father.",
-                    "addFollower": "Grace",
-                    "progressionEventPlayed": "grace_rescued",
-                    "responseText": "Ew, thanks for that mental image. But yeah, good idea. Let’s not stick around for round two."
-                }
-            ]
+          "optionText": "Seríssimo. Arrume suas... bem, você não tem nada. Vamos apenas ir.",
+          "markObjectiveComplete": "Talk to Grace",
+          "exitLine": true,
+          "icon": "GUI/quest mark",
+          "addFollower": "Grace",
+          "addObjective": "Bring Grace to her father.",
+          "progressionEventPlayed": "grace_rescued",
+          "responseText": "Uau, bela maneira de esfregar na cara. Mas ok, sim, estou pronta. Acho. Você... tem um casaco ou algo assim? Está um pouco ventoso nesta, uh, situação."
         },
         {
-            "optionText": "So, what’s the story with your dad? Tina made him sound like a big deal.",
-            "dontDisplayIfHasObjective": "Talk to Tina",
-            "responseText": "My dad? Oh, um... yeah, he’s kind of a big deal. He runs Cumorah Crest—what’s left of it, anyway. He’s always been about power and bottle caps.",
-            "followUpOptions": [
-                {
-                    "optionText": "Sounds like he’ll pay a lot to get you back.",
-                    "responseText": "He will. But, uh, just a heads-up—he’s not exactly the warm and fuzzy type. Don’t expect hugs and thank-you speeches."
-                },
-                {
-                    "optionText": "Is he really gonna care? Tina made it sound like he might just be relieved you’re gone.",
-                    "responseText": "Wow, harsh. But no, he’ll care. I mean, I think he will? I’m still technically his daughter, even if I’m not his favorite... or his second favorite... or... let’s just go."
-                },
-                {
-                    "optionText": "Do you even know how to survive out there?",
-                    "responseText": "Um... no? I mean, I’ve read books. Does that count? I know not to drink out of glowing puddles, and I can sort of cook...",
-                    "followUpOptions": [
-                        {
-                            "optionText": "Books, huh? Yeah, those will totally keep you alive. Stick close, rookie.",
-                            "responseText": "Rookie? Okay, rude. But yeah, sticking close sounds like a solid plan right now."
-                        },
-                        {
-                            "optionText": "We’ll work on that. First lesson: don’t trust raiders.",
-                            "responseText": "Lesson learned. Big time. Can we move on to 'how not to freeze to death in raider underwear' next?"
-                        }
-                    ]
-                }
-            ]
+          "optionText": "Não é piada, Grace. Você já passou por o suficiente. Hora de te tirar daqui.",
+          "markObjectiveComplete": "Talk to Grace",
+          "exitLine": true,
+          "icon": "GUI/quest mark",
+          "addObjective": "Bring Grace to her father.",
+          "addFollower": "Grace",
+          "progressionEventPlayed": "grace_rescued",
+          "responseText": "Obrigada... não pensei que alguém realmente viria por mim. Nem sei o que dizer."
         },
         {
-            "optionText": "Tina said you’re... well, a virgin. That true?",
-            "dontDisplayIfHasObjective": "Talk to Tina",
-            "responseText": "What?! Oh my God, she told you that? Why—why would she even say that?! That’s so weird!",
-            "followUpOptions": [
-                {
-                    "optionText": "She thought it made you valuable. I’m guessing she’s not wrong.",
-                    "responseText": "Great. So I’m just a walking unopened box in Raiderland now? Cool. Love that for me."
-                },
-                {
-                    "optionText": "Relax. I don’t care. Just making sure she wasn’t exaggerating.",
-                    "responseText": "Oh, well, uh, yeah... no exaggeration. I didn’t exactly have a lot of... opportunities at the Crest."
-                } 
-            ]
-        },  
-        {
-            "optionText": "What’s your name? You got a story?",
-            "responseText": "Oh, um, it’s Grace. Grace Wells. I used to live somewhere called Cumorah Crest. It was... different from all this. Then they came. The raiders. And now, I guess, here I am.",
-            "followUpOptions": [
-                {
-                    "optionText": "Cumorah Crest? Sounds fancy.",
-                    "responseText": "It was. Too fancy, maybe. My dad thought walls and caps could protect us. Turns out, he was wrong."
-                },
-                {
-                    "optionText": "Sorry you had to go through that. The wasteland’s brutal.",
-                    "responseText": "Thanks. I don’t think I’ve really processed it yet. Everything’s just... gone."
-                }
-            ]
-        }, 
-        {
-            "optionText": "Bye.",
-            "responseText": "Wait—you’re just leaving me here?",
-            "exitLine": true
+          "optionText": "Sério como um deathclaw no cio. Vamos antes que a Tina mude de ideia.",
+          "markObjectiveComplete": "Talk to Grace",
+          "exitLine": true,
+          "icon": "GUI/quest mark",
+          "addObjective": "Bring Grace to her father.",
+          "addFollower": "Grace",
+          "progressionEventPlayed": "grace_rescued",
+          "responseText": "Ew, obrigada por essa imagem mental. Mas sim, boa ideia. Não vamos ficar para o segundo round."
         }
-    ]
-} 
+      ]
+    },
+    {
+      "optionText": "Então, qual é a história com seu pai? A Tina o fez parecer um figurão.",
+      "dontDisplayIfHasObjective": "Talk to Tina",
+      "responseText": "Meu pai? Ah, um... sim, ele é meio que um figurão. Ele comanda Cumorah Crest—o que sobrou dela, de qualquer forma. Ele sempre foi sobre poder e tampinhas de garrafa.",
+      "followUpOptions": [
+        {
+          "optionText": "Parece que ele vai pagar muito para te ter de volta.",
+          "responseText": "Vai sim. Mas, uh, só um aviso—ele não é exatamente do tipo caloroso e fofo. Não espere abraços e discursos de agradecimento."
+        },
+        {
+          "optionText": "Ele realmente vai se importar? A Tina fez parecer que ele talvez fique aliviado por você ter sumido.",
+          "responseText": "Uau, pesado. Mas não, ele vai se importar. Quero dizer, acho que vai? Eu ainda sou tecnicamente a filha dele, mesmo que não seja a favorita dele... ou a segunda favorita... ou... vamos apenas ir."
+        },
+        {
+          "optionText": "Você sequer sabe como sobreviver lá fora?",
+          "responseText": "Hum... não? Quero dizer, eu li livros. Isso conta? Sei que não se deve beber de poças brilhantes, e sei cozinhar mais ou menos...",
+          "followUpOptions": [
+            {
+              "optionText": "Livros, hein? Sim, isso vai te manter viva. Fique perto, novata.",
+              "responseText": "Novata? Ok, grosseiro. Mas sim, ficar perto parece um plano sólido agora."
+            },
+            {
+              "optionText": "Vamos trabalhar nisso. Primeira lição: não confie em saqueadores.",
+              "responseText": "Lição aprendida. E como. Podemos passar para 'como não morrer de frio em roupa íntima de saqueador' a seguir?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "optionText": "A Tina disse que você é... bem, virgem. É verdade?",
+      "dontDisplayIfHasObjective": "Talk to Tina",
+      "responseText": "O quê?! Oh meu Deus, ela te contou isso? Por que—por que ela diria isso?! Isso é tão estranho!",
+      "followUpOptions": [
+        {
+          "optionText": "Ela achou que isso te tornava valiosa. E acho que ela não está errada.",
+          "responseText": "Ótimo. Então agora sou apenas uma caixa fechada ambulante em Raiderland? Legal. Adoro isso para mim."
+        },
+        {
+          "optionText": "Relaxe. Não me importo. Só queria ter certeza de que ela não estava exagerando.",
+          "responseText": "Ah, bem, uh, sim... sem exagero. Eu não tive exatamente muitas... oportunidades no Crest."
+        }
+      ]
+    },
+    {
+      "optionText": "Qual é o seu nome? Você tem uma história?",
+      "responseText": "Oh, um, é Grace. Grace Wells. Eu morava em um lugar chamado Cumorah Crest. Era... diferente de tudo isso. Então eles vieram. Os saqueadores. E agora, eu acho, aqui estou eu.",
+      "followUpOptions": [
+        {
+          "optionText": "Cumorah Crest? Parece chique.",
+          "responseText": "Era. Chique demais, talvez. Meu pai achou que muros e tampinhas de garrafa poderiam nos proteger. Acontece que ele estava errado."
+        },
+        {
+          "optionText": "Sinto muito que tenha passado por isso. A wasteland é brutal.",
+          "responseText": "Obrigada. Acho que ainda não processei tudo. Tudo simplesmente... se foi."
+        }
+      ]
+    },
+    {
+      "optionText": "Tchau.",
+      "responseText": "Espere—você vai simplesmente me deixar aqui?",
+      "exitLine": true
+    }
+  ]
+}

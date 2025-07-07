@@ -1,24 +1,24 @@
 {
-  "options": [ 
+  "options": [
     {
-    "optionText": "You ever gonna look at bears the same way again?",
-    "onlyShowIfProgressionEventPlayed": "rescuedBearFuckedWastelander",
-    "exitLine": true,
-    "fadeOutCharacter": true,
-    "responseText": "Look, man… I used to collect teddy bears when I was a kid. Had a whole shelf of the damn things. Now? Every time I see one, I clench instinctively. Childhood's over, okay?"
+      "optionText": "Você vai conseguir olhar para ursos da mesma forma de novo?",
+      "onlyShowIfProgressionEventPlayed": "rescuedBearFuckedWastelander",
+      "exitLine": true,
+      "fadeOutCharacter": true,
+      "responseText": "Olha, cara… eu costumava colecionar ursinhos de pelúcia quando era criança. Tinha uma prateleira inteira daquelas porras. Agora? Toda vez que vejo um, eu me contraio instintivamente. A infância acabou, ok?"
     },
     {
-      "optionText": "Holy shit... What the fuck?!",
+      "optionText": "Puta merda... Que porra é essa?!",
       "dontShowIfProgressionEventPlayed": "rescuedBearFuckedWastelander",
-      "responseText": "ARGH! THIS FUCKING YAO GUAI IS TURNING MY ASS INTO ITS PERSONAL CAVE! SHOOT IT! GET IT OUT OF ME!!",
-      "followUpOptions": [ 
+      "responseText": "ARGH! ESTE YAO GUAI DO CARALHO ESTÁ TRANSFORMANDO MEU CU NA SUA CAVERNA PESSOAL! ATIRE NELE! TIRE ELE DE MIM!!",
+      "followUpOptions": [
         {
-          "optionText": "How's it feel getting fucked by a yao guai?",
-          "responseText": "HA HA. HILARIOUS. MY ASS IS BEING STRETCHED TO NEW VEGAS AND BACK. STOP ASKING STUPID QUESTIONS AND SHOOT THIS HORNY BASTARD!"
-        }, 
+          "optionText": "Como é ser fodido por um Yao Guai?",
+          "responseText": "HA HA. HILÁRIO. MEU CU ESTÁ SENDO ALARGADO ATÉ NEW VEGAS E DE VOLTA. PARE DE FAZER PERGUNTAS ESTÚPIDAS E ATIRE NESSE DESGRAÇADO TARADO!"
+        },
         {
-          "optionText": "[Shoot the yao guai]",
-          "responseText": "OH FUCK, THANK YOU. THANK YOU. Ugh… oh god… I can feel its cum leaking out… fuck my life. Just… just don’t tell anyone you saw this.",
+          "optionText": "[Atirar no Yao Guai]",
+          "responseText": "OH MERDA, OBRIGADO. OBRIGADO. Ugh… oh Deus… consigo sentir a porra dele vazando… foda-se a minha vida. Só… não conte a ninguém que você viu isso.",
           "progressionEventPlayed": "rescuedBearFuckedWastelander",
           "changeSprite": "Characters/Other characters/rape victim",
           "newSpriteXPos": -6.46,
@@ -27,36 +27,36 @@
           "specialEffects": ["Punch"],
           "followUpOptions": [
             {
-              "optionText": "You gonna be okay?",
-              "responseText": "Okay? My guts are scrambled eggs right now. Take these caps before I start crying.",
+              "optionText": "Você vai ficar bem?",
+              "responseText": "Bem? Minhas entranhas estão como ovos mexidos agora. Pegue essas tampinhas antes que eu comece a chorar.",
               "followUpOptions": [
                 {
-                  "optionText": "Thanks. Try not to get raped by wildlife again.",
-                  "responseText": "Yeah, thanks for the life advice. Now if you’ll excuse me, I’m gonna get some beer.",
+                  "optionText": "Obrigado. Tente não ser estuprado pela vida selvagem de novo.",
+                  "responseText": "Sim, obrigado pelo conselho de vida. Agora, se me dá licença, vou pegar uma cerveja.",
                   "addCaps": 40,
                   "fadeOutCharacter": true,
-                  "exitLine": true 
+                  "exitLine": true
                 },
                 {
-                  "optionText": "Keep your caps. Buy yourself a new pair of underwear.",
-                  "responseText": "...Seriously? Damn… you’re a better person than I thought. Or just grossed out. Either way, thanks.",
+                  "optionText": "Fique com suas tampinhas. Compre uma cueca nova.",
+                  "responseText": "...Sério? Caramba… você é uma pessoa melhor do que eu pensava. Ou só está com nojo. De qualquer forma, obrigado.",
                   "exitLine": true,
-                  "fadeOutCharacter": true 
-                } 
+                  "fadeOutCharacter": true
+                }
               ]
             }
           ]
-        }, 
+        },
         {
-          "optionText": "I could just leave you here, you know.",
-          "responseText": "PLEASE DON'T! I DON'T WANT TO DIE WITH A BEAR DICK IN MY COLON! PLEASE, I'LL DO ANYTHING. JUST HELP ME!"
+          "optionText": "Eu poderia simplesmente te deixar aqui, sabe.",
+          "responseText": "POR FAVOR, NÃO! NÃO QUERO MORRER COM UM PAU DE URSO NO MEU CÓLON! POR FAVOR, EU FAÇO QUALQUER COISA. SÓ ME AJUDE!"
         }
       ]
-    } 
+    }
   ],
   "auto_lines": [
-    "AHHHH FUCK, IT'S INSIDE ME! GOD HELP ME! I DIDN’T SIGN UP FOR THIS FUCKING FURRY BULLSHIT!", 
-    "OH GOD, IT'S CUMMING. PLEASE, SOMEONE PUT A BULLET IN ME OR IT!",
-    "AHHHH—IT'S SO BIG, IT'S REARRANGING MY ORGANS! HELP! HELP!!!"
+    "AHHHH MERDA, ESTÁ DENTRO DE MIM! DEUS ME AJUDE! EU NÃO ME INSCREVI PARA ESSA PORRA DE PUTARIA FURRY!",
+    "OH DEUS, ESTÁ GOZANDO. POR FAVOR, ALGUÉM ME DÊ UM TIRO OU NELE!",
+    "AHHHH—É TÃO GRANDE, ESTÁ REARRANJANDO MEUS ÓRGÃOS! AJUDA! AJUDA!!!"
   ]
-} 
+}

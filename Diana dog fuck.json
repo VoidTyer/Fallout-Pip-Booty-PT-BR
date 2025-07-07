@@ -1,44 +1,55 @@
 {
-    "options": [ 
+  "options": [
     {
-        "optionText": "[Report her to the Purity Police]",
-        "responseTexts": ["Go ahead, snitch. Just make sure to tell them how long you stood there watching before you decided to tattle. I’ll be sure to mention how you couldn’t keep your eyes off me.", "What the f--?! You little snitch! Go ahead, report me, but don’t act like you weren’t thinking of joining in. Just remember: snitches get... nothing. And I do mean nothing."],
-        "exitLine": true, 
-        "fadeOutCharacter": true,
-        "specialEffects": ["removeBlur", "removeVignette"],
-        "reported": 5
+      "optionText": "[Denunciá-la para a Polícia da Pureza]",
+      "responseTexts": [
+        "Vá em frente, dedo-duro. Só não se esqueça de dizer a eles quanto tempo você ficou aí assistindo antes de decidir dedurar. Com certeza mencionarei como você não conseguia tirar os olhos de mim.",
+        "Que p--?! Seu dedo-duro! Vá em frente, me denuncie, mas não finja que não estava pensando em participar. Só lembre-se: dedos-duros não ganham... nada. E quero dizer nada mesmo."
+      ],
+      "exitLine": true,
+      "fadeOutCharacter": true,
+      "specialEffects": ["removeBlur", "removeVignette"],
+      "reported": 5
     },
     {
-        "optionText": "[Watch secretly]",
-        "closeDialogueOptions": true,
-        "isHEventStarted": true,
-        "icon": "GUI/eye icon",
-        "hEventName": "diana_dog_fuck",
-        "spriteAtTheEndOfHscene": "Characters/Diana/in cum/IPAdapter_00842_(1)",
-        "spriteAtTheEndOfHscenePosition": [ 2.76, -1.07 ],
-        "specialEffects": ["removeBlur", "removeVignette"],
-        "lineAfterHevent": "Ahh... it was amazing... good boy ♥︎", 
-        "emotionsDuringHevent": ["none", "Characters/Diana/Emotions/fucked by dog/fucked by dog", "Characters/Diana/Emotions/fucked by dog/fucked by dog(1)", "Characters/Diana/Emotions/fucked by dog/fucked by dog(2)", "Characters/Diana/Emotions/fucked by dog/fucked by dog(3)", "Characters/Diana/Emotions/fucked by dog/fucked by dog(4)"],
-        "endingEffects": ["Flashes"],
-        "auto_lines": ["Mmm, don’t stop~ ah, good boy...  ♥",  
-            "Mmm, ahh, keep it up, good boy~",
-            "Mmm, your beast cock got me feeling so alive... ahh, more, I need more~",
-            "Hmmm, it's really getting me going... ugh, don’t stop now~ ♥",
-            "Ohh, I can't believe I'm doing it with a dog... ah, this is driving me crazy... ahh, just a little more... hmmm~",
-            "Mmm, it's making me feel things I have never felt... ahh, yes~",
-            "Ahh... keep those hips working, boy~ ♥",
-            "Ohh, mmm, make me feel it~",
-            "Mmm, yes, that’s it... ahh, don’t even think about stopping~",
-            "Mmm, your cock is perfect... keep fucking me just like that.",
-            "Ahh, it's hitting all the right spots... hmmm, keep it up~ ♥",
-            "Ohh, yes, I’m loving every second of this... mmm, more, more~",
-            "Mmm, it's getting me so hot... ahh, don’t you dare stop~",
-            "Ahh, mmm, make me feel every inch~ ♥",
-            "Mmm, I want to feel your cum inside me... fill me up!",
-            "Mmm, I’m cumming, I’m cumming... oh, fuck, YES!"] 
-        
+      "optionText": "[Assistir secretamente]",
+      "closeDialogueOptions": true,
+      "isHEventStarted": true,
+      "icon": "GUI/eye icon",
+      "hEventName": "diana_dog_fuck",
+      "spriteAtTheEndOfHscene": "Characters/Diana/in cum/IPAdapter_00842_(1)",
+      "spriteAtTheEndOfHscenePosition": [2.76, -1.07],
+      "specialEffects": ["removeBlur", "removeVignette"],
+      "lineAfterHevent": "Ahh... foi incrível... bom garoto ♥︎",
+      "emotionsDuringHevent": [
+        "none",
+        "Characters/Diana/Emotions/fucked by dog/fucked by dog",
+        "Characters/Diana/Emotions/fucked by dog/fucked by dog(1)",
+        "Characters/Diana/Emotions/fucked by dog/fucked by dog(2)",
+        "Characters/Diana/Emotions/fucked by dog/fucked by dog(3)",
+        "Characters/Diana/Emotions/fucked by dog/fucked by dog(4)"
+      ],
+      "endingEffects": ["Flashes"],
+      "auto_lines": [
+        "Mmm, não pare~ ah, bom garoto...  ♥",
+        "Mmm, ahh, continue assim, bom garoto~",
+        "Mmm, seu pau de animal me fez sentir tão viva... ahh, mais, preciso de mais~",
+        "Hmmm, isso está realmente me excitando... ugh, não pare agora~ ♥",
+        "Ohh, não acredito que estou fazendo isso com um cachorro... ah, isso está me enlouquecendo... ahh, só mais um pouco... hmmm~",
+        "Mmm, está me fazendo sentir coisas que nunca senti... ahh, sim~",
+        "Ahh... continue mexendo esses quadris, garoto~ ♥",
+        "Ohh, mmm, me faça sentir~",
+        "Mmm, sim, é isso... ahh, nem pense em parar~",
+        "Mmm, seu pau é perfeito... continue me fodendo assim.",
+        "Ahh, está atingindo todos os pontos certos... hmmm, continue assim~ ♥",
+        "Ohh, sim, estou amando cada segundo disso... mmm, mais, mais~",
+        "Mmm, está me deixando tão quente... ahh, não se atreva a parar~",
+        "Ahh, mmm, me faça sentir cada centímetro~ ♥",
+        "Mmm, quero sentir sua porra dentro de mim... me encha!",
+        "Mmm, estou gozando, estou gozando... oh, porra, SIM!"
+      ]
     }
-    ],
-    "auto_lines": ["Mmm, ahh, keep it up, good boy~", "Ahh~ ♥"],
-    "hEventStarted": "fucked_by_dog"
+  ],
+  "auto_lines": ["Mmm, ahh, continue assim, bom garoto~", "Ahh~ ♥"],
+  "hEventStarted": "fucked_by_dog"
 }

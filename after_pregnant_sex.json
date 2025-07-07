@@ -1,30 +1,30 @@
 {
   "options": [
     {
-      "optionText": "Feeling good after that, babe?",
-      "responseText": "Fuck, my pussy is still throbbing. Can't believe you filled me up *again*. You're determined to keep me permanently pregnant, aren't you?",
+      "optionText": "Se sentindo bem depois disso, gata?",
+      "responseText": "Porra, minha buceta ainda está pulsando. Não acredito que você me encheu *de novo*. Você está determinado a me manter grávida para sempre, não está?",
       "followUpOptions": [
         {
-          "optionText": "You're incredibly hot pregnant. Can't help myself.",
-          "responseText": "You asshole, you know exactly what that does to me. My hormones are screaming for your dick again already."
+          "optionText": "Você fica incrivelmente gostosa grávida. Não consigo me controlar.",
+          "responseText": "Seu desgraçado, você sabe exatamente o que isso faz comigo. Meus hormônios já estão gritando pelo seu pau de novo."
         },
         {
-          "optionText": "Think the baby noticed?",
-          "responseText": "If the kid didn't notice, they're probably swimming in your cum right now. I swear you're gonna drown the poor thing with how much you're pumping into me."
+          "optionText": "Acha que o bebê percebeu?",
+          "responseText": "Se o bebê não percebeu, provavelmente está nadando na sua porra agora. Juro que você vai afogar o coitadinho com o tanto que está bombeando para dentro de mim."
         },
         {
-          "optionText": "Ready for another round already?",
-          "responseText": "Fuck, give me a minute at least. My pussy is sore enough to glow in the dark. But knowing you, you'll have me moaning again in no time."
+          "optionText": "Pronta para outro round já?",
+          "responseText": "Porra, me dá um minuto pelo menos. Minha buceta está dolorida o suficiente para brilhar no escuro. Mas, conhecendo você, você vai me fazer gemer de novo em pouco tempo."
         },
         {
-          "optionText": "You really okay with how intense this is getting?",
-          "responseText": "Honestly? Yes. Being knocked up by you might be the best damn thing that's ever happened to me. As fucked up as it sounds, I love feeling your cum dripping out of me. Makes me feel… owned."
+          "optionText": "Você está realmente bem com o quão intenso isso está ficando?",
+          "responseText": "Sinceramente? Sim. Ficar grávida de você pode ser a melhor coisa que já me aconteceu. Por mais fodido que pareça, eu amo sentir sua porra escorrendo de mim. Me faz sentir… sua posse."
         }
       ]
     },
     {
-      "optionText": "Bye.",
-      "responseText": "Hurry back, okay? My pregnant pussy might get lonely without your dick keeping it company.",
+      "optionText": "Tchau.",
+      "responseText": "Volta logo, tá? Minha buceta grávida pode ficar solitária sem o seu pau fazendo companhia.",
       "exitLine": true
     }
   ]

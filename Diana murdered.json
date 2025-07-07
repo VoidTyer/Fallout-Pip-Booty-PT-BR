@@ -1,50 +1,51 @@
 {
-    "options": [
+  "options": [
+    {
+      "optionText": "Diana... QUE PORRA ACONTECEU?!",
+      "progressionEventPlayed": "talkedToDianaAfterPurge",
+      "responseText": "*Diana engasga, cuspindo sangue no chão* Hans... aquele... absoluto... psicopata incel... *tosse violentamente* achou que podia... purgar este lugar...",
+      "followUpOptions": [
         {
-            "optionText": "Diana... WHAT THE HELL HAPPENED?!",
-            "progressionEventPlayed": "talkedToDianaAfterPurge",
-            "responseText": "*Diana gurgles, spitting blood onto the floor* Hans... that... absolute... incel psycho... *coughs violently* thought he could... purge this place...",
-            "followUpOptions": [ 
+          "optionText": "Aquele bastardo... eu deveria ter atirado nele.",
+          "responseText": "...sim... talvez da próxima vez... não entregue uma arma... para o enclave... jogada brilhante, gênio... *sangue escorre pelo queixo dela* ...por favor, prometa-me... *engole sangue* que você vai cuidar... do Sir Bigodes...",
+          "followUpOptions": [
+            {
+              "optionText": "Sir Bigodes? Diana, do que você está falando?",
+              "responseText": "Meu gato... seu idiota... *ofega*... alimente-o... diga a ele... que eu o amava... mais do que... qualquer um de vocês, perdedores..."
+            },
+            {
+              "optionText": "Sinto muito, Diana. Não pensei que ele faria isso...",
+              "responseText": "...você não... *tosse* pensou em nada... não é? ele tem... Mein Kampf... *ofega* mas ei... bom trabalho...",
+              "followUpOptions": [
                 {
-                    "optionText": "That bastard... I should've shot him myself.",
-                    "responseText": "...yeah... maybe next time... don’t hand enclave... a gun... brilliant move, genius... *blood dribbles down her chin* ...please promise me... *gulps blood* you'll take care of... Sir Whiskers...",
-                    "followUpOptions": [
-                        {
-                            "optionText": "Sir Whiskers? Diana, what are you talking about?",
-                            "responseText": "My cat... you idiot... *wheezes*... feed him... tell him... I loved him... more than... any of you losers..."
-                        }, 
-                        {
-                            "optionText": "I’m sorry, Diana. I didn’t think he’d do this...",
-                            "responseText": "...you didn’t... *coughs* think at all... did you? he has... Mein Kampf... *wheezes* but hey... good job...",
-                            "followUpOptions": [
-                                {
-                                    "optionText": "I’ll make him pay. I swear.",
-                                    "responseText": "...good... because he’s... *gulps blood* an absolute... nutjob... make sure it hurts..."                                
-                                },
-                                {
-                                    "optionText": "You deserve this.",
-                                    "responseText": "*Diana’s eyes flicker with anger, her voice rasping despite the blood pooling in her throat* ...you’re just like... him... *coughs violently* ...twisted little... incel freak... *gulps blood* ...bet you think... this makes you... powerful... pathetic..."
-                                }
-                                
-                            ]
-                        }
-                    ]
-                } 
-            ]
-        },
-        {
-            "optionText": "[Finish her]", 
-            "killCharacter": true,
-            "progressionEventPlayed": "finishedDiana",
-            "exitLine": true,
-            "specialEffects": ["stab"],
-            "responseText": "*Diana’s eyes narrow, blood bubbling from her lips* ...wait—are you fucking serious? *laughs, then chokes* hope your next blowjob from Hans comes with bullets... *smile fades*"
-        }, 
-        {
-            "optionText": "Goodbye, Diana.",
-            "responseText": "...goodbye... dumbass...",
-            "exitLine": true
+                  "optionText": "Vou fazê-lo pagar. Eu juro.",
+                  "responseText": "...bom... porque ele é... *engole sangue* um absoluto... maluco... certifique-se de que doa..."
+                },
+                {
+                  "optionText": "Você merece isso.",
+                  "responseText": "*Os olhos de Diana faíscam de raiva, sua voz rouca apesar do sangue se acumulando em sua garganta* ...você é igual... a ele... *tosse violentamente* ...pequeno esquisito... incel doente... *engole sangue* ...aposto que você acha... que isso te faz... poderoso... patético..."
+                }
+              ]
+            }
+          ]
         }
-    ],
-    "auto_lines": [ "*Diana weakly grips the edge of the bed as she looks up at you* ...figured... you’d be dead too... *gulps, her voice bitter* ...guess roaches like you... always survive..." ]
-} 
+      ]
+    },
+    {
+      "optionText": "[Acabe com ela]",
+      "killCharacter": true,
+      "progressionEventPlayed": "finishedDiana",
+      "exitLine": true,
+      "specialEffects": ["stab"],
+      "responseText": "*Os olhos de Diana se estreitam, sangue borbulhando de seus lábios* ...espere—você está falando sério? *ri, depois engasga* espero que seu próximo boquete do Hans venha com balas... *o sorriso desaparece*"
+    },
+    {
+      "optionText": "Adeus, Diana.",
+      "responseText": "...adeus... idiota...",
+      "exitLine": true
+    }
+  ],
+  "auto_lines": [
+    "*Diana agarra fracamente a beirada da cama enquanto olha para você* ...imaginei... que você estaria morto também... *engole em seco, sua voz amarga* ...acho que baratas como você... sempre sobrevivem..."
+  ]
+}

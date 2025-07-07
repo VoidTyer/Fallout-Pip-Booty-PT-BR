@@ -1,233 +1,163 @@
 {
-    "options": [
+  "options": [
+    {
+      "optionText": "Ouvi dizer que sua mãe sumiu há um tempo. Preocupada?",
+      "onlyShowIfProgressionEventPlayed": "learnedAboutFarmerWifeMissing",
+      "dontDisplayIfObjectiveComplete": "Bring the Farmer's Wife back",
+      "responseText": "Ah, ela é uma ave velha e durona! Papai diz que a Irmandade só está lhe dando uma lição. Acho que ela vai voltar a qualquer dia com algumas histórias chiques!",
+      "followUpOptions": [
         {
-            "optionText": "Heard your mom’s been gone a while. You worried?",
-            "onlyShowIfProgressionEventPlayed": "learnedAboutFarmerWifeMissing",
-            "dontDisplayIfObjectiveComplete": "Bring the Farmer's Wife back",
-            "responseText": "Aw, she’s a tough ol’ bird! Daddy says the Brotherhood’s just teachin’ him a lesson. Reckon she’ll stroll back any day now with some fancy stories!",
-            "followUpOptions": [
-                {
-                    "optionText": "It’s been two weeks, June. That’s not a good sign.",
-                    "responseText": "Two weeks? Huh… guess I lost count. Time flies when you’re milkin’ Brahmin and swattin’ radroaches!",
-                    "followUpOptions": [
-                        {
-                            "optionText": "I’ll look into it for you.",
-                            "responseText": "Would ya really, sugar? That’d be sweeter than momma’s pecan pie! Hope she ain’t given ‘em too much sass… she’s real good at that.",
-                            "exitLine": true
-                        },
-                        {
-                            "optionText": "You should talk to your dad. This ‘lesson’ might’ve gone too far.",
-                            "responseText": "Oh, he don’t listen to me. Says I’m ‘full of air and sunshine’ and that’s all I’m good for. Ain’t that somethin’?"
-                        }
-                    ]
-                },
-                {
-                    "optionText": "What exactly did your dad refuse to pay the Brotherhood?",
-                    "responseText": "Some kinda tribute. Caps or crops or somethin’. Daddy says ‘ain’t no man takin’ his sweat without a fight!’ Then he threw his shoe at the messenger. That was a real fine day!",
-                    "followUpOptions": [
-                        {
-                            "optionText": "That sounds… real smart of him.",
-                            "responseText": "I know, right? Daddy’s got a head full of ideas! Not all of ‘em good, but sure keeps things excitin’!"
-                        },
-                        {
-                            "optionText": "That’s probably why they took your mom.",
-                            "responseText": "You think? Huh… maybe Daddy oughta throw somethin’ softer next time, like a pie."
-                        }
-                    ]
-                },
-                {
-                    "optionText": "She might not be coming back, June.",
-                    "responseText": "Don’t say that, sugar! She’s tougher than a deathclaw. You’ll see!"
-                }
-            ]
+          "optionText": "Faz duas semanas, June. Isso não é um bom sinal.",
+          "responseText": "Duas semanas? Huh… acho que perdi a conta. O tempo voa quando você está ordenhando Brahmin e matando baratas radioativas!"
         },
         {
-            "optionText": "Hey, who’s running this place?",
-            "responseText": "Hey, this here’s Greaves Family Farm. Daddy’s the boss man, but I’m the real brains ‘round here—least that’s what I tell ‘im!",
-            "followUpOptions": [
-                {
-                    "optionText": "Are those... ghouls working your fields?",
-                    "responseText": "Oh, them? Yeah, Daddy calls ‘em his ‘cranky crop pickers.’ They don’t eat much, don’t complain too loud neither. Kinda like big ol’ scarecrows but smellier!",
-                    "followUpOptions": [
-                        {
-                            "optionText": "That’s slavery, you know.",
-                            "responseText": "Slavery? Oh shoot, nah! They’re just helpin’ out! Daddy says they’d be wanderin’ ‘round all confused without good honest work. Ain’t no harm in that, right?"
-                        },
-                        {
-                            "optionText": "Doesn’t that seem wrong to you?",
-                            "responseText": "Wrong? Huh. Ain’t never thought about it that way. But Daddy says thinkin’ too hard gives ya wrinkles, and I sure don’t want them!"
-                        },
-                        {
-                            "optionText": "They’re people, June. Not livestock.",
-                            "responseText": "People? Shucks, they don’t even say much! Just grunt and groan. Kinda like Uncle Jeb after too much corn whiskey.",
-                            "followUpOptions": [
-                                {
-                                    "optionText": "Unchain them. Now.",
-                                    "responseText": "Whoa there, honey! Daddy’d have a fit if he saw me doin’ that. And he’s real fond of his shotgun when he’s upset…"
-                                },
-                                {
-                                    "optionText": "Forget it. Let’s talk about something else.",
-                                    "responseText": "Sure thing! Talkin’ about serious stuff makes my head hurt anyhow.",
-                                    "exitLine": true
-                                }
-                            ]
-                        },
-                        {
-                            "optionText": "Right… and if someone chained you up, you’d be fine with it?",
-                            "responseText": "Well, if it meant I didn’t have to muck out the Brahmin stalls, maybe! Kidding! …Sorta."
-                        }
-                    ]
-                },
-                {
-                    "optionText": "You really think you’re the brains here?",
-                    "responseText": "Heck yeah! I figured out how to keep the still runnin’ *and* got the mutant crows to stop peckin’ Daddy’s hat. Ain’t that genius?"
-                }, 
-                {
-                    "optionText": "This place creeps me out.",
-                    "responseText": "Aw, don’t be like that! Have a sarsaparilla and sit a spell. Nothin’ bad ever happens ‘round here—well, ‘cept that time Earl got loose with a shovel. But we fixed that!"
-                }
-            ]
+          "optionText": "O que exatamente seu pai se recusou a pagar à Irmandade?",
+          "responseText": "Algum tipo de tributo. Caps ou colheitas ou algo assim. Papai diz 'nenhum homem vai levar meu suor sem lutar!' Então ele jogou o sapato no mensageiro. Foi um dia e tanto!"
         },
         {
-            "optionText": "Found you clothes.",
-            "onlyDisplayIfHasObjective": "Find June's clothes",
-            "itemRequired": "Farmer's Daughter's Clothes",
-            "giveItemToCharacter": "Farmer's Daughter's Clothes",
-            "markObjectiveComplete": "Find June's clothes",
-            "responseText": "Well, look at you! Guess that means you earned yourself a lil’ somethin’, huh? Daddy ain’t ‘round, and I’m already halfway ready. Wanna go ahead and fuck, sugar? Just for fun! Promise I won’t tell if you don’t!",
-            "followUpOptions": [
-                {
-                    "optionText": "Damn right I do.",
-                    "icon": "GUI/heart4",
-                    "responseText": "Woo-wee, this is gonna be more excitin’ than the wasteland fair pie-eatin’ contest! Let’s make some memories, sugar!",
-                    "followUpOptions": [
-                    {
-                        "optionText": "[Fuck her]",
-                        "changeSprite": "Characters/Farm Girl/farm girl sex2", 
-                        "icon": "GUI/heart4",
-                        "closeDialogueOptions": true,
-                        "isHEventStarted": true,  
-                        "hEventName": "farmGirlPlayerSex",
-                        "progressionEventPlayed": "barnFuck",
-                        "showChoiceStats": "farm_fuck", 
-                        "spriteAtTheEndOfHscene": "Characters/Farm Girl/IPAdapter_02555_",
-                        "spriteAtTheEndOfHscenePosition": [ 0.65, -0.39 ],
-                        "specialEffects": ["Blackout"],
-                        "endingEffects": ["Flashes"],  
-                        "lineAfterHevent": "Ahh, that's it...♥︎", 
-                        "auto_lines": ["Ahhm, sugar, been waitin' to ride that dick since you strolled on this farm.",
-
-"Mmm, gonna fuck me hard, ain't ya? Hope your cock's tougher than Daddy's whiskey.",
-
-"Ohhh, I’m wetter'n a radstorm already—slide that dick right into my pussy, honey.",
-
-"Cum wherever you like, darlin’. Just don’t tell Daddy I ruined his good sheets.",
-
-"Fuck, sugar, you better have stamina—I'm tighter'n a vault door and twice as needy.",
-
-"Mmm, that dick’s lookin' tastier than Momma’s pecan pie. Mind if I get a lick first?",
-
-"Ahhm, hope ya ready to drown—my pussy’s drippin' like a busted Nuka-Cola machine.",
-
-"Oh, fuck me good now, darlin’. Daddy’s due back soon, and I ain't quiet when I cum.",
-
-"Your cock's harder'n Brotherhood armor, sugar—I can’t wait to test how much poundin' it takes.",
-
-"Ahhm, go slow at first. It’s been a while since somethin’ filled my pussy proper.",
-
-"Mmm, let's fuck loud enough to make them ghouls jealous. Bet they'll jerking off right along.",
-
-"Ohhh, fill me with cum, honey. Make it drip down my thighs like molasses in summertime.",
-
-"Fuck, sugar, if I'd known you were packin' that kinda dick, I'da skipped chores weeks ago.",
-
-"Ahhm, your cock’s makin’ me squirm more'n a radroach caught in sunlight.",
-
-"C'mon, fuck this pussy raw, sugar. I ain't delicate—just greedy.",
-
-"Mmm, been fantasizin' all day 'bout feelin' your cum drippin’ outta me while doin’ chores tomorrow.",
-
-"Ohhh, gonna ride your dick like a wild Brahmin 'til you cum harder than a nuke goin’ off.",
-
-"Fuck, I’m close already—your cock hits deeper’n a Mirelurk nest.",
-
-"Ahhm, ain’t no way this pussy’s lettin’ go of your dick ‘til it’s soaked in cum.",
-
-"Mmm, harder, sugar—slam that dick like you're nailin’ fence posts. I can take it.",
-
-"Oh, fuck me like you're tryin’ to break somethin’, darlin’. Daddy can fix everything later.",
-
-"Your cock’s slidin’ right in, sugar. My pussy was ready soon as you walked in the barn.",
-
-"Ahhm, grab me tight, sugar. I wanna feel that dick throbbin' when you cum inside.",
-
-"Mmm, fuck, that's it—stretch this pussy out like you own it, honey.",
-
-"Ohhh, cum in me deep enough I’ll feel it for days, sugar. Ain’t got nothin' else planned anyway."]
-                    }
-                    ]
-                },
-                {
-                    "optionText": "Not my style, June.",
-                    "responseText": "Aw, you’re a tough nut to crack! But alright, sugar, door’s always open—well, barn door anyway! I’ll just be over here airin’ out the goods!"
-                }
-            ]
-        },
-        {
-            "optionText": "Everything alright over here?",
-            "dontDisplayIfObjectiveComplete": "Find June's clothes",
-            "responseText": "Oh! Don’t mind us—Rufus's just mad I won the last corn whiskey chuggin’ contest. He’s been hidin’ my clothes ever since, the ornery bastard!",
-            "followUpOptions": [
-                {
-                    "optionText": "Did that ghoul actually steal your clothes?",
-                    "responseText": "Well, he ain’t confessed, but last time they turned up stuffed inside a Brahmin feeder with ghoul slobber all over ‘em. So unless the wind’s got a kink for underthings, I’d say yeah, it was him!"
-                },
-                {
-                    "optionText": "You sure you're not just forgettin’ where you tossed ‘em?",
-                    "responseText": "Now listen here, mister—I may be half-naked and full of sunshine, but I ain’t stupid. When I toss clothes, I toss ‘em with *purpose*. That ghoul’s got sticky fingers and worse manners!"
-                }
-            ]
-        },
-        {
-            "optionText": "Why are you naked?",
-            "icon": "GUI/quest mark",
-            "dontDisplayIfObjectiveComplete": "Find June's clothes",
-            "dontDisplayIfHasObjective": "Find June's clothes",
-            "responseText": "Oh! Would ya believe it—my clothes done up and disappeared again! Darn ghouls think it’s a real hoot watchin’ me scramble ‘round like a headless chicken! Left me with nothin’ but my boots, this ol’ belt, and my lucky hat!",
-            "followUpOptions": [
-                {
-                    "optionText": "You seriously just walk around them like this?",
-                    "icon": "GUI/quest mark",
-                    "responseText": "*giggles and shrugs* Well, it ain’t like I’m shy! Sun’s warm, breeze feels nice… ‘sides, ain’t like them ghouls haven’t seen it all before—heck, they probably got my panties hung up like bunting somewhere! Wanna help me hunt ‘em down, sugar?",
-                    "followUpOptions": [
-                        {
-                            "optionText": "Fine, let’s find your clothes.",
-                            "icon": "GUI/quest mark",
-                            "addObjective": "Find June's clothes",
-                            "responseText": "Oh, you’re a real sweetheart! I swear them ghouls are hidin’ ‘em somewhere behind the hay bales or in the feed trough again. Let’s split up—first one to find ‘em wins!",
-                            "exitLine": true
-                        },
-                        {
-                            "optionText": "Y’know what, never mind. You seem happy as you are.",
-                            "responseText": "*giggles and strikes a mock pose like a pin-up calendar* Well, ain’t you just a gentleman! Reckon I’ll just keep lettin’ the breeze do its work. Who needs clothes anyhow? Just get in the way when life’s tryin’ to happen!"
-                        }
-                    ]
-                },
-                {
-                    "optionText": "You sure those ghouls aren’t just pervin’ on you?",
-                    "responseText": "*tilts her head, genuinely confused* Pervin’? Oh, sugar, they ain’t got much left to perv with! Just like watchin’ me make a fuss, I reckon. Like watchin’ a molerat chase its own tail—funniest thing if ya think about it!"
-                },
-                {
-                    "optionText": "Aren’t you cold like that?",
-                    "responseText": "*laughs and stretches like she’s sunbathing* Cold? Honey, this wasteland sun’s better’n any campfire. Just gotta watch where ya sit—ain’t nothin’ worse than a splinter where it don’t belong!"
-                }
-            ]
-        }, 
-        {
-            "optionText": "Bye",
-            "responseText": "You come on back now, y’hear? And watch your step—Joe’s prone to nappin’ in the tall grass!",
-            "exitLine": true
+          "optionText": "Ela pode não voltar, June.",
+          "responseText": "Não diga isso, docinho! Ela é mais resistente que um deathclaw. Você vai ver!"
         }
-    ],
-    "auto_lines": ["I swear, Rufus, if you hid my panties again I’m gonna tie your rotten hands to a Brahmin tail and let it drag you ‘til sundown!"]
-} 
+      ]
+    },
+    {
+      "optionText": "Ei, quem manda neste lugar?",
+      "responseText": "Ei, aqui é a Fazenda da Família Greaves. Papai é o chefe, mas eu sou o verdadeiro cérebro por aqui—pelo menos é o que eu digo a ele!",
+      "followUpOptions": [
+        {
+          "optionText": "Aqueles são... ghouls trabalhando nos seus campos?",
+          "responseText": "Ah, eles? Sim, papai os chama de seus 'colhedores de safra mal-humorados'. Eles não comem muito, nem reclamam muito alto. Meio como espantalhos grandes, mas mais fedorentos!"
+        },
+        {
+          "optionText": "Você realmente acha que é o cérebro aqui?",
+          "responseText": "Com certeza! Eu descobri como manter o alambique funcionando *e* fiz os corvos mutantes pararem de bicar o chapéu do papai. Não é genial?"
+        },
+        {
+          "optionText": "Este lugar me assusta.",
+          "responseText": "Ah, não seja assim! Tome uma sarsaparilla e sente-se um pouco. Nada de ruim acontece por aqui—bem, exceto aquela vez que o Earl se soltou com uma pá. Mas nós consertamos isso!"
+        }
+      ]
+    },
+    {
+      "optionText": "Encontrei suas roupas.",
+      "onlyDisplayIfHasObjective": "Find June's clothes",
+      "itemRequired": "Farmer's Daughter's Clothes",
+      "giveItemToCharacter": "Farmer's Daughter's Clothes",
+      "markObjectiveComplete": "Find June's clothes",
+      "responseText": "Bem, olhe só! Acho que isso significa que você ganhou uma coisinha, hein? Papai não está por perto, e eu já estou quase pronta. Quer ir em frente e foder, docinho? Só por diversão! Prometo que não conto se você não contar!",
+      "followUpOptions": [
+        {
+          "optionText": "Com certeza quero.",
+          "icon": "GUI/heart4",
+          "responseText": "Uau, isso vai ser mais emocionante que o concurso de comer torta da feira da wasteland! Vamos criar algumas memórias, docinho!",
+          "followUpOptions": [
+            {
+              "optionText": "[Foder ela]",
+              "changeSprite": "Characters/Farm Girl/farm girl sex2",
+              "icon": "GUI/heart4",
+              "closeDialogueOptions": true,
+              "isHEventStarted": true,
+              "hEventName": "farmGirlPlayerSex",
+              "progressionEventPlayed": "barnFuck",
+              "showChoiceStats": "farm_fuck",
+              "spriteAtTheEndOfHscene": "Characters/Farm Girl/IPAdapter_02555_",
+              "spriteAtTheEndOfHscenePosition": [0.65, -0.39],
+              "specialEffects": ["Blackout"],
+              "endingEffects": ["Flashes"],
+              "lineAfterHevent": "Ahh, é isso...♥︎",
+              "auto_lines": [
+                "Ahhm, docinho, estou esperando para cavalgar nesse pau desde que você apareceu nesta fazenda.",
+                "Mmm, vai me foder com força, não vai? Espero que seu pau seja mais resistente que o uísque do papai.",
+                "Ohhh, estou mais molhada que uma tempestade de radiação—enfia esse pau na minha buceta, querido.",
+                "Goze onde quiser, querido. Só não conte ao papai que estraguei seus lençóis bons.",
+                "Porra, docinho, é melhor você ter fôlego—sou mais apertada que uma porta de refúgio e duas vezes mais carente.",
+                "Mmm, esse pau parece mais gostoso que a torta de nozes da mamãe. Se importa se eu der uma lambida primeiro?",
+                "Ahhm, espero que esteja pronto para se afogar—minha buceta está pingando como uma máquina de Nuka-Cola quebrada.",
+                "Oh, me foda bem agora, querido. Papai deve voltar logo, e não sou quieta quando gozo.",
+                "Seu pau é mais duro que armadura da Irmandade, docinho—mal posso esperar para testar o quanto ele aguenta.",
+                "Ahhm, vá devagar no começo. Faz um tempo que algo não preenche minha buceta direito.",
+                "Mmm, vamos foder alto o suficiente para deixar aqueles ghouls com ciúmes. Aposto que eles vão bater uma junto.",
+                "Ohhh, me encha de porra, querido. Faça escorrer pelas minhas coxas como melaço no verão.",
+                "Porra, docinho, se eu soubesse que você tinha um pau desse tamanho, teria pulado as tarefas semanas atrás.",
+                "Ahhm, seu pau me faz contorcer mais que uma barata radioativa sob a luz do sol.",
+                "Vamos, foda esta buceta crua, docinho. Não sou delicada—apenas gulosa.",
+                "Mmm, estive fantasiando o dia todo em sentir sua porra escorrendo de mim enquanto faço as tarefas amanhã.",
+                "Ohhh, vou cavalgar seu pau como um Brahmin selvagem até você gozar mais forte que uma explosão nuclear.",
+                "Porra, já estou quase lá—seu pau atinge mais fundo que um ninho de Mirelurk.",
+                "Ahhm, de jeito nenhum esta buceta vai soltar seu pau até estar encharcada de porra.",
+                "Mmm, mais forte, docinho—bata nesse pau como se estivesse pregando estacas de cerca. Eu aguento.",
+                "Oh, me foda como se estivesse tentando quebrar algo, querido. Papai pode consertar tudo depois.",
+                "Seu pau está deslizando para dentro, docinho. Minha buceta estava pronta assim que você entrou no celeiro.",
+                "Ahhm, me segure firme, docinho. Quero sentir esse pau pulsando quando você gozar dentro.",
+                "Mmm, porra, é isso—alargue esta buceta como se fosse sua, querido.",
+                "Ohhh, goze em mim fundo o suficiente para eu sentir por dias, docinho. Não tenho mais nada planejado de qualquer maneira."
+              ]
+            }
+          ]
+        },
+        {
+          "optionText": "Não é meu estilo, June.",
+          "responseText": "Ah, você é um osso duro de roer! Mas tudo bem, docinho, a porta está sempre aberta—bem, a porta do celeiro, de qualquer maneira! Vou ficar aqui arejando as mercadorias!"
+        }
+      ]
+    },
+    {
+      "optionText": "Tudo bem por aqui?",
+      "dontDisplayIfObjectiveComplete": "Find June's clothes",
+      "responseText": "Oh! Não se importe conosco—Rufus só está bravo porque eu ganhei o último concurso de beber uísque de milho. Ele tem escondido minhas roupas desde então, o bastardo teimoso!",
+      "followUpOptions": [
+        {
+          "optionText": "Aquele ghoul realmente roubou suas roupas?",
+          "responseText": "Bem, ele não confessou, mas da última vez elas apareceram enfiadas em um cocho de Brahmin com baba de ghoul por todo lado. Então, a menos que o vento tenha um fetiche por roupas íntimas, eu diria que sim, foi ele!"
+        },
+        {
+          "optionText": "Tem certeza que não está apenas esquecendo onde as jogou?",
+          "responseText": "Agora escute aqui, senhor—posso estar seminua e cheia de sol, mas não sou estúpida. Quando eu jogo roupas, eu jogo com *propósito*. Aquele ghoul tem dedos longos e péssimas maneiras!"
+        }
+      ]
+    },
+    {
+      "optionText": "Por que você está nua?",
+      "icon": "GUI/quest mark",
+      "dontDisplayIfObjectiveComplete": "Find June's clothes",
+      "dontDisplayIfHasObjective": "Find June's clothes",
+      "responseText": "Oh! Acredita que minhas roupas sumiram de novo! Malditos ghouls, acham engraçado me ver correndo como uma galinha sem cabeça! Me deixaram com nada além das minhas botas, este cinto velho e meu chapéu da sorte!",
+      "followUpOptions": [
+        {
+          "optionText": "Você anda por aí assim na frente deles?",
+          "icon": "GUI/quest mark",
+          "responseText": "*risadinha e encolhe os ombros* Bem, não é como se eu fosse tímida! O sol está quente, a brisa é gostosa… além disso, não é como se aqueles ghouls não tivessem visto tudo antes—inferno, eles provavelmente têm minhas calcinhas penduradas como bandeirinhas em algum lugar! Quer me ajudar a encontrá-las, docinho?",
+          "followUpOptions": [
+            {
+              "optionText": "Certo, vamos encontrar suas roupas.",
+              "icon": "GUI/quest mark",
+              "addObjective": "Find June's clothes",
+              "responseText": "Oh, você é um verdadeiro amor! Juro que aqueles ghouls estão escondendo-as em algum lugar atrás dos fardos de feno ou no cocho de novo. Vamos nos separar—o primeiro a encontrar ganha!",
+              "exitLine": true
+            },
+            {
+              "optionText": "Sabe de uma coisa, esquece. Você parece feliz como está.",
+              "responseText": "*risadinha e faz uma pose de pin-up* Bem, você não é um cavalheiro! Acho que vou continuar deixando a brisa fazer seu trabalho. Quem precisa de roupas, afinal? Só atrapalham quando a vida está tentando acontecer!"
+            }
+          ]
+        },
+        {
+          "optionText": "Tem certeza que esses ghouls não estão apenas te tarando?",
+          "responseText": "*inclina a cabeça, genuinamente confusa* Tarando? Oh, docinho, eles não têm muito com o que tarar! Só gostam de me ver fazer um escândalo, eu acho. Como ver uma ratazana-toupeira perseguir o próprio rabo—a coisa mais engraçada se você pensar bem!"
+        },
+        {
+          "optionText": "Você não está com frio assim?",
+          "responseText": "*ri e se espreguiça como se estivesse tomando sol* Frio? Querido, este sol da wasteland é melhor que qualquer fogueira. Só tem que tomar cuidado onde senta—não há nada pior que uma farpa onde não deve!"
+        }
+      ]
+    },
+    {
+      "optionText": "Tchau",
+      "responseText": "Volte sempre, ouviu? E cuidado onde pisa—o Joe tem mania de tirar uma soneca na grama alta!",
+      "exitLine": true
+    }
+  ],
+  "auto_lines": [
+    "Juro, Rufus, se você escondeu minha calcinha de novo, vou amarrar suas mãos podres no rabo de um Brahmin e deixar ele te arrastar até o anoitecer!"
+  ]
+}

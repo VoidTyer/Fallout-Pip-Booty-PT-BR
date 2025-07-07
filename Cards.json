@@ -2,139 +2,139 @@
   {
     "original_name": "Big Iron",
     "original_description": "Deals 15 damage.",
-    "translated_name": "",
-    "translated_description": ""
+    "translated_name": "Grande Ferro",
+    "translated_description": "Causa 15 de dano."
   },
   {
     "original_name": "Nope Out",
     "original_description": "Gain 12 <color=#A7C039>Dodge</color>.",
-    "translated_name": "",
-    "translated_description": ""
+    "translated_name": "Cair Fora",
+    "translated_description": "Ganhe 12 de <color=#A7C039>Esquiva</color>."
   },
   {
     "original_name": "Sniper in the Rye",
     "original_description": "Deal 20 damage. Apply 2 <color=#A7C039>Mark</color>. Marked targets take 50% more damage.",
-    "translated_name": "",
-    "translated_description": ""
+    "translated_name": "Franco-Atirador no Campo",
+    "translated_description": "Cause 20 de dano. Aplique 2 de <color=#A7C039>Marca</color>. Alvos marcados recebem 50% a mais de dano."
   },
   {
     "original_name": "Mysterious Stranger",
     "original_description": "Deal 15 damage. Add a copy of this card into your discard pile.",
-    "translated_name": "",
-    "translated_description": ""
+    "translated_name": "Estranho Misterioso",
+    "translated_description": "Causa 15 de dano. Adiciona uma cópia desta carta à sua pilha de descarte."
   },
   {
     "original_name": "Bulwark Bash",
     "original_description": "Deal damage equal to your current <color=#A7C039>Dodge</color>.",
-    "translated_name": "",
-    "translated_description": ""
+    "translated_name": "Pancada de Bastião",
+    "translated_description": "Causa dano igual à sua <color=#A7C039>Esquiva</color> atual."
   },
   {
     "original_name": "Plasma Grenade",
     "original_description": "Deal 20 damage to ALL enemies.",
-    "translated_name": "",
-    "translated_description": ""
+    "translated_name": "Granada de Plasma",
+    "translated_description": "Causa 20 de dano a TODOS os inimigos."
   },
   {
     "original_name": "Shishkebab Slash",
     "original_description": "Deal 30 damage. Apply 2 <color=#A7C039>Crippled</color>. Crippled units deal 25% less damage.",
-    "translated_name": "",
-    "translated_description": ""
+    "translated_name": "Corte de Shishkebab",
+    "translated_description": "Causa 30 de dano. Aplica 2 de <color=#A7C039>Aleijado</color>. Unidades aleijadas causam 25% menos dano."
   },
   {
     "original_name": "Psycho Injection",
     "original_description": "4 <color=#A7C039>Psycho</color>. Psycho adds additional damage to your attacks.",
-    "translated_name": "",
-    "translated_description": ""
+    "translated_name": "Injeção de Psycho",
+    "translated_description": "4 de <color=#A7C039>Psycho</color>. Psycho adiciona dano extra aos seus ataques."
   },
   {
     "original_name": "Sledge Hammer",
     "original_description": "Deal 35 damage. Psycho affects this card 3 times.",
-    "translated_name": "",
-    "translated_description": ""
+    "translated_name": "Marreta",
+    "translated_description": "Causa 35 de dano. Psycho afeta esta carta 3 vezes."
   },
   {
     "original_name": "Crippling Crossfire",
     "original_description": "Deal 22 damage. Draw 1 card. ",
-    "translated_name": "",
-    "translated_description": ""
+    "translated_name": "Fogo Cruzado Aleijante",
+    "translated_description": "Causa 22 de dano. Compre 1 carta."
   },
   {
     "original_name": "Stealth Boy Sidestep",
     "original_description": "Gain 20 <color=#A7C039>Dodge</color>. Draw 1 card. ",
-    "translated_name": "",
-    "translated_description": ""
+    "translated_name": "Passo Lateral com Stealth Boy",
+    "translated_description": "Ganhe 20 de <color=#A7C039>Esquiva</color>. Compre 1 carta."
   },
   {
     "original_name": "Laser Rifle Barrage",
     "original_description": "Deal 7 damage to a random enemy 3 times. ",
-    "translated_name": "",
-    "translated_description": ""
+    "translated_name": "Barragem de Rifle a Laser",
+    "translated_description": "Causa 7 de dano a um inimigo aleatório 3 vezes."
   },
   {
     "original_name": "Buffout Burn",
     "original_description": "Lose 7 HP. Gain 2 <color=#A7C039>Action Points</color>.",
-    "translated_name": "",
-    "translated_description": ""
+    "translated_name": "Queima de Buffout",
+    "translated_description": "Perca 7 de PV. Ganhe 2 <color=#A7C039>Pontos de Ação</color>."
   },
   {
     "original_name": "Fat Man Finale",
     "original_description": "Deal 50 damage. Removed until the end of combat.",
-    "translated_name": "",
-    "translated_description": ""
+    "translated_name": "Final do Fat Man",
+    "translated_description": "Causa 50 de dano. Removido até o final do combate."
   },
   {
     "original_name": "Feral Ghoul Feint",
     "original_description": "Double your <color=#A7C039>Dodge</color>.",
-    "translated_name": "",
-    "translated_description": ""
+    "translated_name": "Finta de Ghoul Feral",
+    "translated_description": "Dobra sua <color=#A7C039>Esquiva</color>."
   },
   {
     "original_name": "Hyperactive Rush",
     "original_description": "At the start of each turn, gain 4 <color=#A7C039>Psycho</color>. Psycho adds additional damage to your attacks.",
-    "translated_name": "",
-    "translated_description": ""
+    "translated_name": "Corrida Hiperativa",
+    "translated_description": "No início de cada turno, ganhe 4 de <color=#A7C039>Psycho</color>. Psycho adiciona dano extra aos seus ataques."
   },
   {
     "original_name": "Nuka-Cola Charged",
     "original_description": "This turn, your next attack deals TWICE damage.",
-    "translated_name": "",
-    "translated_description": ""
+    "translated_name": "Carga de Nuka-Cola",
+    "translated_description": "Neste turno, seu próximo ataque causa o DOBRO de dano."
   },
   {
     "original_name": "Jet-Fueled Jump",
     "original_description": "Gain 75 <color=#A7C039>Dodge</color>. Removed until the end of combat.",
-    "translated_name": "",
-    "translated_description": ""
+    "translated_name": "Salto Abastecido com Jet",
+    "translated_description": "Ganhe 75 de <color=#A7C039>Esquiva</color>. Removido até o final do combate."
   },
   {
     "original_name": "Cannibal’s Feast",
     "original_description": "Deals 10 damage to ALL enemies. Heal HP equal to the damage dealt.",
-    "translated_name": "",
-    "translated_description": ""
+    "translated_name": "Banquete do Canibal",
+    "translated_description": "Causa 10 de dano a TODOS os inimigos. Cura PV igual ao dano causado."
   },
   {
     "original_name": "Mini-Nuke Purge",
     "original_description": "Deals 80 damage.",
-    "translated_name": "",
-    "translated_description": ""
+    "translated_name": "Purga de Mini-Nuke",
+    "translated_description": "Causa 80 de dano."
   },
   {
     "original_name": "Pre-War Tax Receipts",
     "original_description": "Unplayable.",
-    "translated_name": "",
-    "translated_description": ""
+    "translated_name": "Recibos de Imposto Pré-Guerra",
+    "translated_description": "Não jogável."
   },
   {
     "original_name": "The Glow’s Grip",
     "original_description": "Unplayable.",
-    "translated_name": "",
-    "translated_description": ""
+    "translated_name": "Aperto do Brilho",
+    "translated_description": "Não jogável."
   },
   {
     "original_name": "Rabies",
     "original_description": "Unplayable.",
-    "translated_name": "",
-    "translated_description": ""
+    "translated_name": "Raiva",
+    "translated_description": "Não jogável."
   }
 ]

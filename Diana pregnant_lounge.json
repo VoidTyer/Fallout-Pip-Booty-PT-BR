@@ -1,157 +1,140 @@
 {
   "options": [
     {
-      "optionText": "How are you feeling, love?",
-      "responseText": "Heavy, sore, and strangely... happy. It's bizarre, but I kind of like it. This little parasite growing inside me is half you—makes it easier to deal with.",
+      "optionText": "Como você está se sentindo, amor?",
+      "responseText": "Pesada, dolorida e estranhamente... feliz. É bizarro, mas eu meio que gosto. Este pequeno parasita crescendo dentro de mim é metade você—torna mais fácil de lidar.",
       "followUpOptions": [
         {
-          "optionText": "I love seeing you like this.",
-          "responseText": "Keep talking like that and I might just forget how uncomfortable this damn suit is. Seriously, though… thank you. For being here."
+          "optionText": "Eu amo te ver assim.",
+          "responseText": "Continue falando assim e talvez eu até esqueça o quão desconfortável este maldito macacão é. Sério, porém… obrigada. Por estar aqui."
         },
         {
-          "optionText": "Can't believe we're doing this. You, me, a baby...",
-          "responseText": "Believe it. Somehow loving you might be the most dangerous thing I’ve done. And the most worth it.",
+          "optionText": "Não acredito que estamos fazendo isso. Você, eu, um bebê...",
+          "responseText": "Acredite. De alguma forma, te amar pode ser a coisa mais perigosa que já fiz. E a que mais valeu a pena.",
           "followUpOptions": [
             {
-              "optionText": "We'll protect this kid. Together.",
-              "responseText": "Damn right we will. Anyone tries to hurt our family, they'll regret ever stepping foot near Vault 6969."
+              "optionText": "Nós vamos proteger esta criança. Juntos.",
+              "responseText": "Pode apostar que vamos. Qualquer um que tentar machucar nossa família, se arrependerá de ter pisado perto do Refúgio 6969."
             },
             {
-              "optionText": "You sure you’re okay with this? Really okay?",
-              "responseText": "Honestly? I’ve never felt more certain about anything. Maybe power isn't about control anymore... maybe it's about choosing who you give your heart to."
+              "optionText": "Tem certeza que está bem com isso? Realmente bem?",
+              "responseText": "Sinceramente? Nunca tive tanta certeza de algo. Talvez o poder não seja mais sobre controle... talvez seja sobre escolher a quem você entrega seu coração."
             },
             {
-              "optionText": "How are we gonna name the kid?",
-              "responseText": "Hah, I've been thinking about that. Something strong, unforgettable... or maybe just not one of those cringy vault names. You got any ideas?",
+              "optionText": "Como vamos chamar a criança?",
+              "responseText": "Hah, estive pensando nisso. Algo forte, inesquecível... ou talvez apenas não um daqueles nomes vergonhosos do refúgio. Tem alguma ideia?",
               "followUpOptions": [
                 {
-                  "optionText": "How about something classic? Like Nora. Or James.",
-                  "responseText": "*smiles softly* Old-world names. I kinda like that. Gives it weight."
-                }, 
-                {
-                  "optionText": "What about something badass? Like Blade, or... Doomslayer.",
-                  "responseText": "*laughs, then groans* Don’t make me laugh, it hurts. Doomslayer? You want our kid to get beat up and come home crying. Be serious, or I swear these hormones will slap you for me."
+                  "optionText": "Que tal algo clássico? Como Nora. Ou James.",
+                  "responseText": "*sorri suavemente* Nomes do mundo antigo. Eu meio que gosto disso. Dá um peso."
                 },
                 {
-                  "optionText": "I don’t care what we name them... as long as it’s with you.",
-                  "responseText": "*blinks slowly* ...You're dangerous when you're that sweet. Damn it. Say stuff like that again and I might just melt."
+                  "optionText": "E algo badass? Como Blade, ou... Doomslayer.",
+                  "responseText": "*ri, depois geme* Não me faça rir, dói. Doomslayer? Você quer que nosso filho apanhe e volte para casa chorando. Fale sério, ou juro que esses hormônios vão te dar um tapa por mim."
+                },
+                {
+                  "optionText": "Não me importo com o nome que daremos... contanto que seja com você.",
+                  "responseText": "*pisca lentamente* ...Você é perigoso quando é tão doce. Droga. Diga coisas assim de novo e eu posso derreter."
                 }
               ]
-            } 
+            }
           ]
         },
         {
-          "optionText": "Everyone’s staring at you...",
-          "responseText": "Let them stare. I'm carrying something more important than their judgment."
+          "optionText": "Todo mundo está te encarando...",
+          "responseText": "Deixe que encarem. Estou carregando algo mais importante que o julgamento deles."
         },
         {
-      "optionText": "You look insanely hot right now. I want you. Right here.",
-      "icon": "GUI/heart4",
-      "responseText": "God, you're shameless. And I love it. But if you even *try* to start something in front of these gawkers, I swear you'll regret not waiting until we’re alone. Or maybe… you won’t.",
-      "followUpOptions": [
-        {
-          "optionText": "I don't care.",
+          "optionText": "Você está incrivelmente gostosa agora. Eu te quero. Bem aqui.",
           "icon": "GUI/heart4",
-          "responseText": "Tch... You're impossible. And if you keep that look in your eyes, we *are* going to have a problem... a very wet, moaning kind of problem.",
+          "responseText": "Deus, você é um sem-vergonha. E eu amo isso. Mas se você sequer *tentar* começar algo na frente desses curiosos, juro que você vai se arrepender de não ter esperado até estarmos sozinhos. Ou talvez… não vai.",
           "followUpOptions": [
             {
-              "optionText": "[Have sex in front of everyone]",
-              "changeSprite": "Characters/Diana/pregnant/pregnant sex",
-                        "newSpriteXPos": 0.25,
-                        "newSpriteYPos": -1.17,
-                        "icon": "GUI/heart4",
-                        "closeDialogueOptions": true,
-                        "isHEventStarted": true,
-                        "setBGcolor": "#919191",
-                        "changeSpriteColor": "#E7E7E7",
-                        "specialEffects": ["Blackout"],
-                        "endingEffects": ["Flashes"],
-                        "showShadowFigures": "Pregnant lounge sex 2",
-                        "HideAllShadowFiguresAfterHevent": true,
-                        "progressionEventPlayed": "lounge_pregnant_PlayerSex",
-                        "spriteAtTheEndOfHscene": "Characters/Diana/pregnant/sitting pregnant cumshot", 
-                        "spriteAtTheEndOfHscenePosition": [ -6.43, -2.08 ],
-                        "lineAfterHevent": "Ahh... you better not have drowned the baby with how much you pumped in there...",
-                        "swapAnotherCharacterDialogue": [ "Diana", "Characters/Diana/Dialogues/after_pregnant_sex" ],
-                        "reduceDesireAfterAutoLines": 10,
-                        "hEventName": "diana_lounge_pregnant_PlayerSex",
-                        "auto_lines": ["Ahh! Right here? You’re fucking insane!",
-
-"Ohh god... your dick feels too good, it's driving me fucking crazy! ♥",
-
-"Mmm, harder! Fucking deeper! Make me forget they're all watching! ♥",
-
-"Ah, shit... yes, baby, fuck this pussy full again, remind me who owns it!",
-
-"Fuck—fuck! Oh god, stretch me, just like that, deeper, deeper!",
-
-"Mmmph, you animal... you're gonna get us fucking exiled—but damn it's worth it! ♥",
-
-"Ahh... I feel every fucking inch, pounding deep inside, marking me again! ♥",
-
-"Oh fuck yes, breed me harder, show everyone who I belong to!",
-
-"God, your dick is fucking perfect! Don’t you dare slow down!",
-
-"Nngh, you're hitting that spot—oh fuck yes, baby, right there!",
-
-"Ahhh! Make me scream louder, let them know how fucking good you fuck me! ♥",
-
-"Ohh, fuck my pussy raw, don’t stop until I’m leaking your cum everywhere!",
-
-"Ahh fuck, I need it—harder, rougher! Break me in front of everyone!",
-
-"Mmm, I can't believe we're doing this—but fuck, I don’t want you to stop! ♥",
-
-"Shit, yes, make me cum right here—oh god, fill me again, deeper, fuck!",
-
-"Oh fuck, my tits ache, squeeze them harder, bite me, make it hurt so good! ♥",
-
-"Ahhh, fuck me stupid—make me yours, forever yours, claim me completely!",
-
-"Goddamn, your dick... fuck, how are you always so fucking hard, so perfect? ♥",
-
-"Mmm, you’re gonna get me knocked up again at this rate... fucking do it!",
-
-"Ahh, I don't care if they exile us, as long as I have your cock buried deep in me! ♥",
-
-"Oh god yes, fuck, keep pounding, keep stretching my dripping pussy!",
-
-"Ahhh! ♥ Don’t you dare pull out—fuck me harder, fill me until it hurts! ♥",
-
-"Mmm, fuck—my pussy's gonna ache for days, but it feels so fucking good!",
-
-"Fuck, baby, cum deep inside, drown me in it—ah, yes, make a fucking mess! ♥",
-
-"Ohh! Mark me with your cum, let them see it dripping out!",
-
-"Mmm, claim me harder, I want every fucker here to know exactly who bred me! ♥",
-
-"Ahh, shit! I'm so close—fuck me faster, ruin me right here!",
-
-"Yes! Yes! Fuck! Fill me up again, stretch my belly more, breed me full! ♥",
-
-"Oh god, yes, cum with me—fuck, I want to feel you explode deep inside!",
-
-"Ahhh, fuck yes! ♥ I'm yours—totally, completely fucking yours... now and forever! ♥",
-"Fuck... your dick feels amazing stretching me open.", "Oh god, yes, harder! Fuck them all watching, let them see who owns this pussy. ♥", "Yes, fuck... I love you inside me, baby.", "Mmm, your cock is perfect, filling me exactly how I need it.", "Ahh... fuck me deeper, please, I need to feel you hit that spot again.", "Oh god, I'm so close... don't stop, keep pounding my pregnant pussy.", "Fill me until I can't take another drop.", "Mmm, I love you so much... ahh, fuck, yes! ♥"]
+              "optionText": "Eu não me importo.",
+              "icon": "GUI/heart4",
+              "responseText": "Tch... Você é impossível. E se continuar com esse olhar, nós *vamos* ter um problema... um problema do tipo bem molhado e gemido.",
+              "followUpOptions": [
+                {
+                  "optionText": "[Fazer sexo na frente de todo mundo]",
+                  "changeSprite": "Characters/Diana/pregnant/pregnant sex",
+                  "newSpriteXPos": 0.25,
+                  "newSpriteYPos": -1.17,
+                  "icon": "GUI/heart4",
+                  "closeDialogueOptions": true,
+                  "isHEventStarted": true,
+                  "setBGcolor": "#919191",
+                  "changeSpriteColor": "#E7E7E7",
+                  "specialEffects": ["Blackout"],
+                  "endingEffects": ["Flashes"],
+                  "showShadowFigures": "Pregnant lounge sex 2",
+                  "HideAllShadowFiguresAfterHevent": true,
+                  "progressionEventPlayed": "lounge_pregnant_PlayerSex",
+                  "spriteAtTheEndOfHscene": "Characters/Diana/pregnant/sitting pregnant cumshot",
+                  "spriteAtTheEndOfHscenePosition": [-6.43, -2.08],
+                  "lineAfterHevent": "Ahh... é melhor você não ter afogado o bebê com o tanto que bombeou aí dentro...",
+                  "swapAnotherCharacterDialogue": [
+                    "Diana",
+                    "Characters/Diana/Dialogues/after_pregnant_sex"
+                  ],
+                  "reduceDesireAfterAutoLines": 10,
+                  "hEventName": "diana_lounge_pregnant_PlayerSex",
+                  "auto_lines": [
+                    "Ahh! Bem aqui? Você é louco pra caralho!",
+                    "Ohh deus... seu pau é tão bom, está me enlouquecendo! ♥",
+                    "Mmm, mais forte! Mais fundo! Me faça esquecer que estão todos assistindo! ♥",
+                    "Ah, merda... sim, amor, foda essa buceta cheia de novo, me lembre a quem ela pertence!",
+                    "Porra—porra! Oh deus, me alargue, exatamente assim, mais fundo, mais fundo!",
+                    "Mmmph, seu animal... você vai nos exilar—mas caramba, vale a pena! ♥",
+                    "Ahh... sinto cada centímetro, batendo fundo, me marcando de novo! ♥",
+                    "Oh porra, sim, me engravide mais forte, mostre a todos a quem eu pertenço!",
+                    "Deus, seu pau é perfeito pra caralho! Não se atreva a diminuir o ritmo!",
+                    "Nngh, você está atingindo aquele ponto—oh porra, sim, amor, bem aí!",
+                    "Ahhh! Me faça gritar mais alto, deixe-os saber como você me fode bem! ♥",
+                    "Ohh, foda minha buceta crua, não pare até eu estar vazando sua porra por todo lado!",
+                    "Ahh, porra, eu preciso disso—mais forte, mais bruto! Me quebre na frente de todo mundo!",
+                    "Mmm, não acredito que estamos fazendo isso—mas porra, não quero que você pare! ♥",
+                    "Merda, sim, me faça gozar bem aqui—oh deus, me encha de novo, mais fundo, porra!",
+                    "Oh porra, meus peitos doem, aperte-os mais forte, me morda, faça doer tão bom! ♥",
+                    "Ahhh, me foda até eu ficar burra—me faça sua, para sempre sua, me reivindique completamente!",
+                    "Caramba, seu pau... porra, como você está sempre tão duro, tão perfeito? ♥",
+                    "Mmm, você vai me engravidar de novo nesse ritmo... foda-se, faça!",
+                    "Ahh, não me importo se nos exilarem, contanto que eu tenha seu pau enterrado fundo em mim! ♥",
+                    "Oh deus, sim, porra, continue batendo, continue alargando minha buceta pingando!",
+                    "Ahhh! ♥ Não se atreva a tirar—me foda mais forte, me encha até doer! ♥",
+                    "Mmm, porra—minha buceta vai doer por dias, mas é tão bom!",
+                    "Porra, amor, goze fundo, me afogue nisso—ah, sim, faça uma bagunça do caralho! ♥",
+                    "Ohh! Me marque com sua porra, deixe-os ver escorrendo!",
+                    "Mmm, me reivindique com mais força, quero que todo filho da puta aqui saiba exatamente quem me engravidou! ♥",
+                    "Ahh, merda! Estou tão perto—me foda mais rápido, me arruíne bem aqui!",
+                    "Sim! Sim! Porra! Me encha de novo, alargue mais minha barriga, me engravide completamente! ♥",
+                    "Oh deus, sim, goze comigo—porra, quero sentir você explodir fundo!",
+                    "Ahhh, porra, sim! ♥ Sou sua—totalmente, completamente sua... agora e para sempre! ♥",
+                    "Porra... seu pau é incrível me abrindo.",
+                    "Oh deus, sim, mais forte! Foda-se todos eles assistindo, deixe-os ver quem é o dono desta buceta. ♥",
+                    "Sim, porra... eu te amo dentro de mim, amor.",
+                    "Mmm, seu pau é perfeito, me preenchendo exatamente como preciso.",
+                    "Ahh... me foda mais fundo, por favor, preciso sentir você atingir aquele ponto de novo.",
+                    "Oh deus, estou tão perto... não pare, continue batendo na minha buceta grávida.",
+                    "Me encha até eu não aguentar mais uma gota.",
+                    "Mmm, eu te amo tanto... ahh, porra, sim! ♥"
+                  ]
+                }
+              ]
             }
           ]
         }
       ]
-    }
-      ]
-    },   
-    {
-        "optionText": "[Give a Gift]",
-        "emotion": "none",
-        "icon": "GUI/gift icon",
-        "neverGreyOut": true,
-        "isGifting": true
     },
     {
-      "optionText": "Bye",
-      "responseText": "Don't be gone long, alright? Just having you around... it makes everything feel a little easier.",
+      "optionText": "[Dar um Presente]",
+      "emotion": "none",
+      "icon": "GUI/gift icon",
+      "neverGreyOut": true,
+      "isGifting": true
+    },
+    {
+      "optionText": "Tchau",
+      "responseText": "Não demore, ok? Só de ter você por perto... tudo parece um pouco mais fácil.",
       "exitLine": true
     }
   ]

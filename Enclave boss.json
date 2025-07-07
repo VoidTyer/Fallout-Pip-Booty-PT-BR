@@ -1,103 +1,105 @@
 {
-    "options": [
+  "options": [
+    {
+      "optionText": "Que comitê de boas-vindas. Quem é você?",
+      "dontShowIfProgressionEventPlayed": "joined_enclave",
+      "responseText": "Comandante Archibald Grim — e você acaba de entrar num lugar onde invasores costumam virar adubo. Explique-se, ou em breve vai decorar as paredes.",
+      "followUpOptions": [
         {
-            "optionText": "Quite the welcoming committee. Who are you?",
-            "dontShowIfProgressionEventPlayed": "joined_enclave",
-            "responseText": "Commander Archibald Grim—and you've just stepped into a place where trespassers usually become fertilizer. Explain yourself, or you'll soon decorate the walls.",
-            "followUpOptions": [
+          "optionText": "Seu agente, Hans, me deu a senha depois da nossa... limpeza no Refúgio 6969.",
+          "responseText": "Hans, o desgraçado miserável. Eficiente, pelo menos. Mas não pense que isso lhe dá direito a recompensas ou confiança. Apenas lhe concede uma audiência.",
+          "followUpOptions": [
+            {
+              "optionText": "Então como eu provo minha lealdade?",
+              "responseText": "Provar? Você acha que meras palavras ou um pequeno serviço lhe dão o direito de se juntar ao Enclave? Se você realmente quer um lugar aqui, vai conquistá-lo com sangue, obediência e submissão absoluta.",
+              "followUpOptions": [
                 {
-                    "optionText": "Your agent, Hans, gave me the passcode after our... cleanup at Vault 6969.",
-                    "responseText": "Hans, the miserable bastard. Efficient, if nothing else. But don't think that entitles you to rewards or trust. It merely earns you an audience.",
-                    "followUpOptions": [
+                  "optionText": "Estou ouvindo.",
+                  "responseText": "Bom. Há um juramento que você fará — um juramento tão vinculativo quanto uma forca em seu pescoço. Uma promessa de lealdade à América renascida. Você jura sua lealdade, sua vida e seu propósito ao Enclave, à restauração da verdadeira ordem americana. Quebre-o, e eu pessoalmente o estriparei como o verme que você é.",
+                  "followUpOptions": [
+                    {
+                      "optionText": "O que envolve esse 'juramento'?",
+                      "responseText": "Você jura lealdade absoluta e inabalável a mim — ao Enclave. Sua vida, sua alma, sua dignidade, tudo pertence à causa. Falhe comigo, e você implorará pela morte muito antes de eu concedê-la.",
+                      "followUpOptions": [
                         {
-                            "optionText": "Then how do I prove my loyalty?",
-                            "responseText": "Prove? You think mere words or a small service earns you the right to join the Enclave? If you truly want a place here, you'll earn it with blood, obedience, and absolute submission.",
-                            "followUpOptions": [ 
-                                {
-                                    "optionText": "I'm listening.",
-                                    "responseText": "Good. There's an oath you'll take—an oath that's as binding as a noose around your neck. A pledge of allegiance to America reborn. You vow your loyalty, your life, and your purpose to the Enclave, to the restoration of true American order. Break it, and I'll personally gut you like the vermin you are.",
-                                    "followUpOptions": [
-                                        {
-                                            "optionText": "What's involved in this 'oath'?",
-                                            "responseText": "You swear absolute, unwavering loyalty to me—to the Enclave. Your life, your soul, your dignity, all belong to the cause. Fail me, and you'll beg for death long before I grant it.",
-                                            "followUpOptions": [
-                                                {
-                                                    "optionText": "I understand. I'll swear the oath.", 
-                                                    "responseText": "Repeat precisely: 'I pledge my heart, soul, and worthless existence to the Enclave—the true guardians of American purity. My pathetic life is yours, Commander Grim, until my blood runs cold.'",
-                                                    "followUpOptions": [
-                                                        {
-                                                            "optionText": "I swear it—for the new America.",
-                                                            "addPerk": "enclave_joined",
-                                                            "progressionEventPlayed": "joined_enclave",
-                                                            "exitLine": true,
-                                                            "responseText": "Welcome to hell, recruit. You'll start at the bottom, and if you survive, perhaps you'll earn better than scraps. As for companionship—don't get ahead of yourself. Only my trusted elite breed freely here. You'll have privileges when you've proven yourself more useful than expendable."
-                                                        },
-                                                        {
-                                                            "optionText": "On second thought, maybe not.",
-                                                            "exitLine": true,
-                                                            "responseText": "Coward. Crawl back into your wasteland, and if I ever see you again, I'll skin you alive and use your bones as trophies."
-                                                        }
-                                                    ]
-                                                } 
-                                            ]
-                                        } 
-                                    ]
-                                }
-                            ]
+                          "optionText": "Eu entendo. Vou fazer o juramento.",
+                          "responseText": "Repita com precisão: 'Eu juro meu coração, alma e existência inútil ao Enclave — os verdadeiros guardiões da pureza americana. Minha vida patética é sua, Comandante Grim, até meu sangue esfriar.'",
+                          "followUpOptions": [
+                            {
+                              "optionText": "Eu juro — pela nova América.",
+                              "addPerk": "enclave_joined",
+                              "progressionEventPlayed": "joined_enclave",
+                              "exitLine": true,
+                              "responseText": "Bem-vindo ao inferno, recruta. Você começará por baixo, e se sobreviver, talvez ganhe mais do que migalhas. Quanto à companhia — não se adiante. Apenas minha elite de confiança procria livremente aqui. Você terá privilégios quando provar ser mais útil do que descartável."
+                            },
+                            {
+                              "optionText": "Pensando bem, talvez não.",
+                              "exitLine": true,
+                              "responseText": "Covarde. Rasteje de volta para o seu deserto, e se eu te vir de novo, vou esfolá-lo vivo e usar seus ossos como troféus."
+                            }
+                          ]
                         }
-                    ]
-                },
-                {
-                    "optionText": "Just stumbled in. Guess security's gotten lax around here.",
-                    "responseText": "Careful. Your insolence amuses me, but it'll amuse me more to watch your slow end. Leave now, or experience firsthand what we do to intruders.",
-                    "exitLine": true
+                      ]
+                    }
+                  ]
                 }
-            ]
+              ]
+            }
+          ]
         },
         {
-            "optionText": "Impressive setup. Was this place your creation?",
-            "responseText": "Flattering assumption, but no. I'm no architect; I’m a conqueror. This facility predates me. Built pre-war, it was meant to preserve American leadership. Now it's mine, and under my leadership, it finally fulfills its destiny—rebuilding America from these ashes.",
-            "followUpOptions": [
-                {
-                    "optionText": "Who exactly built this base, if not you?",
-                    "responseText": "Old-world leadership, those who foresaw America's downfall. They prepared bunkers like this for rebuilding once the smoke cleared. We are their rightful heirs."
-                }
-            ]
-        },
-        {
-            "optionText": "Who's the woman standing beside you?",
-            "responseText": "This is Vivienne—my wife, my weapon, my queen. She's the blade behind the velvet. Underestimate her, and you'll be choking on your own blood before you finish blinking.",
-            "followUpOptions": [
-                {
-                    "optionText": "Your wife looks like she stepped out of a pre-war painting. Lucky man.",
-                    "responseText": "Vivienne is my masterpiece—flawless, loyal, deadly. Respect that, and you'll enjoy your stay immensely."
-                }
-            ]
-        },
-        {
-            "optionText": "The Enclave has a... controversial reputation. Mind explaining your grand plan?",
-            "responseText": "Controversial to the ignorant. Our mission is simple: eradicate weakness, purge degeneracy, and rebuild America stronger than ever. Are you ready to be part of history?",
-            "followUpOptions": [
-                {
-                    "optionText": "Sounds ambitious. Got room for another patriot?",
-                    "responseText": "Ambition recognizes ambition. You'll fit right in—so long as your actions continue matching your bravado."
-                },
-                {
-                    "optionText": "Isn't that a bit extreme?",
-                    "responseText": "Extreme? You have no idea. Mercy breeds weakness, and weakness breeds decay. I'll carve purity into America's flesh with fire and steel, no matter the cost."
-                },
-                {
-                    "optionText": "Seems you enjoy playing god.",
-                    "responseText": "Gods show mercy—I do not. If I play anything, it's executioner. Cross me, and you'll experience that firsthand."
-                } 
-            ]
-        },     
-        {
-            "optionText": "Bye",
-            "responseText": "Dismissed. America awaits greatness—and your role in it.",
-            "exitLine": true
+          "optionText": "Só entrei por acaso. Acho que a segurança por aqui anda meio frouxa.",
+          "responseText": "Cuidado. Sua insolência me diverte, mas me divertirá mais ainda assistir ao seu fim lento. Saia agora, ou experimente em primeira mão o que fazemos com intrusos.",
+          "exitLine": true
         }
-    ],
-    "auto_lines": ["Vivienne, dear, it seems we have vermin again. How quaint. Excellent timing—my last execution was disappointingly brief. Perhaps you'll entertain me longer."],
-    "showShadowFigures": "Enclave Base"
+      ]
+    },
+    {
+      "optionText": "Bela estrutura. Este lugar foi criação sua?",
+      "responseText": "Suposição lisonjeira, mas não. Não sou arquiteto; sou um conquistador. Esta instalação é anterior a mim. Construída antes da guerra, destinava-se a preservar a liderança americana. Agora é minha e, sob minha liderança, finalmente cumpre seu destino — reconstruir a América a partir dessas cinzas.",
+      "followUpOptions": [
+        {
+          "optionText": "Quem exatamente construiu esta base, se não você?",
+          "responseText": "A liderança do velho mundo, aqueles que previram a queda da América. Eles prepararam bunkers como este para a reconstrução assim que a fumaça se dissipasse. Nós somos seus herdeiros de direito."
+        }
+      ]
+    },
+    {
+      "optionText": "Quem é a mulher ao seu lado?",
+      "responseText": "Esta é Vivienne — minha esposa, minha arma, minha rainha. Ela é a lâmina por trás do veludo. Subestime-a, e você se engasgará com seu próprio sangue antes de terminar de piscar.",
+      "followUpOptions": [
+        {
+          "optionText": "Sua esposa parece ter saído de uma pintura pré-guerra. Homem de sorte.",
+          "responseText": "Vivienne é minha obra-prima — impecável, leal, mortal. Respeite isso, e você aproveitará imensamente sua estadia."
+        }
+      ]
+    },
+    {
+      "optionText": "O Enclave tem uma reputação... controversa. Se importa de explicar seu grande plano?",
+      "responseText": "Controversa para os ignorantes. Nossa missão é simples: erradicar a fraqueza, purgar a degeneração e reconstruir a América mais forte do que nunca. Você está pronto para fazer parte da história?",
+      "followUpOptions": [
+        {
+          "optionText": "Parece ambicioso. Tem espaço para mais um patriota?",
+          "responseText": "A ambição reconhece a ambição. Você se encaixará perfeitamente — contanto que suas ações continuem correspondendo à sua bravata."
+        },
+        {
+          "optionText": "Isso não é um pouco extremo?",
+          "responseText": "Extremo? Você não tem ideia. A misericórdia gera fraqueza, e a fraqueza gera decadência. Vou esculpir a pureza na carne da América com fogo e aço, não importa o custo."
+        },
+        {
+          "optionText": "Parece que você gosta de bancar o deus.",
+          "responseText": "Deuses mostram misericórdia — eu não. Se eu banco alguma coisa, é de carrasco. Cruse meu caminho, e você experimentará isso em primeira mão."
+        }
+      ]
+    },
+    {
+      "optionText": "Tchau",
+      "responseText": "Dispensado. A América aguarda a grandeza — e seu papel nela.",
+      "exitLine": true
+    }
+  ],
+  "auto_lines": [
+    "Vivienne, querida, parece que temos vermes de novo. Que pitoresco. Ótimo momento — minha última execução foi decepcionantemente breve. Talvez você me entretenha por mais tempo."
+  ],
+  "showShadowFigures": "Enclave Base"
 }

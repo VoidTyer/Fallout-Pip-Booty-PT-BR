@@ -1,14 +1,13 @@
 {
-    "options": [
-      {
-        "optionText": "[Kill]",
-        "itemRequired": "Knife",
-        "exitLine": true,
-        "fadeOutCharacter": true, 
-        "playSound": "stab",
-        "nutSuckerKilled": true,
-        "responseTexts": [ "<i>*Skreeee*</i>", "<i>*Zzzreep*</i>" ]
-      }
-    ]
-  }
-  
+  "options": [
+    {
+      "optionText": "[Matar]",
+      "itemRequired": "Knife",
+      "exitLine": true,
+      "fadeOutCharacter": true,
+      "playSound": "stab",
+      "nutSuckerKilled": true,
+      "responseTexts": ["<i>*Skreeee*</i>", "<i>*Zzzreep*</i>"]
+    }
+  ]
+}

@@ -1,105 +1,109 @@
 {
-    "options": [
+  "options": [
     {
-        "optionText": "[Hand over Diana's panties]",
-        "icon": "GUI/quest mark",
-        "auto_lines": [ "Holy shit, you absolute psycho, you actually got them?! I'm about to transcend into another dimension of degeneracy. These panties are my fucking Excalibur. I'll name my kids after you!" ],
-        "dontDisplayIfObjectiveComplete": "Get Diana's Panties for Jass",
-        "onlyDisplayIfHasObjective": "Get Diana's Panties for Jass",
-        "giveItemToCharacter": "Diana's Panties",
-        "itemRequired": "Diana's Panties",
-        "emotion": "Characters/The Shameful Stroker/emotions/red",
-        "dontResetEmotionOnExit": true,
-        "markObjectiveComplete": "Get Diana's Panties for Jass", 
-        "addGripGaugePoints": 200,
-        "addSusPoints": 10,
-        "exitLine": true
+      "optionText": "[Entregar a calcinha da Diana]",
+      "icon": "GUI/quest mark",
+      "auto_lines": [
+        "Puta merda, seu psicopata, você conseguiu mesmo?! Estou prestes a transcender para outra dimensão da depravação. Esta calcinha é a porra da minha Excalibur. Vou dar o seu nome aos meus filhos!"
+      ],
+      "dontDisplayIfObjectiveComplete": "Get Diana's Panties for Jass",
+      "onlyDisplayIfHasObjective": "Get Diana's Panties for Jass",
+      "giveItemToCharacter": "Diana's Panties",
+      "itemRequired": "Diana's Panties",
+      "emotion": "Characters/The Shameful Stroker/emotions/red",
+      "dontResetEmotionOnExit": true,
+      "markObjectiveComplete": "Get Diana's Panties for Jass",
+      "addGripGaugePoints": 200,
+      "addSusPoints": 10,
+      "exitLine": true
     },
     {
-        "optionText": "Who are you?",
-        "responseText": "I'm Hugh Jass—the vault’s undisputed wanking warlord. Caught spanking the mutant radroach so many times, they locked me in here forever.",
-        "followUpOptions": [
+      "optionText": "Quem é você?",
+      "responseText": "Eu sou Hugh Jass — o indiscutível senhor da guerra da punheta do refúgio. Fui pego batendo uma para a radroach mutante tantas vezes que me trancaram aqui para sempre.",
+      "followUpOptions": [
+        {
+          "optionText": "Como você foi pego tantas vezes?",
+          "responseText": "Você já bateu uma com tanta violência que se tornou um problema de segurança pública? Eu já. Tente viver aqui quando até as malditas batatas começam a parecer fodíveis. A Polícia da Pureza finalmente mandou tudo à merda e me trancou aqui como uma exibição de zoológico excitada.",
+          "followUpOptions": [
             {
-                "optionText": "How did you even end up being caught so many times?",
-                "responseText": "You ever jerk off so violently it becomes a public safety issue? I have. You try living here when even the goddamn potatoes start looking fuckable. The Purity Police finally just said fuck it and locked me here like a horny zoo exhibit.",
-                "followUpOptions": [ 
-                    {
-                        "optionText": "Ever tried… you know, stopping?",
-                        "responseText": "Stopping? Are you high? Might as well ask a Deathclaw to cuddle your nuts gently. I'm beyond redemption, bro. I'm just chasing that legendary Emergency Release Button until my dick falls off—and even then, I'll probably find a workaround.",
-                        "followUpOptions": [
-                            {
-                                "optionText": "Emergency Release Button? The fuck?",
-                                "responseText": "Legend says it's hidden deep in the vault—press it, and a glorious stash of pre-war porn mags appear. I'm talking vintage titties, classy bush, the real good shit—not that wasteland amateur trash. It's booby-trapped, literally, but I'd sacrifice both my balls for it."
-                            },
-                            {
-                                "optionText": "You think it’s actually real?",
-                                "responseText": "Real or not, chasing the Release Button is all I got. Either I find it or die mid-stroke trying—win-win, honestly."
-                            }
-                        ]
-                    }
-                ]
+              "optionText": "Já tentou… sabe, parar?",
+              "responseText": "Parar? Você tá chapado? Seria o mesmo que pedir a um Deathclaw para acariciar suas bolas gentilmente. Estou além da redenção, mano. Só estou perseguindo aquele lendário Botão de Liberação de Emergência até meu pau cair — e mesmo assim, provavelmente encontrarei uma gambiarra.",
+              "followUpOptions": [
+                {
+                  "optionText": "Botão de Liberação de Emergência? Que porra é essa?",
+                  "responseText": "A lenda diz que está escondido nas profundezas do refúgio — aperte-o, e um glorioso estoque de revistas pornô pré-guerra aparece. Estou falando de peitões vintage, moitas clássicas, a parada boa de verdade — não aquele lixo amador dos Ermos. Tem armadilhas, literalmente, mas eu sacrificaria minhas duas bolas por isso."
+                },
+                {
+                  "optionText": "Você acha que é real mesmo?",
+                  "responseText": "Real ou não, perseguir o Botão de Liberação é tudo que eu tenho. Ou eu o encontro ou morro no meio de uma punheta — de qualquer forma, eu ganho, honestamente."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "optionText": "Como é a vida como o punheteiro mais infame do Refúgio?",
+          "responseText": "Do caralho. Claro, estou trancado aqui com reprises intermináveis de programas de TV saudáveis, mas acontece que a repressão sexual só me deixa mais excitado. Se eu tiver que assistir a mais uma maratona de 'Papai Sabe Tudo', talvez eu foda a própria TV."
+        },
+        {
+          "optionText": "Por que não faz algo útil? Como plantar batatas?",
+          "responseText": "Plantar batatas? Nah, prefiro transar com elas. Olha pra mim — eu já sou meio vegetal."
+        }
+      ]
+    },
+    {
+      "optionText": "O que você faz aqui o dia todo, além de bater uma, claro?",
+      "responseText": "Principalmente fantasiando sobre uma terra mítica onde um homem pode bater uma em paz sem que um policial do refúgio sem pau invada no meio do ato. Onde a Polícia da Pureza não passa de más lembranças, um paraíso de caos sexual, bordéis mutantes e nenhuma maldita batata."
+    },
+    {
+      "optionText": "Você precisa de alguma coisa?",
+      "icon": "GUI/quest mark",
+      "dontDisplayIfObjectiveComplete": "Get Diana's Panties for Jass",
+      "dontDisplayIfHasObjective": "Get Diana's Panties for Jass",
+      "dontShowIfProgressionEventPlayed": "refused_jass_request",
+      "responseText": "Na verdade, tenho um pedido bem fudido — é depravado, doentio e provavelmente suicida. Interessado?",
+      "followUpOptions": [
+        {
+          "optionText": "Continue, qual é esse favor fudido?",
+          "responseText": "Eu quero a calcinha da Diana. É, eu sei. Doentio, né? Mas imagina cheirar aquele tecido proibido, cara — ouro puro da depravação. Eu estrangularia um yao guai com o meu pau só por uma cheirada.",
+          "followUpOptions": [
+            {
+              "optionText": "Você quer a calcinha da Diana? Você é maluco pra caralho.",
+              "responseText": "Com certeza. Sanidade é superestimada. Se você me trouxer aquela calcinha, seremos lendas eternas — eles vão renomear a Câmara da Vergonha em nossa homenagem."
             },
             {
-                "optionText": "What's life like as the Vault’s most infamous fapper?",
-                "responseText": "Fucking amazing. Sure, I’m locked in here with endless wholesome TV reruns, but it turns out sexual repression just makes me hornier. If I have to watch one more Leave It to Beaver marathon, I might just fuck the TV itself."
-            }, 
+              "optionText": "Sem chance, não vou morrer para me tornar o 'Bandido da Calcinha'.",
+              "responseText": "Morrer? Mano, arriscar sua vida por uma calcinha é o auge da existência humana. Um roubo de calcinha e você se tornaria uma lenda do caralho — o Supervisor invejaria suas bolas."
+            },
             {
-                "optionText": "Why not do something useful? Like farming potatoes?",
-                "responseText": "Grow potatoes? Nah, I'd rather hump 'em. Look at me—I'm already half vegetable myself."
+              "optionText": "Beleza, mas quando a Diana matar nós dois, vou culpar você por cada osso quebrado.",
+              "responseText": "Vale totalmente a pena, mano. Morreremos cheirando a grandeza. Eles erguerão monumentos à nossa perversão!",
+              "addObjective": "Get Diana's Panties for Jass",
+              "progressionEventPlayed": "took_jass_request",
+              "showChoiceStats": "took_jass_request",
+              "icon": "GUI/quest mark",
+              "exitLine": true
+            },
+            {
+              "optionText": "[Denunciá-lo]",
+              "progressionEventPlayed": "refused_jass_request",
+              "showChoiceStats": "refused_jass_request",
+              "onlyShowIfProgressionEventPlayed": "REMOVED",
+              "reported": 1,
+              "responseText": "Ah, muito elegante da sua parte, porra. Eu já fui banido da sociedade. Espero que a Polícia da Pureza te recompense com rações extras de batata, cuzão. Aproveite sua filiação vitalícia no clube dos empata-foda.",
+              "exitLine": true
             }
-        ]
+          ]
+        }
+      ]
     },
     {
-        "optionText": "What do you do in here all day, aside from fapping, of course?",
-        "responseText": "Mostly fantasize about a mythical land where a man can fap in peace without some dickless vault cop busting in mid-stroke. Where Purity Police are nothing but bad memories, a paradise of sexual mayhem, mutant brothels, and zero goddamn potatoes."
-    }, 
-    {
-        "optionText": "Do you need anything?",
-        "icon": "GUI/quest mark",
-        "dontDisplayIfObjectiveComplete": "Get Diana's Panties for Jass",
-        "dontDisplayIfHasObjective": "Get Diana's Panties for Jass",
-        "dontShowIfProgressionEventPlayed": "refused_jass_request",
-        "responseText": "Actually, I do have one fucked-up request—it's depraved, twisted, and probably suicidal. Interested?",
-        "followUpOptions": [
-            {
-                "optionText": "Go on, what's this fucked-up favor?",
-                "responseText": "I want Diana’s panties. Yeah, I know. Fucked up, right? But imagine sniffing that forbidden fabric, dude—pure degeneracy gold. I'd strangle a yao guai with my dick just for one sniff.",
-                "followUpOptions": [
-                    {
-                        "optionText": "You want Diana’s panties? You're fucking mental.",
-                        "responseText": "Absolutely. Sanity is overrated. You bring me those panties, we'll be eternal legends—they’ll rename the Shame Chamber after us."
-                    },
-                    {
-                        "optionText": "No chance, I’m not dying to become the 'Panty Bandit.'",
-                        "responseText": "Dying? Bro, risking your life for panties is peak human existence. One panty heist and you'd become a goddamn legend—the Overseer would envy your balls."
-                    }, 
-                    {
-                        "optionText": "Fine, but when Diana kills us both, I'm blaming you for every broken bone.",
-                        "responseText": "Totally worth it, bro. We'll die sniffing greatness. They'll erect monuments to our perversion!",
-                        "addObjective": "Get Diana's Panties for Jass",
-                        "progressionEventPlayed": "took_jass_request",
-                        "showChoiceStats": "took_jass_request",
-                        "icon": "GUI/quest mark",
-                        "exitLine": true
-                    },
-                    {
-                        "optionText": "[Report Him]", 
-                        "progressionEventPlayed": "refused_jass_request",
-                        "showChoiceStats": "refused_jass_request", 
-                        "onlyShowIfProgressionEventPlayed": "REMOVED",
-                        "reported": 1,
-                        "responseText": "Oh, real fucking classy. I've already been banned from society. Hope the Purity Police reward you with extra potato rations, asshole. Enjoy your lifetime membership in the cockblock club.",
-                        "exitLine": true
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "optionText": "I'm outta here.",
-        "responseText": "If you stumble on the Emergency Release Button out there, slam it once for your old pal Hugh. I'm rooting for you—literally.",
-        "exitLine": true
+      "optionText": "Tô vazando daqui.",
+      "responseText": "Se você tropeçar no Botão de Liberação de Emergência por aí, aperte-o uma vez pelo seu velho amigo Hugh. Estou torcendo por você — literalmente.",
+      "exitLine": true
     }
-    ],
-    "auto_lines": ["Welcome to the chamber of shame! Population: me... and my right hand. Did you bring lube? No? Eh, rookie mistake."]
+  ],
+  "auto_lines": [
+    "Bem-vindo à câmara da vergonha! População: eu... e minha mão direita. Trouxe lubrificante? Não? Eh, erro de novato."
+  ]
 }

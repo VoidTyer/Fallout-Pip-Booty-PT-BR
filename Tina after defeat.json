@@ -1,96 +1,98 @@
 {
-    "options": [
+  "options": [
+    {
+      "optionText": "Então, o que te faz pensar que eu não deveria simplesmente colocar uma bala entre seus olhos?",
+      "dontDisplayIfObjectiveComplete": "Talk to Tina",
+      "icon": "GUI/quest mark",
+      "responseText": "Opa, opa, vamos com calma no gatilho, gostosão! Você já me humilhou na frente das minhas garotas, certo? Não precisa terminar o serviço. Que tal isso — deixe eu e minhas vadias irmos, e eu melhoro a oferta. Você gosta de tampinhas, certo?",
+      "followUpOptions": [
         {
-            "optionText": "So, what makes you think I shouldn’t just put a bullet between your eyes?", 
-            "dontDisplayIfObjectiveComplete": "Talk to Tina",
-            "icon": "GUI/quest mark",
-            "responseText": "Whoa, whoa, let’s not get trigger-happy, hot stuff! You’ve already humiliated me in front of my girls, alright? No need to finish the job. How about this—let me and my sluts walk, and I’ll sweeten the pot. You like caps, right?",
-            "followUpOptions": [
-                {
-                    "optionText": "Go on.", 
-                    "icon": "GUI/quest mark",
-                    "responseText": "That prissy little piece of tiny ass over there? Grace? Yeah, she’s not just some random wasteland trash. She’s the virgin princess of Cumorah Crest. Her daddy’s a big-shot baron, rolling in caps. I’ll give you her and the coordinates to daddy dearest. You bring her home, he pays you fat stacks and probably throws a parade or some shit.",
-                    "followUpOptions": [
-                        {
-                            "optionText": "Grace? What’s so special about her?",
-                            "responseText": "Oh, you’re gonna love this—she’s the only virgin in the brothel. Like, seriously, the *only* one. You know how hard it is to find someone that pure out here? She’s like... raider gold. The guys love the 'untouched' fantasy, and I was gonna cash in big-time. But hey, your win, my loss. Take her. Be a hero or whatever."
-                        },
-                        {
-                            "optionText": "Caps, huh? And what’s stopping me from just killing you and taking the girl?",
-                            "responseText": "Uh, ever heard of goodwill? You know, not making enemies everywhere you go? Besides, I’ve got her dad’s location. You shoot me, good luck finding him."
-                        },
-                        {
-                            "optionText": "Why the hell should I trust you? You’re a raider.",
-                            "responseText": "Fair point. But if I were lying, wouldn’t I offer you some fake bullshit instead of the truth? Grace’s daddy is loaded, and if you bring her back, you’re set for life. Plus, if I screw you, you’ll just hunt me down anyway, right? Not worth it."
-                        },  
-                        {
-                            "optionText": "Fine. Talk. Give me the coordinates.",
-                            "icon": "GUI/quest mark",
-                            "addObjective": "Talk to Grace",
-                            "markObjectiveComplete": "Talk to Tina",
-                            "dontDisplayIfObjectiveComplete": "Talk to Tina",
-                            "exitLine": true,
-                            "responseText": "That’s the spirit! Alright, listen up—Cumorah Crest is about three days south of here, across the big radstorm belt. Can’t miss it. Fancy walls, all shiny and pre-war looking."
-                        },
-                        {
-                            "optionText": "No deal. You and your sluts die here.",
-                            "dontDisplayIfObjectiveComplete": "Talk to Tina",
-                            "exitLine": true,
-                            "responseText": "Oh, come on! What’s the point? You get nothing outta killing us! Caps, a pretty girl, maybe even some gratitude sex if you play your cards right! You really wanna throw that away just to flex?"
-                        }
-                    ]
-                } 
-            ]
-        },
-        {
-            "optionText": "Who the hell are you, anyway?",
-            "responseText": "Me? I’m Thicc Tina, baby. Raider queen, boss bitch, and the mastermind behind this little slice of paradise. Yeah, the name’s not subtle, but hey, you see all this thiccness? Gotta own it.",
-            "followUpOptions": [
-                {
-                    "optionText": "‘Thicc Tina’? Really?",
-                    "responseText": "You got a problem with it? ‘Thicc’ ain’t just my brand, it’s my lifestyle. And trust me, it’s worked out pretty damn well so far—until you showed up, that is."
-                },
-                {
-                    "optionText": "What is this place? Some kind of raider brothel?",
-                    "responseText": "Damn right it is! Welcome to the Raider Sluts’ den. We give the horny masses what they want—pussy, drinks, and a damn good time.",
-                    "followUpOptions": [
-                        {
-                            "optionText": "So, you run a brothel and call yourselves ‘Raider Sluts’? Subtle.",
-                            "responseText": "Subtlety’s for pre-war office drones. We’re loud, proud, and we know how to party. You got a problem with that?"
-                        }, 
-                        {
-                            "optionText": "How’d you even end up running a place like this?",
-                            "responseText": "Oh, it’s a real rags-to-riches story. Started as a scrappy raider nobody, clawed my way to the top with guts, brains, and these thighs of steel. Now I’ve got my own crew, my own brothel, and big reputation."
-                        },
-                        {
-                            "optionText": "What’s the deal with Grace? Why keep her around?",
-                            "responseText": "Like I said, she’s a unicorn—a virgin in a sea of wasteland degenerates. That makes her valuable as hell. Plus, she’s got that stuck-up, helpless vibe that really sells the whole package. Daddy’s money was just the cherry on top."
-                        }
-                    ]
-                },
-                {
-                    "optionText": "Does your gang call you 'Thicc Tina' to your face, or is that just behind your back?",
-                    "responseText": "Oh, they say it to my face, alright. Because they know I’ll shove a power fist up their ass if they don’t say it with respect.",
-                    "followUpOptions": [
-                        {
-                            "optionText": "Respect? More like fear. Big difference.",
-                            "responseText": "Fear *is* respect in the Wasteland, sweetheart. Maybe you’ll learn that someday—if you live long enough."
-                        },
-                        {
-                            "optionText": "Honestly, fair. I wouldn’t argue with someone your size either.",
-                            "responseText": "Smart move. Stick with that instinct, and you’ll go far out here."
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "optionText": "Got anything to trade?",
-            "icon": "GUI/trade icon",
-            "neverGreyOut": true,
-            "responseText": "Well, well, if it ain't the wasteland pervert come to stock up. Got whiskey strong enough to erase last night and enough Rad-Lube to handle whatever degeneracy you've got planned. You buying, or you just wasting my time?",
-            "isTrading": true
+          "optionText": "Continue.",
+          "icon": "GUI/quest mark",
+          "responseText": "Aquela coisinha metida de bunda pequena ali? A Grace? Sim, ela não é qualquer lixo dos Ermos. Ela é a princesa virgem de Cumorah Crest. O pai dela é um barão importante, nadando em tampinhas. Te dou ela e as coordenadas do papai querido. Você a leva para casa, ele te paga uma grana preta e provavelmente faz um desfile ou alguma merda assim.",
+          "followUpOptions": [
+            {
+              "optionText": "Grace? O que ela tem de tão especial?",
+              "responseText": "Oh, você vai adorar isso — ela é a única virgem no bordel. Tipo, sério, a *única*. Você sabe como é difícil encontrar alguém tão puro por aqui? Ela é tipo... ouro de saqueador. Os caras adoram a fantasia da 'intocada', e eu ia faturar alto. Mas ei, sua vitória, minha derrota. Leve-a. Seja um herói ou o que for."
+            },
+            {
+              "optionText": "Tampinhas, hein? E o que me impede de simplesmente te matar e pegar a garota?",
+              "responseText": "Uh, já ouviu falar de boa vontade? Sabe, não fazer inimigos por onde passa? Além disso, tenho a localização do pai dela. Se você me matar, boa sorte para encontrá-lo."
+            },
+            {
+              "optionText": "Por que diabos eu deveria confiar em você? Você é uma saqueadora.",
+              "responseText": "Justo. Mas se eu estivesse mentindo, não te ofereceria alguma besteira falsa em vez da verdade? O pai da Grace é podre de rico, e se você a levar de volta, está feito para a vida. Além disso, se eu te sacanear, você vai me caçar de qualquer maneira, certo? Não vale a pena."
+            },
+            {
+              "optionText": "Tudo bem. Fale. Dê-me as coordenadas.",
+              "icon": "GUI/quest mark",
+              "addObjective": "Talk to Grace",
+              "markObjectiveComplete": "Talk to Tina",
+              "dontDisplayIfObjectiveComplete": "Talk to Tina",
+              "exitLine": true,
+              "responseText": "Esse é o espírito! Certo, escuta — Cumorah Crest fica a uns três dias ao sul daqui, atravessando o grande cinturão de tempestades de radiação. Não tem como errar. Muros chiques, todos brilhantes e com aparência pré-guerra."
+            },
+            {
+              "optionText": "Sem acordo. Você e suas vadias morrem aqui.",
+              "dontDisplayIfObjectiveComplete": "Talk to Tina",
+              "exitLine": true,
+              "responseText": "Oh, qual é! Qual o sentido? Você não ganha nada nos matando! Tampinhas, uma garota bonita, talvez até sexo de gratidão se jogar suas cartas direito! Você realmente quer jogar isso fora só para se exibir?"
+            }
+          ]
         }
-    ],
-    "auto_lines": [ "Alright, alright, you win! Damn, my girls didn’t even back me up, the traitorous sluts. Now, how about we work something out?" ]
+      ]
+    },
+    {
+      "optionText": "Quem diabos é você, afinal?",
+      "responseText": "Eu? Eu sou a Thicc Tina, querido. Rainha saqueadora, chefe durona e a mente por trás deste pequeno pedaço do paraíso. Sim, o nome não é sutil, mas ei, está vendo toda essa gostosura? Tenho que assumir.",
+      "followUpOptions": [
+        {
+          "optionText": "'Thicc Tina'? Sério?",
+          "responseText": "Tem algum problema com isso? 'Thicc' não é só minha marca, é meu estilo de vida. E confie em mim, funcionou muito bem até agora — até você aparecer, claro."
+        },
+        {
+          "optionText": "O que é este lugar? Algum tipo de bordel de saqueadores?",
+          "responseText": "Pode apostar que sim! Bem-vindo ao covil das Vadias Saqueadoras. Damos às massas com tesão o que elas querem — xoxota, bebidas e um puta tempo bom.",
+          "followUpOptions": [
+            {
+              "optionText": "Então, você administra um bordel e se chamam de 'Vadias Saqueadoras'? Sutil.",
+              "responseText": "Sutileza é para burocratas pré-guerra. Somos barulhentas, orgulhosas e sabemos como festejar. Tem algum problema com isso?"
+            },
+            {
+              "optionText": "Como você acabou administrando um lugar como este?",
+              "responseText": "Oh, é uma verdadeira história de superação. Comecei como uma saqueadora qualquer, lutei para chegar ao topo com coragem, cérebro e estas coxas de aço. Agora tenho minha própria equipe, meu próprio bordel e uma grande reputação."
+            },
+            {
+              "optionText": "Qual é a da Grace? Por que mantê-la por perto?",
+              "responseText": "Como eu disse, ela é um unicórnio — uma virgem em um mar de degenerados dos Ermos. Isso a torna valiosa pra caralho. Além disso, ela tem aquela vibe de metida e indefesa que realmente vende o pacote completo. O dinheiro do papai era só a cereja do bolo."
+            }
+          ]
+        },
+        {
+          "optionText": "Sua gangue te chama de 'Thicc Tina' na sua cara, ou só pelas costas?",
+          "responseText": "Oh, eles dizem na minha cara, sim. Porque sabem que vou enfiar um punho biônico no cu deles se não disserem com respeito.",
+          "followUpOptions": [
+            {
+              "optionText": "Respeito? Mais para medo. Grande diferença.",
+              "responseText": "Medo *é* respeito nos Ermos, docinho. Talvez você aprenda isso algum dia — se viver o suficiente."
+            },
+            {
+              "optionText": "Sinceramente, justo. Eu também não discutiria com alguém do seu tamanho.",
+              "responseText": "Escolha inteligente. Siga esse instinto e você irá longe por aqui."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "optionText": "Tem algo para trocar?",
+      "icon": "GUI/trade icon",
+      "neverGreyOut": true,
+      "responseText": "Bem, bem, se não é o pervertido dos Ermos vindo se abastecer. Tenho uísque forte o suficiente para apagar a noite passada e Rad-Lube o bastante para lidar com qualquer depravação que você planejou. Vai comprar ou só está perdendo meu tempo?",
+      "isTrading": true
+    }
+  ],
+  "auto_lines": [
+    "Tudo bem, tudo bem, você venceu! Caramba, minhas garotas nem me apoiaram, as vadias traiçoeiras. Agora, que tal a gente resolver isso?"
+  ]
 }

@@ -1,155 +1,155 @@
 {
-    "options": [
+  "options": [
+    {
+      "optionText": "Ei, Diana, eu uh... preciso de um favor.",
+      "icon": "GUI/quest mark",
+      "onlyDisplayIfHasObjective": "Get Diana's Panties for Jass",
+      "dontShowIfProgressionEventPlayed": "diana_panties_received",
+      "responseText": "Mmm, um favor, hein? Isso soa perigoso vindo de você. O que é? Desembucha antes que eu fique entediada.",
+      "followUpOptions": [
         {
-            "optionText": "Hey, Diana, I uh... need a favor.", 
-            "icon": "GUI/quest mark",
-            "onlyDisplayIfHasObjective": "Get Diana's Panties for Jass",
-            "dontShowIfProgressionEventPlayed": "diana_panties_received",
-            "responseText": "Mmm, a favor, huh? That sounds dangerous coming from you. What is it? Spit it out before I get bored.",
-            "followUpOptions": [ 
+          "optionText": "Estou, uh, coletando algo para um... experimento do refúgio. Sabe, coisas de ciência. Posso pegar sua... um... calcinha?",
+          "responseText": "Ah, calcinha? Bem, eu adoro um homem da pesquisa... mas não. Se alguém vai fazer experimentos com minha calcinha, serei eu. Boa tentativa, no entanto.",
+          "followUpOptions": [
+            {
+              "optionText": "Sabe, estou apenas pedindo por... um pedaço de tecido. Nada muito estranho, certo?",
+              "responseText": "Um pedaço de tecido? Querido, essa é a forma mais indireta que já ouvi alguém pedir minha roupa íntima. O que vem a seguir, quer pegar meu sutiã emprestado também?"
+            },
+            {
+              "optionText": "É para um, uh... amigo. Eles me desafiaram. Posso, por favor, pegar um par?",
+              "responseText": "Olha, não sei que tipo de aposta você perdeu, mas de jeito nenhum vou entregar minha calcinha só para salvar sua bunda."
+            },
+            {
+              "optionText": "Ok, tudo bem, você me pegou. Alguém no refúgio... uh, me pediu para pegá-las. Não pergunte por quê.",
+              "responseText": "Ahh, então você é o novo garoto de entregas para pervertidos do refúgio, hein? Fofo. Bem, pode voltar e dizer a eles que se quiserem minha calcinha, terão que fazer mais do que enviar um intermediário. Tipo, não sei, talvez desenvolver algum autorrespeito.",
+              "followUpOptions": [
                 {
-                    "optionText": "I’m, uh, collecting something for a... vault experiment. You know, science stuff. Can I get your... um... panties?",
-                    "responseText": "Oh, panties? Well, I do love a man of research... but no. If anyone’s gonna be experimenting with my panties, it's me. Nice try though.",
-                    "followUpOptions": [
-                        {
-                            "optionText": "You know, I’m just asking for... a piece of fabric. Nothing too weird, right?",
-                            "responseText": "A piece of fabric? Sweetie, that’s the most roundabout way I’ve ever heard someone ask for my underwear. What’s next, you wanna borrow my bra too?"
-                        },
-                        {
-                            "optionText": "It’s for a, uh... friend. They dared me. Can I please just... get a pair?",
-                            "responseText": "Look, I don’t know what kind of bet you lost, but there’s no way I’m handing over my panties just to save your sorry ass."
-                        }, 
-                        {
-                            "optionText": "Okay, fine, you got me. Someone in the vault... uh, asked me to get them. Don’t ask why.",
-                            "responseText": "Ahh, so you’re the vault’s new delivery boy for pervs, huh? Cute. Well, you can go back and tell them that if they want my panties, they’ll have to do more than send a middleman. Like, I don’t know, maybe develop some self-respect.",
-                            "followUpOptions": [
-                                {
-                                    "optionText": "I figured you’d say no. Had to try though, right?",
-                                    "responseText": "Oh, I’m glad you tried. But, sweetie, I don’t hand out my panties like vault-issued jumpsuits. Keep dreaming."
-                                },
-                                {
-                                    "optionText": "Come on, Diana, you know me. We’ve been through some shit. Just help me out?",
-                                    "relationshipRequired": 35, 
-                                    "giveItem": "Diana's Panties",
-                                    "progressionEventPlayed": "diana_panties_received",
-                                    "exitLine": true,
-                                    "dontDisplayIfObjectiveComplete": "Get Diana's Panties for Jass",
-                                    "failedCheckResponse": "Wow, bold move there. Maybe start with, like, a Vault-Tec manual on 'Basic Human Interaction' before you go straight for the weird stuff. Nice try, though. Points for... enthusiasm?",
-                                    "responseText": "*Laughs* Oh, fine. I guess you’ve earned it after all this time. You want me to strip right here? Fine. Enjoy the show, honey. ♥︎" 
-                                }
-                            ]
-                        }
-                     ]
-                } 
-            ]
-        },
-        {
-            "optionText": "[Hand over Lingerie]",
-            "icon": "GUI/quest mark",
-            "responseText": "Oh my... I knew you had good taste, but this? Darling, you've outdone yourself! Those are fabulous! Thank you!", 
-            "onlyDisplayIfHasObjective": "Get lingerie for Diana",
-            "giveItemToCharacter": "Red Lingerie",
-            "itemRequired": "Red Lingerie",
-            "relationshipPoints": 15,
-            "markObjectiveComplete": "Get lingerie for Diana",
-            "exitLine": true
-        },
-        {
-            "optionText": "[Hand over Dildo]",
-            "icon": "GUI/quest mark",
-            "responseText": "Oh my... you really know how to satisfy a girl’s cravings. I’ve been waiting all day for someone to hand me a big, firm... dildo. Thank you.", 
-            "onlyDisplayIfHasObjective": "Get dildo for Diana",
-            "giveItemToCharacter": "Monster Dildo",
-            "itemRequired": "Monster Dildo",
-            "relationshipPoints": 20,
-            "markObjectiveComplete": "Get dildo for Diana",
-            "exitLine": true
-        },
-        {
-            "optionText": "Have you seen what’s happening? The vault turned into a full-on orgy!",
-            "gripGaugeRequired": 5000,
-            "hideOptionIfReqCheckFailed": true,
-            "responseText": "Oh, you mean the 'Fapocalypse'? Yeah, I noticed. I had a front-row seat to the orgy at the Diner. Some guy used a pile of mashed potatoes as lube. Really brings a tear to your eye.",
-            "followUpOptions": [
-                {
-                    "optionText": "I might’ve, uh… had a little something to do with that. I kinda helped the Fap Resistance Leader… y’know, distribute some, uh, fap material.",
-                    "responseText": "So that’s why I found a vault-wide subscription to ‘Pre-War Buns Monthly’ under my door. I should’ve known you were involved. You’ve single-handedly turned this place from a nunnery to an adult film studio."
+                  "optionText": "Imaginei que você diria não. Tinha que tentar, né?",
+                  "responseText": "Oh, fico feliz que tentou. Mas, querido, eu não distribuo minhas calcinhas como macacões do refúgio. Continue sonhando."
                 },
                 {
-                    "optionText": "So… you cool with all this chaos?",
-                    "responseText": "Cool with it? Please. I’ve been waiting for this day since they handed me my first vault-issued chastity pamphlet. Watching the Purity Police scramble while people are literally fapping in the hallways? That’s the kind of poetic justice I live for."
+                  "optionText": "Vamos, Diana, você me conhece. Passamos por poucas e boas. Apenas me ajude?",
+                  "relationshipRequired": 35,
+                  "giveItem": "Diana's Panties",
+                  "progressionEventPlayed": "diana_panties_received",
+                  "exitLine": true,
+                  "dontDisplayIfObjectiveComplete": "Get Diana's Panties for Jass",
+                  "failedCheckResponse": "Uau, que jogada ousada. Talvez comece com, tipo, um manual da Vault-Tec sobre 'Interação Humana Básica' antes de ir direto para as coisas estranhas. Boa tentativa, no entanto. Pontos pelo... entusiasmo?",
+                  "responseText": "*Risos* Oh, tudo bem. Acho que você mereceu depois de todo esse tempo. Quer que eu me dispa aqui mesmo? Certo. Aproveite o show, querido. ♥︎"
                 }
-            ]
-        },
-        {
-            "optionText": "What are you drinking there?",
-            "responseText": "Oh, this? Just a mix of coffee and the tears of people who try too hard. Thought you might want a sip, since you fit the demographic so well. Just kidding.",
-            "followUpOptions": [
-                {
-                    "optionText": "You drink tears? That’s hardcore.",
-                    "responseText": "When you've seen as much idiocy as I have, tears are basically a vitamin supplement. Keeps me from losing brain cells by proximity."
-                },
-                {
-                    "optionText": "I’ll stick to water, thanks.",
-                    "responseText": "Water? Wow, living dangerously, I see."
-                }
-            ]
-        }, 
-        {
-            "optionText": "How’s your day going?",
-            "responseText": "A parade of incompetence, as usual. But I did manage to enjoy this lukewarm excuse for coffee, so that's something, I guess.",
-            "followUpOptions": [ 
-                {
-                    "optionText": "Mind if I join you? [End Day]",
-                    "isHangingOutWithDiana": true,
-                    "relationshipPoints": 2,
-                    "responseText": "Only if you're planning on sitting there quietly.",
-                    "exitLine": true
-                }
-            ]
-        }, 
-        {
-            "optionText": "So, what do you think about the food here?",
-            "responseText": "Oh, you mean the flavorless sludge they have the nerve to call 'nutritionally balanced'? It’s like someone tried to make depression edible and somehow succeeded.",
-            "followUpOptions": [
-                {
-                    "optionText": "But it’s healthy, right?",
-                    "responseText": "Sure, if your definition of ‘healthy’ includes slowly wishing for death with every bite. Honestly, I think I’d get more nutrients licking the cafeteria floor.",
-                    "followUpOptions": [
-                        {
-                            "optionText": "Oh, I’d watch it.",
-                            "responseText": "Wow, desperate much? If watching me lick the floor is what gets you going, you’re beyond help."
-                        },
-                        {
-                            "optionText": "Come on, I bet you'd look great doing it.",
-                            "responseText": "Oh, is that what you fantasize about at night? Me, bent over, licking the floor like some pre-war pin-up girl? Get a grip. I don’t do charity work, especially for guys who are one step away from licking the floor themselves."
-                        },
-                        {
-                            "optionText": "You’ve got to have better things to lick around here.",
-                            "responseText": "Oh, I do, but trust me—you’d never get close enough to find out. Besides, you’d probably cum the second I unzipped this jumpsuit, and I’m not here to mop up your mess."
-                        }
-                     ]
-                },
-                {
-                    "optionText": "What’s the best thing you’ve ever had to eat, then?",
-                    "responseText": "Before this prison? I had this steak once—perfectly cooked, seasoned like it was crafted by the gods."
-                },
-                {
-                    "optionText": "Come on, it’s not *that* bad, right?",
-                    "responseText": "Not that bad? It's *that* bad that they should label it ‘For External Use Only.’"
-                }
-            ]
-        },
-        {
-            "optionText": "[Give a Gift]",
-            "icon": "GUI/gift icon",
-            "neverGreyOut": true,
-            "isGifting": true
-        },
-        {
-            "optionText": "Bye",
-            "responseText": "Don’t let the vault door hit you on the way out.",
-            "exitLine": true
+              ]
+            }
+          ]
         }
-    ]
+      ]
+    },
+    {
+      "optionText": "[Entregar Lingerie]",
+      "icon": "GUI/quest mark",
+      "responseText": "Oh, meu... eu sabia que você tinha bom gosto, mas isso? Querido, você se superou! São fabulosas! Obrigada!",
+      "onlyDisplayIfHasObjective": "Get lingerie for Diana",
+      "giveItemToCharacter": "Red Lingerie",
+      "itemRequired": "Red Lingerie",
+      "relationshipPoints": 15,
+      "markObjectiveComplete": "Get lingerie for Diana",
+      "exitLine": true
+    },
+    {
+      "optionText": "[Entregar Dildo]",
+      "icon": "GUI/quest mark",
+      "responseText": "Oh, meu... você realmente sabe como satisfazer os desejos de uma garota. Esperei o dia todo para alguém me entregar um... dildo grande e firme. Obrigada.",
+      "onlyDisplayIfHasObjective": "Get dildo for Diana",
+      "giveItemToCharacter": "Monster Dildo",
+      "itemRequired": "Monster Dildo",
+      "relationshipPoints": 20,
+      "markObjectiveComplete": "Get dildo for Diana",
+      "exitLine": true
+    },
+    {
+      "optionText": "Você viu o que está acontecendo? O refúgio virou uma orgia completa!",
+      "gripGaugeRequired": 5000,
+      "hideOptionIfReqCheckFailed": true,
+      "responseText": "Ah, você quer dizer o 'Sirirocalipse'? Sim, eu notei. Tive um lugar na primeira fila para a orgia no Restaurante. Um cara usou uma pilha de purê de batatas como lubrificante. Realmente comove.",
+      "followUpOptions": [
+        {
+          "optionText": "Eu talvez, uh… tenha tido algo a ver com isso. Eu meio que ajudei o Líder da Resistência da Masturbação… sabe, a distribuir algum, uh, material de masturbação.",
+          "responseText": "Então é por isso que encontrei uma assinatura para todo o refúgio de ‘Bumbuns Pré-Guerra Mensal’ debaixo da minha porta. Eu deveria saber que você estava envolvido. Você sozinho transformou este lugar de um convento em um estúdio de cinema adulto."
+        },
+        {
+          "optionText": "Então… você está de boa com todo esse caos?",
+          "responseText": "De boa com isso? Por favor. Eu esperei por este dia desde que me deram meu primeiro panfleto de castidade do refúgio. Ver a Polícia da Pureza se atrapalhar enquanto as pessoas estão literalmente se masturbando nos corredores? Esse é o tipo de justiça poética pela qual eu vivo."
+        }
+      ]
+    },
+    {
+      "optionText": "O que você está bebendo aí?",
+      "responseText": "Ah, isto? Apenas uma mistura de café e as lágrimas de pessoas que se esforçam demais. Pensei que você talvez quisesse um gole, já que se encaixa tão bem no perfil. Brincadeirinha.",
+      "followUpOptions": [
+        {
+          "optionText": "Você bebe lágrimas? Isso é radical.",
+          "responseText": "Quando você já viu tanta idiotice como eu, lágrimas são basicamente um suplemento vitamínico. Me impede de perder células cerebrais por proximidade."
+        },
+        {
+          "optionText": "Vou ficar com água, obrigado.",
+          "responseText": "Água? Uau, vivendo perigosamente, vejo."
+        }
+      ]
+    },
+    {
+      "optionText": "Como vai seu dia?",
+      "responseText": "Um desfile de incompetência, como sempre. Mas consegui aproveitar esta desculpa morna para café, então já é alguma coisa, eu acho.",
+      "followUpOptions": [
+        {
+          "optionText": "Se importa se eu me juntar a você? [Terminar o Dia]",
+          "isHangingOutWithDiana": true,
+          "relationshipPoints": 2,
+          "responseText": "Só se você planeja ficar aí sentado em silêncio.",
+          "exitLine": true
+        }
+      ]
+    },
+    {
+      "optionText": "Então, o que você acha da comida daqui?",
+      "responseText": "Ah, você quer dizer a lama sem sabor que eles têm a coragem de chamar de 'nutricionalmente balanceada'? É como se alguém tentasse tornar a depressão comestível e de alguma forma conseguisse.",
+      "followUpOptions": [
+        {
+          "optionText": "Mas é saudável, certo?",
+          "responseText": "Claro, se sua definição de ‘saudável’ inclui desejar lentamente a morte a cada mordida. Sinceramente, acho que obteria mais nutrientes lambendo o chão do refeitório.",
+          "followUpOptions": [
+            {
+              "optionText": "Oh, eu assistiria isso.",
+              "responseText": "Uau, desesperado, hein? Se me ver lamber o chão é o que te excita, você não tem mais salvação."
+            },
+            {
+              "optionText": "Vamos lá, aposto que você ficaria ótima fazendo isso.",
+              "responseText": "Oh, é com isso que você fantasia à noite? Eu, curvada, lambendo o chão como uma garota pin-up pré-guerra? Se controla. Não faço trabalho de caridade, especialmente para caras que estão a um passo de lamber o chão eles mesmos."
+            },
+            {
+              "optionText": "Você deve ter coisas melhores para lamber por aqui.",
+              "responseText": "Oh, eu tenho, mas confie em mim—você nunca chegaria perto o suficiente para descobrir. Além disso, você provavelmente gozaria no segundo em que eu abrisse o zíper deste macacão, e não estou aqui para limpar sua bagunça."
+            }
+          ]
+        },
+        {
+          "optionText": "Qual foi a melhor coisa que você já comeu, então?",
+          "responseText": "Antes desta prisão? Comi um bife uma vez—perfeitamente cozido, temperado como se tivesse sido feito pelos deuses."
+        },
+        {
+          "optionText": "Vamos lá, não é *tão* ruim, certo?",
+          "responseText": "Não é tão ruim? É *tão* ruim que deveriam rotular como ‘Apenas para Uso Externo’."
+        }
+      ]
+    },
+    {
+      "optionText": "[Dar um Presente]",
+      "icon": "GUI/gift icon",
+      "neverGreyOut": true,
+      "isGifting": true
+    },
+    {
+      "optionText": "Tchau",
+      "responseText": "Não deixe a porta do refúgio te acertar na saída.",
+      "exitLine": true
+    }
+  ]
 }

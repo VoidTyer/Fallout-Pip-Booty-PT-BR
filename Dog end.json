@@ -1,11 +1,13 @@
 {
-    "options": [
-        {
-            "optionText": "Who's a good boy?",
-            "playSound": "Characters/Dog/dog guilty",
-            "exitLine": true,
-            "responseTexts": ["Whine... <i>(tail tucked, avoiding eye contact)"] 
-        } 
-    ],
-    "showShadowFigures": "Diner ending dog"
+  "options": [
+    {
+      "optionText": "Quem é um bom garoto?",
+      "playSound": "Characters/Dog/dog guilty",
+      "exitLine": true,
+      "responseTexts": [
+        "Choraminga... <i>(rabo entre as pernas, evitando contato visual)</i>"
+      ]
+    }
+  ],
+  "showShadowFigures": "Diner ending dog"
 }

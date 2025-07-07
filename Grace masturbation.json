@@ -1,86 +1,93 @@
 {
-    "options": [ 
+  "options": [
     {
-        "optionText": "[Watch]",
-        "spriteAtTheEndOfHscene": "Characters/Grace Wells/masturbating",
-        "spriteAtTheEndOfHscenePosition": [ 7.12, -0.6 ],
-        "changeSprite": "Characters/Grace Wells/Focused/masturbating",
-        "setBGcolor": "#FFFFFF",
-        "exitLine": true,
-        "isHEventStarted": true, 
-        "closeDialogueOptions": true,
-        "progressionEventPlayed": "first_grace_masturbation",
-        "newSpriteXPos": 0.8,
-        "newSpriteYPos": 0.3,
-        "swapAnotherCharacterDialogue": [ "Grace Wells", "Characters/Grace Wells/post_fapping"],
-        "icon": "GUI/eye icon",
-        "hEventName": "grace_masturbation",   
-        "lineAfterHevent": "Ahhh… okay, Grace. You officially love touching yourself. Congratulations on becoming the vault’s horniest girl!",
-        "auto_lines": [ "Okay... deep breaths, Grace. It’s just touching, right? How complicated could it be?",
+      "optionText": "[Observar]",
+      "spriteAtTheEndOfHscene": "Characters/Grace Wells/masturbating",
+      "spriteAtTheEndOfHscenePosition": [7.12, -0.6],
+      "changeSprite": "Characters/Grace Wells/Focused/masturbating",
+      "setBGcolor": "#FFFFFF",
+      "exitLine": true,
+      "isHEventStarted": true,
+      "closeDialogueOptions": true,
+      "progressionEventPlayed": "first_grace_masturbation",
+      "newSpriteXPos": 0.8,
+      "newSpriteYPos": 0.3,
+      "swapAnotherCharacterDialogue": [
+        "Grace Wells",
+        "Characters/Grace Wells/post_fapping"
+      ],
+      "icon": "GUI/eye icon",
+      "hEventName": "grace_masturbation",
+      "lineAfterHevent": "Ahhh… ok, Grace. Você oficialmente ama se tocar. Parabéns por se tornar a garota mais excitada do refúgio!",
+      "auto_lines": [
+        "Ok... respira fundo, Grace. É só se tocar, certo? Quão complicado pode ser?",
 
-        "Oh god… oh god… what if someone comes in…",
+        "Oh, Deus… oh, Deus… e se alguém entrar…",
 
-"Why do people make such a fuss about this anyway… like, it's just skin, right? Just—oh... oh my...",
+        "Por que as pessoas fazem tanto alarde sobre isso, afinal… tipo, é só pele, né? Só—oh... oh meu...",
 
-"Ahh… what was that feeling? It felt kinda… sparkly? Tingly?",
+        "Ahh… que sensação foi essa? Foi meio… brilhante? Formigante?",
 
-"Mmm, okay, that feels weirdly good… Why haven't I done this before?",
+        "Mmm, ok, isso é estranhamente bom… Por que eu não fiz isso antes?",
 
-"Oh god, that little button thing... it’s super sensitive. No wonder everyone's obsessed with this!",
+        "Oh, Deus, aquele botãozinho... é super sensível. Não é à toa que todo mundo é obcecado por isso!",
 
-"Uh, is this normal? It’s like… electricity, but good. Really good.",
+        "Uh, isso é normal? É tipo… eletricidade, mas boa. Muito boa.",
 
-"Mmm, okay… slow down, Grace. You’re supposed to savor it, right? Right?",
+        "Mmm, ok… vai com calma, Grace. Você deveria saborear, certo? Certo?",
 
-"Oh… oh wow, I can’t believe I’m actually doing this—mmm… breaking the rules never felt so good…",
+        "Oh… oh uau, não acredito que estou realmente fazendo isso—mmm… quebrar as regras nunca foi tão bom…",
 
-"Ugh… stupid fingers… just… keep going…",
+        "Ugh… dedos estúpidos… só… continuem…",
 
-"Ahh… This whole vault thing is insane. How can they outlaw something this amazing?",
+        "Ahh… Essa coisa toda do refúgio é uma loucura. Como eles podem proibir algo tão incrível?",
 
-"Ah! My legs are shaking… uh, what am I even supposed to think about right now?",
+        "Ah! Minhas pernas estão tremendo… uh, o que eu deveria pensar agora?",
 
-"Mmm, imagining someone's hands instead of mine makes it feel even better… oh god, this is so naughty!",
+        "Mmm, imaginar as mãos de outra pessoa em vez das minhas torna tudo ainda melhor… oh Deus, isso é tão safado!",
 
-"Ah, uh, this wetness—is this normal? Am I supposed to be dripping this much?",
+        "Ah, uh, essa umidade—isso é normal? Eu deveria estar pingando tanto assim?",
 
-"Uhh, oh god… I need more… harder? Faster? I don’t know! Just—mmm—more!",
+        "Uhh, oh Deus… eu preciso de mais… mais forte? Mais rápido? Eu não sei! Só—mmm—mais!",
 
-"I shouldn’t be doing this… but it feels… too good…",
+        "Eu não deveria estar fazendo isso… mas é… bom demais…",
 
-"Ah, oh uh, I think I'm gonna explode if I keep going—uh, is that supposed to happen?!",
+        "Ah, oh uh, acho que vou explodir se continuar—uh, isso deveria acontecer?!",
 
-"Mmm, why didn’t anyone tell me my pussy could feel like this? It’s like discovering a hidden power…",
+        "Mmm, por que ninguém me disse que minha xoxota podia se sentir assim? É como descobrir um poder oculto…",
 
-"Ahhh, uh… why do I keep picturing others watching me right now? Why is this turning me on even more?",
+        "Ahhh, uh… por que eu continuo imaginando outros me observando agora? Por que isso me excita ainda mais?",
 
-"Oh god… mmm… I wish someone was here watching me do this. uh, that’s so dirty… why does that make it even better?",
+        "Oh Deus… mmm… eu queria que alguém estivesse aqui me observando fazer isso. Uh, isso é tão sujo… por que isso torna tudo ainda melhor?",
 
-"Uh, I think I'm close? Am I close? Oh my god, how do I even know!?",
+        "Uh, acho que estou perto? Estou perto? Oh meu Deus, como eu vou saber!?",
 
-"Mmm—oh uh, uh—something’s happening! Oh god, am I breaking something!?",
+        "Mmm—oh uh, uh—algo está acontecendo! Oh Deus, estou quebrando alguma coisa!?",
 
-"Ahhhh… oh god… uh yes… is this it? This feels incredible, I’m gonna cry!",
+        "Ahhhh… oh Deus… uh sim… é isso? Isso é incrível, eu vou chorar!",
 
-"Uh… is this why everyone always looks so happy after sneaking off to their rooms?",
+        "Uh… é por isso que todo mundo sempre parece tão feliz depois de escapar para seus quartos?",
 
-"Ohhh, wow… it’s like my whole body just thanked me. Why didn’t anyone tell me?",
+        "Ohhh, uau… é como se meu corpo inteiro tivesse acabado de me agradecer. Por que ninguém me disse?",
 
-"Mmm, oh my god… I'm definitely doing that again… like, in ten seconds. Is that okay? Can you overdose on this?",
+        "Mmm, oh meu Deus… com certeza vou fazer isso de novo… tipo, em dez segundos. Isso pode? Dá pra ter uma overdose disso?",
 
-"Ahhh, I don’t even care… rules be damned, my pussy demands attention!",
+        "Ahhh, eu nem me importo… que se danem as regras, minha xoxota exige atenção!",
 
-"Oh god, my fingers feel perfect there… is it weird if I call them my new best friends?",
+        "Oh Deus, meus dedos parecem perfeitos lá… é estranho se eu os chamar de meus novos melhores amigos?",
 
-"Uh, thinking about how someone'd react to seeing me like this… it makes me wanna keep going…",
+        "Uh, pensar em como alguém reagiria ao me ver assim… me dá vontade de continuar…",
 
-"Ohh, if touching myself feels this good, how much better could someone's fingers—or something else—feel?",
+        "Ohh, se me tocar é tão bom, quanto melhor os dedos de alguém — ou outra coisa — poderiam ser?",
 
-"God, this is amazing… uh the rules. uh waiting. I need someone to see me like this…"],
-    "endingEffects": ["Flashes"]
+        "Deus, isso é incrível… uh as regras. uh esperar. Preciso que alguém me veja assim…"
+      ],
+      "endingEffects": ["Flashes"]
     }
-    ],
-    "auto_lines": ["Okay... deep breaths, Grace. It’s just touching, right? How complicated could it be?",
+  ],
+  "auto_lines": [
+    "Ok... respira fundo, Grace. É só se tocar, certo? Quão complicado pode ser?",
 
-"Why do people make such a fuss about this anyway… like, it's just skin, right? Just—oh... oh my..." ]
+    "Por que as pessoas fazem tanto alarde sobre isso, afinal… tipo, é só pele, né? Só—oh... oh meu..."
+  ]
 }

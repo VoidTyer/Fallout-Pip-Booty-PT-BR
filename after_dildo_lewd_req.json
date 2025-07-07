@@ -1,19 +1,19 @@
 {
-    "options": [  
+  "options": [
+    {
+      "optionText": "Você vai ficar bem depois disso? Parece que correu uma maratona.",
+      "responseText": "Mmm, querido, sinto como se tivesse corrido uma... de salto... ladeira acima. Mas não se preocupe, ainda tenho muita lenha pra queimar ♥.",
+      "followUpOptions": [
         {
-            "optionText": "You gonna be okay after that? You look like you ran a marathon.",
-            "responseText": "Mmm, honey, I feel like I ran one... in heels... uphill. But don’t worry, I’ve got plenty left in the tank ♥.",
-            "followUpOptions": [
-                {
-                    "optionText": "Plenty left? You sure you’re not about to pass out?",
-                    "responseText": "Pass out? Please. This body’s got more stamina than a Vault-Tec generator. It’s you who’s about to need a nap."
-                } 
-            ]
-        },
-        {
-            "optionText": "Bye.",
-            "responseText": "Leaving already? You didn’t even stay long enough to give me a cigarette, sweetheart ♥. But I’ll be sure to keep you in my thoughts...",
-            "exitLine": true
+          "optionText": "Muita lenha? Tem certeza que não vai desmaiar?",
+          "responseText": "Desmaiar? Por favor. Este corpo tem mais fôlego que um gerador da Vault-Tec. É você quem vai precisar de uma soneca."
         }
-    ]
+      ]
+    },
+    {
+      "optionText": "Tchau.",
+      "responseText": "Já vai? Você nem ficou tempo suficiente para me dar um cigarro, querido ♥. Mas com certeza vou te manter nos meus pensamentos...",
+      "exitLine": true
+    }
+  ]
 }

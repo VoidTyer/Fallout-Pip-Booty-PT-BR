@@ -1,22 +1,22 @@
 {
-    "options": [ 
+  "options": [
+    {
+      "optionText": "Bela vista. Esse é o novo padrão de uniforme do refúgio?",
+      "responseText": "Oh, docinho, se este fosse o novo padrão, estaríamos todos em apuros—ou nos divertindo muito mais. Pena que você está só olhando a vitrine.",
+      "followUpOptions": [
         {
-            "optionText": "Nice view. Is that the vault's new uniform standard?",
-            "responseText": "Oh, sweetie, if this was the new standard, we'd all be in deep trouble—or having a lot more fun. Too bad you're just window shopping.",
-            "followUpOptions": [
-                {
-                    "optionText": "Shopping, huh? What’s the price tag?",
-                    "responseText": "A bit more than you can afford. But hey, keep dreaming."
-                },
-                {
-                    "optionText": "You sure you’re not just flaunting it on purpose?",
-                    "responseText": "Caught me. I live for this moment, turning you into a drooling mess. Consider it a charity case."
-                },
-                {
-                    "optionText": "Maybe you’re the one shopping... for attention.",
-                    "responseText": "If I were, you’d be out of stock. But I like a man with a bit of fight in him. Keep trying."
-                }
-            ]
+          "optionText": "Olhando, hein? Qual é o preço?",
+          "responseText": "Um pouco mais do que você pode pagar. Mas ei, continue sonhando."
+        },
+        {
+          "optionText": "Tem certeza que não está só se exibindo de propósito?",
+          "responseText": "Me pegou. Eu vivo para este momento, te transformando em uma bagunça babona. Considere um caso de caridade."
+        },
+        {
+          "optionText": "Talvez você seja a única que está comprando... por atenção.",
+          "responseText": "Se eu estivesse, você estaria fora de estoque. Mas eu gosto de um homem com um pouco de garra. Continue tentando."
         }
-    ]
+      ]
+    }
+  ]
 }

@@ -1,41 +1,45 @@
 {
-    "options": [
+  "options": [
+    {
+      "optionText": "Nós conseguimos?!",
+      "addPerk": "new_overseer",
+      "responseText": "Claro que conseguimos! Há tanta pornografia pesada circulando que metade dos moradores já está trancada, se masturbando até a desidratação. Somos lendas agora! Hora de comemorar com uma dança da vitória 'sem as mãos'."
+    },
+    {
+      "optionText": "Qual é o próximo passo?",
+      "addPerk": "new_overseer",
+      "responseText": "O próximo passo? MANO. Vamos transformar o refúgio no estúdio pornô mais lendário dos Ermos! Vamos filmar tudo que acontecer aqui — a operação 'Tempestade Pornô' começa agora, e nossos filmes serão a mercadoria mais quente dos Ermos. As tampinhas entram, as calças caem — vamos comandar um império pornô do caralho!",
+      "followUpOptions": [
         {
-            "optionText": "We did it?!",
-            "addPerk": "new_overseer",
-            "responseText": "Hell yeah, we did it! There's so much hardcore smut floating around that half the residents are already holed up, jerking themselves into dehydration. We are legends now! Time to celebrate with a ‘hands-free’ victory dance."
-        }, 
-        {
-            "optionText": "What’s next?",
-            "addPerk": "new_overseer",
-            "responseText": "What’s next? BRO. We're turning the vault into the wasteland's most legendary porn studio! We're gonna film everything that goes down here—operation 'Pornstorm' begins now, and our movies are gonna be the hottest commodity in the wasteland. Caps roll in, pants drop down—we're gonna run a fucking porn empire!",
-            "followUpOptions": [ 
-                {
-                    "optionText": "Operation Pornstorm? Explain.",
-                    "responseText": "Easy, bro. Picture this: we form a *dirty caravan*, rolling across the wasteland with backpacks stuffed with hardcore stuff. We sneak into other vaults dressed as ‘innocent traders.’ We’ll hit ‘em hard, hit ‘em fast. Slip in, slip out, leave them something to tug about. Before they know what's happening, they'll be too busy jerking off to stop us."
-                },
-                {
-                    "optionText": "You really think we’re gonna take over the wasteland with porn?",
-                    "responseText": "Bro, porn is our weapon of mass distraction! We’re gonna make Caesar’s Legion look like a bunch of choir boys. Imagine this: while every raider, settler, etc. is busy wrestling with their dicks, we’re gonna be living like kings in our little empire of fapdom. When they write the history books, they’ll call this the Great Jerk-ening, and WE’LL be the *Fap Founding Fathers*."
-                }
-            ]
+          "optionText": "Operação Tempestade Pornô? Explique.",
+          "responseText": "Fácil, mano. Imagine só: formamos uma *caravana da sacanagem*, viajando pelos Ermos com mochilas cheias de material pesado. Entramos em outros refúgios vestidos de 'comerciantes inocentes'. Vamos atacá-los com força, rápido. Entrar, sair, deixar algo para eles se aliviarem. Antes que percebam, estarão ocupados demais se masturbando para nos impedir."
         },
         {
-            "optionText": "What happened to the Overseer?",
-            "addPerk": "new_overseer",
-            "responseText": "Bro, he’s GONE. Straight-up cooked. Some poor bastard slipped one of our tapes into his terminal. Nobody thought he’d actually watch it, but *oh-ho, did he ever*. Next thing you know—*BOOM!* His balls exploded with the force of a mini-nuke. The guy literally *drowned* in his own cum. His body was floating like a bloated Brahmin carcass, eyes wide open, but he went out with a smile, bro. RIP Blue Balls, you glorious bastard.",
-            "followUpOptions": [
-                {
-                    "optionText": "What about the Purity Police?",
-                    "responseText": "HA! The Purity Police? Dude, those losers are in full meltdown mode. Half of them defected, tossing their Bonk Batons aside to join our degenerate cause. The rest are sobbing in corners, mourning their virginity. Vault’s ours, pants down!"
-                }
-            ]
-        },
-        {
-            "optionText": "Bye.",
-            "responseTexts": ["Remember, when your hand gets lonely tonight, you know where to find me. Viva la fap-olution!"],
-            "exitLine": true
+          "optionText": "Você realmente acha que vamos dominar os Ermos com pornografia?",
+          "responseText": "Mano, pornografia é nossa arma de distração em massa! Vamos fazer a Legião de César parecer um bando de coroinhas. Imagine: enquanto todo saqueador, colono, etc. está ocupado lutando com seus paus, estaremos vivendo como reis em nosso pequeno império da punheta. Quando escreverem os livros de história, chamarão isso de O Grande Punhetaço, e NÓS seremos os *Pais Fundadores da Punheta*."
         }
-    ],
-    "auto_lines":[ "VICTORY! The vault’s blown its metaphorical load, my friend! The Purity Police are done. I saw one of them sobbing into his Bonk Baton like it was his ex-girlfriend’s letter. We OWN this vault now!" ]
-} 
+      ]
+    },
+    {
+      "optionText": "O que aconteceu com o Supervisor?",
+      "addPerk": "new_overseer",
+      "responseText": "Mano, ele se FOI. Totalmente frito. Algum pobre coitado colocou uma de nossas fitas no terminal dele. Ninguém pensou que ele realmente assistiria, mas *oh-ho, como assistiu*. Logo em seguida —*BOOM!* As bolas dele explodiram com a força de uma mini-nuke. O cara literalmente se *afogou* na própria porra. O corpo dele estava flutuando como uma carcaça de Brahmin inchada, olhos bem abertos, mas ele partiu com um sorriso, mano. Descanse em paz, Saco Azul, seu desgraçado glorioso.",
+      "followUpOptions": [
+        {
+          "optionText": "E a Polícia da Pureza?",
+          "responseText": "HA! A Polícia da Pureza? Cara, aqueles perdedores estão em colapso total. Metade deles desertou, jogando seus Cassetetes de Bonk de lado para se juntar à nossa causa degenerada. O resto está soluçando nos cantos, lamentando a virgindade. O refúgio é nosso, calças para baixo!"
+        }
+      ]
+    },
+    {
+      "optionText": "Tchau.",
+      "responseTexts": [
+        "Lembre-se, quando sua mão se sentir solitária esta noite, você sabe onde me encontrar. Viva a revolução da punheta!"
+      ],
+      "exitLine": true
+    }
+  ],
+  "auto_lines": [
+    "VITÓRIA! O refúgio explodiu sua carga metafórica, meu amigo! A Polícia da Pureza já era. Vi um deles chorando em seu Cassetete de Bonk como se fosse a carta de sua ex-namorada. NÓS SOMOS OS DONOS deste refúgio agora!"
+  ]
+}

@@ -1,38 +1,37 @@
 {
-    "options": [
-      {
-        "optionText": "Diana, that was... insane.",
-        "responseText": "Mmm, you can say that again. Didn’t know you had that much pent up, but I’m not complaining.",
-        "followUpOptions": [
-          {
-            "optionText": "I, uh, made quite a mess.",
-            "responseText": "*A mess?* Oh sweetie, that’s an understatement. But don’t worry, I’m used to cleaning up. ♥"
-          },
-          {
-            "optionText": "What about the guys? They’ve been standing there the whole time.",
-            "responseText": "Oh, don’t mind them. They’ll be fine. Besides, they look like they *enjoyed* the show.",
-            "followUpOptions": [
-              {
-                "optionText": "I don’t think they blinked once.",
-                "responseText": "Can you blame them? I mean, this was basically the best live-action entertainment Vault 6969 has ever seen."
-              },
-              {
-                "optionText": "What if they report us? I don’t want Purity Police knocking on my door later.",
-                "responseText": "Relax. The only thing they’ll be reporting is how fast they fucking came after watching this. You’ll be fine. ♥" 
-              },
-              {
-                "optionText": "A little awkward with them around, don’t you think?",
-                "responseText": "I live for the attention. You think they’re the first to watch? <i>*Please.*</i> ♥"
-              }
-            ]
-          }
-        ]
-      }, 
-      {
-        "optionText": "Bye",
-        "responseText": "Leaving me so soon? Well, next time you’re feeling... *full*, you know where to find me. ♥",
-        "exitLine": true
-      }
-    ]
-  }
-  
+  "options": [
+    {
+      "optionText": "Diana, isso foi... insano.",
+      "responseText": "Mmm, pode dizer de novo. Não sabia que você tinha tanto acumulado, mas não estou reclamando.",
+      "followUpOptions": [
+        {
+          "optionText": "Eu, uh, fiz uma bela bagunça.",
+          "responseText": "*Uma bagunça?* Oh, docinho, isso é um eufemismo. Mas não se preocupe, estou acostumada a limpar. ♥"
+        },
+        {
+          "optionText": "E os caras? Eles ficaram parados ali o tempo todo.",
+          "responseText": "Ah, não se preocupe com eles. Vão ficar bem. Além disso, parece que eles *gostaram* do show.",
+          "followUpOptions": [
+            {
+              "optionText": "Acho que eles não piscaram nenhuma vez.",
+              "responseText": "Pode culpá-los? Quer dizer, este foi basicamente o melhor entretenimento ao vivo que o Refúgio 6969 já viu."
+            },
+            {
+              "optionText": "E se eles nos denunciarem? Não quero a Polícia da Pureza batendo na minha porta mais tarde.",
+              "responseText": "Relaxe. A única coisa que eles vão relatar é o quão rápido eles gozaram pra caralho depois de assistir a isso. Você ficará bem. ♥"
+            },
+            {
+              "optionText": "Um pouco estranho com eles por perto, não acha?",
+              "responseText": "Eu vivo para a atenção. Você acha que eles são os primeiros a assistir? <i>*Por favor.*</i> ♥"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "optionText": "Tchau",
+      "responseText": "Me deixando tão cedo? Bem, da próxima vez que estiver se sentindo... *cheio*, você sabe onde me encontrar. ♥",
+      "exitLine": true
+    }
+  ]
+}

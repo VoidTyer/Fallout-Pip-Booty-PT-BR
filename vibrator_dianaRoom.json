@@ -1,14 +1,14 @@
 {
-    "options": [
+  "options": [
+    {
+      "optionText": "Uau, não esperava entrar e te encontrar... uh...",
+      "responseText": "Querido, quando você é o dono do lugar, não precisa cobrir nada. Mas se isso te incomoda tanto, pode sempre se virar e encarar a porta. Ou ficar. Só saiba que eu cobro extra por uma plateia.",
+      "followUpOptions": [
         {
-            "optionText": "Wow, didn't expect to walk in on you... uh...",
-            "responseText": "Darling, when you own the room, you don’t need to cover anything. But if it bothers you that much, you can always turn around and stare at the door. Or stay. Just know I charge extra for an audience.",
-            "followUpOptions": [
-                {
-                    "optionText": "I'll... uh... just stare respectfully.",
-                    "responseText": "Good boy. But don’t get too comfortable—you might get mistaken for one of my toys."
-                }
-            ]
+          "optionText": "Vou... uh... apenas encarar respeitosamente.",
+          "responseText": "Bom garoto. Mas não fique muito à vontade — você pode ser confundido com um dos meus brinquedos."
         }
-    ]
+      ]
+    }
+  ]
 }

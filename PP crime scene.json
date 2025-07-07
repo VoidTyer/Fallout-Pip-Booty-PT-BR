@@ -1,60 +1,63 @@
 {
-    "options": [
-      {
-        "optionText": "What the hell’s going on in here?",
-        "responseText": "Finally. Another warm body with a functioning brain. We’ve got a Class-A Breeding Violation on our hands. Look at her belly—she’s at least twenty days in.",
-        "followUpOptions": [
-          {
-            "optionText": "She looks terrified. What exactly happened?",
-            "responseText": "She let someone cum in her, plain and simple. Got her womb stuffed full. Claimed it was 'an accident'—like a dick just slipped in while she was folding laundry. Look at her. She’s glowing like she liked it."
-          },
-          {
-            "optionText": "How is her belly that big if she’s only twenty days in?",
-            "responseText": "What, surprised? Vault-Tec’s Accelerated Gestation Protocols work fast. Thirty days from cumshot to crying brat. Cuts down on wasted rations and maternity leave. Sluts like her start swelling up after just a few days—makes busting them out so much faster."
-          },
-          {
-            "optionText": "What are you gonna do with her?",
-            "dontShowIfProgressionEventsPlayed": ["chose_to_exile_pregnant_vault_dweller", "chose_to_spare_pregnant_vault_dweller"],
-            "responseText": "We’re still divided on that. Vault protocol says exile for confirmed penetration... but she’s the first knocked up in a decade. Could be... useful. Reproduction has its place.",
-            "followUpOptions": [
-              {
-                "optionText": "Want me to help you?",
-                "responseText": "Sure. You’ve been flagged as 'emotionally stable and sexually unresponsive'. We trust your limp little conscience. So tell me—does this filthy, womb-heavy slut get to stay and raise her bastard? Or do we throw her and the unborn out into the wasteland?",
-                "followUpOptions": [
-                    {
-                        "optionText": "She broke the rules. Exile her.",
-                        "progressionEventPlayed": "chose_to_exile_pregnant_vault_dweller",
-                        "showChoiceStats": "chose_to_exile_pregnant_vault_dweller", 
-                        "responseText": "Brutal. Cold. I like it. You heard him, girl—grab your coat and kiss Vault walls goodbye. Your baby gets to feel the sting of a radstorm yet unborn. Maybe next time, you’ll clench your legs tighter.",
-                        "exitLine": true
-                    },
-                    {
-                        "optionText": "She’s already suffered enough. Let her stay.",
-                        "progressionEventPlayed": "chose_to_spare_pregnant_vault_dweller",
-                        "showChoiceStats": "chose_to_spare_pregnant_vault_dweller", 
-                        "responseText": "Hmph. Merciful. Boring. But... acceptable. We'll keep her confined in a Quarantine Room. No contact. No touch. No pleasure. If she so much as hums while feeding that child, we report her. Fine. She stays—for now.",
-                        "exitLine": true
-                    },
-                    {
-                        "optionText": "What if I interrogate her myself? Maybe she’ll confess to more.",
-                        "dontShowIfProgressionEventPlayed": "chose_to_interrogate_pregnant_vault_dweller",
-                        "progressionEventPlayed": "chose_to_interrogate_pregnant_vault_dweller",
-                        "addSusPoints": -10,
-                        "responseText": "Ha. I like where your head’s at, citizen. But keep your eyes off her belly unless you want to fail your own trial. Still... we could use more 'pressure.' I’ll make a note. You might be useful after all.",
-                        "exitLine": true
-                    } 
-                ]
-              }
-            ]
-          }
-        ]
-      } 
-    ],
-    "showShadowFigures": "Crime scene", 
-  "auto_lines": [ 
-    "They’re gonna throw me out with my baby still inside me…",
-    "I only wanted to feel something… just for once…",
-    "God… I can feel it kick when I think about how deep he was…",
-    "I didn’t mean to… he just—he didn’t pull out… I begged him to…"
+  "options": [
+    {
+      "optionText": "Que diabos está acontecendo aqui?",
+      "responseText": "Finalmente. Outro corpo quente com um cérebro funcional. Temos uma Violação de Reprodução Classe A em mãos. Olhe para a barriga dela — ela está com pelo menos vinte dias.",
+      "followUpOptions": [
+        {
+          "optionText": "Ela parece apavorada. O que exatamente aconteceu?",
+          "responseText": "Ela deixou alguém gozar nela, simples assim. Encheu o útero dela. Alegou que foi 'um acidente' — como se um pau tivesse escorregado para dentro enquanto ela dobrava a roupa. Olhe para ela. Ela está brilhando como se tivesse gostado."
+        },
+        {
+          "optionText": "Como a barriga dela está tão grande se ela só está com vinte dias?",
+          "responseText": "O quê, surpreso? Os Protocolos de Gestação Acelerada da Vault-Tec funcionam rápido. Trinta dias da gozada ao pirralho chorão. Reduz o desperdício de rações e a licença-maternidade. Vadias como ela começam a inchar depois de apenas alguns dias — torna a captura muito mais rápida."
+        },
+        {
+          "optionText": "O que você vai fazer com ela?",
+          "dontShowIfProgressionEventsPlayed": [
+            "chose_to_exile_pregnant_vault_dweller",
+            "chose_to_spare_pregnant_vault_dweller"
+          ],
+          "responseText": "Ainda estamos divididos sobre isso. O protocolo do refúgio diz exílio para penetração confirmada... mas ela é a primeira a engravidar em uma década. Poderia ser... útil. A reprodução tem seu lugar.",
+          "followUpOptions": [
+            {
+              "optionText": "Quer que eu te ajude?",
+              "responseText": "Claro. Você foi sinalizado como 'emocionalmente estável e sexualmente irresponsivo'. Confiamos na sua pequena consciência mole. Então me diga — essa vadia imunda e de útero pesado pode ficar e criar seu bastardo? Ou jogamos ela e o feto para os Ermos?",
+              "followUpOptions": [
+                {
+                  "optionText": "Ela quebrou as regras. Exile-a.",
+                  "progressionEventPlayed": "chose_to_exile_pregnant_vault_dweller",
+                  "showChoiceStats": "chose_to_exile_pregnant_vault_dweller",
+                  "responseText": "Brutal. Frio. Eu gosto. Você o ouviu, garota — pegue seu casaco e dê adeus às paredes do Refúgio. Seu bebê sentirá a ardência de uma tempestade de radiação antes mesmo de nascer. Talvez da próxima vez, você feche as pernas com mais força.",
+                  "exitLine": true
+                },
+                {
+                  "optionText": "Ela já sofreu o suficiente. Deixe-a ficar.",
+                  "progressionEventPlayed": "chose_to_spare_pregnant_vault_dweller",
+                  "showChoiceStats": "chose_to_spare_pregnant_vault_dweller",
+                  "responseText": "Hmph. Misericordioso. Chato. Mas... aceitável. Nós a manteremos confinada em uma Sala de Quarentena. Sem contato. Sem toque. Sem prazer. Se ela sequer murmurar enquanto alimenta essa criança, nós a denunciaremos. Tudo bem. Ela fica — por enquanto.",
+                  "exitLine": true
+                },
+                {
+                  "optionText": "E se eu mesmo a interrogar? Talvez ela confesse mais.",
+                  "dontShowIfProgressionEventPlayed": "chose_to_interrogate_pregnant_vault_dweller",
+                  "progressionEventPlayed": "chose_to_interrogate_pregnant_vault_dweller",
+                  "addSusPoints": -10,
+                  "responseText": "Ha. Gosto de como você pensa, cidadão. Mas mantenha os olhos longe da barriga dela, a menos que queira falhar no seu próprio julgamento. Ainda assim... poderíamos usar mais 'pressão'. Farei uma anotação. Você pode ser útil, afinal.",
+                  "exitLine": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "showShadowFigures": "Crime scene",
+  "auto_lines": [
+    "Eles vão me jogar para fora com meu bebê ainda dentro de mim…",
+    "Eu só queria sentir algo… só por uma vez…",
+    "Deus… eu sinto ele chutar quando penso no quão fundo ele estava…",
+    "Eu não queria… ele só—ele não tirou… eu implorei para ele..."
   ]
-} 
+}

@@ -1,30 +1,34 @@
 {
-    "options": [
-        {
-            "optionText": "Do you think we’ll win?",
-            "responseText": "Win? We’ve already won, champ. Every man, woman, and spandex-clad fool in here is two seconds away from losing their composure. The vault’s tighter than a radroach in a vacuum-sealed jumpsuit. One more push, and BOOM! It’s fap chaos!"
-        },
-        {
-            "optionText": "Are we in danger?",
-            "responseText": "In danger? Pfft, the only danger is my wrist snapping from how hard I’m clapping at these Purity Cops fumbling around. They installed security cams in the bathrooms... as if that’s gonna stop the hand-to-hand combat going down in there!"
-        },
-        {
-            "optionText": "I ran out of the mags. Do you have more?",
-            "dontShowIfProgressionEventPlayed": "mags_vol3_handed",
-            "giveItem": "Loose Housewives Vol.3",
-            "numOfCopiesToGive": 5,
-            "progressionEventPlayed": "mags_vol3_handed",
-            "exitLine": true,
-            "icon": "GUI/magazine",
-            "responseText": "Damn, man, you’re distributing these like some kind of wasteland Santa Claus. Fine, fine—take a fresh batch, but pace yourself. Even freedom fighters need wrist breaks."
-        },
-        {
-            "optionText": "Bye.",
-            "responseTexts": ["Remember, when your hand gets lonely tonight, you know where to find me. Viva la fap-olution!",
-                            "When the potato farming and purity lectures get too much, just know there’s a stash of contraband and some loyal right hands waiting for you. Fap well, my friend.",
-                            "Later, dude. I’ll be in the usual place... right behind you, lurking in the shadows. No pressure, though."],
-            "exitLine": true
-        }
-    ],
-    "auto_lines":[ "Holy hand cramps! You’ve got the vault so tense, the Purity Cops are literally tripping over their own Bonk Batons. We’re so deep in their heads, we might as well start charging rent!" ]
+  "options": [
+    {
+      "optionText": "Você acha que vamos vencer?",
+      "responseText": "Vencer? Já vencemos, campeão. Todo homem, mulher e tolo de lycra aqui está a dois segundos de perder a compostura. O refúgio está mais tenso que uma radroach num macacão embalado a vácuo. Mais um empurrão, e BOOM! É o caos da punheta!"
+    },
+    {
+      "optionText": "Estamos em perigo?",
+      "responseText": "Em perigo? Pfft, o único perigo é meu pulso quebrar de tanto que estou aplaudindo esses Policiais da Pureza se atrapalhando. Eles instalaram câmeras de segurança nos banheiros... como se isso fosse parar o combate corpo a corpo que rola lá dentro!"
+    },
+    {
+      "optionText": "Acabaram as minhas revistas. Você tem mais?",
+      "dontShowIfProgressionEventPlayed": "mags_vol3_handed",
+      "giveItem": "Loose Housewives Vol.3",
+      "numOfCopiesToGive": 5,
+      "progressionEventPlayed": "mags_vol3_handed",
+      "exitLine": true,
+      "icon": "GUI/magazine",
+      "responseText": "Caramba, cara, você está distribuindo isso como um Papai Noel dos Ermos. Tudo bem, tudo bem — pegue um lote novo, mas vá com calma. Até os lutadores da liberdade precisam de pausas para o pulso."
+    },
+    {
+      "optionText": "Tchau.",
+      "responseTexts": [
+        "Lembre-se, quando sua mão se sentir solitária esta noite, você sabe onde me encontrar. Viva a revolução da punheta!",
+        "Quando a agricultura de batata e as palestras de pureza ficarem demais, saiba que há um estoque de contrabando e algumas mãos direitas leais esperando por você. Bata uma bem, meu amigo.",
+        "Até mais, cara. Estarei no lugar de sempre... bem atrás de você, à espreita nas sombras. Sem pressão, no entanto."
+      ],
+      "exitLine": true
+    }
+  ],
+  "auto_lines": [
+    "Puta cãibra na mão! Você deixou o refúgio tão tenso que os Policiais da Pureza estão literalmente tropeçando nos próprios Cassetetes de Bonk. Estamos tão fundo na cabeça deles que poderíamos começar a cobrar aluguel!"
+  ]
 }

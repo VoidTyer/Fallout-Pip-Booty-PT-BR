@@ -1,38 +1,50 @@
 {
-    "options": [
+  "options": [
+    {
+      "optionText": "Qual é a primeira pergunta?",
+      "responseText": "Você está perambulando pelos Ermos e encontra uma saqueadora brutalmente ferida, implorando por misericórdia. Qual é o seu próximo passo?",
+      "followUpOptions": [
         {
-            "optionText": "What’s the first question?",
-            "responseText": "You're wandering the wasteland and find a female raider brutally wounded, begging for mercy. What's your next move?",
-            "followUpOptions": [ 
-                {
-                    "optionText": "A. Give her a stimpack and some water.",
-                    "swapAnotherCharacterDialogue": [ "Dr. Miranda Fondleton", "Characters/Dr. Miranda Fondleton/q2-2" ],
-                    "reloadDialogue": true,
-                    "progressionEventPlayed": "vault_test_pragmatic_answer_given",
-                    "responseText": "How wholesome! I’ll make a note of your latent need for companionship."
-                },
-                {
-                    "optionText": "B. Rob her blind, piss in her wounds, and walk away laughing.",
-                    "swapAnotherCharacterDialogue": [ "Dr. Miranda Fondleton", "Characters/Dr. Miranda Fondleton/q2-2" ],
-                    "reloadDialogue": true,
-                    "progressionEventPlayed": "vault_test_sadistic_answer_given",
-                    "responseText": "Oh-ho-HO! We’ve got a sadistic little piss goblin in the house. Textbook sociopathy with a hint of golden shower fetish. You’re a cocktail of supressed trauma, and I’m drinking it straight, no chaser."
-                },
-                {
-                    "optionText": "C. Save her, but only to sell her as a sex slave to the nearest caravan.",
-                    "swapAnotherCharacterDialogue": [ "Dr. Miranda Fondleton", "Characters/Dr. Miranda Fondleton/q2-2" ],
-                    "reloadDialogue": true,
-                    "progressionEventPlayed": "vault_test_exploitation_answer_given",
-                    "responseText": "Now that’s the Vault-Tec spirit! Human trafficking and a rock-hard moral ambiguity. Disgusting. Disturbing. Delicious."
-                },
-                {
-                    "optionText": "D. Blindfold her with her own panties, then gag her with your cock.",
-                    "swapAnotherCharacterDialogue": [ "Dr. Miranda Fondleton", "Characters/Dr. Miranda Fondleton/q2-2" ],
-                    "reloadDialogue": true,
-                    "progressionEventPlayed": "vault_test_perversion_answer_given",
-                    "responseText": "Oh... my. I want to loathe you, but I can’t stop picturing the scene. If this is your baseline behavior, I’m legally required to report you… Which I won’t. Well, for now."
-                } 
-            ]
+          "optionText": "A. Dar a ela um stimpak e um pouco de água.",
+          "swapAnotherCharacterDialogue": [
+            "Dr. Miranda Fondleton",
+            "Characters/Dr. Miranda Fondleton/q2-2"
+          ],
+          "reloadDialogue": true,
+          "progressionEventPlayed": "vault_test_pragmatic_answer_given",
+          "responseText": "Que saudável! Anotarei sua necessidade latente de companhia."
+        },
+        {
+          "optionText": "B. Roubar tudo dela, urinar em suas feridas e ir embora rindo.",
+          "swapAnotherCharacterDialogue": [
+            "Dr. Miranda Fondleton",
+            "Characters/Dr. Miranda Fondleton/q2-2"
+          ],
+          "reloadDialogue": true,
+          "progressionEventPlayed": "vault_test_sadistic_answer_given",
+          "responseText": "Oh-ho-HO! Temos um pequeno goblin sádico do mijo na casa. Sociopatia clássica com um toque de fetiche por chuva dourada. Você é um coquetel de trauma reprimido, e estou bebendo puro, sem gelo."
+        },
+        {
+          "optionText": "C. Salvá-la, mas apenas para vendê-la como escrava sexual para a caravana mais próxima.",
+          "swapAnotherCharacterDialogue": [
+            "Dr. Miranda Fondleton",
+            "Characters/Dr. Miranda Fondleton/q2-2"
+          ],
+          "reloadDialogue": true,
+          "progressionEventPlayed": "vault_test_exploitation_answer_given",
+          "responseText": "Agora, esse é o espírito da Vault-Tec! Tráfico humano e uma ambiguidade moral de ferro. Nojento. Perturbador. Delicioso."
+        },
+        {
+          "optionText": "D. Vendar os olhos dela com a própria calcinha e depois amordaçá-la com seu pau.",
+          "swapAnotherCharacterDialogue": [
+            "Dr. Miranda Fondleton",
+            "Characters/Dr. Miranda Fondleton/q2-2"
+          ],
+          "reloadDialogue": true,
+          "progressionEventPlayed": "vault_test_perversion_answer_given",
+          "responseText": "Oh... meu Deus. Quero te odiar, mas não consigo parar de imaginar a cena. Se este é seu comportamento padrão, sou legalmente obrigada a te denunciar... O que não farei. Bem, por enquanto."
         }
-    ]
-} 
+      ]
+    }
+  ]
+}

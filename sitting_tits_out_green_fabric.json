@@ -1,14 +1,14 @@
 {
-    "options": [ 
+  "options": [
+    {
+      "optionText": "Você parece que está tentando iniciar uma revolução de uma mulher só aqui.",
+      "responseText": "Melhor queimar o refúgio do que viver neste inferno de saco azul.",
+      "followUpOptions": [
         {
-            "optionText": "You look like you're trying to start a one-woman revolution in here.",
-            "responseText": "Better to burn the vault down than live in this blue-ball hellhole.",
-            "followUpOptions": [ 
-                {
-                    "optionText": "Those panties are an act of war.",
-                    "responseText": "Oh, sweetheart, this isn’t war. This is a full-blown nuclear meltdown, and you're ground zero."
-                }
-            ]
+          "optionText": "Essa calcinha é um ato de guerra.",
+          "responseText": "Oh, docinho, isso не é guerra. Isso é um colapso nuclear completo, e você é o marco zero."
         }
-    ]
+      ]
+    }
+  ]
 }

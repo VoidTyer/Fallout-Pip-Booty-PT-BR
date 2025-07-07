@@ -1,14 +1,14 @@
 {
-    "options": [
+  "options": [
+    {
+      "optionText": "Então, uh... você e esse dildo. Qual é a história aqui?",
+      "responseText": "O quê, essa coisinha? Não é *meu*. Eu estava apenas... *pegando emprestado* de um amigo. Precisava de algo para manter minha buceta ocupada enquanto o resto deste refúgio se masturba para projetos e 'pensamentos puros'. Mas a julgar por esse volume, parece que você quer ser o próximo da fila, hein?",
+      "followUpOptions": [
         {
-            "optionText": "So, uh... you and that dildo. What’s the story here?",
-            "responseText": "What, this little thing? It’s not *mine*. I was just... *borrowing* it from a friend. Needed something to keep my pussy occupied while the rest of this vault jerks themselves off to blueprints and 'pure thoughts.' But judging by that bulge, it looks like you wanna be next in line, huh?",
-            "followUpOptions": [ 
-                {
-                    "optionText": "Do you... need help with it? You know, as a friend.",
-                    "responseText": "Aww, how sweet. You wanna be my little toy, huh? Sorry, but I’m not into charity cases. Unless you wanna be my *cleanup crew* after I'm done with it. Better bring a towel, though. I don't squirt in 'small doses.'"
-                }
-            ]
+          "optionText": "Você... precisa de ajuda com isso? Sabe, como amigo.",
+          "responseText": "Aww, que fofo. Você quer ser meu brinquedinho, hein? Desculpe, mas não faço caridade. A menos que queira ser minha *equipe de limpeza* depois que eu terminar com ele. É melhor trazer uma toalha, no entanto. Eu não esguicho em 'pequenas doses'."
         }
-    ]
+      ]
+    }
+  ]
 }

@@ -1,71 +1,72 @@
 {
   "options": [
     {
-      "optionText": "Uh... Hugh? You okay?",
-      "responseText": "*[Hugh stares straight ahead, trembling slightly]* She's... she's not even blinking. She's just sitting there. Like temptation distilled into human form. I'm not okay. I'm *never* gonna be okay again.",
+      "optionText": "Uh... Hugh? Você tá bem?",
+      "responseText": "*[Hugh encara para a frente, tremendo levemente]* Ela... ela nem pisca. Só fica sentada ali. Como a tentação destilada em forma humana. Eu não estou bem. Eu *nunca* mais vou ficar bem.",
       "followUpOptions": [
         {
-          "optionText": "Why don’t you look away, man?",
-          "responseText": "I *can’t*. It’s like trying to look away from a nuclear blast. My corneas are burned into her thighs. I can see the curves when I close my eyes now. Help me."
+          "optionText": "Por que você não desvia o olhar, cara?",
+          "responseText": "Eu *não consigo*. É como tentar desviar o olhar de uma explosão nuclear. Minhas córneas estão queimadas nas coxas dela. Consigo ver as curvas quando fecho os olhos agora. Me ajude."
         },
         {
-          "optionText": "You’ve seen worse, right? In Porn Holotapes?",
-          "responseText": "Holotapes don’t *breathe*, bro. They don’t slowly shift their legs every five minutes like it’s an accident. That woman’s playing god-level mindgames with my dick. And I’m losing."
+          "optionText": "Você já viu coisa pior, né? Em holofitas pornô?",
+          "responseText": "Holofitas não *respiram*, mano. Elas não movem as pernas lentamente a cada cinco minutos como se fosse um acidente. Essa mulher está jogando jogos mentais de nível divino com o meu pau. E eu estou perdendo."
         },
         {
-        "optionText": "Just don’t stare, man. Focus on something else.",
-        "responseText": "Focus? Bro, my brain is a scrambled mess of forbidden curves. I tried counting ceiling tiles and ended up moaning by tile four. I don’t know who I am anymore."
+          "optionText": "Só não fica encarando, cara. Foca em outra coisa.",
+          "responseText": "Focar? Mano, meu cérebro é uma bagunça de curvas proibidas. Tentei contar as placas do teto e acabei gemendo na quarta placa. Eu não sei mais quem eu sou."
         },
         {
-        "optionText": "Did she say anything to you?",
-        "responseText": "Not a word. That’s the worst part. Silence. Total eye-closed serenity. It’s like watching a naked monk meditate on the edge of my sanity. I sneezed once and she *stretched*. I almost died."
+          "optionText": "Ela te disse alguma coisa?",
+          "responseText": "Nenhuma palavra. Essa é a pior parte. Silêncio. Serenidade total de olhos fechados. É como assistir a um monge nu meditando à beira da minha sanidade. Eu espirrei uma vez e ela se *espreguiçou*. Eu quase morri."
         },
         {
-        "optionText": "You’re sweating. Like... a lot.",
-        "responseText": "It’s not sweat. It’s pre-nut fear. I tried thinking about baseball stats and ended up imagining her licking a bat. I’m trapped in horny purgatory."
+          "optionText": "Você está suando. Tipo... muito.",
+          "responseText": "Não é suor. É medo pré-gozada. Tentei pensar em estatísticas de beisebol и acabei imaginando ela lambendo um taco. Estou preso no purgatório da tesão."
         }
       ]
     },
     {
-      "optionText": "Man up. She's just messing with you.",
-      "responseText": "You think I don't know that?! This is warfare. Psychological tit-based warfare. She's playing 8D chess with her nipples and I’m stuck playing checkers with my hand.",
+      "optionText": "Vira homem. Ela só tá te provocando.",
+      "responseText": "Você acha que eu não sei?! Isso é guerra. Guerra psicológica baseada em tetas. Ela está jogando xadrez 8D com os mamilos dela e eu estou preso jogando damas com a minha mão.",
       "followUpOptions": [
         {
-        "optionText": "Have you considered closing *your* eyes?",
-        "responseText": "Tried it. Ended up seeing her *better.* It’s like she’s inside my mind."
-        },  
+          "optionText": "Já considerou fechar *seus* olhos?",
+          "responseText": "Tentei. Acabei vendo ela *melhor*. É como se ela estivesse dentro da minha mente."
+        },
+
         {
-        "optionText": "Is this what finally broke you?",
-        "responseText": "No, what broke me was the *moment* she scratched her thigh. Just one long, lazy scratch. I transcended. Saw God. He was crying too."
+          "optionText": "Foi isso que finalmente te quebrou?",
+          "responseText": "Não, o que me quebrou foi o *momento* em que ela coçou a coxa. Apenas uma coçada longa e preguiçosa. Eu transcendi. Vi Deus. Ele também estava chorando."
         },
         {
-        "optionText": "Why don't you fuck her?",
-        "responseText": "*[Hugh violently flinches]* Are you insane?! That’s not a woman — that’s a siren made of tits and psychological damage. That’s not sex. That’s a boss fight. You don’t fuck Diana... you *enter* her like a cursed vault and pray you come out with your soul intact.",
-        "followUpOptions": [
+          "optionText": "Por que você não fode ela?",
+          "responseText": "*[Hugh se encolhe violentamente]* Você tá maluco?! Aquilo não é uma mulher — é uma sereia feita de tetas e dano psicológico. Aquilo não é sexo. É uma luta de chefe. Você não fode a Diana... você *entra* nela como um refúgio amaldiçoado e reza para sair com sua alma intacta.",
+          "followUpOptions": [
             {
-            "optionText": "You're afraid of her? Really? Thought you were Vault 6969’s stroking champ.",
-            "responseText": "Exactly! I'm the champ — I know when I’m outmatched. This isn’t a woman. This is a goddess. She’s got passive debuffs that trigger shame hallucinations. I once reached for my belt and saw my dead grandma screaming 'NO!'"
+              "optionText": "Você tem medo dela? Sério? Pensei que você fosse o campeão da punheta do Refúgio 6969.",
+              "responseText": "Exatamente! Eu sou o campeão — eu sei quando sou superado. Isso não é uma mulher. Isso é uma deusa. Ela tem debuffs passivos que acionam alucinações de vergonha. Uma vez, eu fui pegar meu cinto e vi minha avó morta gritando 'NÃO!'"
             },
             {
-            "optionText": "You could do it. Just walk up and take her.",
-            "responseText": "*[Hugh’s eyes widen in horror]* No. For the love of my dick, I couldn't. That way lies madness. She *wants* you to try. That’s how she wins. She’ll breathe slightly different and you’ll nut through your teeth."
+              "optionText": "Você conseguiria. É só ir lá e pegar ela.",
+              "responseText": "*[Os olhos de Hugh se arregalam de horror]* Não. Pelo amor do meu pau, eu não conseguiria. Esse caminho leva à loucura. Ela *quer* que você tente. É assim que ela vence. Ela vai respirar um pouco diferente e você vai gozar pelos dentes."
             },
             {
-            "optionText": "You're pathetic. Just crawl into the corner and finish rotting.",
-            "responseText": "*[Hugh crawls a few inches away, mumbling]* Maybe the mold will have mercy. Maybe I can fap to fungus. I deserve this.",
-            "exitLine": true
+              "optionText": "Você é patético. Rasteje para o canto e termine de apodrecer.",
+              "responseText": "*[Hugh rasteja alguns centímetros para longe, resmungando]* Talvez o mofo tenha piedade. Talvez eu possa bater uma para o fungo. Eu mereço isso.",
+              "exitLine": true
             }
-        ]
+          ]
         }
       ]
     },
     {
-      "optionText": "Bye",
-      "responseText": "Don't leave me. She might sigh again. If she sighs, I might cum out of sheer psychic exhaustion.",
+      "optionText": "Tchau",
+      "responseText": "Não me deixe. Ela pode suspirar de novo. Se ela suspirar, eu posso gozar de pura exaustão psíquica.",
       "exitLine": true
     }
   ],
   "auto_lines": [
-    "She hasn’t said a word in a whole day. But her ass is speaking in tongues. I’m not built for this psychological warfare. Please kill me or blind me. Whichever gets me out of this nightmare..."
+    "Ela não disse uma palavra o dia inteiro. Mas a bunda dela está falando em línguas. Não fui feito para esta guerra psicológica. Por favor, me mate ou me cegue. O que quer que me tire deste pesadelo..."
   ]
-} 
+}

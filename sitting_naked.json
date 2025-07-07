@@ -1,18 +1,18 @@
 {
-    "options": [
+  "options": [
+    {
+      "optionText": "Não estou babando. Ok, talvez um pouco, mas é que está quente aqui.",
+      "responseText": "Claro, é o calor. Não a visão de uma mulher nua. Eu entrei em um refúgio cheio de adolescentes, ou você é *tão* sem esperança assim?",
+      "followUpOptions": [
         {
-            "optionText": "I'm not drooling. Okay, maybe a little, but it's just hot in here.",
-            "responseText": "Sure, it's the heat. Not the sight of a naked woman. Did I walk into a vault full of teenagers, or are you just *that* hopeless?",
-            "followUpOptions": [
-                {
-                    "optionText": "Look, I can explain. I've just never been so... uh... unprepared.",
-                    "responseText": "Unprepared? Sweetheart, that's the understatement of the century. You look like you’ve been caught with your pants down—except, tragically, they're still on."
-                },
-                {
-                    "optionText": "I'm a man of *restraint*. Just... lots of restraint.",
-                    "responseText": "Restraint? Is that what you call that twitch in your pants? You might want to 'restrain' a little harder before the Purity Police break down the door."
-                }
-            ]
+          "optionText": "Olha, eu posso explicar. Eu só nunca estive tão... uh... despreparado.",
+          "responseText": "Despreparado? Docinho, isso é o eufemismo do século. Você parece que foi pego com as calças na mão — exceto que, tragicamente, elas ainda estão vestidas."
+        },
+        {
+          "optionText": "Sou um homem de *autocontrole*. Apenas... muito autocontrole.",
+          "responseText": "Autocontrole? É assim que você chama essa contração nas suas calças? Talvez você queira se 'controlar' um pouco mais antes que a Polícia da Pureza arrombe a porta."
         }
-    ]
+      ]
+    }
+  ]
 }

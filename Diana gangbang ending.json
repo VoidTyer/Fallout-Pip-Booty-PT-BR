@@ -1,23 +1,23 @@
 {
-    "options": [
+  "options": [
+    {
+      "optionText": "Uau... É muita porra...",
+      "responseText": "Você diz isso como se não fosse uma quinta-feira normal por aqui. Não finja estar tão chocado—este refúgio é uma panela de pressão, e alguns de nós sabem como aliviar o estresse.",
+      "followUpOptions": [
         {
-            "optionText": "Wow... That's a lot of cum...",
-            "responseText": "You say that like it’s not a regular Thursday around here. Don’t act so shocked—this vault’s a pressure cooker, and some of us know how to blow off steam.",
-            "followUpOptions": [
-                {
-                    "optionText": "Is that really blowing off steam or just... blowing?",
-                    "responseText": "Call it whatever you want, but everyone here is wound tighter than a nun's pussy. I’m just doing my part to keep the vault from exploding."
-                },
-                {
-                    "optionText": "Do you, uh... need a towel?",
-                    "responseText": "What for? Afraid I might slip on my way to messing up someone else’s night?"
-                }
-            ]
-        }, 
+          "optionText": "Isso é realmente aliviar o estresse ou apenas... chupar?",
+          "responseText": "Chame do que quiser, mas todos aqui estão mais tensos que a buceta de uma freira. Estou apenas fazendo minha parte para evitar que o refúgio exploda."
+        },
         {
-            "optionText": "Bye",
-            "responseText": "Yeah, go rub one out or something before you get yourself in trouble.",
-            "exitLine": true
+          "optionText": "Você, uh... precisa de uma toalha?",
+          "responseText": "Para quê? Com medo que eu escorregue a caminho de estragar a noite de outra pessoa?"
         }
-    ]
+      ]
+    },
+    {
+      "optionText": "Tchau",
+      "responseText": "Sim, vá bater uma ou algo assim antes que se meta em encrenca.",
+      "exitLine": true
+    }
+  ]
 }

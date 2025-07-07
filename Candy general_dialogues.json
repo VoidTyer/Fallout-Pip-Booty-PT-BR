@@ -1,54 +1,55 @@
 {
-    "options": [
+  "options": [
+    {
+      "optionText": "Quem diabos é você?",
+      "icon": "GUI/quest mark",
+      "responseText": "Eu sou a Candy. Sim, esse é meu nome de verdade. E não, você não pode rir agora. Temos problemas maiores—como o enxame de insetos que quer fazer das suas bolas o lanche da meia-noite deles.",
+      "followUpOptions": [
         {
-            "optionText": "Who the hell are you?",
-            "icon": "GUI/quest mark",
-            "responseText": "I’m Candy. Yes, that’s really my name. And no, you can’t fucking laugh right now. We’ve got bigger problems—like the swarm of bugs that want to make your nuts their midnight snack.",
-            "followUpOptions": [
-                {
-                    "optionText": "What the actual fuck are you talking about?",
-                    "icon": "GUI/quest mark",
-                    "responseText": "Nut Suckers, genius. Flying little shits that latch onto you and drain your family jewels like a Capri Sun. Now stop standing there with your mouth open and help me before we both end up shriveled raisins.",
-                    "followUpOptions": [ 
-                        {
-                            "optionText": "Nut Suckers? Are you fucking serious?",
-                            "responseText": "Does it look like I’m joking, newbie? I’ve already seen three guys wake up with deflated sacs, and let’s just say they’re not in a hurry to show their faces again."
-                        },
-                        {
-                            "optionText": "What do they look like?",
-                            "responseText": "Big, ugly fuckers with wings. Look like someone crossed a hornet with Satan’s worst hangover. You hear that high-pitched ‘zzzzreep’ sound? That’s your warning to get the hell out."
-                        },
-                        {
-                            "optionText": "Can’t we just hide?",
-                            "responseText": "Sure, try hiding. Let me know how it feels when you wake up with your sack looking like a dried-out raisin. I’ll wait... actually, no I won’t. Go ahead, hide, and tell me how that works out for you."
-                        },
-                        {
-                            "optionText": "And how exactly do I kill them?",
-                            "responseText": "Kill them? Honey, if I knew that, I wouldn’t be standing here wasting my time with you. Try squashing them, zapping them, hell, shout at them if it makes you feel better. But you’re gonna have to figure this one out yourself."
-                        },
-                        {
-                            "optionText": "Fine, I’ll help.", 
-                            "exitLine": true,
-                            "fadeOutCharacter": true,
-                            "icon": "GUI/quest mark",
-                            "addObjective": "Kill 5 Nutsuckers",
-                            "responseText": "Alright, here’s the plan: don’t die, don’t get sucked, and find something—*anything*—that can smash or fry these little perverts."
-                        }
-                    ]
-                }, 
-                {
-                    "optionText": "Why should I care?",
-                    "responseText": "Oh, I dunno. Maybe because you like walking around with a set between your legs? Or are you planning on entering some monk phase and this just doesn’t matter to you anymore?",
-                    "followUpOptions": [
-                        {
-                            "optionText": "Wait, how do I know you’re not fucking with me?",
-                            "responseText": "Pfft. Do I look like I’ve got time for jokes? You think I sprinted all the way down here just to mess with the new guy? If you hear buzzing, I’m not sticking around to say ‘I told you so.’"
-                        } 
-                    ]
-                }
-                
-            ]
-        } 
-    ],
-    "auto_line": [ "Rise and shine! Hope you had a good nap, ‘cause we’ve got a fucking problem. Unless you like the idea of bugs sucking the life out of your balls while you snooze, you better get your ass up!" ]
+          "optionText": "Do que diabos você está falando?",
+          "icon": "GUI/quest mark",
+          "responseText": "Chupa-Sacos, gênio. Pequenas merdas voadoras que se agarram em você e drenam suas joias da família como um Capri Sun. Agora pare de ficar aí de boca aberta e me ajude antes que nós dois viremos uvas passas enrugadas.",
+          "followUpOptions": [
+            {
+              "optionText": "Chupa-Sacos? Você está falando sério?",
+              "responseText": "Parece que estou brincando, novato? Já vi três caras acordarem com os sacos murchos, e digamos que eles não estão com pressa de mostrar o rosto de novo."
+            },
+            {
+              "optionText": "Como eles são?",
+              "responseText": "Grandes e feios pra caralho, com asas. Parecem um cruzamento de uma vespa com a pior ressaca de Satanás. Ouviu aquele som agudo 'zzzzreep'? Esse é o seu aviso para dar o fora."
+            },
+            {
+              "optionText": "Não podemos simplesmente nos esconder?",
+              "responseText": "Claro, tente se esconder. Me diga como é acordar com o saco parecendo uma uva passa seca. Eu espero... na verdade, não, não vou esperar. Vá em frente, se esconda, e me diga como isso funciona para você."
+            },
+            {
+              "optionText": "E como exatamente eu os mato?",
+              "responseText": "Matá-los? Querido, se eu soubesse disso, não estaria aqui perdendo meu tempo com você. Tente esmagá-los, eletrocutá-los, inferno, grite com eles se isso te fizer sentir melhor. Mas você vai ter que descobrir isso sozinho."
+            },
+            {
+              "optionText": "Certo, eu ajudo.",
+              "exitLine": true,
+              "fadeOutCharacter": true,
+              "icon": "GUI/quest mark",
+              "addObjective": "Kill 5 Nutsuckers",
+              "responseText": "Ok, o plano é o seguinte: não morra, não seja chupado, e encontre algo—*qualquer coisa*—que possa esmagar ou fritar esses pequenos pervertidos."
+            }
+          ]
+        },
+        {
+          "optionText": "Por que eu deveria me importar?",
+          "responseText": "Ah, não sei. Talvez porque você goste de andar por aí com um par de bolas entre as pernas? Ou você está planejando entrar em alguma fase de monge e isso simplesmente não importa mais para você?",
+          "followUpOptions": [
+            {
+              "optionText": "Espera, como sei que você não está me zoando?",
+              "responseText": "Pfft. Eu pareço ter tempo para piadas? Você acha que eu corri até aqui só para zoar o novato? Se você ouvir um zumbido, não vou ficar por perto para dizer ‘eu te avisei’."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "auto_line": [
+    "Bom dia, Cinderela! Espero que tenha dormido bem, porque temos um problema do caralho. A menos que você goste da ideia de insetos sugando a vida das suas bolas enquanto você dorme, é melhor levantar essa bunda!"
+  ]
 }

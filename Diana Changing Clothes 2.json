@@ -1,27 +1,37 @@
 {
-    "options": [ 
+  "options": [
     {
-        "optionText": "Did you just drop something... or everything?",
-        "responseText": "Oh, did I? My bad. Guess I’m just too distracted thinking about all the potatoes I could be farming instead of wearing clothes. Seriously, get lost before I hit the panic button."
+      "optionText": "Você deixou cair alguma coisa... ou tudo?",
+      "responseText": "Oh, deixei? Foi mal. Acho que estou muito distraída pensando em todas as batatas que eu poderia estar cultivando em vez de usar roupas. Sério, suma daqui antes que eu aperte o botão de pânico."
     },
     {
-        "optionText": "[Slap her ass]",
-        "specialEffects": ["Punch"],
-        "responseTexts": ["Mmm, is that all you got? I was hoping for more than just a love tap.", "Ooh, look at you, turning into Vault 6969's very own spanking champion. Next time, use both hands and maybe I'll hand you a medal.", "If you're going to slap my ass, at least make it worth my time. That felt like a toddler trying to swat a fly.", "Well, someone's feeling naughty today. Hope your spanking arm's as strong as your lack of self-control.","Damn, and here I thought you were just another boring vault dweller. Maybe there's hope for you yet.","Not bad, but I've had harder hits from the Purity Police’s bonk batons."],
-        "playSound": "slap2",
-        "desirePoints": 1,
-        "relationshipRequired": 35,
-        "failedCheckResponse": "…Did you just try to slap my ass? Honey, you're gonna need more than a desperate spank to impress me. Come back when you’ve got something worth slapping with."
+      "optionText": "[Dar um tapa na bunda dela]",
+      "specialEffects": ["Punch"],
+      "responseTexts": [
+        "Mmm, é só isso que você tem? Eu esperava mais que um tapinha de amor.",
+        "Ooh, olhe para você, se tornando o campeão de palmadas do Refúgio 6969. Da próxima vez, use as duas mãos e talvez eu te dê uma medalha.",
+        "Se vai dar um tapa na minha bunda, pelo menos faça valer a pena. Parecia uma criança tentando matar uma mosca.",
+        "Bem, alguém está se sentindo safado hoje. Espero que seu braço de palmada seja tão forte quanto sua falta de autocontrole.",
+        "Caramba, e eu aqui pensando que você era só mais um morador de refúgio chato. Talvez ainda haja esperança para você.",
+        "Nada mal, mas já levei pancadas mais fortes dos cassetetes da Polícia da Pureza."
+      ],
+      "playSound": "slap2",
+      "desirePoints": 1,
+      "relationshipRequired": 35,
+      "failedCheckResponse": "…Você acabou de tentar dar um tapa na minha bunda? Querido, você vai precisar de mais do que um tapa desesperado para me impressionar. Volte quando tiver algo que valha a pena usar para bater."
     },
     {
-        "optionText": "[Gift]",
-        "icon": "GUI/gift icon",
-        "isGifting": true
+      "optionText": "[Presente]",
+      "icon": "GUI/gift icon",
+      "isGifting": true
     },
     {
-        "optionText": "Bye.",
-        "responseTexts": [ "Leaving already? Damn, I was just getting ready to start charging admission.", "Good riddance. And don’t forget to wipe the drool off your face." ],
-        "exitLine": true
+      "optionText": "Tchau.",
+      "responseTexts": [
+        "Já vai? Caramba, eu estava me preparando para começar a cobrar entrada.",
+        "Já vai tarde. E não se esqueça de limpar a baba do rosto."
+      ],
+      "exitLine": true
     }
-    ]
+  ]
 }

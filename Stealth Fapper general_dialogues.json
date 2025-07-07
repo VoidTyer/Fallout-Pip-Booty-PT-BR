@@ -1,42 +1,41 @@
- 
 {
-    "options": [
+  "options": [
+    {
+      "optionText": "Quem diabos é você?",
+      "responseText": "Eles me chamam de Punheteiro Furtivo. O pior pesadelo da segurança do refúgio e mestre de operações de rola secretas. Espionagem de uma mão é minha especialidade, e nenhuma câmera com defeito está segura.",
+      "followUpOptions": [
         {
-            "optionText": "Who the hell are you?",
-            "responseText": "They call me the Stealth Fapper. Vault security’s worst nightmare and master of covert cock operations. One-handed espionage is my specialty, and no malfunctioning camera is safe.",
-            "followUpOptions": [ 
-                {
-                    "optionText": "What's with the trench coat, creep?",
-                    "responseText": "This coat is my dick's stealth field. Sure, it might seem sketchy, but you'd never guess if I’m currently jacking it to your confused face right now, would you?"
-                },
-                {
-                    "optionText": "And the mask?",
-                    "responseText": "The mask holds back my perverse power level. You think I'm wearing this shit for style? Nah, without it, I'd unleash horrors Vault-Tec never prepared us for.",
-                    "followUpOptions": [
-                        {
-                            "optionText": "Keep that horror show to yourself.",
-                            "responseText": "Too late. The beast already saw you, liked you, and planned your honeymoon together. But don't worry—I’m still holding the leash."
-                        },
-                        {
-                            "optionText": "You've officially lost your fucking mind.",
-                            "responseText": "Wrong—I found enlightenment dangling between my thighs like a fat, radioactive pendulum. And it's ticking closer to midnight."
-                        } 
-                    ]
-                }
-            ]
-        }, 
-        {
-            "optionText": "What's with the creepy getup? Secret cult vibes?",
-            "responseText": "Cult? Fuck that noise—too much talking, not enough jerking. I’m strictly freelance. The coat's armor against judgmental eyes. Pants? They're a conspiracy against freedom. My dick needs breathing room."
+          "optionText": "Qual é a desse sobretudo, seu nojento?",
+          "responseText": "Este casaco é o campo de furtividade do meu pau. Claro, pode parecer suspeito, mas você nunca adivinharia se estou atualmente batendo uma para o seu rosto confuso agora, não é?"
         },
         {
-            "optionText": "Got any dirt on this vault?",
-            "responseText": "Oh, I've got dirt that'll make your Pip-Boy crash from trauma. Like how the Purity Patrol ain't so pure after curfew, or how today's cafeteria 'special sauce' is yesterday’s stealth mission. But spoiling the fun isn't my kink—I prefer to watch the drama unfold naturally."
-        }, 
-        {
-            "optionText": "Yeah... I’m leaving before this gets worse.",
-            "responseText": "Go ahead. But remember, you can run from me—but you can't run from the sound of a stranger breathing heavily in the shadows.",
-            "exitLine": true
+          "optionText": "E a máscara?",
+          "responseText": "A máscara contém meu nível de poder pervertido. Você acha que estou usando essa merda por estilo? Nah, sem ela, eu liberaria horrores para os quais a Vault-Tec nunca nos preparou.",
+          "followUpOptions": [
+            {
+              "optionText": "Guarde esse show de horrores para você.",
+              "responseText": "Tarde demais. A besta já te viu, gostou de você e planejou sua lua de mel juntos. Mas não se preocupe — ainda estou segurando a coleira."
+            },
+            {
+              "optionText": "Você perdeu completamente o juízo.",
+              "responseText": "Errado — encontrei a iluminação balançando entre minhas coxas como um pêndulo gordo e radioativo. E está se aproximando da meia-noite."
+            }
+          ]
         }
-    ]
-} 
+      ]
+    },
+    {
+      "optionText": "Qual é a desse visual esquisito? Vibe de culto secreto?",
+      "responseText": "Culto? Foda-se esse barulho — muita conversa, pouca punheta. Sou estritamente autônomo. O casaco é uma armadura contra olhos julgadores. As calças? São uma conspiração contra a liberdade. Meu pau precisa de espaço para respirar."
+    },
+    {
+      "optionText": "Tem alguma sujeira sobre este refúgio?",
+      "responseText": "Oh, tenho sujeira que fará seu Pip-Boy travar de trauma. Como a Patrulha da Pureza não é tão pura depois do toque de recolher, ou como o 'molho especial' do refeitório de hoje é a missão furtiva de ontem. Mas estragar a diversão não é meu fetiche — prefiro assistir ao drama se desenrolar naturalmente."
+    },
+    {
+      "optionText": "É... estou saindo antes que isso piore.",
+      "responseText": "Vá em frente. Mas lembre-se, você pode fugir de mim — mas não pode fugir do som de um estranho respirando pesadamente nas sombras.",
+      "exitLine": true
+    }
+  ]
+}

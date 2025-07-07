@@ -1,253 +1,261 @@
 {
-    "options": [
+  "options": [
+    {
+      "optionText": "Eu trouxe os pepinos.",
+      "icon": "GUI/quest mark",
+      "onlyDisplayIfHasObjective": "Grow cucumbers for Gina",
+      "itemRequired": "Special Cucumber",
+      "giveItemToCharacter": "Special Cucumber",
+      "markObjectiveComplete": "Grow cucumbers for Gina",
+      "showChoiceStats": "grow_cucumber",
+      "addGripGaugePoints": 200,
+      "giveRandomItem": "random",
+      "addSusPoints": 10,
+      "relationshipPoints": 15,
+      "responseText": "Oh, *finalmente*! Deixe-me ver... oh *uau*, olhe só para estas belezuras? Tão firmes, tão... *carnudas*. A espessura certa também. Você se superou, docinho!",
+      "followUpOptions": [
         {
-            "optionText": "I brought you the cucumbers.", 
-            "icon": "GUI/quest mark",
-            "onlyDisplayIfHasObjective": "Grow cucumbers for Gina",
-            "itemRequired": "Special Cucumber",
-            "giveItemToCharacter": "Special Cucumber",
-            "markObjectiveComplete": "Grow cucumbers for Gina",
-            "showChoiceStats": "grow_cucumber",
-            "addGripGaugePoints": 200, 
-            "giveRandomItem": "random",
-            "addSusPoints": 10,
-            "relationshipPoints": 15,
-            "responseText": "Oh, *finally*! Let’s see ‘em... oh *wow*, would you look at these beauties? So firm, so... *plump*. Just the right amount of girth, too. You’ve outdone yourself, sugar!",
-            "followUpOptions": [
-                {
-                    "optionText": "I don’t like how you’re looking at them...",
-                    "exitLine": true,
-                    "responseText": "Oh, don’t be shy! It’s just appreciation for fine produce. Now, let’s get these bad boys prepped for my *very special salad*. You’re gonna *love* it."
-                },
-                {
-                    "optionText": "What exactly is this ‘special salad’?",
-                    "exitLine": true,
-                    "responseText": "Oh, you’ll find out soon enough. Just trust me—it’s a meal you won’t forget. A little salty, a little spicy, and a whole *lotta* flavor."
-                } 
-            ]
+          "optionText": "Não gosto do jeito que você está olhando para eles...",
+          "exitLine": true,
+          "responseText": "Oh, não seja tímido! É apenas apreciação por um bom produto. Agora, vamos preparar estes garotões para minha *salada muito especial*. Você vai *adorar*."
         },
         {
-            "optionText": "[Hand over Recipe Book]",
-            "icon": "GUI/quest mark",
-            "responseText": "You got it! My beautiful, dirty little book! Now we can really get this place sizzling. Oh, and trust me, you’re gonna *love* what I cook up next." ,
-            "dontDisplayIfObjectiveComplete": "Retrieve Recipe Book for Gina",
-            "onlyDisplayIfHasObjective": "Retrieve Recipe Book for Gina",
-            "giveItemToCharacter": "Gina's Recipe Book",
-            "itemRequired": "Gina's Recipe Book",
-            "giveRandomItem": "random", 
-            "markObjectiveComplete": "Retrieve Recipe Book for Gina",
-            "addGripGaugePoints": 600,
-            "addSusPoints": 10,
-            "relationshipPoints": 15,
-            "exitLine": true
-        },
-        {
-            "optionText": "Can I have some tuna? Uh... I need it for the cat.",
-            "icon": "GUI/quest mark",
-            "onlyDisplayIfHasObjective": "Get tuna for Sir Whiskers.",
-            "giveItem": "Tuna",
-            "wTokensRequired": 13,
-            "addWillpowerTokens": -13,
-            "exitLine": true,
-            "responseText": "The cat? Sure, sure. That’s what they all say. You vault boys are all the same. Well, I’ve got a can of the good stuff right here. But you better be careful opening it—it might squirt everywhere if you’re not gentle."
-        },
-        {
-            "optionText": "What’s on the menu today?",
-            "icon": "GUI/trade icon", 
-            "isTrading": true,
-            "responseTexts": ["Oh, today’s special is a mystery meat surprise. I’m not saying it’s Brahmin, but I’m also not saying it’s not Brahmin. Comes with a side of fried potatoes so crispy they could wake the dead—or at least give the Purity Police a heart attack. If you’re lucky, you might even find something that looks like a vegetable. Might. No promises.","Oh, today’s special is a delightful culinary creation I like to call “Survival Surprise.” Why the surprise? Because even I don’t know what’s in it half the time. Might be leftover radroach from last week or something that fell behind the fridge six months ago.", "Well, since you asked, we’ve got the Vault Classic—Mystery Meatloaf. Is it Brahmin? Is it mole rat? Hell, is it even meat? I like to keep the suspense alive. Served with a side of Vault-Tec's finest mashed potatoes, which may or may not contain actual potatoes.", "Today’s delicacy is the “End-of-the-World Chili.” It’s got beans, mystery meat, and a kick that’ll make you think twice about using the bathroom for the next 24 hours. For dessert, we’re serving up “Nuclear Brownies.” They glow in the dark, but hey, that just makes it easier to find your way back to your bunk when the lights go out.", "On the menu today is the “Overseer’s Special”—a dish that’s all about blandness and control. It’s a piece of toast. No butter, no jam, just dry, soul-crushing toast. Or, if you’re feeling daring, you can try our “Rebellion Burger.” It’s got extra grease and a middle finger to the Purity Police cooked right into the patty."]
-        },
-        {
-            "optionText": "Who are you?",
-            "responseText": "Who am I? I’m Gina, the only cook in this vault who can make canned beans taste like a gourmet meal—or at least not like dog food. I also moonlight as the vault’s unofficial sex ed instructor, mostly by showing people what not to do with a cucumber. <i>[She grins, tossing a cucumber in the air and catching it.]</i>",
-            "followUpOptions": [
-                {
-                    "optionText": "Got any secret recipes?",
-                    "responseText": "Secret recipes? Oh, yeah, tons! Like my special “don’t ask what it is” stew. The secret ingredient is mystery. Keeps everyone guessing and too scared to ask for seconds." 
-                },
-                {
-                    "optionText": "Do you have anything to drink?",
-                    "responseText": "Sure do! We got water, or you can try my homemade “Gina Special.” It’s like Nuka-Cola, but with more alcohol and less regard for your liver. Don’t ask what’s in it. Let’s just say it’ll either knock you out or clean the rust off your Pip-Boy.",
-                    "followUpOptions": [
-                        {
-                            "optionText": "Alright, hit me with it.",
-                            "responseText": "There you go, one Gina Special. Just don’t drink it too fast, unless you want to experience what it’s like to see sound.",
-                            "specialEffects": ["ChromaticAberration", "TemporalBlur"], 
-                            "exitLine": true
-                        }
-                    ]
-                },
-                {
-                    "optionText": "Got any kitchen tips for a beginner?",
-                    "responseText": "Yeah, here’s a tip: if it smells bad, cook it longer. If it still smells bad, add salt. If it catches fire, it’s done. And if anyone asks what’s in it, just smile and say it’s a family recipe. And if all else fails, drown it in ketchup. Ketchup covers a multitude of sins." 
-                },
-                {
-                    "optionText": "Ever have any run-ins with the Purity Police?",
-                    "responseText": "Oh, plenty. They love to do these random “health and safety” inspections. One time, they found my stash of cucumbers and got all twitchy. Had to explain to those idiots that sometimes a cucumber is just a cucumber. But do they listen? Hell no. I’m on their “watch list” now." 
-                } 
-            ]
-        },
-        {
-            "optionText": "Need any help?",
-            "icon": "GUI/quest mark",
-            "dontDisplayIfObjectiveComplete": "Retrieve Recipe Book for Gina",
-            "dontDisplayIfHasObjective": "Retrieve Recipe Book for Gina",
-            "responseText": "Actually, now that you mention it... those joy-sucking fun police nabbed my recipe book. They said it was ‘too suggestive.’ Can you believe that? I mean, sure, some of the dishes are a bit... risqué, but come on, it’s *art*. Anyway, I need it back if I’m gonna keep this vault from dying of boredom.",
-            "followUpOptions": [
-                {
-                    "optionText": "Why’d they take it? What’s so suggestive about a recipe book?",
-                    "responseText": "Oh, you’d be surprised! Apparently, my ‘Cream-Filled Donuts’ and ‘Thick, Juicy Sausage Surprise’ were a little too much for their delicate sensibilities. Bunch of prudes! They just couldn’t handle my *flavor*.",
-                    "followUpOptions": [
-                        {
-                            "optionText": "Alright, I’ll get it back for you.",
-                            "responseText": "Oh, you absolute hero! But those tight-assed Purity Police aren’t just gonna hand it over. You’ll need to sweet-talk or maybe *bribe* them. Play it right, and I’ll owe you big time. And by big time, I mean *you’ll never go hungry again*—if you catch my drift.",
-                            "addObjective": "Retrieve Recipe Book for Gina",
-                            "exitLine": true
-                        },
-                        {
-                            "optionText": "Sounds risky. Maybe I’ll pass.",
-                            "responseText": "Oh, don’t be such a wet noodle! But hey, if you change your mind and feel like spicing up your life, you know where to find me."
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "optionText": "Need any more help?",
-            "icon": "GUI/quest mark",
-            "onlyDisplayIfObjectiveComplete": "Retrieve Recipe Book for Gina",
-            "dontDisplayIfObjectiveComplete": "Help Gina Clean the Diner", 
-            "responseText": "Well, now that you mention it, I could use some help cleaning up around here. It's a bit of a mess and my arms are just so tired. You up for lending a hand, honey? I'll make it worth your while—promise.",
-            "followUpOptions": [
-                {
-                    "optionText": "Sure, I’ll help out.",
-                    "specialEffects": ["Blackout"],
-                    "responseText": "Oh, you're a lifesaver! Alright, let’s get to it. Start with the floors, then we’ll tackle the tables.",
-                    "addObjective": "Help Gina Clean the Diner", 
-                    "followUpOptions": [
-                        {
-                            "optionText": "[Mop the Floor]",
-                            "specialEffects": ["Blackout"],
-                            "responseText": "*You grab the mop and start scrubbing the floor. The floor's a mess—someone spilled way too much 'sauce' back here.*",
-                            "followUpOptions": [
-                                {
-                                    "optionText": "[Clean the Tables]",
-                                    "specialEffects": ["Blackout"],
-                                    "responseText": "*Now it’s time to clean those sticky tables. There’s a mysterious stain you’re pretty sure has been here since before the bombs dropped.*",
-                                    "followUpOptions": [
-                                        {
-                                            "optionText": "[Wipe the Counter]",
-                                            "specialEffects": ["Blackout"],
-                                            "responseText": "*You wipe down the counter, and—yep, more sauce. Is Gina just spilling sauce everywhere on purpose? You might need to ask her for a spill-proof apron next time.*",
-                                            "followUpOptions": [
-                                                {
-                                                    "optionText": "[Look around for more mess]",
-                                                    "specialEffects": ["Blackout"],
-                                                    "responseText": "*You look around and feel pretty accomplished. The place is spotless... well, almost.*",
-                                                    "followUpOptions": [
-                                                        {
-                                                            "optionText": "[Get back to Gina]", 
-                                                            "changeSprite": "Characters/Gina/no panties",
-                                                            "newSpriteXPos": 3.6,
-                                                            "newSpriteYPos": 0.21,
-                                                            "resetToDefaultSpriteAfterClosingDialogues": true,
-                                                            "specialEffects": ["Blackout"],
-                                                            "hEventName": "gina_diner_oopsie",
-                                                            "followUpOptions": [
-                                                                {
-                                                                    "optionText": "Uh... Gina, I finished cleaning the—",
-                                                                    "markObjectiveComplete": "Help Gina Clean the Diner", 
-                                                                    "emotion": "Characters/Gina/emotions/IPAdapter_00922_(1)(1)",
-                                                                    "responseText": "Oh, great! Thanks for—wait, WHY ARE YOUR EYES BUGGING OUT LIKE THAT? Oh my god. OH, CRAP, THIS IS A NIGHTMARE. Forget this happened, or I’ll... I’ll feed you to the Mirelurks! JUST LEAVE!",
-                                                                    "followUpOptions": [
-                                                                        {
-                                                                            "optionText": "Uh... where are your pants?",
-                                                                            "responseText": "Oh! Uh... well, this is... embarrassing! I—I must’ve... uh, forgot them in the laundry! Yeah, that’s it! Just... try not to think too much about it, okay? I swear I don’t usually work like this!",
-                                                                            "followUpOptions": [
-                                                                                {
-                                                                                    "optionText": "Sure... totally an accident, huh?",
-                                                                                    "responseText": "Well... yeah, *totally*! I mean, who *forgets* their pants? It’s not like I planned this, right? Heh... right?! Anyway, how about I make us some food and we forget this ever happened?",                                                                                    
-                                                                                    "followUpOptions": [
-                                                                                        {
-                                                                                            "optionText": "Alright, I’ll take that food.",
-                                                                                            "responseText": "Oh, thank God! One mystery meal coming right up—don’t ask what’s in it. You’ve seen enough already.",
-                                                                                            "emotion": "none",
-                                                                                            "specialEffects": ["Blackout"],
-                                                                                            "giveRandomItem": "random_food_or_drink",
-                                                                                            "progressionEventPlayed": "took_food_from_gina",
-                                                                                            "showChoiceStats": "took_food_from_gina2",
-                                                                                            "relationshipPoints": 5,
-                                                                                            "exitLine": true
-                                                                                        },
-                                                                                        {
-                                                                                            "optionText": "[Report her for indecent exposure]",
-                                                                                            "icon": "GUI/eye icon",
-                                                                                            "responseText": "Oh... oh no. You’re seriously reporting me? For *this*? It’s not like I was doing squats on your bed. Fine. Vault Security’s gonna love this one. Hope you enjoy paperwork.",
-                                                                                            "emotion": "none",
-                                                                                            "specialEffects": ["Blackout"],
-                                                                                            "reported": 1,
-                                                                                            "progressionEventPlayed": "refused_food_from_gina",
-                                                                                            "showChoiceStats": "refused_food_from_gina",
-                                                                                            "exitLine": true
-                                                                                        }
-                                                                                    ]
-                                                                                } 
-                                                                            ]
-                                                                        }
-                                                                    ]
-                                                                } 
-                                                            ]
-                                                        }
-                                                    ]
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                }, 
-                {
-                    "optionText": "Cleaning? Nah, I’m good.",
-                    "responseText": "Suit yourself, sugar. But I bet you're missing out on a... *real treat* back there. Hope you enjoy eating out of cans, though. You could’ve had my special sauce on the house.",
-                    "exitLine": true
-                }
-            ]
-        },
-        {
-            "optionText": "Need any more help?",
-            "icon": "GUI/quest mark",
-            "onlyDisplayIfObjectiveComplete": "Help Gina Clean the Diner",
-            "dontDisplayIfHasObjective": "Grow cucumbers for Gina",
-            "dontDisplayIfObjectiveComplete": "Grow cucumbers for Gina", 
-            "responseText": "Oh, honey, you have no idea how much I need a helping hand... I got these 'special' cucumber seeds, and I need you to plant ‘em in the grow room. They’re for a very *special* salad.",
-            "followUpOptions": [
-                {
-                    "optionText": "What’s so special about these cucumbers?",
-                    "responseText": "Oh, wouldn’t you *love* to know? Let’s just say these bad boys *throbbing* with nutrients, grow extra thick, extra juicy, and with a shape that—uh... *unique*. Purely for culinary purposes, of course!"
-                }, 
-                {
-                    "optionText": "Sure, I’ll grow them for you.",
-                    "icon": "GUI/quest mark",
-                    "addObjective": "Grow cucumbers for Gina", 
-                    "dontDisplayIfHasObjective": "Grow cucumbers for Gina", 
-                    "giveItem": "Special Cucumber Seeds",
-                    "exitLine": true,
-                    "responseText": "That’s the spirit! Head over to the grow room, get yourself a nice, deep hole, and slide these bad boys in nice and gentle. They like a *slow insertion*, real delicate. I’ll be waiting right here, dreaming of those big, fat, delicious—uh, cucumbers. *For the salad.*"
-                },
-                {
-                    "optionText": "Gina… are you just messing with me?",
-                    "responseText": "Me? Mess with you? Perish the thought! I’m just a humble cook with a deep, deep appreciation for... *produce*." 
-                }
-            ]
-        },      
-        {
-            "optionText": "Bye",
-            "responseText": "C’mon, you know you’re gonna be back. No one can resist the allure of... pipe maintenance.",
-            "exitLine": true
+          "optionText": "O que exatamente é essa ‘salada especial’?",
+          "exitLine": true,
+          "responseText": "Oh, você descobrirá em breve. Apenas confie em mim—é uma refeição que você não esquecerá. Um pouco salgada, um pouco picante, e com *muito* sabor."
         }
-    ],
-    "auto_lines": ["Well, if it isn’t fresh meat. You here for food, gossip, or just to stare at my buns? And by buns, I mean the bread ones, ya perv."],
-    "resetToDefaultSpriteAfterClosingDialogues": true 
+      ]
+    },
+    {
+      "optionText": "[Entregar Livro de Receitas]",
+      "icon": "GUI/quest mark",
+      "responseText": "Você conseguiu! Meu lindo e sujo livrinho! Agora podemos realmente esquentar este lugar. Ah, e confie em mim, você vai *amar* o que vou cozinhar a seguir.",
+      "dontDisplayIfObjectiveComplete": "Retrieve Recipe Book for Gina",
+      "onlyDisplayIfHasObjective": "Retrieve Recipe Book for Gina",
+      "giveItemToCharacter": "Gina's Recipe Book",
+      "itemRequired": "Gina's Recipe Book",
+      "giveRandomItem": "random",
+      "markObjectiveComplete": "Retrieve Recipe Book for Gina",
+      "addGripGaugePoints": 600,
+      "addSusPoints": 10,
+      "relationshipPoints": 15,
+      "exitLine": true
+    },
+    {
+      "optionText": "Pode me dar um pouco de atum? Uh... preciso para o gato.",
+      "icon": "GUI/quest mark",
+      "onlyDisplayIfHasObjective": "Get tuna for Sir Whiskers.",
+      "giveItem": "Tuna",
+      "wTokensRequired": 13,
+      "addWillpowerTokens": -13,
+      "exitLine": true,
+      "responseText": "O gato? Claro, claro. É o que todos dizem. Vocês, garotos do refúgio, são todos iguais. Bem, tenho uma lata da boa aqui. Mas é melhor ter cuidado ao abrir—pode espirrar para todo lado se não for gentil."
+    },
+    {
+      "optionText": "O que tem no menu hoje?",
+      "icon": "GUI/trade icon",
+      "isTrading": true,
+      "responseTexts": [
+        "Oh, o especial de hoje é uma surpresa de carne misteriosa. Não estou dizendo que é Brahmin, mas também não estou dizendo que não é. Vem com uma porção de batatas fritas tão crocantes que poderiam acordar os mortos—ou pelo menos dar um ataque cardíaco na Polícia da Pureza. Se tiver sorte, pode até encontrar algo que pareça um vegetal. Pode. Sem promessas.",
+        "Oh, o especial de hoje é uma deliciosa criação culinária que gosto de chamar de “Surpresa de Sobrevivência”. Por que a surpresa? Porque nem eu sei o que tem dentro na metade das vezes. Pode ser resto de barata radioativa da semana passada ou algo que caiu atrás da geladeira há seis meses.",
+        "Bem, já que perguntou, temos o Clássico do Refúgio—Bolo de Carne Misterioso. É Brahmin? É rato-toupeira? Inferno, é mesmo carne? Gosto de manter o suspense. Servido com um lado do melhor purê de batatas da Vault-Tec, que pode ou não conter batatas de verdade.",
+        "A iguaria de hoje é o “Chili do Fim do Mundo”. Tem feijão, carne misteriosa e um tempero que vai te fazer pensar duas vezes antes de usar o banheiro nas próximas 24 horas. Para a sobremesa, estamos servindo “Brownies Nucleares”. Eles brilham no escuro, mas ei, isso só torna mais fácil encontrar o caminho de volta para sua beliche quando as luzes se apagam.",
+        "No menu de hoje está o “Especial do Supervisor”—um prato que é todo sobre insipidez e controle. É uma torrada. Sem manteiga, sem geleia, apenas torrada seca e esmagadora de almas. Ou, se estiver se sentindo ousado, pode experimentar nosso “Hambúrguer da Rebelião”. Tem gordura extra e um dedo do meio para a Polícia da Pureza cozido diretamente no hambúrguer."
+      ]
+    },
+    {
+      "optionText": "Quem é você?",
+      "responseText": "Quem sou eu? Sou Gina, a única cozinheira neste refúgio que pode fazer feijão enlatado parecer uma refeição gourmet—ou pelo menos não comida de cachorro. Também atuo como instrutora de educação sexual não oficial do refúgio, principalmente mostrando às pessoas o que não fazer com um pepino. <i>[Ela sorri, jogando um pepino no ar e o pegando.]</i>",
+      "followUpOptions": [
+        {
+          "optionText": "Tem alguma receita secreta?",
+          "responseText": "Receitas secretas? Ah, sim, várias! Como meu ensopado especial de “não pergunte o que é”. O ingrediente secreto é o mistério. Mantém todos adivinhando e com muito medo de pedir mais."
+        },
+        {
+          "optionText": "Você tem algo para beber?",
+          "responseText": "Claro! Temos água, ou você pode experimentar meu “Especial da Gina” caseiro. É como Nuka-Cola, mas com mais álcool e menos consideração pelo seu fígado. Não pergunte o que tem dentro. Digamos que vai te nocautear ou limpar a ferrugem do seu Pip-Boy.",
+          "followUpOptions": [
+            {
+              "optionText": "Certo, me dê um.",
+              "responseText": "Aqui está, um Especial da Gina. Só não beba muito rápido, a menos que queira experimentar como é ver o som.",
+              "specialEffects": ["ChromaticAberration", "TemporalBlur"],
+              "exitLine": true
+            }
+          ]
+        },
+        {
+          "optionText": "Tem alguma dica de cozinha para um iniciante?",
+          "responseText": "Sim, aqui vai uma dica: se cheirar mal, cozinhe por mais tempo. Se ainda cheirar mal, adicione sal. Se pegar fogo, está pronto. E se alguém perguntar o que tem dentro, apenas sorria e diga que é uma receita de família. E se tudo mais falhar, afogue em ketchup. Ketchup cobre uma infinidade de pecados."
+        },
+        {
+          "optionText": "Já teve algum problema com a Polícia da Pureza?",
+          "responseText": "Oh, vários. Eles adoram fazer essas inspeções aleatórias de “saúde e segurança”. Uma vez, encontraram meu estoque de pepinos e ficaram todos nervosos. Tive que explicar para aqueles idiotas que às vezes um pepino é apenas um pepino. Mas eles escutam? De jeito nenhum. Estou na “lista de observação” deles agora."
+        }
+      ]
+    },
+    {
+      "optionText": "Precisa de ajuda?",
+      "icon": "GUI/quest mark",
+      "dontDisplayIfObjectiveComplete": "Retrieve Recipe Book for Gina",
+      "dontDisplayIfHasObjective": "Retrieve Recipe Book for Gina",
+      "responseText": "Na verdade, agora que você mencionou... aqueles policiais estraga-prazeres pegaram meu livro de receitas. Disseram que era ‘sugestivo demais’. Dá para acreditar? Quer dizer, claro, alguns pratos são um pouco... ousados, mas vamos lá, é *arte*. De qualquer forma, preciso dele de volta se quiser evitar que este refúgio morra de tédio.",
+      "followUpOptions": [
+        {
+          "optionText": "Por que eles pegaram? O que há de tão sugestivo em um livro de receitas?",
+          "responseText": "Oh, você ficaria surpreso! Aparentemente, meus ‘Donuts Recheados com Creme’ e ‘Surpresa de Linguiça Grossa e Suculenta’ foram um pouco demais para suas sensibilidades delicadas. Bando de puritanos! Eles simplesmente não conseguiram lidar com meu *sabor*.",
+          "followUpOptions": [
+            {
+              "optionText": "Certo, vou pegá-lo de volta para você.",
+              "responseText": "Oh, seu herói absoluto! Mas aqueles policiais de bunda apertada não vão simplesmente entregá-lo. Você vai precisar de uma boa conversa ou talvez *suborná-los*. Jogue certo, e eu te deverei uma grande. E por grande, quero dizer *você nunca mais passará fome*—se é que me entende.",
+              "addObjective": "Retrieve Recipe Book for Gina",
+              "exitLine": true
+            },
+            {
+              "optionText": "Parece arriscado. Acho que vou passar.",
+              "responseText": "Oh, não seja tão mole! Mas ei, se mudar de ideia e quiser apimentar sua vida, sabe onde me encontrar."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "optionText": "Precisa de mais alguma ajuda?",
+      "icon": "GUI/quest mark",
+      "onlyDisplayIfObjectiveComplete": "Retrieve Recipe Book for Gina",
+      "dontDisplayIfObjectiveComplete": "Help Gina Clean the Diner",
+      "responseText": "Bem, agora que você mencionou, eu poderia usar uma ajuda para limpar por aqui. Está uma bagunça e meus braços estão tão cansados. Topa dar uma mão, querido? Farei valer a pena—prometo.",
+      "followUpOptions": [
+        {
+          "optionText": "Claro, eu ajudo.",
+          "specialEffects": ["Blackout"],
+          "responseText": "Oh, você é um salva-vidas! Certo, vamos ao trabalho. Comece pelo chão, depois cuidamos das mesas.",
+          "addObjective": "Help Gina Clean the Diner",
+          "followUpOptions": [
+            {
+              "optionText": "[Limpar o Chão]",
+              "specialEffects": ["Blackout"],
+              "responseText": "*Você pega o rodo e começa a esfregar o chão. O chão está uma bagunça—alguém derramou muito 'molho' aqui atrás.*",
+              "followUpOptions": [
+                {
+                  "optionText": "[Limpar as Mesas]",
+                  "specialEffects": ["Blackout"],
+                  "responseText": "*Agora é hora de limpar aquelas mesas pegajosas. Há uma mancha misteriosa que você tem certeza que está aqui desde antes das bombas caírem.*",
+                  "followUpOptions": [
+                    {
+                      "optionText": "[Limpar o Balcão]",
+                      "specialEffects": ["Blackout"],
+                      "responseText": "*Você limpa o balcão, e—sim, mais molho. A Gina está derramando molho por todo lado de propósito? Talvez você precise pedir a ela um avental à prova de derramamento da próxima vez.*",
+                      "followUpOptions": [
+                        {
+                          "optionText": "[Procurar por mais bagunça]",
+                          "specialEffects": ["Blackout"],
+                          "responseText": "*Você olha ao redor e se sente bastante realizado. O lugar está impecável... bem, quase.*",
+                          "followUpOptions": [
+                            {
+                              "optionText": "[Voltar para a Gina]",
+                              "changeSprite": "Characters/Gina/no panties",
+                              "newSpriteXPos": 3.6,
+                              "newSpriteYPos": 0.21,
+                              "resetToDefaultSpriteAfterClosingDialogues": true,
+                              "specialEffects": ["Blackout"],
+                              "hEventName": "gina_diner_oopsie",
+                              "followUpOptions": [
+                                {
+                                  "optionText": "Uh... Gina, terminei de limpar o—",
+                                  "markObjectiveComplete": "Help Gina Clean the Diner",
+                                  "emotion": "Characters/Gina/emotions/IPAdapter_00922_(1)(1)",
+                                  "responseText": "Oh, ótimo! Obrigada por—espere, POR QUE SEUS OLHOS ESTÃO SALTANDO ASSIM? Oh meu deus. OH, MERDA, ISTO É UM PESADELO. Esqueça que isso aconteceu, ou eu... eu te dou para os Mirelurks! APENAS SAIA!",
+                                  "followUpOptions": [
+                                    {
+                                      "optionText": "Uh... onde estão suas calças?",
+                                      "responseText": "Oh! Uh... bem, isso é... embaraçoso! Eu—eu devo ter... uh, esquecido na lavanderia! Sim, é isso! Apenas... tente não pensar muito sobre isso, ok? Juro que não costumo trabalhar assim!",
+                                      "followUpOptions": [
+                                        {
+                                          "optionText": "Claro... totalmente um acidente, hein?",
+                                          "responseText": "Bem... sim, *totalmente*! Quer dizer, quem *esquece* as calças? Não é como se eu tivesse planejado isso, certo? Heh... certo?! De qualquer forma, que tal eu fazer um pouco de comida para nós e esquecemos que isso aconteceu?",
+                                          "followUpOptions": [
+                                            {
+                                              "optionText": "Certo, eu aceito a comida.",
+                                              "responseText": "Oh, graças a Deus! Uma refeição misteriosa saindo—não pergunte o que tem dentro. Você já viu o suficiente.",
+                                              "emotion": "none",
+                                              "specialEffects": ["Blackout"],
+                                              "giveRandomItem": "random_food_or_drink",
+                                              "progressionEventPlayed": "took_food_from_gina",
+                                              "showChoiceStats": "took_food_from_gina2",
+                                              "relationshipPoints": 5,
+                                              "exitLine": true
+                                            },
+                                            {
+                                              "optionText": "[Denunciá-la por atentado ao pudor]",
+                                              "icon": "GUI/eye icon",
+                                              "responseText": "Oh... oh não. Você está me denunciando sério? Por *isso*? Não é como se eu estivesse fazendo agachamentos na sua cama. Certo. A Segurança do Refúgio vai adorar essa. Espero que goste de papelada.",
+                                              "emotion": "none",
+                                              "specialEffects": ["Blackout"],
+                                              "reported": 1,
+                                              "progressionEventPlayed": "refused_food_from_gina",
+                                              "showChoiceStats": "refused_food_from_gina",
+                                              "exitLine": true
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "optionText": "Limpeza? Não, estou de boa.",
+          "responseText": "Como quiser, docinho. Mas aposto que está perdendo um... *verdadeiro deleite* lá atrás. Espero que goste de comer enlatados, no entanto. Você poderia ter tido meu molho especial por conta da casa.",
+          "exitLine": true
+        }
+      ]
+    },
+    {
+      "optionText": "Precisa de mais alguma ajuda?",
+      "icon": "GUI/quest mark",
+      "onlyDisplayIfObjectiveComplete": "Help Gina Clean the Diner",
+      "dontDisplayIfHasObjective": "Grow cucumbers for Gina",
+      "dontDisplayIfObjectiveComplete": "Grow cucumbers for Gina",
+      "responseText": "Oh, querido, você não tem ideia do quanto preciso de uma mãozinha... Consegui estas sementes de pepino 'especiais', e preciso que você as plante na estufa. São para uma salada muito *especial*.",
+      "followUpOptions": [
+        {
+          "optionText": "O que há de tão especial nesses pepinos?",
+          "responseText": "Oh, você *adoraria* saber, não é? Digamos que estes garotões estão *pulsando* com nutrientes, crescem extra grossos, extra suculentos, e com uma forma que—uh... *única*. Puramente para fins culinários, claro!"
+        },
+        {
+          "optionText": "Claro, eu os planto para você.",
+          "icon": "GUI/quest mark",
+          "addObjective": "Grow cucumbers for Gina",
+          "dontDisplayIfHasObjective": "Grow cucumbers for Gina",
+          "giveItem": "Special Cucumber Seeds",
+          "exitLine": true,
+          "responseText": "Esse é o espírito! Vá para a estufa, arranje um buraco bom e fundo, e deslize estes garotões com cuidado e delicadeza. Eles gostam de uma *inserção lenta*, bem delicada. Estarei esperando aqui, sonhando com aqueles pepinos grandes, gordos e deliciosos—uh, pepinos. *Para a salada*."
+        },
+        {
+          "optionText": "Gina… você está só me zoando?",
+          "responseText": "Eu? Zoando você? Longe de mim! Sou apenas uma humilde cozinheira com uma profunda, profunda apreciação por... *produtos agrícolas*."
+        }
+      ]
+    },
+    {
+      "optionText": "Tchau",
+      "responseText": "Qual é, você sabe que vai voltar. Ninguém resiste ao fascínio de... manutenção de canos.",
+      "exitLine": true
+    }
+  ],
+  "auto_lines": [
+    "Bem, se não é carne fresca. Você veio pela comida, fofoca, ou só para encarar meus pães? E por pães, quero dizer os de pão, seu pervertido."
+  ],
+  "resetToDefaultSpriteAfterClosingDialogues": true
 }

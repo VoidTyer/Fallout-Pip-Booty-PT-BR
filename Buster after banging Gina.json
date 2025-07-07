@@ -1,26 +1,26 @@
 {
-    "options": [
+  "options": [
+    {
+      "optionText": "Bem, isso acabou de acontecer. Como você está se sentindo, Buster?",
+      "emotion": "Characters/Buster/emotions/buster shock",
+      "markObjectiveComplete": "Speak with Buster",
+      "responseText": "VOCÊ... VOCÊ REALMENTE... MANO, QUE PORRA É ESSA?! BEM NA MINHA FRENTE?! <i>*NA MINHA FRENTE?!*</i>",
+      "followUpOptions": [
         {
-            "optionText": "Well, that just happened. How you feeling, Buster?",
-            "emotion": "Characters/Buster/emotions/buster shock",
-            "markObjectiveComplete": "Speak with Buster",
-            "responseText": "YOU... YOU ACTUALLY... BRO, WHAT THE ACTUAL FUCK?! RIGHT IN FRONT OF ME?! <i>*IN FRONT OF ME?!*</i>",
-            "followUpOptions": [
-                {
-                    "optionText": "Yeah, I guess you weren’t much of a protector after all.",
-                    "emotion": "Characters/Buster/emotions/buster shock",
-                    "responseText": "YOU THINK THIS IS A JOKE?! I AM THE WALL THAT KEEPS THE FILTH OUT! AND YOU... YOU... YOU'RE A DEAD MAN! I’M GONNA SNAP YOU IN HALF!",
-                    "followUpOptions": [
-                        {
-                            "optionText": "Relax, Buster. You said you were *zen*, right?", 
-                            "playSound": "punch",  
-                            "progressionEventPlayed": "buster_punch",
-                            "specialEffects": ["Blackout", "Blur"],
-                            "advanceDayWithStatusMessage": "You wake up in your vault room, head pounding like you got hit by a radscorpion. Buster's backhand knocked you out cold."
-                        }
-                    ]
-                } 
-            ]
+          "optionText": "É, acho que você não era um protetor tão bom assim, afinal.",
+          "emotion": "Characters/Buster/emotions/buster shock",
+          "responseText": "VOCÊ ACHA QUE ISSO É UMA PIADA?! EU SOU A MURALHA QUE MANTÉM A SUJEIRA FORA! E VOCÊ... VOCÊ... VOCÊ É UM HOMEM MORTO! VOU TE PARTIR AO MEIO!",
+          "followUpOptions": [
+            {
+              "optionText": "Relaxe, Buster. Você disse que era *zen*, certo?",
+              "playSound": "punch",
+              "progressionEventPlayed": "buster_punch",
+              "specialEffects": ["Blackout", "Blur"],
+              "advanceDayWithStatusMessage": "Você acorda no seu quarto do refúgio, com a cabeça latejando como se tivesse sido atingido por um radscorpion. O tapa do Buster te nocauteou."
+            }
+          ]
         }
-    ]
+      ]
+    }
+  ]
 }

@@ -1,29 +1,29 @@
 {
-    "options": [
+  "options": [
     {
-        "optionText": "Diana, wake up!",
-        "responseText": "Mmm... go away before I dream-punch you.",
-        "followUpOptions": [
+      "optionText": "Diana, acorde!",
+      "responseText": "Mmm... saia antes que eu te dê um soco sonhado.",
+      "followUpOptions": [
+        {
+          "optionText": "Estamos sob ataque!",
+          "responseText": "Mmm... deixe que vençam... parece mais fácil... zzz..."
+        },
+        {
+          "optionText": "Diana, eu preciso de você!",
+          "responseText": "Mmph... que pena... zzz...",
+          "followUpOptions": [
             {
-                "optionText": "We’re under attack!",
-                "responseText": "Mmm... let them win... sounds easier... zzz..."
-            }, 
-            {
-                "optionText": "Diana, I need you!",
-                "responseText": "Mmph... too bad... zzz..." ,
-                "followUpOptions": [
-                    {
-                        "optionText": "Get up or I’ll tell the Overseer!",
-                        "responseText": "Tell him I’m too fabulous to wake up... zzz..."
-                    }
-                ]
+              "optionText": "Levante-se ou vou contar ao Supervisor!",
+              "responseText": "Diga a ele que sou fabulosa demais para acordar... zzz..."
             }
-        ]
+          ]
+        }
+      ]
     },
     {
-        "optionText": "Enjoy your nap while I do all the work.",
-        "responseText": "Mmm... sounds perfect... zzz..."
+      "optionText": "Aproveite sua soneca enquanto eu faço todo o trabalho.",
+      "responseText": "Mmm... parece perfeito... zzz..."
     }
-    ],
-    "auto_lines": ["Zzz..."]
+  ],
+  "auto_lines": ["Zzz..."]
 }

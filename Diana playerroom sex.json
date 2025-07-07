@@ -1,123 +1,124 @@
 {
-    "options": [
-      {
-        "optionText": "You’re looking like a glitch in a raider’s wet dream. What are you doing here?",
-        "icon": "GUI/heart4",
-        "responseText": "Oh, you know, just giving you the chance of a lifetime. You really wanna play hero or you wanna play... something else? ♥",
-        "followUpOptions": [ 
-          {
-            "optionText": "Are you that pent up? Like, are we talking ‘nuclear reactor about to blow’ levels?",
-            "responseText": "Oh, baby, we’re talking *megaton* levels. I’m like a fucking ticking bomb, and you’re the only one who can defuse me... or make it explode even harder!"
-          },
-          {
-            "optionText": "Alright, let’s say I’m in. What now?",
-            "icon": "GUI/heart4",
-            "responseText": "Now? Oh, now the *real* fun starts. But first, why don’t you lock that door and we’ll make sure no one interrupts our little... fun? ♥",
-            "followUpOptions": [
+  "options": [
+    {
+      "optionText": "Você parece um bug no sonho molhado de um saqueador. O que está fazendo aqui?",
+      "icon": "GUI/heart4",
+      "responseText": "Ah, sabe, só te dando a chance da sua vida. Você quer mesmo bancar o herói ou quer brincar de... outra coisa? ♥",
+      "followUpOptions": [
+        {
+          "optionText": "Você está tão reprimida assim? Tipo, estamos falando de níveis de 'reator nuclear prestes a explodir'?",
+          "responseText": "Oh, querido, estamos falando de níveis de *megaton*. Sou como uma porra de uma bomba-relógio, e você é o único que pode me desarmar... ou me fazer explodir ainda mais forte!"
+        },
+        {
+          "optionText": "Certo, digamos que estou dentro. E agora?",
+          "icon": "GUI/heart4",
+          "responseText": "Agora? Oh, agora a diversão *de verdade* começa. Mas primeiro, por que você não tranca essa porta e garantimos que ninguém interrompa nossa pequena... diversão? ♥",
+          "followUpOptions": [
+            {
+              "optionText": "Certo.",
+              "changeSprite": "Characters/Diana/Resized/sex with player",
+              "newSpriteXPos": -1.07,
+              "newSpriteYPos": -0.92,
+              "icon": "GUI/heart4",
+              "spriteAtTheEndOfHscene": "Characters/Diana/in cum/IPAdapter_00842_(1)",
+              "interactableBGcolor": "#919191",
+              "spriteAtTheEndOfHscenePosition": [4.84, -0.4],
+              "interactable": "Characters/Diana/Interactables/sex",
+              "specialEffects": ["Blackout"],
+              "endingEffects": ["Flashes", "StopShake"],
+              "closeDialogueOptions": true,
+              "isHEventStarted": true,
+              "reduceDesireAfterAutoLines": 10,
+              "addPerk": "got_diana_pregnant",
+              "hEventName": "diana_asking_PlayerSex",
+              "auto_lines": [
+                "Mmm, você está realmente dificultando ficar quieta... ♥",
+                "Ahh, não pare! Eu desejei isso por semanas... oh deus!",
+                "Sinto como se estivesse pingando a cada estocada... hnnng, você vai me fazer explodir!",
+                "Mmm, seu pau está atingindo todos os pontos certos... ♥ Continue!",
+                "Ohhh, consigo sentir os sucos escorrendo pelas minhas coxas... mais, mais!",
+                "Porra, eu não estive tão cheia em anos... não se atreva a parar!",
+                "Ahh, é isso... me bata como se fosse para valer! ♥",
+                "Mmm, você vai me fazer gozar em todo o seu pau... hnnng!",
+                "Ahh, mais fundo, quero sentir cada centímetro desse pau... ♥",
+                "Você me deixou encharcada... não consigo ter o suficiente disso!",
+                "Oh porra, estou tão perto... só mais um pouco...!",
+                "Mmm, cada vez que você estoca, eu sinto fundo na minha buceta... não pare agora!",
+                "Hnnng, seu pau está me enlouquecendo... vou perder o controle!",
+                "Ahhh, você está atingindo todos os pontos certos... porra, estou gozando!",
+                "Mmm, consigo sentir seu pau pulsando... você vai me encher de porra?",
+                "Ohhh, porra, você está me fazendo gozar tanto... ♥",
+                "Ahh, eu amo o jeito que você me alarga... me dê mais!",
+                "Mmm, vou espremer cada gota de porra de você... ♥",
+                "Oh porra, você está me deixando tão molhada... não consigo mais segurar!",
+                "Mmm, quero sentir cada gota da sua porra dentro de mim... não pare até eu estar transbordando!",
+                "Ahh, sim, bem aí! Não pare, oh deus, consigo sentir cada centímetro de você—tão fundo... ♥",
+                "Mmm, seu pau está tão duro, está me enlouquecendo... hnnng, estou tão perto, não se atreva a parar agora!",
+                "Oh porra, você está me enchendo tão perfeitamente... consigo sentir seu pau me alargando, ahhh, sim!",
+                "Hahhh, estou pingando, consegue sentir como estou molhada? Oh deus, está escorrendo pelas minhas coxas... ♥",
+                "Mmm, seu pau está pulsando tanto, mal posso esperar para sentir sua porra jorrando fundo dentro de mim... hnngh, sim!",
+                "Ahhh, mais forte! Me foda mais forte! Quero sentir você me batendo até eu não conseguir pensar direito... ♥",
+                "Ohh, sua língua... está me enlouquecendo! Ahh, lamba minha buceta exatamente assim, não pare!",
+                "Hnnngh, estou tão perto! Ahhh, não consigo mais segurar... vou gozar!",
+                "Sim, sim, sim! Oh porra, eu amo como você me enche tão perfeitamente... mmm, vou gozar tanto!",
+                "Hahhh, seu pau é tão bom dentro de mim... ohh, nunca quero que isso pare!",
+                "Mmm, sim, seus dedos estão atingindo todos os pontos certos... oh deus, vou explodir!",
+                "Ahh, consigo sentir seu pau se contraindo... você vai gozar, não vai? Mmm, me dê, me encha!",
+                "Porra, sua porra é tão quente dentro de mim... oh deus, consigo sentir escorrendo... ahhh, sim!",
+                "Mmm, suas mãos... elas estão me enlouquecendo, oh porra, estou tão perto de gozar em todo o seu pau!",
+                "Ahh, sim, exatamente assim... não pare, não se atreva a parar, quero sentir cada última gota da sua porra dentro de mim... hnngh!",
+                "Ohh, você está me deixando tão molhada, consigo sentir meus sucos escorrendo... ahh, porra, quero mais!",
+                "Mmm, sim, me foda como se fosse para valer! Ahh, não consigo ter o suficiente do seu pau... ♥",
+                "Hnnngh, estou tão perto, ahhh, sim! Me faça gozar, me faça gozar em você!",
+                "Ahh, seu pau é tão incrível, não aguento... hnngh, vou enlouquecer!",
+                "Mmm, seu pau está tão fundo em mim... consigo sentir sua porra me enchendo, ohh, porra, estou gozando!"
+              ]
+            }
+          ]
+        },
+        {
+          "optionText": "Vou precisar de uma explicação, porque isso parece a preparação para a pior decisão que já tomei.",
+          "responseText": "Pior decisão? Querido, se esta é a sua pior, então vou *arruinar* sua definição de 'más escolhas'. Confie em mim, vale a pena.",
+          "followUpOptions": [
+            {
+              "optionText": "Isso deve ser uma piada. Qual é a pegadinha? De jeito nenhum você está aqui só para... 'se divertir'.",
+              "responseText": "Sem pegadinha, querido, apenas eu e você e muita 'diversão' esperando para acontecer. A menos que você esteja com muito medo? Quero dizer, isso seria *adorável*, mas decepcionante.",
+              "followUpOptions": [
                 {
-                    "optionText": "Alright.",
-                    "changeSprite": "Characters/Diana/Resized/sex with player",
-                    "newSpriteXPos": -1.07,
-                    "newSpriteYPos": -0.92,
-                    "icon": "GUI/heart4",
-                    "spriteAtTheEndOfHscene": "Characters/Diana/in cum/IPAdapter_00842_(1)",
-                    "interactableBGcolor": "#919191",
-                    "spriteAtTheEndOfHscenePosition": [ 4.84, -0.4 ],
-                    "interactable": "Characters/Diana/Interactables/sex",
-                    "specialEffects": ["Blackout"],
-                    "endingEffects": ["Flashes", "StopShake"],
-                    "closeDialogueOptions": true,
-                    "isHEventStarted": true, 
-                    "reduceDesireAfterAutoLines": 10,
-                    "addPerk": "got_diana_pregnant",
-                    "hEventName": "diana_asking_PlayerSex",
-                    "auto_lines": [
-                        "Mmm, you’re really making it hard to stay quiet... ♥",
-"Ahh, don’t stop! I’ve been craving this for weeks... oh god!",
-"Feels like I’m dripping wet with every thrust... hnnng, you’re gonna make me explode!",
-"Mmm, your dick is hitting all the right spots... ♥ Keep going!",
-"Ohhh, I can feel the juices running down my thighs... more, more!",
-"Fuck, I haven’t been this full in ages... don’t you dare stop!",
-"Ahh, that’s it... pound me like you mean it! ♥",
-"Mmm, you’re gonna make me cum all over your cock... hnnng!",
-"Ahh, deeper, I want to feel every inch of that dick... ♥",
-"You’ve got me soaking wet... I can’t get enough of this!",
-"Oh fuck, I’m so close... just a little more...!",
-"Mmm, every time you thrust, I feel it deep in my pussy... don’t stop now!",
-"Hnnng, your cock is driving me crazy... I’m gonna lose it!",
-"Ahhh, you’re hitting all the right spots... fuck, I’m cumming!",
-"Mmm, I can feel your cock throbbing... are you gonna fill me up with cum?",
-"Ohhh, fuck, you’re making me cum so hard... ♥",
-"Ahh, I love the way you stretch me out... give me more!",
-"Mmm, I’m gonna squeeze every drop of cum out of you... ♥",
-"Oh fuck, you’re making me so wet... I can’t hold back anymore!",
-"Mmm, I want to feel every drop of your cum inside me... don’t stop until I’m overflowing!" ,
-"Ahh, yes, right there! Don’t stop, oh god, I can feel every inch of you—so deep inside... ♥",
-"Mmm, your dick is so hard, it's driving me wild... hnnng, I’m so close, don’t you dare stop now!",
-"Oh fuck, you’re filling me up so perfectly... I can feel your cock stretching me, ahhh, yes!",
-"Hahhh, I’m dripping, can you feel how wet I am? Oh god, it's running down my thighs... ♥",
-"Mmm, your cock is throbbing so much, I can’t wait to feel your cum shooting deep inside me... hnngh, yes!",
-"Ahhh, harder! Fuck me harder! I want to feel you pound me until I can’t think straight... ♥",
-"Ohh, your tongue... it’s driving me insane! Ahh, lick my pussy just like that, don’t stop!",
-"Hnnngh, I’m so fucking close! Ahhh, I can’t hold it anymore... I’m gonna cum!",
-"Yes, yes, yes! Oh fuck, I love how you fill me up so perfectly... mmm, I’m gonna cum so hard!",
-"Hahhh, your dick feels so good inside me... ohh, I never want this to stop!",
-"Mmm, yes, your fingers are hitting all the right spots... oh god, I’m gonna explode!",
-"Ahh, I can feel your cock twitching... you’re about to cum, aren’t you? Mmm, give it to me, fill me up!",
-"Fuck, your cum feels so hot inside me... oh god, I can feel it dripping out... ahhh, yes!",
-"Mmm, your hands... they’re driving me wild, oh fuck, I’m so close to cumming all over your cock!",
-"Ahh, yes, just like that... don’t stop, don’t you dare stop, I want to feel every last drop of your cum inside me... hnngh!",
-"Ohh, you’re making me so wet, I can feel my juices running down... ahh, fuck, I want more!",
-"Mmm, yes, fuck me like you mean it! Ahh, I can’t get enough of your cock... ♥",
-"Hnnngh, I’m so fucking close, ahhh, yes! Make me cum, make me cum all over you!",
-"Ahh, your dick feels so fucking amazing, I can’t take it... hnngh, I’m gonna lose my mind!",
-"Mmm, your cock is so deep inside me... I can feel your cum filling me up, ohh, fuck, I’m cumming!"
-                    ]
-                }
-            ]
-          },
-          {
-            "optionText": "I’m gonna need an explanation, because this feels like the setup to the worst decision I’ve ever made.",
-            "responseText": "Worst decision? Baby, if this is your worst, then I’m gonna *ruin* your definition of 'bad choices.' Trust me, it’s worth it.",
-            "followUpOptions": [
-                {
-                    "optionText": "This has gotta be a joke. What’s the catch? There’s no way you’re just here to... 'have fun.'",
-                    "responseText": "No catch, babe, just me and you and a whole lot of 'fun' waiting to happen. Unless you’re too scared? I mean, that’d be *adorable* but disappointing.",
-                    "followUpOptions": [
-                      {
-                        "optionText": "You really expect me to believe this? You’re like two seconds away from turning into a horny feral ghoul.",
-                        "responseText": "Oh, I’m already there, babe. I’m feral, I’m wild, and I’m all over the place. But hey, it could be worse... you could be Hugh."
-                      },
-                      {
-                        "optionText": "So what, we do this and then what? You leave me to explain why I was stupid enough to fall for it?",
-                        "responseText": "Nah, no explanations needed. Just some good old-fashioned fun, and maybe a few bruises—if you’re lucky!"
-                      }
-                    ]
+                  "optionText": "Você realmente espera que eu acredite nisso? Você está a dois segundos de se transformar em um ghoul feral com tesão.",
+                  "responseText": "Oh, eu já estou lá, querido. Sou feral, sou selvagem e estou por toda parte. Mas ei, poderia ser pior... você poderia ser o Hugh."
                 },
                 {
-                    "optionText": "You’re looking like a crazy nympho that just escaped from the Purity Police. How did you even get in here?",
-                    "responseText": "Oh, don’t worry about *how* I got in. Worry about what I’m gonna do now that I’m here. Or, if you’re lucky, what we’re gonna do together. ♥",
-                    "followUpOptions": [
-                      {
-                        "optionText": "You’re lucky I don’t call the Purity Police right now. This feels like entrapment.",
-                        "responseText": "Pfft, call them! They’d probably just join in... or pass out from the sheer heat coming off me. But I know you’re smarter than that."
-                      },
-                      {
-                        "optionText": "And what if I say no? You’re just gonna walk out, no big deal?",
-                        "responseText": "If you say no, I’ll just have to find someone with a spine. But hey, I had a feeling you were a little *more* than just talk."
-                      }
-                    ]
-                  } 
-            ]
-          }
-        ]
-      }, 
-      {
-        "optionText": "Bye",
-        "responseText": "Oh, come on! You’re really gonna kick me out when I’m like *this*? Fine, your loss. But you’ll be thinking about it later, trust me.",
-        "exitLine": true
-      }
-    ],
-    "auto_lines": ["Mmm, morning, sleepyhead. Hope you don’t mind me dropping by... like *this*."]
+                  "optionText": "Então, o quê, fazemos isso e depois? Você me deixa para explicar por que fui estúpido o suficiente para cair nessa?",
+                  "responseText": "Não, sem explicações necessárias. Apenas uma boa e velha diversão, и talvez alguns hematomas—se você tiver sorte!"
+                }
+              ]
+            },
+            {
+              "optionText": "Você parece uma ninfomaníaca louca que acabou de escapar da Polícia da Pureza. Como você entrou aqui?",
+              "responseText": "Oh, não se preocupe com *como* eu entrei. Preocupe-se com o que vou fazer agora que estou aqui. Ou, se você tiver sorte, o que vamos fazer juntos. ♥",
+              "followUpOptions": [
+                {
+                  "optionText": "Você tem sorte de eu não chamar a Polícia da Pureza agora mesmo. Isso parece uma armadilha.",
+                  "responseText": "Pfft, chame-os! Eles provavelmente apenas se juntariam... ou desmaiariam com o puro calor que emana de mim. Mas sei que você é mais esperto que isso."
+                },
+                {
+                  "optionText": "E se eu disser não? Você simplesmente vai embora, sem problemas?",
+                  "responseText": "Se você disser não, terei que encontrar alguém com colhões. Mas ei, eu tinha a sensação de que você era um pouco *mais* do que apenas conversa."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "optionText": "Tchau",
+      "responseText": "Ah, qual é! Você vai mesmo me expulsar quando estou *assim*? Tudo bem, você quem perde. Mas você vai pensar nisso mais tarde, confie em mim.",
+      "exitLine": true
+    }
+  ],
+  "auto_lines": [
+    "Mmm, bom dia, dorminhoco. Espero que não se importe de eu ter passado por aqui... *assim*."
+  ]
 }
-  

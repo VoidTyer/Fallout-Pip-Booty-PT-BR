@@ -1,57 +1,62 @@
 {
-    "options": [ 
+  "options": [
+    {
+      "optionText": "O que você quer de mim?",
+      "icon": "GUI/quest mark",
+      "responseText": "Quero que você me ajude a foder o sistema — literal e metaforicamente. Vamos inundar este refúgio com tanto material de punheta que até a Polícia da Pureza vai precisar de um banho frio.",
+      "followUpOptions": [
         {
-            "optionText": "What do you want from me?",
-            "icon": "GUI/quest mark",
-            "responseText": "I want you to help me stick it to the man—literally and metaphorically. We’re gonna flood this vault with so much fap material that even the Purity Police will need a cold shower.",
-            "followUpOptions": [ 
-                {
-                    "optionText": "What’s your plan?",
-                    "icon": "GUI/quest mark",
-                    "responseText": "The plan? Simple. We bring the fap back! I’ve got a network of loyal followers—true warriors—smuggling in pre-war magazines and holotapes. Join us. Take those contraband magazines and hand them out to others. We’re gonna turn this vault into a beacon of freedom, one jerk at a time!",
-                    "followUpOptions": [
-                        {
-                            "optionText": "I’m in! Let's fap 'em up!", 
-                            "closeDialogueOptions": true,
-                            "fadeOutCharacter": true,
-                            "markEventAsPlayed": true,
-                            "showChoiceStats": "sidedWithResistenceLeader",
-                            "progressionEventPlayed": "agreedToHelpResistenceLeader",
-                            "dontShowThisCharacterTodayAnymore": true,
-                            "giveItem": "Loose Housewives Vol.1",
-                            "numOfCopiesToGive": 5,
-                            "icon": "GUI/quest mark",
-                            "addObjective": "Reach 1000 Vault Tension",
-                            "responseText": "Now *that’s* the spirit I’m looking for! You’re gonna be a legend around here. Welcome to the resistance! Just don’t let your wrists get too tired, we’ve got a long road ahead. And remember, if you get caught, you never met me. Got it?"
-                        },
-                        {
-                            "optionText": "Not interested.", 
-                            "exitLine": true,
-                            "fadeOutCharacter": true,
-                            "dontShowThisCharacterTodayAnymore": true,
-                            "showChoiceStats": "refusedToSideWithResistenceLeader",
-                            "progressionEventPlayed": "refusedToHelpResistenceLeader",
-                            "responseText": "Not interested? That's what a simp would say! Look, pal, you either fap with us, or you get fapped over by the system. This isn’t just about getting off; it’s about sticking it to the man. And you’re walking around like Blue Balls himself has you on a leash."
-                        }
-                    ]
-                },
-                {
-                    "optionText": "Aren’t you afraid of getting caught?",
-                    "responseText": "Caught? By those spandex-clad morons with their Bonk Batons? Please. Even if they do catch us, what are they gonna do? Throw us in the Shame Chamber? I’ve been in there so many times, I practically have a loyalty card. As far as I’m concerned, I’ll die before I live in a world where a man can’t fap in peace."
-                }
-            ]
+          "optionText": "Qual é o seu plano?",
+          "icon": "GUI/quest mark",
+          "responseText": "O plano? Simples. Vamos trazer a punheta de volta! Tenho uma rede de seguidores leais — verdadeiros guerreiros — contrabandeando revistas e holofitas pré-guerra. Junte-se a nós. Pegue essas revistas contrabandeadas e distribua para os outros. Vamos transformar este refúgio em um farol de liberdade, uma punheta de cada vez!",
+          "followUpOptions": [
+            {
+              "optionText": "Estou dentro! Vamos encher eles de punheta!",
+              "closeDialogueOptions": true,
+              "fadeOutCharacter": true,
+              "markEventAsPlayed": true,
+              "showChoiceStats": "sidedWithResistenceLeader",
+              "progressionEventPlayed": "agreedToHelpResistenceLeader",
+              "dontShowThisCharacterTodayAnymore": true,
+              "giveItem": "Loose Housewives Vol.1",
+              "numOfCopiesToGive": 5,
+              "icon": "GUI/quest mark",
+              "addObjective": "Reach 1000 Vault Tension",
+              "responseText": "Agora, *esse* é o espírito que eu procuro! Você vai ser uma lenda por aqui. Bem-vindo à resistência! Só não deixe seus pulsos cansarem demais, temos um longo caminho pela frente. E lembre-se, se for pego, você nunca me conheceu. Entendido?"
+            },
+            {
+              "optionText": "Não estou interessado.",
+              "exitLine": true,
+              "fadeOutCharacter": true,
+              "dontShowThisCharacterTodayAnymore": true,
+              "showChoiceStats": "refusedToSideWithResistenceLeader",
+              "progressionEventPlayed": "refusedToHelpResistenceLeader",
+              "responseText": "Não está interessado? É o que um gado diria! Olha, amigo, ou você bate uma conosco, ou o sistema bate uma em você. Isso não é só sobre gozar; é sobre foder o sistema. E você está andando por aí como se o próprio Saco Azul te tivesse na coleira."
+            }
+          ]
         },
         {
-            "optionText": "Who are you?!",
-            "responseText": "Me? I’m the guy who's gonna save your right hand from extinction. They call me the Fap Resistance Leader, but you can call me your savior. I’m the one brave enough to stand up to the Purity Police and their tyrant, Overseer Blue Balls. I know what men need, and it’s not another lecture on 'Harnessing Your Chi.' It’s freedom, brother. Freedom to fap without fear!"
-        },
-        {
-            "optionText": "Bye.",
-            "responseTexts": ["Remember, when your hand gets lonely tonight, you know where to find me. Viva la fap-olution!",
-                            "When the potato farming and purity lectures get too much, just know there’s a stash of contraband and some loyal right hands waiting for you. Fap well, my friend.",
-                            "Later, dude. I’ll be in the usual place... right behind you, lurking in the shadows. No pressure, though."],
-            "exitLine": true
+          "optionText": "Você não tem medo de ser pego?",
+          "responseText": "Pego? Por aqueles idiotas de lycra com seus Cassetetes de Bonk? Por favor. Mesmo que nos peguem, o que vão fazer? Nos jogar na Câmara da Vergonha? Já estive lá tantas vezes que praticamente tenho um cartão de fidelidade. No que me diz respeito, prefiro morrer a viver em um mundo onde um homem não pode bater uma em paz."
         }
-    ],
-    "auto_lines":[ "Psst, wake up, sleeper! No time for morning wet dreams. We’ve got a vault to liberate! Don’t scream—it’s just me, your friendly neighbor.", "I’ve been watching you. No, not like that, perv. I mean, I see potential in you. Potential to bring down Blue Balls and his celibacy squad. Now, are you ready to join the revolution, or are you just gonna lie there with your jaw on the floor?" ]
+      ]
+    },
+    {
+      "optionText": "Quem é você?!",
+      "responseText": "Eu? Sou o cara que vai salvar sua mão direita da extinção. Eles me chamam de Líder da Resistência da Punheta, mas você pode me chamar de seu salvador. Sou o único corajoso o suficiente para enfrentar a Polícia da Pureza e seu tirano, o Supervisor Saco Azul. Eu sei do que os homens precisam, e não é de outra palestra sobre 'Aproveitar seu Chi'. É liberdade, irmão. Liberdade para bater uma sem medo!"
+    },
+    {
+      "optionText": "Tchau.",
+      "responseTexts": [
+        "Lembre-se, quando sua mão se sentir solitária esta noite, você sabe onde me encontrar. Viva a revolução da punheta!",
+        "Quando a agricultura de batata e as palestras de pureza ficarem demais, saiba que há um estoque de contrabando e algumas mãos direitas leais esperando por você. Bata uma bem, meu amigo.",
+        "Até mais, cara. Estarei no lugar de sempre... bem atrás de você, à espreita nas sombras. Sem pressão, no entanto."
+      ],
+      "exitLine": true
+    }
+  ],
+  "auto_lines": [
+    "Psiu, acorda, dorminhoco! Sem tempo para sonhos molhados matinais. Temos um refúgio para libertar! Não grite — sou só eu, seu vizinho amigável.",
+    "Eu estive te observando. Não, não desse jeito, seu pervertido. Quero dizer, vejo potencial em você. Potencial para derrubar o Saco Azul e seu esquadrão de celibato. Agora, está pronto para se juntar à revolução, ou vai ficar aí deitado com o queixo no chão?"
+  ]
 }

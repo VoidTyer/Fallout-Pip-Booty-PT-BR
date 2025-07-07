@@ -1,45 +1,45 @@
 {
-    "options": [
+  "options": [
+    {
+      "optionText": "Quem é você?",
+      "responseText": "Meu nome é Lorde da Borda, rei do saco azul e profeta da provocação de pau perpétua. Enquanto todo mundo se masturba para úberes de brahmin, estou aqui na linha entre o prazer e a tortura de pau absoluta—porque a dor é divertida.",
+      "followUpOptions": [
         {
-            "optionText": "Who are you?",
-            "responseText": "Name’s Edge Lord, king of blue balls and prophet of the perpetual cocktease. While everyone else jerks off to brahmin udders, I'm here riding the line between pleasure and absolute dick torture—because pain is fun.",
-            "followUpOptions": [
-                {
-                    "optionText": "Edge Lord? Are you serious right now?",
-                    "responseText": "Dead serious. Normal nutting is for weaklings. I live life permanently stuck at the last stroke before the money shot. You ever feel your balls scream for mercy? That shit is my coffee in the morning. Vault therapists gave up on me years ago."
-                },
-                {
-                    "optionText": "Planning to bust your way outta here someday?",
-                    "responseText": "Why bother? The wasteland’s got nothing on the fucked-up funhouse between my legs. But if I ever do leave, it'll be to show those rad-roasted degenerates how a real freak does sexual frustration."
-                }, 
-                {
-                    "optionText": "How do you feel about the Purity Police?",
-                    "responseText": "Those sexually-repressed nerds with their spanking sticks? Joke’s on them—I love being smacked around. Every baton hit just pushes me closer to orgasmic agony. Sometimes I break rules on purpose just to feel that sweet, sweet bonk on my balls."
-                }
-            ]
+          "optionText": "Lorde da Borda? Você está falando sério agora?",
+          "responseText": "Seríssimo. Gozar normalmente é para os fracos. Eu vivo a vida permanentemente preso na última estocada antes do gran finale. Já sentiu suas bolas gritarem por misericórdia? Essa merda é meu café da manhã. Os terapeutas do refúgio desistiram de mim anos atrás."
         },
         {
-            "optionText": "The fuck are you doing here?",
-            "responseText": "Currently edging my dick near these plants—figured if I torture my balls enough, I'll absorb some radiation or whatever. Honestly, I don’t even care about powers; I just like the thrill of almost busting nut near radioactive tomatoes.",
-            "followUpOptions": [
-                {
-                    "optionText": "So you're basically jerking off to plants now?",
-                    "responseText": "Plants, vault doors, radroaches—whatever. If it exists, I'll edge near it. They say man's gotta have a hobby, right?"
-                },
-                {
-                    "optionText": "Bio-edging? You're sick, man.",
-                    "responseText": "You have no idea. Ever edged so hard your dick glowed like a fucking Nuka-Cola Quantum? Thought so."
-                } 
-            ]
+          "optionText": "Planejando gozar para sair daqui algum dia?",
+          "responseText": "Para quê? A wasteland não tem nada comparado à casa de diversões fudida entre minhas pernas. Mas se eu sair algum dia, será para mostrar àqueles degenerados torrados pela radiação como um verdadeiro esquisito lida com a frustração sexual."
         },
         {
-            "optionText": "Any advice for surviving this vault?",
-            "responseText": "Don’t blow your load. Ever. Embrace the pain. Let your nuts ache."
-        },
-        {
-            "optionText": "Bye.",
-            "responseText": "Sure, run along now. Just remember—next time you’re about to climax, picture my swallen sack. Enjoy that ruined nut, champ.",
-            "exitLine": true
+          "optionText": "O que você acha da Polícia da Pureza?",
+          "responseText": "Aqueles nerds sexualmente reprimidos com seus cacetetes de espancamento? A piada é com eles—eu amo ser espancado. Cada pancada de cassetete só me aproxima da agonia orgásmica. Às vezes eu quebro as regras de propósito só para sentir aquela doce, doce pancada nas minhas bolas."
         }
-    ]
+      ]
+    },
+    {
+      "optionText": "Que porra você está fazendo aqui?",
+      "responseText": "Atualmente, estou me masturbando perto dessas plantas—pensei que se eu torturasse minhas bolas o suficiente, absorveria alguma radiação ou algo assim. Sinceramente, nem ligo para os poderes; só gosto da emoção de quase gozar perto de tomates radioativos.",
+      "followUpOptions": [
+        {
+          "optionText": "Então você está basicamente se masturbando para plantas agora?",
+          "responseText": "Plantas, portas de refúgio, baratas radioativas—tanto faz. Se existe, eu me masturbo perto. Dizem que o homem precisa ter um hobby, certo?"
+        },
+        {
+          "optionText": "Bio-masturbação? Você é doente, cara.",
+          "responseText": "Você não faz ideia. Já se masturbou tanto que seu pau brilhou como uma porra de uma Nuka-Cola Quantum? Foi o que pensei."
+        }
+      ]
+    },
+    {
+      "optionText": "Algum conselho para sobreviver a este refúgio?",
+      "responseText": "Não goze. Nunca. Abrace a dor. Deixe suas bolas doerem."
+    },
+    {
+      "optionText": "Tchau.",
+      "responseText": "Claro, vá andando. Só lembre-se—da próxima vez que estiver prestes a gozar, imagine meu saco inchado. Aproveite essa gozada arruinada, campeão.",
+      "exitLine": true
+    }
+  ]
 }

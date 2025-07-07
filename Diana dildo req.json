@@ -1,33 +1,35 @@
 {
-    "options": [
+  "options": [
+    {
+      "optionText": "O que você quer?",
+      "icon": "GUI/quest mark",
+      "responseText": "Um dildo. D-I-L-D-O. Preciso que seja liso e resistente, e não me importa como, ou onde—eu preciso de um de verdade antes que eu perca o juízo. Imagine a cara da Polícia da Pureza quando me pegarem usando um silicone sério em plena luz do dia!",
+      "followUpOptions": [
         {
-            "optionText": "What do you want?",
-            "icon": "GUI/quest mark",
-            "responseText": "A dildo. D-I-L-D-O. I need it sleek and sturdy, and I don’t care how, or where—I require the real deal before I lose my grip on sanity. Just picture the Purity Police's faces when they catch me wielding some serious silicone in broad daylight!",
-            "followUpOptions": [
-                {
-                    "optionText": "Where can I get one?",
-                    "responseText": "Not in this rusted tin can, that’s for sure. I’ve already scoured the black market. Nada. If one exists, it’s gotta be somewhere in the wasteland."
-                },
-                {
-                    "optionText": "OK, I’ll get it.",
-                    "closeDialogueOptions": true,
-                    "addObjective": "Get dildo for Diana",
-                    "markEventAsPlayed": true,
-                    "icon": "GUI/quest mark",
-                    "fadeOutCharacter": true,
-                    "requestedItemFromDiana": "Monster Dildo",
-                    "responseText": "Oh, I knew you'd help a girl. You always deliver when the mission involves something firm, don’t you?"
-                },
-                {
-                    "optionText": "I'm not your errand boy.",
-                    "responseText": "Fine by me. I’ll find someone else. But don’t come crying to me when you miss out on all the fun.",
-                    "markEventAsPlayed": true,
-                    "fadeOutCharacter": true,
-                    "exitLine": true
-                }
-            ]
+          "optionText": "Onde posso conseguir um?",
+          "responseText": "Não nesta lata de ferrugem, com certeza. Já vasculhei o mercado negro. Nada. Se existir um, deve estar em algum lugar na wasteland."
+        },
+        {
+          "optionText": "OK, eu pego.",
+          "closeDialogueOptions": true,
+          "addObjective": "Get dildo for Diana",
+          "markEventAsPlayed": true,
+          "icon": "GUI/quest mark",
+          "fadeOutCharacter": true,
+          "requestedItemFromDiana": "Monster Dildo",
+          "responseText": "Oh, eu sabia que você ajudaria uma garota. Você sempre cumpre quando a missão envolve algo firme, não é?"
+        },
+        {
+          "optionText": "Não sou seu garoto de recados.",
+          "responseText": "Por mim tudo bem. Vou encontrar outra pessoa. Mas não venha chorando para mim quando perder toda a diversão.",
+          "markEventAsPlayed": true,
+          "fadeOutCharacter": true,
+          "exitLine": true
         }
-    ],
-    "auto_lines": ["Alright, hero, this is it. The vault has finally broken me. I need a dildo. Yeah, you heard me. A dildo. And before you ask, yes, I’ve already tried improvising. And no, it didn’t go well."]
+      ]
+    }
+  ],
+  "auto_lines": [
+    "Certo, herói, é isso. O refúgio finalmente me quebrou. Eu preciso de um dildo. Sim, você me ouviu. Um dildo. E antes que você pergunte, sim, eu já tentei improvisar. E não, não deu certo."
+  ]
 }

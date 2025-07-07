@@ -1,44 +1,44 @@
 {
-    "options": [
+  "options": [
+    {
+      "optionText": "Gina... OH DEUS, QUE PORRA ACONTECEU?",
+      "progressionEventPlayed": "talkedToGinaAfterPurge",
+      "responseText": "*engasgando, sorriso encharcado de sangue* b-bem, o especial do chef hoje... *tosse violentamente* purê de Gina à la chão... t-temperado com traição... e-e sangue extra para dar sabor. h-hah...",
+      "followUpOptions": [
         {
-            "optionText": "Gina... OH GOD, WHAT THE HELL HAPPENED?",
-            "progressionEventPlayed": "talkedToGinaAfterPurge",
-            "responseText": "*gurgling, blood-soaked grin* w-well, chef’s special today... *coughs violently* pureed Gina à la floor... s-seasoned with betrayal... a-and extra blood for flavor. h-hah...",
-            "followUpOptions": [
-                {
-                    "optionText": "Gina, stay with me! You’re gonna make it!",
-                    "responseText": "*choking laugh* oh, sugar... *gasp* I’ve already... p-pulled out of the oven... and I’m... burnt to a crisp. *blood bubbles in her throat* s-say it... say my buns... w-were perfect... just once... *her voice cracks with desperation* just... o-once before I... *coughs violently*"
-                },
-                {
-                    "optionText": "Who did this?",
-                    "responseText": "*coughs up blood, eyes rolling* h-he did... *gasping wheeze* Übercel... that... limp, bratwurst-huffing psycho... *chokes, blood spilling from her lips* s-said my buns were ‘unworthy’... c-called me a... degenerate. M-me! Hah... can you *gasp* believe that? *more choking laughter*"
-                },
-                {
-                    "optionText": "Is there anything I can do?",
-                    "responseText": "*choking cough* h-heh... yeah... g-get me a c-coffin shaped like... like a big baguette... *wheezes, blood spilling from her mouth* or, o-or just roll me into the oven... one last roast for the road... *her voice breaks* god, I’m... s-so cold..."
-                }, 
-                {
-                    "optionText": "I'm sorry I couldn’t stop him.",
-                    "responseText": "oh... *wheezing laugh* you c-couldn’t stop a meat grinder... from b-biting its prey... *gasps for air, her body trembling* j-just promise me... *her eyes flicker with faint light* keep making fun... of m-my sausage metaphors... *gasp* or this world’s just... too damn boring... *wheezes, laughing weakly*"
-                },
-                {
-                    "optionText": "You can't die here!",
-                    "responseText": "*blood dribbles down her chin, her lips curling in a broken smile* oh, sweetie... *coughs violently* I’m tough, but even I can’t... *wheeze* survive a... full-body blender special... *she laughs weakly, her voice cracking* tell me... *gasp* w-was my cleavage bread at least... *chokes* good enough for a second glance?"
-                }
-            ]
+          "optionText": "Gina, fique comigo! Você vai conseguir!",
+          "responseText": "*risada engasgada* oh, docinho... *ofega* eu já... s-saí do forno... e estou... queimada até virar cinza. *sangue borbulha em sua garganta* d-diga... diga que meus pães... e-eram perfeitos... só uma vez... *sua voz falha com desespero* só... u-uma vez antes de eu... *tosse violentamente*"
         },
         {
-            "optionText": "[Finish her]", 
-            "killCharacter": true,
-            "progressionEventPlayed": "finishedGina",
-            "specialEffects": ["stab"],
-            "exitLine": true,
-            "responseText": "*Gina’s eyes widen, confused at first* w-wait, hon, what’re you— *blade enters, blood spurts* should’ve known... not to serve it raw... *chokes, dying laughter* you were always... a cold one"
+          "optionText": "Quem fez isso?",
+          "responseText": "*tosse sangue, olhos revirando* f-foi ele... *chiado ofegante* Übercel... aquele... psicopata molenga, cheirador de bratwurst... *engasga, sangue escorrendo de seus lábios* d-disse que meus pães eram ‘indignos’... m-me chamou de... degenerada. E-eu! Hah... você *ofega* acredita nisso? *mais risadas engasgadas*"
         },
         {
-            "optionText": "Goodbye Gina.",
-            "responseText": "*a broken whisper* T-take care of the... *cough* recipes, will ya...? T-the vault needs... my secret sauce... *her voice fades into a gurgling choke* Hah... a-and don’t let... Übercel t-turn them... vegan... *her head slumps, blood trickling as she goes silent*",
-            "exitLine": true
+          "optionText": "Há algo que eu possa fazer?",
+          "responseText": "*tosse engasgada* h-heh... sim... c-consiga um caixão em forma de... de uma grande baguete... *ofega, sangue escorrendo de sua boca* ou, o-ou apenas me role para o forno... um último assado para a estrada... *sua voz falha* deus, estou... t-tão fria..."
+        },
+        {
+          "optionText": "Sinto muito por não poder detê-lo.",
+          "responseText": "oh... *risada ofegante* você n-não conseguiria parar um moedor de carne... de m-morder sua presa... *ofega por ar, seu corpo tremendo* a-apenas me prometa... *seus olhos brilham com uma luz fraca* continue fazendo piada... das m-minhas metáforas de linguiça... *ofega* ou este mundo é apenas... chato demais... *ofega, rindo fracamente*"
+        },
+        {
+          "optionText": "Você não pode morrer aqui!",
+          "responseText": "*sangue escorre pelo queixo, seus lábios se curvando em um sorriso quebrado* oh, docinho... *tosse violentamente* sou durona, mas nem eu consigo... *ofega* sobreviver a um... especial de liquidificador de corpo inteiro... *ela ri fracamente, sua voz falhando* me diga... *ofega* m-meu pão de decote pelo menos... *engasga* era bom o suficiente para um segundo olhar?"
         }
-    ]
+      ]
+    },
+    {
+      "optionText": "[Acabe com ela]",
+      "killCharacter": true,
+      "progressionEventPlayed": "finishedGina",
+      "specialEffects": ["stab"],
+      "exitLine": true,
+      "responseText": "*Os olhos de Gina se arregalam, confusos a princípio* e-espere, querido, o que você está— *lâmina entra, sangue jorra* deveria saber... não servir cru... *engasga, risada moribunda* você sempre foi... frio"
+    },
+    {
+      "optionText": "Adeus Gina.",
+      "responseText": "*um sussurro quebrado* C-cuide das... *tosse* receitas, sim...? O-o refúgio precisa... do meu molho secreto... *sua voz se desvanece em um engasgo gorgolejante* Hah... e-e não deixe... o Übercel t-transformá-las... em veganas... *sua cabeça pende, sangue escorrendo enquanto ela silencia*",
+      "exitLine": true
+    }
+  ]
 }

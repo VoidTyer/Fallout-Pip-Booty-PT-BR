@@ -1,29 +1,29 @@
 {
   "options": [
     {
-      "optionText": "You okay in here?",
-      "responseText": "Yeah... just needed a moment. The water helps. Makes everything feel... lighter. Even when I’m carrying half of you inside me.",
-      "followUpOptions": [ 
+      "optionText": "Você está bem aqui?",
+      "responseText": "Sim... só precisava de um momento. A água ajuda. Faz tudo parecer... mais leve. Mesmo quando estou carregando metade de você dentro de mim.",
+      "followUpOptions": [
         {
-          "optionText": "You know there's a guy back there jerking off, right?",
-          "responseText": "Of course I do. I’m pregnant, not blind. He's been watching for a while—just another pathetic little perv. I could scream, call security... but honestly? I just don’t have the energy to care right now.",
+          "optionText": "Você sabe que tem um cara lá atrás batendo uma, certo?",
+          "responseText": "Claro que sei. Estou grávida, não cega. Ele está observando há um tempo—apenas mais um pervertido patético. Eu poderia gritar, chamar a segurança... mas sinceramente? Eu simplesmente não tenho energia para me importar agora.",
           "followUpOptions": [
             {
-                "optionText": "Want me to deal with him?",
-                "responseText": "Part of me does. But another part of me... just wants to keep standing here, pretending it's nothing. I guess motherhood makes you weird like that."
+              "optionText": "Quer que eu lide com ele?",
+              "responseText": "Parte de mim quer. Mas outra parte de mim... só quer continuar aqui, fingindo que não é nada. Acho que a maternidade te deixa estranha assim."
             },
             {
-                "optionText": "Why are you just letting it happen?",
-                "responseText": "Because part of me used to love it—being watched, wanted, all eyes on me. But now? I just feel... exposed and tired. Everything’s changed, and I don’t know who I’m supposed to be anymore. But you're right. I know I don’t want to be that woman again. Not with you by my side."
+              "optionText": "Por que você está simplesmente deixando acontecer?",
+              "responseText": "Porque parte de mim costumava amar isso—ser observada, desejada, todos os olhos em mim. Mas agora? Eu só me sinto... exposta e cansada. Tudo mudou, e não sei mais quem eu deveria ser. Mas você está certo. Sei que não quero ser aquela mulher de novo. Não com você ao meu lado."
             },
             {
-                "optionText": "*step between her and the man, shielding her*",
-                "responseText": "*quiet exhale* ...Thank you. I didn’t ask you to, but... I apriciate it. Just... be here with me for a while, okay? That’s all I need right now."
+              "optionText": "*ficar entre ela e o homem, protegendo-a*",
+              "responseText": "*expira silenciosamente* ...Obrigada. Eu não pedi, mas... agradeço. Só... fique aqui comigo por um tempo, ok? É tudo que preciso agora."
             }
           ]
-        } 
+        }
       ]
     }
   ],
   "showShadowFigures": "Showers when diana pregnant"
-} 
+}

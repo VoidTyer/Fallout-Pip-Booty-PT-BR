@@ -1,23 +1,23 @@
 {
-    "options": [
+  "options": [
+    {
+      "optionText": "De nada por esta... planta de pepino incomum.",
+      "responseText": "Sério, obrigada! Essa coisa sozinha tornou meu dia — e a rebelião da minha xoxota — dez vezes mais emocionante. Você realmente sabe como cultivá-las!",
+      "followUpOptions": [
         {
-            "optionText": "You’re welcome for this... unusual cucumber plant.",
-            "responseText": "Seriously, thank you! That thing single-handedly made my day—and my pussy's rebellion—ten times more exciting. You really know how to grow ‘em!",
-            "followUpOptions": [
-                {
-                    "optionText": "Glad it met your high standards.",
-                    "responseText": "Exceeded them! My standards are now officially mutant-cucumber high. You've set a dangerous precedent, friend."
-                },
-                {
-                    "optionText": "Next time, maybe warn me before going full in?",
-                    "responseText": "What, and spoil the surprise? Nah, half the fun is the tentacle ambush. Consider it an occupational hazard of gardening around me."
-                }
-            ]
-        }, 
+          "optionText": "Fico feliz que atendeu aos seus altos padrões.",
+          "responseText": "Excedeu! Meus padrões agora são oficialmente do nível de pepino-mutante. Você estabeleceu um precedente perigoso, amigo."
+        },
         {
-            "optionText": "I’ll leave you to your... gardening adventures.",
-            "responseText": "Appreciated! Stop by later—I might have discovered something even wilder by then.",
-            "exitLine": true
+          "optionText": "Da próxima vez, talvez me avise antes de ir com tudo?",
+          "responseText": "O quê, e estragar a surpresa? Nah, metade da diversão é a emboscada de tentáculos. Considere um risco ocupacional de jardinagem perto de mim."
         }
-    ]
+      ]
+    },
+    {
+      "optionText": "Vou deixar você com suas... aventuras de jardinagem.",
+      "responseText": "Agradeço! Apareça mais tarde — talvez eu tenha descoberto algo ainda mais selvagem até lá.",
+      "exitLine": true
+    }
+  ]
 }

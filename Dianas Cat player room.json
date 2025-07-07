@@ -1,64 +1,64 @@
 {
-    "options": [
+  "options": [
+    {
+      "optionText": "[Dar atum]",
+      "itemRequired": "Tuna",
+      "icon": "GUI/quest mark",
+      "giveItemToCharacter": "Tuna",
+      "onlyDisplayIfHasObjective": "Get tuna for Sir Whiskers.",
+      "markObjectiveComplete": "Get tuna for Sir Whiskers.",
+      "responseText": "*Ronrona profundamente* (Tradução: Finalmente, um humano que entende seu papel. Isso me agrada.)",
+      "followUpOptions": [
         {
-            "optionText": "[Give tuna]",
-            "itemRequired": "Tuna",
-            "icon": "GUI/quest mark",
-            "giveItemToCharacter": "Tuna",
-            "onlyDisplayIfHasObjective": "Get tuna for Sir Whiskers.",
-            "markObjectiveComplete": "Get tuna for Sir Whiskers.", 
-            "responseText": "*Purrs deeply* (Translation: Finally, a human who understands their role. This pleases me.)",
-            "followUpOptions": [
-                {
-                    "optionText": "You’re welcome, Your Majesty.",
-                    "responseText": "*Chirp* (Translation: Don’t push it, peasant. Just keep the tuna coming, and we won’t have any problems.)"
-                },
-                {
-                    "optionText": "That’s all you’re getting. Don’t expect more.",
-                    "responseText": "*Tail flick* (Translation: A bold declaration. I’ll be sure to remind you of this when you find your shoes mysteriously shredded.)"
-                }
-            ]
+          "optionText": "De nada, Vossa Majestade.",
+          "responseText": "*Pia* (Tradução: Não abuse, camponês. Apenas continue trazendo o atum, e não teremos problemas.)"
         },
         {
-            "optionText": "What are you doing on my bed?",
-            "icon": "GUI/quest mark",
-            "responseText": "*Meow* (Translation: Bold of you to assume this isn’t MY bed, peasant. Know your place.)",
-            "followUpOptions": [
-                {
-                    "optionText": "Your bed? You’re insane. This is MY bed!",
-                    "responseText": "*Hiss* (Translation: YOUR bed? Do you pay rent here? No? Then shut your hairless mouth before I scratch it.)"
-                }, 
-                {
-                    "optionText": "Get off my pillow, furball!",
-                    "responseText": "*Meow* (Translation: Make me. Touch me, and I’ll activate my claws.’)"
-                },
-                {
-                    "optionText": "What do you want from me, you little monster?",
-                    "icon": "GUI/quest mark",
-                    "dontDisplayIfObjectiveComplete": "Get tuna for Sir Whiskers.",
-                    "responseText": "*Meow* (Translation: Tribute. Bow before me and offer cream or tuna.)",
-                    "followUpOptions": [ 
-                        {
-                            "optionText": "Fine, I’ll find you some tuna later.",
-                            "addObjective": "Get tuna for Sir Whiskers.",
-                            "icon": "GUI/quest mark",
-                            "dontDisplayIfHas": "Get tuna for Sir Whiskers.",
-                            "dontDisplayIfObjectiveComplete": "Get tuna for Sir Whiskers.",
-                            "exitLine": true,
-                            "responseText": "*Purrs smugly* (Translation: Good. Obedience suits you. Maybe I’ll allow you to pet me. Maybe.)"
-                        },
-                        {
-                            "optionText": "You’re not getting anything from me!",
-                            "responseText": "*Chirp* (Translation: Oh, you’ll pay. Expect your favorite belongings to be ‘accidentally’ knocked off the table. Repeatedly.)"
-                        }
-                    ]
-                }, 
-                {
-                    "optionText": "Alright, fine. You can stay.",
-                    "responseText": "*Meow* (Translation: As if I needed your permission. Now silence yourself while I nap, serf.)",
-                    "exitLine": true
-                }
-            ]
+          "optionText": "Isso é tudo que você vai ganhar. Não espere mais.",
+          "responseText": "*Abana o rabo* (Tradução: Uma declaração ousada. Farei questão de te lembrar disso quando encontrar seus sapatos misteriosamente rasgados.)"
         }
-    ]
+      ]
+    },
+    {
+      "optionText": "O que você está fazendo na minha cama?",
+      "icon": "GUI/quest mark",
+      "responseText": "*Miau* (Tradução: Ousado de sua parte assumir que esta não é a MINHA cama, camponês. Saiba o seu lugar.)",
+      "followUpOptions": [
+        {
+          "optionText": "Sua cama? Você é louco. Esta é a MINHA cama!",
+          "responseText": "*Sibila* (Tradução: SUA cama? Você paga aluguel aqui? Não? Então cale sua boca sem pelos antes que eu a arranhe.)"
+        },
+        {
+          "optionText": "Saia do meu travesseiro, bola de pelos!",
+          "responseText": "*Miau* (Tradução: Me obrigue. Me toque, e eu ativarei minhas garras.)"
+        },
+        {
+          "optionText": "O que você quer de mim, seu monstrinho?",
+          "icon": "GUI/quest mark",
+          "dontDisplayIfObjectiveComplete": "Get tuna for Sir Whiskers.",
+          "responseText": "*Miau* (Tradução: Tributo. Curve-se diante de mim e ofereça creme ou atum.)",
+          "followUpOptions": [
+            {
+              "optionText": "Certo, vou te arranjar um atum mais tarde.",
+              "addObjective": "Get tuna for Sir Whiskers.",
+              "icon": "GUI/quest mark",
+              "dontDisplayIfHas": "Get tuna for Sir Whiskers.",
+              "dontDisplayIfObjectiveComplete": "Get tuna for Sir Whiskers.",
+              "exitLine": true,
+              "responseText": "*Ronrona com arrogância* (Tradução: Bom. A obediência te cai bem. Talvez eu permita que você me faça carinho. Talvez.)"
+            },
+            {
+              "optionText": "Você não vai conseguir nada de mim!",
+              "responseText": "*Pia* (Tradução: Ah, você vai pagar. Espere que seus pertences favoritos sejam 'acidentalmente' derrubados da mesa. Repetidamente.)"
+            }
+          ]
+        },
+        {
+          "optionText": "Certo, tudo bem. Você pode ficar.",
+          "responseText": "*Miau* (Tradução: Como se eu precisasse da sua permissão. Agora cale-se enquanto eu tiro uma soneca, servo.)",
+          "exitLine": true
+        }
+      ]
+    }
+  ]
 }

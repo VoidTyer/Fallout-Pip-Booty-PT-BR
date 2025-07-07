@@ -1,194 +1,192 @@
 {
-    "options": [
+  "options": [
     {
-      "optionText": "What the fuck is this bullshit about exiling Diana?",
+      "optionText": "Que porra é essa de exilar a Diana?",
       "icon": "GUI/quest mark",
       "onlyDisplayIfHasObjective": "Help Diana Avoid Exile",
-      "responseText": "Rules are rules. Her impurity is a threat to vault morality. We have no choice—she goes. Also, don't dear approaching me with such foul tongue.",
+      "responseText": "Regras são regras. A impureza dela é uma ameaça à moralidade do refúgio. Não temos escolha — ela vai embora. Além disso, não se atreva a se aproximar de mim com essa linguagem chula.",
       "followUpOptions": [
         {
-          "optionText": "She's staying. End of discussion.",
-          "responseText": "You defy vault purity doctrine? Explain yourself before we exile you too.",
+          "optionText": "Ela vai ficar. Fim de discussão.",
+          "responseText": "Você desafia a doutrina de pureza do refúgio? Explique-se antes que nós te exilemos também.",
           "followUpOptions": [
             {
-              "optionText": "Exile her, and I swear I’ll breed every last one of your purity bitches until this vault looks like a maternity ward.",
-              "responseText": "Your arrogance knows no bounds… and your threats hold no weight. You wouldn’t dare to even touch us.",
+              "optionText": "Exile-a, e eu juro que vou engravidar cada uma de suas vadias da pureza até que este refúgio pareça uma maternidade.",
+              "responseText": "Sua arrogância não conhece limites... e suas ameaças não têm peso. Você não se atreveria a nos tocar.",
               "followUpOptions": [
                 {
-                "optionText": "Try me. You think you purity cunts can resist my cock? You'll beg for my cum inside you.",
-                "responseText": "Enough. Your filth disgusts me. No one would dare challenge the purity police that brazenly!"
-                ,"followUpOptions": [ 
+                  "optionText": "Tente a sorte. Você acha que vocês, putas da pureza, conseguem resistir ao meu pau? Vão implorar pela minha porra dentro de vocês.",
+                  "responseText": "Chega. Sua imundície me enoja. Ninguém ousaria desafiar a polícia da pureza de forma tão descarada!",
+                  "followUpOptions": [
                     {
-                    "optionText": "Look me in the eye. Do I look like I'm bluffing?",
-                    "responseText": "...You're serious. F-Fine. The girl stays—for now. But know this: you've made dangerous enemies today. We cannot afford mass pregnancy scandal among the enforcers. We will watch both of you. One misstep, and the vault will drown in your blood instead of your seed!",
-                    "markObjectiveComplete": "Help Diana Avoid Exile",
-                    "followUpOptions": [
+                      "optionText": "Olhe nos meus olhos. Pareço estar blefando?",
+                      "responseText": "...Você está falando sério. T-Tudo bem. A garota fica — por enquanto. Mas saiba de uma coisa: você fez inimigos perigosos hoje. Não podemos arcar com um escândalo de gravidez em massa entre as aplicadoras da lei. Vamos vigiar vocês dois. Um passo em falso, e o refúgio se afogará no seu sangue em vez da sua semente!",
+                      "markObjectiveComplete": "Help Diana Avoid Exile",
+                      "followUpOptions": [
                         {
-                        "optionText": "Remember: touch her, and I'll start tonight.",
-                        "responseText": "Understood. For the vault's sake, we'll let her be—for now.",
-                        "exitLine": true
+                          "optionText": "Lembre-se: toque nela, e eu começo esta noite.",
+                          "responseText": "Entendido. Pelo bem do refúgio, vamos deixá-la em paz — por enquanto.",
+                          "exitLine": true
                         },
                         {
-                        "optionText": "Smart decision. Now get out of my sight.",
-                        "responseText": "Watch yourself. The purity police don't forget threats.",
-                        "exitLine": true
+                          "optionText": "Decisão inteligente. Agora suma da minha vista.",
+                          "responseText": "Cuidado. A polícia da pureza não esquece ameaças.",
+                          "exitLine": true
                         }
-                    ]
-                    } 
-                ]
+                      ]
+                    }
+                  ]
                 }
               ]
-            } 
+            }
           ]
         },
         {
-        "optionText": "Fine, take her. See if I care.",
-        "responseText": "Glad you see reason. Purity must be maintained.",
-        "exitLine": true
+          "optionText": "Tudo bem, leve-a. Veja se eu me importo.",
+          "responseText": "Fico feliz que você entenda. A pureza deve ser mantida.",
+          "exitLine": true
         }
       ]
     },
     {
-        "optionText": "I’ve got a new resident, Grace. She needs a vault suit.",
-        "onlyDisplayIfHasObjective": "Get a vault suit for Grace.",
-        "icon": "GUI/quest mark",
-        "giveItem": "Vault suit",
-        "exitLine": true,
-        "dontShowIfProgressionEventPlayed": "get_suit_for_grace",
-        "progressionEventPlayed": "get_suit_for_grace",
-        "responseText": "A new resident? Fine, get her a vault suit. But make sure she knows it’s standard issue. The last thing we need is someone bedazzling the Vault-Tec logo."
+      "optionText": "Tenho uma nova moradora, Grace. Ela precisa de um macacão do refúgio.",
+      "onlyDisplayIfHasObjective": "Get a vault suit for Grace.",
+      "icon": "GUI/quest mark",
+      "giveItem": "Vault suit",
+      "exitLine": true,
+      "dontShowIfProgressionEventPlayed": "get_suit_for_grace",
+      "progressionEventPlayed": "get_suit_for_grace",
+      "responseText": "Uma nova moradora? Tudo bem, pegue um macacão para ela. Mas certifique-se de que ela saiba que é o modelo padrão. A última coisa que precisamos é de alguém enfeitando o logotipo da Vault-Tec."
     },
     {
-        "optionText": "I'm here about Gina’s recipe book...",
-        "icon": "GUI/quest mark",
-        "onlyDisplayIfHasObjective": "Retrieve Recipe Book for Gina",
-        "responseText": "Ah, the infamous 'recipe' book. Full of 'Cream-Filled Donuts' and 'Thick Sausage Surprises,' right? That book is a menace to decency. Why would you want it?",
-        "followUpOptions": [
+      "optionText": "Estou aqui pelo livro de receitas da Gina...",
+      "icon": "GUI/quest mark",
+      "onlyDisplayIfHasObjective": "Retrieve Recipe Book for Gina",
+      "responseText": "Ah, o infame livro de 'receitas'. Cheio de 'Donuts Recheados com Creme' e 'Surpresas de Linguiça Grossa', certo? Aquele livro é uma ameaça à decência. Por que você o quer?",
+      "followUpOptions": [
+        {
+          "optionText": "É só um livro de receitas. Não pode deixar passar?",
+          "responseText": "É, e eu sou apenas uma humilde guardiã da pureza que não precisa dar 'bonks' em pervertidos o dia todo. Você pode tentar me bajular o quanto quiser, mas preciso de algo *suculento* se espera que eu o entregue.",
+          "followUpOptions": [
             {
-                "optionText": "It’s just a cookbook. Can’t you let it slide?",
-                "responseText": "Yeah, and I’m just a humble guardian of purity who doesn’t have to bonk pervs on the daily. You can try to sweet talk me all you want, but I need something *juicy* if you expect me to hand it over.",
-                "followUpOptions": [
-                    {
-                        "optionText": "I’ve been keeping things pure, haven’t I? Cut me some slack.",
-                        "responseText": "Well, well, well... looks like you’ve kept those hands clean—for now. Alright, fine, take the book. But if I see any 'Buns of Sin' coming out of that kitchen, you and me are gonna have words... and they’re all gonna start with 'bonk.'",
-                        "relationshipRequired": 10,
-                        "giveItem": "Gina's Recipe Book", 
-                        "exitLine": true
-                    },
-                    {
-                        "optionText": "What if I offered you something else?",
-                        "responseText": "Oh-ho-ho! Nuka-Cola XXX, baby! Now this is the kind of 'pure refreshment' I can get behind. Consider that filthy cookbook yours—*enjoy your buns of sin, you devil!*",
-                        "failedCheckResponse": "Now we’re talking! Got anything... *stimulating*? Oh! I know—how about a bottle of Nuka-Cola XXX? That stuff's banned, and I’ve been dying to see what all the fizz is about. Bring me one, and I might just 'accidentally' drop Gina’s sinful little recipe book back into circulation.",
-                        "giveItemToCharacter": "Nuka-Cola XXX",
-                        "itemRequired": "Nuka-Cola XXX",
-                        "giveItem": "Gina's Recipe Book",
-                        "exitLine": true
-                    },
-                    {
-                        "optionText": "Never mind, I’ll figure something else out.",
-                        "exitLine": true,
-                        "responseText": "Suit yourself, but that book’s not leaving this room unless you give me a *good* reason."
-                    }
-                ]
-            } 
-        ]
-    },
-    {
-        "optionText": "I heard you confiscated the robot's holotape. I need it.",
-        "icon": "GUI/quest mark",
-        "onlyDisplayIfHasObjective": "Fix the Vault Sexbot",
-        "dontShowIfProgressionEventPlayed": "got_sexbot_holotape",
-        "responseText": "Oh, you mean the FILTH? That revolting, immoral filth? That has NO PLACE in Vault 6969? Yeah, I confiscated it. Sealed it so tight even Liberty Prime couldn’t liberate it. Why do you want it?",
-        "followUpOptions": [ 
+              "optionText": "Eu tenho mantido as coisas puras, não tenho? Me dá um desconto.",
+              "responseText": "Bem, bem, bem... parece que você manteve as mãos limpas — por enquanto. Tudo bem, pegue o livro. Mas se eu vir algum 'Pãozinho do Pecado' saindo daquela cozinha, você e eu teremos uma conversa... e todas as palavras começarão com 'bonk'.",
+              "relationshipRequired": 10,
+              "giveItem": "Gina's Recipe Book",
+              "exitLine": true
+            },
             {
-                "optionText": "It’s for the Overseer...",
-                "responseText": "The Overseer?! Oh, my goodness gracious purified soul! Why didn’t you say so? If it’s for him, I’ll need written approval. Triple signed. And notarized. You don’t have that, do you? Hah, thought so."
-            }, 
+              "optionText": "E se eu te oferecer outra coisa?",
+              "responseText": "Oh-ho-ho! Nuka-Cola XXX, querido! Agora, este é o tipo de 'refresco puro' que eu aprovo. Considere aquele livro de receitas imundo seu — *aproveite seus pãezinhos do pecado, seu demônio!*",
+              "failedCheckResponse": "Agora estamos conversando! Tem algo... *estimulante*? Oh! Já sei — que tal uma garrafa de Nuka-Cola XXX? Aquilo é proibido, e estou morrendo de vontade de ver qual é o alvoroço. Traga-me uma, e talvez eu 'acidentalmente' deixe o livrinho pecaminoso da Gina voltar a circular.",
+              "giveItemToCharacter": "Nuka-Cola XXX",
+              "itemRequired": "Nuka-Cola XXX",
+              "giveItem": "Gina's Recipe Book",
+              "exitLine": true
+            },
             {
-                "optionText": "I’ll trade it for this... *bonk baton*.",
-                "itemRequired": "Monster Dildo",
-                "giveItem": "Sexbot holotape",
-                "progressionEventPlayed": "got_sexbot_holotape",
-                "giveItemToCharacter": "Monster Dildo",
-                "exitLine": true,
-                "responseText": "*Her eyes widen, and she blushes furiously* A... bonk baton? I... uh... might confiscate this... for safety purposes, of course! Hand it over, sinner. Here's your filthy holotape. Now... get out of here before I change my mind!"
+              "optionText": "Deixa pra lá, vou arranjar outra coisa.",
+              "exitLine": true,
+              "responseText": "Como quiser, mas aquele livro não vai sair desta sala a menos que você me dê um *bom* motivo."
             }
-        ]
+          ]
+        }
+      ]
     },
     {
-        "optionText": "What’s this place?",
-        "responseText": "Welcome to Vault 6969, also known as the No-Fap Vault. Around here, we weaponize sexual frustration. So strap in, sweatie, because your days of pleasure are over. You're about to channel every horny impulse you've ever had into aggressively farming mutated potatoes and knitting sweaters nobody wants.",
-        "followUpOptions": [
-            {
-                "optionText": "Is this some joke?",
-                "responseText": "No joke, sweetheart. Now, you better get used to it, or the Shame Chamber's going to become your new best friend.",
-                "followUpOptions": [
-                    {
-                        "optionText": "What is the Shame Chamber?",
-                        "responseText": "Ah, the Shame Chamber! It's our cozy little corner of humility and regret. It's basically like a spa room, but instead of relaxation, you get an overwhelming sense of shame and the urge to rethink your life choices. Fun, right?"
-                    }
-                    
-                ]
-            },
-            {
-                "optionText": "I think I got here by mistake. Can you just, I dunno, let me out?",
-                "responseText": "Oh, honey, nobody ends up in Vault 6969 by mistake. The only mistake here is you thinking you can just waltz out of here without learning the true power of self-restraint. Now, are you going to behave, or do I need to introduce you to my Bonk Baton?"
-            },
-            {
-                "optionText": "I’m a pro at resisting urges. Bet you can’t tempt me!",
-                "icon": "GUI/quest mark",
-                "dontDisplayIfObjectiveComplete": "Bonk 10 violators.",
-                "responseText": "Oh, we’re not in the business of tempting. We’re in the business of policing. But if you want to challenge the system, I’ll have my eye on you. Actually, how about you *help* us instead?",
-                "followUpOptions": [
-                    {
-                        "optionText": "Help you? What do you mean?",
-                        "responseText": "Oh, so now you're interested. Here’s the deal: we’ve got an infestation of fuck-ups happening around the vault. You bonk 10 violators, and I’ll make sure you're *rewarded*. What do you say?",
-                        "followUpOptions": [
-                            {
-                                "optionText": "What kind of violations are we talking about?",
-                                "responseText": "You know, the usual. Fapping, unauthorized 'alone time,' illicit holotapes, suggestive conversations—basically anything that makes the Purity Police cringe. You help us out, and I’ll throw in some official rewards."
-                            },
-                            {
-                                "optionText": "Alright.",
-                                "addObjective": "Bonk 10 violators.",
-                                "exitLine": true,
-                                "responseText": "Good to know you're on the right side of things. Keep your eyes peeled and when you have bonked some degenerates, come find me."
-                            }
-                        ]
-                    } 
-                ]
-            },
-            {
-                "optionText": "So, is it okay to have sex, at least?",
-                "responseText": "Sex? Here? That’s like asking if you can have a gangbang at a church. The answer is a big, fat no. The last couple who tried to get it on ended up scrubbing the Shame Chamber floors with toothbrushes."
-            }            
-            
-        ]
+      "optionText": "Ouvi dizer que você confiscou a holofita do robô. Eu preciso dela.",
+      "icon": "GUI/quest mark",
+      "onlyDisplayIfHasObjective": "Fix the Vault Sexbot",
+      "dontShowIfProgressionEventPlayed": "got_sexbot_holotape",
+      "responseText": "Oh, você quer dizer a IMUNDÍCIE? Aquela imundície nojenta e imoral? Aquilo NÃO TEM LUGAR no Refúgio 6969? Sim, eu confisquei. Seleia-a tão bem que nem o Liberty Prime conseguiria libertá-la. Por que você a quer?",
+      "followUpOptions": [
+        {
+          "optionText": "É para o Supervisor...",
+          "responseText": "O Supervisor?! Oh, minha nossa alma purificada! Por que não disse antes? Se é para ele, precisarei de aprovação por escrito. Com três assinaturas. E autenticada. Você não tem isso, tem? Ha, imaginei."
+        },
+        {
+          "optionText": "Eu troco por este... *cassetete de bonk*.",
+          "itemRequired": "Monster Dildo",
+          "giveItem": "Sexbot holotape",
+          "progressionEventPlayed": "got_sexbot_holotape",
+          "giveItemToCharacter": "Monster Dildo",
+          "exitLine": true,
+          "responseText": "*Seus olhos se arregalam, e ela cora furiosamente* Um... cassetete de bonk? Eu... uh... talvez confisque isso... para fins de segurança, claro! Entregue, pecador. Aqui está sua holofita imunda. Agora... saia daqui antes que eu mude de ideia!"
+        }
+      ]
     },
     {
-        "optionText": "Tell me about yourself. I mean, besides being a professional mood killer.",
-        "responseText": "About me? Well, I’m a Purity Police Officer, and my hobbies include bonking pervs like you and reminding vault dwellers that self-restraint is more important than their pathetic urges. Anything else you need to know, or is this just another sad attempt at a pick-up line?",
-        "followUpOptions":[
+      "optionText": "O que é este lugar?",
+      "responseText": "Bem-vindo ao Refúgio 6969, também conhecido como o Refúgio da Abstinência. Por aqui, nós transformamos a frustração sexual em arma. Então, prepare-se, docinho, porque seus dias de prazer acabaram. Você está prestes a canalizar cada impulso de tesão que já teve em cultivar agressivamente batatas mutantes e tricotar suéteres que ninguém quer.",
+      "followUpOptions": [
+        {
+          "optionText": "Isso é alguma piada?",
+          "responseText": "Não é piada, querido. Agora, é melhor se acostumar, ou a Câmara da Vergonha vai se tornar sua nova melhor amiga.",
+          "followUpOptions": [
             {
-                "optionText": "So, is this your dream job, or did you just lose a bet?",
-                "responseText": "Dream job? I didn’t go through four miserable years of Fap Prevention Academy to listen to some wastelander with no self-control.",
-                "followUpOptions":[
-                    {
-                        "optionText": "Seriously, though, who hurt you? Why do you hate fun?",
-                        "responseText": "Fun? You think fapping is fun? I’ll have you know I find joy in discipline, order, and enforcing the rules. And believe me, I have plenty of fun knocking pervs back into line. Now, is that all, or are you just fishing for a bonking?"
-                    }
-                ]
-            },
-            {
-                "optionText": "How do you guys even know someone’s fapping? Is there, like, a fap radar?",
-                "responseText": "Oh, we know. Trust me, we know. We’ve got sensors, cameras, and a sixth sense for desperation. So watch yourself."
+              "optionText": "O que é a Câmara da Vergonha?",
+              "responseText": "Ah, a Câmara da Vergonha! É nosso cantinho aconchegante de humildade e arrependimento. É basicamente como uma sala de spa, mas em vez de relaxamento, você sente uma sensação avassaladora de vergonha e a vontade de repensar suas escolhas de vida. Divertido, né?"
             }
-        ]
+          ]
+        },
+        {
+          "optionText": "Acho que cheguei aqui por engano. Pode, sei lá, me deixar sair?",
+          "responseText": "Oh, querido, ninguém acaba no Refúgio 6969 por engano. O único erro aqui é você pensar que pode simplesmente sair daqui sem aprender o verdadeiro poder do autocontrole. Agora, você vai se comportar, ou preciso te apresentar ao meu Cassetete de Bonk?"
+        },
+        {
+          "optionText": "Sou profissional em resistir a impulsos. Aposto que você não consegue me tentar!",
+          "icon": "GUI/quest mark",
+          "dontDisplayIfObjectiveComplete": "Bonk 10 violators.",
+          "responseText": "Oh, não estamos no negócio de tentar. Estamos no negócio de policiar. Mas se você quer desafiar o sistema, estarei de olho em você. Na verdade, que tal você nos *ajudar* em vez disso?",
+          "followUpOptions": [
+            {
+              "optionText": "Ajudar você? Como assim?",
+              "responseText": "Oh, agora você está interessado. O negócio é o seguinte: temos uma infestação de merdas acontecendo pelo refúgio. Você dá um 'bonk' em 10 infratores, e eu garanto que você será *recompensado*. O que me diz?",
+              "followUpOptions": [
+                {
+                  "optionText": "De que tipo de violações estamos falando?",
+                  "responseText": "Sabe, o de sempre. Punheta, 'tempo a sós' não autorizado, holofitas ilícitas, conversas sugestivas — basicamente qualquer coisa que faça a Polícia da Pureza se contorcer. Você nos ajuda, e eu te dou algumas recompensas oficiais."
+                },
+                {
+                  "optionText": "Tudo bem.",
+                  "addObjective": "Bonk 10 violators.",
+                  "exitLine": true,
+                  "responseText": "Bom saber que você está do lado certo. Fique de olhos abertos e quando tiver dado uns 'bonks' em alguns degenerados, venha me encontrar."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "optionText": "Então, pode fazer sexo, pelo menos?",
+          "responseText": "Sexo? Aqui? É como perguntar se pode ter uma suruba na igreja. A resposta é um grande e gordo não. O último casal que tentou acabou esfregando o chão da Câmara da Vergonha com escovas de dente."
+        }
+      ]
     },
     {
-        "optionText": "Bye.",
-        "responseText": "Just keep your hands where I can see them. And remember, no one’s above the rules.",
-        "exitLine": true
+      "optionText": "Fale-me sobre você. Quer dizer, além de ser uma estraga-prazeres profissional.",
+      "responseText": "Sobre mim? Bem, sou uma Oficial da Polícia da Pureza, e meus hobbies incluem dar 'bonks' em pervertidos como você e lembrar aos moradores do refúgio que o autocontrole é mais importante que seus impulsos patéticos. Mais alguma coisa que precise saber, ou isso é apenas mais uma tentativa triste de cantada?",
+      "followUpOptions": [
+        {
+          "optionText": "Então, este é o seu emprego dos sonhos, ou você apenas perdeu uma aposta?",
+          "responseText": "Emprego dos sonhos? Não passei por quatro anos miseráveis na Academia de Prevenção de Punheta para ouvir um andarilho dos Ermos sem autocontrole.",
+          "followUpOptions": [
+            {
+              "optionText": "Sério, quem te machucou? Por que você odeia diversão?",
+              "responseText": "Diversão? Você acha que punheta é diversão? Saiba que eu encontro alegria na disciplina, ordem e na aplicação das regras. E acredite, me divirto muito colocando pervertidos na linha. Agora, é só isso, ou você está só procurando por um 'bonk'?"
+            }
+          ]
+        },
+        {
+          "optionText": "Como vocês sabem que alguém está batendo uma? Existe, tipo, um radar de punheta?",
+          "responseText": "Ah, nós sabemos. Acredite, nós sabemos. Temos sensores, câmeras e um sexto sentido para o desespero. Então, cuidado."
+        }
+      ]
+    },
+    {
+      "optionText": "Tchau.",
+      "responseText": "Mantenha as mãos onde eu possa ver. E lembre-se, ninguém está acima das regras.",
+      "exitLine": true
     }
-    ]
+  ]
 }

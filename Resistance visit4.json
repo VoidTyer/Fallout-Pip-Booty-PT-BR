@@ -1,30 +1,34 @@
 {
-    "options": [
-        {
-            "optionText": "How close are we?",
-            "responseText": "Close? We’re so close I can taste it—and it tastes like freedom!"
-        },
-        {
-            "optionText": "Is there a backup plan?",
-            "responseText": "Backup plan? Hell yeah. If the Purity Cops try to throw us in the Shame Chamber, we’ll deploy the hacked holotape that turns the Overseer’s safety briefing into a Vault-Tec-approved hentai compilation. They’ll be drooling in five minutes or less, guaranteed."
-        },
-        {
-            "optionText": "I ran out of the mags. Do you have more?",
-            "dontShowIfProgressionEventPlayed": "mags_vol4_handed",
-            "giveItem": "Loose Housewives Vol.4",
-            "numOfCopiesToGive": 4,
-            "progressionEventPlayed": "mags_vol4_handed",
-            "exitLine": true,
-            "icon": "GUI/magazine",
-            "responseText": "Running dry already? I admire the hustle. Here, take these—limited edition, pre-war prints."
-        },
-        {
-            "optionText": "Bye.",
-            "responseTexts": ["Remember, when your hand gets lonely tonight, you know where to find me. Viva la fap-olution!",
-                            "When the potato farming and purity lectures get too much, just know there’s a stash of contraband and some loyal right hands waiting for you. Fap well, my friend.",
-                            "Later, dude. I’ll be in the usual place... right behind you, lurking in the shadows. No pressure, though."],
-            "exitLine": true
-        }
-    ],
-    "auto_lines":[ "Dude, the vault is one suggestive joke away from exploding! I just saw two Purity Cops slap each other with their own Bonk Batons out of sheer frustration. We’ve got them flailing like fish out of water!" ]
+  "options": [
+    {
+      "optionText": "Quão perto estamos?",
+      "responseText": "Perto? Estamos tão perto que consigo sentir o gosto — e tem gosto de liberdade!"
+    },
+    {
+      "optionText": "Existe um plano B?",
+      "responseText": "Plano B? Claro que sim. Se os Policiais da Pureza tentarem nos jogar na Câmara da Vergonha, vamos implantar a holofita hackeada que transforma o briefing de segurança do Supervisor em uma compilação de hentai aprovada pela Vault-Tec. Eles estarão babando em cinco minutos ou menos, garantido."
+    },
+    {
+      "optionText": "Acabaram as minhas revistas. Você tem mais?",
+      "dontShowIfProgressionEventPlayed": "mags_vol4_handed",
+      "giveItem": "Loose Housewives Vol.4",
+      "numOfCopiesToGive": 4,
+      "progressionEventPlayed": "mags_vol4_handed",
+      "exitLine": true,
+      "icon": "GUI/magazine",
+      "responseText": "Já secou? Admiro a correria. Aqui, pegue estas — edições limitadas, impressões pré-guerra."
+    },
+    {
+      "optionText": "Tchau.",
+      "responseTexts": [
+        "Lembre-se, quando sua mão se sentir solitária esta noite, você sabe onde me encontrar. Viva a revolução da punheta!",
+        "Quando a agricultura de batata e as palestras de pureza ficarem demais, saiba que há um estoque de contrabando e algumas mãos direitas leais esperando por você. Bata uma bem, meu amigo.",
+        "Até mais, cara. Estarei no lugar de sempre... bem atrás de você, à espreita nas sombras. Sem pressão, no entanto."
+      ],
+      "exitLine": true
+    }
+  ],
+  "auto_lines": [
+    "Cara, o refúgio está a uma piada sugestiva de explodir! Acabei de ver dois Policiais da Pureza se esbofeteando com seus próprios Cassetetes de Bonk por pura frustração. Nós os pegamos se debatendo como peixes fora d'água!"
+  ]
 }

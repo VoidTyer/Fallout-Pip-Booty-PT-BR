@@ -1,55 +1,64 @@
 {
-    "options": [
+  "options": [
     {
-        "optionText": "[Report her to the Purity Police]",
-        "responseTexts": ["Oh, honey, go ahead! I could use the audience. ♥"],
-        "exitLine": true,
-        "specialEffects": ["removeBlur", "removeVignette"],
-        "reported": 5
+      "optionText": "[Denunciá-la para a Polícia da Pureza]",
+      "responseTexts": [
+        "Oh, querido, vá em frente! Eu poderia usar a plateia deles. ♥"
+      ],
+      "exitLine": true,
+      "specialEffects": ["removeBlur", "removeVignette"],
+      "reported": 5
     },
     {
-        "optionText": "[Watch]",
-        "spriteAtTheEndOfHscene": "Characters/Diana/in cum/sitting in cum",
-        "spriteAtTheEndOfHscenePosition": [ 1.73, -1.99 ],
-        "closeDialogueOptions": true,
-        "isHEventStarted": true,
-        "icon": "GUI/eye icon",
-        "HideAllShadowFiguresAfterHevent": true,
-        "addGripGaugePoints": 500,
-        "endingEffects": ["Flashes"],
-        "hEventName": "diana_shower_group_handjob",
-        "emotionsDuringHevent": ["none", "Characters/Diana/Emotions/Showers mass handjob/em1", "Characters/Diana/Emotions/Showers mass handjob/em2", "Characters/Diana/Emotions/Showers mass handjob/em3"],
-        "lineAfterHevent": "Ahh... it was amazing... ♥︎",
-        "auto_lines": ["Mmm, that’s it, let me taste all that pent-up frustration. You’ve been holding back, haven’t you? *slurp* ♥",
-"Vault dweller: She’s like a vacuum cleaner, man! Sucking the soul right out of him. I’m next in line!",
-"Ahh, there’s nothing like a good, hard dick to make these showers steamy. Hmmm, you boys are making me so wet down here.",
-"Vault dweller: Damn, no wonder the Purity Police can’t keep up with her. She’s like a one-woman rebellion!",
-"*slurp* Don’t be shy, boys, I’ve got room for everyone. Just line up and let Diana work her magic. ♥",
-"Vault dweller: This is why we need to make her the Overseer. She knows how to keep morale high... and other things.",
-"Oh, fuck yes, that’s what I like to see – all these cocks ready to burst. Aghh, keep it coming!",
-"giggles Mmm, you taste so good. I could do this all day. In fact, I just might. Who’s next?",
-"Oh, you’re so hard. I can feel your juices ready to explode. Hmmm, don’t hold back. ♥",
-"Mmm, I love it when you groan like that. Makes my pussy throb just thinking about all that cum. *slurp*",
-"Aghh, you’re really giving me a mouthful. Keep going, fill me up. I want to taste every drop. ♥",
-"Is that all you got? I’ve seen more action in the potato fields. Give me something to work with! *slurp*",
-"Ahhh... Oh, I love it when you grab my hair like that. Shows me just how desperate you are. ♥",
-"Aghh, yes! Cover me in your cum, let me feel your frustration all over my skin. Hmmm, I’m getting so fucking wet.",
-"*slurp* Oh, I can feel you twitching. Don’t you dare cum just yet; I’m not done playing with you.",
-"You taste like the Wasteland, dirty and desperate. Mmm, I fucking love it. ♥",
-"giggles I think I see some of you getting jealous. Don’t worry, there’s enough of me to go around.",
-"Ahh, so many hard cocks, so little time. Guess I’ll have to speed things up. Hmmm, don’t make me wait.",
-"Mmm, I can taste your juices mixing with mine. So sweet and sticky. Aghh, I can’t get enough.",
-"Who’s a good boy? Mmm, you are. Come on, cum for me. I want to see it all over my face.",
-"*slurp* Hmmm, you’re dripping pre-cum already. Someone’s eager. Don’t worry, I’ll take care of you. ♥",
-"Oh, fuck, that’s it. I love feeling all this power in my hands, in my mouth. Hmmm, more, give me more!",
-"Ahhh... You like watching me, don’t you? Mmm, the way I take every inch down my throat. Aghh, just wait your turn."],
-        "specialEffects": ["removeBlur", "removeVignette"]
-        
+      "optionText": "[Assistir]",
+      "spriteAtTheEndOfHscene": "Characters/Diana/in cum/sitting in cum",
+      "spriteAtTheEndOfHscenePosition": [1.73, -1.99],
+      "closeDialogueOptions": true,
+      "isHEventStarted": true,
+      "icon": "GUI/eye icon",
+      "HideAllShadowFiguresAfterHevent": true,
+      "addGripGaugePoints": 500,
+      "endingEffects": ["Flashes"],
+      "hEventName": "diana_shower_group_handjob",
+      "emotionsDuringHevent": [
+        "none",
+        "Characters/Diana/Emotions/Showers mass handjob/em1",
+        "Characters/Diana/Emotions/Showers mass handjob/em2",
+        "Characters/Diana/Emotions/Showers mass handjob/em3"
+      ],
+      "lineAfterHevent": "Ahh... foi incrível... ♥︎",
+      "auto_lines": [
+        "Mmm, é isso, deixe-me provar toda essa frustração reprimida. Você tem se segurado, não é? *chupa* ♥",
+        "Morador do Refúgio: Ela é como um aspirador de pó, cara! Sugando a alma dele. Sou o próximo da fila!",
+        "Ahh, não há nada como um bom e duro pau para deixar estes chuveiros quentes. Hmmm, vocês estão me deixando tão molhada aqui embaixo.",
+        "Morador do Refúgio: Caramba, não admira que a Polícia da Pureza não consiga acompanhá-la. Ela é como uma rebelião de uma mulher só!",
+        "*chupa* Não sejam tímidos, garotos, tenho espaço para todos. Apenas façam fila e deixem a Diana fazer sua mágica. ♥",
+        "Morador do Refúgio: É por isso que precisamos fazê-la Supervisora. Ela sabe como manter a moral alta... e outras coisas.",
+        "Oh, porra sim, é isso que eu gosto de ver – todos esses paus prontos para explodir. Aghh, continuem vindo!",
+        "risadinhas Mmm, você tem um gosto tão bom. Eu poderia fazer isso o dia todo. Na verdade, talvez eu faça. Quem é o próximo?",
+        "Oh, você está tão duro. Sinto seus sucos prontos para explodir. Hmmm, não se segure. ♥",
+        "Mmm, eu amo quando você geme assim. Faz minha buceta pulsar só de pensar em toda essa porra. *chupa*",
+        "Aghh, você está realmente me enchendo a boca. Continue, me encha. Quero provar cada gota. ♥",
+        "É só isso que você tem? Já vi mais ação nos campos de batata. Me dê algo com que trabalhar! *chupa*",
+        "Ahhh... Oh, eu amo quando você agarra meu cabelo assim. Me mostra o quão desesperado você está. ♥",
+        "Aghh, sim! Me cubra com sua porra, deixe-me sentir sua frustração por toda a minha pele. Hmmm, estou ficando tão molhada.",
+        "*chupa* Oh, consigo sentir você se contorcendo. Não se atreva a gozar ainda; não terminei de brincar com você.",
+        "Você tem gosto de Wasteland, sujo e desesperado. Mmm, eu amo isso pra caralho. ♥",
+        "risadinhas Acho que vejo alguns de vocês com ciúmes. Não se preocupem, tem eu o suficiente para todo mundo.",
+        "Ahh, tantos paus duros, tão pouco tempo. Acho que terei que acelerar as coisas. Hmmm, não me faça esperar.",
+        "Mmm, consigo sentir seus sucos se misturando com os meus. Tão doce e pegajoso. Aghh, não consigo ter o suficiente.",
+        "Quem é um bom garoto? Mmm, você é. Vamos, goze para mim. Quero ver tudo no meu rosto.",
+        "*chupa* Hmmm, você já está pingando pré-gozo. Alguém está ansioso. Não se preocupe, eu cuido de você. ♥",
+        "Oh, porra, é isso. Eu amo sentir todo esse poder em minhas mãos, em minha boca. Hmmm, mais, me dê mais!",
+        "Ahhh... Você gosta de me assistir, não é? Mmm, o jeito que eu coloco cada centímetro na minha garganta. Aghh, apenas espere sua vez."
+      ],
+      "specialEffects": ["removeBlur", "removeVignette"]
     }
-    ],
-    "auto_lines": [
-"Oh, fuck yes, that’s what I like to see – all these cocks ready to burst. Aghh, keep it coming!",
-"Mmm, I love it when you groan like that. Makes my pussy throb just thinking about all that cum. *slurp*"],
-"hEventStarted": "shower_mass_blowjob",
-"showShadowFigures": "Showers Men 2"
+  ],
+  "auto_lines": [
+    "Oh, porra sim, é isso que eu gosto de ver – todos esses paus prontos para explodir. Aghh, continuem vindo!",
+    "Mmm, eu amo quando você geme assim. Faz minha buceta pulsar só de pensar em toda essa porra. *chupa*"
+  ],
+  "hEventStarted": "shower_mass_blowjob",
+  "showShadowFigures": "Showers Men 2"
 }

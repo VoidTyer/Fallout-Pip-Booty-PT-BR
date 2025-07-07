@@ -1,408 +1,444 @@
 {
-    "options": [
+  "options": [
     {
-        "optionText": "How's our little one doing?", 
-        "onlyShowIfProgressionEventPlayed": "diana_gave_birth",
-        "responseText": "Doing great! They're getting bigger every day. Parenthood suits you, you know. Wanna spend some family time together?",
-        "followUpOptions": [
+      "optionText": "Como está nosso pequeno?",
+      "onlyShowIfProgressionEventPlayed": "diana_gave_birth",
+      "responseText": "Está ótimo! Eles estão crescendo a cada dia. A paternidade te cai bem, sabia? Quer passar um tempo em família juntos?",
+      "followUpOptions": [
+        {
+          "optionText": "Eu adoraria. Vamos vê-los juntos.",
+          "responseText": "Perfeito! Tenho certeza de que eles ficarão animados em te ver. Vamos fazer um dia em família.",
+          "relationshipPoints": 2,
+          "isHangingOutWithDiana": true,
+          "exitLine": true
+        },
+        {
+          "optionText": "Talvez mais tarde. Só queria dar uma olhada.",
+          "responseText": "Certo, eles estarão aqui quando você estiver pronto. Obrigada por verificar.",
+          "exitLine": true
+        }
+      ]
+    },
+    {
+      "optionText": "Ei, Diana, eu uh... preciso de um favor.",
+      "icon": "GUI/quest mark",
+      "dontShowIfProgressionEventPlayed": "diana_panties_received",
+      "onlyDisplayIfHasObjective": "Get Diana's Panties for Jass",
+      "responseText": "Mmm, um favor, hein? Isso soa perigoso vindo de você. O que é? Desembucha antes que eu fique entediada.",
+      "followUpOptions": [
+        {
+          "optionText": "Estou, uh, coletando algo para um... experimento do refúgio. Sabe, coisas de ciência. Posso pegar sua... um... calcinha?",
+          "responseText": "Ah, calcinha? Bem, eu adoro um homem da pesquisa... mas não. Se alguém vai fazer experimentos com minha calcinha, serei eu. Boa tentativa, no entanto.",
+          "followUpOptions": [
             {
-                "optionText": "I'd love to. Let's go see them together.",
-                "responseText": "Perfect! I'm sure they'll be excited to see you. Let's make it a family day.",
-                "relationshipPoints": 2,
-                "isHangingOutWithDiana": true,
-                "exitLine": true
+              "optionText": "Sabe, estou apenas pedindo por... um pedaço de tecido. Nada muito estranho, certo?",
+              "responseText": "Um pedaço de tecido? Querido, essa é a forma mais indireta que já ouvi alguém pedir minha roupa íntima. O que vem a seguir, quer pegar meu sutiã emprestado também?"
             },
             {
-                "optionText": "Maybe later. Just wanted to check in.",
-                "responseText": "Alright, they'll be here whenever you're ready. Thanks for checking in.",
-                "exitLine": true
+              "optionText": "É para um, uh... amigo. Eles me desafiaram. Posso, por favor, pegar um par?",
+              "responseText": "Ah, coitadinho, perdeu uma aposta? Eu quase sentiria pena de você se não fosse tão adoravelmente desesperado. Ainda assim, não vou entregar minha calcinha só para salvar sua bunda. Mais sorte na próxima aposta."
+            },
+            {
+              "optionText": "Ok, tudo bem, você me pegou. Alguém no refúgio... uh, me pediu para pegá-las. Não pergunte por quê.",
+              "responseText": "Ahh, então você é o novo garoto de entregas para pervertidos do refúgio, hein? Fofo. Diga ao seu admirador misterioso que eles terão que vir implorar pessoalmente se realmente quiserem colocar as mãos na minha lingerie.",
+              "followUpOptions": [
+                {
+                  "optionText": "Imaginei que você diria não. Tinha que tentar, né?",
+                  "responseText": "Oh, fico feliz que tentou. Mas, querido, eu não distribuo minhas calcinhas como macacões do refúgio. Continue sonhando."
+                },
+                {
+                  "optionText": "Vamos, Diana, você me conhece. Passamos por poucas e boas. Apenas me ajude?",
+                  "relationshipRequired": 35,
+                  "changeSprite": "Characters/Diana/new NSFW/sitting no panties",
+                  "newSpriteXPos": 0.59,
+                  "newSpriteYPos": -0.57,
+                  "progressionEventPlayed": "diana_panties_received",
+                  "giveItem": "Diana's Panties",
+                  "exitLine": true,
+                  "dontDisplayIfObjectiveComplete": "Get Diana's Panties for Jass",
+                  "failedCheckResponse": "Uau, que jogada ousada. Talvez comece com, tipo, um manual da Vault-Tec sobre 'Interação Humana Básica' antes de ir direto para as coisas estranhas. Boa tentativa, no entanto. Pontos pelo... entusiasmo?",
+                  "responseText": "*Risos* Oh, tudo bem. Acho que você mereceu depois de todo esse tempo. Quer que eu me dispa aqui mesmo? Certo. Aproveite o show, querido. ♥︎"
+                }
+              ]
             }
-        ]
+          ]
+        }
+      ]
     },
     {
-        "optionText": "Hey, Diana, I uh... need a favor.", 
-        "icon": "GUI/quest mark",
-        "dontShowIfProgressionEventPlayed": "diana_panties_received",
-        "onlyDisplayIfHasObjective": "Get Diana's Panties for Jass",
-        "responseText": "Mmm, a favor, huh? That sounds dangerous coming from you. What is it? Spit it out before I get bored.",
-        "followUpOptions": [ 
+      "optionText": "[Entregar Lingerie]",
+      "icon": "GUI/quest mark",
+      "responseText": "Oh, meu... eu sabia que você tinha bom gosto, mas isso? Querido, você se superou! São fabulosas! Obrigada!",
+      "onlyDisplayIfHasObjective": "Get lingerie for Diana",
+      "giveItemToCharacter": "Red Lingerie",
+      "itemRequired": "Red Lingerie",
+      "relationshipPoints": 15,
+      "markObjectiveComplete": "Get lingerie for Diana",
+      "exitLine": true
+    },
+    {
+      "optionText": "[Entregar Dildo]",
+      "icon": "GUI/quest mark",
+      "responseText": "Oh, meu... você realmente sabe como satisfazer os desejos de uma garota. Esperei o dia todo para alguém me entregar um... dildo grande e firme. Obrigada.",
+      "onlyDisplayIfHasObjective": "Get dildo for Diana",
+      "giveItemToCharacter": "Monster Dildo",
+      "itemRequired": "Monster Dildo",
+      "relationshipPoints": 20,
+      "markObjectiveComplete": "Get dildo for Diana",
+      "exitLine": true
+    },
+    {
+      "optionText": "Você viu o que está acontecendo? O refúgio virou uma orgia completa!",
+      "gripGaugeRequired": 5000,
+      "hideOptionIfReqCheckFailed": true,
+      "responseText": "Ah, você quer dizer o 'Sirirocalipse'? Sim, eu notei. Tive um lugar na primeira fila para a orgia no Restaurante. Um cara usou uma pilha de purê de batatas como lubrificante. Realmente comove.",
+      "followUpOptions": [
+        {
+          "optionText": "Eu talvez, uh… tenha tido algo a ver com isso. Eu meio que ajudei o Líder da Resistência da Masturbação… sabe, a distribuir algum, uh, material de masturbação.",
+          "responseText": "Então é por isso que encontrei uma assinatura para todo o refúgio de ‘Bumbuns Pré-Guerra Mensal’ debaixo da minha porta. Eu deveria saber que você estava envolvido. Você sozinho transformou este lugar de um convento em um estúdio de cinema adulto."
+        },
+        {
+          "optionText": "Então… você está de boa com todo esse caos?",
+          "responseText": "De boa com isso? Por favor. Eu esperei por este dia desde que me deram meu primeiro panfleto de castidade do refúgio. Ver a Polícia da Pureza se atrapalhar enquanto as pessoas estão literalmente se masturbando nos corredores? Esse é o tipo de justiça poética pela qual eu vivo."
+        }
+      ]
+    },
+    {
+      "optionText": "Quem é você?",
+      "closeEyes": true,
+      "responseText": "Oh, querido, sou apenas o lembrete vivo e ambulante do refúgio do que você não pode ter. Diana Rivers, embora a maioria por aqui me chame apenas de ‘Seca’.",
+      "followUpOptions": [
+        {
+          "optionText": "Por que te chamam de 'Seca'?",
+          "emotion": "none",
+          "responseText": "É um apelido. Como um sinal de aviso. Sabe, 'Cuidado: Zona Proibida para Masturbação Além Deste Ponto.' Além disso, é irônico. Se você gosta desse tipo de coisa. Sabe, como chamar um careca de ‘Cacheado’."
+        },
+        {
+          "optionText": "Qual foi a coisa mais divertida que você já fez aqui?",
+          "emotion": "none",
+          "responseText": "<i>Diversão?</i> Neste refúgio? Você deve ser novo. Mas deixe-me ver… Uma vez, substituí todas as garrafas de água da Polícia da Pureza por vodca. Spandex, más decisões e sobriedade não combinam, pode acreditar. Nunca vi um homem tentar prender o próprio reflexo antes daquele dia."
+        },
+        {
+          "optionText": "Já esteve na Câmara da Vergonha?",
+          "closeEyes": true,
+          "responseText": "Estive lá? Querido, eu tenho um tempo compartilhado. Eles continuam achando que podem me envergonhar para ser uma 'boa menina'. A piada é com eles; estou colecionando chapéus de burro como troféus."
+        },
+        {
+          "optionText": "Por que você fica neste refúgio?",
+          "closeEyes": true,
+          "responseText": "Eu me pergunto isso todas as manhãs enquanto tomo meu café. Mas onde mais vou encontrar um lugar onde as pessoas entram em pânico ao ver tornozelos? Este refúgio é meu experimento social, e estou aqui para o longo prazo. Além disso, sair significaria colocar um sutiã de verdade, e não estou pronta para esse tipo de compromisso."
+        }
+      ]
+    },
+    {
+      "optionText": "Este é o seu gato?",
+      "emotion": "none",
+      "responseText": "Sim, este é o Sir Bigodes Terceiro. Ele é meu suserano de apoio emocional.",
+      "followUpOptions": [
+        {
+          "optionText": "Posso fazer carinho nele?",
+          "emotion": "none",
+          "responseText": "Faça por sua conta e risco; o último cara que tentou perdeu seu autorrespeito e metade do rosto. Mas ei, pelo menos o Sir Bigodes se divertiu um pouco por cinco minutos."
+        },
+        {
+          "optionText": "Esse gato parece que engoliu outro gato.",
+          "closeEyes": true,
+          "responseText": "Mmm, sim, o Sir Bigodes não é gordo—ele está apenas... maximizando sua área de superfície para preguiça máxima."
+        },
+        {
+          "optionText": "Acho que ele está me julgando.",
+          "closeEyes": true,
+          "responseText": "Claro que está. Ele julga todo mundo. Sir Bigodes não tolera camponeses o tocando, a menos que você tenha oferecido a ele um sacrifício primeiro."
+        }
+      ]
+    },
+    {
+      "optionText": "Quero te perguntar uma coisa... [<color=purple>Opções Safadas</color>]",
+      "closeEyes": true,
+      "icon": "GUI/heart4",
+      "responseTexts": [
+        "Oh, se for um pedido de casamento, certifique-se de se ajoelhar com os dois joelhos. Um só não é suficiente para mim.",
+        "Deixe-me adivinhar, você quer me perguntar se eu leio mentes? Porque a resposta é não, e também sim.",
+        "Se for outra pergunta de ‘Como você se mantém tão gostosa?’, eu juro, vou cobrar entrada da próxima vez.",
+        "Deixe-me adivinhar, você quer saber como eu continuo driblando a Polícia da Pureza? Duas palavras: Túneis. Secretos."
+      ],
+      "followUpOptions": [
+        {
+          "optionText": "Então, uh, o que você está usando por baixo desse macacão?",
+          "relationshipRequired": 20,
+          "desireRequired": 30,
+          "emotion": "none",
+          "changeSprite": "Characters/Diana/new NSFW/resized/sitting naked",
+          "newSpriteXPos": 0.59,
+          "newSpriteYPos": -0.57,
+          "failedCheckResponse": "Você gostaria de saber, né, Sr. FBI. Aqui vai uma dica: é definitivamente algo que você nunca verá na vida real. Que tal você se concentrar no seu dever de batata em vez do que está sob minhas roupas, hmm?",
+          "responseText": "Você realmente quer saber? Ok, mas só porque pediu com tanto jeitinho. Surpresa! Não é nada que você já tenha visto neste pequeno e triste refúgio. Tocar vai te custar, no entanto. Tem algo a oferecer além desses olhos de cachorrinho?",
+          "followUpOptions": [
             {
-                "optionText": "I’m, uh, collecting something for a... vault experiment. You know, science stuff. Can I get your... um... panties?",
-                "responseText": "Oh, panties? Well, I do love a man of research... but no. If anyone’s gonna be experimenting with my panties, it's me. Nice try though.",
-                "followUpOptions": [
-                    {
-                        "optionText": "You know, I’m just asking for... a piece of fabric. Nothing too weird, right?",
-                        "responseText": "A piece of fabric? Sweetie, that’s the most roundabout way I’ve ever heard someone ask for my underwear. What’s next, you wanna borrow my bra too?"
-                    },
-                    {
-                        "optionText": "It’s for a, uh... friend. They dared me. Can I please just... get a pair?",
-                        "responseText": "Aw, poor baby lost a bet? I'd almost feel sorry for you if it wasn't so adorably desperate. Still, I’m not handing over my panties just to save your sorry ass. Better luck next dare."
-                    }, 
-                    {
-                        "optionText": "Okay, fine, you got me. Someone in the vault... uh, asked me to get them. Don’t ask why.",
-                        "responseText": "Ahh, so you’re the vault’s new delivery boy for pervs, huh? Cute. Tell your mystery admirer they’ll have to come begging themselves if they really want to get their hands on my lingerie.",
-                        "followUpOptions": [
-                            {
-                                "optionText": "I figured you’d say no. Had to try though, right?",
-                                "responseText": "Oh, I’m glad you tried. But, sweetie, I don’t hand out my panties like vault-issued jumpsuits. Keep dreaming."
-                            },
-                            {
-                                "optionText": "Come on, Diana, you know me. We’ve been through some shit. Just help me out?",
-                                "relationshipRequired": 35,
-                                "changeSprite": "Characters/Diana/new NSFW/sitting no panties",
-                                "newSpriteXPos": 0.59,
-                                "newSpriteYPos": -0.57,  
-                                "progressionEventPlayed": "diana_panties_received",
-                                "giveItem": "Diana's Panties",
-                                "exitLine": true,
-                                "dontDisplayIfObjectiveComplete": "Get Diana's Panties for Jass",
-                                "failedCheckResponse": "Wow, bold move there. Maybe start with, like, a Vault-Tec manual on 'Basic Human Interaction' before you go straight for the weird stuff. Nice try, though. Points for... enthusiasm?",
-                                "responseText": "*Laughs* Oh, fine. I guess you’ve earned it after all this time. You want me to strip right here? Fine. Enjoy the show, honey. ♥︎" 
-                            }
-                        ]
-                    }
-                 ]
-            } 
-        ]
-    },
-    {
-        "optionText": "[Hand over Lingerie]",
-        "icon": "GUI/quest mark",
-        "responseText": "Oh my... I knew you had good taste, but this? Darling, you've outdone yourself! Those are fabulous! Thank you!", 
-        "onlyDisplayIfHasObjective": "Get lingerie for Diana",
-        "giveItemToCharacter": "Red Lingerie",
-        "itemRequired": "Red Lingerie",
-        "relationshipPoints": 15,
-        "markObjectiveComplete": "Get lingerie for Diana",
-        "exitLine": true
-    },
-    {
-        "optionText": "[Hand over Dildo]",
-        "icon": "GUI/quest mark",
-        "responseText": "Oh my... you really know how to satisfy a girl’s cravings. I’ve been waiting all day for someone to hand me a big, firm... dildo. Thank you.", 
-        "onlyDisplayIfHasObjective": "Get dildo for Diana",
-        "giveItemToCharacter": "Monster Dildo",
-        "itemRequired": "Monster Dildo",
-        "relationshipPoints": 20,
-        "markObjectiveComplete": "Get dildo for Diana",
-        "exitLine": true
-    },
-    {
-        "optionText": "Have you seen what’s happening? The vault turned into a full-on orgy!",
-        "gripGaugeRequired": 5000,
-        "hideOptionIfReqCheckFailed": true,
-        "responseText": "Oh, you mean the 'Fapocalypse'? Yeah, I noticed. I had a front-row seat to the orgy at the Diner. Some guy used a pile of mashed potatoes as lube. Really brings a tear to your eye.",
-        "followUpOptions": [
-            {
-                "optionText": "I might’ve, uh… had a little something to do with that. I kinda helped the Fap Resistance Leader… y’know, distribute some, uh, fap material.",
-                "responseText": "So that’s why I found a vault-wide subscription to ‘Pre-War Buns Monthly’ under my door. I should’ve known you were involved. You’ve single-handedly turned this place from a nunnery to an adult film studio."
-            },
-            {
-                "optionText": "So… you cool with all this chaos?",
-                "responseText": "Cool with it? Please. I’ve been waiting for this day since they handed me my first vault-issued chastity pamphlet. Watching the Purity Police scramble while people are literally fapping in the hallways? That’s the kind of poetic justice I live for."
+              "optionText": "Posso cheirar essa calcinha? Aposto que cheira a... liberdade.",
+              "relationshipRequired": 30,
+              "desireRequired": 35,
+              "changeSprite": "Characters/Diana/new NSFW/sitting no panties",
+              "newSpriteXPos": 0.59,
+              "progressionEventPlayed": "diana_panties_received",
+              "newSpriteYPos": -0.57,
+              "giveItem": "Diana's Panties",
+              "dontDisplayIfObjectiveComplete": "Get Diana's Panties for Jass",
+              "failedCheckResponse": "Uau, que jogada ousada. Talvez comece com, tipo, um manual da Vault-Tec sobre 'Interação Humana Básica' antes de ir direto para as coisas estranhas. Boa tentativa, no entanto. Pontos pelo... entusiasmo?",
+              "auto_lines": [
+                "Liberdade, huh? Mais para decepção e arrependimento. Mas claro, se esse é o seu fetiche. Vá em frente, dê uma cheirada. Só tente não desmaiar com a pura grandiosidade. Ou, sabe, com o cheiro de desespero que paira neste refúgio."
+              ]
             }
-        ]
-    },
-    {
-        "optionText": "Who are you?",
-        "closeEyes": true,
-        "responseText": "Oh, honey, I’m just the vault’s living, breathing, walking reminder of what you can’t have. Diana Rivers, though most around here just call me ‘Dry’.",
-        "followUpOptions": [
+          ]
+        },
+        {
+          "optionText": "Ouvi dizer que há um Botão de Liberação de Emergência em algum lugar. Quer procurar junto?",
+          "relationshipRequired": 35,
+          "desireRequired": 45,
+          "emotion": "none",
+          "icon": "GUI/heart4",
+          "targetCharacterShouldHaveItems": "Vibrator",
+          "failedCheckResponse": "Ah, você quer dizer o botão mítico que supostamente transforma este refúgio em um palácio de orgias? Sim, tenho certeza que está ao lado do botão de ‘Aumento Instantâneo de QI’ que você deveria ter apertado ao entrar. Além disso, se eu quisesse uma liberação, eu apenas deixaria meu gato rasgar meus móveis de novo. Muito mais satisfatório.",
+          "responseText": "Por que procurar algum botão quando a verdadeira liberação de emergência está bem aqui? <i>*Ela de repente pega um vibrador de uma gaveta.*</i> Quem precisa de revistas velhas e mofadas quando se tem energia de bateria e imaginação? Fique por aqui e assista ao show.",
+          "followUpOptions": [
             {
-                "optionText": "Why do they call you 'Dry'?",
-                "emotion": "none",
-                "responseText": "It’s a nickname. Like a warning sign. You know, 'Caution: No Fap Zone Beyond This Point.' Also, it's ironic. If you’re into that sort of thing. You know, like calling a bald guy ‘Curly.’"
-            },
-            {
-                "optionText": "What’s the most fun you’ve had here?",
-                "emotion": "none",
-                "responseText": "<i>Fun?</i> In this vault? You must be new. But let me see… One time, I replaced all the Purity Police’s water bottles with vodka. Spandex, bad decisions, and sobriety don’t mix, let me tell you. I’ve never seen a man try to arrest his own reflection before that day."
-            }, 
-            {
-                "optionText": "Ever been to the Shame Chamber?",
-                "closeEyes": true,
-                "responseText": "Been there? Darling, I’ve got a time-share. They keep thinking they can shame me into being a 'good girl.' Joke’s on them; I’ve been collecting dunce caps like trophies."
-            },
-            {
-                "optionText": "Why do you stay in this vault?",
-                "closeEyes": true,
-                "responseText": "I ask myself that every morning while I drink my coffee. But where else am I gonna find a place where people panic at the sight of ankles? This vault is my social experiment, and I’m here for the long haul. Besides, leaving would mean putting on a real bra, and I’m just not ready for that kind of commitment."
+              "optionText": "[Assistir]",
+              "changeSprite": "Characters/Diana/new NSFW/resized/vibrator",
+              "newSpriteXPos": 0.55,
+              "newSpriteYPos": -0.72,
+              "icon": "GUI/heart4",
+              "closeDialogueOptions": true,
+              "isHEventStarted": true,
+              "specialEffects": ["Blackout"],
+              "endingEffects": ["Flashes"],
+              "progressionEventPlayed": "diana_vibrator_lewd_request_diana_room",
+              "spriteAtTheEndOfHscene": "Characters/Diana/new NSFW/sitting no panties",
+              "emotionsDuringHevent": [
+                "Characters/Diana/Emotions/vibrator lewd req/v1",
+                "Characters/Diana/Emotions/vibrator lewd req/v2",
+                "Characters/Diana/Emotions/vibrator lewd req/v3",
+                "Characters/Diana/Emotions/vibrator lewd req/v4"
+              ],
+              "spriteAtTheEndOfHscenePosition": [0.59, -0.59],
+              "lineAfterHevent": "Ahh... foi incrível... ♥︎",
+              "swapAnotherCharacterDialogue": [
+                "Diana",
+                "Characters/Diana/Dialogues/after_vibrator_lewd_req"
+              ],
+              "reduceDesireAfterAutoLines": 10,
+              "hEventName": "diana_vibrator",
+              "auto_lines": [
+                "Ooh, é como se... ahhh... fosse feito só para a minha buceta... mmmmm ♥.",
+                "Mmm, mmmm... é como se minha buceta estivesse esperando por isso para sempre ♥.",
+                "Porra, estou tão molhada que poderia regar o jardim do refúgio com esta buceta. Espero que tenha trazido um colete salva-vidas, porque está prestes a inundar. Ahh... ♥",
+                "Oh, você gosta disso? Me vendo brincar com minha buceta como se fosse um maldito videogame? Aposto que você se daria mal neste nível, docinho. ♥︎",
+                "Juro, se eu tivesse essa coisa anos atrás, eu já teria governado este refúgio... ohhh ♥.",
+                "Juro, toda vez que você pisca, minha buceta fica mais molhada. Continue olhando, talvez você me faça afogar na minha própria porra. Ahh... sim! ♥",
+                "Você já viu uma buceta tão perfeita? Não? É porque este é o tipo de conteúdo premium que você não encontra em nenhum outro lugar ♥︎",
+                "Mmm, você está tão perto que provavelmente consegue sentir o quão molhada estou. Sejamos realistas, este é o melhor cheiro que este refúgio já teve. ♥︎ Ahh!",
+                "Estou prestes a gozar tanto que eles vão me ouvir lá do escritório do Supervisor. Quem sabe, talvez ele mande um bilhete de agradecimento. Ahh...! ♥︎",
+                "Toda vez que você olha, eu fico mais quente. Continue assim, e esta buceta vai precisar de seu próprio extintor de incêndio. ♥︎ Porra, sim!",
+                "Aposto que você nunca viu uma garota se fazer gozar sem precisar da ajuda de um triste morador de refúgio. Acho que você está aprendendo algo hoje, hein? Ahh!",
+                "Pense na minha buceta como um enigma. A resposta é sempre ‘Sim, por favor’, mas boa sorte para ter a chance de resolvê-lo. ♥︎",
+                "Ohhh, é como se tivesse um mapa para minha buceta... mmm, porra, como está fazendo isso?",
+                "Ohhh, porra, bem aí... sim, minha buceta precisava tanto disso ♥︎",
+                "Deus, estou tão molhada, poderia afogar um Deathclaw neste suco de buceta. Ahh...!",
+                "Mmmm, é como se... porra, fosse feito para mim... ahh, perfeito ♥.",
+                "Vê isso? É assim que uma mulher de verdade parece quando está molhada. Não aquelas pequenas fantasias tristes com as quais você se masturba nos chuveiros. ♥︎",
+                "Quem fez isso deveria ter sido o cientista-chefe da Vault-Tec... eles sabiam exatamente do que precisávamos. ♥︎",
+                "Porra, minha buceta está mais molhada que uma Nuka-Cola em um dia quente. Se eu continuar, vamos precisar de um salva-vidas aqui. Ahh...! ♥︎",
+                "Ohhh, porra, está tão fundo… oh deus, estou pingando por todo lado… mmm, ohhhh ♥",
+                "Vá em frente, bata uma enquanto assiste. Só tente não sujar o chão com sua porra, ok? ♥︎ Ahh!",
+                "Mmm, porra, este vibrador é a melhor coisa que me aconteceu desde… bem, desde sempre… ahhh, sim. ♥︎",
+                "Oh, sim! Estou tão perto, vou gozar tanto que as luzes do refúgio vão piscar. Queda de energia cortesia da minha buceta. Ahh...! ♥︎",
+                "Mmm, ohhh deus, vou gozar… ahhh... siim, porra, é tão bom… ♥",
+                "Mmm, aposto que você está desejando poder enfiar esse pau aqui agora, não está? Pena que minha buceta tem uma lista VIP ♥︎",
+                "Ahhh, vou gozar. Espero que esteja pronto para a zona de respingos, porque esta buceta está prestes a fazer uma bagunça. Ahh, ♥︎ sim, sim!"
+              ]
             }
-        ]
-    },
-    {
-        "optionText": "Is this your cat?",
-        "emotion": "none",
-        "responseText": "Yeah, this is Sir Whiskers the Third. He’s my emotional support overlord.",
-        "followUpOptions": [
+          ]
+        },
+        {
+          "optionText": "Já ficou sozinha? Sabe, precisando de... companhia?",
+          "relationshipRequired": 45,
+          "desireRequired": 40,
+          "emotion": "none",
+          "icon": "GUI/animated icon",
+          "targetCharacterShouldHaveItems": "Monster Dildo",
+          "failedCheckResponse": "Sozinha? Ah, eu nunca fico sozinha. Entre os olhares mortais do meu gato e o som constante da Polícia da Pureza tendo um colapso mental, estou ocupada demais me divertindo. Mas obrigada pela oferta, Casanova. Se eu precisar de alguém para segurar minhas sacolas, eu te aviso.",
+          "responseText": "Sozinha? Oh, querido, eu tenho muita companhia bem aqui. <i>*Ela tira um pequeno dildo rosa de debaixo do travesseiro e o acena em sua direção.*</i> Mas se você está oferecendo uma demonstração ao vivo, sou toda ouvidos... e outras partes.",
+          "followUpOptions": [
             {
-                "optionText": "Can I pet him?",
-                "emotion": "none",
-                "responseText": "Do it at your own risk; last guy who tried lost his self-respect and half his face. But hey, at least Sir Whiskers was mildly entertained for five minutes."
+              "optionText": "Se importa se eu apenas assistir? Vou manter minhas mãos para mim, prometo.",
+              "icon": "GUI/animated icon",
+              "responseText": "Oh, então você é do tipo 'senta no canto e anota'? Posso trabalhar com isso. <i>*Ela pega seu dildo, segurando-o como um troféu.*</i> Certo, garoto voyeur, quer um lugar na primeira fila para o evento principal? É melhor você tirar fotos mentais, porque este show não tem reprises.",
+              "followUpOptions": [
+                {
+                  "optionText": "[Assistir]",
+                  "icon": "GUI/animated icon",
+                  "changeSprite": "Characters/Diana/Resized/dildo",
+                  "interactable": "Characters/Diana/Interactables/dildo",
+                  "newSpriteXPos": 0.25,
+                  "newSpriteYPos": 0,
+                  "specialEffects": ["Blackout"],
+                  "endingEffects": ["Flashes"],
+                  "interactableBGcolor": "#747474",
+                  "spriteAtTheEndOfHscene": "Characters/Diana/new NSFW/sitting no panties",
+                  "emotionsDuringHevent": [
+                    "Characters/Diana/Emotions/riding dildo/1",
+                    "Characters/Diana/Emotions/riding dildo/2",
+                    "Characters/Diana/Emotions/riding dildo/3",
+                    "Characters/Diana/Emotions/riding dildo/4"
+                  ],
+                  "swapAnotherCharacterDialogue": [
+                    "Diana",
+                    "Characters/Diana/Dialogues/after_dildo_lewd_req"
+                  ],
+                  "spriteAtTheEndOfHscenePosition": [0.59, -0.59],
+                  "lineAfterHevent": "Ahh... foi incrível... ♥︎",
+                  "closeDialogueOptions": true,
+                  "isHEventStarted": true,
+                  "reduceDesireAfterAutoLines": 10,
+                  "hEventName": "diana_riding_dildo",
+                  "auto_lines": [
+                    "Mmm, toda vez que eu cavalgo neste dildo, imagino que é seu pau. Melhor entrar na fila, porque esta buceta tem uma lista de espera. ♥︎ Ahh...",
+                    "Porra, estou pingando como uma torneira vazando. Tem um rodo, querido? Porque estou prestes a inundar este refúgio. Ahh, ♥︎!",
+                    "Ouviu isso? É o som da minha bunda implorando por mais. Estou tão molhada, poderia começar um tsunami. Ahh, oh sim!",
+                    "Mmm, cada estocada me deixa mais molhada. Você quase consegue ouvir minha buceta ronronar. Como um motor acelerando, e estou prestes a gozar tanto, que vou parar de funcionar. Ahh, ♥︎!",
+                    "Oh deus, vou gozar tanto, que vai parecer que um terremoto atingiu este refúgio. Segure-se em algo, querido, porque a porra vai ficar séria! ♥︎ Ahh!",
+                    "Vê isso? Meu dildo está todo encharcado, e nem estou perto de terminar. Esta buceta é como um escorregador aquático—aposto que você quer mergulhar, hein? Mmm, ♥︎",
+                    "Mmm, oh... você gosta de assistir a isso, não é? Me vendo gozar em todo este dildo como uma vadiazinha suja ♥.",
+                    "Mmm, isso mesmo, mantenha seus olhos nisso. Estou ficando tão molhada, que poderia afogar um ghoul na minha buceta. Ahh, oh sim!",
+                    "Porra, porra, porra, estou tão perto. Espero que esteja com sede, porque vai ter suco suficiente para todo mundo. ♥︎",
+                    "Oh, porra, sim, você gosta do que vê? Esta buceta está mais molhada que um colapso nuclear. Me veja fazer chover, baby. ♥︎",
+                    "Ahhh... Você deveria ter me dado isso antes... Agora eu tenho algo que realmente sabe como fazer o trabalho... ♥",
+                    "Awww, olhe para você... todo quente e incomodado enquanto eu me fodo com seu presente... Ohhh, tão atencioso da sua parte... Mmmm ♥",
+                    "Mmm, apenas pense nisso. Minha buceta molhada no seu rosto, pingando como uma torneira, e você lambendo tudo como um cachorro com sede. Oh sim, ahh!",
+                    "Quero que você me veja gozar tanto, que vai precisar de uma capa de chuva. Esta buceta é um hidrante, e você está bem na frente dela. Mmm, ♥︎!",
+                    "Mmm, porra, isso é muito melhor do que com a mão... ohhh, continue assistindo, pervertido... ♥",
+                    "Oh, você gosta quando eu brinco com meu brinquedo? Bom, porque minha buceta vai ficar tão vermelha, que vai parecer uma luz de emergência. Ahh, ♥︎",
+                    "Mmm, porra, sim. Vou esguichar tanto. Prepare-se para se abaixar e se proteger, docinho. Ahh, ♥︎!",
+                    "Ohhh, porra, sim... oh,... eu poderia me acostumar com isso... Quem precisa de um homem quando tenho este dildo me arrebentando ♥?",
+                    "Toda vez que eu o deslizo para dentro, é como mergulhar em uma piscina de mel. Pegajoso, doce, e implorando para ser lambido até ficar limpo. Mmm, oh, sim ♥︎!",
+                    "Oh deus, consigo sentir minha buceta se contraindo. É como um torno. Esta buceta tem vida própria, e está com fome. ♥︎ Ahh!",
+                    "Finalmente, algo neste refúgio que sabe tratar meu cu do jeito certo ♥.",
+                    "Ahh, porra, minha buceta está pulsando. É como um batimento cardíaco entre minhas pernas, bombeando, pulsando, implorando por porra ♥︎",
+                    "Mmm, estou pingando pelas coxas agora. Esta buceta está mais molhada que um chuveiro, e você está prestes a se molhar. Ahh, ♥︎",
+                    "Porra, estou tão perto. Minha buceta é como um vulcão prestes a explodir, e quando isso acontecer, você vai desejar ter trazido um guarda-chuva. Ahh, oh sim, ♥︎!",
+                    "Mmm, eu amo provocar esta buceta. É como brincar com dinamite—um movimento errado, e eu vou explodir sua mente. Ahh, ♥︎",
+                    "Oh porra, vou gozar tanto, que o refúgio inteiro vai me ouvir. Espero que goste de garotas barulhentas. Ahh, ♥︎ sim!",
+                    "Se alguém me ouvisse agora, eu teria um cassetete no cu pela manhã. Mas por isso, vale a pena ♥︎",
+                    "Sim, sim, ohh ♥... finalmente algo que me cala e fala com minha buceta ♥.",
+                    "Ohhhh, estou tão perto... Mmm,... este dildo vai me fazer gozar tanto... ♥",
+                    "Mmm, porra, estou gozando... ohhh... ahhhh, porra..."
+                  ]
+                }
+              ]
             },
             {
-                "optionText": "That cat looks like he swallowed another cat.",
-                "closeEyes": true,
-                "responseText": "Mmm, yeah, Sir Whiskers isn’t fat—he’s just... maximizing his surface area for maximum laziness."
-            },
-            {
-                "optionText": "I think he’s judging me.",
-                "closeEyes": true,
-                "responseText": "Of course he is. He judges everyone. Sir Whiskers doesn’t tolerate peasants touching him unless you’ve offered him a sacrifice first."
+              "optionText": "Seu dildo é legal, mas aposto que eu faria melhor. Quer uma performance ao vivo?",
+              "relationshipRequired": 60,
+              "desireRequired": 60,
+              "responseText": "Certo, Sr. Falastrão, vamos ver o que você tem. Mas aviso justo, tenho um tempo de atenção muito curto para decepções. É melhor você durar mais que uma pilha AA, porque se não, volto para a caixa de brinquedos. Agora, tire a roupa e me impressione!",
+              "followUpOptions": [
+                {
+                  "optionText": "[Foder ela]",
+                  "changeSprite": "Characters/Diana/new NSFW/resized/anal sex",
+                  "interactable": "Characters/Diana/Interactables/sex",
+                  "newSpriteXPos": 0.6,
+                  "newSpriteYPos": -0.16,
+                  "specialEffects": ["Blackout"],
+                  "endingEffects": ["Flashes"],
+                  "interactableBGcolor": "#747474",
+                  "icon": "GUI/animated icon",
+                  "spriteAtTheEndOfHscene": "Characters/Diana/in cum/sitting on the table in cum",
+                  "spriteAtTheEndOfHscenePosition": [0.43, -0.4],
+                  "swapAnotherCharacterDialogue": [
+                    "Diana",
+                    "Characters/Diana/Dialogues/after_sex"
+                  ],
+                  "lineAfterHevent": "Ahh... foi incrível... ♥︎",
+                  "closeDialogueOptions": true,
+                  "isHEventStarted": true,
+                  "reduceDesireAfterAutoLines": 18,
+                  "addPerk": "got_diana_pregnant",
+                  "progressionEventPlayed": "diana_sex_lewd_request_diana_room",
+                  "hEventName": "PlayerSex_dRoom",
+                  "auto_lines": [
+                    "Oh, você acha que é uma montaria melhor que este garotão? Vamos ver se você consegue fazer minha buceta ronronar mais alto que o Sr. Buzz na velocidade máxima.",
+                    "Mmm, ♥︎, tire a roupa e me mostre se você tem mais caldo que essas baterias. Minha buceta está mais molhada que um Deathclaw no cio, e você está prestes a ser arranhado.",
+                    "Porra, já estou encharcada. Venha aqui e entre, ou está com medo que seu joystick não se compare aos meus brinquedos?",
+                    "Ahh, ♥︎, sim! Me faça gozar tanto que o refúgio vai precisar de um rodo, e vou garantir que você nunca mais precise descascar batatas.",
+                    "Ajoelhe-se e adore esta buceta como se fosse a última gota de Nuka-Cola na wasteland, ou volte a se masturbar na Câmara da Vergonha.",
+                    "Ahh, ♥︎ mais forte! Se você não me fizer esguichar, vou contar para todo mundo no refúgio que você é mais seco que o Deserto de Mojave. Acha que aguenta, garanhão?",
+                    "Mmm, porra, é melhor você vir aqui e começar a trabalhar neste clitóris antes que o Sr. Buzz te vença. O primeiro a me fazer gozar ganha o direito de se gabar e talvez um boquete depois.",
+                    "Oh, porra, sim, ♥︎! Me bata como a porta do refúgio durante uma tempestade de radiação! Me faça gritar como se eu estivesse no Botão de Liberação de Emergência!",
+                    "Ahh, ♥︎, é isso! Minha buceta está mais molhada que a bunda de um Mirelurk. Se você não me fizer gozar, vou te jogar para a Polícia da Pureza só de algemas.",
+                    "Caramba, ♥︎, meu dildo pode ser bom, mas quero que seu pau atinja lugares que me façam ver estrelas. Faça minha buceta parecer o 4 de Julho, baby!",
+                    "Ahh, porra, sim! Me mostre que você não é só mais um garoto do refúgio com papo furado. Me faça gozar tanto que esqueço meu próprio nome!",
+                    "Sim, isso mesmo, ♥︎, continue. Me deixe mais molhada que a boca de um Ghoul. Se você conseguir me fazer gozar, vou gritar tão alto que o Supervisor vai pensar que há uma rebelião.",
+                    "Mmm, ♥︎, você está me deixando perto! Se conseguir me fazer gozar mais rápido que o Sr. Buzz, vou deixar você provar o brilho posterior direto da fonte.",
+                    "Oh, porra, ♥︎, minha buceta está doendo por você! Se você não me encher agora, vou te substituir pelo maior dildo que encontrar e transmitir ao vivo.",
+                    "Ahh, porra, sim! Me foda como se o mundo estivesse acabando, e vou deixar você gozar nos meus peitos enquanto te cavalgo até a próxima semana.",
+                    "Puta merda, ♥︎, não pare! Minha buceta está tão molhada. Se você me fizer esguichar, vou usar sua porra como se fosse a última moda do refúgio.",
+                    "Mmm, ♥︎, estou pingando. É melhor você me foder mais forte que uma barata radioativa chapada, ou vou gozar na sua cara.",
+                    "Porra, ♥︎, sim! Me faça gozar tanto, que eles nos ouvirão na Wasteland. Quero que cada morador do refúgio saiba quem está me fazendo gritar esta noite.",
+                    "Mmm, ♥︎, continue assim, e te darei uma recompensa que fará seu macacão do refúgio ficar de pé. Acha que aguenta um segundo round?",
+                    "Porra, ♥︎, quero que você me encha como se eu fosse uma garrafa de Nuka-Cola, e você a última gota de porra na wasteland. Não derrame uma única gota!",
+                    "Oh, você acha que pode foder melhor que meu dildo? Por favor. Esta buceta está mais molhada que a Wasteland na estação das monções, e você está prestes a se afogar, querido.",
+                    "Certo, bonitão, tire para fora e vamos ver se você consegue gozar antes que eu termine o segundo round com o Sr. Buzz. Spoiler: você vai precisar de uma toalha quando perder.",
+                    "Mmm, esta buceta tem estado mais apertada que uma porta de Refúgio, mas para você? Vou deixar inundar. Só se certifique de saber nadar.",
+                    "Você tem uma chance de me foder mais forte que este brinquedo, ou vou te mandar para a Câmara da Vergonha com saco azul e uma história triste.",
+                    "Ah, é? Você acha que pode me fazer gozar mais forte que isso? Querido, meu vibrador tem uma configuração que fará seu pau chorar pela mamãe.",
+                    "Mmm, me deixe mais molhada que uma Rainha Mirelurk no cio, e talvez eu deixe você provar o verdadeiro sabor da vitória.",
+                    "Ahh, porra, é isso. Me mostre o que esse pau pode fazer, ou é voltar a ser o segundo violinista do meu amigo vibrador.",
+                    "Você me faz gozar tanto que o Supervisor vai pensar que há um terremoto, e talvez eu deixe você ser meu brinquedo em tempo integral.",
+                    "♥︎ É isso, me faça gritar mais alto que um Deathclaw na época de acasalamento. Me mostre que você é mais do que apenas um zé ninguém do refúgio com uma ereção.",
+                    "Tenho mais truques nesta buceta do que um Yao Guai em um circo, e estou prestes a te fazer gozar tanto que você esquecerá seu próprio nome.",
+                    "Porra, sim, me deixe mais molhada que o cu de um rato de pântano. Se você fizer um bom trabalho, vou garantir que você ande engraçado por uma semana.",
+                    "Mmm, ♥︎ você acha que tem o que é preciso para superar este vibrador? Boa sorte, docinho, porque eu quebro homens como você desde antes das bombas caírem.",
+                    "Ahh, mais forte, mais rápido! Me foda como se a Wasteland estivesse acabando de novo, e talvez eu deixe você sobreviver às consequências do meu orgasmo.",
+                    "Faça esta buceta gozar como se fosse o último dia na Terra, e te recompensarei com uma cavalgada que fará seu Pip-Boy pifar.",
+                    "♥︎ Não pare agora, baby. Quero que este refúgio ecoe com o som da sua derrota enquanto eu gozo em cima do seu pequeno ego triste.",
+                    "Ahh, sim, me foda como se fosse para valer! Se você me fizer gozar mais forte que meu dildo, vou deixar você se chamar de novo ‘Supersexy-sor’ do Refúgio 6969.",
+                    "Mmm, ♥︎ já sinto você tremendo. Não aguenta a pressão? Melhor se esforçar ou calar a boca, porque esta buceta não se contenta com o segundo lugar.",
+                    "Ahh, Deus, você é bom. Mas consegue continuar, ou vai gozar antes mesmo de eu suar?",
+                    "Mmm, ♥︎ sim, mais forte! Você está me deixando mais molhada que uma Nuka-Cola em um dia quente. Continue assim, e vou garantir que você seja o homem mais invejado do refúgio.",
+                    "Ahh, porra, é isso! Me faça gozar tanto que minha buceta esguiche como um cano de água quebrado. Vamos ver se você consegue lidar com a inundação, garotão."
+                  ]
+                }
+              ]
             }
-        ]
-    }, 
-    {
-        "optionText": "I want to ask you something... [<color=purple>Lewd Options</color>]", 
-        "closeEyes": true,
-        "icon": "GUI/heart4",
-        "responseTexts": ["Oh, if this is a marriage proposal, make sure to get down on both knees. One just isn’t enough for me.", "Let me guess, you want to ask me if I’m a mind reader? Because the answer is no, and also yes.", "If this is another ‘How do you stay so hot?’ question, I swear, I’m charging admission next time.","Let me guess, you want to know how I keep dodging the Purity Police? Two words: Secret. Tunnels."],
-        "followUpOptions": [
-            {
-                "optionText": "So, uh, what are you wearing under that suit?",
-                "relationshipRequired": 20,
-                "desireRequired": 30,
-                "emotion": "none",
-                "changeSprite": "Characters/Diana/new NSFW/resized/sitting naked",
-                "newSpriteXPos": 0.59,
-                "newSpriteYPos": -0.57, 
-                "failedCheckResponse": "Wouldn’t you like to know, Mr. FBI. Here’s a hint: it's definitely something you’ll never get to see in real life. How about you try focusing on your potato duty instead of what’s under my clothes, hmm?",
-                "responseText": "You really wanna know? Okay, but only because you asked so nicely. Surprise! It's nothing you’ve ever seen in this sad little vault. Touching is gonna cost you, though. Got anything to offer besides those puppy-dog eyes?",
-                "followUpOptions": [
-                    {
-                        "optionText": "Can I smell those panties? I bet they smell like... freedom.",
-                        "relationshipRequired": 30,
-                        "desireRequired": 35,
-                        "changeSprite": "Characters/Diana/new NSFW/sitting no panties",
-                        "newSpriteXPos": 0.59,
-                        "progressionEventPlayed": "diana_panties_received",
-                        "newSpriteYPos": -0.57,  
-                        "giveItem": "Diana's Panties",
-                        "dontDisplayIfObjectiveComplete": "Get Diana's Panties for Jass",
-                        "failedCheckResponse": "Wow, bold move there. Maybe start with, like, a Vault-Tec manual on 'Basic Human Interaction' before you go straight for the weird stuff. Nice try, though. Points for... enthusiasm?",
-                        "auto_lines": ["Freedom, huh? More like disappointment and regret. But sure, if that’s your kink. Go ahead, take a whiff. Just try not to pass out from the sheer awesomeness. Or, you know, the smell of despair that lingers in this vault."]
-                    }
-                ]
-            },
-            {
-                "optionText": "I heard there's an Emergency Release Button somewhere. Wanna go look for it together?",
-                "relationshipRequired": 35,
-                "desireRequired": 45,
-                "emotion": "none",
-                "icon": "GUI/heart4",
-                "targetCharacterShouldHaveItems": "Vibrator",
-                "failedCheckResponse": "Oh, you mean the mythical button that’s supposed to turn this vault into an orgy palace? Yeah, I’m sure it’s right next to the ‘Instant IQ Boost’ button you should’ve hit on the way in. Besides, if I wanted a release, I’d just let my cat shred my furniture again. Much more satisfying.",
-                "responseText": "Why search for some button when the real emergency release is right here? <i>*She suddenly reaches into a drawer and pulls out a vibrator.*</i> Who needs old, crusty magazines when you’ve got battery power and imagination? Stick around and watch the show",
-                "followUpOptions": [
-                    {
-                        "optionText": "[Watch]",
-                        "changeSprite": "Characters/Diana/new NSFW/resized/vibrator",
-                        "newSpriteXPos": 0.55,
-                        "newSpriteYPos": -0.72,
-                        "icon": "GUI/heart4",
-                        "closeDialogueOptions": true,
-                        "isHEventStarted": true,
-                        "specialEffects": ["Blackout"],
-                        "endingEffects": ["Flashes"],
-                        "progressionEventPlayed": "diana_vibrator_lewd_request_diana_room",
-                        "spriteAtTheEndOfHscene": "Characters/Diana/new NSFW/sitting no panties",
-                        "emotionsDuringHevent": [ "Characters/Diana/Emotions/vibrator lewd req/v1", "Characters/Diana/Emotions/vibrator lewd req/v2", "Characters/Diana/Emotions/vibrator lewd req/v3", "Characters/Diana/Emotions/vibrator lewd req/v4"],
-                        "spriteAtTheEndOfHscenePosition": [ 0.59, -0.59 ],
-                        "lineAfterHevent": "Ahh... it was amazing... ♥︎",
-                        "swapAnotherCharacterDialogue": [ "Diana", "Characters/Diana/Dialogues/after_vibrator_lewd_req" ],
-                        "reduceDesireAfterAutoLines": 10,
-                        "hEventName": "diana_vibrator",
-                        "auto_lines": ["Ooh, it's like... ahhh... it was made just for my pussy... mmmmm ♥.",
-                            "Mmm, mmmm... it’s like my pussy’s been waiting for this forever ♥.",
-"Fuck, I’m so wet I could water the vault’s garden with this pussy. Hope you brought a life jacket, because it’s about to flood. Ahh... ♥",
-"Oh, you like this? Watching me play with my pussy like it’s a damn video game? Bet you’d suck at this level, sweetie. ♥︎",
-"I swear, if I had this thing years ago, I'd have ruled this vault by now... ohhh ♥.",
-"I swear, every time you blink, my pussy gets wetter. Keep staring, maybe you’ll make me drown in my own cum. Ahh... yes! ♥",
-"You ever see a pussy this perfect? No? That's because this is the kind of premium content you can’t find anywhere else ♥︎",
-"Mmm, you’re so close you can probably smell how wet I am. Let’s be real, this is the best scent this vault’s ever had. ♥︎ Ahh!",
-"I’m about to cum so hard they’re gonna hear me all the way in the Overseer’s office. Who knows, maybe he’ll send a thank-you note. Ahh...! ♥︎",
-"Every time you stare, I get hotter. Keep it up, and this pussy’s gonna need its own fire extinguisher. ♥︎ Fuck, yes!",
-"Bet you’ve never seen a girl make herself cum without even needing a sad little vault dweller to help. Guess you’re learning something today, huh? Ahh!",
-"Think of my pussy like a riddle. The answer’s always ‘Yes, please,’ but good luck ever getting the chance to solve it. ♥︎",
-"Ohhh, it’s like it’s got a map to my pussy... mmm fuck, how’s it doing that?",
-"Ohhh, fuck, right there... yes, my pussy needed this so bad ♥︎",
-"God, I’m so fucking wet, I could drown a Deathclaw in this pussy juice. Ahh...!",
-"Mmmm, it’s like... fuck, it’s made for me... ahh perfect ♥.",   
-"See this? This is what a real woman looks like when she’s wet. Not those sad little fantasies you jack off to in the showers. ♥︎",
-"Whoever made this should’ve been Vault-Tec’s head scientist... they knew exactly what we needed. ♥︎",
-"Fuck, my pussy’s wetter than a Nuka-Cola on a hot day. If I keep going, we’re gonna need a lifeguard in here. Ahh...! ♥︎",
-"Ohhh, fuck, it’s so deep… oh god, I’m dripping all over… mmm, ohhhh ♥",
-"Go ahead, stroke your dick while you watch. Just try not to ruin the floor with your cum, okay? ♥︎ Ahh!",
-"Mmm, fuck, this vibrator’s the best thing to happen to me since… well, ever… ahhh, yeahhh. ♥︎",
-"Oh, yes! I’m so close, I’m gonna cum so hard the vault’s lights are gonna flicker. Power outage courtesy of my pussy. Ahh...! ♥︎",
-"Mmm, ohhh god, I’m gonna cum… ahhh... yesss, fuck it feels so good… ♥",
-"Mmm, bet you’re wishing you could slide that cock in right now, aren’t you? Too bad my pussy’s got a VIP list ♥︎",
-"Ahhh, I’m gonna cum. Hope you’re ready for a splash zone, because this pussy’s about to make a mess. Ahh, ♥︎ yes, yes!"]
-                    }
-                ]
-            },
-            {
-                "optionText": "Ever get lonely? You know, need some... company?",
-                "relationshipRequired": 45,
-                "desireRequired": 40,
-                "emotion": "none",
-                "icon": "GUI/animated icon",
-                "targetCharacterShouldHaveItems": "Monster Dildo",
-                "failedCheckResponse": "Lonely? Oh, I never get lonely. Between my cat's death stares and the constant sound of the Purity Police having a mental breakdown, I’m too busy being entertained. But thanks for the offer, Casanova. If I ever need someone to hold my bags, I’ll let you know.",
-                "responseText": "Lonely? Oh, honey, I’ve got plenty of company right here. <i>*She pulls out a small, pink dildo from under her pillow and waves it in your direction.*</i> But if you're offering a live demonstration, I'm all ears... and other parts.",
-                "followUpOptions": [ 
-                    {
-                        "optionText": "Mind if I just watch? I’ll keep my hands to myself, promise.",
-                        "icon": "GUI/animated icon",
-                        "responseText": "Oh, so you’re the 'sit in the corner and take notes' type? I can work with that. <i>*She grabs her dildo, holding it up like a trophy.*</i> Alright, voyeur boy, you want a front-row seat to the main event? You better be taking mental pictures, because this show doesn’t come with replays.",
-                        "followUpOptions": [
-                            {
-                                "optionText": "[Watch]",
-                                "icon": "GUI/animated icon",
-                                "changeSprite": "Characters/Diana/Resized/dildo",
-                                "interactable": "Characters/Diana/Interactables/dildo",
-                                "newSpriteXPos": 0.25,
-                                "newSpriteYPos": 0,
-                                "specialEffects": ["Blackout"],
-                                "endingEffects": ["Flashes"],
-                                "interactableBGcolor": "#747474",
-                                "spriteAtTheEndOfHscene": "Characters/Diana/new NSFW/sitting no panties",
-                                "emotionsDuringHevent": [ "Characters/Diana/Emotions/riding dildo/1", "Characters/Diana/Emotions/riding dildo/2", "Characters/Diana/Emotions/riding dildo/3", "Characters/Diana/Emotions/riding dildo/4" ],
-                                "swapAnotherCharacterDialogue": [ "Diana", "Characters/Diana/Dialogues/after_dildo_lewd_req" ],
-                                "spriteAtTheEndOfHscenePosition": [ 0.59, -0.59 ],
-                                "lineAfterHevent": "Ahh... it was amazing... ♥︎",
-                                "closeDialogueOptions": true,
-                                "isHEventStarted": true,
-                                "reduceDesireAfterAutoLines": 10,
-                                "hEventName": "diana_riding_dildo",
-                                "auto_lines": [
-        "Mmm, every time I ride this dildo, I imagine it’s your dick. Better get in line, ‘cause this pussy’s got a waiting list. ♥︎ Ahh...",
-        "Fuck, I’m dripping like a leaky faucet. Got a mop, honey? ‘Cause I’m about to flood this vault. Ahh, ♥︎!",
-        "You hear that? That’s the sound of my ass begging for more. I’m so fucking wet, I could start a tsunami. Ahh, oh yes!",
-        "Mmm, every thrust makes me wetter. You can almost hear my pussy purr. Like a fucking engine revving up, and I’m about to cum so hard, I’ll stall out. Ahh, ♥︎!",
-        "Oh god, I’m gonna cum so hard, it’ll feel like an earthquake hit this vault. Hold onto something, darling, ‘cause shit’s about to get real wild! ♥︎ Ahh!",
-        "You see this? My dildo is all soaked, and I’m not even close to being done. This pussy’s like a slip ‘n slide—bet you wanna dive in, huh? Mmm, ♥︎",
-        "Mmm, oh... you like watching this, don’t you? Watching me cum all over this dildo like a filthy little slut ♥.",
-        "Mmm, that’s right, keep your eyes on this. I’m getting so fucking wet, I could drown a ghoul in my pussy. Ahh, oh yes!",
-        "Fuck, fuck, fuck, I’m so close. Hope you’re thirsty, ‘cause there’s gonna be enough juices to go around. ♥︎",
-        "Oh, fuck yeah, you like what you see? This pussy’s wetter than a nuclear meltdown. Watch me make it rain, baby. ♥︎",
-        "Ahhh... You should’ve gotten me this earlier... Now I’ve got something that actually knows how to get the job done... ♥",
-        "Awww, look at you... all hot and bothered while I fuck myself silly with your gift... Ohhh, so thoughtful of you... Mmmm ♥",
-        "Mmm, just think about it. My wet pussy on your face, dripping like a faucet, and you lapping it up like a thirsty dog. Oh yes, ahh!",
-        "I want you to see me cum so hard, you’ll need a fucking raincoat. This pussy’s a fire hydrant, and you’re standing right in front of it. Mmm, ♥︎!",
-        "Mmm, fuck, this is so much better than by hand... ohhh, keep watching, pervert... ♥",
-        "Oh, you like it when I play with my toy? Good, ‘cause my pussy’s gonna be so red, it’ll look like a fucking emergency light. Ahh, ♥︎",
-        "Mmm, fuck yes. I’m gonna squirt so hard. Get ready to duck and cover, sweetheart. Ahh, ♥︎!",
-        "Ohhh, fuck yes... oh,... I could get used to this... Who needs a man when I’ve got this dildo just wrecking me ♥?", 
-        "Every time I slide it in, it’s like slipping into a pool of honey. Sticky, sweet, and begging to be licked clean. Mmm, oh, yes ♥︎!",
-        "Oh god, I can feel my pussy clenching. It’s like a fucking vice grip. This pussy’s got a mind of its own, and it’s hungry. ♥︎ Ahh!",
-        "Finally, something in this vault that knows how to treat my asshole the right way ♥." ,
-        "Ahh, fuck, my pussy’s throbbing. It’s like a heartbeat between my legs, pumping, pulsing, begging for cum ♥︎",
-        "Mmm, I’m dripping down my thighs now. This pussy’s wetter than a fucking shower, and you’re about to get soaked. Ahh, ♥︎",
-        "Fuck, I’m so close. My pussy’s like a volcano about to blow, and when it does, you’ll wish you brought an umbrella. Ahh, oh yes, ♥︎!",
-        "Mmm, I love teasing this pussy. It’s like playing with dynamite—one wrong move, and I’ll blow your mind. Ahh, ♥︎",
-        "Oh fuck, I’m gonna cum so hard, the whole vault’s gonna hear me. Hope you like loud girls. Ahh, ♥︎ yes!",
-        "If anyone heard me now, I’d have a bonk baton up my ass by morning. But for this, worth it ♥︎",
-        "Yes, yes, ohh ♥... finally something that shuts me up and does the talking with my pussy ♥.",
-        "Ohhhh, I’m so fucking close... Mmm,... this dildo’s about to make me cum so hard... ♥",
-        "Mmm, fuck, I’m cumming... ohhh... ahhhh fuck..."]
-                            }
-                        ]
-                    },
-                    {
-                        "optionText": "Your dildo’s nice, but I bet I could do better. Want a live performance?",
-                        "relationshipRequired": 60,
-                        "desireRequired": 60,
-                        "responseText": "Alright, Mr. Big Talk, let’s see what you’ve got. But fair warning, I’ve got a very short attention span for disappointments. Better hope you can outlast a AA battery because if not, it's back to the toy chest for me. Now, strip, and impress me!",
-                        "followUpOptions": [
-                            {
-                                "optionText": "[Have sex]",
-                                "changeSprite": "Characters/Diana/new NSFW/resized/anal sex",
-                                "interactable": "Characters/Diana/Interactables/sex",
-                                "newSpriteXPos": 0.6,
-                                "newSpriteYPos": -0.16,
-                                "specialEffects": ["Blackout"],
-                                "endingEffects": ["Flashes"], 
-                                "interactableBGcolor": "#747474",
-                                "icon": "GUI/animated icon",
-                                "spriteAtTheEndOfHscene": "Characters/Diana/in cum/sitting on the table in cum",
-                                "spriteAtTheEndOfHscenePosition": [ 0.43, -0.4 ],
-                                "swapAnotherCharacterDialogue": [ "Diana", "Characters/Diana/Dialogues/after_sex" ],
-                                "lineAfterHevent": "Ahh... it was amazing... ♥︎",
-                                "closeDialogueOptions": true,
-                                "isHEventStarted": true,
-                                "reduceDesireAfterAutoLines": 18,
-                                "addPerk": "got_diana_pregnant",
-                                "progressionEventPlayed": "diana_sex_lewd_request_diana_room",
-                                "hEventName": "PlayerSex_dRoom",
-                                "auto_lines": [ 
-                                "Oh, you think you’re a better ride than this bad boy? Let’s see if you can make my pussy purr louder than Mr. Buzz on max speed.",
-        "Mmm, ♥︎, strip down and show me if you’ve got more juice in you than these batteries. My pussy’s wetter than a Deathclaw in heat, and you’re about to get clawed.",
-        "Fuck, I’m already soaked. Come over here and slip in, or are you scared your joystick won’t measure up to my toys?",
-        "Ahh, ♥︎, yes! Make me cum so hard the vault’s gonna need a mop, and I’ll make sure you never have to do potato duty again.",
-        "Get on your knees and worship this pussy like it’s the last drop of Nuka-Cola in the wasteland, or go back to fapping in the Shame Chamber.",
-        "Ahh, ♥︎ harder! If you don’t make me squirt, I’m telling everyone in the vault you’re as dry as the Mojave Desert. Think you can handle that, stud?",
-        "Mmm, fuck, you better get over here and start working this clit before Mr. Buzz beats you to it. First one to make me cum gets bragging rights and maybe a blowjob later.",
-        "Oh, fuck yeah, ♥︎! Pound me like the vault door during a radstorm! Make me scream like I’m on the Emergency Release Button!",
-        "Ahh, ♥︎, that’s it! My pussy’s wetter than a Mirelurk’s ass. If you don’t make me cum, I’m throwing you to the Purity Police in nothing but handcuffs.",
-        "Damn, ♥︎, my dildo might be good, but I want your dick to hit spots that make me see stars. Make my pussy feel like it’s the Fourth of July, baby!",
-        "Ahh, fuck yes! Show me you’re not just another vault boy with big talk. Make me cum so hard I forget my own name!",
-        "Yeah, that’s right, ♥︎, keep going. Make me wetter than a Ghoul’s mouth. If you can get me off, I’ll scream so loud, the Overseer will think there’s a riot.",
-        "Mmm, ♥︎, you’re getting me close! If you can make me cum faster than Mr. Buzz, I’ll let you taste the afterglow straight from the source.",
-        "Oh, fuck, ♥︎, my pussy’s aching for you! If you don’t fill me up right now, I’m gonna replace you with the biggest dildo I can find and livestream it.",
-        "Ahh, fuck, yeah! Fuck me like the world’s ending, and I’ll let you cum on my tits while I ride you into next week.",
-        "Holy shit, ♥︎, don’t stop! My pussy’s so fucking wet. If you make me squirt, I’ll wear your cum like it’s the latest vault fashion.",
-        "Mmm, ♥︎, I’m dripping. You better fuck me harder than a radroach on Jet, or I’m gonna cum all over your face instead.",
-        "Fuck, ♥︎, yes! Make me cum so hard, they’ll hear us in the Wasteland. I want every single vault dweller to know who’s making me scream tonight.",
-        "Mmm, ♥︎, keep it up, and I’ll give you a reward that’ll make your vault suit stand at attention. Think you can handle a second round?",
-        "Fuck, ♥︎, I want you to fill me up like I’m a Nuka-Cola bottle, and you’re the last drop of cum in the wasteland. Don’t spill a single drop!", 
-        "Oh, you think you can out-fuck my dildo? Please. This pussy’s wetter than the Wasteland during monsoon season, and you’re about to drown, darling.",
-        "Alright, big shot, whip it out and let’s see if you can cum before I finish round two with Mr. Buzz. Spoiler: you’re gonna need a towel when you lose.",
-        "Mmm, this pussy’s been tighter than a Vault door, but for you? I’ll let it flood. Just make sure you know how to swim.",
-        "You’ve got one chance to fuck me harder than this toy, or I’m sending you to the Shame Chamber with blue balls and a sad story.",
-        "Oh, yeah? You think you can make me cum harder than this? Honey, my vibrator’s got a setting that’ll make your dick cry for its momma.",
-        "Mmm, make me wetter than a Mirelurk Queen on heat, and maybe I’ll let you taste what victory really feels like.",
-        "Ahh, fuck, that’s it. Show me what that dick can do, or it’s back to playing second fiddle to my buzzing bestie.",
-        "You make me cum so hard the Overseer will think there’s an earthquake, and maybe I’ll let you be my full-time boy toy.",
-        "♥︎ That’s it, make me scream louder than a Deathclaw in mating season. Show me you’re more than just a vault scrub with a boner.",
-        "I’ve got more tricks in this pussy than a Yao Guai in a circus, and I’m about to make you cum so hard you forget your own name.",
-        "Fuck, yes, make me wetter than a swamp rat’s asshole. You do a good job, and I’ll make sure you walk funny for a week.",
-        "Mmm, ♥︎ you think you’ve got what it takes to outlast this vibrator? Good luck, sweetheart, ‘cause I’ve been breaking men like you since before the bombs fell.",
-        "Ahh, harder, faster! Fuck me like the Wasteland’s ending again, and maybe I’ll let you survive the fallout of my orgasm.",
-        "Make this pussy cum like it’s the last day on Earth, and I’ll reward you with a ride that’ll make your Pip-Boy malfunction.",
-        "♥︎ Don’t stop now, baby. I want this vault to echo with the sound of your defeat as I cum all over your sad little ego.",
-        "Ahh, yes, fuck me like you mean it! If you make me cum harder than my dildo, I’ll let you call yourself Vault 6969’s new ‘Oversexy-er.’",
-        "Mmm, ♥︎ I can feel you shaking already. Can’t handle the pressure? Better put up or shut up, ‘cause this pussy doesn’t settle for second best.",
-        "Ahh, God, you’re good. But can you keep it up, or are you gonna cum before I even break a sweat?",
-        "Mmm, ♥︎ yes, harder! You’re making me wetter than a Nuka-Cola on a hot day. Keep it up, and I’ll make sure you’re the most envied man in the vault.",
-        "Ahh, fuck, that’s it! Make me cum so hard my pussy squirts like a broken water pipe. Let’s see if you can handle the flood, big boy."]
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+          ]
+        }
+      ]
     },
     {
-        "optionText": "[Give a Gift]",
-        "emotion": "none",
-        "icon": "GUI/gift icon",
-        "neverGreyOut": true,
-        "isGifting": true
+      "optionText": "[Dar um Presente]",
+      "emotion": "none",
+      "icon": "GUI/gift icon",
+      "neverGreyOut": true,
+      "isGifting": true
     },
     {
-        "optionText": "Want to hang out? [End Day]",
-        "emotion": "none",
-        "isHangingOutWithDiana": true,
-        "neverGreyOut": true,
-        "relationshipPoints": 1,
-        "exitLine": true
+      "optionText": "Quer sair? [Terminar o Dia]",
+      "emotion": "none",
+      "isHangingOutWithDiana": true,
+      "neverGreyOut": true,
+      "relationshipPoints": 1,
+      "exitLine": true
     },
     {
-        "optionText": "Bye.", 
-        "responseTexts": [ "Leaving so soon? I was just starting to have fun.", "Don’t be a stranger, okay? It’s nice to have someone around who can appreciate a little chaos." ],
-        "exitLine": true
+      "optionText": "Tchau.",
+      "responseTexts": [
+        "Já vai? Eu estava começando a me divertir.",
+        "Não suma, ok? É bom ter alguém por perto que aprecie um pouco de caos."
+      ],
+      "exitLine": true
     }
-    ],
-    "random_auto_line": ["Oh, hey, look who showed up! You here for me, or did you just wanna pet my pussy? The furry one, obviously!", "What’s the matter, sweetie? Lost? Or are you here hoping to see something that’ll get you a one-way ticket to the Shame Chamber?"]
+  ],
+  "random_auto_line": [
+    "Oh, ei, olhe quem apareceu! Você veio por mim, ou só queria fazer carinho na minha gatinha? A peluda, obviamente!",
+    "Qual é o problema, docinho? Perdido? Ou você está aqui esperando ver algo que te dará uma passagem só de ida para a Câmara da Vergonha?"
+  ]
 }

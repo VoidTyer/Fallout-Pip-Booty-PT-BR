@@ -1,99 +1,98 @@
 {
-    "options": [
+  "options": [
+    {
+      "optionText": "O que você quer?",
+      "responseText": "Ah, você sabe por que estou aqui. Ouvi uns... barulhos interessantes vindo deste quarto na noite passada. Desembucha, estava lutando com o bispo careca de novo?",
+      "followUpOptions": [
         {
-            "optionText": "What do you want?",
-            "responseText": "Oh, you know why I’m here. Heard some… interesting noises coming from this room last night. Fess up, were you wrestling with the bald bishop again?",
-            "followUpOptions": [
+          "optionText": "Mano, era eu lutando com uma Radroach.",
+          "responseText": "Lutando com uma Radroach? É assim que vocês jovens chamam hoje em dia? Eu vi o jeito que você segurou aquele cano... coisa intensa, cidadão. Intensa... e suspeita.",
+          "followUpOptions": [
+            {
+              "optionText": "Cara, qual é o seu problema?",
+              "responseText": "Nenhum, ao contrário de você, seu bandido de mão imundo! Não pense que não notei que seu estoque de loção diminuiu 3%! Eu tenho gráficos!",
+              "followUpOptions": [
                 {
-                    "optionText": "Bro, that was me fighting a Radroach.",
-                    "responseText": "Fighting a Radroach? Is that what you kids are calling it these days? I saw the way you gripped that pipe… intense stuff, citizen. Intense… and suspicious.",
-                    "followUpOptions": [
+                  "optionText": "Espera, você realmente monitora o uso de loção?",
+                  "responseText": "Ah, nós monitoramos tudo, querido. Loção, lenços de papel, pausas estranhas na sua fala. Temos até seu batimento cardíaco arquivado. E agora, está um pouco rápido, não está? Tem algo a esconder?",
+                  "followUpOptions": [
+                    {
+                      "optionText": "Está rápido porque você me acordou com suas acusações malucas!",
+                      "responseText": "Sei, sei. Aposto que você estava sonhando com... coisas impuras. Vá em frente, me diga com o que estava sonhando, pecador. Era com... pés?"
+                    },
+                    {
+                      "optionText": "Você monitora meu batimento cardíaco? Isso é loucura!",
+                      "responseText": "Loucura? Nah, garoto. O que é loucura é a quantidade de pinups de garrafas de Nuka-Cola que encontrei atrás do dispensador de comida na semana passada. Sabe no que isso resulta? Tecido arruinado e uma mente fraca."
+                    },
+                    {
+                      "optionText": "Você não vai encontrar nada, cara. Sou 100% puro.",
+                      "responseText": "É mesmo? Diga isso para o botão de liberação de emergência. Aposto que você tem sonhado com ele, não é? Imaginando toda aquela sujeira pré-guerra. Deixa eu adivinhar, você tem um plano, não tem?",
+                      "followUpOptions": [
                         {
-                            "optionText": "Dude, what the hell is wrong with you?",
-                            "responseText": "Nothing, unlike you, you filthy hand-bandit! Don’t think I didn’t notice your lotion supply went down 3%! I’ve got graphs!",
-                            "followUpOptions": [
+                          "optionText": "Eu nem sei onde fica, cara! Calma!",
+                          "responseText": "Não se faça de idiota comigo. Você acha que isso é um jogo? A Liberação de Emergência é matéria de lendas e você está me dizendo que nunca sentiu a atração? A... coceira?",
+                          "followUpOptions": [
+                            {
+                              "optionText": "Que coceira? Parece que você é o obcecado por isso!",
+                              "responseText": "Obcecado?! EU?! Não projete seus desejos sujos em mim, cidadão! Tenho a força de vontade de um Deathclaw sob efeito de Nuka-roides! Mas você? Consigo ver nos seus olhos — palmas suadas, aquele tique estranho que você está fazendo. Sim, você tem a coceira... a coceira de *emergência*. E acredite em mim, quando ela começa, você estará arranhando as paredes como uma radroach.",
+                              "followUpOptions": [
                                 {
-                                    "optionText": "Wait, you actually track lotion usage?",
-                                    "responseText": "Oh, we track everything, baby. Lotion, tissues, awkward pauses in your speech. We’ve even got your heartbeat on file. And right now, it’s a little fast, isn’t it? Got something to hide?",
-                                    "followUpOptions": [
-                                        {
-                                            "optionText": "It’s fast because you woke me up with your crazy accusations!",
-                                            "responseText": "Yeah, right. I bet you were dreaming of… impure things. Go ahead, tell me what you were dreaming about, sinner. Was it… feet?"
-                                        },
-                                        {
-                                            "optionText": "You track my heartbeat? That’s insane!",
-                                            "responseText": "Insane? Nah, kid. What’s insane is the amount of Nuka-Cola bottle pinups I found behind the food dispenser last week. You know what that leads to? Ruined fabric and a weak mind."
-                                        },  
-                                        {
-                                            "optionText": "You’re not gonna find anything, man. I’m 100% pure.",
-                                            "responseText": "Yeah? Tell that to the emergency release button. Bet you’ve been dreaming about it, haven’t you? Imagining all that pre-war filth. Let me guess, you’ve got a plan, don’t you?",
-                                            "followUpOptions": [
-                                                {
-                                                    "optionText": "I don’t even know where it is, dude! Calm down!",
-                                                    "responseText": "Don’t play dumb with me. You think this is a game? The Emergency Release is the stuff of legends and you’re telling me you’ve never felt the pull? The… itch?",
-                                                    "followUpOptions": [
-                                                        {
-                                                            "optionText": "What itch? You sound like you're the one obsessed with it!",
-                                                            "responseText": "Obsessed?! ME?! Don’t project your filthy little desires on me, citizen! I’ve got the willpower of a deathclaw on Nuka-roids! But you? I can see it in your eyes—sweaty palms, that weird twitch you’re doing. Yeah, you’ve got the itch… the *emergency* itch. And trust me, once it starts, you’ll be clawing at walls like a radroach.",
-                                                            "followUpOptions": [
-                                                                {
-                                                                    "optionText": "You're delusional! It's just a button!",
-                                                                    "responseText": "JUST A BUTTON?! You sweet summer child... That button is the Holy Grail of dirty laundry, the motherload of pixelated tiddy, the final frontier of *forbidden pleasures*! One press, and you’re swimming in enough pre-war smut to crash the entire Vault’s power grid. You wouldn’t last 5 seconds, bud. Five. Fuckin'. Seconds."
-                                                                }, 
-                                                                {
-                                                                    "optionText": "This conversation is giving me an itch… and it's to leave.",
-                                                                    "exitLine": true,
-                                                                    "responseText": "Go ahead, run, coward! But you can’t outrun destiny! And when you do find that button—AND YOU WILL—you’ll remember this moment. And you’ll hear my voice in your head saying, “Told you so, you filthy casual!”"
-                                                                }
-                                                            ]
-                                                        }
-                                                        
-                                                    ]
-                                                },
-                                                {
-                                                    "optionText": "Yeah, and when I find it, I’ll make sure YOU’RE the first one to see the goods.",
-                                                    "responseText": "Oh, you want to share the wealth? I’ll make sure you get VIP seating in the Shame Chamber. Front row to 12 hours of Happy Duck Family. Enjoy."
-                                                }
-                                            ]
-                                        }
-                                    ]
+                                  "optionText": "Você está delirando! É só um botão!",
+                                  "responseText": "SÓ UM BOTÃO?! Sua doce criança de verão... Aquele botão é o Santo Graal da roupa suja, a mãe de todas as tetas pixeladas, a fronteira final dos *prazeres proibidos*! Um toque, e você está nadando em tanta pornografia pré-guerra que poderia derrubar toda a rede elétrica do Refúgio. Você não duraria 5 segundos, amigo. Cinco. Malditos. Segundos."
+                                },
+                                {
+                                  "optionText": "Essa conversa está me dando uma coceira... de ir embora.",
+                                  "exitLine": true,
+                                  "responseText": "Vá em frente, corra, covarde! Mas você não pode fugir do destino! E quando você encontrar aquele botão — E VOCÊ VAI ENCONTRAR — você se lembrará deste momento. E ouvirá minha voz na sua cabeça dizendo: “Eu te avisei, seu noob imundo!”"
                                 }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "optionText": "I was just scratching my back! Ever heard of hygiene?",
-                    "responseText": "Hygiene? That’s your excuse? That’s like saying you’re watching pre-war tapes for the plot! Now drop your pants—wait, that came out wrong…",
-                    "followUpOptions": [ 
+                              ]
+                            }
+                          ]
+                        },
                         {
-                            "optionText": "I'm not dropping anything for you!",
-                            "responseText": "That’s what they all say. Then BAM! I find a hidden stash of smut under the bed. You know what they say: where there’s a sock, there’s a load.",
-                            "followUpOptions": [ 
-                                {
-                                    "optionText": "I’m telling you, I didn’t do anything! You’re paranoid.",
-                                    "responseText": "Paranoid?! You think I wanted this job? You think I ENJOY chasing degenerate wankers all day? I used to be a gunsmith, now I’m the bonk king of limpville!",
-                                    "followUpOptions": [
-                                        {
-                                            "optionText": "Yeah, sounds like you’re having a mental breakdown.",
-                                            "responseText": "Mental breakdown? That’s just your smut-riddled brain talking. Soon you'll be seeing things, like boobs on radscorpions!"
-                                        },
-                                        {
-                                            "optionText": "Sounds like you need a ‘release,’ officer.",
-                                            "responseText": "Don’t you dare, kid. I’m what they call ‘enlightened.’ No distractions, no urges, no disgusting sock piles. Pure. As. A. God."
-                                        } 
-                                    ]
-                                }
-                            ]
+                          "optionText": "Sim, e quando eu encontrar, vou garantir que VOCÊ seja o primeiro a ver a mercadoria.",
+                          "responseText": "Ah, você quer compartilhar a riqueza? Vou garantir que você tenha um lugar VIP na Câmara da Vergonha. Primeira fila para 12 horas de Família Pato Feliz. Aproveite."
                         }
-                    ]
+                      ]
+                    }
+                  ]
                 }
-            ]
+              ]
+            }
+          ]
         },
         {
-            "optionText": "Bye",
-            "responseText": "Oh, you’re not getting off that easy. We’ll meet again, and next time… I’ll be carrying a bigger bonk stick.",
-            "exitLine": true
+          "optionText": "Eu só estava coçando as costas! Já ouviu falar de higiene?",
+          "responseText": "Higiene? Essa é sua desculpa? É como dizer que está assistindo a fitas pré-guerra pelo enredo! Agora abaixe as calças — espera, isso soou errado…",
+          "followUpOptions": [
+            {
+              "optionText": "Não vou abaixar nada para você!",
+              "responseText": "É o que todos dizem. Então, BAM! Encontro um estoque escondido de pornografia debaixo da cama. Sabe como é: onde há uma meia, há uma carga.",
+              "followUpOptions": [
+                {
+                  "optionText": "Estou te dizendo, não fiz nada! Você está paranoico.",
+                  "responseText": "Paranoico?! Você acha que eu queria este trabalho? Você acha que eu GOSTO de perseguir punheteiros degenerados o dia todo? Eu era um armeiro, agora sou o rei do 'bonk' da cidade dos moles!",
+                  "followUpOptions": [
+                    {
+                      "optionText": "É, parece que você está tendo um colapso mental.",
+                      "responseText": "Colapso mental? Isso é apenas seu cérebro encharcado de pornografia falando. Logo você estará vendo coisas, como peitos em radscorpions!"
+                    },
+                    {
+                      "optionText": "Parece que você precisa de uma 'liberação', oficial.",
+                      "responseText": "Não se atreva, garoto. Sou o que chamam de 'iluminado'. Sem distrações, sem impulsos, sem pilhas de meias nojentas. Puro. Como. Um. Deus."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
-    ]
+      ]
+    },
+    {
+      "optionText": "Tchau",
+      "responseText": "Ah, você не vai se livrar tão fácil. Nos encontraremos de novo, e da próxima vez… estarei carregando um cassetete de 'bonk' maior.",
+      "exitLine": true
+    }
+  ]
 }

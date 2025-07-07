@@ -1,46 +1,46 @@
 {
-    "options": [
+  "options": [
+    {
+      "optionText": "Por que caralhos você está nua no meio do refúgio?",
+      "responseText": "Mmm—porra! Roupas ruins, quente, não aguento... preciso de pau, por favor—rola, qualquer coisa! Quero vê-los se contorcer, babar, enlouquecer—você não sente? Estou pingando aqui!",
+      "followUpOptions": [
         {
-            "optionText": "Why the fuck are you naked in the middle of the vault?",
-            "responseText": "Mmm—fuck! Clothes bad, hot, can't... need dick, please—cock, anything! Wanna watch them squirm, drool, fucking lose it—don't you feel it? I'm dripping here!",
-            "followUpOptions": [
-                {
-                    "optionText": "Jesus, calm down. You're literally drooling.",
-                    "responseText": "Calm? CALM?! Fuck calm—need rough, deep, nasty... choking, slapping—god, just break me already! They're too scared—pussy boys, useless cocks—can't even fuck straight!",
-                    "followUpOptions": [
-                        {
-                            "optionText": "Maybe they’re afraid you’ll rip their dicks off.",
-                            "responseText": "YES! God, yes! Rip, bite, scratch, fuck me until blood—need pain, pleasure—use me, bruise me, please!"
-                        },
-                        {
-                            "optionText": "You realize the Purity Police will lock your ass up, right?",
-                            "responseText": "Fuck the police! Cuff me, bend me, chain me—use their batons, goddamn electric rods—let 'em watch, let 'em cum, wanna drown in their filthy shame!"
-                        }
-                    ]
-                },
-                {
-                    "optionText": "Fuck, Diana—you're completely losing it. How long have you been like this?",
-                    "responseText": "FOREVER—days, weeks, fucking years—can't think, just horny, starving for cock, pussy, ass—doesn't matter, anything! I'm so wet it hurts, goddamn torture!",
-                    "followUpOptions": [
-                        {
-                            "optionText": "Maybe you need medical attention or something.",
-                            "responseText": "No meds, just dick—fat, throbbing, hard—fill me until I break! Docs just stare, lick their lips—useless fucks jerking off behind closed doors!"
-                        },
-                        {
-                            "optionText": "How are you not already in jail?",
-                            "responseText": "They tried—once—but guards got horny, fucked each other instead. Watched 'em—so pathetic, hilarious—bunch of limp-dick virgins."
-                        }
-                    ]
-                },
-                {
-                    "optionText": "Is being a walking cum-disaster your new hobby?",
-                    "responseText": "Yes—god yes, perfect description! Cum-disaster, fuck-storm, slut apocalypse—sign me up, choke me out, watch me drool! I wanna be the end of their fucking sanity!"
-                },
-                {
-                    "optionText": "Fuck it. You're gonna get ME arrested just standing here.",
-                    "responseText": "Then let 'em arrest us! Cuff us, fuck us together—force them to watch as you pound me raw. You know you'd love it—dirty, filthy exhibitionist!"
-                }
-            ]
+          "optionText": "Jesus, calma. Você está literalmente babando.",
+          "responseText": "Calma? CALMA?! Foda-se a calma—preciso de algo bruto, fundo, nojento... enforcamento, tapas—Deus, só me arrebenta logo! Eles têm muito medo—uns bananas, paus inúteis—não conseguem nem foder direito!",
+          "followUpOptions": [
+            {
+              "optionText": "Talvez eles tenham medo que você arranque os paus deles.",
+              "responseText": "SIM! Deus, sim! Arrancar, morder, arranhar, me foder até sangrar—preciso de dor, prazer—me use, me machuque, por favor!"
+            },
+            {
+              "optionText": "Você percebe que a Polícia da Pureza vai te prender, né?",
+              "responseText": "Foda-se a polícia! Me algema, me dobra, me acorrenta—use os cassetetes deles, as porras das varas elétricas—deixa eles assistirem, deixa eles gozarem, quero me afogar na vergonha imunda deles!"
+            }
+          ]
+        },
+        {
+          "optionText": "Porra, Diana—você está completamente surtada. Há quanto tempo você está assim?",
+          "responseText": "PARA SEMPRE—dias, semanas, porra de anos—não consigo pensar, só com tesão, faminta por rola, xoxota, bunda—não importa, qualquer coisa! Estou tão molhada que dói, porra de tortura!",
+          "followUpOptions": [
+            {
+              "optionText": "Talvez você precise de atenção médica ou algo assim.",
+              "responseText": "Sem remédios, só pau—grosso, latejante, duro—me enche até eu quebrar! Os médicos só olham, lambem os lábios—inúteis do caralho batendo uma a portas fechadas!"
+            },
+            {
+              "optionText": "Como você não está na cadeia ainda?",
+              "responseText": "Eles tentaram—uma vez—mas os guardas ficaram com tesão, foderam um ao outro em vez disso. Assisti—tão patético, hilário—bando de virgens de pau mole."
+            }
+          ]
+        },
+        {
+          "optionText": "Ser um desastre de gozo ambulante é seu novo hobby?",
+          "responseText": "Sim—Deus, sim, descrição perfeita! Desastre de gozo, tempestade de foda, apocalipse da putaria—me contrata, me sufoca, me veja babar! Quero ser o fim da sanidade deles!"
+        },
+        {
+          "optionText": "Foda-se. VOCÊ vai fazer com que EU seja preso só de ficar aqui.",
+          "responseText": "Então deixa eles nos prenderem! Nos algemem, nos fodam juntos—force-os a assistir enquanto você me arrebenta. Você sabe que adoraria—exibicionista sujo e imundo!"
         }
-    ]
+      ]
+    }
+  ]
 }

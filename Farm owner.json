@@ -1,192 +1,194 @@
 {
-    "options": [
+  "options": [
+    {
+      "optionText": "Ainda está chateado com os ghouls?",
+      "onlyShowIfProgressionEventPlayed": "toldFarmerAboutGhoulEscape",
+      "responseText": "Você quer dizer os fugitivos? Sim, estou chateado. Um deles era meu melhor colhedor—não reclamava, nem apodrecia perto das plantações. Agora estou com falta de mão de obra e muito trabalho. Você não saberia de nada sobre isso... saberia?",
+      "followUpOptions": [
         {
-            "optionText": "You still sore about the ghouls?", 
-            "onlyShowIfProgressionEventPlayed": "toldFarmerAboutGhoulEscape",
-            "responseText": "You mean the runaways? Yeah, I’m sore. One of ‘em was my best damn harvester—didn’t bitch, didn’t rot near the crops neither. Now I’m short on hands and long on work. You wouldn’t know nothin' ‘bout that though... would ya?",
-            "followUpOptions": [
-                {
-                    "optionText": "Just figured you'd moved on.",
-                    "responseText": "Ain’t so easy. Folks don’t line up to shovel brahmin shit for scraps. I get by, but next time someone opens my barn without askin’, they ain’t walkin’ out.",
-                    "exitLine": true
-                } 
-            ]
-        },
-        {
-            "optionText": "Your ghouls seem to have broken loose.",
-            "onlyDisplayIfObjectiveComplete": "Get the Keys from Mr. Greaves",
-            "dontShowIfProgressionEventPlayed": "toldFarmerAboutGhoulEscape",
-            "progressionEventPlayed": "toldFarmerAboutGhoulEscape",
-            "dontShowThisCharacterTodayAnymore": true,
-            "responseText": "The hell?! You serious?! I *told* June to double-check their chains! Damn rotters—if they touch my livestock, I swear—",
-            "fadeOutCharacter": true,
-            "exitLine": true 
-        },
-        {
-            "optionText": "[Steal the Keys]", 
-            "onlyDisplayIfHasObjective": "Get the Keys from Mr. Greaves",
-            "dontShowIfProgressionEventPlayed": "gotTheFarmerKeys",
-            "itemRequired": "Stealth Boy",
-            "giveItem": "Keys",
-            "progressionEventPlayed": "gotTheFarmerKeys",
-            "icon": "GUI/quest mark",
-            "responseText": "The hell was that? Wind playin' tricks again... or somethin' crawlin' where it shouldn’t?",
-            "exitLine": true
-        },
-        {
-            "optionText": "Got any brahmin for sale?",
-            "onlyDisplayIfHasObjective": "Bring a Brahmin to Children of Atom",
-            "dontShowIfProgressionEventPlayed": "gotBrahmin", 
-            "icon": "GUI/quest mark",
-            "responseText": "Yeah, but ain't cheap. Thousand caps minimum—unless you wanna trade somethin' good. These beasts ain't easy to raise, and harder to let go.",
-            "followUpOptions": [
-                {
-                    "optionText": "Deal. I'll take one.",
-                    "progressionEventPlayed": "gotBrahmin",
-                    "capsRequired": 1000,
-                    "addCaps": -1000,
-                    "addFollower": "Brahmin",
-                    "responseText": "Well, I'll be damned. Didn't peg you as someone with caps. She's yours—just don’t get 'er shot up out there.",
-                    "exitLine": true
-                },
-                {
-                    "optionText": "Too steep for me.",
-                    "responseText": "Figured. Good livestock ain't charity.",
-                    "exitLine": true
-                }
-            ]
-        }, 
-        {
-            "optionText": "About your wife... she ain’t comin’ back.",
-            "onlyDisplayIfHasObjective": "Bring the Farmer's Wife back",
-            "onlyShowIfProgressionEventPlayed": "foundFarmersWife",
-            "responseText": "The hell you mean she ain’t comin’ back? Don’t you stand there lookin’ dumb—what did they do to her?",
-            "followUpOptions": [
-                {
-                    "optionText": "They broke her. Brotherhood’s got her addicted to dicks.",
-                    "responseText": "You're shittin' me... My Mira lettin' them steel bastards do her? No fuckin' way! They've gone and scrambled her brains good, ain't they? Forgot she’s got a family?! I... damn. Damn it all to hell!"
-                }, 
-                {
-                    "optionText": "<color=#ad0a08>[Give up]</color> She's too far gone. Ain't no way to save her now, sorry.", 
-                    "failQuest": "Bring the Farmer's Wife back",
-                    "progressionEventPlayed": "failedToBringTheFarmerWife",
-                    "responseText": "Goddamn Brotherhood animals... Took everythin' I had. Get the hell outta my sight. Can't stomach lookin' at anyone right now.",
-                    "exitLine": true
-                } 
-            ]
-        },
-        {
-            "optionText": "I brought your wife back... you ain’t gonna like this.",
-            "onlyDisplayIfHasObjective": "Bring the Farmer's Wife back",
-            "onlyShowIfProgressionEventPlayed": "gotFarmersWife",
-            "showChoiceStats": "wife_returned",
-            "markObjectiveComplete": "Bring the Farmer's Wife back",
-            "icon": "GUI/quest mark",
-            "removeFollower": "Mira",
-            "responseText": "That... that ain’t my Mira. She's lookin' like a goddamn stray dog. Smells like one too... Christ almighty, what did they turn her into?!",
-            "followUpOptions": [
-                {
-                    "optionText": "She’s happier where she was. Doesn’t even remember you.",
-                    "responseText": "Then she’s dead to me. Take her, leave her, hell, toss her in the river for all I care. I ain’t lookin’ at that mess again."
-                },
-                {
-                    "optionText": "She's... changed. Brotherhood messed her up real bad.",
-                    "responseText": "Changed? Changed ain’t even close. That ain't my Mira no more. Damn Brotherhood—they didn't just break her, they stole her damn soul!"
-                },
-                {
-                    "optionText": "You still paying me?",
-                    "addCaps": 200,
-                    "responseText": "Pay you? Shit, you want a bonus for deliverin’ a broken doll? Take your caps and crawl back to whatever hole you slithered out of.",
-                    "exitLine": true
-                } 
-            ]
-        },  
-        {
-            "optionText": "One of your ghouls asked me for help.",
-            "onlyShowIfProgressionEventPlayed": "ghoulAskedForHelp",
-            "addCaps": 50,
-            "progressionEventPlayed": "gotCapsForRattingOutGhoul",
-            "dontShowIfProgressionEventPlayed": "gotCapsForRattingOutGhoul",
-            "responseText": "That rottin' bastard think he walkin’ free? Ha! I’ll tighten his chains so hard his jaw’s gonna snap if he thinks about askin’ again. I'll teach that slimy sack of rads who's runnin' this farm. Here—take some caps for rattin' him out.",
-            "exitLine": true
-        },
-        {
-            "optionText": "Easy there.",
-            "responseText": "Easy my ass. Folks who talk easy usually got somethin' nasty hidin' up their sleeve. Ya one of 'em?",
-            "followUpOptions": [
-                {
-                    "optionText": "Ain’t hidin' nothing.",
-                    "responseText": "That’s what the last fella said before he tried to lift my brahmin. Hope you’re a better liar or a faster runner."
-                },
-                {
-                    "optionText": "Who's that ghoul?",
-                    "responseText": "That ol' rotten bastard? Beggar turned farmhand. Chains keep 'im friendly.",
-                    "followUpOptions": [
-                        {
-                            "optionText": "Bit harsh, ain't it?",
-                            "responseText": "Harsh is him eatin' my livestock alive. Chains beat bullets—for him, anyway."
-                        },
-                        {
-                            "optionText": "Ever afraid he'll break loose?",
-                            "responseText": "Naw. He knows breakin' loose means a bullet 'tween his eyes."
-                        }
-                    ]
-                },
-                {
-                    "optionText": "Why the rifle?",
-                    "responseText": "Keeps idiots askin' stupid questions at a distance."
-                }
-            ]
-        },
-        {
-            "optionText": "Something eating at you?",
-            "dontDisplayIfObjectiveComplete": "Bring the Farmer's Wife back",
-            "dontDisplayIfHasObjective": "Bring the Farmer's Wife back",
-            "dontShowIfProgressionEventPlayed": "failedToBringTheFarmerWife",
-            "progressionEventPlayed": "learnedAboutFarmerWifeMissing",
-            "icon": "GUI/quest mark",
-            "responseText": "Oh, just Brotherhood bastards stealin' my Mira. Said she's 'volunteer cookin',' but hell, I ain't dumb. She gone two weeks now, and them tin-plated sons of bitches don't look much fatter to me.",
-            "followUpOptions": [
-                {
-                    "optionText": "Who's Mira?",
-                    "responseText": "My wife. Tougher'n brahmin hide, but got a soft spot for family. Brotherhood came barkin' bout tribute, threatenin' to take our girl instead. Mira stepped up. Thought it'd just be cookin' grub, but now I'm guessin' different."
-                },
-                {
-                    "optionText": "Need her back?",
-                    "icon": "GUI/quest mark",
-                    "responseText": "More'n water or whiskey. You drag Mira back here, and I'll make sure yer pockets sag from here to Appalachia.",
-                    "followUpOptions": [
-                        {
-                            "optionText": "Sounds dangerous. Better pay good.",
-                            "responseText": "Dangerous is pissin' me off right now. But I'll give ya everything short of my daughter. That good enough for ya?"
-                        }, 
-                        {
-                            "optionText": "I'm in. Where is she?",
-                            "icon": "GUI/quest mark",
-                            "responseText": "Brotherhood's squattin' at that outpost west o' here. Place crawlin' with 'em. Don't get yer head blown off tryin'.",
-                            "addObjective": "Bring the Farmer's Wife back",
-                            "exitLine": true
-                        }, 
-                        {
-                            "optionText": "Sorry, can't help.",
-                            "responseText": "Yeah, figured. World full o' heroes till it's time to get their hands dirty.",
-                            "exitLine": true
-                        }
-                    ]
-                } 
-            ]
-        },
-        {
-            "optionText": "Maybe revenge is due?",
-            "onlyShowIfProgressionEventPlayed": "failedToBringTheFarmerWife",
-            "responseText": "Revenge? Ha! Them Brotherhood sons of bitches'll get what's comin'—one way or another.",
-            "exitLine": true
-        },
-        {
-            "optionText": "Good luck.",
-            "responseText": "Luck ain't worth spit. Bullets—that's luck you can count on.",
-            "exitLine": true
+          "optionText": "Só pensei que você já tinha superado.",
+          "responseText": "Não é tão fácil. As pessoas não fazem fila para cavar merda de brahmin por migalhas. Eu me viro, mas da próxima vez que alguém abrir meu celeiro sem pedir, não sairá andando.",
+          "exitLine": true
         }
-    ],
-    "auto_lines": ["You take one more step and I swear by Mira’s still-warm panties, I’ll drop your head. Now speak your damn piece."]
+      ]
+    },
+    {
+      "optionText": "Seus ghouls parecem ter se soltado.",
+      "onlyDisplayIfObjectiveComplete": "Get the Keys from Mr. Greaves",
+      "dontShowIfProgressionEventPlayed": "toldFarmerAboutGhoulEscape",
+      "progressionEventPlayed": "toldFarmerAboutGhoulEscape",
+      "dontShowThisCharacterTodayAnymore": true,
+      "responseText": "Que inferno?! Você está falando sério?! Eu *disse* para a June verificar as correntes deles duas vezes! Malditos podres—se eles tocarem no meu gado, eu juro—",
+      "fadeOutCharacter": true,
+      "exitLine": true
+    },
+    {
+      "optionText": "[Roubar as Chaves]",
+      "onlyDisplayIfHasObjective": "Get the Keys from Mr. Greaves",
+      "dontShowIfProgressionEventPlayed": "gotTheFarmerKeys",
+      "itemRequired": "Stealth Boy",
+      "giveItem": "Keys",
+      "progressionEventPlayed": "gotTheFarmerKeys",
+      "icon": "GUI/quest mark",
+      "responseText": "Que inferno foi isso? O vento pregando peças de novo... ou algo rastejando onde não deveria?",
+      "exitLine": true
+    },
+    {
+      "optionText": "Tem algum brahmin à venda?",
+      "onlyDisplayIfHasObjective": "Bring a Brahmin to Children of Atom",
+      "dontShowIfProgressionEventPlayed": "gotBrahmin",
+      "icon": "GUI/quest mark",
+      "responseText": "Sim, mas não é barato. Mil caps no mínimo—a menos que queira trocar por algo bom. Estes bichos não são fáceis de criar, e mais difíceis de deixar ir.",
+      "followUpOptions": [
+        {
+          "optionText": "Fechado. Vou levar um.",
+          "progressionEventPlayed": "gotBrahmin",
+          "capsRequired": 1000,
+          "addCaps": -1000,
+          "addFollower": "Brahmin",
+          "responseText": "Bem, que se dane. Não pensei que você fosse alguém com caps. Ela é sua—só não deixe que a matem por aí.",
+          "exitLine": true
+        },
+        {
+          "optionText": "Muito caro para mim.",
+          "responseText": "Imaginei. Gado bom não é caridade.",
+          "exitLine": true
+        }
+      ]
+    },
+    {
+      "optionText": "Sobre sua esposa... ela não vai voltar.",
+      "onlyDisplayIfHasObjective": "Bring the Farmer's Wife back",
+      "onlyShowIfProgressionEventPlayed": "foundFarmersWife",
+      "responseText": "Que inferno você quer dizer com ela não vai voltar? Não fique aí parado com cara de idiota—o que eles fizeram com ela?",
+      "followUpOptions": [
+        {
+          "optionText": "Eles a quebraram. A Irmandade a viciou em paus.",
+          "responseText": "Você está de sacanagem... Minha Mira deixando aqueles bastardos de aço fazerem isso com ela? De jeito nenhum! Eles piraram a cabeça dela, não foi? Esqueceu que tem uma família?! Eu... droga. Droga pra todo o inferno!"
+        },
+        {
+          "optionText": "<color=#ad0a08>[Desistir]</color> Ela está perdida demais. Não há como salvá-la agora, desculpe.",
+          "failQuest": "Bring the Farmer's Wife back",
+          "progressionEventPlayed": "failedToBringTheFarmerWife",
+          "responseText": "Malditos animais da Irmandade... Levaram tudo que eu tinha. Suma da minha frente. Não aguento olhar para ninguém agora.",
+          "exitLine": true
+        }
+      ]
+    },
+    {
+      "optionText": "Eu trouxe sua esposa de volta... você não vai gostar disso.",
+      "onlyDisplayIfHasObjective": "Bring the Farmer's Wife back",
+      "onlyShowIfProgressionEventPlayed": "gotFarmersWife",
+      "showChoiceStats": "wife_returned",
+      "markObjectiveComplete": "Bring the Farmer's Wife back",
+      "icon": "GUI/quest mark",
+      "removeFollower": "Mira",
+      "responseText": "Essa... essa não é minha Mira. Ela parece um maldito cão vira-lata. Cheira como um também... Cristo todo-poderoso, no que a transformaram?!",
+      "followUpOptions": [
+        {
+          "optionText": "Ela está mais feliz onde estava. Nem se lembra de você.",
+          "responseText": "Então ela está morta para mim. Leve-a, deixe-a, inferno, jogue-a no rio por mim. Não vou olhar para essa bagunça de novo."
+        },
+        {
+          "optionText": "Ela... mudou. A Irmandade a estragou muito.",
+          "responseText": "Mudou? Mudou nem chega perto. Essa não é mais minha Mira. Maldita Irmandade—eles não apenas a quebraram, eles roubaram sua maldita alma!"
+        },
+        {
+          "optionText": "Ainda vai me pagar?",
+          "addCaps": 200,
+          "responseText": "Te pagar? Merda, quer um bônus por entregar uma boneca quebrada? Pegue seus caps e rasteje de volta para qualquer buraco de onde saiu.",
+          "exitLine": true
+        }
+      ]
+    },
+    {
+      "optionText": "Um de seus ghouls me pediu ajuda.",
+      "onlyShowIfProgressionEventPlayed": "ghoulAskedForHelp",
+      "addCaps": 50,
+      "progressionEventPlayed": "gotCapsForRattingOutGhoul",
+      "dontShowIfProgressionEventPlayed": "gotCapsForRattingOutGhoul",
+      "responseText": "Aquele bastardo podre acha que vai sair livre? Ha! Vou apertar as correntes dele com tanta força que sua mandíbula vai quebrar se ele pensar em pedir de novo. Vou ensinar aquele saco de radiação nojento quem manda nesta fazenda. Aqui—pegue alguns caps por dedurá-lo.",
+      "exitLine": true
+    },
+    {
+      "optionText": "Calma aí.",
+      "responseText": "Calma o meu cu. Pessoas que falam com calma geralmente têm algo nojento escondido na manga. Você é um deles?",
+      "followUpOptions": [
+        {
+          "optionText": "Não estou escondendo nada.",
+          "responseText": "Foi o que o último cara disse antes de tentar roubar meu brahmin. Espero que você seja um mentiroso melhor ou um corredor mais rápido."
+        },
+        {
+          "optionText": "Quem é aquele ghoul?",
+          "responseText": "Aquele velho bastardo podre? Mendigo que virou ajudante de fazenda. As correntes o mantêm amigável.",
+          "followUpOptions": [
+            {
+              "optionText": "Um pouco duro, não acha?",
+              "responseText": "Duro é ele comendo meu gado vivo. Correntes são melhores que balas—para ele, pelo menos."
+            },
+            {
+              "optionText": "Nunca tem medo que ele se solte?",
+              "responseText": "Não. Ele sabe que se soltar significa uma bala entre os olhos."
+            }
+          ]
+        },
+        {
+          "optionText": "Por que o rifle?",
+          "responseText": "Mantém idiotas fazendo perguntas estúpidas à distância."
+        }
+      ]
+    },
+    {
+      "optionText": "Algo te incomodando?",
+      "dontDisplayIfObjectiveComplete": "Bring the Farmer's Wife back",
+      "dontDisplayIfHasObjective": "Bring the Farmer's Wife back",
+      "dontShowIfProgressionEventPlayed": "failedToBringTheFarmerWife",
+      "progressionEventPlayed": "learnedAboutFarmerWifeMissing",
+      "icon": "GUI/quest mark",
+      "responseText": "Ah, só os bastardos da Irmandade roubando minha Mira. Disseram que ela está 'cozinhando voluntariamente', mas, inferno, não sou burro. Ela sumiu há duas semanas, e aqueles filhos da puta de lata não parecem muito mais gordos para mim.",
+      "followUpOptions": [
+        {
+          "optionText": "Quem é Mira?",
+          "responseText": "Minha esposa. Mais resistente que couro de brahmin, mas tem um ponto fraco pela família. A Irmandade veio latindo sobre tributo, ameaçando levar nossa filha em vez disso. Mira se ofereceu. Pensei que seria apenas cozinhar, mas agora acho diferente."
+        },
+        {
+          "optionText": "Precisa dela de volta?",
+          "icon": "GUI/quest mark",
+          "responseText": "Mais do que água ou uísque. Se você arrastar a Mira de volta para cá, vou garantir que seus bolsos fiquem pesados daqui até Appalachia.",
+          "followUpOptions": [
+            {
+              "optionText": "Parece perigoso. É melhor pagar bem.",
+              "responseText": "Perigoso é me irritar agora. Mas te darei tudo, menos minha filha. Isso é bom o suficiente para você?"
+            },
+            {
+              "optionText": "Estou dentro. Onde ela está?",
+              "icon": "GUI/quest mark",
+              "responseText": "A Irmandade está naquele posto avançado a oeste daqui. O lugar está cheio deles. Não leve um tiro na cabeça tentando.",
+              "addObjective": "Bring the Farmer's Wife back",
+              "exitLine": true
+            },
+            {
+              "optionText": "Desculpe, não posso ajudar.",
+              "responseText": "Sim, imaginei. O mundo está cheio de heróis até a hora de sujar as mãos.",
+              "exitLine": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "optionText": "Talvez seja hora de vingança?",
+      "onlyShowIfProgressionEventPlayed": "failedToBringTheFarmerWife",
+      "responseText": "Vingança? Ha! Aqueles filhos da puta da Irmandade vão ter o que merecem—de um jeito ou de outro.",
+      "exitLine": true
+    },
+    {
+      "optionText": "Boa sorte.",
+      "responseText": "Sorte não vale porra nenhuma. Balas—essa é a sorte com que se pode contar.",
+      "exitLine": true
+    }
+  ],
+  "auto_lines": [
+    "Dê mais um passo e eu juro pela calcinha ainda quente da Mira, que vou arrancar sua cabeça. Agora desembuche a porra toda."
+  ]
 }

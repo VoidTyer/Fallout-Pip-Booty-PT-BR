@@ -1,40 +1,42 @@
 {
   "options": [
     {
-      "optionText": "You realize the whole vault is fucking right now, right?",
-      "responseText": "Wait, what?! You serious? The No-Fap Vault is finally the All-Fap Vault? Shit, have I jerked off so much I've hallucinated my dreams into reality?",
+      "optionText": "Você percebeu que o refúgio inteiro tá transando agora, né?",
+      "responseText": "Espera, o quê?! É sério? O Refúgio da Abstinência finalmente virou o Refúgio da Putaria? Merda, será que eu bati tanta punheta que alucinei meus sonhos pra realidade?",
       "followUpOptions": [
         {
-          "optionText": "Seriously. The Overseer’s been overthrown. It’s an orgy out there.",
-          "responseText": "Fuck, and I'm stuck in here jerking off solo like a fucking loser? Somebody get my dick out of retirement—I gotta make up for lost time!"
+          "optionText": "Sério. O Supervisor foi derrubado. É uma orgia lá fora.",
+          "responseText": "Porra, e eu tô preso aqui batendo uma sozinho que nem um fodido de um perdedor? Alguém tira meu pau da aposentadoria — tenho que recuperar o tempo perdido!"
         },
         {
-          "optionText": "Want me to let you out?",
-          "responseText": "Are you kidding? This is my Olympics—my dick’s been training for this moment its whole life! Get me outta here, and I'll cum my way through the entire vault population!"
+          "optionText": "Quer que eu te solte?",
+          "responseText": "Tá brincando? Isso são as minhas Olimpíadas — meu pau treinou pra este momento a vida inteira! Me tira daqui, e eu vou gozar em toda a população do refúgio!"
         },
         {
-          "optionText": "Honestly surprised you didn’t feel the orgy vibrations through the walls.",
-          "responseText": "Bro, my balls have been vibrating for years—I just thought it was chronic blue balls. Turns out it was the entire vault fucking without me. Damn, that's tragic."
+          "optionText": "Sinceramente, surpreso que você não sentiu as vibrações da orgia através das paredes.",
+          "responseText": "Mano, minhas bolas tão vibrando há anos — eu só achava que era saco azul crônico. Acontece que era o refúgio inteiro fodendo sem mim. Caralho, que trágico."
         },
         {
-        "optionText": "Still chasing that Emergency Release Button?",
-        "responseText": "Dude, fuck the button! If what you're saying is true, the entire vault just became the world's greatest porn mag. I'm about to dive dick-first into paradise!"
+          "optionText": "Ainda atrás daquele Botão de Liberação de Emergência?",
+          "responseText": "Cara, foda-se o botão! Se o que você tá dizendo é verdade, o refúgio inteiro acabou de virar a maior revista pornô do mundo. Tô prestes a mergulhar de pau em primeiro lugar no paraíso!"
         }
       ]
     },
     {
-      "optionText": "Why haven't you escaped yet? The door’s unlocked.",
-      "responseText": "Wait, the door was unlocked?! Fuck me sideways! I've literally been edging myself for weeks thinking I was trapped. Goddammit, my right hand’s got some serious explaining to do."
+      "optionText": "Por que você ainda não fugiu? A porta está destrancada.",
+      "responseText": "Espera, a porta estava destrancada?! Puta que pariu! Eu literalmente passei semanas me provocando achando que estava preso. Caralho, minha mão direita tem muita coisa pra explicar."
     },
     {
-      "optionText": "Thinking of turning the vault into a porn studio. Want to be our head scriptwriter?",
-      "responseText": "Scriptwriter?! Bro, I've got years' worth of plots stored in my spank bank. I've written entire cinematic universes in my head—Vault Bang: Infinity Cock, Rise of the Thighwalkers, Lord of the Rims... Sign me the fuck up!"
-    }, 
+      "optionText": "Pensando em transformar o refúgio num estúdio pornô. Quer ser nosso roteirista chefe?",
+      "responseText": "Roteirista?! Mano, eu tenho anos de enredos guardados no meu banco de esperma. Eu escrevi universos cinematográficos inteiros na minha cabeça — Bang do Refúgio: Pau Infinito, A Ascensão das Coxas-Andarilhas, O Senhor dos Anéis... pode me contratar, caralho!"
+    },
     {
-      "optionText": "Bye.",
+      "optionText": "Tchau.",
       "exitLine": true,
-      "responseText": "You kidding? The second you leave, my dick’s staging a comeback tour. Vault 6969, here comes the ‘Masturbation Maestro’!"
+      "responseText": "Tá brincando? No segundo que você sair, meu pau vai fazer uma turnê de retorno. Refúgio 6969, aí vem o 'Maestro da Masturbação'!"
     }
   ],
-  "auto_lines": ["Welcome to the chamber of shame! Population: me... and my right hand. Did you bring lube? No? Eh, rookie mistake."]
-} 
+  "auto_lines": [
+    "Bem-vindo à câmara da vergonha! População: eu... e minha mão direita. Trouxe lubrificante? Não? Eh, erro de novato."
+  ]
+}

@@ -1,104 +1,104 @@
 {
   "options": [
     {
-      "optionText": "What’s going on? You look serious.",
-      "responseText": "I’m knocked up. And it’s yours. You pumped me full so hard the vault med-bot flagged me as compromised. Your dick apparently works a little too well. You put a baby in me and... for once I don’t feel like running from it. Or from you.",
+      "optionText": "O que está acontecendo? Você parece séria.",
+      "responseText": "Estou grávida. E é seu. Você me encheu com tanta força que o med-bot do refúgio me marcou como comprometida. Seu pau aparentemente funciona um pouco bem demais. Você colocou um bebê em mim e... pela primeira vez, não sinto vontade de fugir disso. Ou de você.",
       "followUpOptions": [
         {
-          "optionText": "You sure it's mine? I'm not the only guy in this vault, you know...",
-          "responseText": "It’s yours. I haven’t exactly been passing myself around, okay? You were the only one I let wreck me raw."
+          "optionText": "Tem certeza que é meu? Não sou o único cara neste refúgio, sabe...",
+          "responseText": "É seu. Eu não andei me oferecendo por aí, ok? Você foi o único que deixei me arrebentar sem proteção."
         },
         {
-          "optionText": "I don’t believe you.",
-          "responseText": "I get it. I wouldn’t have believed me either. But it’s real. I feel it every damn second—my body’s changing, my head’s a mess... and I keep thinking about you. About us. You think I'd lie about growing a whole human in me just to screw with you? You wanna see the med-scan, or maybe just the tits that don't fit in my damn suit anymore?"
+          "optionText": "Não acredito em você.",
+          "responseText": "Eu entendo. Eu também não acreditaria em mim. Mas é real. Sinto isso a cada maldito segundo—meu corpo está mudando, minha cabeça está uma bagunça... e continuo pensando em você. Em nós. Você acha que eu mentiria sobre estar gerando um humano inteiro só para te sacanear? Quer ver o exame médico, ou talvez apenas os peitos que não cabem mais no meu maldito macacão?"
         },
         {
-          "optionText": "So what now? You move in? We raise the kid?",
+          "optionText": "E agora? Você se muda? Criamos o filho?",
           "icon": "GUI/quest mark",
           "emotion": "Characters/Diana/Emotions/standing cleavage/closed eyes",
-          "responseText": "Honestly... part of me wants that, yes. But there's a problem. The purity police know—I’ve been flagged. They’re talking about exiling me unless you convince them otherwise.",
+          "responseText": "Sinceramente... parte de mim quer isso, sim. Mas há um problema. A polícia da pureza sabe—fui marcada. Eles estão falando em me exilar, a menos que você os convença do contrário.",
           "followUpOptions": [
             {
-              "optionText": "Are you sure you want this? It could mean trouble for both of us.",
+              "optionText": "Tem certeza que quer isso? Pode significar problemas para nós dois.",
               "emotion": "none",
-              "responseText": "I didn’t plan on becoming the vault’s knocked-up scandal, and I’m scared, yeah—but I want to fight for this. For us. But only if you do too."
+              "responseText": "Eu não planejei me tornar o escândalo grávido do refúgio, e estou com medo, sim—mas quero lutar por isso. Por nós. Mas só se você também quiser."
             },
             {
-              "optionText": "Don't worry. I'll deal with them.",
+              "optionText": "Não se preocupe. Eu lido com eles.",
               "icon": "GUI/quest mark",
               "emotion": "none",
-              "responseText": "You will? God… thank you. I don't know what I'd do without you. Just… don't back down, okay? Show them we're serious. Otherwise, I'm gone, and this kid—our kid—might never know you.",
+              "responseText": "Você vai? Deus… obrigada. Não sei o que faria sem você. Só… não recue, ok? Mostre a eles que estamos falando sério. Caso contrário, eu vou embora, e este filho—nosso filho—pode nunca te conhecer.",
               "addObjective": "Help Diana Avoid Exile"
             },
             {
-              "optionText": "If this is happening... I’m with you. All the way.",
+              "optionText": "Se isso está acontecendo... estou com você. Até o fim.",
               "progressionEventPlayed": "acceptedToBeFatherForDiana",
               "icon": "GUI/heart4",
               "emotion": "none",
-              "responseText": "Really? You mean that? Shit... don’t make me cry. These hormones are already wrecking me. But yeah—I want this. With you. ♥",
+              "responseText": "Sério? Você quer dizer isso? Merda... não me faça chorar. Esses hormônios já estão me destruindo. Mas sim—eu quero isso. Com você. ♥",
               "followUpOptions": [
                 {
-                  "optionText": "We'll figure this out. Together. I promise.",
-                  "emotion": "Characters/Diana/Emotions/standing cleavage/closed eyes", 
-                  "responseText": "Yeah. Together. Damn... I never thought I’d say this, but I’m glad it was you."
-                },
-                {
-                  "optionText": "I feel the same way, Diana... I didn’t expect this either, but I want it. I want *you.*",
+                  "optionText": "Vamos resolver isso. Juntos. Eu prometo.",
                   "emotion": "Characters/Diana/Emotions/standing cleavage/closed eyes",
-                  "responseText": "...God. Say that again. I swear, I thought I’d never hear anything like that meant for me. You actually mean it?"
+                  "responseText": "Sim. Juntos. Droga... nunca pensei que diria isso, mas fico feliz que tenha sido você."
                 },
                 {
-                  "optionText": "I love you, Diana. I think I have for a while now.",
+                  "optionText": "Sinto o mesmo, Diana... também não esperava por isso, mas eu quero. Eu quero *você*.",
+                  "emotion": "Characters/Diana/Emotions/standing cleavage/closed eyes",
+                  "responseText": "...Deus. Diga isso de novo. Juro, pensei que nunca ouviria algo assim para mim. Você realmente quer dizer isso?"
+                },
+                {
+                  "optionText": "Eu te amo, Diana. Acho que já faz um tempo.",
                   "icon": "GUI/heart4",
                   "emotion": "Characters/Diana/Emotions/standing cleavage/shocked",
-                  "responseText": "Wait—what? You can't just... fuck. I... shit. I wasn't ready to hear that. My head's a mess, my heart’s racing, and I don’t even know what I’m supposed to say."
-                  ,"followUpOptions": [
+                  "responseText": "Espera—o quê? Você não pode simplesmente... porra. Eu... merda. Não estava pronta para ouvir isso. Minha cabeça está uma bagunça, meu coração está acelerado, e nem sei o que devo dizer.",
+                  "followUpOptions": [
                     {
-                      "optionText": "Do you need a minute?",
-                      "emotion": "Characters/Diana/Emotions/standing cleavage/closed eyes", 
-                      "responseText": "Yeah... maybe? Fuck. I didn't expect to feel like this. You just threw me a curveball, and now I’m drowning in feelings I didn't even know I had."
+                      "optionText": "Você precisa de um minuto?",
+                      "emotion": "Characters/Diana/Emotions/standing cleavage/closed eyes",
+                      "responseText": "Sim... talvez? Porra. Não esperava me sentir assim. Você me pegou de surpresa, e agora estou me afogando em sentimentos que nem sabia que tinha."
                     },
                     {
-                      "optionText": "Just tell me the truth—how do you really feel?",
+                      "optionText": "Apenas me diga a verdade—como você se sente de verdade?",
                       "icon": "GUI/heart4",
-                      "emotion": "Characters/Diana/Emotions/standing cleavage/happy crying", 
-                      "responseText": "The truth? It terrifies me. Because I think... no, I *know* I'm in love with you too. It feels reckless and stupid, but goddammit, I can’t stop it."
-                      ,"followUpOptions": [
+                      "emotion": "Characters/Diana/Emotions/standing cleavage/happy crying",
+                      "responseText": "A verdade? Isso me aterroriza. Porque acho... não, eu *sei* que também estou apaixonada por você. Parece imprudente e estúpido, mas caramba, não consigo evitar.",
+                      "followUpOptions": [
                         {
-                          "optionText": "Is that really you talking, or just the hormones?",
-                          "emotion": "Characters/Diana/Emotions/standing cleavage/closed eyes", 
-                          "responseText": "I wish it were that simple. These feelings were here long before you knocked me up. The hormones just made hiding them impossible."
+                          "optionText": "É realmente você falando, ou apenas os hormônios?",
+                          "emotion": "Characters/Diana/Emotions/standing cleavage/closed eyes",
+                          "responseText": "Eu gostaria que fosse tão simples. Esses sentimentos já estavam aqui muito antes de você me engravidar. Os hormônios apenas tornaram impossível escondê-los."
                         },
                         {
-                          "optionText": "Diana, we’ll make this work. I promise.",
-                          "emotion": "Characters/Diana/Emotions/standing cleavage/happy crying", 
-                          "responseText": "I believe you. And honestly, right now that scares me more than anything. But it's good. Maybe scary means it’s real."
+                          "optionText": "Diana, vamos fazer isso dar certo. Eu prometo.",
+                          "emotion": "Characters/Diana/Emotions/standing cleavage/happy crying",
+                          "responseText": "Eu acredito em você. E, sinceramente, agora isso me assusta mais do que qualquer coisa. Mas é bom. Talvez assustador signifique que é real."
                         },
                         {
-                          "optionText": "*kiss her*",
+                          "optionText": "*beijá-la*",
                           "icon": "GUI/heart4",
                           "changeSprite": "Characters/Diana/kiss",
                           "newSpriteXPos": 0.4,
                           "newSpriteYPos": 0.49,
-                          "emotion": "none", 
+                          "emotion": "none",
                           "specialEffects": ["Blackout"],
-                          "responseText": "*soft gasp* ...God, I've wanted that. For so long. *slurp*",
+                          "responseText": "*suspiro suave* ...Deus, eu queria isso. Há tanto tempo. *chupa*",
                           "followUpOptions": [
                             {
-                              "optionText": "*hold her close, say nothing*",
-                              "responseText": "*leans into you* ...You don’t have to say anything. I already know. Just don’t let go."
+                              "optionText": "*abraçá-la forte, não dizer nada*",
+                              "responseText": "*se inclina em você* ...Você não precisa dizer nada. Eu já sei. Apenas não me solte."
                             },
                             {
-                              "optionText": "*whisper* I’m not going anywhere. Ever.",
-                              "responseText": "*eyes well up* ...Then stay. Just like this. For as long as you can.",
+                              "optionText": "*sussurrar* Não vou a lugar nenhum. Nunca.",
+                              "responseText": "*olhos se enchem de lágrimas* ...Então fique. Exatamente assim. Pelo maior tempo que puder.",
                               "changeSprite": "Characters/Diana/standing cleavage 2",
-                              "emotion": "none", 
+                              "emotion": "none",
                               "newSpriteXPos": 1.4,
                               "newSpriteYPos": -0.72,
                               "followUpOptions": [
                                 {
-                                  "optionText": "We'll convince the purity police. You're staying right here.",
-                                  "responseText": "You better. Because if I lose you, I lose everything. And that's not an option.",
+                                  "optionText": "Vamos convencer a polícia da pureza. Você vai ficar bem aqui.",
+                                  "responseText": "É melhor. Porque se eu te perder, perco tudo. E isso não é uma opção.",
                                   "fadeOutCharacter": true,
                                   "addObjective": "Help Diana Avoid Exile",
                                   "dontShowThisCharacterTodayAnymore": true,
@@ -115,14 +115,14 @@
               ]
             },
             {
-              "optionText": "So... what do you want from me?",
+              "optionText": "Então... o que você quer de mim?",
               "emotion": "Characters/Diana/Emotions/standing cleavage/closed eyes",
-              "responseText": "I don’t know. Support? Presence? A sign that I’m not completely insane for thinking we could be something together? I’m not asking you to be perfect—not as a father, or anything else. Just be real with me."
+              "responseText": "Não sei. Apoio? Presença? Um sinal de que não estou completamente louca por pensar que poderíamos ser algo juntos? Não estou pedindo que você seja perfeito—nem como pai, nem como nada. Apenas seja real comigo."
             },
             {
-              "optionText": "This isn’t my problem. I never signed up for this.",
+              "optionText": "Isso não é problema meu. Nunca me inscrevi para isso.",
               "emotion": "Characters/Diana/Emotions/standing cleavage/crying",
-              "responseText": "*tears up, voice cracking* ...Right. Of course you didn’t. Stupid me, thinking you might actually give a damn. Forget I said anything. Forget *me.*",
+              "responseText": "*chora, voz embargada* ...Certo. Claro que não. Tola eu, pensando que você poderia realmente se importar. Esqueça o que eu disse. Esqueça *de mim*.",
               "fadeOutCharacter": true,
               "progressionEventPlayed": "refusedToBeFatherForDiana",
               "exitLine": true
@@ -130,12 +130,14 @@
           ]
         }
       ]
-    },   
+    },
     {
-      "optionText": "Bye", 
-      "responseText": "Go if you need to. But please... come back. This isn’t something I want to face alone. Not anymore.",
+      "optionText": "Tchau",
+      "responseText": "Vá se precisar. Mas por favor... volte. Não é algo que quero enfrentar sozinha. Não mais.",
       "exitLine": true
     }
   ],
-  "auto_lines": ["There you are. We need to talk. And before you say anything—just listen, okay?"]
-} 
+  "auto_lines": [
+    "Aí está você. Precisamos conversar. E antes que diga qualquer coisa—apenas escute, ok?"
+  ]
+}

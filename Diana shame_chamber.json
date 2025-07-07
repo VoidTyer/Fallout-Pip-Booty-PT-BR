@@ -1,14 +1,19 @@
 {
-    "options": [ 
-        {
-            "optionText": "[Gift]",
-            "icon": "GUI/gift icon",
-            "isGifting": true
-        },
-        {
-            "optionText": "Bye.",
-            "responseTexts": ["Leaving me in here alone with Hugh Jass, huh?", "Leaving me with Hugh and his thousand-yard stare? Don’t worry, I’ll keep him company. He likes... silence.", "Go on, enjoy your freedom while it lasts. If you hear a scream, don’t worry, it’s just me going insane from all this *purity.*", "Don’t be shy, darling. If my body offends you, I’m sure Hugh’s soul-crushed face will balance the mood."],
-            "exitLine": true
-        }
-    ]
+  "options": [
+    {
+      "optionText": "[Presente]",
+      "icon": "GUI/gift icon",
+      "isGifting": true
+    },
+    {
+      "optionText": "Tchau.",
+      "responseTexts": [
+        "Me deixando aqui sozinha com Hugh Jass, hein?",
+        "Me deixando com o Hugh e seu olhar de mil jardas? Não se preocupe, eu o manterei companhia. Ele gosta de... silêncio.",
+        "Vá em frente, aproveite sua liberdade enquanto dura. Se ouvir um grito, não se preocupe, sou apenas eu enlouquecendo com toda essa *pureza*.",
+        "Não seja tímido, querido. Se meu corpo te ofende, tenho certeza que o rosto esmagado de alma do Hugh equilibrará o ambiente."
+      ],
+      "exitLine": true
+    }
+  ]
 }

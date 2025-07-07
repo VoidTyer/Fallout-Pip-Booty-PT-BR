@@ -1,27 +1,27 @@
 {
-    "options": [ 
+  "options": [
+    {
+      "optionText": "Que porra é essa?",
+      "responseText": "Uh, bem, já ouviu falar de experimentação? Sabe, forçar os limites? Inovar?",
+      "specialEffects": ["removeBlur", "removeVignette"],
+      "followUpOptions": [
         {
-            "optionText": "What the fuck?",
-            "responseText": "Uh, well, ever heard of experimentation? You know, pushing boundaries? Breaking new ground?", 
-            "specialEffects": ["removeBlur", "removeVignette"],
-            "followUpOptions": [
-                {
-                    "optionText": "Pretty sure there’s no 'dog' loophole in the vault rules.",
-                    "responseText": "Oh, relax. Worst-case scenario, they slap a ‘Furry’ label on me."
-                },
-                {
-                    "optionText": "You’re sick, you know that, right?",
-                    "responseText": "Pfft, call me whatever you want. But *this*... This is just me finding creative outlets, okay?"
-                }
-            ]
+          "optionText": "Tenho certeza que não há brecha para 'cachorro' nas regras do refúgio.",
+          "responseText": "Ah, relaxa. Na pior das hipóteses, eles me rotulam de ‘Furry’."
         },
         {
-            "optionText": "[Report her to the Purity Police]",
-            "responseTexts": ["Oh, honey, go ahead! ♥"],
-            "reported": 5,
-            "fadeOutCharacter": true,
-            "exitLine": true,
-            "specialEffects": ["removeBlur", "removeVignette"]
+          "optionText": "Você é doente, sabia, né?",
+          "responseText": "Pfft, me chame do que quiser. Mas *isso*... Isso é só eu encontrando saídas criativas, ok?"
         }
-    ] 
+      ]
+    },
+    {
+      "optionText": "[Denunciá-la para a Polícia da Pureza]",
+      "responseTexts": ["Oh, querido, vá em frente! ♥"],
+      "reported": 5,
+      "fadeOutCharacter": true,
+      "exitLine": true,
+      "specialEffects": ["removeBlur", "removeVignette"]
+    }
+  ]
 }

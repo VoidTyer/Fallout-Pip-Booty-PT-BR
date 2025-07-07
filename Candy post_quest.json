@@ -1,27 +1,29 @@
 {
-    "options": [ 
+  "options": [
+    {
+      "optionText": "Então... eles se foram?",
+      "responseText": "Sim. Você transformou o refúgio de 'Central dos Eunucos' de volta para 'Central Ligeiramente Menos Fodida'. Parabéns.",
+      "followUpOptions": [
         {
-            "optionText": "So... are they gone?",
-            "responseText": "Yep. You turned the vault from 'Eunuch Central' back into 'Slightly Less Fucked Central.' Congrats.",
-            "followUpOptions": [
-                {
-                    "optionText": "I deserve a goddamn statue for this. Where’s my parade?",
-                    "responseText": "Oh sure, lemme just call up Vault-Tec and have them carve your name into the 'Nut Savior of the Year' plaque. Maybe we can use the bodies of the dead Nut Suckers to build it—real poetic."
-                },
-                {
-                    "optionText": "So... do I get a reward? A medal? Maybe a back massage?",
-                    "responseText": "Reward? Honey, your reward is waking up tomorrow with all your bits and pieces still where they belong. But if you’re really desperate for a back rub, I’m sure one of the survivors owes you big time."
-                },
-                {
-                    "optionText": "Wanna celebrate? My bed, now.",
-                    "responseText": "Nice try, Casanova. But I’m not hopping into bed with pest-control just because you finally did your job. Maybe next time save us from something that doesn’t involve insects and genitals, and I’ll consider it."
-                },
-                {
-                    "optionText": "Okay, but real talk, why the hell do these things exist? Who’s into this?!",
-                    "responseText": "Oh, you wanna know who’s into this? Probably some Vault-Tec sicko who hasn’t seen a real pussy since pre-war."
-                }
-            ]
-        } 
-    ],
-    "auto_lines": [ "Well, well, if it isn’t Vault 6969’s new ball-saving hero! Didn’t think you had it in you, but color me impressed." ]
+          "optionText": "Eu mereço uma estátua por isso. Onde está meu desfile?",
+          "responseText": "Ah, claro, deixa eu só ligar para a Vault-Tec e pedir para eles gravarem seu nome na placa de 'Salvador de Bolas do Ano'. Talvez possamos usar os corpos dos Chupa-Sacos mortos para construí-la—bem poético."
+        },
+        {
+          "optionText": "Então... eu ganho uma recompensa? Uma medalha? Talvez uma massagem nas costas?",
+          "responseText": "Recompensa? Querido, sua recompensa é acordar amanhã com todas as suas partes ainda onde pertencem. Mas se você está realmente desesperado por uma massagem nas costas, tenho certeza de que um dos sobreviventes te deve uma grande."
+        },
+        {
+          "optionText": "Quer comemorar? Minha cama, agora.",
+          "responseText": "Bela tentativa, Casanova. Mas não vou pular na cama com o controle de pragas só porque você finalmente fez seu trabalho. Talvez da próxima vez nos salve de algo que não envolva insetos e genitais, e eu considerarei."
+        },
+        {
+          "optionText": "Ok, mas falando sério, por que diabos essas coisas existem? Quem curte isso?!",
+          "responseText": "Ah, você quer saber quem curte isso? Provavelmente algum doente da Vault-Tec que não vê uma buceta de verdade desde antes da guerra."
+        }
+      ]
+    }
+  ],
+  "auto_lines": [
+    "Ora, ora, se não é o novo herói salva-bolas do Refúgio 6969! Não pensei que você fosse capaz, mas estou impressionada."
+  ]
 }

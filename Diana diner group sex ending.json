@@ -1,37 +1,37 @@
 {
-    "options": [
+  "options": [
+    {
+      "optionText": "Eu vi tudo... e quero dizer *tudo*.",
+      "responseText": "Bom para você, garoto voyeur. Anotou alguma coisa?",
+      "followUpOptions": [
         {
-            "optionText": "I saw everything... and I mean *everything*.",
-            "responseText": "Good for you, voyeur boy. Did you take notes?",
-            "followUpOptions": [ 
-                {
-                    "optionText": "You didn’t even notice me watching?",
-                    "responseText": "Oh, I noticed. But you’re not exactly a threat, are you?"
-                },
-                {
-                    "optionText": "You do realize your pants are still off, right?",
-                    "responseText": "And? What, you wanna frame this moment? Go ahead, take a picture.",
-                    "followUpOptions": [ 
-                        {
-                            "optionText": "I'm just saying... It’s pretty bold.",
-                            "responseText": "Bold is boring. I prefer 'reckless.' Keeps things interesting. Maybe you should try it sometime instead of being Vault-Tec’s little rule-following pet."
-                        } 
-                    ]
-                }, 
-                {
-                    "optionText": "Aren't you worried about leaving... evidence?",
-                    "responseText": "What? A few stains on a tablecloth? Trust me, this place has seen worse. Purity Police will just scrub it down."
-                },
-                {
-                    "optionText": "So, uh... how was it? Worth the risk?",
-                    "responseText": "What do you think, genius? Look at me. Look at them. That’s the faces of guys who just saw God. And me? I’m just getting started."
-                }
-            ]
-        }, 
+          "optionText": "Você nem me notou assistindo?",
+          "responseText": "Ah, eu notei. Mas você não é exatamente uma ameaça, é?"
+        },
         {
-            "optionText": "Bye",
-            "responseText": "Run along, hero. Don’t trip over your stiff little problem on the way out.",
-            "exitLine": true
+          "optionText": "Você percebe que ainda está sem as calças, certo?",
+          "responseText": "E? O quê, você quer enquadrar este momento? Vá em frente, tire uma foto.",
+          "followUpOptions": [
+            {
+              "optionText": "Estou só dizendo... É bem ousado.",
+              "responseText": "Ousado é chato. Eu prefiro 'imprudente'. Mantém as coisas interessantes. Talvez você devesse tentar algum dia em vez de ser o animal de estimação da Vault-Tec que segue as regras."
+            }
+          ]
+        },
+        {
+          "optionText": "Não está preocupada em deixar... evidências?",
+          "responseText": "O quê? Algumas manchas em uma toalha de mesa? Confie em mim, este lugar já viu coisa pior. A Polícia da Pureza vai simplesmente limpar."
+        },
+        {
+          "optionText": "Então, uh... como foi? Valeu o risco?",
+          "responseText": "O que você acha, gênio? Olhe para mim. Olhe para eles. Essas são as caras de caras que acabaram de ver Deus. E eu? Estou apenas começando."
         }
-    ]
+      ]
+    },
+    {
+      "optionText": "Tchau",
+      "responseText": "Vá andando, herói. Não tropece no seu pequeno problema duro no caminho.",
+      "exitLine": true
+    }
+  ]
 }

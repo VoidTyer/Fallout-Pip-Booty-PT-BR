@@ -1,14 +1,14 @@
 {
-    "options": [
+  "options": [
+    {
+      "optionText": "Seu macacão do refúgio está um pouco aberto... intencional?",
+      "responseText": "Chamei sua atenção, não foi? Bom. Considere meu presente para este refúgio—mantendo as coisas interessantes e lembrando a todos o que eles não podem ter.",
+      "followUpOptions": [
         {
-            "optionText": "Your vault suit is unzipped a little... intentional?",
-            "responseText": "Caught your attention, did it? Good. Consider it my gift to this vault—keeping things interesting and reminding everyone what they can't have.",
-            "followUpOptions": [
-                {
-                    "optionText": "Are you trying to piss off the Purity Police?",
-                    "responseText": "Oh, absolutely. Watching those wannabe enforcers lose their cool over a little skin is my favorite pastime. They get so flustered, it's like watching robots trying to learn to dance."
-                }
-            ]
+          "optionText": "Você está tentando irritar a Polícia da Pureza?",
+          "responseText": "Oh, com certeza. Ver aqueles aspirantes a guardiões perderem a calma por um pouco de pele é meu passatempo favorito. Eles ficam tão atrapalhados, é como ver robôs tentando aprender a dançar."
         }
-    ]
+      ]
+    }
+  ]
 }
