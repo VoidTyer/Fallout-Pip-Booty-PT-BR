@@ -1,35 +1,35 @@
 [
   {
     "original": "NEW GAME",
-    "translation": "NOVO JOGO"
+    "translation": "<size=30>NOVO JOGO</size>"
   },
   {
     "original": "LOAD",
-    "translation": "CARREGAR"
+    "translation": "<size=30>CARREGAR</size>"
   },
   {
     "original": "SAVE",
-    "translation": "SALVAR"
+    "translation": "<size=30>SALVAR</size>"
   },
   {
     "original": "CONTINUE",
-    "translation": "CONTINUAR"
+    "translation": "<size=30>CONTINUAR</size>"
   },
   {
     "original": "SETTINGS",
-    "translation": "CONFIGURAÇÕES"
+    "translation": "<size=30>CONFIGURAÇÕES</size>"
   },
   {
     "original": "CREDITS",
-    "translation": "CRÉDITOS"
+    "translation": "<size=30>CRÉDITOS</size>"
   },
   {
     "original": "SUPPORT",
-    "translation": "SUPORTE"
+    "translation": "<size=30>SUPORTE</size>"
   },
   {
     "original": "EXIT",
-    "translation": "SAIR"
+    "translation": "<size=30>SAIR</size>"
   },
   {
     "original": "Day {0}, {1}",
